@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+/* PageTitle
+ ================================================== */
+.l-PageTitle {
+  border: none;
+  margin-bottom: 0;
+}
+
+.l-PageTitle__titleBlock {
+}
+
+.l-PageTitle__titleBlock__imageBox {
+}
+
+.l-PageTitle__titleBlock__titleBox {
+}
+
+.l-PageTitle__titleBlock__titleBox__title {
+}
+
+.l-PageTitle__h1 {
+  @include fontSize(lv1);
+}
+
+.l-PageTitle__leadBlock {
+}
+

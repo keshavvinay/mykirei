@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+// Fonts
+@import "_fonts/_fonts.scss";
+
+//SASS VARIABLES
+@import "_scss/_variables.scss";
+
+//MIXINS
+@import "_scss/_mixins.scss";
+
+//COMMON STYLING
+@import "_scss/_common.scss";
+
+// COMPONENT STYLING
+@import "_scss/_pageTitle-item.scss";
+@import "_scss/_tile-item.scss";
+@import "_scss/_button.scss";
+@import "_scss/_imageItem.scss";
+@import "_scss/_hrStyling.scss";
+@import "_scss/_accordion.scss";
+@import "_scss/_imageTextSwiper.scss";
+@import "_scss/_textSwiper.scss";
+@import "_scss/_imageCarousel.scss";
+@import "_scss/_productSwiper.scss";
+@import "_scss/_headingTitle.scss";
+@import "_scss/_imageTextHorizontal-pack.scss";
+@import "_scss/_movieItemVertical.scss";
+@import "_scss/_movieItem.scss";
+@import "_scss/_textLinkPack.scss";
+@import "_scss/_iconList-pack.scss";
+@import "_scss/_history.scss";
+@import "_scss/_seminar.scss";
+@import "_scss/_slider.scss";
+@import "_scss/_form.scss";
+@import "_scss/_productline-colors.scss";
+@import "_scss/_modal.scss";
+@import "_scss/_product-listing.scss";
+@import "_scss/_table-component.scss";
+
+
+// HEADER FOOTER
+@import "_scss/_header.scss";
+@import "_scss/_footer.scss";
+@import "_scss/shariffShare";
+
+// Contact Us
+@import "_scss/_contact-us.scss";
+
+// Newsletter JS
+@import "_scss/newsletter";
+
+// Booking Form
+@import "_scss/booking-form";
+
+// Bread Crumbs Styling
+@import "_scss/_breadCrumbs.scss";
+
+// Privacy policy Styling
+@import "_scss/_privacyPolicy.scss";
+
+//CUREL WEBSITE STYLES
+@import "_scss/_normalize.scss";
+
+// Country Slectors
+@import "_scss/countrySelector";
+
+// Salon Finder
+@import "_scss/_salon-finder.scss";
+
+// MarsFlag Search 
+@import "_scss/_search-marsFlag.scss";
+
+//AUTHORRING MODE STYLES
+@import "_scss/_authorring.scss"; 
+
+

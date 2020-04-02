@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+
+/* NewsIndexP ================================================== */
+.l-NewsIndexP--v3 {
+}
+.l-NewsIndexP--v3__list__item {
+  border-color: $newsIndex__border;
+}
+
+/* NewsIndexUnit ================================================== */
+.l-NewsIndexUnit--v3 {
+  @include fontSize(body);
+  &.is-link {
+    @include link();
+    @include areaLink();
+  }
+}
+.l-NewsIndexUnit--v3__infoBlock__time {
+  @include fontSize(body);
+  color: $newsIndex__text;
+}
+.l-NewsIndexUnit--v3__infoBlock__categoryLabel {
+  @include fontSize(body);
+}
+.l-NewsIndexUnit--v3__infoBlock__groupLabel {
+  @include fontSize(body);
+}
+.l-NewsIndexUnit--v3__summary {
+  @include fontSize(summary);
+  color: $newsIndex__summary;
+}
+
+
+/* NewsIndexP ver.3 (Card View) ================================================== */
+.l-NewsIndexP--v3 {
+  &.is-cardview {
+    &.is-background {
+      &.is-gutter--xs {
+        @include gutterItemBgAjust('xs');
+      }
+      &.is-gutter--s {
+        @include gutterItemBgAjust('s');
+      }
+      &.is-gutter--m {
+        @include gutterItemBgAjust('m');
+      }
+      &.is-gutter--l {
+        @include gutterItemBgAjust('l');
+      }
+      &.is-gutter--xl {
+        @include gutterItemBgAjust('xl');
+      }
+    }
+  }
+  &.is-gutter--xs {
+    .l-NewsIndexP--v3__card {
+      @include gutterItemWrapper(false, 'xs');
+    }
+    .l-NewsIndexP--v3__card__item {
+      @include gutterItemInner(false, 'xs');
+    }
+  }
+  &.is-gutter--s {
+    .l-NewsIndexP--v3__card {
+      @include gutterItemWrapper(false, 's');
+    }
+    .l-NewsIndexP--v3__card__item {
+      @include gutterItemInner(false, 's');
+    }
+  }
+  &.is-gutter--m {
+    .l-NewsIndexP--v3__card {
+      @include gutterItemWrapper(false, 'm');
+    }
+    .l-NewsIndexP--v3__card__item {
+      @include gutterItemInner(false, 'm');
+    }
+  }
+  &.is-gutter--l {
+    .l-NewsIndexP--v3__card {
+      @include gutterItemWrapper(false, 'l');
+    }
+    .l-NewsIndexP--v3__card__item {
+      @include gutterItemInner(false, 'l');
+    }
+  }
+  &.is-gutter--xl {
+    .l-NewsIndexP--v3__card {
+      @include gutterItemWrapper(false, 'xl');
+    }
+    .l-NewsIndexP--v3__card__item {
+      @include gutterItemInner(false, 'xl');
+    }
+  }
+}
+
+/* NewsIndexUnit ver.3 (Card View) ================================================== */
+.l-NewsIndexUnit--v3 {
+  .is-cardview & {
+    border-color: $newsIndex__border;
+    background-color: $newsIndex__bg__cardview;
+  }
+}

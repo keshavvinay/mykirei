@@ -1,0 +1,15 @@
+/* imgItem-02 */
+.corp-imgItem-02 {
+    max-width: 1155px;
+    margin: 0 auto;
+  .l-Image__caption {
+    font-family: "FP-ヒラギノUD角ゴ StdN W3", FP-HiraginoUDSansStdN-W3, sans-serif;
+    color: $subText;
+    @include bp(md) {
+      padding: 0 45px 0 45px;
+    };
+    @include bp(sm) {
+      padding: 0 26px 0 26px;
+    };
+  }
+}

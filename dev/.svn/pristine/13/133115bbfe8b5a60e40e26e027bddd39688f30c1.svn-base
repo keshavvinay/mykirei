@@ -1,0 +1,24 @@
+{
+  "name": "kao",
+  "version": "0.0.0",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-chmod": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-este-watch": "^0.1.18",
+    "grunt-ftp-deploy": "^0.1.10",
+    "grunt-ftps-deploy": "^0.1.10",
+    "grunt-markdown": "^0.7.0",
+    "grunt-text-replace": "^0.4.0",
+    "load-grunt-tasks": "^1.0.0"
+  },
+  "description": ""
+}

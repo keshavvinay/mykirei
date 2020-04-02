@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+
+/* LocalNav ================================================== */
+//#area-LocalNavTop,#area-LocalNavBottom
+//  g-LocalNav
+//    g-LocalNav__inner
+//      g-LocalNav__categoryBlock
+//        g-LocalNavCategoryLabel
+//      g-LocalNav__listBlock
+//        g-LocalNavList
+//          g-LocalNavList__item
+
+.g-LocalNav {
+  border-top-color: $localNavigation__separateBorder--top;
+  border-bottom-color: $localNavigation__separateBorder--bottom;
+  @include bp(sm) {
+    background: $localNavigation__bg--smmd;
+  }
+  @include bp(md) {
+    background: $localNavigation__bg--smmd;
+  }
+  @include bp(lg) {
+    background: $localNavigation__bg;
+  }
+}
+.g-LocalNavCategoryLabel {
+  @include bp(sm) {
+    border-color: $localNavigation__border;
+    @include font-size-lang('fontSize_sm_localNav_categoryLabel');
+    @include line-height-lang('lineHeight_sm_localNav_categoryLabel');
+    @include letter-spacing-lang('letterSpacing_sm_localNav_categoryLabel');
+    @include font-family-lang('fontFamily_localNav_categoryLabel');
+  }
+  @include bp(md) {
+    border-color: $localNavigation__border;
+    @include font-size-lang('fontSize_md_localNav_categoryLabel');
+    @include line-height-lang('lineHeight_md_localNav_categoryLabel');
+    @include letter-spacing-lang('letterSpacing_md_localNav_categoryLabel');
+    @include font-family-lang('fontFamily_localNav_categoryLabel');
+  }
+  @include bp(lg) {
+    @include font-size-lang('fontSize_lg_localNav_categoryLabel');
+    @include line-height-lang('lineHeight_lg_localNav_categoryLabel');
+    @include letter-spacing-lang('letterSpacing_lg_localNav_categoryLabel');
+    @include font-family-lang('fontFamily_localNav_categoryLabel');
+  }
+  a {
+    color: $localNavigation__linkNormal__text;
+    background-color: $localNavigation__linkNormal__bg;
+    .cmn-icon {
+      color: $localNavigation__linkNormal__icon;
+    }
+    &:hover ,
+    &:focus {
+      color: $localNavigation__linkNormal__text--hover;
+      background-color: $localNavigation__linkNormal__bg--hover;
+      .cmn-icon {
+        color: $localNavigation__linkNormal__icon--hover;
+      }
+    }
+  }
+}
+.g-LocalNavList {
+  @include font-family-lang('fontFamily_localNav_label');
+  @include bp(sm) {
+    @include font-size-lang('fontSize_sm_localNav_label');
+    @include line-height-lang('lineHeight_sm_localNav_label');
+    @include letter-spacing-lang('letterSpacing_sm_localNav_label');
+  }
+  @include bp(md) {
+    border-color: $localNavigation__border;
+    @include font-size-lang('fontSize_md_localNav_label');
+    @include line-height-lang('lineHeight_md_localNav_label');
+    @include letter-spacing-lang('letterSpacing_md_localNav_label');
+  }
+  @include bp(lg) {
+    @include font-size-lang('fontSize_lg_localNav_label');
+    @include line-height-lang('lineHeight_lg_localNav_label');
+    @include letter-spacing-lang('letterSpacing_lg_localNav_label');
+  }
+}
+.g-LocalNavList__item {
+  border-color: $localNavigation__border;
+  .g-LocalNavListLink {
+    color: $localNavigation__linkNormal__text;
+    background-color: $localNavigation__linkNormal__bg;
+    .cmn-icon {
+      color: $localNavigation__linkNormal__icon;
+    }
+  }
+  a.g-LocalNavListLink {
+    &:hover ,
+    &:focus {
+      color: $localNavigation__linkNormal__text--hover;
+      background-color: $localNavigation__linkNormal__bg--hover;
+      .cmn-icon {
+        color: $localNavigation__linkNormal__icon--hover;
+      }
+    }
+  }
+  &.is-active a.g-LocalNavListLink {
+    color: $localNavigation__linkCurrent__text;
+    background-color: $localNavigation__linkCurrent__bg;
+    .cmn-icon {
+      color: $localNavigation__linkCurrent__icon;
+    }
+    &:hover ,
+    &:focus {
+      color: $localNavigation__linkCurrent__text--hover;
+      background-color: $localNavigation__linkCurrent__bg--hover;
+      .cmn-icon {
+        color: $localNavigation__linkCurrent__icon--hover;
+      }
+    }
+  }
+}
+
+@include bp(lg) {
+  .g-LocalNavList__item-lg-1,
+  .g-LocalNavList__item-lg-2,
+  .g-LocalNavList__item-lg-3,
+  .g-LocalNavList__item-lg-4,
+  .g-LocalNavList__item-lg-5,
+  .g-LocalNavList__item-lg-6,
+  .g-LocalNavList__item-lg-7,
+  .g-LocalNavList__item-lg-8 {
+    border-color: $localNavigation__border;
+  }
+}

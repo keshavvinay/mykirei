@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* C090 Headline */
+.c090__title {
+  .l-HeadingTitle__h2 {
+    @include kms-fontFamily(title);
+    @include kms-fontSize(headline2);
+  }
+  &:not(.is-link) {
+    .l-HeadingTitle__h2 {
+      color: #fe5000;
+    }
+  }
+}

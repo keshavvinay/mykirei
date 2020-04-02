@@ -1,0 +1,15 @@
+#base=js
+jquery.extend.min.js
+slick.min.js
+carousel.min.js
+component.min.js
+contentsgate.min.js
+youtube.min.js
+facebook.min.js
+twitter.min.js
+instagram.min.js
+brand-header-footer.min.js
+video.min.js
+scroll_anime.min.js
+image_carousel.min.js
+sticky_column.min.js

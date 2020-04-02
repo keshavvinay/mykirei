@@ -1,0 +1,5 @@
+body:not(.is-authorring) {
+    .g-ButtonUnit__link {
+        border-radius: 0;
+    }
+}

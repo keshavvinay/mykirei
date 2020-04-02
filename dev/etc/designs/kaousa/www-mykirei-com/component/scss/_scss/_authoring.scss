@@ -1,0 +1,69 @@
+body.is-authorring {
+  .mykirei-transparency-banner3-learnmoreingrediants {
+    height: auto !important;
+  }
+
+  .mykirei-transparency-banner3-a2z {
+    display: block;
+
+    ul {
+      flex-wrap: wrap;
+    }
+
+    .g-ButtonP {
+      display: block;
+      margin-bottom: 12px;
+    }
+  }
+
+  .mykirei-transparency-banner3-a2z-details .g-TileLinkVUnit__imageBlock {
+    display: none;
+  }
+
+  .mykirei-transparency-section2-columnsep-popup {
+    visibility: visible;
+    position: static;
+  }
+
+  .kirei-sustainability-section-wrapper .kirei-sustainability-banner-column .g-Column__inner .g-Column__cols:nth-child(2), .kirei-live-kirei-banner-column .g-Column__inner .g-Column__cols:nth-child(2) {
+    position: static;
+  }
+
+  .mykirei-home-section3 .g-Section__inner.l-Section__inner {
+    flex-wrap: wrap;
+
+    .common_column_separator {
+      width: 50%;
+    }
+
+    .g-Column {
+      width: 100%;
+    }
+  }
+
+  .kirei-contact-us-form-section-wrapper {
+    .mykirei_contact_us_form .form-error-msg-text {
+      display: block;
+    }
+
+    .kirei-contact-us-form-heading .kirei-contact-us-form-required {
+      float: none;
+    }
+  }
+
+  .no-results {
+    display: block !important;
+  }
+
+  .mykirei-pdp-section1 .common_column_separator {
+    width: 100%;
+  }
+
+  .pdp-sustainability-icons .parsys {
+    display: flex;
+  }
+
+  .g-Area#area-BrFooter {
+    height: auto;
+  }
+}

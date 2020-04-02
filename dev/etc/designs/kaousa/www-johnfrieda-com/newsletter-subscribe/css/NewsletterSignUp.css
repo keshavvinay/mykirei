@@ -1,0 +1,222 @@
+.jf-NewsLetter_Section_Wrapper {
+    //background-position:0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jf-NewsLetter_Column_Unit .form_field_text {
+    width: 100%;
+    font-family: inherit !important;
+    height: 45px;
+    line-height: 2.5em;
+    padding-left: .5em;
+    margin-bottom: 0;
+    border: 1px solid #818181;
+    border-radius: 0;
+    box-shadow: inset 0px 10px 0px 0px rgba(70, 70, 70, 0);
+    transition: box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+
+}
+
+.jf-NewsLetter_Column_Unit .form_rightcol_wrapper input:focus {
+    box-shadow: inset 0px 3px 0px 0px #989898;
+}
+
+.jf-NewsLetter_Column_Unit .l-PageTitle .cmn-richtext span:after {
+    content: "";
+    display: block;
+    width: 1rem;
+    height: 1px;
+    background: #000000;
+    margin: 0.5875rem auto;
+}
+
+.jf-NewsLetter_Column_Unit .form_button_submit {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    font-family: "FuturaLTW05-Bold", sans-serif !important;
+    background: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    letter-spacing: .125rem;
+    width: auto !important;
+    margin: 0 auto;
+    display: block;
+    font-family: FuturaLTW05-Bold, sans-serif;
+    text-transform: uppercase;
+    width: 7em;
+    letter-spacing: 0.125rem;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-image: initial;
+    padding: 0.5em;
+
+}
+
+input .jf-NewsLetter_Column_Unit .form_field_text {
+    font-family: "Georgia regular", sans-serif;
+}
+
+.jf-NewsLetter_Column_Unit .l-PageTitle__h1 {
+    font-family: "Bodoni 72 Book", sans-serif;
+    font-weight: 400 !important;
+    font-size: 3rem;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.newsletter_require_notification {
+    font-size: .6rem;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    margin-bottom: .5em;
+    font-family: "Georgia", serif;
+}
+
+input .newsletter_date_month {
+    flex: 2 0 0%;
+    margin-right: 1em;
+    min-height: 0;
+    min-width: 0;
+}
+
+.jf-NewsLetter_Column_Separator {
+    box-shadow: 0px 7px 15px -3px rgba(0, 0, 0, 0.65);
+    margin-top: 7.5%;
+    margin-left: 13.5%;
+    margin-bottom: 5%;
+    width: 30em !important;
+    padding-left: 27px !important;
+    padding-right: 27px !important;
+}
+
+@media only screen and (max-width: $breakpoint_sm) {
+    .jf-NewsLetter_Column_Unit .l-PageTitle__h1 {
+        font-family: "Bodoni 72 Book", sans-serif;
+        font-weight: 400 !important;
+        font-size: 2rem;
+        letter-spacing: normal;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: $breakpoint_sm) {
+    .jf-NewsLetter_Column_Separator {
+        box-shadow: 0px 7px 15px -3px rgba(0, 0, 0, 0.65);
+        margin-top: 7.5%;
+        margin-bottom: 5%;
+        width: 18em !important;
+    }
+}
+
+.newsletter_date_input {
+    display: flex
+}
+
+.newsletter_date_day {
+    width: 69% !IMPORTANT;
+    margin-left: 15%;
+}
+
+#error_firstName {
+    background-color: #ffe5e5;
+    line-height: 1.50;
+    padding: .25em;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: none;
+}
+
+#error_lastName {
+    background-color: #ffe5e5;
+    line-height: 1.50;
+    padding: .25em;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: none;
+}
+
+#error_email {
+    background-color: #ffe5e5;
+    line-height: 1.50;
+    padding: .25em;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: none;
+}
+
+#error_checkBox {
+    background-color: #ffe5e5;
+    line-height: 1.50;
+    padding: .25em;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: none;
+    position: relative;
+    bottom: 34px;
+}
+
+#error_birthdate {
+    background-color: #ffe5e5;
+    line-height: 1.50;
+    padding: .25em;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: none;
+}
+
+#error_month {
+    background-color: #ffe5e5;
+    line-height: 1.50;
+    padding: .25em;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: none;
+}
+
+#error_year,
+#error_day {
+    background-color: #ffe5e5;
+    line-height: 1.50;
+    padding: .25em;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: none;
+}
+
+.jf-NewsLetter_Column_Unit a.formLink {
+    font-style: italic;
+    color: #989898;
+}
+
+.error_msg {
+    display: none;
+}
+
+.jf-NewsLetter_Column_Unit .checkBoxText {
+    position: relative;
+    bottom: 25px;
+    left: 18px
+}
+
+.form_leftcollabel {
+    display: none;
+}
+
+.is-authorring .error_msg {
+    display: block !important;
+}
+
+.is-authorring .jf-NewsLetter_Column_Unit .checkBoxText {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}

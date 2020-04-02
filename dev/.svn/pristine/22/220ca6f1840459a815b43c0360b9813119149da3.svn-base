@@ -1,0 +1,46 @@
+//Color variables
+$primary-color:#00B48C;
+$primary-light:#33c3a3;
+$hover-green:#00B48C;
+$white: #ffffff;
+$gray: #828588;
+$hover-gray: #828588;
+
+//highlight color
+$highlight1:#DFD535;
+$highlight2:#E7354C;
+
+//text-color
+$primary-text:#555656;
+$secondary-text:#63666A;
+$white-text:$white;
+
+//FONT FAMILIY
+$primary-font: HelveticaNeueLTW1G-Roman,
+Helvetica,
+Arial,
+sans-serif;
+
+$secondary-font:HelveticaNeueLTW1G-Lt,Helvetica,Arial,sans-serif;
+
+//Font sizes
+$font-sm: 24px;
+
+$font-md: 40px;
+
+$font-lg: 50px;
+
+//font-weight
+
+$roman: normal;
+$light:200;
+
+//font size for footer
+$footer-sm:9px;
+$footer-md:14px;
+$footer-lg:16px;
+
+//Media variables
+$break-sm: 640px;
+$break-md: 1024px;
+$break-lg: 1025px;

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@import "compass";
+@import "config";
+@import "mixin";
+
+
+/* sofina global Footer ================================================== */
+.sofina-GlFooter {
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+  p, ul, ol, li, a, img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sofina-GlFooter__inner {
+    margin: 0 auto;
+    padding: 10px 32px;
+    max-width: 1366px;
+    box-sizing: border-box;
+    @include bp(sm) {
+      padding: 10px 24px;
+    }
+  }
+  .sofina-GlFooter__logo {
+    display: inline-block;
+    img {
+      width: 120px;
+      height: 23px;
+      vertical-align: bottom;
+    }
+    @include bp(sm) {
+      display: block;
+    }
+  }
+  .sofina-GlFooter__copyright {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 10px;
+    color: #333;
+    @include bp(sm) {
+      display: block;
+      margin-top: 12px;
+      margin-left: 0;
+    }
+  }
+}

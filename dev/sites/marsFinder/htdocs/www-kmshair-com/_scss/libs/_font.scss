@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3320221, 2016-12-12T20:50:04-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: MrsEavesOT-Roman by Emigre
+ * URL: http://www.myfonts.com/fonts/emigre/mrs-eaves-ot/ot-roman/
+ * Copyright: Copyright (c) Emigre Graphics, 1996. All rights reserved.
+ * Licensed pageviews: 100,000
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3320221
+ *
+ * © 2016 MyFonts Inc
+*/
+
+$kms_fontFamily: 'MrsEavesOT-Roman';
+$kms_fontFamily_title: 'SMUDGER';
+$kms_fontFamily_subTitle: 'DIN 1451 ENGSCHRIFT';
+
+$kms_fontFamily--zh: 'MSungHK Medium';
+$kms_fontFamily_title--zh: 'MHGHagoromoTHK Medium';
+$kms_fontFamily_subTitle--zh: 'MHei HK Xbold';
+
+$kms_fontFamily--zh_hk: 'Msung HK Medium';
+$kms_fontFamily_title--zh_hk: 'Mwindy HK Bold';
+$kms_fontFamily_subTitle--zh_hk: 'Mhei HK Heavy';
+
+$kms_fontFamily--zh_tw: 'Msung HK Medium';
+$kms_fontFamily_title--zh_tw: 'Mwindy HK Bold';
+$kms_fontFamily_subTitle--zh_tw: 'Mhei HK Heavy';
+
+/*
+ KMS-font-family
+ @param $fontType (title, subTitle, body)
+*/
+@mixin kms-fontFamily($fontType) {
+  $langArray: ('zh', 'zh_hk', 'zh_tw');
+  @if $fontType == title {
+    font-family: $kms_fontFamily_title;
+    @each $lang in $langArray {
+      html[lang^=#{$lang}] & {
+        font-family: interpolate-variable('kms_fontFamily_title--' + $lang);
+      }
+    }
+  }
+  @if $fontType == subTitle {
+    font-family: $kms_fontFamily_subTitle;
+    @each $lang in $langArray {
+      html[lang^=#{$lang}] & {
+        font-family: interpolate-variable('kms_fontFamily_subTitle--' + $lang);
+      }
+    }
+  }
+  @if $fontType == body {
+    font-family: $kms_fontFamily;
+    @each $lang in $langArray {
+      html[lang^=#{$lang}] & {
+        font-family: interpolate-variable('kms_fontFamily--' + $lang);
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+@mixin biore-product-detail($theme-color, $theme-color-light) {
+
+    .g-ProductTitle .g-PageTitle__h1 {
+        background-color: $theme-color;
+        text-transform: uppercase;
+    }
+
+    .g-PageTitle__titleBlock__titleBox .g-Text .spanCateloryLeft {
+        color: $theme-color;
+        font-family: $archer-bold;
+    }
+
+    .g-AccordionUnit {
+        &.is-radius--open {
+            .g-AccordionUnit__titleBlock {
+                background-color: $theme-color;
+            }
+        }
+
+        .g-AccordionUnit__contentBlock {
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: $theme-color;
+                margin: 0 0 0.625rem 0;
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    .g-AccordionUnit__titleBlock {
+        background-color: $theme-color-light;
+
+        &:hover {
+            background-color: $theme-color;
+        }
+    }
+}
+
+@mixin biore-product-detail-reverse($theme-color, $theme-color-light) {
+
+    .g-ProductTitle .g-PageTitle__h1 {
+        background-color: $theme-color;
+        text-transform: uppercase;
+    }
+
+    .g-PageTitle__titleBlock__titleBox .g-Text .spanCateloryLeft {
+        color: $theme-color;
+        font-family: $archer-bold;
+    }
+
+    .g-PageTitle__titleBlock__titleBox .g-Text .spanCategoryRight {
+        color: $theme-color;
+        font-family: $archer-bold;
+    }
+
+    .g-AccordionUnit__titleBlock {
+        background-color: $theme-color;
+
+        &:hover {
+            background-color: $theme-color-light;
+        }
+    }
+
+    .g-AccordionUnit {
+        &.is-radius--open {
+            .g-AccordionUnit__titleBlock {
+                background-color: $theme-color-light;
+            }
+        }
+
+        .g-AccordionUnit__contentBlock {
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: $theme-color;
+                margin: 0 0 0.625rem 0;
+                font-size: 1.2em;
+            }
+        }
+    }
+
+}
+
+@mixin biore-product-detail-theme-arrow($theme-image) {
+    .g-RelatedHeadingTitle--unit {
+        a {
+            background-image: url($theme-image);
+        }
+    }
+}
+
+@mixin biore-product-detail-background-image($background-image) {
+    &.g-ProductDetailWrapper {
+        background-repeat: repeat;
+        background-position: top center;
+        background-image: url($background-image);
+    }
+}
+
+@mixin products-overview($theme-color) {
+    .g-ProductListingTitle h2 {
+        background-color: $theme-color;
+    }
+
+    .g-ProductListingCategoryTitle {
+        @media(max-width: $break-sm) {
+
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p.g-HeadingTitle--p {
+                padding: 10px;
+                background-color: $theme-color !important;
+            }
+
+            .g-HeadingTitle__titleBlock__titleBox__title span {
+                color: $solid-white !important;
+            }
+        }
+    }
+
+}
+
+@mixin header-list($theme-color) {
+    ul.g-ListP__ul {
+        li {
+            a:hover {
+                color: $theme-color !important;
+            }
+        }
+    }
+}

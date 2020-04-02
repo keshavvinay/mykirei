@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@import "compass";
+@import "../../../../../../../../../etc/clientlibs/common/_scss/libs/config";
+@import "../../../../../../../../../etc/clientlibs/common/_scss/libs/mixin";
+@import "libs/icon";
+
+// Global Header
+$globalHeader__bg: #fff;
+$globalHeader__text: #333;
+$globalHeader__icon: #999;
+$globalHeader__border: #eee;
+$globalHeader__link: #333;
+$globalHeader__link--hover: #00b48c;
+$globalHeader__form__texticon: #999;
+$globalHeader__form__bg: #f5f5f5;
+$globalHeader__separateBorder--bottom: #ccc;
+$fontFamily_globalHeader: Helvetica, Arial, Verdana, sans-serif;
+$fontSize_globalHeader: 14px;
+$fontSize_globalHeader_region: 12px;
+$fontSize_globalHeader_search: 14px;
+$fontSize_globalHeader_icon: 20px;
+$lineHeight_globalHeader: 1.2;
+$lineHeight_globalHeader_region: 1.2;
+$lineHeight_globalHeader_search: 1.2;
+$lineHeight_globalHeader_icon: 1.0;
+$letterSpacing_globalHeader: normal;
+
+// Global Footer
+$globalFooter__bg: #eee;
+$globalFooter__text: #333;
+$globalFooter__logo: #00b48c;
+$globalFooter__border: #ccc;
+$globalFooter__link: #333;
+$globalFooter__accordion__text: #333;
+$globalFooter__accordion__border: #ccc;
+$globalFooter__accordion__icon: #999;
+$globalFooter__separateBorder--top: #ccc;
+$fontFamily_globalFooter: Helvetica, Arial, Verdana, sans-serif;
+$fontSize_globalFooter: 12px;
+$fontSize_globalFooter_copyright: 10px;
+$lineHeight_globalFooter: 1.4;
+$letterSpacing_globalFooter: normal;
+
+/* layout */
+@import "layout/kao-header-footer/**";
+
+/* design foundation */
+@import "foundation/kao-header-footer/**";

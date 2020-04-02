@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/*****************************
+  Clientlibs config
+ *****************************/
+/*
+ setting
+ （上書き禁止）
+ */
+/*
+ common veriable
+ （共通変数・任意）
+ */
+/* design priciples */
+/*****************************
+  principles
+ *****************************/
+/*
+ design principles
+ （サイト、ページ別に上書きを許可）
+ */
+/*****************************
+  Content Color set (light)
+ *****************************/
+/* Body */
+/* Contents Area */
+/* Heading */
+/* Link */
+/* Button */
+/* Accordion */
+/* TileLink */
+/* NewsIndex */
+/* TelephoneCallItem */
+/* FullwidthVisuals&Carousel */
+/* Label/Tag */
+/* Option */
+/* Brand Header */
+/* Local Navigation */
+/* Breadcrumbs */
+/* Brand Footer */
+/* Page Top */
+/*****************************
+  principles font-family ゴシック
+ *****************************/
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+/*
+ Link
+ */
+/*
+ AreaLink
+ */
+/*
+ Button
+ */
+/*
+  gutterWrapper (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterInner (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterItemWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  上マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  下マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  左マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  右マージン.
+  @param $level s,m,l,xl
+*/
+/*
+ Corner Radius（※廃止予定）
+ @param $size (ss, s, m, l, ll)
+ */
+/*
+ Background画像をセット
+ @param $type(default, repeat)
+ */
+/*
+ Image(or Movie) Text Pack(Horizontal)内のHeadingTitle
+ @param $imagePosition(left, right)
+ */
+/*
+  シャドウ.
+  @param $pattern A,B,none
+*/
+/*
+  ボタン用シャドウ.
+  @param $visible true,false
+*/
+/* layout */
+/* No files to import found in layout/include/** */
+/* No files to import found in layout/include/site-navigation/** */
+/* design principles */
+/* Breadcrumbs ================================================== */
+.l-Breadcrumbs {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  font-family: "FOT-UD角ゴ_ラージ Pro R", UDKakugo_LargePro-R, sans-serif;
+  background-color: #FFF;
+}
+@media only screen and (max-width: 640px) {
+  .l-Breadcrumbs {
+    border-color: #ccc;
+  }
+}
+
+.l-Breadcrumbs__list li {
+  color: #333;
+}
+.l-Breadcrumbs__list li a {
+  color: #666;
+}
+.l-Breadcrumbs__list li a:visited {
+  color: #666;
+}
+.l-Breadcrumbs__list li a:hover, .l-Breadcrumbs__list li a:focus {
+  color: #999;
+}
+.l-Breadcrumbs__list li .cmn-icon {
+  color: #999;
+}
+
+/* LocalNav ================================================== */
+.l-LocalNav {
+  border-top-color: transparent;
+  border-bottom-color: #ccc;
+}
+@media only screen and (max-width: 640px) {
+  .l-LocalNav {
+    background: #fff;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-LocalNav {
+    background: #fff;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-LocalNav {
+    background: #f1f1f1;
+  }
+}
+
+.l-LocalNavCategoryLabel {
+  color: #333;
+}
+@media only screen and (max-width: 640px) {
+  .l-LocalNavCategoryLabel {
+    border-color: #ccc;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro DB", UDKakugo_LargePro-DB, sans-serif;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-LocalNavCategoryLabel {
+    border-color: #ccc;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro DB", UDKakugo_LargePro-DB, sans-serif;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-LocalNavCategoryLabel {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro DB", UDKakugo_LargePro-DB, sans-serif;
+  }
+}
+.l-LocalNavCategoryLabel a {
+  color: #333;
+  background-color: transparent;
+}
+.l-LocalNavCategoryLabel a .cmn-icon {
+  color: #999;
+}
+.l-LocalNavCategoryLabel a:hover, .l-LocalNavCategoryLabel a:focus {
+  color: #333;
+  background-color: #ccc;
+}
+.l-LocalNavCategoryLabel a:hover .cmn-icon, .l-LocalNavCategoryLabel a:focus .cmn-icon {
+  color: #666;
+}
+
+.l-LocalNavList {
+  font-family: "FOT-UD角ゴ_ラージ Pro R", UDKakugo_LargePro-R, sans-serif;
+}
+@media only screen and (max-width: 640px) {
+  .l-LocalNavList {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-LocalNavList {
+    border-color: #ccc;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-LocalNavList {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: normal;
+  }
+}
+
+.l-LocalNavList__item {
+  border-color: #ccc;
+  color: #333;
+}
+.l-LocalNavList__item .l-LocalNavListLink {
+  color: #333;
+  background-color: transparent;
+}
+.l-LocalNavList__item .l-LocalNavListLink .cmn-icon {
+  color: #999;
+}
+.l-LocalNavList__item a.l-LocalNavListLink:hover, .l-LocalNavList__item a.l-LocalNavListLink:focus {
+  color: #333;
+  background-color: #ccc;
+}
+.l-LocalNavList__item a.l-LocalNavListLink:hover .cmn-icon, .l-LocalNavList__item a.l-LocalNavListLink:focus .cmn-icon {
+  color: #666;
+}
+.l-LocalNavList__item.is-active a.l-LocalNavListLink {
+  color: #333;
+  background-color: #ccc;
+}
+.l-LocalNavList__item.is-active a.l-LocalNavListLink .cmn-icon {
+  color: #666;
+}
+.l-LocalNavList__item.is-active a.l-LocalNavListLink:hover, .l-LocalNavList__item.is-active a.l-LocalNavListLink:focus {
+  color: #333;
+  background-color: #aaa;
+}
+.l-LocalNavList__item.is-active a.l-LocalNavListLink:hover .cmn-icon, .l-LocalNavList__item.is-active a.l-LocalNavListLink:focus .cmn-icon {
+  color: #666;
+}
+
+@media only screen and (min-width: 1025px) {
+  .l-LocalNavList__item-lg-1,
+  .l-LocalNavList__item-lg-2,
+  .l-LocalNavList__item-lg-3,
+  .l-LocalNavList__item-lg-4,
+  .l-LocalNavList__item-lg-5,
+  .l-LocalNavList__item-lg-6,
+  .l-LocalNavList__item-lg-7,
+  .l-LocalNavList__item-lg-8 {
+    border-color: #ccc;
+  }
+}

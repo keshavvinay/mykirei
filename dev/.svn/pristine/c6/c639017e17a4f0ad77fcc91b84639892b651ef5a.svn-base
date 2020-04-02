@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* access ============================== */
+
+////////////////////////////////////
+//
+// セクション（メインビジュアル）
+//
+////////////////////////////////////
+.sofina-access-section_mainvisual{
+  @include bg_main("bps-access-mainvisual.jpg");
+  // background-size: 50%;
+  background-size: contain;
+  //最初は非表示とする
+  background-position: -200% 0;
+
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    @include bg_main("tb_bps-access-mainvisual@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    @include bg_main("bps-access-mainvisual@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+    .l-PageTitle__titleBlock__titleBox .l-Text {
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+
+
+////////////////////////////////////
+//
+// 店舗情報
+//
+////////////////////////////////////
+.sofina-access-section_shopinfo {
+  margin-top: 35px;
+
+
+  //店舗詳細のアクセスボタンは非表示
+  .sofina-section_shopinfo__btnaccess {
+    display: none;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    margin-top: 20px;
+    .l-HeadingTitle__h2{
+      font-family: $fontFamily_Gothic;
+      @include fontSize(lv7); //14px
+    }
+  }
+}

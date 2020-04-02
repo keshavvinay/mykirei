@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+/* List ================================================== */
+.l-List {
+}
+
+.l-List__ol,
+.l-List__ul {
+}
+
+.l-List__ol__item,
+.l-List__ul__item {
+}
+
+.l-List__ol__item__link,
+.l-List__ul__item__link {
+  @include link();
+}
+

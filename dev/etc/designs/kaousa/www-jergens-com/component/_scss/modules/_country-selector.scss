@@ -1,0 +1,55 @@
+.country-selector-section{
+    @include section-max-width;
+    
+    .country-selector-banner img{
+    margin: 0 auto;
+        width: 100% !important;
+}
+
+.contry-selector-column-seperator{
+    
+    .g-ColumnUnit{
+        padding-left: 50px;
+        
+        @media (max-width:$breakpoint_sm){
+            padding-left: 5px;
+        }
+        
+        .g-HeadingTitle {
+            margin-bottom: 0;
+        }
+        
+        .g-HeadingTitle__p{
+            font-weight: bold;
+            color: #093556;
+        }
+    }
+    
+    .g-TextLinkP__list{
+        
+        li.g-TextLinkP__list__item{
+            font-size: 12px;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 20px;
+            background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/red-arrows.png) no-repeat 10px;
+            
+            a{
+                color: #333 !important;
+                cursor: pointer;
+                font-size: 14px;
+                
+                &:hover{
+                    color: #06a !important;
+                }
+            }
+        }
+    }
+}
+
+.copy-right{
+    font-size: 12px;
+}
+}
+

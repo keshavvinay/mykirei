@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*corp-headingLv2-04*/
+.corp-headingLv2-04 {
+  .l-HeadingTitle__h2 {
+    position: relative;
+    line-height: 1.6;
+    &:after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      background: $accent;
+      display: block;
+      margin: 0 auto;
+      width: 100px;
+      left: 33.333%;
+      right: 33.333%;
+    }
+  }
+  @include bp(lg) {
+    .l-HeadingTitle__h2 {
+      font-size: 30px;
+      &:after {
+        bottom: -30px;
+      }
+    }
+    .l-HeadingTitle--h2 {
+      margin-bottom: 62px;
+    }
+  }
+  @include bp(md) {
+    .l-HeadingTitle__h2 {
+      font-size: 26px;
+      &:after {
+        bottom: -26px;
+      }
+    }
+    .l-HeadingTitle--h2 {
+      margin-bottom: 62px;
+    }
+  }
+  @include bp(sm) {
+    .l-HeadingTitle__h2 {
+      font-size: 19px;
+      &:after {
+        bottom: -20px;
+      }
+    }
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }  
+}
+@include bp(lg) {
+  .corp-headingLv2-04.l-HeadingTitle--h2 {
+    margin-bottom: 60px;
+  }
+}
+@include bp(md) {
+  .corp-headingLv2-04.l-HeadingTitle--h2 {
+    margin-bottom: 58px;
+  }
+}
+@include bp(sm) {
+  .corp-headingLv2-04.l-HeadingTitle--h2 {
+    margin-bottom: 52px;
+  }
+}
+.corp-headingLv2-04.l-HeadingTitle--h2 {
+  border: none;
+}

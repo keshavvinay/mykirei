@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA BPS</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- script_bps -->
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/header-footer.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <!-- script_bps -->
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div></div>
+    <div></div>
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section sofina-ginza-section_mainvisual" id="common_section_wrapper_1">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-paddingReset" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-PageTitle l-PageTitle is-subTitleTop is-layoutL">
+                    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                            <span class="cmn-richtext">
+                              <span>SOFINA Beauty Power Station
+                              </span>
+                            </span>
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-LinkButton l-LinkButton is-btn btn-dark-bullet-glay hide-on-print btn-print">
+                    <a href="javascript:void(0);" target="_self" id="common_link_button_item_20150910180648123_S0LQ" class="g-LinkButton__link l-LinkButton__link js-anchorLink">
+                      <span class="cmn-richtext">
+                        <span>印刷
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section sofina-ginza-section_shopinfo sofina-section_shopinfo_big" id="common_section_wrapper_2">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-paddingReset" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                            <span class="cmn-richtext">
+                              <span>SOFINA Beauty Power Station 銀座店
+                              </span>
+                            </span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="sofina-section_shopinfo_big__contholder">
+                      <div class="sofina-section_shopinfo_big__contholder__info">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td>住　　所</td>
+                              <td>〒104-0061 東京都中央区銀座三丁目4番12号 文祥堂銀座ビル 1F </td>
+                            </tr>
+                            <tr>
+                              <td>営業時間</td>
+                              <td>11:00〜20:00（不定休） </td>
+                            </tr>
+                            <tr>
+                              <td>お問合せ</td>
+                              <td class="sofina-section_shopinfo_big__contholder__info_telnum">03-3561-2600 </td>
+                            </tr>
+                            <tr class="sofina-section_shopinfo_big__contholder__info__tel">
+                              <td colspan="2">
+                                <!-- リンク -->
+                                <div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay icon-phonecall">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="tel:03-3561-2600">
+                                    <span class="cmn-richtext">
+                                      <span>お電話でのお問い合わせ </span>
+                                    </span>
+                                  </a>
+                                </div>
+                                <!-- /リンク -->
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>交通手段</td>
+                              <td>東京メトロ 銀座線・丸の内線・日比谷線 銀座駅A13出口から徒歩1分
+                                <p class="sofina-section_shopinfo_big__contholder__info__cap">※駐車スペースはございません</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="sofina-section_shopinfo_big__contholder__map">
+                        <!-- グーグルマップ -->
+                        <div class="sofina-section_shopinfo_big__contholder__map__gmap">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1784860131756!2d139.7654405!3d35.6726069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be43240f7a5%3A0xfab463bf056a8099!2z44CSMTA0LTAwNjEg5p2x5Lqs6YO95Lit5aSu5Yy66YqA5bqn77yT5LiB55uu77yU4oiS77yR77ySIOaWh-elpeWggumKgOW6p-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1441786050111"
+                          width="100%" height="100%" frameborder="0" style="" allowfullscreen></iframe>
+                        </div>
+                        <!-- /グーグルマップ -->
+                        <!-- リンク -->
+                        <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-md btn-map">
+                          <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                            <span class="cmn-richtext">
+                              <span>地図アプリで表示 </span>
+                            </span>
+                          </a>
+                        </div>
+                        <!-- /リンク -->
+                        <!-- リンク -->
+                        <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-sm btn-map">
+                          <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                            <span class="cmn-richtext">
+                              <span>地図アプリで表示 </span>
+                            </span>
+                          </a>
+                        </div>
+                        <!-- /リンク -->
+                        <!-- リンク -->
+                        <div class="g-LinkButton l-LinkButton is-btn btn-dark-bullet-glay opt-hide-sm sofina-section_shopinfo_big__contholder__map__print hide-on-print btn-print">
+                          <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                            <span class="cmn-richtext">
+                              <span>印刷 </span>
+                            </span>
+                          </a>
+                        </div>
+                        <!-- /リンク -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-LinkButton l-LinkButton is-btn btn-block-close-white btn-close-window hide-on-print">
+                    <a href="javascript:void(0);" target="_self" id="common_link_button_item_20150915130930169_j4iF" class="g-LinkButton__link l-LinkButton__link js-anchorLink">
+                      <span class="cmn-richtext">
+                        <span>閉じる
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="g-Text l-Text sofina-copyright">
+                    <p class="cmn-richtext">
+                      <span>Copyright © 1999-2015 Kao Corporation. All rights reserved.
+                      </span>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-Contents -->
+    <div></div>
+    <div></div>
+  </div>
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    _satellite.pageBottom();
+  </script>
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

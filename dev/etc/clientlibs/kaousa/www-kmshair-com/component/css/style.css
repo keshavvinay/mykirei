@@ -1,0 +1,77 @@
+*{padding:0;margin:0;outline:0}
+img{max-width:100%}
+a,a:focus,a:visited{text-decoration:none;color:#000}
+
+/* C165 component */
+.cf:before,.cf:after{content:"";display:table}.cf:after{clear:both}.cf{zoom:1}
+.txt-img-teaser > *{letter-spacing:normal}
+.txt-img-teaser{margin:0 0 5rem;padding-top:2rem;position:relative;z-index:1}
+.txt-img-teaser .img-cont,.txt-img-teaser .txt-cont{float:left}
+.txt-img-teaser .img-cont{position:absolute;top:60px;overflow:hidden}
+.txt-img-teaser .txt-cont{position: relative}
+.txt-img-teaser .txt-cont .txt-inner-cont{margin-top:3.5rem}
+.txt-img-teaser .txt-cont .txt-inner-cont > *{margin-bottom:.8rem}
+.txt-img-teaser .bg-overlay{background:#d9d9d6;float:left;margin-top:64px;width:100%;height:auto;z-index:-1}
+.txt-img-teaser .img-cont img{float:left;width:100%}
+.txt-img-teaser h1{font:70px/50px Smudger;color:#FE5000;margin-top:-20px}
+.txt-img-teaser h3{font:50px/50px 'DIN 1451 ENGSCHRIFT'}
+.txt-img-teaser h4{font:35px/35px 'DIN 1451 ENGSCHRIFT'}
+.txt-img-teaser p{font:23px/26px 'DIN 1451 ENGSCHRIFT'}
+.txt-img-teaser a{font:15px/15px 'DIN 1451 ENGSCHRIFT';padding:10px 2.5rem;display:inline-block;border:1px solid #000;margin:1.5rem 0 5rem 0!important;letter-spacing:normal}
+.txt-img-teaser .txt-cont .txt-inner-cont,.txt-img-teaser h1{width:60%;}
+.txt-img-teaser .txt-cont > h1 + div.txt-inner-cont{margin-top:3.5em}
+.txt-img-teaser .txt-cont > .txt-inner-cont:first-child{margin-top:4.5em}
+@media screen and (max-width: 640px){
+  .txt-img-teaser .bg-overlay{margin-top:76px}
+  .txt-img-teaser{margin:0 0 2rem}
+  .txt-img-teaser h1{font:60px/40px Smudger}
+  .txt-img-teaser h4{font-size:25px;line-height:30px}
+  .txt-img-teaser p{font:20px/26px 'DIN 1451 ENGSCHRIFT'}
+  .txt-img-teaser a{font-size:18px;line-height:18px;padding:12px 2rem}
+  .txt-img-teaser .img-cont{position: relative;margin-top:-30px;margin-bottom:5rem;float:none;top:0;}
+  .txt-img-teaser .txt-cont{position:relative;padding:0 10%;margin:0}
+  .txt-img-teaser .txt-cont .txt-inner-cont,.txt-img-teaser h1{width:100%;}
+  .txt-img-teaser .txt-cont > h1 + div.txt-inner-cont{margin-top:2em}
+  .txt-img-teaser .txt-cont > .txt-inner-cont:first-child{margin-top:2em}
+  section.txt-img-teaser.is-layoutL >.bg-overlay > .img-cont{padding:0 10%}
+  .opt-sm-hide-img{display:none}
+}
+@media screen and (min-width: 641px) and (max-width: 1024px){
+  .txt-img-teaser .bg-overlay{margin-top:80px}
+  .txt-img-teaser h1{font:70px/50px Smudger;}
+  .txt-img-teaser h4{font-size:35px;line-height:35px}
+  .txt-img-teaser p{font-size:23px;line-height:26px}
+  .txt-img-teaser a{font-size:18px;line-height:18px;margin:1.5rem 0 3rem 0!important}
+  .txt-img-teaser .txt-cont .txt-inner-cont,.txt-img-teaser h1{width:92%;padding-left: 3%}
+  section.txt-img-teaser.is-layoutL >.bg-overlay > .img-cont{left:0;padding:0 1% 0 4%}
+  section.txt-img-teaser.is-layoutL >.bg-overlay > .txt-cont{right:0}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .img-cont{right:0;padding: 0 4% 0 1%}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont{left:2%}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont.opt-al_r{left:0}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont.opt-al_r > h1,
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont.opt-al_r > .txt-inner-cont{float:right;padding-right:3%}
+}
+@media screen and (min-width: 1025px){
+  .txt-img-teaser .txt-cont .txt-inner-cont,.txt-img-teaser h1{padding-left: 3%}
+  section.txt-img-teaser.is-layoutL >.bg-overlay > .img-cont{left:0;padding:0 1% 0 4%}
+  section.txt-img-teaser.is-layoutL >.bg-overlay > .txt-cont{right:0}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .img-cont{right:0;padding: 0 4% 0 1%}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont{left:2%}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont.opt-al_r{left:0}
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont.opt-al_r > h1,
+  section.txt-img-teaser.is-layoutR >.bg-overlay > .txt-cont.opt-al_r > .txt-inner-cont{float:right;padding-right:3%}
+}
+
+/* fonts for tw and hk */
+html[lang^=zh] .txt-img-teaser h1,html[lang^=zh_hk] .txt-img-teaser h1,html[lang^=zh_tw] .txt-img-teaser h1{
+  font-family: 'MWindyHK-Bold'}
+html[lang^=zh] .txt-img-teaser h3,html[lang^=zh_hk] .txt-img-teaser h3,html[lang^=zh_tw] .txt-img-teaser h3{
+  font-family: 'MHeiHK-Heavy'}
+html[lang^=zh] .txt-img-teaser h4,html[lang^=zh_hk] .txt-img-teaser h4,html[lang^=zh_tw] .txt-img-teaser h4{
+  font-family: 'DIN 1451 ENGSCHRIFT'}
+html[lang^=zh] .txt-img-teaser p,html[lang^=zh_hk] .txt-img-teaser p,html[lang^=zh_tw] .txt-img-teaser p{
+  font-family: 'MSungHK-Medium'}
+html[lang^=zh] .txt-img-teaser a,html[lang^=zh_hk] .txt-img-teaser a,html[lang^=zh_tw] .txt-img-teaser a{
+  font-family: 'MHeiHK-Heavy';}
+
+/* C165 component */

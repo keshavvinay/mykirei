@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* C093 Headline - Title (h3) */
+.c093__title {
+  .l-HeadingTitle__h3 {
+    @include kms-fontFamily(title);
+    @include kms-fontSize(headline3);
+  }
+  &:not(.is-link) {
+    .l-HeadingTitle__h3 {
+      color: #fe5000;
+    }
+  }
+}
+
+/* C093 Headline - SubTitle (h3) */
+.c093__subtitle {
+  .l-HeadingTitle__h3 {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(headline3);
+    color: #000;
+  }
+}
+.l-HeadingTitle.c093__subtitle{
+    margin-bottom: 0;
+}

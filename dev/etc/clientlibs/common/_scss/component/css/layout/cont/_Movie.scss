@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+
+/* Movie ================================================== */
+.g-Movie {
+  display: block;
+  margin-bottom: 8px;
+  &.is-background {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-embedVideo {
+    .g-Movie__iframe {
+      padding-top: 0;
+      video {
+        cursor: pointer;
+        width: 100%;
+      }
+    }
+  }
+
+  &.is-border {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+
+  &.is-bg--ignore-size {
+    background-size:auto;
+  }
+
+}
+.g-Movie__iframe {
+  position: relative;
+  margin: 0 0 8px;
+  padding-top: 56.25%;
+  width: 100%;
+  &:last-child {
+    margin: 0;
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.g-Movie__caption {
+  margin: 0;
+  //@include fontSize(caption);
+}

@@ -1,0 +1,61 @@
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@import url("https://fonts.gstatic.com/s/karma/v9/va9I4kzAzMZRGLBoQeNVkqDO.woff2");
+
+//karmafont family
+@font-face {
+    font-family: 'Karma';
+    src:  url('../fonts/webfonts/karma.woff2') format('woff2');
+}
+
+//conduititcstd font family
+@font-face {
+    font-family: 'ConduitITCStd-Medium';
+    src: url('../fonts/webfonts/conduititcstd_med.eot');
+    src: url('../fonts/webfonts/conduititcstd_med.ttf') format('truetype'),
+         url('../fonts/webfonts/conduititcstd_med.woff2') format('woff2'),
+         url('../fonts/webfonts/conduititcstd_med.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ConduitITCStd-Light';
+    src: url('../fonts/webfonts/conduititcstd_light.eot');
+    src: url('../fonts/webfonts/conduititcstd_light.ttf') format('truetype'),
+         url('../fonts/webfonts/conduititcstd_light.woff') format('woff'),
+         url('../fonts/webfonts/conduititcstd_light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'ConduitITCStd-LightItalic';
+    src: url('../fonts/webfonts/conduititcstd_light_italic.eot');
+    src: url('../fonts/webfonts/conduititcstd_light_italic.ttf') format('truetype'),
+         url('../fonts/webfonts/conduititcstd_light_italic.woff2') format('woff2'),
+         url('../fonts/webfonts/conduititcstd_light_italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ConduitITCStd-Bold';
+    src: url('../fonts/webfonts/conduititcstd_bold.eot');
+    src: url('../fonts/webfonts/conduititcstd_bold.ttf') format('truetype'),
+         url('../fonts/webfonts/conduititcstd_bold.woff2') format('woff2'),
+         url('../fonts/webfonts/conduititcstd_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ConduitITCStd-MediumItalic';
+    src: url('../fonts/webfonts/conduititcstd_med_italic.eot');
+    src: url('../fonts/webfonts/conduititcstd_med_italic.ttf') format('truetype'),
+         url('../fonts/webfonts/conduititcstd_med_italic.woff2') format('woff2'),
+         url('../fonts/webfonts/conduititcstd_med_italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ConduitITCStd-BoldItalic';
+    src: url('../fonts/webfonts/conduititcstd_bold_italic.eot');
+    src: url('../fonts/webfonts/conduititcstd_bold_italic.ttf') format('truetype'),
+         url('../fonts/webfonts/conduititcstd_bold_italic.woff2') format('woff2'),
+         url('../fonts/webfonts/conduititcstd_bold_italic.woff') format('woff');
+}
+
+

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 03_Product_Overview+Filter_Template */
+
+.productOverView_section-start {
+  @include bp(lg) {
+    margin: 0 auto;
+    max-width: 1366px;
+    background-position: bottom left;
+    background-size: 204px 150px;
+  }
+  @include bp(md) {
+    background-position: bottom right;
+    background-size: 193px 200px;
+  };
+  @include bp(sm) {
+    background-position: bottom right;
+    background-size: 181px 200px;
+  };
+}
+
+@include bp(lg) {
+  // Product Overview Layout fix for Safari and small resolutions
+  .product_results2 ul li:hover .img-overlay, .product_results ul li:hover .img-overlay {
+    bottom: 0px !important;
+  }
+  .product_results .img-overlay .img-overlay-inner-cont, .product_results2 .img-overlay .img-overlay-inner-cont {
+    margin-top:0 !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .product_results .img-overlay h4, .product_results2 .img-overlay h4, .product_results .img-overlay h3, .product_results2 .img-overlay h3 {
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+}

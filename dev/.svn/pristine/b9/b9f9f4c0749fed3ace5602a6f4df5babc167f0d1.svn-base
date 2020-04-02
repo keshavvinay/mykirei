@@ -1,0 +1,264 @@
+//Brand header fixed
+#area-BrHeader{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: $secondary;
+    @media (max-width:930px){
+        background-color: #ffffff;
+    }
+}
+// Headir Styling
+.ban-header-wrapper {
+    background-color:$secondary;
+    transition: 0.5s ease all;
+    position: relative;
+    padding: 0rem 2rem;
+    margin-top: 42px;
+    
+    &.shrink{
+        margin-top: 22px;
+    }
+//    margin-bottom: 10px;
+    
+    &:after{
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 10px;
+        width: 100%;
+        display: block;
+        background-color: $white;
+        
+        @media (max-width:930px){
+            background-color: $secondary;
+        }
+    }
+    
+    .menu-sm{
+        display: none;
+        position: absolute;
+        right: 1rem;
+        top: 0.625rem;
+        padding: 20px;
+        border: 0;
+        background: url(/content/dam/sites/kaousa/www-feelbanfresh-com/us/global/hamberger-menu.png) no-repeat 50% 50% #4d2b6c;
+        box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.08), 1px 1px 0 rgba(0, 0, 0, 0.08) inset;
+        opacity: 0.6;
+        border-radius: 0.25rem;
+        outline: 0;
+    }
+    
+    .ban-logo-wrapper {
+        position: absolute;
+        transition: 0.5s ease all;
+        left: 2rem;
+        max-width: 160px;
+        top: -42px;
+        padding: 0 0.3rem;
+        z-index: 1;
+        
+        @media(max-width:930px){
+            max-width: 140px;
+        }
+        
+        &.shrink{
+            max-width: 130px;
+            top: -24px;
+        }
+    }
+    .ban-logo{
+        margin: 0; 
+    }
+    .ban-header {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: -2rem;
+        height: auto;
+        &> ul.main-nav-ul{
+            list-style: none;
+            padding-left: 0; 
+            margin: 0;
+        }
+        .g-TextLinkP {
+            margin: 0;
+        }
+        
+        @media(min-width:931px){
+                display: block !important;
+            }
+    }
+    
+    .main-nav-ul{ 
+        &>li{
+            padding: 0.6rem 1rem;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+        
+        &>li:hover{
+            background-color: $primary;
+        }
+        
+        &>li.active{
+            background-color: $primary;
+        }
+        
+        &>li:hover .ban-header-dropdown-wrapper{
+            @media(min-width:931px){
+                visibility: visible;
+            }
+        }
+    }
+    
+    .g-TextLinkP__list{ 
+        font-weight: 600;
+        .g-TextLinkUnit__link{
+            color: $white-text;
+        }
+    }
+    
+    .ban-header-dropdown-wrapper{
+        visibility: hidden;
+        background-color: $primary;
+        width: 350px;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 10;
+        padding: 1.25rem 0.31rem 0.31rem 0.31rem;
+        
+        img{
+            max-height: 70px;
+            width: auto !important;
+        }
+        
+        .g-TileLinkHP{
+            background-color: $white;
+            margin: 0; 
+        }
+        
+        .g-TileLinkHP__list{
+            padding-left: 0.635rem;
+            padding-bottom: 0.635rem;
+        } 
+        
+        a.g-TileLinkHUnit{
+            color: $gray; 
+            padding: 0 0 0 0.5rem;
+            
+            &:hover{
+                background-color: $hover-gray;
+            }
+        }
+        
+        .is-layoutL .g-TileLinkHUnit__leadBlock{
+            padding-right: 0;
+        }
+        
+        .g-Text{
+            font-size: 0.75rem;
+        }
+    }
+    
+    .social-facebook{
+        position: absolute;
+        right: 3.5rem;
+        top: 0;
+        
+        ul{
+            list-style: none;
+            margin-top: 0.9rem;
+        }
+    }
+} 
+
+@media (min-width:931px) and (max-width:1240px){
+    
+    .ban-header-wrapper{
+        padding: 0;
+        
+        .ban-header{
+            max-width: 80%;
+        }
+        
+        .ban-logo-wrapper{
+            left: 1rem;
+        }
+        
+        .main-nav-ul > li{
+            padding: 0.6rem;
+        }
+        
+        .ban-logo img{
+            max-width: 200px;
+        }
+        
+        .social-facebook{
+            right: 1rem;
+        }
+    } 
+}
+
+//Hamberger menu
+@media (max-width:930px){
+    body:not(.is-authorring){
+    .ban-header-wrapper{
+        margin: 0;
+        padding: 0;
+        
+        background-color: $white;
+        
+        .menu-sm{
+            display: block;
+        }
+        
+        .ban-logo-wrapper{
+            position: static;
+            padding-bottom: 0.625rem;
+            
+            &.shrink{
+                max-width: 160px;
+            }
+        }
+        
+        .ban-logo img{
+            max-width: 140px;
+        }
+        
+        .ban-header{
+            display: none;
+            background-color: $secondary-light;
+            max-width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            margin: 0;
+        }
+        
+        .main-nav-ul{
+            text-align: center;
+            width: 100%;
+        }
+        
+        .main-nav-ul li{
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .g-TextLinkUnit__link{
+            display: block;
+        }
+        
+        .social-facebook{
+            right: 1.6rem;
+            top: auto;
+            bottom: -7px;
+        }
+    } 
+}
+}

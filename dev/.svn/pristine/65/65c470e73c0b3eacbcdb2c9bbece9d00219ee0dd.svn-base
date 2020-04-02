@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.corp-listItem-02 {
+  .l-ListP__ol {
+    padding-left: 24px;
+    color: #999;
+  }
+  .l-ListP__ol__item {
+    padding-left: .2em;
+  }
+}

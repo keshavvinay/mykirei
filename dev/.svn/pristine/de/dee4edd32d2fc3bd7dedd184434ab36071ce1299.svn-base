@@ -1,0 +1,135 @@
+
+#area-PrivacyNotice .g-ButtonP a {
+    box-shadow: none !important;
+}
+
+.js-PrivacyNotice--policy{
+    a{
+        color: #333 !important;
+        font-family: $avenir-bold;
+    }
+
+    cursor: pointer;
+}
+
+.g-PrivacyNotice__modal--decline{
+    .g-PrivacyNotice__modal__button{
+        display: none;
+    }
+}
+
+.g-PrivacyNotice .g-PrivacyNotice__modal{
+    border: 8px solid #ccc;
+    padding: 30px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+
+    .g-PrivacyNotice__modal__policyLink{
+        display: none;
+    }
+
+    @media(max-width:769px){
+        position: fixed;
+        top:auto!important;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        bottom: 0;
+        max-height: 100%;
+        width: auto;
+        padding: 15px 15px;
+    }
+
+    @media(max-width:364px){
+        max-width: 100%;
+    }
+}
+
+body:not(.is-authorring) .g-PrivacyNotice__modal{
+
+    max-height: 100%;
+}
+
+body:not(.is-authorring) .g-PrivacyNotice__modal.g-PrivacyNotice__modal--policy{
+    max-width: 90%;
+    width: auto;
+    max-height: 90%;
+
+    .g-PrivacyNotice__modal__policyContents{
+        word-break: break-word;
+        padding: 0 15%;
+        @media(max-width:769px){ 
+            padding: 30px 20px;
+        }
+    }
+
+    @media(max-width:769px){
+        position: fixed;
+        top:auto!important;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        bottom: 10%;
+        max-height: 70%;
+        width: auto;
+    }
+
+    @media(max-width:364px){
+        max-width: 100%;
+    }
+
+    .g-HeadingTitle__h2{
+        font-size: 42px;
+
+        @media(max-width:769px){
+            font-size: 32px;
+            font-family: $tramcn;
+        }
+    }
+}
+
+.g-PrivacyNotice__modal__text{
+    a {
+        color: #333;
+        &:link{
+            color: #333; 
+        }  
+
+        &:hover{
+            color: $primary;
+        }
+    }
+}
+
+.g-PrivacyNotice__modal__title{
+    .g-HeadingTitle__h2{
+        font-size: 42px;
+
+        @media(max-width:769px){
+            font-size: 13.5px;
+            font-family: $avenir-bold;
+        }
+    }
+}
+
+.g-PrivacyNotice__modal__button{
+    .g-ButtonP__list{
+        text-align: center;
+    }
+    .g-ButtonP__list__item{
+        width: auto;
+        float: none;
+        padding: 0 15px !important;
+
+        @media(max-width:769px){
+            padding: 0 8px !important;
+        }
+    }
+}
+
+body:not(.is-authorring) .g-PrivacyNotice__modal__policyLink {
+    text-align: center;
+    margin-bottom: 0 !important;
+    //    display: none; 
+    visibility: visible;
+}

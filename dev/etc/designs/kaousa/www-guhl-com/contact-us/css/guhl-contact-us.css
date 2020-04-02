@@ -1,0 +1,810 @@
+*:focus {
+    outline: none;
+}
+
+.contact-us-section .g-ColumnUnit{
+    height: auto !important;
+}
+
+.guhl_contact_us_error, .guhl_contact_us_required{
+    color: red;
+}
+
+.contact-us-head-section .g-Section__inner{
+    padding: 0 !important;
+}
+
+.contact-us-head-section .g-Section__inner .wave{
+    margin-bottom: 0 !important;
+}
+.contact-us-head-section .g-Section__inner .wave hr {
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-us-section .guhl_contact_us_error span {
+    color: #D9534F !important;
+    font-family: ConduitITCStd-Light;
+    font-size: 18px;    
+    font-weight: bold;   
+    letter-spacing: -0.1px; 
+    line-height: 14px;
+}
+
+.guhl_contact_us_error{
+    display: none;
+}
+
+.is-authorring .contact-us-form-column-unit .guhl_contact_us_error{
+    display: block;
+}
+
+.contact-us-form-column-unit #contact_us_guhl .radio {
+    margin-bottom: 3% !important;
+}
+
+.contact-us-section .g-AccordionUnit__titleBlock{
+    cursor: default !important;
+    border: 0 !important;
+
+    background-color: #fff;
+}
+.contact-us-section .g-HeadingTitle.g-HeadingTitle--h3 .g-HeadingTitle__h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.contact-us-thank-you-wrapper .l-PageTitle__h1 {
+    font-size: 1.65rem;
+}
+.contact-us-thank-you-wrapper .g-Hr.wave hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+@media only screen and (min-width: 1025px) {
+    .contact-us-section .g-AccordionUnit__titleBlock{
+        border-bottom: 0 !important;
+    }
+}
+
+
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+    .contact-us-section .g-Section__inner{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+}
+
+.contact-us-section .g-Column__cols:nth-child(1) .g-AccordionUnit__contentBlock{
+    margin-top: 0% !important;
+}
+@media only screen and (min-width: 1025px) {
+    .contact-us-section .g-Column__cols:nth-child(1) .g-AccordionUnit__contentBlock{
+        margin-top: 0% !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .contact-us-section .g-AccordionUnit.is-radius--close{
+        border-bottom: solid 1px;
+        border-color: black;
+        margin-bottom: 0 !important;
+    }
+    .contact-us-section .g-Column__cols:nth-child(1) .g-AccordionUnit.is-radius--close{
+        border-bottom: solid 1.3px;
+    }
+
+
+    .contact-us-section .g-AccordionUnit__titleBlock .g-HeadingTitle .title{
+        text-align:left;
+    }
+    .contact-us-section .g-AccordionUnit__contentBlock{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .contact-us-section .g-Column__cols:nth-child(1) .g-AccordionUnit__contentBlock{
+        margin-top: 3%;
+    }
+
+    .contact-us-form-column-unit .g-AccordionMenu{
+        margin-bottom: 0 !important;
+    }
+
+
+    .contact-us-head-section {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .contact-us-head-section .l-PageTitle__h1 {
+        font-size: 1.65rem;
+    }
+    .contact-us-section .g-Section__inner .g-Column__cols .g-AccordionUnit__titleBlock{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 1% !important;
+        padding-bottom: 1% !important;
+    }
+    .contact-us-section .g-Section__inner .g-Column__cols .g-AccordionUnit__titleBlock .g-HeadingTitle{
+        margin-bottom: 0 !important;
+        margin-right: 30px;
+    }
+    .contact-us-section .g-HeadingTitle__titleBlock__titleBox__title {
+        text-align: left !important;
+    }
+    .contact-us-section {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-bottom: 6rem;
+    }
+    .contact-us-section .g-Column__inner {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .contact-us-section .contact-us-form-column-unit #contact_us_guhl .guhl_contact_us_required  {
+        margin-top: 0 !important;
+    }
+    .contact-us-section .phone-details {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .contact-us-section .g-Section__inner .g-Column__cols .g-AccordionUnit__titleBlock{
+        padding-top: 2% !important;
+    }
+}
+.contact-us-section .gender-wrapper .form_row:last-child {
+    margin-left: -1px;
+}
+.contact-us-section .phone-details .g-TelephoneCall__item__inner{
+    margin: auto;
+}
+
+.contact-us-section .phone-details .g-TelephoneCall__item__icon{
+    display: none;
+}
+
+.contact-us-section .phone-details .g-TelephoneCall__item__inner .g-TelephoneCall__item__number{
+    font-family: ConduitITCStd-Light;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: -0.1px;
+    text-decoration: underline;
+    color: #000 !important;
+}
+.contact-us-section .phone-details {
+    width: 33.333%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.contact-us-section .nl-phone-details {
+    width: 100%;
+}
+@media only screen and (max-width: 640px) {
+    .phone-details .g-TelephoneCall__item__inner .g-TelephoneCall__item__number{
+
+        padding-top: 0 !important;
+    }
+    .phone-details .g-TelephoneCall__item{
+        border: none !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .phone-details .g-TelephoneCall{
+        margin-bottom: 0 !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 640px) {
+    .contact-us-section .g-Section__inner{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .contact-us-section .g-Section__inner .g-Column__cols{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.contact-us-section .g-HeadingTitle__titleBlock__titleBox__title{
+    text-align: center;
+}
+
+.contact-us-section .g-AccordionUnit__titleBlock{
+    padding: 10px 10px 0 10px !important;
+}
+
+.contact-us-section .g-AccordionUnit__contentBlock{
+    border: 0 !important;
+}
+
+.contact-us-form-column-unit #contact_us_guhl input{
+    width: 100% !important;
+    margin-bottom: 3%;
+}
+
+.contact-us-form-column-unit #contact_us_guhl input.form_field_text, .contact-us-form-column-unit #contact_us_guhl textarea, .contact-us-form-column-unit #contact_us_guhl input.form_button_submit{
+    -webkit-appearance: none;
+    border-radius: 0;
+    letter-spacing: 3px;
+    line-height: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.contact-us-form-column-unit #contact_us_guhl input.form_field_text::placeholder, .contact-us-form-column-unit #contact_us_guhl textarea::placeholder, .contact-us-form-column-unit #contact_us_guhl input.form_button_submit::placeholder {
+    font-weight: 700;
+    color: #d2d2d2;
+}
+.contact-us-form-column-unit #contact_us_guhl input.form_button_submit {
+    display: block;
+    margin: auto;
+    background-color: transparent;
+}
+.contact-us-form-column-unit #contact_us_guhl textarea {
+    height: 60px;
+
+}
+.contact-us-form-column-unit #contact_us_guhl .guhl-mr-mrs{
+    margin-top: 3%;
+}
+
+.contact-us-form-column-unit #contact_us_guhl input.form_field_checkbox{
+    width: auto !important;
+    border-radius: 0;
+    margin-left: 1%;
+}
+
+
+.contact-us-form-column-unit #contact_us_guhl .form_button_submit{
+    width: auto !important;
+    border: 1px solid #000;
+    height: 45px;
+    color: #000;
+    font-family: ConduitITCStd-Light;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contact-us-section .form_row {
+    position: relative;
+}
+.contact-us-section .form_row .correct {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    padding-right: 2%;
+    color: #5cb85c;
+    font-size: 24px;
+}
+.contact-us-form-column-unit #contact_us_guhl .end.section .form_row .form_rightcol{
+    text-align: center;
+}
+
+.contact-us-section .g-AccordionUnit__contentBlock{
+    border: none;
+    background: none;
+    padding: 0;
+}
+.contact-us-section .static-facebook-accordion .g-AccordionUnit__contentBlock {
+    text-align: center;
+}
+.contact-us-section #messengerIcon{
+    display: inline-block;
+}
+.contact-us-section #messengerIcon img{
+    margin: auto;
+    width: 47px !important;
+}
+.contact-us-section .guhl_contact_us_error.g-Text span {
+    text-transform: initial !important;
+    font-weight: 300 !important;
+}
+@media only screen and (min-width: 1025px) {
+    .contact-us-section #messengerIcon img{
+        margin-top: 10%;
+    }
+    .thank-you-section-wrapper .g-PageTitle__h1 {
+        font-size: 2.75rem;
+    }
+}
+
+.contact-us-section .text input {
+    color: #000000;
+    font-family: ConduitITCStd-Light;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.contact-us-section .text textarea {
+    color: #000000;
+    font-family: ConduitITCStd-Light;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 15px;
+}
+
+.contact-us-section .text .form_row input::placeholder {
+    color: #D2D2D2!important;
+}
+
+.contact-us-section .text .form_row textarea::placeholder {
+    color: #D2D2D2!important;
+}
+
+.contact-us-section .form_row .form_field_text {
+    width: 100%;
+    background-image: none !important;
+    padding: 12px;
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 640px) {
+    .contact-us-section .text .form_row .form_field_text {
+        padding-top: 16px;
+    }
+}
+
+
+.contact-us-section .g-Text span{
+    color: #000000;
+    font-family: ConduitITCStd-Light;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 1.6;
+}
+
+.contact-us-section #contact_us_guhl .g-Text{
+    margin-bottom: 5px !important;
+    margin-top: 16px;
+}
+.contact-us-section .group-check-newsletter {
+    margin-top: 30px;
+}
+.contact-us-section .group-check-newsletter, .contact-us-section .group-check-terms {
+    position: relative;
+}
+.contact-us-section .group-check-newsletter .nl-inputbox, .contact-us-section .group-check-terms .tc-inputbox {
+    position: absolute;
+    left: 0;
+    top: -6px;
+    z-index: 1;
+}
+.contact-us-section .group-check-newsletter .g-Text span, .contact-us-section .group-check-terms .g-Text span {
+    font-size: 12px;
+    font-weight: 300 !important;
+    text-transform: initial!important;
+    padding-left: 22px;
+    display: block;
+}
+@media only screen and (min-width: 1025px){
+    .contact-us-section #contact_us_guhl .g-Text{
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px){
+
+    .contact-us-section #contact_us_guhl .g-Text{
+        margin-top: 8px;
+    }
+}
+
+.contact-us-section #contact_us_guhl .g-Text.guhl_contact_us_error{
+    margin-top: -3% !important;
+}
+
+.contact-us-section #contact_us_guhl #guhl_contact_us_your_message_error{
+    margin-top: -15px !important;
+}
+
+.contact-us-section #contact_us_guhl #guhl_contact_us_agreement_error{
+    margin-top: 36px !important;
+}
+
+.contact-us-section .contact-us-form-column-unit .g-Text  span{
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .guhl_contact_us_error .text span{
+    text-transform: none;
+    font-weight: 300;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .guhl_contact_us_required span{
+
+    color: #000000;
+    font-family: ConduitITCStd-Light;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: capitalize;
+}
+
+#guhl_contact_us_agreement_error{
+    /*position: relative;
+    bottom: 44px;*/
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .opt-newsletter-text{
+    margin: 0;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .terms-and-conditions-text{
+    margin: 0;
+}
+
+.contact-us-section img{
+    width: auto !important;
+}
+
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .common_group_box .checkbox{
+    width: 5%;
+    position: absolute;
+}
+
+@media only screen and (min-width: 641px){
+    .contact-us-section .contact-us-form-column-unit #contact_us_guhl .common_group_box .checkbox{
+        top: 4px;
+    }
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .g-GroupBox .common_text_item{
+    width: 100%;
+    padding-left: 22px;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .g-GroupBox{
+    position: relative;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .guhl_contact_us_required{
+    margin-top: 45px;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .opt-newsletter-text p{
+    margin: 0;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .terms-and-conditions-text p{
+    margin: 0;
+}
+
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .opt-newsletter-text .text span{
+
+    color: #000000;
+    font-family: ConduitITCStd-Light;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: none;
+}
+.contact-us-section .contact-us-form-column-unit #contact_us_guhl .terms-and-conditions-text .text span{
+
+    color: #000000;
+    font-family: ConduitITCStd-Light;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-transform: none;
+}
+
+
+
+@media only screen and (min-width: 1025px) {
+    .contact-us-section .g-AccordionUnit__titleBlock{
+        margin-bottom: -12px;
+    }
+}
+
+.contact-us-section .radio .form_row{
+    display:  inline-block;
+    position:  relative;
+    text-align:  center;
+    min-width:  60px;
+    height: 45px;
+    border: 1px solid;
+    text-indent: -10px;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.contact-us-section .radio .form_row:nth-of-type(3) {
+    border-left: 0;
+}
+
+.contact-us-section .radio .form_row .form_field_radio {
+    position: absolute;
+    top: 0;     
+    left: 0;
+    visibility: hidden;
+}
+
+.contact-us-section .radio .form_row .form_rightcol {
+    font-family: ConduitITCStd-Light;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 15px;
+    border: none;
+    padding: 4px 4px 4px 6px;
+    cursor: pointer;
+}
+
+
+.contact-us-section .g-AccordionMenu .l-AccordionUnit__titleBlock .title span{
+
+    color: #000000; 
+    font-family: ConduitITCStd-Light;   
+    font-size: 24px;    
+    font-weight: bold;  
+    letter-spacing: 1px;    
+    line-height: 26px;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .contact-us-section .g-AccordionMenu .g-AccordionUnit__titleBlock .cmn-icon--down:before {
+        content: '\002B';
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        font-family: ConduitITCStd-Light;
+        font-size: 24px;
+        font-weight: bold;
+        color: #373A3C;
+        letter-spacing: 1px;    
+        line-height: 26px;  
+        text-align: center;
+    }
+    .contact-us-section .g-AccordionMenu .g-AccordionUnit__titleBlock .cmn-icon--up:before {
+        content: "\2212";
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        font-family: ConduitITCStd-Light;
+        font-size: 24px;
+        font-weight: bold;
+        color: #373A3C;
+        letter-spacing: 1px;    
+        line-height: 26px;  
+        text-align: center;
+    }
+}
+
+.contact-us-section .phone-details{
+    border: 0 !important;
+}
+
+.contact-us-section .phone-details .g-Text{
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-us-section .phone-details{
+        padding : 0 !important;
+    }
+}
+
+.contact-us-section .static-phone-accordion .g-AccordionUnit__contentBlock .common_group_box .phone-details .common_text_item:nth-last-child(1) p{
+    display: none;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    .contact-us-section .g-Column__cols{
+        padding-top: 0;
+    }
+}
+@media only screen and (min-width: 1025px) {
+
+    .contact-us-section .g-AccordionUnit__titleBlock .cmn-icon{
+        display: none;
+    }
+
+    .contact-us-section .g-Column__cols:nth-child(1){
+        float: right;
+        border-left: 1px solid #C5C6C6;
+        padding-left: 7.5%;
+    }
+    .contact-us-section .g-Column__cols:nth-child(2){
+        float: left;
+        padding-right: 7.5%;
+    }
+
+    .contact-us-section .g-Column__cols:nth-child(2) .common_group_box{
+        display: inline-block;
+    }
+}
+
+.contact-us-section .g-Column__cols:nth-child(2) .mailing-address-unit span strong{
+    line-height:30px;
+}
+
+.contact-us-section .g-Column__cols:nth-child(2) .mailing-address-unit .kao-bold{
+
+}
+.contact-us-section .g-Column__cols:nth-child(2) .extpar{
+    text-align:center;
+}
+
+.contact-us-section  .mailing-address-unit .g-AccordionUnit__contentBlock .common_text_item:nth-child(2){
+    position: relative;
+    bottom: 12px;
+}
+.contact-us-section  .mailing-address-unit .g-AccordionUnit__contentBlock .common_text_item:nth-child(3){
+    position: relative;
+    bottom: 26px;
+}
+
+.contact-us-form-column-unit.guhl-nl #contact_us_guhl_user_terms_agreement-0{
+    margin-top: 8%;
+}
+
+.contact-us-section .static-contact-accordion #messengerIcon .caption span{
+    color: #000000;
+    font-family: ConduitITCStd-Light;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .contact-us-section .g-Column__cols{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+.contact-us-section #contact_us_guhl .opt-newsletter-text{
+    display: inline-block;
+    line-height: 1.0 !important;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+    
+}
+.contact-us-section #contact_us_guhl .terms-and-conditions-text{
+    display: inline-block;
+    line-height: 1.0 !important;
+}
+
+.contact-us-section #contact_us_guhl .section.text{
+    position: relative;
+}
+
+.contact-us-section #contact_us_guhl .text .form_row .form_rightcol .correct {
+    position: absolute;
+    right: 0;
+    padding-right: 2%;
+    top: 5px;
+    color: #5CB85C;
+    font-family: ConduitITCStd-Bold;
+    font-size: 24px;
+}
+@media only screen and (max-width: 640px) {
+    .contact-us-section #contact_us_guhl .text .form_row .form_rightcol .correct {
+        top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .contact-us-section #contact_us_guhl .text .form_row .form_rightcol .correct {
+        top: 5px;
+    }
+    .contact-us-section .static-contact-accordion .g-AccordionMenu__item:last-child{
+        border-bottom:none;
+    }
+}
+
+.thank-you-section-wrapper hr.wave{
+    margin: auto;
+    margin-top: 2%;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.thank-you-section-wrapper .thank-you-col-sep .g-Text{
+    margin-top: 2.14%;
+    color: #000000;	
+    font-size: 26px !important;	
+    font-weight: 300;	
+    letter-spacing: -0.1px;	
+    line-height: 18px !important;	
+    text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+    .thank-you-section-wrapper .thank-you-col-sep .g-Text{
+        margin-top: 30px;
+        font-size: 18px !important;
+        line-height: 14px !important;
+    }
+
+    .thank-you-section-wrapper hr.wave{
+        margin-top: 40px;
+    }
+}
+
+.is-authorring .contact-us-section #contact_us_guhl .checkbox .form_rightcol{
+    display:block !important;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    body:not(.is-authorring) .contact-us-section .static-email-accordion .g-AccordionUnit__contentBlock .g-Text:nth-last-child(1){
+        display: none;
+    }
+    body:not(.is-authorring) .contact-us-section .static-phone-accordion .g-AccordionUnit__contentBlock .last-tele{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    body:not(.is-authorring) .contact-us-section .static-email-accordion .g-AccordionUnit__contentBlock .g-Text:nth-last-child(1){
+        display: block;
+    }
+
+    body:not(.is-authorring) .contact-us-section .static-email-accordion .g-AccordionUnit__contentBlock .g-Text{
+        display: none;
+    }
+
+    body:not(.is-authorring) .contact-us-section .static-facebook-accordion .g-AccordionUnit__contentBlock .g-Text{
+        display: none;
+    }
+    .contact-us-section .g-AccordionUnit__contentBlock .g-Image .g-Image__caption {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: -0.1px;
+        line-height: 18px;
+    }
+    body:not(.is-authorring) .contact-us-section .static-phone-accordion .g-AccordionUnit__contentBlock .first-tele{
+        display: none;
+    }
+
+    body:not(.is-authorring) .mailing-address-unit .g-AccordionUnit__contentBlock .g-Text:nth-child(1) span{
+        display: none;
+    }
+
+    .contact-us-section .static-phone-accordion .g-AccordionUnit__contentBlock .common_group_box .phone-details{
+        padding-bottom: 0 !important;
+        padding-top: 6% !important;
+    }
+
+    .contact-us-section .static-coulumn-unit-contact-us .g-AccordionUnit__titleBlock{
+        margin-bottom: 0;
+    }
+}

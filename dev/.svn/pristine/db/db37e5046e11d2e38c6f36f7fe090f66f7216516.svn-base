@@ -1,0 +1,596 @@
+
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="keywords" content="花王,ソフィーナ,SOFINA,sofina,化粧品,メーカー,新製品,コスメ,スキンケア,メイク,ベースメイク,ファンデーション,美白,紫外線" />
+  <meta name="description" content="ソフィーナのブランド一覧です。" />
+  <meta property="og:title" content="花王 ソフィーナ　ブランド情報" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="ソフィーナのブランド一覧です。" />
+  <meta property="og:url" content="/content/wcm_kao/sites/kao/www-sofina-co-jp/brands.html" />
+  <meta property="og:site_name" content="花王 ソフィーナ" />
+  <meta property="og:image" content="/etc/designs/kao/www-sofina-co-jp/img/og-image.png" />
+  <title>花王 ソフィーナ　ブランド情報</title>
+
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/kao/www-sofina-co-jp/img/favicon.ico"/>
+  <link rel="apple-touch-icon" href="/etc/designs/kao/www-sofina-co-jp/img/apple-touch-icon.png"/>
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/component/css/header-footer.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- script_sofina -->
+  <script src="/etc/designs/kao/www-sofina-com/component/js/header-footer.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/component/js/jquery.transit.min.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/component/js/slider.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/component/js/top.js"></script>
+  <!-- / script_sofina -->
+
+</head>
+
+<body class="">
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have <span>JavaScript enabled.</span><br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div>
+     <div class="g-Area sofina-BlHeader" id="area-BlHeader">
+      <div class="g-Area__inner">
+       <div class="BlHeader">
+        <div class="sofina-HeaderLogo">
+         <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp.html">
+          <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+           <p class="g-Image__img l-Image__img"><img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina@2x.png?fmt=png-alpha" style="width : 100%;" id="umn_separa_901016833_common_column_unit_colpar_common_image_item" data-breakpoints="128,320,640,768,1024,1366" alt="SOFINA"></p>
+         </div> </a>
+       </div>
+       <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp.html"> </a>
+       <a href="javascript:void(0);" class="sofina-HeaderMenu"></a>
+       <ul class="sofina-HeaderGlobalNav">
+         <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp.html">トップ</a></li>
+         <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/philosophy.html">フィロソフィー</a></li>
+         <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/brands.html">ブランド情報</a></li>
+         <li><a href="http://ssl.kao.com/jp/shoplist/sofina/">店舗情報</a></li>
+         <li><a href="http://www.sofina.co.jp/club/index.html">クラブソフィーナ</a></li>
+         <li><a href="http://www.sofina.co.jp/customer/index.html">花王ソフィーナ<br>お肌の相談室</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
+</div><div></div><!-- area-Contents -->
+<div class="g-Area" id="area-Contents">
+  <div class="g-Section sofina-section__brandsTitle" id="common_section_wrapper_1">
+   <div class="g-Section__inner">
+    <div class="g-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+     <div class="g-Column__inner">
+
+      <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+       <div class="g-ColumnUnit">
+         <div class="g-PageTitle l-PageTitle is-layoutL sofina-PageTitle--basic is-subTitleTop">
+           <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+            <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+             <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+              <h1 class="g-PageTitle__h1 l-PageTitle__h1"><span class="cmn-richtext">
+                <span>ブランド情報
+                </span></span></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div><div class="g-Section sofina-section__brandsList" id="common_section_wrapper_2">
+<div class="g-Section__inner">
+  <div class="g-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+   <div class="g-Column__inner">
+
+    <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+     <div class="g-ColumnUnit">
+       <div class="g-HeadingTitle l-HeadingTitle is-layoutL sofina-HeadingTitle--sub has-btn g-HeadingTitle--h2 l-HeadingTitle--h2">
+         <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+          <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+           <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+              <span>ブランド一覧
+              </span></span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="g-LinkButton l-LinkButton is-btn sofina-LinkButton--btnC">
+         <a href="http://www.sofina.com/jp/products/index.html" target="_self" id="common_link_button_item_20150907175215479_LLXe" class="g-LinkButton__link l-LinkButton__link js-anchorLink"><span class="cmn-richtext">
+           <span>製品ラインナップ
+           </span></span>
+         </a>
+       </div>
+
+     </div><div class="sofina-TileLink__brandsList g-TileLinkVP l-TileLinkVP js-uniformHeight" data-uniform-target="g-TileLinkVUnit">
+     <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+      <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+       <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909192900923_OHwl" href="http://www.sofina.co.jp/jenne/" target="_self">
+         <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+          <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+           <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_sofina_janne.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+         </div>
+       </div>
+       <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+         <div class="g-Text l-Text">
+           <p class="cmn-richtext">
+           </p>
+         </div>
+       </div>
+     </div>
+     <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+       <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_sofina_jane.png.png?fmt=png-alpha" alt="ソフィーナ ジェンヌ" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+     </div><div>
+     <div class="sofina-TagLabels">
+      <span class="sofina-TagLabels_tag">スキンケア</span>
+    </div>
+  </div><div class="g-Text l-Text">
+  <p class="cmn-richtext">
+    <span>カサつきも、ニキビになるのも、気になる20代のためのスキンケア。
+    </span></p>
+  </div><div></div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909192915379_89Zv" href="http://www.sofina.co.jp/beaute/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_sofina_beaute.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_sofina_beaute.png?fmt=png-alpha" alt="ソフィーナ ボーテ" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">スキンケア</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>30代・40代の肌に。<br />一年中乾燥が気になる人のための高保湿エイジングケア。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909192938039_C5LD" href="http://www.sofina.co.jp/grace/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_grace_sofina.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_grace_sofina.png?fmt=png-alpha" alt="グレイスソフィーナ" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">スキンケア</span>
+  <span class="sofina-TagLabels_tag">ファンデーション</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>50代からの薬用スキンケア。<br />くすみ感のないハリに満ちた明るい肌に。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909192959506_ln8Q" href="http://www.sofina.co.jp/alblanc/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_alblanc.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_alblanc.png?fmt=png-alpha" alt="アルブラン" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">スキンケア</span>
+  <span class="sofina-TagLabels_tag">ファンデーション</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>「白さ」「明るさ」「透明感」のある「潤白美肌」を目指す、ソフィーナのカウンセリングブランド。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20151102182006951_K1Ix" href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip.html" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_sofina_ip.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_sofina_ip.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">スキンケア</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>疲れやストレス、強力紫外線。日々過酷な環境にさらされている現代の女性たちが美しくあり続けるために。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909192845106_7A3k" href="http://www.sofina.co.jp/facewash/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_sofina_wash.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_sofina_wash.png?fmt=png-alpha" alt="ソフィーナ 洗う、エイジングケア" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">スキンケア</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>肌本来のうるおいを守って洗える、「洗う、エイジングケア」
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909193029307_323d" href="http://www.sofina.co.jp/whitening/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_sofina_white.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_sofina_white.png?fmt=png-alpha" alt="ソフィーナ ホワイトプロフェッショナル" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">スキンケア</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>シミ<sup>＊</sup>ができやすい年代に2つのホワイトプロフェッショナル。透明感が冴えわたる、美白肌に。
+  </span></p>
+</div><div class="g-Text l-Text opt-al_r sofina-Text--anotation">
+<p class="cmn-richtext">
+  <span>＊紫外線による
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909193105678_q65E" href="http://www.sofina.co.jp/lift/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_sofina_lift.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_sofina_lift.png?fmt=png-alpha" alt="ソフィーナ リフトプロフェッショナル" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">スキンケア</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>30年以上の皮膚科学研究から生まれたハリ美容液。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909193119791_wfrJ" href="http://www.sofina.co.jp/primavista/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_primavista.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_primavista.png?fmt=png-alpha" alt="プリマヴィスタ" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">ファンデーション</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>鏡の前だけではなく、人から見られたときに若く見える顔を研究。あなたの第一印象(prima vista)を大切に考えたベースメイク。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909193132904_9KNb" href="http://www.sofina.co.jp/primavistadea/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_primavistadea.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_primavistadea.png?fmt=png-alpha" alt="プリマヴィスタ ディア" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">ファンデーション</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>50代に、もうひとつのプリマヴィスタ。黄ぐすみ感のない、明るい肌へ。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909193148941_3CYx" href="http://www.sofina.co.jp/fine-fit/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_finefit.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_fine_fit.png?fmt=png-alpha" alt="ファインフィット" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">ファンデーション</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>さっとつけるだけでシミ・くすみ・毛穴・小じわを自然にカバー。明るくキメ細かい若肌に仕上げるベースメイク。
+  </span></p>
+</div>
+</a></li>
+<li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+ <a class="is-layoutT g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20150909193203547_eObG" href="http://www.sofina.co.jp/aube/" target="_self">
+   <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+     <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/banner_aube_couture_new.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+   </div>
+ </div>
+ <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+  <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+   <div class="g-Text l-Text">
+     <p class="cmn-richtext">
+     </p>
+   </div>
+ </div>
+</div>
+<div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://elb-aem61-cnt-auth4-1116479258.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/logo_aube_couture.png?fmt=png-alpha" alt="オーブクチュール" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+</div><div>
+<div class="sofina-TagLabels">
+  <span class="sofina-TagLabels_tag">メイクアップ</span>
+</div>
+</div><div class="g-Text l-Text">
+<p class="cmn-richtext">
+  <span>あなたの顔立ちに似合うキレイを、あなた自身の手で再現するための具体策を忍ばせたポイントメイクアップシリーズ。
+  </span></p>
+</div>
+</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<!-- / area-Contents -->
+<div></div><div>
+<div class="g-Area sofina-SbBlFooter" id="area-SbBlFooter">
+  <div class="g-Area__inner">
+   <div class="SbBlFooter">
+    <div class="sofina-footerSNS">
+     <div class="sofina-footerSNS__inner">
+      <!-- COMMON SNS BUTTON START -->
+      <table width="965" height="28" border="0" cellspacing="0" cellpadding="0">
+       <tbody>
+        <tr>
+         <td width="761" height="28" nowrap align="right" valign="middle" bgcolor="#ffffff"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="18d43b045a7f3a2aa10f9d69f786175580f5bee5" data-button="button-2">Check</a> </td>
+         <td width="4"></td>
+         <td width="200" height="28" nowrap align="left" valign="middle">
+          <!-- AddThis Button BEGIN -->
+          <div class="addthis_toolbox">
+           <div class="custom_images">
+            <a class="addthis_button_facebook"><img src="http://www.sofina.co.jp/common/j/imgs/fb_button.gif" width="69" height="20" border="0" alt="Share to Facebook"></a>
+            <a class="addthis_button_twitter"><img src="http://www.sofina.co.jp/common/j/imgs/twitter_button.gif" width="55" height="20" border="0" alt="Share to Twitter"></a>
+            <a class="addthis_button_more"><img src="http://www.sofina.co.jp/common/j/imgs/add_button.gif" width="50" height="20" border="0" alt="More..."></a>
+          </div>
+        </div>
+        <!-- AddThis Button END --> </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- COMMON SNS BUTTON END -->
+</div>
+</div>
+<div class="sofina-footerPagetop">
+ <a href="#wrapper"><span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る</a>
+</div>
+<div class="sofina-footerSitemap">
+ <div class="sofina-footerSitemapColumn">
+  <div class="sofina-footerSitemapColumn__cols">
+   <ul class="sofina-footerSitemapLinks">
+    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp.html">トップ</a></li>
+    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/philosophy.html">フィロソフィー</a></li>
+    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/brands.html">ブランド情報</a></li>
+    <li><a href="http://ssl.kao.com/jp/shoplist/sofina/">店舗情報</a></li>
+    <li><a href="http://www.sofina.co.jp/customer/index.html">花王ソフィーナお肌の相談室</a></li>
+  </ul>
+</div>
+<div class="sofina-footerSitemapColumn__cols">
+ <ul class="sofina-footerSitemapLinks">
+  <li><a href="javascript:void(0);" class="sofina-footerSitemapLinks__PseudoLabel">ソフィーナのこだわり</a>
+   <ul>
+    <li><a href="http://www.sofina.co.jp/philosophy/index.html">ソフィーナの「モノづくり」</a></li>
+    <li><a href="http://www.sofina.co.jp/advisor/index.html">お客さまとの対話</a></li>
+  </ul> </li>
+</ul>
+</div>
+<div class="sofina-footerSitemapColumn__cols">
+ <ul class="sofina-footerSitemapLinks">
+  <li><a href="javascript:void(0);" class="sofina-footerSitemapLinks__PseudoLabel">美容情報</a>
+   <ul>
+    <li><a href="http://www.sofina.co.jp/gms/">ソフィーナコーナー100%活用術</a></li>
+    <li><a href="http://www.sofina.co.jp/50/index.html">新50代のためのキレイ相談室</a></li>
+    <li><a href="http://www.sofina.co.jp/skincare/">スキンケアアドバイス</a></li>
+    <li><a href="http://www.sofina.co.jp/makeup/index.html">メイクアップレッスン</a></li>
+  </ul> </li>
+</ul>
+</div>
+<div class="sofina-footerSitemapColumn__cols">
+ <ul class="sofina-footerSitemapLinks">
+  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps.html">SOFINA Beauty Power Station</a></li>
+  <li><a href="http://www.sofina.com/jp/products/">製品ラインナップ</a></li>
+  <li><a href="http://www.sofina.co.jp/club/index.html">クラブソフィーナ</a></li>
+</ul>
+<ul class="sofina-footerSitemapLinks">
+  <li><a href="http://www.kao.co.jp/saiyo/cmk/ba/">採用情報</a></li>
+</ul>
+</div>
+</div>
+<div class="sofina-footerSitemap__opt">
+  <ul class="sofina-footerSitemapLinks is-horizontal">
+   <li><a href="http://www.kao.com/jp/corp_csr/safety_03.html">化粧品の安全基準</a></li>
+   <li><a href="http://www.kao.com/jp/corp_csr/safety_06_03.html">動物実験に対する考え方</a></li>
+   <li><a href="http://www.kao.com/jp/corp_csr/safety_03.html#hyouji">化粧品等の使用上の注意について</a></li>
+ </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="g-Area sofina-BlFooter" id="area-BlFooter">
+  <div class="g-Area__inner">
+   <div class="BlFooter">
+    <div class="sofina-footerUtility">
+     <ul class="sofina-footerUtility__links">
+      <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護方針</a></li>
+      <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+      <li><a href="http://www.kao.com/jp/">花王株式会社</a></li>
+      <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+    </ul>
+    <p class="sofina-footerUtility__copyright">Copyright © 1999-2016 Kao Corporation. All rights reserved.</p>
+  </div>
+</div>
+</div>
+</div>
+<span id="breakPoint-small"></span>
+<span id="breakPoint-middle"></span>
+<span id="breakPoint-large"></span>
+</div></div>
+<script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+<style>
+.s7responsiveImage{ width: 100% }
+</style>
+<script>
+$(document).ready(function() {
+  $(".s7responsiveContainer img").each(function(index) {
+    s7responsiveImage(this);
+  });
+  $(".s7responsiveImage").each(function(index) {
+    s7responsiveImage(this);
+  });
+});
+</script><script type="text/javascript">_satellite.pageBottom();</script>
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body:not(.is-authorring) {
+    .g-ImageCarouselP {
+        .g-ImageCarouselPUnit {
+            .g-GroupBox {
+                width: 65%;
+                top: 5%;
+
+
+                @media (max-width: $break-md) {
+                    width: 60%;
+                    top: 3%;
+                    left: 5%;
+                }
+
+                @media (max-width: $break-sm) {
+                    width: 85%;
+                    top: 63%;
+                }
+            }
+        }
+    }
+}

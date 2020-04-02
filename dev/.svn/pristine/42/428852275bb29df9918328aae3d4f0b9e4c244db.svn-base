@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/*****************************
+principles font-family ゴシック(success)
+ *****************************/
+
+// font-family PageTitle/HeadingTitle用
+$fontFamily_title: "Gothic MB101 Medium", sans-serif;
+
+// font-family
+$fontFamily: "Gothic MB101 Regular", sans-serif;
+$fontFamily_01: "Gothic MB101 Bold", sans-serif;
+$fontFamily_02: "Gothic MB101 Medium", sans-serif;
+$fontFamily_03: "Gothic MB101 Regular", sans-serif;
+$fontFamily_04: "UDKakugoC80Pro-B", serif;
+$fontFamily_05: "Ryumin Bold KL", serif;
+$fontFamily_06: "Ryumin Regular KL", serif;
+$fontFamily_sm_brandHeader: "Gothic MB101 Regular", sans-serif;
+$fontFamily_md_brandHeader: "Gothic MB101 Regular", sans-serif;
+$fontFamily_lg_brandHeader: "Gothic MB101 Medium", sans-serif;
+$fontFamily_localNav_categoryLabel: "Gothic MB101 Medium", sans-serif;
+$fontFamily_localNav_label: "Gothic MB101 Regular", sans-serif;
+$fontFamily_breadcrumbs: "Gothic MB101 Regular", sans-serif;
+$fontFamily_sm_brandFooter_categoryLabel: "Gothic MB101 Regular", sans-serif;
+$fontFamily_md_brandFooter_categoryLabel: "Gothic MB101 Medium", sans-serif;
+$fontFamily_lg_brandFooter_categoryLabel: "Gothic MB101 Medium", sans-serif;
+$fontFamily_brandFooter_label: "Gothic MB101 Regular", sans-serif;
+
+// H1
+$fontSize_sm_lv1: 24px;
+$lineHeight_sm_lv1: 1.2;
+$letterSpacing_sm_lv1: normal;
+
+$fontSize_md_lv1: 36px;
+$lineHeight_md_lv1: 1.2;
+$letterSpacing_md_lv1: normal;
+
+$fontSize_lg_lv1: 36px;
+$lineHeight_lg_lv1: 1.2;
+$letterSpacing_lg_lv1: normal;
+
+// H2
+$fontSize_sm_lv2: 22px;
+$lineHeight_sm_lv2: 1.2;
+$letterSpacing_sm_lv2: normal;
+
+$fontSize_md_lv2: 28px;
+$lineHeight_md_lv2: 1.2;
+$letterSpacing_md_lv2: normal;
+
+$fontSize_lg_lv2: 28px;
+$lineHeight_lg_lv2: 1.2;
+$letterSpacing_lg_lv2: normal;
+
+// H3
+$fontSize_sm_lv3: 20px;
+$lineHeight_sm_lv3: 1.2;
+$letterSpacing_sm_lv3: normal;
+
+$fontSize_md_lv3: 24px;
+$lineHeight_md_lv3: 1.2;
+$letterSpacing_md_lv3: normal;
+
+$fontSize_lg_lv3: 24px;
+$lineHeight_lg_lv3: 1.2;
+$letterSpacing_lg_lv3: normal;
+
+// H4
+$fontSize_sm_lv4: 18px;
+$lineHeight_sm_lv4: 1.2;
+$letterSpacing_sm_lv4: normal;
+
+$fontSize_md_lv4: 20px;
+$lineHeight_md_lv4: 1.2;
+$letterSpacing_md_lv4: normal;
+
+$fontSize_lg_lv4: 20px;
+$lineHeight_lg_lv4: 1.2;
+$letterSpacing_lg_lv4: normal;
+
+// H5
+$fontSize_sm_lv5: 16px;
+$lineHeight_sm_lv5: 1.2;
+$letterSpacing_sm_lv5: normal;
+
+$fontSize_md_lv5: 18px;
+$lineHeight_md_lv5: 1.2;
+$letterSpacing_md_lv5: normal;
+
+$fontSize_lg_lv5: 18px;
+$lineHeight_lg_lv5: 1.2;
+$letterSpacing_lg_lv5: normal;
+
+// H6
+$fontSize_sm_lv6: 14px;
+$lineHeight_sm_lv6: 1.2;
+$letterSpacing_sm_lv6: normal;
+
+$fontSize_md_lv6: 16px;
+$lineHeight_md_lv6: 1.2;
+$letterSpacing_md_lv6: normal;
+
+$fontSize_lg_lv6: 16px;
+$lineHeight_lg_lv6: 1.2;
+$letterSpacing_lg_lv6: normal;
+
+// p(heading)
+$fontSize_sm_p: 14px;
+$lineHeight_sm_p: 1.2;
+$letterSpacing_sm_p: normal;
+
+$fontSize_md_p: 16px;
+$lineHeight_md_p: 1.2;
+$letterSpacing_md_p: normal;
+
+$fontSize_lg_p: 16px;
+$lineHeight_lg_p: 1.2;
+$letterSpacing_lg_p: normal;
+
+// body
+$fontSize_sm_body: 14px;
+$lineHeight_sm_body: 1.6;
+$letterSpacing_sm_body: 0.1em;
+
+$fontSize_md_body: 16px;
+$lineHeight_md_body: 1.6;
+$letterSpacing_md_body: 0.1em;
+
+$fontSize_lg_body: 16px;
+$lineHeight_lg_body: 1.6;
+$letterSpacing_lg_body: 0.1em;
+
+// caption
+$fontSize_sm_caption: 12px;
+$lineHeight_sm_caption: 1.4;
+$letterSpacing_sm_caption: 0.1em;
+
+$fontSize_md_caption: 12px;
+$lineHeight_md_caption: 1.4;
+$letterSpacing_md_caption: 0.1em;
+
+$fontSize_lg_caption: 12px;
+$lineHeight_lg_caption: 1.4;
+$letterSpacing_lg_caption: 0.1em;
+
+// brandHeader
+$fontSize_sm_brandHeader: 14px;
+$lineHeight_sm_brandHeader: 1.4;
+$letterSpacing_sm_brandHeader: normal;
+
+$fontSize_md_brandHeader: 14px;
+$lineHeight_md_brandHeader: 1.4;
+$letterSpacing_md_brandHeader: normal;
+
+$fontSize_lg_brandHeader: 14px;
+$lineHeight_lg_brandHeader: 1.6;
+$letterSpacing_lg_brandHeader: normal;
+
+// localNav・categoryLabel
+$fontSize_sm_localNav_categoryLabel: 14px;
+$lineHeight_sm_localNav_categoryLabel: 1.4;
+$letterSpacing_sm_localNav_categoryLabel: normal;
+
+$fontSize_md_localNav_categoryLabel: 14px;
+$lineHeight_md_localNav_categoryLabel: 1.4;
+$letterSpacing_md_localNav_categoryLabel: normal;
+
+$fontSize_lg_localNav_categoryLabel: 14px;
+$lineHeight_lg_localNav_categoryLabel: 1.6;
+$letterSpacing_lg_localNav_categoryLabel: normal;
+
+// localNav label
+$fontSize_sm_localNav_label: 14px;
+$lineHeight_sm_localNav_label: 1.4;
+$letterSpacing_sm_localNav_label: normal;
+
+$fontSize_md_localNav_label: 14px;
+$lineHeight_md_localNav_label: 1.4;
+$letterSpacing_md_localNav_label: normal;
+
+$fontSize_lg_localNav_label: 14px;
+$lineHeight_lg_localNav_label: 1.6;
+$letterSpacing_lg_localNav_label: normal;
+
+// breadcrumbs
+$fontSize_breadcrumbs: 12px;
+$lineHeight_breadcrumbs: 1.4;
+$letterSpacing_breadcrumbs: normal;
+
+// brandFooter categoryLabel
+$fontSize_sm_brandFooter_categoryLabel: 14px;
+$lineHeight_sm_brandFooter_categoryLabel: 1.4;
+$letterSpacing_sm_brandFooter_categoryLabel: normal;
+
+$fontSize_md_brandFooter_categoryLabel: 14px;
+$lineHeight_md_brandFooter_categoryLabel: 1.4;
+$letterSpacing_md_brandFooter_categoryLabel: normal;
+
+$fontSize_lg_brandFooter_categoryLabel: 14px;
+$lineHeight_lg_brandFooter_categoryLabel: 1.4;
+$letterSpacing_lg_brandFooter_categoryLabel: normal;
+
+// brandFooter_label
+$fontSize_brandFooter_label: 14px;
+$lineHeight_brandFooter_label: 1.4;
+$letterSpacing_brandFooter_label: normal;

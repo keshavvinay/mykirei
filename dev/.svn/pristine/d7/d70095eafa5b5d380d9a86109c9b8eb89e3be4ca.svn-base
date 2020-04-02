@@ -1,0 +1,337 @@
+.guhl-header {
+    width: 100%;
+    max-width: 1440px;
+    height: 5rem;
+    z-index: 100;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:0 auto;
+    background-color: $solid-white;
+    transition: all .2s;
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            display:inline-block;
+            .g-TextLinkP {
+                margin-top: 10px;
+                margin-bottom:0;
+            }
+            .g-TextLinkP__list__item {
+                padding: 5px !important;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+            &.header-menu , &.close-menu{
+                margin-left:18px;
+                ul {
+                    display:inline-block;
+                    margin:0 !important;
+                    -webkit-transform: translate(10px, -50%);
+                    -ms-transform: translate(10px, -50%);
+                    transform: translate(10px, -50%);
+                    .g-TextLinkUnit__link  {
+                        padding:10px 0 0 20px;
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                        @media #{$phone-only} {
+                            padding-left:10px; 
+                        }
+                        &:before {
+                            content: "";
+                            background: url(/content/dam/sites/kaousa/www-guhl-com/svg/guhl-hamburger.png) no-repeat;
+                            position:absolute;
+                            margin-right:1rem;
+                            width:10px;
+                            height:10px;
+                            top:17px;
+                            left:0;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                            @media #{$phone-only} {
+                                left:-8px;
+                            }
+                        }
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            &.close-menu{
+                display:none;
+                ul {
+                    .g-TextLinkUnit__link {
+                        &:before {
+                            background:url(/content/dam/sites/kaousa/www-guhl-com/svg/guhl-cross.png) no-repeat;
+                            height:13px;
+                            width:13px;
+                            top:16px;
+                        }
+                    }
+                }
+            }
+            &.logo {
+                .g-Image {
+                    margin-bottom: 0;
+                }
+                .g-Image__img  {
+                    width:70px;
+                    height: 43px;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+                    -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+                    transform: translateX(-50%) translateY(-50%) scale(1);
+                    transition: all .2s ease-out;
+                    @media #{$phone-only} {
+                        -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+                    -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+                    transform: translateX(-50%) translateY(-50%) scale(1);
+                    }
+                }
+            }           
+            &.header-links {
+                ul {
+                    position: absolute;
+                    top: 50%;
+                    right: 3%;
+                    list-style-type: none;
+                    padding-left: 0;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-family:$primary-font-Medium;
+                    -webkit-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                     transform: translateY(-50%);
+                     li {
+                         display:inline-block;
+                     }
+                }
+               .g-TextLinkUnit__link  {
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    padding:5px;
+                    &:hover {
+                        cursor: pointer;
+                        color: $solid-white;
+                        background: $solid-black;
+                    }
+                }
+                @media #{$tablet-only}{
+                    width: 20%;
+                }
+                @media #{$phone-only}{
+                    display:none;
+                }               
+            }
+        }
+    }
+    .g-TextLinkP__list {
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        position: absolute;
+        top: 50%;
+    }
+}
+.sidenav {
+    width: 340px;
+    position: fixed;
+    z-index: 99;
+    top: 5rem;
+    bottom:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background:$solid-white;
+    border-right: 2px solid $solid-white;
+    -webkit-transform: translateX(-340px);
+    -ms-transform: translateX(-340px);
+    transform: translateX(-340px);
+    transition: all .3s ease;
+    opacity: 0;
+    @media #{$phone-only} {
+        width: 100%;
+    }
+    .menu-nav1 {
+        margin: 32px 30px 32px 30px;
+        border-bottom: 2px solid $solid-black;
+    }
+    .menu-nav2 {
+        margin: 0 30px;
+    }
+    .menu-nav1,.menu-nav2 {
+        .g-ListP {
+            margin-bottom:32px;
+        }
+        ul {
+            padding-left:0;
+            li {
+                text-align: center;
+                text-transform: uppercase;
+                .g-ListUnit {
+                    padding: 5px 8px 4px 8px;
+                    display:inline-block;
+                    color:$solid-black;
+                    font-size: 18px;
+                    font-family: $primary-font-Bold;
+                    text-decoration: none;
+                    &:hover {
+                    background:$solid-black;
+                    color:$solid-white;
+                    cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .menu-social-nav {
+        margin:130px 30px 10px 30px;
+        padding: 15px 0;
+        border-top: 1px solid $solid-black;
+        border-bottom: 1px solid $solid-black;
+        height:20px;
+        top: calc(100% - 17rem);
+        position: absolute;
+        .g-ListP {
+            margin:0;
+            ul {
+                display: table;
+                width: 90%;
+                padding-left:0;
+                table-layout: fixed;
+                li {
+                    display: table-cell;
+                    text-align: center;
+                    a {
+                        text-decoration: none;
+                        position:absolute;
+                        width:16px;
+                        height:16px;
+                        &:before {
+                            content: ""; 
+                        }
+                        &.facebook-icon {
+                            background: url(/content/dam/sites/kaousa/www-guhl-com/svg/facebook-footer.svg) no-repeat;
+                            
+                        }
+                        &.instagram-icon {
+                            background: url(/is/image/content/dam/sites/kaousa/www-guhl-com/svg/instagram.png?wid=16) no-repeat;
+
+                        }
+                        &.youtube-icon  {
+                            background: url(/is/image/content/dam/sites/kaousa/www-guhl-com/svg/yt.png?wid=22&hei=16) no-repeat;
+                            width:22px;
+                        }
+                        &.icon-mail3 {
+                            background: url(/content/dam/sites/kaousa/www-guhl-com/svg/mail-black.svg) no-repeat;
+                            width:21px;
+                        }
+                    }
+                }
+            }
+        }      
+    }
+    .menu-txt-link {
+        text-align: center;
+        top: calc(100% - 4rem);
+        position: absolute;
+        width: 100%;
+        ul {
+            li {
+                a{
+                    font-size:11px;
+                    font-family: $primary-font-Light;
+                    border-bottom: 1px dotted $solid-black;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+.guhl-header {
+    &.is-scrolled {
+        opacity: 0.8;
+        position:fixed;
+        height:3rem;
+        .header-menu {
+            .g-TextLinkUnit__link {
+                text-indent: -9999px;
+            }
+        }
+        .logo {
+            .g-Image__img {
+                -webkit-transform: translateX(-50%) translateY(-50%) scale(.6);
+                -ms-transform: translateX(-50%) translateY(-50%) scale(.6);
+                transform: translateX(-50%) translateY(-50%) scale(.6);
+                transition: all .3s ease;
+                @media #{$phone-only}{
+                    -webkit-transform: translateX(-50%) translateY(-50%) scale(.6);
+                    -ms-transform: translateX(-50%) translateY(-50%) scale(.6);
+                    transform: translateX(-50%) translateY(-50%) scale(.6);
+                }
+            }
+        }   
+        &:hover {
+            height:5rem;
+            .header-menu {
+                .g-TextLinkUnit__link {
+                    text-indent:0;
+                }
+            }
+            .logo {
+                .g-Image__img  {
+                    -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+                    -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+                    transform: translateX(-50%) translateY(-50%) scale(1);
+                    transition: all .2s ease-out;
+                    @media #{$phone-only} {
+                        -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+                        -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+                        transform: translateX(-50%) translateY(-50%) scale(1);
+                    }
+                }
+            }
+        }
+    }
+}
+.menu-open {
+    .guhl-header {
+        &.is-scrolled {
+            opacity: 0.8;
+            position:fixed;
+        }
+    }
+    .header-menu {
+        display:none;
+    }
+    .close-menu {
+        display:block !important;
+    }
+    .sidenav {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0); 
+        opacity: 1;
+    }
+    .g-Section,.g-ProductDetailTemplate, .g-ArticleHeading , .guhl-footer, .g-PrivacyNotice__modal{
+        -webkit-transform: translateX(340px);
+        -ms-transform: translateX(340px);
+        transform: translateX(340px);
+        @media #{$phone-only} {
+            -webkit-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+            transform: translateX(100%);
+        }
+    }
+}
+ 
+  
+  

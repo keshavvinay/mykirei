@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KMS HAIR | SEARCH RESULT</title>
+    <!-- AEM CSS -->
+    <link rel="stylesheet" href="https://www.kmshair.com/etc/clientlibs/common/lib.css" type="text/css">
+    <link rel="stylesheet" href="https://www.kmshair.com/etc/clientlibs/common/basic.css" type="text/css">
+    <link rel="stylesheet" href="https://www.kmshair.com/etc/designs/kaousa/www-kmshair-com/en-us/basic.css" type="text/css">
+    <link rel="stylesheet" href="https://www.kmshair.com/etc/clientlibs/common/component.css" type="text/css">
+    <link rel="stylesheet" href="https://www.kmshair.com/etc/designs/kaousa/www-kmshair-com/en-us/component.css" type="text/css">
+    <link rel="stylesheet" href="https://www.kmshair.com/etc/clientlibs/common/option.css" type="text/css">
+    <link rel="stylesheet" href="https://www.kmshair.com/etc/designs/kaousa/www-kmshair-com/en-us/option.css" type="text/css">
+    <!-- /AEM CSS -->
+    <!-- AEM JS -->
+    <script type="text/javascript" src="https://www.kmshair.com/etc/clientlibs/common/lib.js"></script>
+    <script type="text/javascript" src="https://www.kmshair.com/etc/clientlibs/libs_kao/common/common-utils.js"></script>
+    <script type="text/javascript" src="https://www.kmshair.com/etc/clientlibs/common/component.js"></script>
+    <script type="text/javascript" src="https://www.kmshair.com/etc/designs/kaousa/www-kmshair-com/en-us/component.js"></script>
+    <!-- /AEM JS -->
+
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <!-- area-BrHeader -->
+  <div class="g-Area" id="area-BrHeader">
+   <div class="kmsBrandHeader">
+    <div class="kmsBrandHeader__inner">
+     <a href="javascript:void(0);" class="kmsBrandHeader__menu-trigger is-deactive js-mainmenu-trigger"> <span></span> <span></span> <span></span> </a>
+     <div class="kmsBrandHeader__logo">
+      <a class="g-Image l-Image is-link" href="https://www.kmshair.com/en-US/Style-Matters/" target="_self" id="common_image_item_20170214171916538_prSr"><p class="g-Image__img l-Image__img"><img src="https://www.kmshair.com/content/dam/sites/kaousa/www-kmshair-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;"></p></a><div class="g-Image l-Image">
+   <div class="cq-dd-image"></div>
+  </div>
+
+      <!-- <div class="g-Image l-Image" style="position : relative;">
+                <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmshair-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;"></p>
+              </div>-->
+     </div>
+    </div>
+    <!-- toggle menu -->
+    <div class="kmsBrandHeader__mainmenu">
+     <!-- desktop and mobile -->
+     <div class="kmsBrandHeader__mainmenu__list opt-hide-md">
+      <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) desktop and mobile -->
+      <div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222408454_rPAS" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Products
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Products/" target="_self" id="common_text_link_unit_20170303222408463_l0iV" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Products
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Products/Product_Philosophy/" target="_self" id="common_text_link_unit_20170303222408470_zxrC" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Product Philosophy
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222433680_v5ic" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Campaign<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Campaign/" target="_self" id="common_text_link_unit_20170303222433689_SEor" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Campaign<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Campaign/The-Looks/" target="_self" id="common_text_link_unit_20170303222433697_4mNs" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>The Looks<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Campaign/The-Style-Equations/" target="_self" id="common_text_link_unit_20170303222433704_1VcJ" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>The Style Equations
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222502358_Z237" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>For Stylists<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/" target="_self" id="common_text_link_unit_20170303222502368_QFh9" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>For Stylists<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/Community-Pathway/" target="_self" id="common_text_link_unit_20170303222502380_obzG" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Community Pathway<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/Creative-Sessions/" target="_self" id="common_text_link_unit_20170303222502402_hhck" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Creative Sessions
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/Education-App/" target="_self" id="common_text_link_unit_20170303222502391_Lmo6" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     </span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222521296_6fff" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>About KMS<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/About-KMS/" target="_self" id="common_text_link_unit_20170303222521305_uHaD" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>About KMS<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/About-KMS/Technology/" target="_self" id="common_text_link_unit_20170303222521315_BGlS" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Technology<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div>
+
+      <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) desktop and mobile -->
+     </div>
+     <!-- /desktop and mobile -->
+     <!-- tablet -->
+     <div class="kmsBrandHeader__mainmenu--md opt-hide-lg opt-hide-sm">
+      <div class="kmsBrandHeader__mainmenu__list">
+       <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+       <div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844270_kXIu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Products
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Products/" target="_self" id="common_text_link_unit_20170303222844280_Rz1c" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Products
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Products/Product_Philosophy/" target="_self" id="common_text_link_unit_20170303222844287_YF22" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Product Philosophy
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844300_w4s7" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Campaign<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Campaign/" target="_self" id="common_text_link_unit_20170303222844309_2XX7" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Campaign<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Campaign/The-Looks/" target="_self" id="common_text_link_unit_20170303222844316_Ub7h" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>The Looks<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/Campaign/The-Style-Equations/" target="_self" id="common_text_link_unit_20170303222844323_HwrT" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>The Style Equations
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div>
+
+       <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+      </div>
+      <div class="kmsBrandHeader__mainmenu__list">
+       <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+       <div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844339_L3u4" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>For Stylists<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/" target="_self" id="common_text_link_unit_20170303222844348_OVlW" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>For Stylists<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/Community-Pathway/" target="_self" id="common_text_link_unit_20170303222844355_U8Jr" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Community Pathway<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/Education-App/" target="_self" id="common_text_link_unit_20170303222844362_L1tu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Community App
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/For-Stylists/Creative-Sessions/" target="_self" id="common_text_link_unit_20170303222844369_7D76" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Creative Sessions
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+   <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844382_qWnI" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>About KMS<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+   <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/About-KMS/" target="_self" id="common_text_link_unit_20170303222844391_tGdJ" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>About KMS<br />
+
+  </span></span>
+    </a>
+  </div></li>
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+     <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+   <a href="https://www.kmshair.com/en-US/About-KMS/Technology/" target="_self" id="common_text_link_unit_20170303222844399_wiji" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+     <span>Technology<br />
+
+  </span></span>
+    </a>
+  </div></li>
+   </ul>
+  </div>
+
+  </div>
+
+       <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+      </div>
+     </div>
+     <!-- /tablet -->
+     <div class="kmsBrandHeader__mainmenu__sns">
+      <ul class="kmsBrandHeader__mainmenu__sns__list">
+       <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://www.facebook.com/kmshairUS" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--fb"></span></a> </li>
+       <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://www.youtube.com/KMShair" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--yt"></span></a> </li>
+       <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://pinterest.com/kmshair/" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--pinterest"></span></a> </li>
+       <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://twitter.com/kmshairUS" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--tw"></span></a> </li>
+       <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://instagram.com/kmshairUS" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--inst"></span></a> </li>
+      </ul>
+     </div>
+    </div>
+    <!-- /toggle menu -->
+   </div>
+  </div>
+  <!-- / area-BrHeader -->
+
+
+  <div class="wrapper">
+    <section class="section-search">
+      <form class="search" action="" method="post">
+        <input type="text" name="" class="search__input" placeholder="SEARCH" autocomplete="off">
+        <button type="submit" class="search__submit button">
+          <span class="search__submit__text">START SEARCH</span>
+        </button>
+      </form>
+    </section>
+    <section class="section-resultHeader">
+      <h3 class="result__header__text">Search result for:</h3>
+      <h2 class="result__header__tag">LOREM IPSUM</h2>
+    </section>
+    <section class="section-result">
+      <h2 class="result__catTitle">1st content category</h2>
+      <ul class="result__contentWrapper">
+        <li class="result__content">
+          <div class="result__inner">
+            <h3 class="result__subTitle">page name with highlighted <span class="result__subTitle__keyword">keyword</span></h3>
+            <p class="result__URL"><a class="result__URL__link" href="https://www.kmshair.com/en-US">https://www.kmshair.com/en-US</a></p>
+            <p class="result__desc">Description containing <span class="result__desc__keyword">keyword</span>. use was searching for. Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit. Aenean commodo ligula eet dolor. Aenean massa. Cum sociis natoque penatibus et magnis keyword dis parturient</p>
+          </div>
+        </li>
+        <li class="result__content">
+          <div class="result__inner">
+            <h3 class="result__subTitle">page name with highlighted <span class="result__subTitle__keyword">keyword</span></h3>
+            <p class="result__URL"><a class="result__URL__link" href="https://www.kmshair.com/en-US">https://www.kmshair.com/en-US/long-url-testlong-url-testlong-url-testlong-url-testlong-url-testlong-url-testlong-url-testlong-url-testlong-url-test</a></p>
+            <p class="result__desc">Description containing <span class="result__desc__keyword">keyword</span>. use was searching for. Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit. Aenean commodo ligula eet dolor. Aenean massa. Cum sociis natoque penatibus et magnis keyword dis parturient</p>
+          </div>
+        </li>
+      <div class="section-loadMore">
+        <a href="" class="loadMore__link">
+          <span class="loadMore__link__text">LOAD MORE</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-result">
+      <h2 class="result__catTitle">2nd content category</h2>
+      <div class="result__content">
+        <div class="result__inner">
+          <h3 class="result__subTitle">page name with highlighted <span class="result__subTitle__keyword">keyword</span></h3>
+          <p class="result__URL"><a class="result__URL__link" href="https://www.kmshair.com/en-US">https://www.kmshair.com/en-US</a></p>
+          <p class="result__desc">Description containing <span class="result__desc__keyword">keyword</span>. use was searching for. Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit. Aenean commodo ligula eet dolor. Aenean massa. Cum sociis natoque penatibus et magnis keyword dis parturient</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-result">
+      <h2 class="result__catTitle">3rd content category</h2>
+      <ul class="result__contentWrapper">
+        <li class="result__content">
+          <div class="result__inner">
+            <h3 class="result__subTitle">page name with highlighted <span class="result__subTitle__keyword">keyword</span></h3>
+            <p class="result__URL"><a class="result__URL__link" href="https://www.kmshair.com/en-US">https://www.kmshair.com/en-US</a></p>
+            <p class="result__desc">Description containing <span class="result__desc__keyword">keyword</span>. use was searching for. Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit. Aenean commodo ligula eet dolor. Aenean massa. Cum sociis natoque penatibus et magnis keyword dis parturient</p>
+          </div>
+        </li>
+        <li class="result__content">
+          <div class="result__inner">
+            <h3 class="result__subTitle">page name with highlighted <span class="result__subTitle__keyword">keyword</span></h3>
+            <p class="result__URL"><a class="result__URL__link" href="https://www.kmshair.com/en-US">https://www.kmshair.com/en-US</a></p>
+            <p class="result__desc">Description containing <span class="result__desc__keyword">keyword</span>. use was searching for. Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit. Aenean commodo ligula eet dolor. Aenean massa. Cum sociis natoque penatibus et magnis keyword dis parturient</p>
+          </div>
+        </li>
+      </ul>
+      <div class="section-loadMore">
+        <a href="" class="loadMore__link">
+          <span class="loadMore__link__text">LOAD MORE</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Search Country Selector (global only) -->
+    <section class="section-countrySelector">
+      <p class="countrySelector__info">
+        Not found what you‘ve been looking for?<br>
+        Visit your local website and get more interesting contents.
+      </p>
+      <div class="countrySelector__inner">
+        <a class="countrySelector__select js-countrySelector" href="javascript:void(0)">Please choose country</a>
+        <ul class="countrySelector__list">
+          <li class="countrySelector__list__item"><a href="#">DEUTSCHLAND / CHOOSE YOUR COUNTRY</a></li>
+          <li class="countrySelector__list__item"><a href="#">DEUTSCHLAND / CHOOSE YOUR COUNTRY</a></li>
+          <li class="countrySelector__list__item"><a href="#">DEUTSCHLAND / CHOOSE YOUR COUNTRY</a></li>
+          <li class="countrySelector__list__item"><a href="#">DEUTSCHLAND / CHOOSE YOUR COUNTRY</a></li>
+          <li class="countrySelector__list__item"><a href="#">DEUTSCHLAND / CHOOSE YOUR COUNTRY</a></li>
+          <li class="countrySelector__list__item"><a href="#">DEUTSCHLAND / CHOOSE YOUR COUNTRY</a></li>
+          <li class="countrySelector__list__item"><a href="#">DEUTSCHLAND / CHOOSE YOUR COUNTRY</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- /Search Country Selector (global only) -->
+  </div>
+
+
+  <!-- area-BrFooter -->
+<div class="g-Area" id="area-BrFooter">
+ <div class="g-BrFooter l-BrFooter">
+  <div class="g-BrFooter__inner l-BrFooter__inner">
+   <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+    <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+     <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+      <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="g-BrFooter__infoBlock l-BrFooter__infoBlock">
+    <div class="c260brandFooter__links is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-US/Privacy-Policy/" target="_self" id="common_text_link_unit_20170303223405558_bEKu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>PRIVACY POLICY
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-US/Terms-Of-Use/" target="_self" id="common_text_link_unit_20170303223428608_5OJs" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>TERMS OF USE
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="http://contact.kmshair.com/us/en" target="_self" id="common_text_link_unit_20170303223450270_zNQ9" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>CONTACT
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-US/FAQ/" target="_self" id="common_text_link_unit_20170303223509675_6Tqm" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>FAQ
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div>
+ <div class="c260brandFooter">
+  <div class="c260brandFooter__sns">
+   <ul class="c260brandFooter__sns__list">
+    <li class="c260brandFooter__sns__item"><a href="https://www.facebook.com/kmshairUS" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--fb"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://www.youtube.com/KMShair" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--yt"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://pinterest.com/kmshair/" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--pinterest"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://twitter.com/kmshairUS" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--tw"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://instagram.com/kmshairUS" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--inst"></span></a></li>
+   </ul>
+  </div>
+  <!-- PARSYS TextLinkP(footerMenu) + ImageItem(logo) -->
+  <a class="g-Image l-Image is-link c260brandFooter__logo" href="http://kaosalondivision.com" target="_self" id="common_image_item_20170303223703591_9gIf"><p class="g-Image__img l-Image__img"><img src="https://www.kmshair.com/content/dam/sites/kaousa/www-kmshair-com/en/kao-logo.svg" alt="kao SALON DIVISION" class="cq-dd-image" style="width : 100%;"></p></a>
+
+  <!-- /PARSYS TextLinkP(footerMenu) + ImageItem(logo) -->
+  <!-- C290 COUNTRY SELECTOR (Footer) -->
+  <div class="c290brandFooter">
+   <!-- PARSYS TextLinkP(trigger link) -->
+   <div class="c290brandFooter__trigger js-c290brandFooter is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170529171857680_KEg5" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>COUNTRY SELECTOR
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+   <!-- /PARSYS TextLinkP(trigger link) -->
+   <!-- toggle block -->
+   <div class="c290brandFooter__selector">
+    <!-- PARSYS TextLinkP(international link) -->
+    <div class="c290brandFooter__international__wrapper is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="#" target="_self" id="common_text_link_unit_20170529172252502_48cW" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>INTERNATIONAL
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+    <!-- /PARSYS TextLinkP(international link) -->
+    <div class="c290brandFooter__selector__wrapper">
+     <div class="c290brandFooter__selector__colgroup--md">
+      <div class="c290brandFooter__selector__colgroup--lg">
+       <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+       <div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-AU/Style-Matters/" target="_self" id="common_text_link_unit_20170530161940779_LAHD" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>AUSTRALIA
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name js-langopen is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170530162311239_0EaO" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>BELGIUM<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/fr-BE/Style-Matters/" target="_self" id="common_text_link_unit_20170530162311248_wHfZ" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>FR
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/nl-BE/Style-Matters/" target="_self" id="common_text_link_unit_20170530162311254_zwJM" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>NL
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country">
+ <div class="c290brandFooter__selector__country__name js-langopen is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170530162322915_4bPl" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>CANADA<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-CA/Style-Matters/" target="_self" id="common_text_link_unit_20170530162322925_Mst4" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>EN
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/fr-CA/Style-Matters/" target="_self" id="common_text_link_unit_20170530162322931_eQsu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>FR
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/da-DK/Style-Matters/" target="_self" id="common_text_link_unit_20170530162332846_VjJA" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>DANMARK<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/de-DE/Style-Matters/" target="_self" id="common_text_link_unit_20170530162346577_G766" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>DEUTSCHLAND<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+       <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+      </div>
+      <div class="c290brandFooter__selector__colgroup--lg">
+       <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+       <div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/fr-FR/Style-Matters/" target="_self" id="common_text_link_unit_20170530162357625_UbTB" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>FRANCE<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/it-IT/Style-Matters/" target="_self" id="common_text_link_unit_20170530162407763_RjgS" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>ITALIA<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/nl-NL/Style-Matters/" target="_self" id="common_text_link_unit_20170530162417288_kffz" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>NEDERLAND<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-NZ/Style-Matters/" target="_self" id="common_text_link_unit_20170530162428566_Reb2" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>NEW ZEALAND<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/nb-NO/Style-Matters/" target="_self" id="common_text_link_unit_20170530162439715_yHwm" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>NORGE<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+       <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+      </div>
+     </div>
+     <div class="c290brandFooter__selector__colgroup--md">
+      <div class="c290brandFooter__selector__colgroup--lg">
+       <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+       <div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/de-AT/Style-Matters/" target="_self" id="common_text_link_unit_20170530162452309_to7c" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>ÖSTERREICH<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-ZA/Style-Matters/" target="_self" id="common_text_link_unit_20170530162511970_bDic" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>SOUTH AFRICA<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/fi-FI/Style-Matters/" target="_self" id="common_text_link_unit_20170530162522630_2ni9" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>SUOMI<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/sv-SE/Style-Matters/" target="_self" id="common_text_link_unit_20170530162533781_4yAX" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>SVERIGE<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name js-langopen is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170612172348726_JSDN" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>SWITZERLAND<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/de-CH/" target="_self" id="common_text_link_unit_20170612172348737_DtZZ" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>DE
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/fr-CH/Style-Matters/" target="_self" id="common_text_link_unit_20170612172348747_qFpK" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>FR
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+       <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+      </div>
+      <div class="c290brandFooter__selector__colgroup--lg">
+       <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+       <div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-UK/Style-Matters/" target="_self" id="common_text_link_unit_20170530162558505_TXdF" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>UNITED KINGDOM<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/en-US/Style-Matters/" target="_self" id="common_text_link_unit_20170530162609249_lVKe" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>UNITED STATES<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/zh-TW/Style-Matters/" target="_self" id="common_text_link_unit_20170530162618938_VsE4" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>台灣<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox c290brandFooter__selector__country is-paddingReset">
+ <div class="c290brandFooter__selector__country__name is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="https://www.kmshair.com/zh-HK/Style-Matters/" target="_self" id="common_text_link_unit_20170530162629382_Hmmi" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>香港特別行政區<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="c290brandFooter__selector__country__lang is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   </span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+       <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- /toggle block -->
+  </div>
+  <!-- /C290 COUNTRY SELECTOR (Footer) -->
+ </div>
+</div>
+
+
+
+   </div>
+  </div>
+ </div>
+</div><!-- / area-BrFooter -->
+
+    <script src="js/common.js"></script>
+  </body>
+</html>

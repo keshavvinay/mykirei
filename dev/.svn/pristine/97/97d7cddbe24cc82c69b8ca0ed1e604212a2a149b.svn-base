@@ -1,0 +1,370 @@
+/*large-screen*/
+@media only screen and (min-width: 1025px) {}
+
+/*tablet*/
+
+@media (max-width: $break-md) and (min-width: 641px) {
+
+    #wrapper {
+        max-width: $break-md;
+        margin: auto;
+    }
+
+    #common_section_wrapper_1 {
+        .g-Section__inner {
+            padding-top: 70px;
+            padding-bottom: 40px;
+        }
+    }
+
+    #landingpage-title {
+        margin-bottom: 40px;
+        // height: 98px;
+
+        h1 {
+            font-weight: $roman;
+        }
+    }
+
+    #area-BrHeader {
+        top: 26px;
+
+        .kaosalon-header-wrapper {
+            // height: 89px;
+
+            .kaosalon-logo-wrapper {
+                max-width: 120px;
+                left: 69px;
+            }
+
+            .kaosalon-button-wrapper {
+                right: 70px;
+
+                #contact-button {
+                    min-width: 138px;
+                    height: 40px !important;
+                    padding: 0px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .carousel-groupbox {
+
+        #orbie-logo,
+        #kms-logo,
+        #goldwell-logo {
+            bottom: 40px;
+            width: 60%;
+        }
+    }
+
+    .green-mark {
+        .g-ColumnUnit {
+            &::before {
+                width: 36px;
+                left: -59px;
+                // height: calc(100% - 140px);
+                height: 87%;
+            }
+        }
+    }
+
+    #shop-online {
+        // height: 39px !important;
+        font-weight: $roman;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+
+
+
+    #area-BrFooter {
+        .g-BrFooter__inner {
+            padding: 40px 0;
+        }
+
+        .kaosalon-footer {
+            padding: 0 69px;
+
+            #language {
+                display: inline-block;
+                float: left;
+
+                &::before,
+                &::after {
+                    top: 0;
+                }
+            }
+
+            #footer-list {
+                text-align: right;
+                display: inline-block;
+                float: right;
+
+                .g-ListP__ul {
+                    padding: 0;
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    #imprint-image {
+        padding-left: 0;
+    }
+
+    .modal {
+        .g-HeadingTitle {
+            width: 611px;
+            padding: 35px;
+        }
+
+        .close-button {
+            width: 28px;
+            height: 28px;
+            ;
+        }
+
+        .g-TextLinkP {
+            padding-top: 20px;
+        }
+    }
+
+    #contact-group-box {
+
+        .form_row,
+        .selectDropDown {
+            font-size: 18px;
+
+            input[type='submit'] {
+                min-width: 96px !important;
+            }
+        }
+
+        .selectDropDown {
+            .g-ListP {
+                max-height: 195px;
+            }
+        }
+    }
+
+    #country-group-box {
+        ul {
+            li {
+                font-size: 18px;
+                line-height: 55px !important;
+            }
+        }
+    }
+}
+
+
+
+/*mobile*/
+
+@media (max-width: $break-sm) {
+    #wrapper {
+        max-width: $break-sm;
+        margin: auto;
+    }
+
+    #area-BrHeader {
+        top: 16px;
+
+        .kaosalon-header-wrapper {
+            height: 38px;
+
+            .kaosalon-logo-wrapper {
+                max-width: 70px;
+                left: 28px;
+            }
+
+            .kaosalon-button-wrapper {
+                right: 28px;
+                top: 5px;
+
+                #contact-button {
+                    min-width: 96px;
+                    height: 30px !important;
+                    padding: 0px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .green-mark {
+        .g-ColumnUnit {
+            &::before {
+                width: 16px;
+                left: -18px;
+                height: calc(100% - 97px);
+            }
+        }
+    }
+
+    #landingpage-title {
+        margin-bottom: 14px;
+        // height: 75px;
+    }
+
+    .carousel-groupbox {
+
+        #orbie-logo,
+        #kms-logo,
+        #goldwell-logo {
+            bottom: 20px;
+            width: 50%;
+        }
+    }
+
+    #if-you-are-partner {
+        font-size: 10px;
+    }
+
+    #shop-online {
+        height: 30px !important;
+        color: #ffffff;
+        font-family: $primary-font;
+        font-size: 10px;
+        font-weight: $roman;
+        line-height: 12px;
+    }
+
+
+    #enriching-clients {
+        margin-top: 20px;
+        height: 65px;
+    }
+
+    #imprint-image {
+        padding-left: 0;
+    }
+
+    #area-BrFooter {
+        .kaosalon-footer {
+            background-color: $white;
+            height: 47px;
+            line-height: 20px;
+            padding: 0 28px;
+
+            #language {
+                display: block;
+                font-size: 9px;
+                width: 100%;
+
+                &::before,
+                &::after {
+                    width: 13px;
+                    height: 13px;
+                    top: calc(50% - 7px);
+                }
+
+                a {
+                    padding-left: 15px;
+                }
+            }
+
+            #footer-list {
+                padding-top: 0;
+                display: block;
+                float: none;
+                width: 100%;
+
+                .g-ListP__ul {
+                    padding: 0;
+
+                    .g-ListP__ul__item {
+                        display: inline;
+                        padding: 0 5px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    #img-sustainability {
+        margin-top: 30px;
+    }
+
+    .modal {
+        .country-group-box.g-HeadingTitle {
+            width: 85%;
+            padding: 20px;
+        }
+
+        .contact-group-box.g-HeadingTitle {
+            width: 100%;
+            padding: 20px;
+            top: 0 !important;
+        }
+
+        .close-button {
+            width: 16px;
+            height: 16px;
+        }
+
+        .g-TextLinkP {
+            padding-top: 17px;
+        }
+    }
+
+    #country-group-box {
+        ul {
+            li {
+                font-size: 12px;
+                line-height: 20px !important;
+                width: 50%;
+            }
+        }
+    }
+
+    #contact-group-box {
+
+        .form_row,
+        .selectDropDown {
+            width: 100% !important;
+            box-sizing: content-box;
+            font-size: 12px;
+
+            .form_rightcol {
+                padding-bottom: 24px;
+            }
+
+            input[type='submit'] {
+                min-width: 100% !important;
+            }
+        }
+
+        .contact-required {
+            top: 0;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        #callAllowed {
+            width: 100%;
+        }
+    }
+
+    /*cookie */
+    #area-PrivacyNotice {
+        .g-PrivacyNotice__modal {
+            padding: 14px 28px 0;
+
+            .g-HeadingTitle {
+                margin-bottom: 10px;
+            }
+        }
+
+        .g-PrivacyNotice__modal__policyLink {
+            ul {
+                display: none;
+            }
+        }
+    }
+}

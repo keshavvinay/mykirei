@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_006: Label Tag Pack</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>G_CON_006: Label Tag Pack</h1>
+
+<!-- G_CON_006: Label Tag Pack -->
+<div class="method">
+  <p class="componentName">Label Tag Pack</p>
+  <ul>
+    <li>Unit : 1 - 10</li>
+    <li>Specific CSS class : 任意クラス付与</li>
+    <li>Background image : 背景画像スタイル付与</li>
+    <li>ID : 任意ID付与</li>
+  </ul>
+</div>
+
+
+<h3 class="settingName">Typical</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">length : 10 (max)</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">SpecificCSSclass</h3>
+<div class="g-LabelTagP l-LabelTagP SpecificCSSclass">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">Background image</h3>
+<div class="g-LabelTagP l-LabelTagP is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">ID</h3>
+<div id="" class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <!-- LabelTagUnit -->
+      <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+      <!-- / LabelTagUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<!-- LabelTagUnit -->
+<div class="method">
+  <p class="componentName">LabelTagUnit</p>
+  <ul>
+    <li>LabelTag Color : color指定 (前景、背景、border)</li>
+    <li>Specific CSS class : 任意クラス付与</li>
+    <li>Background image : 背景画像スタイル付与</li>
+    <li>id : 任意ID付与</li>
+  </ul>
+</div>
+
+
+<h3 class="settingName">Typical</h3>
+<div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+
+<h3 class="settingName">LabelTag Color : color1 (default)</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">LabelTag Color : color2</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset2">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset2">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">LabelTag Color : color3</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset3">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset3">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">LabelTag Color : color4</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset4">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset4">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">LabelTag Color : color5</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset5">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset5">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">LabelTag Color : color6</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset6">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset6">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">LabelTag Color : color7</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset7">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset7">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">SpecificCSSclass (li)</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1 SpecificCSSclass">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">Background image (li)</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1 is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">ID</h3>
+<div class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span id="" class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+
+<hr />
+
+
+<h3 class="settingName">Design Sample : Background image (ul/li)</h3>
+<div class="g-LabelTagP l-LabelTagP is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1 is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>LabelTag items Richtext</span>
+        </span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+<!-- / G_CON_006: Label Tag Pack -->
+
+
+<h3 class="settingName">Design Sample : long text</h3>
+<div id="" class="g-LabelTagP l-LabelTagP">
+  <ul class="g-LabelTagP__list l-LabelTagP__list">
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>item</span>
+        </span>
+      </span>
+    </li>
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, blanditiis?</span>
+        </span>
+      </span>
+    </li>
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>LabelTagitemsRichtextLabelTagitemsRichtextLabelTagitemsRichtextLabelTagitemsRichtextLabel</span>
+        </span>
+      </span>
+    </li>
+    <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        <span class="cmn-richtext">
+          <span>item</span>
+        </span>
+      </span>
+    </li>
+  </ul>
+</div>
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

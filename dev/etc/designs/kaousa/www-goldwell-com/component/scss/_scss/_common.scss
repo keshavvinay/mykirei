@@ -1,0 +1,473 @@
+//LANDING PAGE START
+.goldwell-tile-section{
+    &.l-Column .l-Column__inner{
+        margin: 0;
+    }
+    &.g-Column .g-Column__cols{
+        padding: 0;
+    }
+
+    //    .g-TileItem{
+    //        .g-TileImage{
+    //            img{
+    //                max-width: 100%;
+    //            }
+    //        }
+    //    }
+
+    .g-TileItem{
+        margin-top: -2px;
+    }
+}
+
+.home-padding-top{
+    padding-top: 100px;
+
+    @media(max-width: 769px) {
+        padding-top: 20px;
+    }
+}
+
+.g-Section__inner{
+    @media(min-width: 770px) and (max-width: 991px){
+        padding: 0 10px;
+    } 
+}
+
+//SQUARELOVIN CAROUSEL
+.squarelovin-container{
+    margin-top: 0 !important; 
+}
+
+//STOP BODY SCROLLING ON POP UP OPEN
+.noScroll{
+    overflow: hidden;
+}
+
+//GLOBAL STYLE START
+.white{
+    color: $solid-white;
+}
+.black{
+    color: $text-black;
+}
+//GLOBAL STYLE END 
+
+//IMAGE STYLE
+.g-Image{
+    margin-bottom: 0;
+}
+img{
+    margin: 0 auto;
+}
+
+@media(max-width: 641px){
+    table img[width="380"]{
+        width: 100%;
+        height: auto;
+    }
+}
+//VIDEO POP UP
+.goldwell-pop-up{
+    cursor: pointer; 
+    z-index: 2;
+}
+
+#goldwellModal{
+    display: none;
+    visibility: 0;
+    opacity: 0;
+}
+
+#cboxLoadedContent iframe{
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fancybox-skin #goldwellModal{
+    display: block;
+    visibility: 1;
+    opacity: 1;
+}
+
+//CLASSES NEED TO BE MANUALLY ADDED
+
+.bold{
+    font-family: $avenir-bold;
+}
+
+//RED COLORED ANCHOR LINKS
+.red-underline.g-ListP{
+    .g-ListP__ul{
+        padding-left: 0;
+    }
+}
+
+//RED COLOR FOR LINKS
+.g-ListP__ul{
+    .g-ListP__ul__item{
+        a.is-link{
+            color: $text-black;
+
+            &:hover{
+                color: $hover-link;
+            }
+        }
+    }
+}
+
+.red-underline a,a.red-underline{
+    color: $primary !important;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline; 
+    }
+}
+
+.bold{
+
+}
+
+.align-left{
+    text-align: left;
+}
+
+.video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+.image100Stretch img {
+    width: 100% !important;
+    height: auto;
+}
+
+.invert{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display: inline-block; 
+}
+
+.no-margin-bottom{
+    margin-bottom: 0 !important;
+}
+
+
+//ICONS
+.arrow-left:before{ 
+    content: "\ea40";
+    font-family: icomoon;
+}
+
+.glyphicon-chevron-right:before{
+    content: "\e906"; 
+    font-family: icomoon;
+}
+
+//HOLD FACTOR NUMBERS
+span.factor-0 {
+    padding: 2px 24px 3px 0;
+    background: no-repeat 99% 0 url("/content/dam/sites/kaousa/www-goldwell-com/content/master/image/goldwell-ui/hold-factor/icon_holdfactor_0.png")
+}
+
+span.factor-1 {
+    padding: 2px 24px 3px 0;
+    background: no-repeat 99% 0 url("/content/dam/sites/kaousa/www-goldwell-com/content/master/image/goldwell-ui/hold-factor/icon_holdfactor_1.png")
+}
+
+span.factor-2 {
+    padding: 2px 24px 3px 0;
+    background: no-repeat 99% 0 url("/content/dam/sites/kaousa/www-goldwell-com/content/master/image/goldwell-ui/hold-factor/icon_holdfactor_2.png")
+}
+
+span.factor-3 {
+    padding: 2px 24px 3px 0;
+    background: no-repeat 99% 0 url("/content/dam/sites/kaousa/www-goldwell-com/content/master/image/goldwell-ui/hold-factor/icon_holdfactor_3.png");
+}
+
+span.factor-4 {
+    padding: 2px 24px 3px 0;
+    background: no-repeat 99% 0 url("/content/dam/sites/kaousa/www-goldwell-com/content/master/image/goldwell-ui/hold-factor/icon_holdfactor_4.png")
+}
+
+span.factor-5 {
+    padding: 2px 24px 3px 0;
+    background: no-repeat 99% 0 url("/content/dam/sites/kaousa/www-goldwell-com/content/master/image/goldwell-ui/hold-factor/icon_holdfactor_5.png")
+}
+
+//CONTENT TABLE
+
+table{
+    th,td{
+        p{
+            margin: 0;
+        }
+    }
+}
+
+.contenttable{
+    width: 100%;
+
+    .contenttable {
+        background-color: #f3f3f3;
+    }
+}
+
+.contenttable>thead>tr>th, .contenttable>thead>tr>td, .contenttable>tbody>tr>th, .contenttable>tbody>tr>td, .contenttable>tfoot>tr>th, .contenttable>tfoot>tr>td{
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+//UPPERCASE
+.uppercase{
+    text-transform: uppercase;
+}
+
+.editorCase{
+    text-transform:none;
+}
+
+//CAPTILIZE
+.capitalize{
+    text-transform: capitalize;
+}
+
+span.bullets:before {
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #333;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+
+.gray{
+    h3{
+        color: #acacac !important;
+        font-size: 20px !important;
+    }
+    color: #acacac;
+}
+
+// Ingredient Glossary
+.g-GlossaryContent .glossary-letter .glossary-subwrap.active .glossary-name {
+    font-family: $avenir-bold;
+}
+
+//Image natural size
+.imageNatural{
+    img{
+        //        max-width: 80%;
+    }
+}
+
+
+
+//COMPONENTS INSIDE TEXT ITEM
+.g-Text{
+
+    //TABLE ELEMENT
+
+    table{
+        width: 100%;
+
+        table{ 
+            background-color: #f3f3f3;
+        }
+
+        @media(max-width: 769px){
+            display: block;
+            height: 100% !important;
+
+            tbody,thead,tr,td{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    table>thead>tr>th, table>thead>tr>td, table>tbody>tr>th, table>tbody>tr>td, table>tfoot>tr>th, table>tfoot>tr>td{
+        padding: 8px;
+        line-height: 1.428571429;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+        text-align: center;
+
+        @media(max-width: 769px){
+            border: 0;
+            width: 100% !important;
+            padding: 10px !important; 
+        }
+    }
+
+    //ICON LIST ITEM INSIDE TEXT ITEM TO BE HORIZONTAL
+
+    & > .g-IconListPack{ 
+        .g-IconList__item{
+            display: inline-block;
+            float: none;
+            width: auto;
+        }
+
+        .g-IconList__item__inner{
+            display: block;
+        }
+
+        .g-IconList__item__image{
+            width: auto;
+            max-width: 100%;
+        }
+
+        .g-IconList__item__content{
+
+        }
+    }
+}
+
+//BULLETS INSIDE PRODUCT DETAILS TEMPLATE AND PRODUCT SWIPER
+.g-ProductSwiper,.g-ProductDetailTemplate {
+    span.bullets:before {
+        background-color: $solid-white; 
+    }
+}
+
+//BUTTON FOR ANCHOR
+
+a.button-black-whitehover {
+    font-family: $avenir-medium;
+    border-style: solid;
+    padding: 10px 30px 10px 30px;
+    font-size: 14px;
+    text-decoration: none;
+    border-collapse: collapse;
+    border-width: 2px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 5px 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: transparent;
+    border-color: $solid-black;
+    color: $solid-black;
+    &:hover, &:active {
+        color: $solid-white !important;
+        background-color: $solid-black;
+        border-color: $solid-black;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+        outline: 0;
+        outline-offset: 0;
+    }
+}
+
+//INGREDIENTS GLOSSARY
+.g-GlossaryFilter__item{
+    font-family: $avenir-bold
+}
+
+@media(max-width: 1024px){
+    .glossary-details .close_btn{
+        text-indent: -999px;
+        &::before {
+            content: '';
+            display: block !important;
+            width: 20px;
+            height: 2px;
+            background-color: #161616;
+            position: absolute;
+            left: 5%;
+            top: calc(50% - 1px);
+            transform: rotate(45deg);
+            transform-origin: center; 
+        }
+        &::after {
+            content: '';
+            display: block !important;
+            width: 20px;
+            height: 2px;
+            background-color: #161616;
+            position: absolute; 
+            left: 5%;
+            top: calc(50% - 1px);
+            transform: rotate(-45deg);
+            transform-origin: center;
+        }
+    }
+
+    .g-GlossaryContent .glossary-letter .glossary-subwrap.active{
+        z-index: 1000;
+    }
+
+    .g-GlossaryContent .glossary-letter .glossary-subwrap.active .glossary-name{
+        padding-top: 45px;
+    }
+}
+
+//LOADER IMAGE
+
+.loader-image{
+    display: none;
+    position: fixed !important;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    width: 200px;
+    margin: 0 auto;
+}
+
+//GOOGLE OPT OUT MESSAGE
+
+#opt-out-message{
+    display: none;
+}
+
+.fancybox-wrap #opt-out-message{
+    display: block; 
+}
+
+
+
+//DE-DE
+
+//html[lang="de"],html[lang="de-de"],html[lang="ch-de"]{
+//
+//    .g-ProductSwiperUnit__content__title__heading{
+//        margin: 0px;
+//
+//        b{
+//            font-family: $avenir-bold;            
+//        }
+//    }
+//    .g-ProductSwiperUnit__content__subTitle{
+//        font-family: $tramcn;
+//        text-transform: uppercase;
+//        font-size: 32px;
+//        margin-bottom: 15px;
+//    }
+//}

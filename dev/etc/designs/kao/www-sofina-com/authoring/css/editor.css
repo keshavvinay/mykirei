@@ -1,0 +1,24 @@
+.cq-Overlay--placeholder {
+  background-color: #eeeeee;
+}
+
+.cq-Overlay {
+  margin: 0 !important;
+  border: 0 none !important;
+  color: #bbbbbb !important;
+  outline: solid 0 #4178cd;
+}
+
+.cq-Overlay.is-hover {
+  outline-width: 1px;
+}
+
+.cq-Overlay.is-active, .cq-Overlay.is-selected {
+  outline-width: .125rem;
+}
+
+
+/* Content finder */
+.sidepanel .components.grid .card-component > a {
+  padding-top: 0;
+}

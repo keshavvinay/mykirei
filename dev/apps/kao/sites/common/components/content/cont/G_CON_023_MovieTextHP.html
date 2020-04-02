@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_023 Movie & Text Pack (Horizontal)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<!-- G_CON_023: Movie & Text Pack (Horizontal) -->
+<div class="method">
+  <p class="componentName">G_CON_023 Movie & Text Pack (Horizontal)</p>
+  <!--<a href="samples/G_CON_023_MovieTextHP.html">⇒ design sample</a>-->
+  <ul>
+    <li>Element : Heading Title, List, Text Link, Button, option parsys（DOM出力変更）</li>
+    <li>Layout : 画像上、画像下(DOM出力順変更、制御クラス付与)</li>
+    <li>Image-Width : 100%〜50%（optionクラス付与）</li>
+    <li>Specific CSS class : 任意クラス付与</li>
+    <li>Background image : 背景画像スタイル付与</li>
+  </ul>
+</div>
+
+
+<h3 class="settingName">Element : all</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+        <!-- option parsys -->
+          -- option parsys --<br>
+          配置可能なコンポーネント<br>
+          ・Heading Title Item<br>
+          ・Text Item<br>
+          ・List Pack<br>
+          ・Annotation List Pack<br>
+          ・Label/Tag Pack<br>
+          ・HR (Horizontal Rule) Item<br>
+          ・Text Link Pack<br>
+          ・Button Pack<br>
+          ・Telephone Call Item<br>
+          ・Free HTML<br>
+          ・Group Box
+        <!-- / option parsys -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Element : none (Default)</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Element : Heading Title</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Element : list</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Element : Link</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Element : Button</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Element : option parsys</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- option parsys -->
+          -- option parsys --<br>
+          配置可能なコンポーネント<br>
+          ・Heading Title Item<br>
+          ・Text Item<br>
+          ・List Pack<br>
+          ・Annotation List Pack<br>
+          ・Label/Tag Pack<br>
+          ・HR (Horizontal Rule) Item<br>
+          ・Text Link Pack<br>
+          ・Button Pack<br>
+          ・Telephone Call Item<br>
+          ・Free HTML<br>
+          ・Group Box
+        <!-- / option parsys -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Layout : left | Small Break : None</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Layout : right | Small Break : None</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutR">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Layout : left | Small Break : Top</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL is-smallViewVertical">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Layout : right | Small Break : Top</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutR is-smallViewVertical">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Layout : left | Small Break : Bottom</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL is-smallViewVertical">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Layout : right | Small Break : Bottom</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutR is-smallViewVertical">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Text-align : left</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL opt-lg-al_l opt-md-al_l opt-sm-al_l">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+
+        <!-- option parsys -->
+        <!-- / option parsys -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Text-align : center</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL opt-lg-al_c opt-md-al_c opt-sm-al_c">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+
+        <!-- option parsys -->
+        <!-- / option parsys -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Text-align : right</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL opt-lg-al_r opt-md-al_r opt-sm-al_r">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+
+        <!-- option parsys -->
+        <!-- / option parsys -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Width : 20%(lg) 40%(md) 70%(sm)</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w20p opt-md-w40p opt-sm-w70p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w80p opt-md-w60p opt-sm-w30p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Wraparound : checked (Layout:L)</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL is-wraparound">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Wraparound : checked (Layout:R)</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutR is-wraparound">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">SpecificCSSclass</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL SpecificCSSclass">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<h3 class="settingName">Background image</h3>
+<div class="g-MovieTextHP l-MovieTextHP is-layoutL is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+
+  <div class="g-MovieTextHP__contentsBlock l-MovieTextHP__contentsBlock">
+
+    <div class="g-MovieTextHP__contentsBlock__movie l-MovieTextHP__contentsBlock__movie opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- I040: Movie Item -->
+      <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+      <!-- / I040: Movie Item -->
+    </div>
+
+    <div class="g-MovieTextHP__contentsBlock__text l-MovieTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w50p">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+      <!-- / G_CON_002: Heading Title Item -->
+      <!-- G_CON_003: Text Item -->
+      <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+      <!-- / G_CON_003: Text Item -->
+
+      <div class="g-MovieTextHP__contentsBlock__text__moreinfo l-MovieTextHP__contentsBlock__text__moreinfo">
+        <!-- G_CON_008: List Pack -->
+        <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+        <!-- / G_CON_008: List Pack -->
+        <!-- G_CON_012: Button Pack -->
+        <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+        <!-- / G_CON_012: Button Pack -->
+        <!-- G_CON_011: Text Link Pack -->
+        <div class="debug-tmpl" data-tmpl="TextLinkP4--Typical"></div>
+        <!-- / G_CON_011: Text Link Pack -->
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- / G_CON_023: Movie & Text Pack (Horizontal) -->
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

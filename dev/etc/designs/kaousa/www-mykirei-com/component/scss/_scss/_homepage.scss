@@ -1,0 +1,562 @@
+.kirei-homepage-banner-column-separator img {
+  width: 100% !important;
+}
+
+.kirei-homepage-tile-pack {
+  .g-TileLinkVUnit__leadBlock__title .g-Text {
+    font-family: cerapro-regular;
+    font-size: 20px;
+  }
+
+  .g-TileLinkVUnit__leadBlock__lead .g-Text {
+    font-family: cerapro-regular;
+    font-size: 16px;
+  }
+
+  .g-TileLinkVUnit__leadBlock__tag .cmn-richtext {
+    font-family: cerapro-regular;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .kirei-homepage-banner-column-separator {
+    .g-GroupBox {
+      padding: 0;
+      width: auto;
+      margin: 11.5% 66.5% 0px 7.8%;
+    }
+
+    .g-ButtonUnit__link {
+      border-radius: 0;
+      width: 200px;
+    }
+  }
+
+  .kirei-homepage-products-column-separator {
+    .g-HeadingTitle {
+      margin: 0px !important;
+    }
+
+    .g-HeadingTitle__titleBlock__titleBox__title {
+      margin-top: 51px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .kirei-homepage-tile-pack {
+    .g-TileLinkVP__list {
+      width: 100%;
+      padding-bottom: 80px;
+    }
+
+    .g-TileLinkVP__list__tile {
+      padding: 0px !important;
+      width: 27.8%;
+      margin-right: 3%;
+    }
+
+    .g-TileLinkVUnit {
+      padding: 0px !important;
+    }
+
+    .g-TileLinkVUnit__leadBlock__title {
+      font-weight: normal;
+
+      .g-Text {
+        font-size: 20px;
+      }
+    }
+
+    .g-LabelTagP {
+      .l-LabelTagUnit {
+        font-size: 14px;
+      }
+
+      .g-LabelTagP__list__item {
+        width: 100%;
+      }
+    }
+
+    .g-TileLinkVP__list {
+      margin: 0 !important;
+      display: flex;
+      justify-content: center;
+
+      .g-TileLinkVP__list__tile:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .kirei-homepage-image-text-column-separator {
+    .g-Column__inner {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .kirei-homepage-image-text-pack-text {
+      height: 100% !important;
+      background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .g-ImageTextVP {
+      width: 62%;
+    }
+
+    .kirei-homepage-flower-1 img {
+      height: 70px;
+    }
+
+    .kirei-homepage-flower-3 img {
+      height: 78px;
+    }
+
+    .g-ImageTextVP .g-Text {
+      margin-bottom: 23px;
+    }
+
+    .g-ButtonUnit__link {
+      padding: 10px 60px;
+    }
+  }
+
+  .kirei-homepage-banner-2-column-separator {
+    .kirei-homepage-flower-2 img {
+      height: 98px;
+    }
+
+    .g-GroupBox {
+      width: auto;
+      margin-top: 92px;
+      margin-right: 6.1%;
+      margin-left: 66.5%;
+
+      .g-ButtonUnit__link .cmn-richtext {
+        border-bottom: solid 0.5px #404144;
+        padding-bottom: 3px;
+      }
+    }
+  }
+
+  .kirei-homepage-sustainability-image-column-separator .g-HeadingTitle__titleBlock__titleBox__title {
+    margin: 51px auto 21px auto;
+  }
+
+  .kirei-homepage-sustainability-text-column-separator {
+    .g-Column__inner {
+      margin-left: 21.5% !important;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 14.5% !important;
+      margin-top: 10px;
+      margin-bottom: 67px;
+    }
+
+    .g-Column__cols {
+      &:nth-child(1), &:nth-child(2) {
+        width: 22.1%;
+      }
+
+      &:nth-child(3) {
+        width: 24%;
+      }
+    }
+
+    .g-ButtonUnit__link .cmn-richtext {
+      border-bottom: solid 0.5px #404144;
+      padding-bottom: 2px;
+    }
+  }
+
+  .kirei-homepage-instagram-column-separator .g-HeadingTitle__titleBlock__titleBox__title {
+    margin: 36px auto 31px auto;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .kirei-homepage-banner-column-separator {
+    img {
+      height: 529px;
+    }
+
+    .g-GroupBox {
+      padding: 0;
+      width: auto;
+      margin: 22% 60.6% 0px 3.1%;
+    }
+
+    .g-ButtonUnit__link {
+      border-radius: 0;
+      width: 200px;
+    }
+
+    .cmn-richtext {
+      letter-spacing: 2px;
+    }
+  }
+
+  .kirei-homepage-products-column-separator {
+    .g-HeadingTitle {
+      margin: 0px !important;
+    }
+
+    .g-HeadingTitle__titleBlock__titleBox__title {
+      margin-top: 37px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .kirei-homepage-tile-pack {
+    .g-TileLinkVP__list {
+      width: 100%;
+      padding-bottom: 80px;
+    }
+
+    .g-TileLinkVP__list__tile {
+      padding: 0px !important;
+      width: 27.8%;
+      margin-right: 3%;
+    }
+
+    .g-TileLinkVUnit {
+      padding: 0px !important;
+    }
+
+    .g-TileLinkVUnit__leadBlock__title {
+      font-weight: normal;
+
+      .g-Text {
+        font-size: 20px;
+      }
+    }
+
+    .g-LabelTagP {
+      .l-LabelTagUnit {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        letter-spacing: 2px;
+        font-size: 12px;
+      }
+
+      .g-LabelTagP__list__item {
+        width: 100% !important;
+      }
+    }
+
+    .g-TileLinkVP__list {
+      margin: 0 !important;
+      display: flex;
+      justify-content: center;
+
+      .g-TileLinkVP__list__tile:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .kirei-homepage-image-text-column-separator {
+    .g-Column__inner {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .kirei-homepage-image-text-pack-text {
+      height: 100% !important;
+      background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .g-ImageTextVP {
+      width: 90%;
+    }
+
+    .kirei-homepage-flower-1 img {
+      height: 54px;
+    }
+
+    .kirei-homepage-flower-3 img {
+      height: 60px;
+    }
+
+    .g-ButtonUnit__link {
+      padding: 10px 60px;
+    }
+  }
+
+  .kirei-homepage-banner-2-column-separator {
+    .kirei-homepage-flower-2 img {
+      height: 66px !important;
+    }
+
+    .g-GroupBox {
+      width: auto;
+      margin-top: 56px;
+      margin-right: 6.1%;
+      margin-left: 65.6%;
+
+      .g-ButtonUnit__link .cmn-richtext {
+        border-bottom: solid 0.5px #404144;
+        padding-bottom: 3px;
+      }
+    }
+
+    .g-Image__img img {
+      height: 523px;
+      width: 100%;
+    }
+  }
+
+  .kirei-homepage-sustainability-image-column-separator .g-HeadingTitle__titleBlock__titleBox__title {
+    margin: 51px auto 21px auto;
+  }
+
+  .kirei-homepage-sustainability-text-column-separator {
+    .g-Column__inner {
+      display: flex;
+      justify-content: center;
+      margin: 16px !important;
+    }
+
+    .g-Column__cols {
+      width: 190px;
+      margin-right: 2.3%;
+    }
+
+    .g-HeadingTitle {
+      margin: 0;
+    }
+
+    .g-Text {
+      margin: 0;
+      margin-bottom: -5%;
+      width: 214px;
+    }
+
+    .g-ButtonUnit__link {
+      border-bottom: solid 0.5px #404144;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.kirei-homepage-instagram-column-separator .g-HeadingTitle__titleBlock__titleBox__title {
+  margin: 54px auto 22px auto;
+}
+
+@media (max-width: 640px) {
+  .kirei-homepage-banner-column-separator {
+    .g-GroupBox {
+      position: relative !important;
+      padding-left: 16% !important;
+      padding-right: 16% !important;
+
+      .g-PageTitle__h1 {
+        padding-top: 24px;
+      }
+    }
+
+    .opt-al_c {
+      margin-bottom: 43px;
+    }
+  }
+
+  kirei-homepage-banner-column-separator .g-Text .cmn-richtext {
+    line-height: 1.79;
+  }
+
+  .kirei-homepage-banner-column-separator {
+    .g-ButtonUnit__link {
+      width: 55%;
+      height: 40px;
+    }
+
+    .g-ButtonUnit {
+      margin-top: -37px;
+    }
+
+    .g-Text .cmn-richtext {
+      margin-top: -33px;
+    }
+
+    .g-Image__img img {
+      height: 267px;
+    }
+  }
+
+  .kirei-homepage-products-column-separator {
+    .g-TileLinkVUnit {
+      padding: 0;
+    }
+
+    .g-HeadingTitle__h3 {
+      margin-top: 31px;
+    }
+
+    .kirei-homepage-tile-pack {
+      .g-TileLinkVP__list__tile {
+        padding: 0;
+      }
+
+      .g-TileLinkVP__list {
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+    }
+  }
+
+  .kirei-homepage-tile-pack {
+    .g-TileLinkVUnit__leadBlock__title .l-Text .cmn-richtext {
+      font-family: CeraPRO;
+      font-size: 18px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.22;
+      letter-spacing: 1.5px;
+      text-align: center;
+      color: #5d4f48;
+    }
+
+    .g-TileLinkVUnit__leadBlock__lead .l-Text .cmn-richtex {
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: normal;
+      text-align: center;
+    }
+
+    .g-LabelTagP__list {
+      li {
+        width: 100% !important;
+      }
+
+      .g-LabelTagUnit {
+        text-align: center;
+        padding: 0;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+
+    .g-TileLinkVUnit__inner {
+      padding-bottom: 38px;
+    }
+  }
+
+  .kirei-homepage-image-text-column-separator {
+    .g-Column__inner {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .g-ImageTextVP__contentsBlock {
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 43px;
+      padding-bottom: 41px;
+      background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+    }
+
+    .g-ButtonP__list__item {
+      width: 100% !important;
+    }
+  }
+
+  .kirei-homepage-flower-1 .g-Image__img img {
+    width: 100%;
+    height: 62px;
+  }
+
+  .kirei-homepage-flower-2 {
+    padding-bottom: 17px;
+
+    .g-Image__img img {
+      width: 100%;
+      height: 75px !important;
+    }
+  }
+
+  .kirei-homepage-flower-3 .g-Image__img img {
+    width: 100%;
+    height: 60px;
+  }
+
+  .kirei-homepage-sustainability-image-column-separator {
+    .g-HeadingTitle__titleBlock__titleBox__title .g-HeadingTitle__h3 {
+      padding-top: 38px;
+      padding-bottom: 15px;
+    }
+
+    .g-Image .g-Image__img {
+      padding-bottom: 35px;
+    }
+  }
+
+  .kirei-homepage-sustainability-text-column-separator {
+    .g-Column__inner .g-ButtonP__list {
+      border-bottom: 1px solid #404144;
+      margin: 0 !important;
+    }
+
+    .g-ButtonUnit__link .cmn-richtext {
+      border-bottom: solid 0.5px #404144;
+      padding-bottom: 2px;
+    }
+
+    .g-Column__inner {
+      margin-left: 16% !important;
+      margin-right: 16% !important;
+
+      .g-Column__cols:last-child ul {
+        border-bottom: none !important;
+        margin: 0 !important;
+      }
+    }
+
+    .g-ColumnUnit {
+      .g-HeadingTitle {
+        margin-bottom: 0px !important;
+      }
+
+      .g-Text {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+  .kirei-homepage-banner-2-column-separator {
+    .g-GroupBox {
+      position: relative !important;
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+      padding-top: 47px !important;
+      padding-bottom: 48px !important;
+    }
+
+    .g-ButtonP__list__item {
+      width: 100%;
+    }
+
+    .g-Image__img img {
+      height: 375px;
+      width: 100%;
+    }
+
+    .g-ButtonUnit__link {
+      height: auto;
+      border: 1px solid;
+    }
+  }
+
+  .kirei-homepage-instagram-column-separator .g-HeadingTitle__h3 {
+    margin-top: 39px;
+  }
+}
+

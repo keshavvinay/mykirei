@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+
+/* ImageTextVP ================================================== */
+.l-ImageTextVP {
+}
+
+.l-ImageTextVP__titleBlock {
+}
+
+.l-ImageTextVP__contentsBlock {
+}
+
+.l-ImageTextVP__contentsBlock__image {
+}
+
+.l-ImageTextVP__contentsBlock__text {
+}

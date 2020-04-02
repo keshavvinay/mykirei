@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>header-footer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="https://sites.aem.kao.com/etc/clientlibs/kao/component.css">
+  <link rel="stylesheet" href="https://sites.aem.kao.com/etc/designs/kao/www-kao-com/jp/ja/basic.css" />
+  <link rel="stylesheet" href="https://sites.aem.kao.com/etc/designs/kao/www-kao-com/jp/ja/component.css" />
+  <link rel="stylesheet" href="https://sites.aem.kao.com/etc/designs/kao/www-kao-com/jp/ja/option.css" />
+  <!--corporateサイト カスタムCSS-->
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/corporate/component/css/local.css">
+  <!--/corporateサイト カスタムCSS-->
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jsrender.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/moment.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <!-- / script -->
+
+</head>
+
+<body>
+<div>
+ <div id="menu">
+  <div class="js-menuHolder">
+   <div class="g-GlMenu">
+    <div class="g-GlMenu__navBlock">
+     <ul class="g-GlMenuNavList">
+      <li><a href="http://www.kao.com/jp/corp/">会社情報</a></li>
+      <li><a href="http://www.kao.com/jp/products/">製品カタログ</a></li>
+      <li><a href="http://www.kao.com/jp/qa/">製品Q&amp;A</a></li>
+      <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+     </ul>
+    </div>
+    <div class="g-GlMenu__utilityBlock">
+     <div class="g-GlMenuUtilitySearch">
+      <form action="http://crmsearch.kao.com/search" name="gs" method="GET">
+       <input type="text" name="q" placeholder="サイト内検索">
+       <button type="submit" name="btnG">検索する<span class="kao-icon kao-icon--search g-GlMenuUtilitySearch__icon"></span></button>
+       <!-- <input type="image" name="btnG" class="search-image" src="/common/jp/ja/imgs/search_button_head.gif" alt="" value="&#26908;&#32034;"> -->
+       <input type="hidden" name="client" value="test">
+       <input type="hidden" name="output" value="xml_no_dtd">
+       <input type="hidden" name="proxystylesheet" value="test">
+       <input type="hidden" name="sort" value="date:D:L:d1">
+       <input type="hidden" name="entqr" value="3">
+       <input type="hidden" name="oe" value="UTF-8">
+       <input type="hidden" name="ie" value="UTF-8">
+       <input type="hidden" name="ud" value="1">
+       <input type="hidden" name="site" value="test">
+      </form>
+     </div>
+     <div class="g-GlMenuUtilityRegion">
+      <div class="g-GlMenuUtilityRegion__country">
+       <p>Japan</p>
+      </div>
+      <div class="g-GlMenuUtilityRegion__world">
+       <p><a href="http://www.kao.com/index_ja.html"><span class="kao-icon kao-icon--xxx g-GlMenuUtilityRegion__world__icon"></span>Kao Worldwide</a></p>
+      </div>
+     </div>
+    </div>
+    <div class="g-GlMenu__buttonBlock">
+     <div class="g-GlMenuButtonLink">
+      <a href="#">メニューを閉じる<span class="kao-icon kao-icon--close g-GlMenuButtonLink__icon"></span></a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div><div id="wrapper">
+        <noscript>
+            <div class="noscript">To view this website correctly, please ensure you have <span>JavaScript enabled.</span><br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+        </noscript>
+
+    <div>
+ <div class="g-Area" id="area-GlHeader">
+  <div class="g-GlHeader">
+   <div class="g-GlHeader__inner">
+    <div class="g-GlHeader__logoBlock">
+     <div class="g-GlHeaderLogo">
+      <a href="http://www.kao.com/jp/"><img src="/content/dam/sites/kao/inc-common/gl_header_logo.png" alt="kao"></a>
+     </div>
+    </div>
+    <div class="g-GlHeader__utilityBlock">
+     <div class="g-GlHeaderUtilityRegion">
+      <div class="g-GlHeaderUtilityRegion__country">
+       <p>Japan</p>
+      </div>
+      <div class="g-GlHeaderUtilityRegion__world">
+       <p><a href="http://www.kao.com/index_ja.html"><span class="g-GlHeaderUtilityRegion__world__icon"></span>Kao Worldwide</a></p>
+      </div>
+     </div>
+     <div class="g-GlHeaderUtilitySearch">
+      <form action="http://crmsearch.kao.com/search" name="gs" method="GET">
+       <input type="text" name="q" placeholder="サイト内検索">
+       <button type="submit" name="btnG">検索する<span class="kao-icon kao-icon--search g-GlHeaderUtilitySearch__icon"></span></button>
+       <!-- <input type="image" name="btnG" class="search-image" src="/common/jp/ja/imgs/search_button_head.gif" alt="" value="&#26908;&#32034;"> -->
+       <input type="hidden" name="client" value="test">
+       <input type="hidden" name="output" value="xml_no_dtd">
+       <input type="hidden" name="proxystylesheet" value="test">
+       <input type="hidden" name="sort" value="date:D:L:d1">
+       <input type="hidden" name="entqr" value="3">
+       <input type="hidden" name="oe" value="UTF-8">
+       <input type="hidden" name="ie" value="UTF-8">
+       <input type="hidden" name="ud" value="1">
+       <input type="hidden" name="site" value="test">
+      </form>
+     </div>
+    </div>
+    <div class="g-GlHeader__buttonBlock">
+     <div class="g-GlHeaderButtonLink">
+      <a href="#">メニューを開く<span class="kao-icon kao-icon--menu g-GlHeaderButtonLink__icon"></span></a>
+     </div>
+    </div>
+    <div class="g-GlHeader__navBlock">
+     <ul class="g-GlHeaderNavList">
+      <li><a href="http://www.kao.com/jp/corp/">会社情報</a></li>
+      <li><a href="http://www.kao.com/jp/products/">製品カタログ</a></li>
+      <li><a href="http://www.kao.com/jp/qa/">製品Q&amp;A</a></li>
+      <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+     </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+<!-- area-BrHeader -->
+<div class="g-Area" id="area-BrHeader">
+ <div class="g-BrHeaderPlaceholder l-BrHeaderPlaceholder">
+  <div class="g-BrHeader l-BrHeader" data-fixed-lg="false" data-fixed-md="false" data-fixed-sm="false">
+   <div class="g-BrHeaderCommon l-BrHeaderCommon">
+    <div class="g-BrHeaderCommon__logoBlock l-BrHeaderCommon__logoBlock is-lg-center is-lg-middle">
+     <div class="g-BrHeaderLogo l-BrHeaderLogo opt-lg-w100p opt-md-w100p opt-sm-w100p">
+      <div class="g-Image l-Image">
+ <div class="cq-dd-image"></div>
+</div>
+     </div>
+    </div>
+    <div class="g-BrHeaderCommon__navBlock l-BrHeaderCommon__navBlock">
+     <div class="g-BrHeaderNav__buttonBlock l-BrHeaderNav__buttonBlock">
+      <a href="#">MENU<span class="cmn-icon cmn-icon--down g-BrHeaderNavButton__icon l-BrHeaderNavButton__icon"></span></a>
+     </div>
+     <div class="g-BrHeaderNav__listBlock l-BrHeaderNav__listBlock">
+      <ul class="g-BrHeaderNavList l-BrHeaderNavList js-uniformHeight" data-uniform-target="g-BrHeaderNavListLink">
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="http://www.kao.com/jp/corp_info/corporation.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">企業情報
+<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="http://www.kao.com/jp/corp_about/about.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">花王グループについて<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="http://www.kao.com/jp/corp_csr/csr.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">サステナビリティ<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="http://www.kao.com/jp/corp_rd/research.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">研究開発<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="http://www.kao.com/jp/corp_ir/investors.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">投資家情報<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="http://www.kao.com/jp/corp_recruit/recruit.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">採用情報<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="http://www.kao.com/jp/corp_news/index.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">ニュースリリース<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- / area-BrHeader -->
+
+<!-- area-LocalNav -->
+<div class="g-Area" id="area-LocalNavTop">
+            <div class="g-LocalNav l-LocalNav">
+ <div class="g-LocalNav__inner l-LocalNav__inner">
+  <div class="g-LocalNav__categoryBlock l-LocalNav__categoryBlock">
+   <p class="g-LocalNavCategoryLabel l-LocalNavCategoryLabel"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements.html" target="_self" class="g-LocalNavCategoryLabelLink l-LocalNavCategoryLabelLink">elements<span class="cmn-icon cmn-icon--bullet g-LocalNavCategoryLabel__icon l-LocalNavCategoryLabel__icon"></span></a></p>
+  </div>
+  <div class="g-LocalNav__listBlock l-LocalNav__listBlock">
+   <ul class="g-LocalNavList l-LocalNavList js-uniformHeight" data-uniform-target="g-LocalNavListLink">
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template_detail.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink" style="height: 26px;"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template_detail<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-image.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink" style="height: 26px;"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-image<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-text.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink" style="height: 26px;"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-text<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/component-list.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink" style="height: 26px;"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">component-list<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/imgItem-02.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink" style="height: 26px;"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">imgItem-02<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/inc-common.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink" style="height: 26px;"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">inc-common<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/header-footer-sample.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink" style="height: auto;"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">header-footer-sample<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+   </ul>
+  </div>
+ </div>
+</div></div>
+<!-- / area-LocalNav -->
+    <!-- area-Breadcrumbs -->
+        <div class="g-Area" id="area-BreadcrumbsTop">
+            <div class="g-Breadcrumbs l-Breadcrumbs">
+ <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">jp<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">ja<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">corporate<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">elements<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">header-footer-sample</li>
+ </ul>
+</div></div>
+        <!-- / area-Breadcrumbs -->
+    <!-- area-Contents -->
+<div class="g-Area" id="area-Contents" >
+	<div class="g-Section l-Section" id="common_section_wrapper_1">
+ <div class="g-Section__inner l-Section__inner">
+  <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit">
+ <div class="g-GroupBox l-GroupBox corp-imgItem-01-wrapper is-paddingReset">
+ <div class="g-Image l-Image corp-imgItem-01 opt-mb0--imp s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="https://sites.aem.kao.com/is/image/content/dam/sites/kao/www-kao-com/jp/ja/corporate/dummy/dummy_16x9.png?fmt=png-alpha&wid=1366" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+ <div class="g-Image__caption l-Image__caption">
+  <p class="cmn-richtext">
+   <span>画像のキャプションが入ります。画像のキャプションが入ります。<br />
+
+
+
+</span></p>
+ </div>
+</div>
+
+</div>
+
+</div>
+  </div>
+ </div>
+</div>
+ </div>
+</div>
+</div>
+<!-- / area-Contents -->
+<!-- area-LocalNav -->
+        <div class="g-Area" id="area-LocalNavBottom">
+            <div class="g-LocalNav l-LocalNav">
+ <div class="g-LocalNav__inner l-LocalNav__inner">
+  <div class="g-LocalNav__listBlock l-LocalNav__listBlock">
+   <ul class="g-LocalNavList l-LocalNavList js-uniformHeight" data-uniform-target="g-LocalNavListLink">
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template_detail.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template_detail<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-image.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-image<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-text.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-text<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/component-list.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">component-list<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/imgItem-02.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">imgItem-02<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/inc-common.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">inc-common<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+    <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1 is-active"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/header-footer-sample.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">header-footer-sample<span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+   </ul>
+  </div>
+ </div>
+</div></div>
+        <!-- / area-LocalNav -->
+    <!-- area-Breadcrumbs -->
+        <div class="g-Area" id="area-BreadcrumbsBottom">
+            <div class="g-Breadcrumbs l-Breadcrumbs">
+ <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">jp<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">ja<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">corporate<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">elements<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+  <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">header-footer-sample</li>
+ </ul>
+</div></div>
+        <!-- / area-Breadcrumbs -->
+
+
+        <!-- area-BrFooter -->
+    <div class="g-Area" id="area-BrFooter">
+     <div class="g-BrFooter l-BrFooter corp-BrFooter_wrapper">
+      <div class="g-BrFooter__inner l-BrFooter__inner">
+       <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+        <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+         <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+          <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+           <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-5 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+     <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">page-templates<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+     <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+      <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/news.html" target="_self">news<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/template__index-image.html" target="_self">template__index-image_research-development<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/template__index-text.html" target="_self">template__index-text_research-development<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/template_detail.html" target="_self">template_detail_research-development<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/template_detail1.html" target="_self">template_detail_about<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/template__index-text1.html" target="_self">template__index-text_about<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/template__index-image1.html" target="_self">template__index-image_about<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates/template_detail2.html" target="_self">template_topic_research-development<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+      </ul>
+      <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/page-templates.html" target="_self">page-templates<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+     </div>
+    </div>
+           </div>
+           <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-5 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+     <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">news<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+     <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+      <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-001.html" target="_self">緊急用 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-002.html" target="_self">標準用時短版 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-003.html" target="_self">製品用時短版 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-004.html" target="_self">経営・財務関連用 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-005.html" target="_self">標準用リッチ版 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-006.html" target="_self">製品用リッチ版 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/2013.html" target="_self">2013<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/2014.html" target="_self">2014<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/2015.html" target="_self">2015<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/2016.html" target="_self">2016<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/2012.html" target="_self">2012<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/2011.html" target="_self">2011<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/2010.html" target="_self">2010<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/table_test.html" target="_self">table_test<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/test_hinago.html" target="_self">test_hinago<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-0051111.html" target="_self">test_dohi<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/table_test2.html" target="_self">table_test2<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/images_test.html" target="_self">images_test<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/20130109_001_image_test.html" target="_self">【画像部分ご確認用】ニュースリリース 「ASIENCE（アジエンス）」　改良新発売 | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/20130827_001_image_test.html" target="_self">【画像部分ご確認用】ニュースリリース 『リセッシュ　Healing Aroma（ヒーリングアロマ）』　新発売 | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/20130116_001_image_test.html" target="_self">【画像部分ご確認用】ニュースリリース 「キュレル　UVシリーズ」　新発売 | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/20130925_001_image_test.html" target="_self">【画像部分ご確認用】ニュースリリース 花王グループ、乳がん早期発見啓発活動“ピンクリボンキャンペーン”を実施 | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-007.html" target="_self">福岡 | 製品用時短版 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/page-templates-news-008.html" target="_self">福岡 | 経営・財務関連用時短版 | ニュースリリース | 花王株式会社<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news/substitution_test.html" target="_self">substitution_test<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+      </ul>
+      <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/news.html" target="_self">news<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+     </div>
+    </div>
+           </div>
+           <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-5 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+     <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">ブランド名トップ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+     <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+      <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample/option-color.html" target="_self">Option Color<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample/font-list.html" target="_self">Font List<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample/products.html" target="_self">製品ラインナップ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample/how-to-use.html" target="_self">便利な使い方<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample/faq.html" target="_self">製品Q&amp;A<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample/cm.html" target="_self">CM情報<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+      </ul>
+      <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/design-sample.html" target="_self">ブランド名トップ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+     </div>
+    </div>
+           </div>
+           <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-5 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+     <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">elements<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+     <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+      <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template_detail.html" target="_self">template_detail<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-image.html" target="_self">template__index-image<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-text.html" target="_self">template__index-text<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/component-list.html" target="_self">component-list<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/imgItem-02.html" target="_self">imgItem-02<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/inc-common.html" target="_self">inc-common<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/header-footer-sample.html" target="_self">header-footer-sample<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+      </ul>
+      <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements.html" target="_self">elements<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+     </div>
+    </div>
+           </div>
+           <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-5 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+     <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">研究開発<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+     <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+      <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/template__index-image.html" target="_self">template__index-image_research-development<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/basic-concepts.html" target="_self">研究開発活動<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/fundamental.html" target="_self">基盤技術研究<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/product-development.html" target="_self">商品開発研究<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/awards-publications.html" target="_self">受賞実績・掲載論文<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/component-list.html" target="_self">component-list<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/template_detail.html" target="_self">template_detail_research-development<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development/template__index-text.html" target="_self">template__index-text_research-development<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+      </ul>
+      <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/research-development.html" target="_self">研究開発<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+     </div>
+    </div>
+           </div>
+           <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-5 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+     <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+    </div>
+           </div>
+           <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-5 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+     <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/about.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">花王グループについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+     <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+      <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/about/template__index-text1.html" target="_self">template__index-text_about<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/about/template__index-image1.html" target="_self">template__index-image_about<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+       <li><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/about/template_detail1.html" target="_self">template_detail_about<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+      </ul>
+      <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/about.html" target="_self">花王グループについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+     </div>
+    </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="g-BrFooter__infoBlock l-BrFooter__infoBlock">
+        <div>
+     <div class="corp-BrFooter">
+      <div class="g-BrFooter l-BrFooter">
+       <div class="g-BrFooter__inner l-BrFooter__inner">
+        <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+         <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+          <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+           <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+             <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="http://www.kao.com/jp/corp_info/corporation.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">企業情報<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+               <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li><a href="http://www.kao.com/jp/corp_info/outline.html" target="_self">会社概要<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_info/officers.html" target="_self">役員一覧<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_info/activities.html" target="_self">事業活動<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_info/business.html" target="_self">事業分野<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_info/factories.html" target="_self">各事業場のご案内<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_info/tour.html" target="_self">工場・ミュージアム見学のご案内<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_info/governance.html" target="_self">コーポレートガバナンス<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_info/compliance.html" target="_self">コンプライアンス／正道を歩む<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+             <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="http://www.kao.com/jp/corp_about/about.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">花王グループについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+               <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li><a href="http://www.kao.com/jp/corp_about/overview.html" target="_self">花王グループ概要<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_about/business.html" target="_self">花王グループの事業分野<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_about/kaoway.html" target="_self">花王ウェイ（企業理念）<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_about/global.html" target="_self">グローバル展開<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_about/history.html" target="_self">花王グループの歴史<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+             <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="http://www.kao.com/jp/corp_csr/csr.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">サステナビリティ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+               <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li><a href="http://www.kao.com/jp/corp_csr/csr_action.html" target="_self">サステナビリティの考え方<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_csr/reports.html" target="_self">サステナビリティレポート<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_csr/eco_activities.html" target="_self">環境・安全への取り組み<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_csr/social_activities.html" target="_self">社会貢献の取り組み<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_csr/safety.html" target="_self">商品の安全性と品質保証への取り組み<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_csr/procurement.html" target="_self">調達の取り組み<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_csr/universal_design.html" target="_self">ユニバーサルデザインの取り組み<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+             <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="http://www.kao.com/jp/corp_rd/research.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">研究開発<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+               <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li><a href="http://www.kao.com/jp/corp_rd/thought.html" target="_self">研究開発活動<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_rd/development.html" target="_self">商品開発研究<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_rd/skills.html" target="_self">基盤技術研究<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_rd/achievement.html" target="_self">受賞実績・掲載論文<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+             <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="http://www.kao.com/jp/corp_ir/investors.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">投資家情報<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+               <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li><a href="http://www.kao.com/jp/corp_ir/message.html" target="_self">社長メッセージ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/shareholders.html" target="_self">株主総会<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/results.html" target="_self">決算短信<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/presentations.html" target="_self">説明会<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/securities.html" target="_self">有価証券報告書<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/business.html" target="_self">株主のみなさまへ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/reports.html" target="_self">アニュアルレポート<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/summary.html" target="_self">財務データ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/stock.html" target="_self">ヒストリカル株価情報<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/calendar.html" target="_self">IRカレンダー<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/analyst.html" target="_self">アナリストカバレッジ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/regulations.html" target="_self">定款・株式取扱規則<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/procedure.html" target="_self">株式に関する諸手続き<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/notice.html" target="_self">法定公告<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/contact.html" target="_self">お問い合わせ・情報開示指針<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/disclosure.html" target="_self">情報開示指針<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_ir/disclaimer.html" target="_self">免責事項<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+             <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="http://www.kao.com/jp/corp_recruit/recruit.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">採用情報<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+               <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li><a href="http://www.kao.com/jp/corp_recruit/people.html" target="_self">花王が求める人材像<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_recruit/recruit_graduates.html" target="_self">新卒採用<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_recruit/career.html" target="_self">キャリア採用<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_recruit/diversity.html" target="_self">障がい者採用<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_recruit/graduates_dr.html" target="_self">博士課程採用<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_recruit/graduates_is.html" target="_self">外国人留学生採用<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+             <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a href="http://www.kao.com/jp/corp_news/index.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">ニュースリリース<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+               <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li><a href="http://www.kao.com/jp/corp_news/2017/index.html" target="_self">2017年<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_news/2016/index.html" target="_self">2016年<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_news/2015/index.html" target="_self">2015年<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_news/2014/index.html" target="_self">2014年<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                <li><a href="http://www.kao.com/jp/corp_news/2013/index.html" target="_self">2013年<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+               </ul>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+
+       </div>
+      </div>
+     </div>
+    </div><!-- / area-BrFooter -->
+
+<div>
+ <div class="g-Area" id="area-GlFooter">
+  <div class="g-GlFooter">
+   <div class="g-GlFooterTop">
+    <!-- Column -->
+    <div class="g-GlFooterColumn is-marginReset js-uniformHeight" data-uniform-target="g-GlFooterColumnUnit">
+     <div class="g-GlFooterColumn__inner">
+      <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+       <div class="g-GlFooterColumnUnit">
+        <div class="js-footer" data-accordion-label="g-footerLinkTitle" data-accordion-panel="g-footerLinks">
+         <p class="g-footerLinkTitle" tabindex="0">ブランドサイト情報 <span class="kao-icon"></span> </p>
+         <ul class="g-footerLinks">
+          <li><a href="http://www.kao.com/jp/info/">ブランドサイト一覧</a></li>
+          <li><a href="http://www.youtube.com/user/KaoJapan">花王動画チャンネル</a></li>
+          <li><a href="http://www.kao.com/jp/info/snslist.html">ソーシャルメディア公式アカウント一覧</a></li>
+          <li><a href="http://www.kao.com/jp/info/cp.html">プレゼント&amp;キャンペーン</a></li>
+          <li><a href="http://www.sofina.co.jp/?intcmp=top_KaoTop">花王ソフィーナ</a></li>
+          <li><a href="http://www.kao.co.jp/est/?intcmp=top_KaoBrand">est（エスト）</a></li>
+          <li><a href="http://www.oriena.jp/">花王の通販化粧品　オリエナ</a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+       <div class="g-GlFooterColumnUnit">
+        <div class="js-footer" data-accordion-label="g-footerLinkTitle" data-accordion-panel="g-footerLinks">
+         <p class="g-footerLinkTitle" tabindex="0">暮らしに役立つ情報サイト <span class="kao-icon"></span> </p>
+         <ul class="g-footerLinks">
+          <li><a href="http://www.kao.com/jp/beautycarenavi/">ビューティケアナビ</a></li>
+          <li><a href="http://healthcare.kao.com/?cid=kao_top">ヘルスケアナビ</a></li>
+          <li><a href="http://mykaji.kao.com/?cid=kao_top">マイカジスタイル</a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+       <div class="g-GlFooterColumnUnit">
+        <div class="js-footer" data-accordion-label="g-footerLinkTitle" data-accordion-panel="g-footerLinks">
+         <p class="g-footerLinkTitle" tabindex="0">ピックアップ <span class="kao-icon"></span> </p>
+         <ul class="g-footerLinks">
+          <li><a href="https://pikamama.community.kao.com/pc/">ピカ★ママ</a></li>
+          <li><a href="http://www.kao.co.jp/kids/">キッズコーナー</a></li>
+          <li><a href="https://member.kao.com/jp/plaza/">KAO PLAZA</a></li>
+          <li><a href="http://direct.kao.co.jp/?cid=Group_000001">花王ダイレクト販売サービス</a></li>
+          <li><a href="http://chemical.kao.com/jp/?intcmp=top_KaoChemicalsTop">花王ケミカル製品情報</a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+       <div class="g-GlFooterColumnUnit">
+        <ul class="g-footerLinks">
+         <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+         <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護指針</a></li>
+         <li><a href="http://www.kao.com/jp/corp/rule/socialmediapolicy.html">ソーシャルメディアポリシー</a></li>
+         <li><a href="http://www.kao.com/jp/">花王トップ</a></li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- / Column -->
+   </div>
+   <div class="g-GlFooterBottom">
+    <p class="g-GlFooterBottom__copyright">Copyright © Kao Corporation. All rights reserved.</p>
+    <p class="g-GlFooterBottom__logo"><a href="http://www.kao.com/group/ja/group/index.html"><img src="/content/dam/sites/kao/inc-common/gl_footer_group_logo.png" alt="KAO Gruop"></a></p>
+   </div>
+  </div>
+ </div>
+</div></div>
+    <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+<style>
+    .s7responsiveImage{ width: 100% }
+</style>
+<script>
+	$(document).ready(function() {
+		$(".s7responsiveContainer img").each(function(index) {
+			s7responsiveImage(this);
+		});
+		$(".s7responsiveImage").each(function(index) {
+			s7responsiveImage(this);
+		});
+	});
+</script><script type="text/javascript">_satellite.pageBottom();</script>
+<!-- area-PageTop -->
+    <div class="g-Area" id="area-PageTop">
+      <div class="g-PageTop l-PageTop">
+        <a class="g-PageTop__link l-PageTop__link" href="#wrapper">ページ先頭へ戻る<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+      </div>
+    </div>
+    <!-- / area-PageTop -->
+
+    <!-- breakpoint -->
+    <div id="js-breakpoint--lg"></div>
+    <div id="js-breakpoint--md"></div>
+    <div id="js-breakpoint--sm"></div>
+
+</body>
+
+</html>

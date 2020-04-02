@@ -1,0 +1,237 @@
+.where-to-buy-section1{
+    @include section-max-width;
+    
+    .where-to-buy-heading{
+        margin-bottom: 0;
+        
+        div{
+            margin-bottom: 0;
+        }
+    }
+    
+    .where-to-buy-heading h1{
+        color: #216469;
+        line-height: 1;
+        font-family: 'PT Sans Narrow';
+    font-size: 50px !important;
+       
+    }
+    
+    .heading-light{
+            margin-bottom: 0;
+            font-family: "PT Sans Narrow";
+            font-size: 18px;
+            line-height: 1;
+        }
+}
+
+.where-to-buy-section2{
+    @include section-max-width;
+    background-color: #fff;
+    border: 1px solid;
+    margin-bottom: 50px;
+    min-height: 450px;
+    
+    .where-to-buy-pack{
+        
+        li {
+            
+            .is-background{
+                margin: 0 auto;
+                    background-position: 0px 0px;
+                background-size: cover;
+                height: 100px;
+                width: 180px;
+                padding: 0;
+                                
+                &:hover{
+                    background-position: 100%;
+                }
+                
+                img{
+                    visibility: hidden;
+                }
+  
+            }
+            
+        }
+    }
+}
+
+
+
+.where-to-buy-listing-section1{
+    @include section-max-width;
+     background-color: #fff;
+    
+    .l-Column.is-gutter--m .l-Column__cols{
+        padding-top: 0;
+    }
+    
+    .where-to-buy-banner{
+    position: relative;
+    
+    img{
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    
+    .where-to-buy-header{
+        position: absolute;
+        top: 5%;
+        left: 20px;
+        
+        @media(min-width:641px) and (max-width:$breakpoint_md){
+            position: static;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        
+        @media(min-width:641px) and (max-width:$breakpoint_md){
+            top: 10%;
+        }
+        
+        .heading-light{
+            font-size: 18px;
+            font-family: 'PT Sans Narrow';
+            line-height: 1;
+            margin-bottom: 0;
+        }
+        
+        .where-to-buy-title{
+            margin: 0 !important;
+            
+            div{
+                margin: 0;
+            }
+            
+            h1{
+                 font-family: 'PT Sans Narrow';
+                line-height: 1
+            }
+        }
+    }
+
+}
+    
+    .all-products-column{
+        position: relative;
+    min-height: 150px !important;
+    }
+    
+    .all-products-image{
+       
+        
+        img{
+            width: 100% !important;
+        }
+        
+    }
+    
+    .where-to-buy-list{
+        
+        a.l-TileLinkTextUnit.is-colorset--1{
+            border: none;
+        }
+        
+        .g-TileLinkTextUnit__leadBlock__title{
+            .g-Text {
+                font-size: 16px;
+    color: #92816e;
+    padding-left: 15px;
+    border-bottom: 3px solid #e3d5c4;
+    min-width: 200px;
+            }
+        }
+        
+        .g-TileLinkTextUnit__extraStructural{
+            
+            ul{
+              margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            
+            li{
+                padding: 5px !important;
+                
+                span{
+                    color: #555 !important;
+                }
+            }
+        }
+        
+        
+    }
+}
+
+.where-to-buy-title-mexico{
+	width: 100% !important;
+    min-height: 200px;
+    margin: 0 !important;
+    text-transform: uppercase;
+}
+.where-to-buy-regional-heading-mexico > .l-Column__inner > .l-Column__cols{
+    padding-bottom: 0;
+}
+.where-to-buy-regional-heading-mexico h2.l-HeadingTitle__h2{
+    @media (max-width:$breakpoint_sm){
+            font-size: 26px;
+        }
+}
+.where-to-buy-listing-mexico{
+	padding: 10px 20px 0 20px;
+	h2.l-HeadingTitle__h2{
+		color: #92816e !important;
+		padding-left: 0px;
+		border-bottom: 3px solid #e3d5c4;
+        text-transform: uppercase;
+	}
+	.l-TextLinkP{
+		.g-TextLinkP.is-gutter--m .g-TextLinkP__list__item{
+			padding:10px 20px;
+		}
+		li .l-TextLinkUnit__link,li .l-TextLinkUnit__link:visited,li .l-TextLinkUnit__link:link,li .l-TextLinkUnit__link:hover{
+			color: #5b2944;
+		}
+        li .l-TextLinkUnit__link{
+            color: #000;
+            padding-right: 35px;
+            padding-top: 3px;
+            padding-left: 0;
+            background-image: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/external-link-icon.png);
+            background-position: 100% 0;
+            background-repeat: no-repeat;
+            background-size: 30px;
+        }
+
+        li .noLink .l-TextLinkUnit__link{
+            color:#000;
+            padding-right: 35px;
+            padding-top: 3px;
+            padding-left: 0;
+            background-image: none;
+            background-position: 100% 0;
+            background-repeat: no-repeat;
+            background-size: 30px;
+        }
+		li .l-TextLinkUnit__link span span{
+			font-family: "PT Sans";
+			font-size: 18px;
+			border-bottom: 2px solid #5b2944;
+		}
+        li .l-TextLinkUnit.noLink span span{
+            border-bottom: none;
+        }
+	}
+    .wtb-country-title{
+        font-size: 22px;
+        border-bottom: 2px solid #e3d5c4;
+        text-align: left;
+        text-transform: uppercase;
+        color: #92816e !important;
+        
+        @media (max-width:$breakpoint_sm){
+            font-size: 20px;
+        }
+    }
+}

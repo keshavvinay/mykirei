@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* brands ============================== */
+
+//
+// ブランドタイトル
+//
+.sofina-section__brandsTitle {
+  .g-Section__inner {
+    padding-bottom: 0;
+  }
+}
+
+
+//
+// ブランド一覧
+//
+.sofina-section__brandsList {
+  overflow: visible;
+  .g-Section__inner {
+    padding-top: 0;
+  }
+
+  .sofina-HeadingTitle--sub {
+    margin-bottom: 10px;
+  }
+
+  $brandMargin: 15px;
+  $brandMargin_sm: 10px;
+  .sofina-TileLink__brandsList {
+    .l-TileLinkVUnit {
+      padding: 0 0 30px 0;
+      @include shadow();
+      @include lineFrame(solid, s);
+      @include bp(sm) {
+        padding: 0 0 $brandMargin_sm 0;
+      }
+      .l-TileLinkVUnit__imageBlock {
+        margin-bottom: 0;
+        .l-Image {
+          margin-bottom: 0;
+          @include bp(sm) {
+            padding: $brandMargin_sm $brandMargin_sm 0;
+          }
+        }
+      }
+      .l-TileLinkVUnit__leadBlock {
+        display: none;
+      }
+      > .l-Image {
+        margin: 10px 0;
+        padding: 0 $brandMargin;
+        @include bp(sm) {
+          padding: 0 $brandMargin_sm;
+        }
+      }
+      .l-Image {
+        &:nth-child(2) {
+          margin: 0 !important;
+          @include bp(sm) {
+            margin: 8px 0 15px !important;
+          };
+          img {
+            height: 20px;
+            width: auto !important;
+            @include bp(sm) {
+              height: 15px;
+            };
+          }
+        }
+      }
+      .sofina-TagLabels {
+        padding: 0 $brandMargin;
+        @include bp(sm) {
+          padding: 0 $brandMargin_sm;
+        }
+      }
+      > .l-Text {
+        margin-top: 10px;
+        padding: 0 $brandMargin;
+        color: $colorLink;
+        text-decoration: none;
+        font-size: $fontSize_lv7;
+        @include bp(sm) {
+          margin-top: 5px;
+          padding: 0 $brandMargin_sm;
+          font-size: $fontSize_sm_caption;
+        }
+      }
+      .l-Text.sofina-Text--anotation {
+        margin-top: 3px;
+        padding: 0 $brandMargin;
+        font-size: 11px;
+        @include bp(sm) {
+          padding: 0 $brandMargin_sm;
+        }
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $colorAction_1_hover;
+      }
+    }
+    .l-TileLinkVUnit__extraStructural {
+      > .l-Image {
+        margin: 10px 0;
+        padding: 0 $brandMargin;
+        @include bp(sm) {
+          padding: 0 $brandMargin_sm;
+        }
+      }
+      > .l-Text {
+        margin-top: 10px;
+        padding: 0 $brandMargin;
+        color: $colorLink;
+        text-decoration: none;
+        font-size: $fontSize_lv7;
+        @include bp(sm) {
+          margin-top: 5px;
+          padding: 0 $brandMargin_sm;
+          font-size: $fontSize_sm_caption;
+        }
+      }
+    }
+  }
+}

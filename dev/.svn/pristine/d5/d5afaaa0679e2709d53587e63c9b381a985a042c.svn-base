@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>サンプル3: Copyright</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- AEM temporary common css -->
+<link rel="stylesheet" href="/etc/clientlibs/common/lib.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/basic.css">
+<!-- /AEM temporary common css -->
+
+</head>
+<body>
+
+
+
+<div class="kbc-footer">
+<div class="kbc-footer__inner">
+
+<div class="kbc-footer-logo"><img src="/content/dam/sites/kanebo/inc-common/footer-logo-kanebo.png" alt="Kanebo"></div>
+<p class="kbc-footer-copyright">Copyright © Kanebo Cosmetics Inc. All Rights Reserved.</p>
+
+<!-- /.kbc-footer__inner --></div>
+<!-- /.kbc-footer --></div>
+
+
+<style type="text/css">
+/* KBC Footer Frame */
+.kbc-footer {
+	border-top: solid 1px #e4e4e4;
+	background: #f5f5f5;
+	font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.kbc-footer__inner {
+	margin: 0 auto;
+	padding: 0 0 20px;
+	max-width: 1024px;
+	box-sizing: border-box;
+}
+
+/* KBC Footer Links */
+.kbc-footer-links {
+	margin: 0;
+	padding: 0;
+	line-height: 1.33;
+	font-size: 12px;
+	letter-spacing: .05em;
+	list-style: none;
+}
+.kbc-footer-links__item {
+	margin: 0;
+	padding: 0;
+	border-style: solid;
+	border-width: 0 0 1px;
+	border-color: #e0e0e0;
+	box-sizing: border-box;
+}
+.kbc-footer-links__item__a {
+	padding: 15px 10px;
+	display: block;
+	box-sizing: border-box;
+}
+.kbc-footer-links__item__a:link ,
+.kbc-footer-links__item__a:visited {
+	color: #4c4c4c;
+	text-decoration: none;
+}
+.kbc-footer-links__item__a:hover ,
+.kbc-footer-links__item__a:focus {
+	color: #4c4c4c;
+	text-decoration: underline;
+}
+@media only screen and (min-width: 1025px) {
+	.kbc-footer-links {
+		margin-top: 30px;
+		margin-left: -20px;
+		margin-bottom: -10px;
+		text-align: center;
+	}
+	.kbc-footer-links__item {
+		margin-left: 20px;
+		border-style: none;
+		display: inline-block;
+	}
+	.kbc-footer-links__item__a {
+		padding: 0;
+		display: inline;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+	.kbc-footer-links {
+		margin-bottom: -10px;
+		overflow: hidden;
+	}
+	.kbc-footer-links__item {
+		float: left;
+		width: 50%;
+	}
+	.kbc-footer-links__item:nth-child(2n) {
+		border-left-width: 1px;
+	}
+}
+
+/* KBC Footer Logo */
+.kbc-footer-logo {
+	margin: 20px 10px 0;
+		width: 67px;
+		height: 14px;
+}
+.kbc-footer-logo img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+@media only screen and (min-width: 1025px) {
+	.kbc-footer-logo {
+		margin-top: 30px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 63px;
+		height: 13px;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+	.kbc-footer-logo {
+		margin-top: 30px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 63px;
+		height: 13px;
+	}
+}
+
+/* KBC Footer Copyright */
+.kbc-footer-copyright {
+	margin: 8px 10px 0;
+	line-height: 1.2;
+	color: #4c4c4c;
+	font-size: 10px;
+	text-align: left;
+}
+@media only screen and (min-width: 1025px) {
+	.kbc-footer-copyright {
+		margin-top: 10px;
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+	.kbc-footer-copyright {
+		margin-top: 10px;
+		text-align: center;
+	}
+}
+</style>
+
+
+</body>
+</html>

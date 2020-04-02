@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+/* MapAccessVP ================================================== */
+.g-MapAccessVP {
+  //クラス名が入れ子になる可能性があるため
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+  &.is-layoutT {
+    .g-MapAccessVP__contentsBlock__map {
+      margin-bottom: 20px;
+    }
+  }
+  &.is-layoutB {
+    .g-MapAccessVP__contentsBlock__text {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.g-MapAccessVP__contentsBlock__map {
+  margin: 0 auto;
+}
+
+.g-MapAccessVP__contentsBlock__text {
+}

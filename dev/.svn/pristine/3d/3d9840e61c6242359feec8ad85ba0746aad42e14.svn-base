@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+//@font-face {
+//  font-family: 'PT Sans';
+//  src:  url('https://fonts.googleapis.com/css?family=PT+Sans');
+//}
+
+//Overwriting the option.css classes here
+.opt-fontsize--xs{
+    font-size: 10px !important;
+}
+
+.opt-fontsize--s{
+    font-size: 14px !important;
+}
+
+.opt-fontsize--l{
+    font-size: 18px !important;
+}
+
+.opt-fontsize--xl{
+    font-size: 20px !important;
+}
+
+.opt-fontsize--xxl{
+    font-size: 30px !important;
+}
+ 
+.opt-fontsize--xxxl{
+    font-size: 32px !important;
+}
+
+.opt-fontsize--xxxxl{
+    font-size: 44px !important;
+}
+

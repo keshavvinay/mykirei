@@ -1,0 +1,94 @@
+.is-authorring .subscribe-success{
+    visibility: visible;
+}
+
+.subscribe-success{
+    visibility: hidden;
+}
+
+
+.is-authorring .jf-unsubscribe .unsubscribe-email{    
+    display: block;
+}
+
+.jf-unsubscribe .unsubscribe-email{    
+    display: none;
+}
+
+.jf-unsubscribe .error{
+    display: none;
+}
+
+.is-authorring .jf-unsubscribe .error{
+    display: block;
+}
+
+.is-authorring .unsubscribe-loader-section {
+    position: relative;
+    background-color: #fff;
+}
+
+.is-authorring .unsubscribe-loader-section .g-Section__inner{
+    position: relative;
+}
+
+.is-authorring .unsubscribe-loader-section .g-Text{
+    color: #000;
+}
+
+.unsubscribe-loader-section .g-Text{
+    color: #fff;
+    font-weight: bold;
+}
+
+.is-authorring .unsubscribe{
+    height: auto;
+    width: auto;
+}
+.unsubscribe{
+    height: 50vh;
+    width: 100%;
+}
+
+.unsubscribe-loader-section {
+    position: fixed;
+    z-index: 99999;
+    overflow: visible;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.unsubscribe-loader-section .loader {
+    margin: auto;
+    border: 2px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 2px solid #000;
+    width: 2em;
+    height: 2em;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+.unsubscribe-loader-section .g-Section__inner{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

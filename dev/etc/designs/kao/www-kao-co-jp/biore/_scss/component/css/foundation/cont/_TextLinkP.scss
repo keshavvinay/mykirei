@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+/* TextLinkP ================================================== */
+.l-TextLinkP {
+}
+
+.l-TextLinkP__list__item {
+  @include fontSize(body);
+}
+
+/* TextLinkUnit ================================================== */
+.l-TextLinkUnit__link {
+  @include fontSize(body);
+  .is-colorset--1 & {
+    @include linkColor(1);
+  }
+  .is-colorset--2 & {
+    @include linkColor(2);
+  }
+}

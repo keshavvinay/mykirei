@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_015: Tile Link Pack (Vertical)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <div class="backBtn">
+            <a href="javascript:history.back()">← back</a>
+          </div>
+          <h1>G_CON_015: Tile Link Pack (Vertical)</h1>
+          <!-- G_CON_015: Tile Link Pack (Vertical) -->
+          <div class="method">
+            <p class="componentName">TileLink</p>
+            <ul>
+              <li>Length : Unitの個数</li>
+              <li>Rows(lg) : 1〜6</li>
+              <li>Rows(md) : 1〜4</li>
+              <li>Rows(sm) : 1〜2</li>
+              <li>Text align : Text-align制御クラス付与</li>
+              <li>Background image : 背景画像スタイル付与</li>
+              <li>Specific CSS class : 任意クラス付与</li>
+              <li>ID : 任意ID付与</li>
+              <li>配色: タイルリンク色1～2</li>
+            </ul>
+          </div>
+          <h3 class="settingName">[ex] Length=8, Rows(lg)=4, Rows(md)=3, Rows(sm)=1</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">Text align : left</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight opt-lg-al_l opt-md-al_l opt-sm-al_l" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">Text align : center</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight opt-lg-al_c opt-md-al_c opt-sm-al_c" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">Text align : right</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight opt-lg-al_r opt-md-al_r opt-sm-al_r" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">Background image</h3>
+          <div class="g-TileLinkVP l-TileLinkVP is-background js-uniformHeight" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">Background image, gutter: xs</h3>
+          <div class="g-TileLinkVP l-TileLinkVP is-background js-uniformHeight is-gutter--xs" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">[ex] Length=4, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: xs</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-gutter--xs" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">[ex] Length=4, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: s</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-gutter--s" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">[ex] Length=4, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: m</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-gutter--m" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">[ex] Length=4, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: l</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-gutter--l" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">[ex] Length=4, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: xl</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-gutter--xl" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">[ex] Length=4, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: none</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-gutter--none" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">SpecificCSSclass</h3>
+          <div class="g-TileLinkVP l-TileLinkVP SpecificCSSclass js-uniformHeight" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">ID</h3>
+          <div id="ID" class="g-TileLinkVP l-TileLinkVP SpecificCSSclass js-uniformHeight" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">配色:タイルリンク色1</h3>
+          <div class="g-TileLinkVP l-TileLinkVP SpecificCSSclass js-uniformHeight" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">配色:タイルリンク色2</h3>
+          <div id="ID" class="g-TileLinkVP l-TileLinkVP SpecificCSSclass js-uniformHeight" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--2" href="" target="" style="height: 373px;">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                      <!-- G_CON_004: Image Item -->
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext"> <span>Caption Richtext Caption Richtext Caption Richtext</span> </p>
+                        </div>
+                      </div>
+                      <!-- / G_CON_004: Image Item -->
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div> <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span> </div>
+                  </div>
+                </a>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--2" href="" target="" style="height: 373px;">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                      <!-- G_CON_004: Image Item -->
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext"> <span>Caption Richtext Caption Richtext Caption Richtext</span> </p>
+                        </div>
+                      </div>
+                      <!-- / G_CON_004: Image Item -->
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div> <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span> </div>
+                  </div>
+                </a>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--2" href="" target="" style="height: 373px;">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                      <!-- G_CON_004: Image Item -->
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext"> <span>Caption Richtext Caption Richtext Caption Richtext</span> </p>
+                        </div>
+                      </div>
+                      <!-- / G_CON_004: Image Item -->
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div> <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span> </div>
+                  </div>
+                </a>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--2" href="" target="" style="height: 373px;">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                      <!-- G_CON_004: Image Item -->
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext"> <span>Caption Richtext Caption Richtext Caption Richtext</span> </p>
+                        </div>
+                      </div>
+                      <!-- / G_CON_004: Image Item -->
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <!-- G_CON_003: Text Item -->
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext"> <span>Text Richtext Text Richtext Text Richtext Text Richtext</span> </p>
+                        </div>
+                        <!-- / G_CON_003: Text Item -->
+                      </div> <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span> </div>
+                  </div>
+                </a>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">is-paddingNone</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-paddingNone" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">is-borderWidth--s</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-borderWidth--s" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">is-borderWidth--m</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-borderWidth--m" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">is-borderWidth--l</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-borderWidth--l" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <h3 class="settingName">is-borderNone</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-borderNone" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                <!-- TileLinkVUnit -->
+                <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+                <!-- / TileLinkVUnit -->
+              </li>
+            </ul>
+          </div>
+          <!-- TileLinkVUnit -->
+          <div class="method">
+            <p class="componentName">TileLinkVUnit</p>
+            <ul>
+              <li>Target/Link icon : アイコン用ステータスクラス付与</li>
+              <li>Layout : 画像上、画像下(DOM出力順変更、制御クラス付与)</li>
+              <li>Image-Width : 100%〜10%（bpごとにoptionクラス付与/スモールで「画像の配置変更」が「変更する」の場合はMAX50%）</li>
+              <li>Lead Image-Width : 100%〜10%（bpごとにoptionクラス付与）</li>
+              <li>Specific CSS class : 任意クラス付与</li>
+              <li>Background image : 背景画像スタイル付与</li>
+              <li>Small Break: 「画像の配置変更」が「変更する」の場合に制御クラス付与</li>
+            </ul>
+          </div>
+          <h3 class="settingName">Typical</h3>
+          <div class="debug-tmpl" data-tmpl="TileLinkVUnit--Typical"></div>
+          <h3 class="settingName">Element : none</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="g-Text l-Text">
+                    <p class="cmn-richtext">
+                      <span>Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext</span>
+                    </p>
+                  </div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Element : Lead Text & Tag(all)</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__tag l-TileLinkVUnit__leadBlock__tag">
+                  <!-- G_CON_006 Label/Tag Pack -->
+                  <div class="g-LabelTagP l-LabelTagP">
+                    <ul class="g-LabelTagP__list l-LabelTagP__list">
+                      <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+                        <!-- LabelTagUnit -->
+                        <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+                        <!-- / LabelTagUnit -->
+                      </li>
+                      <li class="g-LabelTagP__list__item l-LabelTagP__list__item">
+                        <!-- LabelTagUnit -->
+                        <div class="debug-tmpl" data-tmpl="LabelTagUnit--Typical"></div>
+                        <!-- / LabelTagUnit -->
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- / G_CON_006 Label/Tag Pack -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">LinkIcon : external</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--external g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">LinkIcon : basic</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">LinkIcon : PDF</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--pdf g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">LinkIcon : download</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--download g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">LinkIcon : none</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1 is-noicon" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Layout : top</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Layout : bottom</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutB is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Layout : Top | Width : 80%(lg) 100%(md) 50%(sm) | Small Break:On</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-smallViewHorizontal is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w80p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Layout : Bottom | Width : 80%(lg) 100%(md) 50%(sm) | Small Break:On</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutB is-smallViewHorizontal is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w80p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Layout : Top | Width : 80%(lg) 100%(md) 50%(sm) | Small Break:On | LinkIcon : none</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-smallViewHorizontal is-colorset--1 is-noicon" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w80p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Layout : Bottom | Width : 80%(lg) 100%(md) 50%(sm) | Small Break:On | LinkIcon : none</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutB is-smallViewHorizontal is-colorset--1 is-noicon" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+              </div>
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w80p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">SpecificCSSclass</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit SpecificCSSclass is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Background image</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-background is-colorset--1" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Element : Lead Image</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                  <!-- G_CON_004: Image Item -->
+                  <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                  <!-- / G_CON_004: Image Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Element : Lead Image Width 50%</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title opt-sm-w50p opt-md-w50p opt-lg-w50p">
+                  <!-- G_CON_004: Image Item -->
+                  <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                  <!-- / G_CON_004: Image Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Element : Lead Image Width 20%(lg) 50%(md) 100%(sm)</h3>
+          <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+            <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+                <!-- G_CON_004: Image Item -->
+                <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                <!-- / G_CON_004: Image Item -->
+              </div>
+              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title opt-sm-w100p opt-md-w50p opt-lg-w20p">
+                  <!-- G_CON_004: Image Item -->
+                  <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+                  <!-- / G_CON_004: Image Item -->
+                </div>
+                <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                  <!-- G_CON_003: Text Item -->
+                  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+                  <!-- / G_CON_003: Text Item -->
+                </div>
+                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+              </div>
+            </div>
+          </a>
+          <h3 class="settingName">Extend Structural Items | Small Break:On</h3>
+          <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight" data-uniform-target="g-TileLinkVUnit,g-TileLinkVUnit__leadBlock">
+            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-smallViewHorizontal is-colorset--1" href="" target="">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w100p">
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext">
+                            <span>Caption Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>Text Richtext Text Richtext Text Richtext Text Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            Text Richtext Text Richtext
+                          </p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                    </div>
+                  </div>
+                  <div class="g-TileLinkVUnit__extraStructural l-TileLinkVUnit__extraStructural">
+                    <div class="g-Text l-Text">
+                      <p class="cmn-richtext">
+                        <span>Extend Structural Extend Structural Extend Structural</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-smallViewHorizontal is-colorset--1" href="" target="">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w100p">
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext">
+                            <span>Caption Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>Text Richtext Text Richtext Text Richtext Text Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext
+                          </p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                    </div>
+                  </div>
+                  <div class="g-TileLinkVUnit__extraStructural l-TileLinkVUnit__extraStructural">
+                    <div class="g-Text l-Text">
+                      <p class="cmn-richtext">
+                        <span>Extend Structural Extend Structural Extend Structural Extend Structural Extend Structural Extend Structural</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-smallViewHorizontal is-colorset--1" href="" target="">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w100p">
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext">
+                            <span>Caption Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>Text Richtext Text Richtext Text Richtext Text Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            Text Richtext Text Richtext Text Richtext Text Richtext
+                          </p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                    </div>
+                  </div>
+                  <div class="g-TileLinkVUnit__extraStructural l-TileLinkVUnit__extraStructural">
+                    <div class="g-Text l-Text">
+                      <p class="cmn-richtext">
+                        <span>Extend Structural</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-smallViewHorizontal is-colorset--1" href="" target="">
+                  <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                    <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w50p opt-md-w100p opt-lg-w100p">
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                        <div class="g-Image__caption l-Image__caption">
+                          <p class="cmn-richtext">
+                            <span>Caption Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                      <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>Text Richtext</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            Text Richtext
+                          </p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                    </div>
+                  </div>
+                  <div class="g-TileLinkVUnit__extraStructural l-TileLinkVUnit__extraStructural">
+                    <div class="g-Image l-Image">
+                      <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+                      <div class="g-Image__caption l-Image__caption">
+                        <p class="cmn-richtext">
+                          <span>Caption Richtext</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- / TileLinkVUnit -->
+        </div>
+      </div>
+      <div class="pageTop">
+        <a href="#contents">▲トップへ</a>
+      </div>
+      <!--/contents-->
+    </div>
+    <!--/wrapper-->
+  </div>
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

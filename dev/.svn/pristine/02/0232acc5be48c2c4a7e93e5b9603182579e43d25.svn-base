@@ -1,0 +1,12 @@
+.g-ImageTextVP {
+    .g-ImageTextVP__contentsBlock__image {
+
+    }
+    .g-ImageTextVP__contentsBlock__text {
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            .g-HeadingTitle__h3 {
+                font-family: $ralewayExtraBold;
+            }
+        }
+    }
+}

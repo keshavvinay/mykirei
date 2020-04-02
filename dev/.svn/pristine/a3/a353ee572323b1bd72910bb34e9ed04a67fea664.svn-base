@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/*****************************
+  config
+ *****************************/
+
+/*
+ setting（上書き禁止）
+ */
+$maxWidth_sm:  640px;
+$maxWidth_md: 1024px;
+$maxWidth_lg: 1336px;
+
+/* Body */
+$body__bg: #FFF;

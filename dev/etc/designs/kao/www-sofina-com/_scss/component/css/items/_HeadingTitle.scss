@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+/* HeadingTitle
+ ================================================== */
+.l-HeadingTitle {
+  &.is-link {
+    @include areaLink();
+  }
+}
+
+.l-HeadingTitle__titleBlock {
+}
+
+.l-HeadingTitle__titleBlock__imageBox {
+}
+
+.l-HeadingTitle__titleBlock__titleBox {
+}
+
+.l-HeadingTitle__titleBlock__titleBox__title {
+}
+
+.l-HeadingTitle__h2,
+.l-HeadingTitle__h3,
+.l-HeadingTitle__h4,
+.l-HeadingTitle__h5,
+.l-HeadingTitle__h6,
+.l-HeadingTitle__p {
+}
+.l-HeadingTitle__h2 {
+  @include fontSize(lv2);
+}
+.l-HeadingTitle__h3 {
+  @include fontSize(lv3);
+}
+.l-HeadingTitle__h4 {
+  @include fontSize(lv4);
+}
+.l-HeadingTitle__h5 {
+  @include fontSize(lv5);
+}
+.l-HeadingTitle__h6 {
+  @include fontSize(lv6);
+}
+.l-HeadingTitle__p {
+  @include fontSize(body);
+}
+

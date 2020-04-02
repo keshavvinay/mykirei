@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+/* ListP ================================================== */
+
+
+/* ListUnit ================================================== */
+.l-ListUnit {
+  line-height: $lineHeight_lg_lv6;
+  &.is-link {
+    @include link();
+  }
+}
+
+.l-ListUnit__icon {
+  color: $contents__icon;
+}

@@ -1,0 +1,150 @@
+/*-------------------------------------------- FAQ ------------------------------------------------*/
+
+.cjp-faq-section {
+    margin: 30px auto;
+    padding: 30px 0;
+
+    .g-ImageTextHP.is-wraparound.is-layoutL .g-ImageTextHP__contentsBlock__text.opt-lg-w80p .g-HeadingTitle--h2 {
+        width: inherit;
+    }
+
+    .cmn-icon--down:before {
+        content: "\e901";
+    }
+
+    .cmn-icon--up:before {
+        content: "\e902";
+    }
+
+    .l-AccordionUnit__titleBlock {
+        border-bottom: none;
+    }
+
+    .g-AccordionMenu__item.l-AccordionMenu__item:last-child .l-AccordionUnit__titleBlock {
+        border-bottom: 1px solid rgba(157, 157, 156, 0.25);
+    }
+
+    .g-AccordionUnit.l-AccordionUnit.js-accordion.is-radius--close {
+        height: inherit;
+        margin: 0;
+    }
+
+    .g-HeadingTitle.l-HeadingTitle.g-HeadingTitle--h3.l-HeadingTitle--h3 {
+        margin: 0;
+    }
+
+    .g-HeadingTitle.l-HeadingTitle.g-HeadingTitle--h3.l-HeadingTitle--h3 {
+        text-align: left;
+        margin: 0;
+        width: 376px;
+        margin: 0 20px;
+    }
+
+    span.cmn-icon.g-AccordionUnit__titleBlock__icon.l-AccordionUnit__titleBlock__icon {
+        float: left;
+        text-align: left;
+        left: 20px;
+        font-size: 30px;
+
+        //color: #00A4B7;
+   
+    }
+
+    span.cmn-icon--up {
+        color: $text-color-secondary-25;
+    }
+
+    .g-AccordionUnit__titleBlock.l-AccordionUnit__titleBlock {
+        min-height: 28px;
+        padding: 10px 20px;
+        background: $text-color-white;
+
+        .g-HeadingTitle.l-HeadingTitle.g-HeadingTitle--p.l-HeadingTitle--p {
+            margin: 0;
+            height: inherit;
+
+            .g-HeadingTitle__titleBlock.l-HeadingTitle__titleBlock {
+                padding: 0 44px;
+
+                @media #{$tablet-only} ,#{$phone-only}{
+                    padding: 0;
+                    width: 90%;
+                    margin: 0 0 0 auto;
+                }
+            }
+        }
+    }
+
+    .g-AccordionMenu__item:not(:last-child) .g-AccordionUnit {
+        margin-bottom: 0;
+    }
+
+    .cjp-faq-sub-title {
+        width: 100% !important;
+        margin: 10px 0 !important;
+        height: 43px;
+        line-height: 22px;
+    }
+}
+
+/*------------------------- SECTION 1 ---------------------------*/
+
+.cjp-faq-section-2 {
+    .g-ImageTextHP__contentsBlock__image.l-ImageTextHP__contentsBlock__image.opt-lg-w20p.opt-md-w50p.opt-sm-w50p {
+        width: 113.79px;
+        height: 113.79px;
+
+        .g-Image.l-Image.is-background.is-backgroundColor--1.s7responsiveContainer {
+            padding: 0;
+        }
+    }
+
+    .g-ImageTextHP__contentsBlock__text.l-ImageTextHP__contentsBlock__text.opt-lg-w80p.opt-md-w50p.opt-sm-w50p {
+        width: 585px;
+        padding-top: 10px;
+    }
+}
+
+/*----------------------------------- TABLET -------------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+    .cjp-faq-section {
+        width: 81%;
+        padding: 0;
+    }
+
+    .g-ImageTextHP.l-ImageTextHP.is-layoutL.is-wraparound {
+        margin-bottom: 20px;
+    }
+
+    .cjp-faq-section-2 {
+        .g-ImageTextHP__contentsBlock__text.l-ImageTextHP__contentsBlock__text.opt-lg-w80p.opt-md-w50p.opt-sm-w50p {
+            width: 70.5%;
+            padding-top: 10px;
+            text-align: left;
+        }
+
+        .g-ImageTextHP.is-wraparound.is-layoutL .g-ImageTextHP__contentsBlock__text.opt-lg-w80p .g-HeadingTitle--h2 {
+            width: unset;
+            margin-left: unset;
+        }
+    }
+}
+
+/*-------------------------------------- MOBILE -------------------------------------------------*/
+
+@media only screen and (max-width: 640px) {
+    .cjp-faq-section-2 .g-ImageTextHP__contentsBlock__text.l-ImageTextHP__contentsBlock__text.opt-lg-w80p.opt-md-w50p.opt-sm-w50p {
+        width: 100%;
+    }
+}
+
+/*---------------------------------------- AEM ---------------------------------------------------*/
+
+.is-authorring {
+    .cjp-faq-section {
+        .g-AccordionMenu__item.l-AccordionMenu__item {
+            height: auto !important;
+        }
+    }
+}

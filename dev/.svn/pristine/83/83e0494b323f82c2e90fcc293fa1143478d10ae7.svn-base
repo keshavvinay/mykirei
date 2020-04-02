@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+
+/* LinkButton ================================================== */
+.g-LinkButton {
+  margin-bottom: 12px;
+  position: relative;
+  &.is-link { //内包される場合があるため、移動
+    .g-LinkButton__link {
+      @include link();
+    }
+  }
+}
+
+.g-LinkButton__link {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  @include fontSize(body);
+  //padding: 10px;
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+  // .is-link & {
+  //   @include link();
+  // }
+  .is-btn & {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    @include border-radius($borderRadius_xs);
+    @include box-shadow($shadowA_setting);
+    background-color: $colorButton_bg;
+    text-decoration: none;
+    color: $colorButton_text;
+    @include areaLink();
+    .cmn-icon {
+      color: $colorButton_text;
+    }
+  }
+  .is-leftIcon & {
+    & .cmn-richtext {
+      padding-left: 1.5em;
+      display: inline-block;
+    }
+  }
+  .is-rightIcon & {
+    & .cmn-richtext {
+      padding-right: 1.5em;
+      display: inline-block;
+    }
+  }
+}
+
+.g-LinkButton__link__icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -.7em;
+  .is-leftIcon & {
+    left: 0;
+  }
+  .is-rightIcon & {
+    right: 0;
+  }
+  .is-background & {
+    .is-leftIcon & {
+      left: 20px;
+    }
+    .is-rightIcon & {
+      right: 20px;
+    }
+  }
+  .is-btn.is-leftIcon & {
+    left: 20px;
+  }
+  .is-btn.is-rightIcon & {
+    right: 20px;
+  }
+}
+
+
+/* modifer sample ==================================================*/
+.g-LinkButton-sample1 {
+  .g-LinkButton__link {
+    text-decoration: none;
+  }
+  .g-LinkButton__link__bullet {
+    &:before {
+      content: "\e127";
+    }
+  }
+}
+.g-LinkButton-sample2 {
+  .g-LinkButton__link {
+    padding: 10px 20px;
+    background-color: #ccf;
+    @include borderRadius(l);
+    text-decoration: none;
+  }
+  .g-LinkButton__link__bullet {
+    &:before {
+      content: "\e080";
+    }
+  }
+}
+.g-LinkButton-sample3 {
+  display: block;
+  position: relative;
+  .g-LinkButton__link {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ccf;
+    @include borderRadius(s);
+    text-decoration: none;
+    text-align: center;
+  }
+  .g-LinkButton__link__bullet {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -.7em;
+    &:before {
+      content: "\e080";
+    }
+  }
+}

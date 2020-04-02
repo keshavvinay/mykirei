@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+
+/* Image ================================================== */
+.g-Map {
+}
+.g-Map__appLink {
+  @include fontSize(body);
+  @include link();
+}

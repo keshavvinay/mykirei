@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/*****************************
+  config
+ *****************************/
+/*
+ setting（上書き禁止）
+ */
+/*
+ variable
+ サイト、ページ別に上書きを許可する値
+ */
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Link
+ */
+@font-face {
+  font-family: 'icomoon-header';
+  src: url("../fonts/icomoon.eot?vlhs1s");
+  src: url("../fonts/icomoon.eot?vlhs1s#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?vlhs1s") format("truetype"), url("../fonts/icomoon.woff?vlhs1s") format("woff"), url("../fonts/icomoon.svg?vlhs1s#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Global Header ================================================== */
+.sofina-brands-BlHeader {
+  padding: 0;
+  background-color: #fff;
+}
+.sofina-brands-BlHeader .g-Area__inner {
+  max-width: 100%;
+}
+
+/* brands-BlHeader
+---------- ---------- ---------- */
+.brands-BlHeader {
+  margin: 0 auto;
+  padding: 10px 32px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #ccc;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .brands-BlHeader {
+    padding: 15px 0;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .brands-BlHeader {
+    position: static;
+    min-width: 960px;
+  }
+  .brands-BlHeader.is-fixed {
+    position: fixed;
+  }
+}
+
+/* heaer placeholder
+---------- */
+/* Logo
+---------- ---------- */
+.sofina-brands-HeaderLogo {
+  width: 100px;
+  height: 19px;
+  margin: 0 auto;
+  padding: 0;
+}
+.sofina-brands-HeaderLogo img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.sofina-brands-HeaderLogo a {
+  display: block;
+  position: relative;
+  width: inherit;
+  height: inherit;
+}
+.sofina-brands-HeaderLogo a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+}
+.sofina-brands-HeaderLogo a:focus:after, .sofina-brands-HeaderLogo a:hover:after, .sofina-brands-HeaderLogo a:active:after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-brands-HeaderLogo {
+    width: 160px;
+    height: 31px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-brands-HeaderLogo {
+    margin: 30px auto 40px;
+    width: 240px;
+    height: 46px;
+  }
+  .is-fixed .sofina-brands-HeaderLogo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 23px;
+  }
+  .is-fixed .sofina-brands-HeaderLogo .sofina-brands-HeaderLogo__img {
+    display: none;
+  }
+  .is-fixed .sofina-brands-HeaderLogo .sofina-brands-HeaderLogo__img--fixed {
+    display: block;
+  }
+}
+
+.sofina-brands-HeaderLogo__img--fixed {
+  display: none;
+}
+
+/* Header Menu
+---------- ---------- */
+.sofina-brands-HeaderMenu {
+  padding: 0 10px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  text-decoration: none;
+}
+.sofina-brands-HeaderMenu:after {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  line-height: 1;
+  height: 1em;
+  content: '\e606';
+  color: #777;
+  font-family: 'icomoon-header';
+  font-size: 1.7em;
+  text-align: center;
+}
+.sofina-brands-HeaderMenu:focus, .sofina-brands-HeaderMenu.is-open {
+  background-color: #777;
+}
+.sofina-brands-HeaderMenu:focus:after, .sofina-brands-HeaderMenu.is-open:after {
+  color: #fff;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-brands-HeaderMenu {
+    display: none;
+  }
+}
+
+/* sbps GlobalNav
+---------- ---------- */
+.sofina-brands-HeaderGlobalNav {
+  margin: 0;
+  padding: 0 10px;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  overflow-y: scroll;
+  width: 100%;
+  list-style: none;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.sofina-brands-HeaderGlobalNav.is-open {
+  display: block;
+}
+.sofina-brands-HeaderGlobalNav li {
+  margin: 0;
+  padding: 0;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  display: block;
+  line-height: 1.3;
+  font-size: 18px;
+}
+.sofina-brands-HeaderGlobalNav li:first-child {
+  border-top-width: 0;
+}
+.sofina-brands-HeaderGlobalNav a {
+  padding: 11px 20px 11px 0;
+  display: block;
+  text-decoration: none;
+  background: url(../img/arrow_glay_right.png) 100% 50% no-repeat;
+}
+.sofina-brands-HeaderGlobalNav a:link {
+  color: #000;
+}
+.sofina-brands-HeaderGlobalNav a:visited {
+  color: #000;
+}
+.sofina-brands-HeaderGlobalNav a:hover, .sofina-brands-HeaderGlobalNav a:focus, .sofina-brands-HeaderGlobalNav a:active {
+  color: #a9a9a9;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-brands-HeaderGlobalNav li br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-brands-HeaderGlobalNav li br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-brands-HeaderGlobalNav {
+    margin: 0 auto;
+    padding: 0;
+    display: table;
+    position: static;
+    width: 100%;
+    max-width: 1302px;
+    border-width: 0;
+  }
+  .sofina-brands-HeaderGlobalNav li {
+    border-color: #ddd;
+    border-width: 0 1px 0 0;
+    display: table-cell;
+    width: 16.67%;
+    line-height: 1.3;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  .sofina-brands-HeaderGlobalNav li:first-child {
+    border-left-width: 1px;
+  }
+  .sofina-brands-HeaderGlobalNav a {
+    padding: 0 10px;
+    text-align: center;
+    background-image: none;
+  }
+}
+
+.opt-fixed-adjust {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .opt-fixed-adjust {
+    padding-top: 62px;
+    margin-top: -62px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .opt-fixed-adjust {
+    padding-top: 114px;
+    margin-top: -114px;
+  }
+}

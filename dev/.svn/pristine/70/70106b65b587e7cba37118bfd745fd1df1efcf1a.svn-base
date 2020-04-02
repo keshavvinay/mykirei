@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/*****************************
+  Clientlibs config
+ *****************************/
+/*
+ setting
+ （上書き禁止）
+ */
+/*
+ common veriable
+ （共通変数・任意）
+ */
+/* design foundation */
+/*****************************
+  principles
+ *****************************/
+/*
+ design principles
+ （サイト、ページ別に上書きを許可）
+ */
+/*****************************
+  Content Color set (light)
+ *****************************/
+/* Body */
+/* Brand Header */
+/* Local Navigation */
+/* Breadcrumbs */
+/* Contents Area */
+/* Link */
+/* Button */
+/* Accordion */
+/* TileLink */
+/* NewsIndex */
+/* TelephoneCallItem */
+/* FullwidthVisuals&Carousel */
+/* Label/Tag */
+/* DefinitionList */
+/* Brand Footer */
+/* Page Top */
+/* Option */
+/*****************************
+  principles font-family ゴシック
+ *****************************/
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+/*
+ Link
+ */
+/*
+ AreaLink
+ */
+/*
+ Button
+ */
+/*
+  gutterWrapper (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterInner (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterItemWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  上マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  下マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  左マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  右マージン.
+  @param $level s,m,l,xl
+*/
+/*
+ Corner Radius（※廃止予定）
+ @param $size (ss, s, m, l, ll)
+ */
+/*
+ Image(or Movie) Text Pack(Horizontal)内のHeadingTitle
+ @param $imagePosition(left, right)
+ */
+/*
+ Map Access Pack(Horizontal)内のHeadingTitle
+ @param $mapPosition(left, right)
+ */
+/*
+  シャドウ.
+  @param $pattern A,B,none
+*/
+/*
+  ボタン用シャドウ.
+  @param $visible true,false
+*/
+/* layout */
+/* Gl Footer ================================================== */
+.sofina-GlFooter {
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+
+.sofina-GlFooter__inner {
+  margin: 0 auto;
+  padding: 10px 32px;
+  max-width: 1366px;
+  text-align: center;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-GlFooter__inner {
+    padding: 10px 24px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-GlFooter__inner {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-GlFooter__inner {
+    text-align: left;
+  }
+}
+
+.sofina-footerLogoLinkArea {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.sofina-footerLogoArea {
+  float: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerLogoArea {
+    float: none;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-footerLogoArea {
+    float: none;
+    text-align: left;
+  }
+}
+
+.sofina-footerLogo {
+  margin: 5px 0 0;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+.sofina-footerLogo:hover, .sofina-footerLogo:focus {
+  color: #9a9a9a;
+}
+.sofina-footerLogo:hover img, .sofina-footerLogo:focus img {
+  opacity: .5;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerLogo {
+    margin: 10px 0 0;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerLogo {
+    margin: 10px 0 0;
+  }
+}
+
+.sofina-footerLogo__img {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sofina-footerLogo__img img {
+  width: 90px;
+  height: 18px;
+  vertical-align: top;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerLogo__img img {
+    width: 120px;
+    height: 24px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerLogo__img img {
+    width: 120px;
+    height: 24px;
+  }
+}
+
+.sofina-footerLogo__txt {
+  margin: 0 0 0 10px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerLogo__txt {
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerLogo__txt {
+    margin-left: 20px;
+  }
+}
+
+.sofina-footerLinkList {
+  float: right;
+  margin-top: 15px;
+  overflow: hidden;
+  *zoom: 1;
+}
+.sofina-footerLinkList ul {
+  padding: 0;
+  margin: 0;
+}
+.sofina-footerLinkList li {
+  list-style: outside none none;
+}
+.sofina-footerLinkList .sofina-footerLink {
+  float: left;
+  margin: 0 0 0 30px;
+}
+.sofina-footerLinkList .sofina-footerLink a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  position: relative;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.sofina-footerLinkList .sofina-footerLink a:hover, .sofina-footerLinkList .sofina-footerLink a:focus {
+  color: #9a9a9a;
+}
+.sofina-footerLinkList .sofina-footerLink a:before {
+  position: absolute;
+  left: -13px;
+  top: -2px;
+  content: url(/content/dam/sites/kao/www-sofina-co-jp/common/global-footer/bullet_gray_right.png);
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerLinkList {
+    float: none;
+    margin-left: -15px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-footerLinkList {
+    float: none;
+    margin-top: 0;
+  }
+  .sofina-footerLinkList .sofina-footerLink {
+    float: none;
+    margin: 5px 0 0 16px;
+    text-align: left;
+  }
+  .sofina-footerLinkList .sofina-footerLink a {
+    font-size: 14px;
+  }
+  .sofina-footerLinkList .sofina-footerLink a:before {
+    left: -16px;
+  }
+}
+
+.sofina-footerUtility {
+  margin: 3px 0 0;
+  text-align: center;
+}
+.sofina-footerUtility:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerUtility {
+    margin: 20px 0 0;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerUtility {
+    margin: 20px 0 10px;
+  }
+}
+
+.sofina-footerUtility__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sofina-footerUtility__links li {
+  margin: 12px -1px 0 0;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0 1px;
+  line-height: 1.1;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.sofina-footerUtility__links li a {
+  padding: 0 12px;
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+.sofina-footerUtility__links li a:hover, .sofina-footerUtility__links li a:focus {
+  color: #9a9a9a;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-footerUtility__links {
+    font-size: 0;
+  }
+  .sofina-footerUtility__links li {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerUtility__links {
+    float: left;
+    margin-bottom: 10px;
+  }
+  .sofina-footerUtility__links li {
+    margin: 0;
+    border-width: 0 1px 0 0;
+    float: left;
+  }
+  .sofina-footerUtility__links li:first-child {
+    border-left-width: 1px;
+  }
+  .sofina-footerUtility__links li a {
+    padding: 0 16px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerUtility__links {
+    float: left;
+  }
+  .sofina-footerUtility__links li {
+    margin: 0;
+    border-width: 0 1px 0 0;
+    float: left;
+  }
+  .sofina-footerUtility__links li:first-child {
+    border-left-width: 1px;
+  }
+  .sofina-footerUtility__links li a {
+    padding: 0 16px;
+  }
+}
+
+.sofina-footerUtility__copyright {
+  margin: 15px 0 0;
+  padding: 0;
+  display: inline-block;
+  color: #333;
+  font-size: 9px;
+  text-align: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerUtility__copyright {
+    margin: 0 0 10px;
+    float: right;
+    font-size: 10px;
+    padding-left: 15px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerUtility__copyright {
+    margin: 0;
+    float: right;
+    font-size: 10px;
+  }
+}

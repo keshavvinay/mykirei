@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*****************************
+  config
+ *****************************/
+/*
+ setting（上書き禁止）
+ */
+/* Body */
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Link
+ */
+/* sofina global Footer ================================================== */
+.sofina-GlFooter {
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+.sofina-GlFooter p, .sofina-GlFooter ul, .sofina-GlFooter ol, .sofina-GlFooter li, .sofina-GlFooter a, .sofina-GlFooter img {
+  margin: 0;
+  padding: 0;
+}
+.sofina-GlFooter .sofina-GlFooter__inner {
+  margin: 0 auto;
+  padding: 10px 32px;
+  max-width: 1366px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-GlFooter .sofina-GlFooter__inner {
+    padding: 10px 24px;
+  }
+}
+.sofina-GlFooter .sofina-GlFooter__logo {
+  display: inline-block;
+}
+.sofina-GlFooter .sofina-GlFooter__logo img {
+  width: 120px;
+  height: 23px;
+  vertical-align: bottom;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-GlFooter .sofina-GlFooter__logo {
+    display: block;
+  }
+}
+.sofina-GlFooter .sofina-GlFooter__copyright {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 10px;
+  color: #333;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-GlFooter .sofina-GlFooter__copyright {
+    display: block;
+    margin-top: 12px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,264 @@
+form {
+    max-width: 80%;
+    margin: auto;
+    
+    .glyphicon{
+        display: none;
+    }
+    
+    @media (max-width: $header-break-md) {
+        max-width: 100%;
+    }
+    .form {
+        .hidden-msg {
+            display: none;
+        }
+        .form_row {
+            margin-bottom: 15px;
+        }
+        .form-button-wrapper .form_rightcol {
+            display: flex;
+            justify-content: center;
+        }
+        .form-button-wrapper .form_rightcol input {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        .custom-dropdown-wrapper {
+            position: relative;
+            box-sizing: border-box;
+            z-index: 100;
+            width: calc(100% - 30px);
+            left: 15px;
+            margin-bottom: 15px;
+            margin-top: 26px;
+        }
+        .custom-dropdown-wrapper.active {
+            &::after {
+                transform: rotate(180deg);
+                transition: 0.4s;
+            }
+        }
+        .custom-dropdown-wrapper .form_row {
+            position: relative;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0 !important;
+        }
+        .custom-dropdown-wrapper .g-Text {
+            width: 100%;
+            line-height: 20px;
+            margin-bottom: 2px;
+            margin-top: -26px;
+        }
+        .custom-dropdown-wrapper .form_row {
+            position: relative;
+            cursor: pointer;
+            &::after {
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-top: 15px solid $solid-black;
+                border-right: 10px solid transparent;
+                position: absolute;
+                right: 15px;
+                top: calc(50% - 7.5px);
+                transform: rotate(0deg);
+                transition: 0.4s;
+            }
+        }
+        .custom-dropdown-wrapper .form_row .form_rightcol input {
+            pointer-events: none;
+            height: 40px;
+            background-color: $solid-white;
+        }
+        .custom-dropdown-wrapper .g-ListP {
+            position: absolute;
+            left: 0;
+            top: calc(100% - 4px);
+            width: 100%;
+            background-color: $solid-white;
+            box-sizing: border-box;
+            border-top: 1px solid $solid-black;
+            display: none;
+            box-shadow: 0px 6px 10px -5px $border-primary-color;
+        }
+        .custom-dropdown-wrapper .g-ListP ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .custom-dropdown-wrapper .g-ListP ul li {
+            padding: 15px;
+            box-sizing: border-box;
+            transition: 0.3s;
+            &:hover {
+                background-color: $border-primary-color;
+                transition: 0.3s;
+            }
+            &.active {
+                background-color: $border-primary-color;
+            }
+        }
+        .checkbox-wrapper {
+            width: 100% !important;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+        }
+        .checkbox-wrapper .help-block {
+            color: $error-color;
+            font-family: $avenir-regular;
+            font-style: normal;
+            font-size: 13px;
+            position: absolute;
+            left: 15px;
+            bottom: -15px;
+        }
+        .checkbox-wrapper a {
+            text-decoration: underline;
+        }
+        .form_row .form_leftcol {
+            position: relative;
+            font-family: $avenir-bold;
+            line-height: 20px;
+            margin-bottom: 2px;
+        }
+        .form_row .form_leftcol div {
+            display: inline-block;
+        }
+        .form_row .form_leftcol .form_leftcolmark {
+            color: $required-color;
+        }
+        .form_row .form_rightcol .form_rightcol_wrapper .help-block {
+            color: $error-color;
+            font-family: $avenir-regular;
+            font-style: normal;
+            position: absolute;
+            left: 0px;
+            bottom: -16px;
+            font-size: 13px;
+        }
+        .form_row .form_rightcol textarea {
+            height: 240px;
+        }
+        .form_row .form_rightcol .form_rightcol_wrapper input, .form_row .form_rightcol .form_rightcol_wrapper textarea, .form_row .form_rightcol select {
+            width: 100%;
+            margin-top: 4px;
+            margin-bottom: 4px;
+            padding: 11px;
+//            height: 40px;
+            box-sizing: border-box;
+            border: none;
+            box-shadow: none;
+            outline: none;
+            font-family: $avenir-regular;
+            &:focus {
+                outline: none;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,0,0,0.6);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(0,0,0,0.6);
+            }
+        }
+        .form_row .form_rightcol {
+            font-family: $avenir-bold;
+            line-height: 20px;
+            position: relative;
+        }
+        .form_row .form_rightcol input[type="submit"], .form_row .form_rightcol input[type="reset"] {
+            font-family: $avenir-medium;
+            border: 2px solid $solid-black;
+            background-color: transparent;
+            text-transform: uppercase;
+            padding: 10px 30px;
+            font-size: 14px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 45px;
+            outline: none;
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            -ms-transition: all .5s ease;
+            transition: all .5s ease;
+            &:hover {
+                background-color: $solid-black;
+                color: $solid-white;
+            }
+        }
+        .checkbox {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .checkbox .form_row:first-child {
+            display: none;
+        }
+        .checkbox .form_row:nth-child(2) {
+            position: absolute;
+            left: 0;
+            top: 0px;
+        }
+        .checkbox .form_row .form_rightcol {
+            border: 2px solid $solid-black;
+            background-color: transparent;
+            width: 20px;
+            height: 20px;
+            position: relative;
+            box-sizing: border-box;
+            transition: 0.3s;
+        }
+        .checkbox .form_row.active .form_rightcol {
+            border-color: $primary;
+            background-color: $primary;
+            transition: 0.3s;
+        }
+        .checkbox .form_row .form_rightcol input {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0;
+        }
+        .checkbox .g-Text {
+            padding-left: 30px;
+            font-family: $avenir-regular;
+            line-height: 20px;
+            a {
+                color: $solid-black; 
+                &:hover {
+                    color: $hover-link;
+                }
+            }
+        }
+    }
+}
+.goldwell-loader-wrapper {
+    .loader-img {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        z-index: 101;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+        &.active-loader {
+            visibility: visible;
+            opacity: 1;
+            transition: 0.5s;
+        }
+        .g-Hr__hr {
+            display: none;
+        }
+    }
+}

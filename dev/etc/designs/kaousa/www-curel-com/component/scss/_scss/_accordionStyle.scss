@@ -1,0 +1,11 @@
+.g-AccordionMenu {
+    .g-HeadingTitle {
+        margin: 0;
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            .g-HeadingTitle__h2 {
+                font-family: $ralewayExtraBold;
+                color: $heading-font-color !important;
+            }
+        }  
+    }
+}

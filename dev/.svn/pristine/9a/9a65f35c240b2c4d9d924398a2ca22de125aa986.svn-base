@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+/* Breadcrumbs ================================================== */
+#area-BreadcrumbsTop {
+  @include bp(sm) {
+    display: none;
+  }
+  @include bp(md) {
+    display: block;
+  }
+  @include bp(lg) {
+    display: block;
+  }
+}
+#area-BreadcrumbsBottom {
+  @include bp(sm) {
+    display: block;
+  }
+  @include bp(md) {
+    display: none;
+  }
+  @include bp(lg) {
+    display: none;
+  }
+}
+
+.g-Breadcrumbs {
+  @include bp(sm) {
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+  @include bp(md) {}
+  @include bp(lg) {}
+}
+.g-Breadcrumbs__list {
+  margin: 0 auto;
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 1336px;
+  box-sizing: border-box;
+  @include bp(lg) {
+    padding: 12px 40px;
+  }
+  li {
+    display: inline-block;
+    .cmn-icon {
+      margin-left: 3px;
+      vertical-align: middle;
+    }
+    &:last-child .cmn-icon {
+      display: none;
+    }
+  }
+}
+

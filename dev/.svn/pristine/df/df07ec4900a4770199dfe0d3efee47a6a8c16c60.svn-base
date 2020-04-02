@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+
+/* TileLinkVP ================================================== */
+.g-TileLinkVP {
+  box-sizing: border-box;
+  //font-size: 0;
+  &.is-background {
+    
+    padding: $cmn_paddingInner;
+    @include bp(lg) {
+      padding-top: $cmn_paddingInner - $cmn_marginItemGutter_lg/2;
+      padding-bottom: $cmn_paddingInner - $cmn_marginItemGutter_lg/2;
+    }
+    @include bp(md) {
+      padding-top: $cmn_paddingInner - $cmn_marginItemGutter_md/2;
+      padding-bottom: $cmn_paddingInner - $cmn_marginItemGutter_md/2;
+    }
+    @include bp(sm) {
+      padding-top: $cmn_paddingInner - $cmn_marginItemGutter_sm/2;
+      padding-bottom: $cmn_paddingInner - $cmn_marginItemGutter_sm/2;
+    }
+  }
+}
+
+.g-TileLinkVP__list {
+  @include gutterItemWrapper();
+  padding: 0;
+  list-style-type: none;
+  @include pie-clearfix;
+}
+
+.g-TileLinkVP__list__tile {
+  float: left;
+  //display: inline-block;
+  @include gutterItemInner();
+  vertical-align: top;
+  @include fontSize(body);
+}
+@include bp(sm) {
+  .g-TileLinkVP__list__tile-sm-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkVP__list__tile-sm-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkVP__list__tile-sm-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkVP__list__tile-sm-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkVP__list__tile-sm-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkVP__list__tile-sm-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(md) {
+  .g-TileLinkVP__list__tile-md-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkVP__list__tile-md-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkVP__list__tile-md-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkVP__list__tile-md-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkVP__list__tile-md-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkVP__list__tile-md-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(lg) {
+  .g-TileLinkVP__list__tile-lg-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkVP__list__tile-lg-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkVP__list__tile-lg-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkVP__list__tile-lg-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkVP__list__tile-lg-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkVP__list__tile-lg-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+
+/* TileLinkVUnit ================================================== */
+.g-TileLinkVUnit {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: $cmn_paddingInner;
+  box-sizing: border-box;
+  background-color: $cmn_colorGray_0;
+  @include areaLink();
+  border: 2px solid $cmn_colorGray_6;
+  text-decoration: none;
+  color: $colorFontBody;
+  @include bp(sm) {
+    &.is-smallViewHorizontal {
+      display: table;
+    }
+  }
+  &.is-background {
+    
+  }
+}
+
+.g-TileLinkVUnit__imageBlock {
+  margin-bottom: 20px;
+  @include bp(sm) {
+    .is-smallViewHorizontal & {
+      display: table-cell;
+      vertical-align: top;
+      margin-bottom: 0;
+      padding-right: 20px;
+    }
+    .is-layoutT.is-smallViewHorizontal & {
+      padding-right: 12px;
+    }
+  }
+
+  @include bp(sm) {
+    .opt-sm-al_l & {
+      margin-right:  auto;
+    }
+    .opt-sm-al_r & {
+      margin-left:  auto;
+    }
+    .opt-sm-al_c & {
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+  }
+
+  @include bp(md) {
+    .opt-md-al_l & {
+      margin-right:  auto;
+    }
+    .opt-md-al_r & {
+      margin-left:  auto;
+    }
+    .opt-md-al_c & {
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+  }
+
+  @include bp(lg) {
+    .opt-lg-al_l & {
+      margin-right:  auto;
+    }
+    .opt-lg-al_r & {
+      margin-left:  auto;
+    }
+    .opt-lg-al_c & {
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+  }
+}
+
+.g-TileLinkVUnit__leadBlock {
+  position: relative;
+  padding-right: 24px;
+  @include bp(sm) {
+    padding-right: 20px;
+    .is-smallViewHorizontal & {
+      display: table-cell;
+      vertical-align: middle;
+      position: static;
+      .g-TileLinkVUnit__icon {
+        right: 20px;
+      }
+    }
+    .is-layoutB.is-smallViewHorizontal & {
+      padding-right: 12px;
+    }
+  }
+}
+
+.g-TileLinkVUnit__leadBlock__title {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.g-TileLinkVUnit__leadBlock__lead {
+}
+
+.g-TileLinkVUnit__icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -.7em;
+}

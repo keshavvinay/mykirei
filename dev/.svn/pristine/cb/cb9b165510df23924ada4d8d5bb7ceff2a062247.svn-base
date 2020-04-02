@@ -1,0 +1,114 @@
+//html[lang="ar-sa"]{
+//    
+//    .home-section1{
+//        direction: ltr;
+//    }
+//    
+//.product-details-section {
+//	.product-details-seperator{
+//		.l-Column__inner{
+//			display:flex;
+//		}
+//		.l-TabMenuUnit__ColumnUnit{
+//			text-align:right;
+//		}
+//	}
+//	.heading-column-unit {
+//		.print {
+//			position: absolute;
+//			top: 107%;
+//			font-weight: bold;
+//			text-transform: uppercase;
+//			left: 0;
+//            right:auto;
+//			padding-right: 25px;
+//			cursor: pointer;
+//			background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/print-icon.png) 100% 2px no-repeat;
+//		}
+//		.facebook-like {
+//			position: absolute;
+//			top: 107%;
+//			left: 75px;
+//            right:auto;
+//		}
+//		.social-share-div {
+//			position: absolute;
+//			left: 143px;
+//            right:auto;
+//			top: 103%;
+//			width: 112px;
+//			text-align: center;
+//		}
+//	}
+//	.product-details-tab-menu .slick-track {
+//		width: auto !important;
+//		display: flex;
+//		transform: translate3d(0px,0px,0px) !important;
+//	}
+//}
+//.l-Breadcrumbs__list__item .cmn-icon--right:before, .cmn-icon--bullet:before {
+//    content: "\e007";
+//    margin-right: 5px;
+//}
+//.product-list-section-wrapper .left-aligned-text .overviewBaseboxTitle {
+//    border-bottom: 3px solid #e3d5c4;
+//    max-width: 20%;
+//    font-size: 14px !important;
+//    text-transform: uppercase;
+//    position: relative;
+//    right: 80%;
+//    text-align: left;
+//}
+//.product-list-section-wrapper .link-with-right-arrow.right-aligned-text.is-leftIcon a {
+//    .cmn-richtext{
+//        padding-left: 8px;
+//    }
+//    .cmn-icon--left:before {
+//        content: "\e007";
+//        position: relative;
+//        left: 2px;
+//    }
+//}
+//.groupbox-products .l-TileLinkVP__list__tile,
+//   .category-list-section-wrapper .l-TileLinkVP__list__tile{
+//    float:right;
+//}
+//
+//    .footer-copy-right{
+//        direction: ltr;
+//    }
+//.hydralucence-section .product-carousal{
+//    direction:ltr;
+//    .carousal-item .g-ImageTextHP__contentsBlock__text{
+//        text-align:right;
+//        direction:rtl;
+//    }
+//}
+//    
+//    .where-to-buy-listing-section1{
+//        .l-TileLinkTextP.is-gutter--m .l-TileLinkTextP__list__tile{
+//            float: right;
+//        }
+//    }
+//    
+//    .privacy-ar, .legal-ar{
+//        direction: ltr;
+//    }
+//    
+//    .about-us-ar{
+//        .jergens-btn{
+//            &:after{
+//                border-left: 2px solid #333 !important;
+//   border-bottom: 2px solid #333 !important;
+//   border-right: none !important;
+//   border-top: none !important;
+//            }
+//        }
+//    }
+//    
+//    .faq-section .print{
+//        right: auto !important;
+//        left: 0 !important;
+//    }
+//    
+//}

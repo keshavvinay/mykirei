@@ -1,0 +1,30 @@
+.g-HeadingTitle {
+    margin-bottom: 0;
+    &.l-HeadingTitle--h2,&.l-HeadingTitle--h3 { 
+        //        margin-bottom: 30px !important;
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+    }
+    h4.l-HeadingTitl__h4, &.l-HeadingTitle--h4 .g-HeadingTitle__titleBlock__titleBox__title h4{
+        font-family: $avenir-bold;
+        font-size: 14px; 
+        margin: 0;
+    }
+    .g-HeadingTitle__titleBlock .g-Text h4{
+        font-family: $avenir-bold;
+        font-size: 14px;
+        margin: 0; 
+    }
+    &.is-headingProductImage {
+        display: flex;
+        flex-direction: column;
+        .g-HeadingTitle__titleBlock {
+            order: 2;
+        }
+        .g-Image {
+            order: 1;
+        }
+    }
+}

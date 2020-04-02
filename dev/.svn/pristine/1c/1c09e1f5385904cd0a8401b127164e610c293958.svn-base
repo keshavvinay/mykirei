@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+
+/* AccordionMenu ============================== */
+.g-AccordionMenu {
+  margin-bottom: 12px;
+  &.is-background {
+    padding: $cmn_paddingInner;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+  }
+}
+
+.g-AccordionMenu__item {
+  &:not(:last-child) {
+    .g-AccordionUnit {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+/* AccordionUnit ============================== */
+.g-AccordionUnit {
+  //margin-bottom: 10px;
+  &.is-background {
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+    .g-AccordionUnit__contentBlock {
+      background-color: transparent;
+    }
+  }
+}
+
+.g-AccordionUnit__titleBlock {
+  padding: 10px 1.875em 0 10px;
+  border: solid 1px $cmn_colorGray_5;
+  position: relative;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  @include fontSize(lv3);
+  .g-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }
+  &[tabindex] {
+    cursor: pointer;
+  }
+  .is-abbr & {
+    padding-left: 2em;
+  }
+  .is-num & {
+    padding-left: 2.75em;
+  }
+  .is-none & {
+  }
+}
+.g-AccordionUnit__titleBlock__icon {
+  position: absolute;
+  @include fontSize(lv4);
+  top: 50%;
+  right: .8em;
+  margin-top: -.7em;
+}
+.g-AccordionUnit__titleBlock__abbr ,
+.g-AccordionUnit__titleBlock__num {
+  display: block;
+  width: 0;
+  position: absolute;
+  font-weight: bold;
+}
+.g-AccordionUnit__titleBlock__abbr {
+  .is-abbr & {
+    left: 15px;
+  }
+}
+.g-AccordionUnit__titleBlock__num {
+  .is-num & {
+    left: 15px;
+  }
+}
+
+.g-AccordionUnit__contentBlock {
+  padding: 18px 20px 10px;
+  border: solid 1px $cmn_colorGray_5;
+  border-top: none;
+  position: relative;
+  overflow: hidden;
+  background-color: $cmn_colorGray_0;
+
+  &.is-open {
+    display: block;
+  }
+  &.is-close {
+    display: none;
+  }
+
+  @include bp(sm) {
+    &.is-open-sm {
+      display: block;
+    }
+    &.is-close-sm {
+      display: none;
+    }
+  }
+  @include bp(md) {
+    &.is-open-md {
+      display: block;
+    }
+    &.is-close-md {
+      display: none;
+    }
+  }
+  @include bp(lg) {
+    &.is-open-lg {
+      display: block;
+    }
+    &.is-close-lg {
+      display: none;
+    }
+  }
+
+  .is-abbr & {
+    padding-left: 3.85em;
+  }
+  .is-num & {
+    padding-left: 5.57em;
+  }
+  .is-none & {
+  }
+}
+.g-AccordionUnit__contentBlock__abbr ,
+.g-AccordionUnit__contentBlock__num {
+  display: block;
+  width: 0;
+  position: absolute;
+  font-weight: bold;
+  @include fontSize(lv3);
+}
+.g-AccordionUnit__contentBlock__abbr {
+  .is-abbr & {
+    left: 19px;
+  }
+}
+.g-AccordionUnit__contentBlock__num {
+  .is-num & {
+    left: 19px;
+  }
+}

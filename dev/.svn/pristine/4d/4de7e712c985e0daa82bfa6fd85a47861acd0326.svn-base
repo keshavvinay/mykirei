@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>template_01</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/kao-header-footer.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/brand-header-footer.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/site-navigation.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/kao-header-footer.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <!-- / script -->
+</head>
+
+<body class="">
+
+  <div id="menu">
+    <div class="js-menuHolder">
+      <div class="g-GlMenu">
+
+        <div class="g-GlMenu__navBlock">
+          <ul class="g-GlMenuNavList">
+            <li><a href="http://www.kao.com/jp/corp/">会社情報</a></li>
+            <li><a href="http://www.kao.com/jp/products/">製品カタログ</a></li>
+            <li><a href="http://www.kao.com/jp/qa/">製品Q&amp;A</a></li>
+            <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+          </ul>
+        </div>
+
+        <div class="g-GlMenu__utilityBlock">
+          <div class="g-GlMenuUtilitySearch">
+            <form action="http://crmsearch.kao.com/search" name="gs" method="GET">
+              <input type="text" name="q" placeholder="サイト内検索" />
+              <button type="submit" name="btnG">検索する<span class="cmn-icon cmn-icon--search g-GlMenuUtilitySearch__icon"></span></button>
+              <!-- <input type="image" name="btnG" class="search-image" src="/common/jp/ja/imgs/search_button_head.gif" alt="" value="&#26908;&#32034;"> -->
+              <input type="hidden" name="client" value="test">
+              <input type="hidden" name="output" value="xml_no_dtd">
+              <input type="hidden" name="proxystylesheet" value="test">
+              <input type="hidden" name="sort" value="date:D:L:d1">
+              <input type="hidden" name="entqr" value="3">
+              <input type="hidden" name="oe" value="UTF-8">
+              <input type="hidden" name="ie" value="UTF-8">
+              <input type="hidden" name="ud" value="1">
+              <input type="hidden" name="site" value="test">
+            </form>
+          </div>
+          <div class="g-GlMenuUtilityRegion">
+            <div class="g-GlMenuUtilityRegion__country">
+              <p>Japan</p>
+            </div>
+            <div class="g-GlMenuUtilityRegion__world">
+              <p><a href="http://www.kao.com/index_ja.html"><span class="cmn-icon cmn-icon--xxx g-GlMenuUtilityRegion__world__icon"></span>Kao Worldwide</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="g-GlMenu__buttonBlock">
+          <div class="g-GlMenuButtonLink"><a href="#">メニューを閉じる<span class="cmn-icon cmn-icon--close g-GlMenuButtonLink__icon"></span></a></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <!-- area-GlHeader -->
+    <div class="g-Area" id="area-GlHeader">
+      <div class="g-GlHeader">
+        <div class="g-GlHeader__inner">
+
+          <div class="g-GlHeader__logoBlock">
+            <div class="g-GlHeaderLogo"><a href="http://www.kao.com/jp/"><img src="/etc/clientlibs/common/component/img/gl_header_logo.png" alt="kao" /></a></div>
+          </div>
+
+          <div class="g-GlHeader__utilityBlock">
+            <div class="g-GlHeaderUtilityRegion">
+              <div class="g-GlHeaderUtilityRegion__country">
+                <p>Japan</p>
+              </div>
+              <div class="g-GlHeaderUtilityRegion__world">
+                <p><a href="http://www.kao.com/index_ja.html"><span class="g-GlHeaderUtilityRegion__world__icon"></span>Kao Worldwide</a></p>
+              </div>
+            </div>
+            <div class="g-GlHeaderUtilitySearch">
+              <form action="http://crmsearch.kao.com/search" name="gs" method="GET">
+                <input type="text" name="q" placeholder="サイト内検索" />
+                <button type="submit" name="btnG">検索する<span class="cmn-icon cmn-icon--search g-GlHeaderUtilitySearch__icon"></span></button>
+                <!-- <input type="image" name="btnG" class="search-image" src="/common/jp/ja/imgs/search_button_head.gif" alt="" value="&#26908;&#32034;"> -->
+                <input type="hidden" name="client" value="test">
+                <input type="hidden" name="output" value="xml_no_dtd">
+                <input type="hidden" name="proxystylesheet" value="test">
+                <input type="hidden" name="sort" value="date:D:L:d1">
+                <input type="hidden" name="entqr" value="3">
+                <input type="hidden" name="oe" value="UTF-8">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="hidden" name="ud" value="1">
+                <input type="hidden" name="site" value="test">
+              </form>
+            </div>
+          </div>
+
+          <div class="g-GlHeader__buttonBlock">
+            <div class="g-GlHeaderButtonLink"><a href="#">メニューを開く<span class="cmn-icon cmn-icon--menu g-GlHeaderButtonLink__icon"></span></a></div>
+          </div>
+
+          <div class="g-GlHeader__navBlock">
+            <ul class="g-GlHeaderNavList">
+              <li><a href="http://www.kao.com/jp/corp/">会社情報</a></li>
+              <li><a href="http://www.kao.com/jp/products/">製品カタログ</a></li>
+              <li><a href="http://www.kao.com/jp/qa/">製品Q&amp;A</a></li>
+              <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- / area-GlHeader -->
+
+
+    <!-- area-BrHeader -->
+    <div class="g-Area" id="area-BrHeader">
+      <div class="g-BrHeaderPlaceholder l-BrHeaderPlaceholder">
+        <div class="g-BrHeader l-BrHeader" data-fixed-lg="false" data-fixed-md="false" data-fixed-sm="false">
+          <div class="g-BrHeaderCommon l-BrHeaderCommon">
+            <div class="g-BrHeaderCommon__logoBlock l-BrHeaderCommon__logoBlock is-lg-center is-lg-middle">
+              <div class="g-BrHeaderLogo l-BrHeaderLogo opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                <!-- I030: Image Item -->
+                <div class="g-Image l-Image">
+                  <p class="g-Image__img l-Image__img"><a href="#"><img src="" width="100%" alt="dummy"></a></p>
+                </div>
+                <!-- / I030: Image Item -->
+              </div>
+            </div>
+            <div class="g-BrHeaderCommon__navBlock l-BrHeaderCommon__navBlock">
+              <div class="g-BrHeaderNav__buttonBlock l-BrHeaderNav__buttonBlock"><a href="#">MENU<span class="cmn-icon cmn-icon--down g-BrHeaderNavButton__icon l-BrHeaderNavButton__icon"></span></a></div>
+              <div class="g-BrHeaderNav__listBlock l-BrHeaderNav__listBlock">
+                <ul class="g-BrHeaderNavList l-BrHeaderNavList js-uniformHeight" data-uniform-target="g-BrHeaderNavListLink">
+                  <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1 is-active"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-1"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目1ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                  <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-2"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目2ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                  <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-3"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目3ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                  <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-4"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目4ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                  <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-5"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目5ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                  <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-6"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目6ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-BrHeader -->
+
+
+    <!-- area-LocalNav -->
+    <div class="g-Area" id="area-LocalNavTop">
+      <div class="g-LocalNav l-LocalNav">
+        <div class="g-LocalNav__inner l-LocalNav__inner">
+          <div class="g-LocalNav__categoryBlock l-LocalNav__categoryBlock">
+            <p class="g-LocalNavCategoryLabel l-LocalNavCategoryLabel"><a class="g-LocalNavCategoryLabelLink l-LocalNavCategoryLabelLink" href="#">カテゴリーラベル<span class="cmn-icon cmn-icon--bullet g-LocalNavCategoryLabel__icon l-LocalNavCategoryLabel__icon"></span></a></p>
+          </div>
+          <div class="g-LocalNav__listBlock l-LocalNav__listBlock">
+            <ul class="g-LocalNavList l-LocalNavList js-uniformHeight" data-uniform-target="g-LocalNavListLink">
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ１<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1 is-active"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ２<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ３<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ４<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-LocalNav -->
+
+
+    <!-- area-Breadcrumbs -->
+    <div class="g-Area" id="area-BreadcrumbsTop">
+      <div class="g-Breadcrumbs l-Breadcrumbs">
+        <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="http://www.kao.com/jp/">花王トップ<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず１<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず２<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず３<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず４<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">パンくず５（非リンク）</li>
+        </ul>
+      </div>
+    </div>
+    <!-- / area-Breadcrumbs -->
+
+
+    <div></div>
+    <div></div>
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section is-paddingReset--topBottom is-paddingReset--leftRight is-fullWidth" id="common_section_wrapper_1">
+        <div class="g-Section__inner">
+          <div class="g-Column opt-lg-w100p opt-md-w100p opt-sm-w100p js-uniformHeight" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <!-- Carousel -->
+                  <div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="440" data-height-md="360" data-height-sm="160">
+                    <ul class="g-FullwidthVisualsCarouselP__list">
+                      <li class="g-FullwidthVisualsCarouselP__list__item">
+
+                        <!-- FullwidthVisualsCarouselUnit -->
+                        <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+                          <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('clientlibs/img/dummy_carousel_bg.jpg')">
+                            <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+                            <div class="g-FullwidthVisualsCarouselUnit__image__info">
+                              <div class="g-FullwidthVisualsCarouselUnit__info__main">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>メインコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+                                <!-- I050: Link/Button Item -->
+                                <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                                    <span class="cmn-richtext">
+                                <span>ボタンラベル</span>
+                                    </span>
+                                    <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                                  </a>
+                                </div>
+                                <!-- / I050: Link/Button Item -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-FullwidthVisualsCarouselUnit__info">
+                            <!-- jsでsubとbtnを移動 -->
+                          </div>
+                        </div>
+                        <!-- / FullwidthVisualsCarouselUnit -->
+
+                      </li>
+                      <li class="g-FullwidthVisualsCarouselP__list__item">
+
+                        <!-- FullwidthVisualsCarouselUnit -->
+                        <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+                          <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('clientlibs/img/dummy_carousel_bg.jpg')">
+                            <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+                            <div class="g-FullwidthVisualsCarouselUnit__image__info">
+                              <div class="g-FullwidthVisualsCarouselUnit__info__main">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>メインコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+                                <!-- I050: Link/Button Item -->
+                                <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                                    <span class="cmn-richtext">
+                                <span>ボタンラベル</span>
+                                    </span>
+                                    <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                                  </a>
+                                </div>
+                                <!-- / I050: Link/Button Item -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-FullwidthVisualsCarouselUnit__info">
+                            <!-- jsでsubとbtnを移動 -->
+                          </div>
+                        </div>
+                        <!-- / FullwidthVisualsCarouselUnit -->
+
+                      </li>
+                      <li class="g-FullwidthVisualsCarouselP__list__item">
+
+                        <!-- FullwidthVisualsCarouselUnit -->
+                        <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+                          <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('clientlibs/img/dummy_carousel_bg.jpg')">
+                            <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+                            <div class="g-FullwidthVisualsCarouselUnit__image__info">
+                              <div class="g-FullwidthVisualsCarouselUnit__info__main">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>メインコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+                                <!-- I050: Link/Button Item -->
+                                <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                                    <span class="cmn-richtext">
+                                <span>ボタンラベル</span>
+                                    </span>
+                                    <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                                  </a>
+                                </div>
+                                <!-- / I050: Link/Button Item -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-FullwidthVisualsCarouselUnit__info">
+                            <!-- jsでsubとbtnを移動 -->
+                          </div>
+                        </div>
+                        <!-- / FullwidthVisualsCarouselUnit -->
+
+                      </li>
+                      <li class="g-FullwidthVisualsCarouselP__list__item">
+
+                        <!-- FullwidthVisualsCarouselUnit -->
+                        <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+                          <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('clientlibs/img/dummy_carousel_bg.jpg')">
+                            <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+                            <div class="g-FullwidthVisualsCarouselUnit__image__info">
+                              <div class="g-FullwidthVisualsCarouselUnit__info__main">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>メインコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+                                <!-- I050: Link/Button Item -->
+                                <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                                    <span class="cmn-richtext">
+                                <span>ボタンラベル</span>
+                                    </span>
+                                    <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                                  </a>
+                                </div>
+                                <!-- / I050: Link/Button Item -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-FullwidthVisualsCarouselUnit__info">
+                            <!-- jsでsubとbtnを移動 -->
+                          </div>
+                        </div>
+                        <!-- / FullwidthVisualsCarouselUnit -->
+
+                      </li>
+                      <li class="g-FullwidthVisualsCarouselP__list__item">
+
+                        <!-- FullwidthVisualsCarouselUnit -->
+                        <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+                          <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('clientlibs/img/dummy_carousel_bg.jpg')">
+                            <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+                            <div class="g-FullwidthVisualsCarouselUnit__image__info">
+                              <div class="g-FullwidthVisualsCarouselUnit__info__main">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>メインコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+                                <!-- I050: Link/Button Item -->
+                                <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                                    <span class="cmn-richtext">
+                                <span>ボタンラベル</span>
+                                    </span>
+                                    <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                                  </a>
+                                </div>
+                                <!-- / I050: Link/Button Item -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-FullwidthVisualsCarouselUnit__info">
+                            <!-- jsでsubとbtnを移動 -->
+                          </div>
+                        </div>
+                        <!-- / FullwidthVisualsCarouselUnit -->
+
+                      </li>
+                      <li class="g-FullwidthVisualsCarouselP__list__item">
+
+                        <!-- FullwidthVisualsCarouselUnit -->
+                        <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+                          <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('clientlibs/img/dummy_carousel_bg.jpg')">
+                            <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+                            <div class="g-FullwidthVisualsCarouselUnit__image__info">
+                              <div class="g-FullwidthVisualsCarouselUnit__info__main">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>メインコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+                                <!-- I050: Link/Button Item -->
+                                <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                                    <span class="cmn-richtext">
+                                <span>ボタンラベル</span>
+                                    </span>
+                                    <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                                  </a>
+                                </div>
+                                <!-- / I050: Link/Button Item -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-FullwidthVisualsCarouselUnit__info">
+                            <!-- jsでsubとbtnを移動 -->
+                          </div>
+                        </div>
+                        <!-- / FullwidthVisualsCarouselUnit -->
+
+                      </li>
+                      <li class="g-FullwidthVisualsCarouselP__list__item">
+
+                        <!-- FullwidthVisualsCarouselUnit -->
+                        <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+                          <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('clientlibs/img/dummy_carousel_bg.jpg')">
+                            <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+                            <div class="g-FullwidthVisualsCarouselUnit__image__info">
+                              <div class="g-FullwidthVisualsCarouselUnit__info__main">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>メインコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+                                <!-- I020: Text Item -->
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                                  </p>
+                                </div>
+                                <!-- / I020: Text Item -->
+                              </div>
+                              <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+                                <!-- I050: Link/Button Item -->
+                                <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+                                  <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                                    <span class="cmn-richtext">
+                                <span>ボタンラベル</span>
+                                    </span>
+                                    <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                                  </a>
+                                </div>
+                                <!-- / I050: Link/Button Item -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-FullwidthVisualsCarouselUnit__info">
+                            <!-- jsでsubとbtnを移動 -->
+                          </div>
+                        </div>
+                        <!-- / FullwidthVisualsCarouselUnit -->
+
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /Carousel -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="g-Section" id="common_section_wrapper_2">
+        <div class="g-Section__inner">
+          <div class="g-Column opt-lg-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight" data-uniform-target="g-TileLinkVUnit">
+                    <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+                      <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                        <a class="g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20151208140223216_7OrH" href="#" target="_self">
+                          <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_16_9.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文字の大きさ、量、字間、行間等を確３０
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                        <a class="g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20151208140231538_HzMZ" href="#" target="_self">
+                          <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_16_9.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文字の大きさ、量、字間、行間等を確３０
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                        <a class="g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20151208140241153_22lI" href="#" target="_self">
+                          <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_16_9.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文字の大きさ、量、字間、行間等を確３０
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                        <a class="g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20151208140248262_Tj4s" href="#" target="_self">
+                          <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_16_9.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文字の大きさ、量、字間、行間等を確３０
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                        <a class="g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20151208140256175_IC79" href="#" target="_self">
+                          <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_16_9.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文字の大きさ、量、字間、行間等を確３０
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                        <a class="g-TileLinkVUnit l-TileLinkVUnit" id="common_tile_link_unit_20151208140303001_phna" href="#" target="_self">
+                          <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_16_9.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文字の大きさ、量、字間、行間等を確３０
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section is-background is-backgroundColor--1" id="common_section_wrapper_3">
+        <div class="g-Section__inner">
+          <div class="g-Column opt-lg-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" id="common_column_separator_3" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight" data-uniform-target="g-TileLinkHUnit">
+                    <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                        <a class="is-layoutL g-TileLinkHUnit l-TileLinkHUnit" id="common_tile_link_unit_20151208141034645_mMUx" href="#" target="_self">
+                          <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w30p">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_1_1_30.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                            <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div><span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                        <a class="is-layoutL g-TileLinkHUnit l-TileLinkHUnit" id="common_tile_link_unit_20151208141042898_uiuQ" href="#" target="_self">
+                          <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w30p">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_1_1_30.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                            <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div><span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                        <a class="is-layoutL g-TileLinkHUnit l-TileLinkHUnit" id="common_tile_link_unit_20151208141049817_38j6" href="#" target="_self">
+                          <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w30p">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_1_1_30.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                            <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div><span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                        <a class="is-layoutL g-TileLinkHUnit l-TileLinkHUnit" id="common_tile_link_unit_20151208141056897_HYBW" href="#" target="_self">
+                          <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w30p">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img"><img src="clientlibs/img/dummy_1_1_30.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,2800,5600">
+                              </p>
+                            </div>
+                          </div>
+                          <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                            <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>この文章はダミーです。文
+                </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div><span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section" id="common_section_wrapper_4">
+        <div class="g-Section__inner">
+          <div class="g-Column opt-lg-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" id="common_column_separator_4" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+              <span>見出し (H2) が入ります
+              </span></span></h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="g-Column opt-lg-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" id="common_column_separator_5" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-NewsIndexP l-NewsIndexP">
+                    <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+                      <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+                        <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="/content/wcm_kao/sites/cnt_personal/pvt_diem_test/template/template_news/news_01.html" target="_self">
+                          <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+                            <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+                              <time datetime="2015-12-08">2015-12-08</time>
+                            </div>
+                            <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+                              <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">LabelTag</span>
+                            </div>
+                          </div>
+                          <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+                            <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+                              <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するためにいれています。この文章はダミーです。文字の大きさ６０</p>
+                            </div>
+                            <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+                              <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="clientlibs/img/dummy_1_1_news.jpg">
+                              </p>
+                            </div>
+                          </div><span class="cmn-icon g-NewsIndexUnit__icon l-NewsIndexUnit__icon cmn-icon--bullet"></span>
+                        </a>
+                      </li>
+                      <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+                        <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="/content/wcm_kao/sites/cnt_personal/pvt_diem_test/template/template_news/news_02.html" target="_self">
+                          <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+                            <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+                              <time datetime="2015-12-08">2015-12-08</time>
+                            </div>
+                            <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+                              <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">LabelTag</span>
+                            </div>
+                          </div>
+                          <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+                            <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+                              <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するためにいれています。この文章はダミーです。文字の大きさ６０</p>
+                            </div>
+                            <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+                              <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="clientlibs/img/dummy_1_1_news.jpg">
+                              </p>
+                            </div>
+                          </div><span class="cmn-icon g-NewsIndexUnit__icon l-NewsIndexUnit__icon cmn-icon--bullet"></span>
+                        </a>
+                      </li>
+                      <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+                        <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="/content/wcm_kao/sites/cnt_personal/pvt_diem_test/template/template_news/news_03.html" target="_self">
+                          <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+                            <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+                              <time datetime="2015-12-08">2015-12-08</time>
+                            </div>
+                            <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+                              <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">LabelTag</span>
+                            </div>
+                          </div>
+                          <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+                            <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+                              <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するためにいれています。この文章はダミーです。文字の大きさ６０</p>
+                            </div>
+                            <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+                              <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="clientlibs/img/dummy_1_1_news.jpg">
+                              </p>
+                            </div>
+                          </div><span class="cmn-icon g-NewsIndexUnit__icon l-NewsIndexUnit__icon cmn-icon--bullet"></span>
+                        </a>
+                      </li>
+                      <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+                        <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="/content/wcm_kao/sites/cnt_personal/pvt_diem_test/template/template_news/news_04.html" target="_self">
+                          <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+                            <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+                              <time datetime="2015-12-08">2015-12-08</time>
+                            </div>
+                            <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+                              <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">LabelTag</span>
+                            </div>
+                          </div>
+                          <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+                            <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+                              <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するためにいれています。この文章はダミーです。文字の大きさ６０</p>
+                            </div>
+                            <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+                              <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="clientlibs/img/dummy_1_1_news.jpg">
+                              </p>
+                            </div>
+                          </div><span class="cmn-icon g-NewsIndexUnit__icon l-NewsIndexUnit__icon cmn-icon--bullet"></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-Contents -->
+    <div></div>
+    <div></div>
+
+
+    <!-- area-LocalNav -->
+    <div class="g-Area" id="area-LocalNavBottom">
+      <div class="g-LocalNav l-LocalNav">
+        <div class="g-LocalNav__inner l-LocalNav__inner">
+          <div class="g-LocalNav__categoryBlock l-LocalNav__categoryBlock">
+            <p class="g-LocalNavCategoryLabel l-LocalNavCategoryLabel"><a class="g-LocalNavCategoryLabelLink l-LocalNavCategoryLabelLink" href="#">カテゴリーラベル<span class="cmn-icon cmn-icon--bullet g-LocalNavCategoryLabel__icon l-LocalNavCategoryLabel__icon"></span></a></p>
+          </div>
+          <div class="g-LocalNav__listBlock l-LocalNav__listBlock">
+            <ul class="g-LocalNavList l-LocalNavList js-uniformHeight" data-uniform-target="g-LocalNavListLink">
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ１<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1 is-active"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ２<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ３<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-1 g-LocalNavList__item-sm-1"><a class="g-LocalNavListLink l-LocalNavListLink" href="#"><span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">ローカルナビ４<span class="cmn-icon cmn-icon--bullet g-LocalNavList__item__icon l-LocalNavList__item__icon"></span></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-LocalNav -->
+
+
+    <!-- area-Breadcrumbs -->
+    <div class="g-Area" id="area-BreadcrumbsBottom">
+      <div class="g-Breadcrumbs l-Breadcrumbs">
+        <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="http://www.kao.com/jp/">花王トップ<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず１<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず２<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず３<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず４<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">パンくず５（非リンク）</li>
+        </ul>
+      </div>
+    </div>
+    <!-- / area-Breadcrumbs -->
+
+
+    <!-- area-SocialFunction -->
+    <div class="g-Area" id="area-SocialFunction">
+      <div class="g-SocialFunction l-SocialFunction">
+        <div class="g-SocialFunction__inner l-SocialFunction__inner">
+        </div>
+      </div>
+    </div>
+    <!-- / area-SocialFunction -->
+
+
+    <!-- area-BrFooter -->
+    <div class="g-Area" id="area-BrFooter">
+      <div class="g-BrFooter l-BrFooter">
+        <div class="g-BrFooter__inner l-BrFooter__inner">
+
+          <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+            <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+              <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+                <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link" href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+                      <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                        <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                          <li><a href="#">リンク項目1ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目2ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目3ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目4ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                        </ul>
+                        <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link" href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+                      <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                        <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                          <li><a href="#">リンク項目1ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目2ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目3ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目4ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                        </ul>
+                        <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link" href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+                      <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                        <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                          <li><a href="#">リンク項目1ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目2ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目3ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目4ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                        </ul>
+                        <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><a class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link" href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a></p>
+                      <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                        <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                          <li><a href="#">リンク項目1ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目2ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目3ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                          <li><a href="#">リンク項目4ラベル<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+                        </ul>
+                        <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="#">見出しテキスト1<span class="cmn-icon cmn-icon--bullet g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- / area-BrFooter -->
+
+
+    <!-- area-GlFooter -->
+    <div class="g-Area" id="area-GlFooter">
+      <div class="g-GlFooter">
+
+        <div class="g-GlFooterTop">
+
+          <!-- Column -->
+          <div class="g-GlFooterColumn is-marginReset js-uniformHeight" data-uniform-target="g-GlFooterColumnUnit">
+            <div class="g-GlFooterColumn__inner">
+              <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+                <div class="g-GlFooterColumnUnit">
+                  <div class="js-footer" data-accordion-label="g-footerLinkTitle" data-accordion-panel="g-footerLinks">
+                    <p class="g-footerLinkTitle" tabindex="0">ブランドサイト情報
+                      <span class="cmn-icon"></span>
+                    </p>
+                    <ul class="g-footerLinks">
+                      <li><a href="http://www.kao.com/jp/info/">ブランドサイト一覧</a></li>
+                      <li><a href="http://www.youtube.com/user/KaoJapan">花王動画チャンネル</a></li>
+                      <li><a href="http://www.kao.com/jp/info/snslist.html">ソーシャルメディア公式アカウント一覧</a></li>
+                      <li><a href="http://www.kao.com/jp/info/cp.html">プレゼント&amp;キャンペーン</a></li>
+                      <li><a href="http://www.sofina.co.jp/?intcmp=top_KaoTop">花王ソフィーナ</a></li>
+                      <li><a href="http://www.kao.co.jp/est/?intcmp=top_KaoBrand">est（エスト）</a></li>
+                      <li><a href="http://www.oriena.jp/">花王の通販化粧品　オリエナ</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+                <div class="g-GlFooterColumnUnit">
+                  <div class="js-footer" data-accordion-label="g-footerLinkTitle" data-accordion-panel="g-footerLinks">
+                    <p class="g-footerLinkTitle" tabindex="0">暮らしに役立つ情報サイト
+                      <span class="cmn-icon"></span>
+                    </p>
+                    <ul class="g-footerLinks">
+                      <li><a href="http://www.kao.com/jp/beautycarenavi/">ビューティケアナビ</a></li>
+                      <li><a href="http://healthcare.kao.com/?cid=kao_top">ヘルスケアナビ</a></li>
+                      <li><a href="http://mykaji.kao.com/?cid=kao_top">マイカジスタイル</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+                <div class="g-GlFooterColumnUnit">
+                  <div class="js-footer" data-accordion-label="g-footerLinkTitle" data-accordion-panel="g-footerLinks">
+                    <p class="g-footerLinkTitle" tabindex="0">ピックアップ
+                      <span class="cmn-icon"></span>
+                    </p>
+                    <ul class="g-footerLinks">
+                      <li><a href="https://pikamama.community.kao.com/pc/">ピカ★ママ</a></li>
+                      <li><a href="http://www.kao.co.jp/kids/">キッズコーナー</a></li>
+                      <li><a href="https://member.kao.com/jp/plaza/">KAO PLAZA</a></li>
+                      <li><a href="http://direct.kao.co.jp/?cid=Group_000001">花王ダイレクト販売サービス</a></li>
+                      <li><a href="http://chemical.kao.com/jp/?intcmp=top_KaoChemicalsTop">花王ケミカル製品情報</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="g-GlFooterColumn__cols g-GlFooterColumn__cols-lg-4 g-GlFooterColumn__cols-md-1 g-GlFooterColumn__cols-sm-1">
+                <div class="g-GlFooterColumnUnit">
+                  <ul class="g-footerLinks">
+                    <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+                    <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護指針</a></li>
+                    <li><a href="http://www.kao.com/jp/corp/rule/socialmediapolicy.html">ソーシャルメディアポリシー</a></li>
+                    <li><a href="http://www.kao.com/jp/">花王トップ</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / Column -->
+
+        </div>
+
+        <div class="g-GlFooterBottom">
+          <p class="g-GlFooterBottom__copyright">Copyright © Kao Corporation. All rights reserved.</p>
+          <p class="g-GlFooterBottom__logo"><a href="http://www.kao.com/group/ja/group/index.html"><img src="/etc/clientlibs/common/component/img/gl_footer_group_logo.png" alt="KAO Gruop"></a></p>
+        </div>
+
+      </div>
+    </div>
+    <!-- / area-GlFooter -->
+
+
+    <!-- area-PageTop -->
+    <div class="g-Area" id="area-PageTop">
+      <div class="g-PageTop l-PageTop">
+        <a class="g-PageTop__link l-PageTop__link" href="#wrapper">ページ先頭へ戻る<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+      </div>
+    </div>
+    <!-- / area-PageTop -->
+
+
+  </div>
+
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

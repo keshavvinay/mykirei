@@ -1,0 +1,285 @@
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+@mixin bp($point) {
+  @if $point == sm {
+    @media only screen and (max-width: $maxWidth_sm) {
+      @content;
+    }
+  } @else if $point == md {
+    @media only screen and (min-width: $maxWidth_sm + 1px) and (max-width: $maxWidth_md) {
+      @content;
+    }
+  } @else if $point == lg {
+    @media only screen and (min-width: $maxWidth_md + 1px) {
+      @content;
+    }
+  }
+}
+
+
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+@mixin fontSize($level) {
+  @if $level == lv1 {
+    font-size: $fontSize_lv1;
+    line-height: $lineHeight_lv1;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv1;
+    }
+  } @else if $level == lv2 {
+    font-size: $fontSize_lv2;
+    line-height: $lineHeight_lv2;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv2;
+    }
+  }
+  @else if $level == lv3 {
+    font-size: $fontSize_lv3;
+    line-height: $lineHeight_lv3;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv3;
+    }
+  }
+  @else if $level == lv4 {
+    font-size: $fontSize_lv4;
+    line-height: $lineHeight_lv4;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv4;
+    }
+  }
+  @else if $level == lv5 {
+    font-size: $fontSize_lv5;
+    line-height: $lineHeight_lv5;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv5;
+    }
+  }
+  @else if $level == lv6 {
+    font-size: $fontSize_lv6;
+    line-height: $lineHeight_lv6;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv6;
+    }
+  }
+  @else if $level == body {
+    font-size: $fontSize_body;
+    line-height: $lineHeight_body;
+    @include bp(sm) {
+      font-size: $fontSize_sm_body;
+    }
+  }
+  @else if $level == caption {
+    font-size: $fontSize_caption;
+    line-height: $lineHeight_caption;
+    @include bp(sm) {
+      font-size: $fontSize_sm_caption;
+    }
+  }
+}
+
+
+/*
+ Line-Frame
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+@mixin lineFrame($style, $size) {
+
+  //ピクセル値
+  $pixel: 0;
+  @if $size == s {
+    $pixel: 1px;
+  }
+  @else if $size == m {
+    $pixel: 2px;
+  }
+  @else if $size == l {
+    $pixel: 4px;
+  }
+  box-sizing: border-box;
+  border: $style $pixel $colorLine_dark;
+}
+
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+@mixin lineBottom($style, $size) {
+
+  //ピクセル値
+  $pixel: 0;
+  @if $size == s {
+    $pixel: 1px;
+  }
+  @else if $size == m {
+    $pixel: 2px;
+  }
+  @else if $size == l {
+    $pixel: 4px;
+  }
+  box-sizing: border-box;
+  border-bottom: $style $pixel $colorLine_dark;
+}
+
+
+/*
+ Corner Radius
+ @param $size (ss, s, m, l, ll)
+ */
+@mixin borderRadius($size) {
+  @if $size == ss {
+    @include border-radius(4px);
+  }
+  @else if $size == s {
+    @include border-radius(8px);
+  }
+  @else if $size == m {
+    @include border-radius(12px);
+  }
+  @else if $size == l {
+    @include border-radius(16px);
+  }
+  @else if $size == ll {
+    @include border-radius(20px);
+  }
+}
+
+
+/*
+ Shadow
+ @param $angle (center, downward, rightUpward, rightDownward)
+ @param $size (s, m)
+ */
+@mixin shadow($angle, $size) {
+
+  $dis_px: 0; //距離
+  $shadow_px: 0; //影の大きさ
+  @if $size == s {
+    $dis_px: 2px;
+    $shadow_px: 4px;
+  }
+  @else if $size == m {
+    $dis_px: 4px;
+    $shadow_px: 8px;
+  }
+
+  @if $angle == center {
+    @include box-shadow(0 0 $shadow_px rgba(#000, .4));
+  }
+  @else if $angle == downward {
+    @include box-shadow(0 $dis_px $shadow_px rgba(#000, .4));
+  }
+  @else if $angle == rightUpward {
+    @include box-shadow($dis_px ($dis_px)*-1 $shadow_px rgba(#000, .4));
+  }
+  @else if $angle == rightDownward {
+    @include box-shadow($dis_px $dis_px $shadow_px rgba(#000, .4));
+  }
+}
+
+
+/*
+ Link
+ */
+@mixin link() {
+  &:link {
+    color: $colorLink;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $colorLink_hover;
+  }
+  &:visited {
+    color: $colorLink_visited;
+  }
+}
+
+/*
+ AreaLink
+ */
+@mixin areaLink() {
+  &:hover,
+  &:focus,
+  &:active {
+    @include opacity($linkHoverOpacity);
+  }
+}
+
+
+//Margin
+$marginGutter_lg: 24px;
+$marginGutter_md: 24px;
+$marginGutter_sm: 16px;
+/*
+  gutterWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+@mixin gutterWrapper($resetFlg: false) {
+
+  @if $resetFlg == false {
+    @include bp(lg) {
+      margin-left: -($marginGutter_lg)/2;
+      margin-right: -($marginGutter_lg)/2;
+    }
+    @include bp(md) {
+      margin-left: -($marginGutter_md)/2;
+      margin-right: -($marginGutter_md)/2;
+    }
+    @include bp(sm) {
+      margin-left: -($marginGutter_sm)/2;
+      margin-right: -($marginGutter_sm)/2;
+    }
+  }
+  @else {
+    @include bp(lg) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include bp(md) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include bp(sm) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+@mixin gutterInner($resetFlg: false) {
+  box-sizing: border-box;
+
+  @if $resetFlg == false {
+    @include bp(lg) {
+      padding: $marginGutter_lg/2;
+    }
+    @include bp(md) {
+      padding: $marginGutter_md/2;
+    }
+    @include bp(sm) {
+      padding: $marginGutter_sm/2;
+    }
+  }
+  @else {
+    @include bp(lg) {
+      padding: 0;
+    }
+    @include bp(md) {
+      padding: 0;
+    }
+    @include bp(sm) {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+/* TileLinkTextP ================================================== */
+
+
+/* TileLinkTextUnit ================================================== */
+.l-TileLinkTextUnit {
+  &[href] {
+    @include areaLink();
+  }
+  padding: $TileLinkPack__padding;
+  @if $TileLinkPack__bordered == true {
+    border: 2px solid;
+  }
+  &.is-colorset--1 {
+    background-color: $tileLink__bg;
+    border-color: $tileLink__border;
+    color: $tileLink__text;
+    .l-TileLinkTextUnit__icon {
+      color: $tileLink__text;
+    }
+  }
+  &.is-colorset--2 {
+    background-color: $tileLink__bg--reverse;
+    border-color: $tileLink__border--reverse;
+    color: $tileLink__text--reverse;
+    .l-TileLinkTextUnit__icon {
+      color: $tileLink__text--reverse;
+    }
+  }
+}

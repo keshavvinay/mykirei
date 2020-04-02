@@ -1,0 +1,537 @@
+/*------------------------------------------------------ WHERE TO BUY PAGE STYLES -----------------------------------*/
+#area-Contents {
+    margin-bottom: 30px;
+}
+
+/*---------------------------------- BUY ONLINE --------------------------------*/
+
+.cjp-wtb-section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cjp-search-section {
+    #where-to-buy-search_0_wrapper {
+        width: 996px;
+        margin: 0 auto;
+
+        input {
+            width: 996px;
+            height: 40px;
+            border-radius: 24px;
+            border: 1px solid #00A4B7;
+            box-shadow: none;
+        }
+    }
+
+    div#where-to-buy-search_0_wrapper:after {
+        content: "\e900";
+        font-family: 'icomoon';
+        position: relative;
+        right: -1px;
+        top: -44px;
+        text-align: right;
+        float: right;
+        font-size: 26px;
+        border: 1px solid;
+        border-radius: 100%;
+        padding: 0 7.95px 0 8.04px;
+        color: #fff;
+        background-color: #00A4B7;
+        border-color: #00A4B7;
+    }
+}
+
+/*-------------------------------------------------- SECTION 3 ----------------------------------------------------*/
+
+.cjp-section-3 {
+    .slick-track {
+        width: 360px !important;
+        margin: 0 auto;
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide {
+            width: 180px !important;
+            height: 40px !important;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide.slick-current {
+            left: 2em;
+            text-align: left;
+            padding-right: 0;
+        }
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide.slick-current.slick-active.is-active {
+            z-index: 999;
+            border: 1px solid #00a4b7;
+            text-align: center;
+        }
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide.is-active {
+            text-align: center;
+            padding-right: 0;
+        }
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link {
+            border-radius: 24px;
+            border: 1px solid #00a4b7;
+        }
+    }
+
+    /*----------------------------------------- FIND ONLINE ----------------------------------------*/
+
+    .find-online.cjp-title-link-pack {
+        li {
+            height: 69px !important;
+
+            a {
+                border: none;
+            }
+        }
+
+        .g-TileLinkHUnit__imageBlock.l-TileLinkHUnit__imageBlock.opt-lg-w50p.opt-md-w50p.opt-sm-w50p {
+            padding: 0;
+        }
+
+        .g-Image.l-Image.is-background.is-backgroundColor--1.s7responsiveContainer {
+            padding: 0;
+            margin: 0;
+        }
+
+        .g-TileLinkHUnit__leadBlock.l-TileLinkHUnit__leadBlock {
+            padding: 0;
+            padding-left: 10px;
+        }
+
+        .g-Text.l-Text {
+            margin-bottom: 0;
+        }
+
+        span.cmn-icon.cmn-icon--bullet.g-TileLinkHUnit__icon.l-TileLinkHUnit__icon {
+            position: absolute;
+            top: 1.8em;
+            font-size: 20px;
+            color: #00A4B7;
+        }
+
+        li.g-TileLinkHP__list__tile.l-TileLinkHP__list__tile.g-TileLinkHP__list__tile-lg-4.g-TileLinkHP__list__tile-md-2.g-TileLinkHP__list__tile-sm-1 {
+            padding: 0;
+            height: 59px;
+        }
+
+        a.g-TileLinkHUnit.l-TileLinkHUnit.is-colorset--1.is-layoutL {
+            padding: 12px 12px 0;
+            height: 59px;
+        }
+
+        .g-TileLinkHUnit__leadBlock__title.l-TileLinkHUnit__leadBlock__title {
+            height: 22px;
+        }
+
+        .g-TileLinkHUnit__leadBlock__lead.l-TileLinkHUnit__leadBlock__lead {
+            height: inherit;
+
+            div.g-Text.l-Text {
+                color: #00A4B7;
+            }
+        }
+
+        .in-stock {
+            color: #15B700;
+        }
+
+        .out-of-stock {
+            color: #9D9D9C;
+        }
+    }
+
+    /*------------------ FIND NEARBY --------------------------*/
+    .find-nearBy {
+        .cjp-image {
+            width: 1200.5px;
+            height: 338px;
+            margin: 0 auto;
+
+            img {
+                width: 100% !important;
+            }
+        }
+
+        .cjp-shop-details {
+            ul {
+                li {
+                    padding: 13px 15px 0;
+
+                    a {
+                        height: auto !important;
+                        padding: 0;
+                        border: none;
+
+                        .g-TileLinkHUnit__imageBlock.l-TileLinkHUnit__imageBlock.opt-lg-w50p.opt-md-w50p.opt-sm-w50p {
+                            width: 70%;
+                            padding: 0;
+
+                            .g-Image.l-Image.s7responsiveContainer {
+                                display: flex;
+                            }
+
+                            p {
+                                width: 117px;
+                                height: 59px;
+
+                                img {
+                                    background: rgba(0, 164, 183, 0.1);
+                                }
+                            }
+
+                            .cjp-shop-address {
+                                width: 131px !important;
+                                height: 54px;
+                                margin: 0 10px;
+
+                                p {
+                                    height: inherit;
+                                    width: max-content;
+                                    line-height: 18px;
+
+                                    span {
+                                        word-break: break-all;
+                                        height: 54px;
+                                        width: 131px;
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+
+                            .cjp-shop-timings {
+                                width: 96px;
+                                height: 54px;
+                                font-size: 12px;
+                                margin-right: 10px;
+
+                                p {
+                                    height: 54px;
+                                }
+                            }
+                        }
+
+                        .g-TileLinkHUnit__leadBlock.l-TileLinkHUnit__leadBlock {
+                            height: auto !important;
+                            padding: 0;
+                            width: 127px;
+                            padding-right: 0;
+                            display: block;
+
+                            .g-TileLinkHUnit__leadBlock__title.l-TileLinkHUnit__leadBlock__title {
+                                top: 0.5em;
+                                position: relative;
+                            }
+                        }
+
+                        span.cmn-icon.cmn-icon--bullet.g-TileLinkHUnit__icon.l-TileLinkHUnit__icon {
+                            position: absolute;
+                            right: 2em;
+                            top: 2.3em;
+                            color: #00A4B7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*-------------------------------------------------- TABLET --------------------------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+    .cjp-wtb-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cjp-search-section {
+        #where-to-buy-search_0_wrapper {
+            width: 100%;
+            margin: 0 auto;
+
+            input {
+                width: 95.5%;
+                height: 29px;
+                margin: 0 20px;
+            }
+        }
+    }
+
+    .cjp-search-section div#where-to-buy-search_0_wrapper::after {
+        right: 21px;
+        top: -34px;
+        font-size: 20px;
+    }
+
+    .cjp-section-3 {
+        .find-nearBy {
+            .cjp-shop-details ul {
+                width: 85%;
+                margin: 0 auto !important;
+            }
+
+            .cjp-shop-details ul li a {
+                .g-TileLinkHUnit__imageBlock.l-TileLinkHUnit__imageBlock.opt-lg-w50p.opt-md-w50p.opt-sm-w50p {
+                    width: 100%;
+                    display: block;
+                }
+
+                .g-TileLinkHUnit__leadBlock.l-TileLinkHUnit__leadBlock {
+                    display: flex;
+                    float: right;
+                    text-align: right;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 100%;
+
+                    .g-TileLinkHUnit__leadBlock__title.l-TileLinkHUnit__leadBlock__title {
+                        left: -0.9em;
+                        top: 0;
+                    }
+
+                    .g-TileLinkHUnit__leadBlock__lead.l-TileLinkHUnit__leadBlock__lead {
+                        position: relative;
+                    }
+                }
+
+                span.cmn-icon.cmn-icon--bullet.g-TileLinkHUnit__icon.l-TileLinkHUnit__icon {
+                    right: 7em;
+                    top: 4.8em;
+                }
+            }
+        }
+    }
+
+    .cjp-title-link-pack.find-online {
+        ul {
+            width: 95%;
+            margin: 0 auto !important;
+
+            li {
+                padding: 0 15px !important;
+
+                a {
+                    padding: 0 12px !important;
+                }
+            }
+        }
+
+        span.cmn-icon.cmn-icon--bullet.g-TileLinkHUnit__icon.l-TileLinkHUnit__icon {
+            top: 32px;
+            right: -12px;
+        }
+
+        .g-Image.l-Image.is-background.is-backgroundColor--1.s7responsiveContainer {
+            padding: 0;
+            margin: 0;
+            width: 85%;
+        }
+    }
+
+    .cjp-section-3 {
+        .find-online.cjp-title-link-pack a.g-TileLinkHUnit.l-TileLinkHUnit.is-colorset--1.is-layoutL {
+            padding: 12px 12px 0 !important;
+            height: 77px !important;
+        }
+
+        .g-TabMenu__item {
+            margin-top: 20px;
+
+            .l-TileLinkHP.is-gutter--m .l-TileLinkHP__list__tile {
+                padding: 0 !important;
+            }
+        }
+
+        .find-nearBy {
+            .cjp-image {
+                width: 97.6%;
+                height: auto;
+                margin: 20px auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cjp-search-section {
+        div#where-to-buy-search_0_wrapper::after {
+            right: 12px;
+            top: -34px;
+            font-size: 20px;
+        }
+    }
+}
+
+/*------------------------------------------- MOBILE ----------------------------------------------*/
+
+@media only screen and (max-width: 640px) {
+    .cjp-search-section {
+        div#where-to-buy-search_0_wrapper::after {
+            right: 26px;
+            top: -36px;
+        }
+
+        #where-to-buy-search_0_wrapper input {
+            width: 92.4%;
+            height: 33px;
+        }
+    }
+
+    .cjp-section-3 .slick-track {
+        width: 100% !important;
+        margin: 0 auto;
+        transform: none !important;
+        display: flex;
+        justify-content: space-evenly;
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide {
+            width: 22.6% !important;
+            height: 33px !important;
+            text-align: center !important;
+        }
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide.slick-current {
+            left: 0;
+        }
+    }
+
+    .cjp-title-link-pack.find-online span.cmn-icon.cmn-icon--bullet.g-TileLinkHUnit__icon.l-TileLinkHUnit__icon {
+        top: 38px;
+        right: 20px;
+    }
+
+    .cjp-section-3 .find-online.cjp-title-link-pack .g-TileLinkHUnit__leadBlock__lead.l-TileLinkHUnit__leadBlock__lead {
+        height: unset;
+    }
+
+    .cjp-image {
+        width: 100% !important;
+        height: auto !important;
+
+        p {
+            margin: 10px auto 20px;
+        }
+    }
+
+    .cjp-section-3 {
+       
+
+        .find-nearBy {
+
+         .g-TabMenu__item .l-TileLinkHP.is-gutter--m .l-TileLinkHP__list__tile {
+            padding: 0 !important;
+            width: 85%;
+        }
+            .cjp-shop-details ul {
+                width: 100%;
+                margin: 0 auto !important;
+
+                li a {
+                    .g-TileLinkHUnit__imageBlock.l-TileLinkHUnit__imageBlock.opt-lg-w50p.opt-md-w50p.opt-sm-w50p {
+                        display: table-cell;
+                        width: initial;
+
+                        p {
+                            margin: 0 0 0 19px;
+                        }
+
+                        .cjp-shop-timings {
+                            width: 25%;
+                        }
+
+                        .cjp-shop-address {
+                            width: 30% !important;
+                            margin: 0 10px;
+                        }
+                    }
+
+                    .g-TileLinkHUnit__leadBlock.l-TileLinkHUnit__leadBlock {
+                        height: auto !important;
+                        padding: 0;
+                        width: 127px;
+                        padding-right: 0;
+                        display: block;
+                        text-align: left;
+                        float: none;
+
+                        .g-TileLinkHUnit__leadBlock__title.l-TileLinkHUnit__leadBlock__title {
+                            left: 0;
+                            top: 0.5em;
+                        }
+
+                        span.cmn-icon.cmn-icon--bullet.g-TileLinkHUnit__icon.l-TileLinkHUnit__icon {
+                            right: 1em;
+                            top: 2.3em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .cjp-section-3 .g-TabMenu__item .l-TileLinkHP.is-gutter--m .l-TileLinkHP__list__tile {
+        width: 100%;
+    }
+
+    .cjp-section-3 .slick-track {
+        width: 50% !important;
+        margin: 0 auto;
+        transform: none !important;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide.slick-current {
+            margin-bottom: 10px;
+            left: 0;
+        }
+
+        a.g-TabMenu__nav__link.l-TabMenu__nav__link.slick-slide {
+            width: 100% !important;
+        }
+    }
+
+    .cjp-search-section #where-to-buy-search_0_wrapper input {
+        width: 100%;
+        height: 33px;
+        margin: 0 auto;
+    }
+
+    .cjp-search-section div#where-to-buy-search_0_wrapper::after {
+        right: -3px;
+        top: -36px;
+    }
+
+    .cjp-section-3 .find-nearBy .cjp-shop-details ul li a .g-TileLinkHUnit__imageBlock.l-TileLinkHUnit__imageBlock.opt-lg-w50p.opt-md-w50p.opt-sm-w50p .g-Image.l-Image.s7responsiveContainer {
+        display: block;
+    }
+
+    .cjp-section-3 .find-nearBy .cjp-shop-details ul li a .g-TileLinkHUnit__imageBlock.l-TileLinkHUnit__imageBlock.opt-lg-w50p.opt-md-w50p.opt-sm-w50p .cjp-shop-address {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cjp-section-3 img {
+        width: 100% !important;
+    }
+}
+.wtb-section-2 {
+    a.g-ButtonUnit__link.l-ButtonUnit__link.js-anchorLink {
+        background: $text-color-blue;
+        border-radius: 24px;
+        color: $text-color-white;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+

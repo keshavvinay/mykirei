@@ -1,0 +1,139 @@
+body.is-authorring {
+    #area-BrHeader {
+        background-color: transparent;
+    }
+
+    .scrolltop-sample {
+        opacity: 1 !important;
+        height: auto;
+    }
+
+    .g-ImageCarouselPUnit__inner {
+
+        #goldwell,
+        #kms,
+        #orbie {
+
+            .color-image {
+                position: relative !important;
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+
+    .carousel-groupbox {
+        bottom: 0;
+
+        #orbie-logo,
+        #kms-logo,
+        #goldwell-logo {
+            position: relative !important;
+            width: auto;
+            height: auto;
+            bottom: 0;
+        }
+    }
+
+    /*header-footer*/
+
+    .modal {
+        position: relative;
+        visibility: visible;
+        padding: 0;
+
+        .g-HeadingTitle,
+        .g-TextLinkP {
+            -webkit-transform: translateY(0);
+
+            transform: translateY(0);
+        }
+
+        .sub-country {
+            padding: 10px;
+            display: block;
+        }
+    }
+
+    .kaosalon-button-wrapper {
+
+        .g-ButtonP,
+        #hamberger {
+            float: none;
+        }
+    }
+
+    .kaosalon-footer {
+        #footer-list {
+            float: none;
+        }
+
+    }
+
+    #area-PrivacyNotice {
+
+        .g-PrivacyNotice__modal__policyLink {
+            ul {
+                display: block;
+            }
+        }
+    }
+
+    #error-message {
+        display: block;
+    }
+
+    /*cotact-form*/
+    #contact-group-box {
+        input[type='submit'] {
+            width: 100% !important;
+        }
+
+        .form_row {
+            float: none;
+            width: 100%;
+
+            .form_rightcol {
+                float: none;
+
+                input,
+                textarea,
+                select {
+                    float: none !important;
+                }
+            }
+            .form_leftcolmark{
+                display: block !important;
+            }
+        }
+
+        .thanks,
+        .sorry {
+            display: block !important;
+        }
+
+        .contact-required {
+            position: initial;
+            width: 100%;
+        }
+
+        .group-checkbox {
+            float: none;
+
+            .form_row {
+                position: relative;
+                left: 0;
+            }
+        }
+    }
+
+    .selectDropDown {
+        width: 100%;
+
+        .g-ListP {
+            position: relative !important;
+            top: 0 !important;
+            display: block !important;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+//Fonts
+@import "_fonts/_fonts.scss";
+
+@import "_scss/_variable.scss";
+@import "_scss/_normalize.scss";
+@import "_scss/_option.scss";
+
+//Mixins
+@import "_scss/_mixins.scss";
+
+//Header/Footer
+@import "_scss/_newHeader.scss";
+@import "_scss/_footer.scss";
+
+//Modal CSS
+@import "_scss/_modal.scss";
+
+//Common CSS
+@import "_scss/_common.scss";
+
+//Component specific scss
+@import"_scss/button.scss";
+@import "_scss/_imageItem.scss";
+@import "_scss/_pageTitle.scss";
+@import "_scss/_breadCrumbs.scss";
+@import "_scss/_accordion.scss";
+@import "_scss/_tileLinkPack.scss";
+@import "_scss/_scrollToTop.scss";
+@import "_scss/_skinplan.scss";
+@import "_scss/_form.scss";
+@import "_scss/_unsubscribe.scss";
+@import "_scss/_imageCarousel.scss";
+@import "_scss/_countrySelector.scss";
+@import "_scss/_productListingTemplate.scss";
+@import "_scss/_productDetialsTemplate.scss";
+@import "_scss/_relatedContent.scss";
+@import "_scss/_blog.scss";
+
+//AUTHORRING CSS
+@import "_scss/_authoring.scss";

@@ -1,0 +1,96 @@
+.special-offers-section{
+    @include section-max-width;
+    padding: 15px;
+    
+    .special-offers-banner-colum{
+        position: relative;
+        
+        .g-Image{
+            margin-bottom: 0;
+        }
+        
+        img{
+            width: 100% !important;
+                min-height: 250px;
+        }
+    }
+    
+    .special-offers-heading-groupbox{
+        position: absolute;
+        top: 15%;
+        left: 15px;
+        
+        div{
+            margin-bottom: 0 !important;
+        }
+        
+    }
+    
+    .get-newsletter{
+        color: #918989;
+        position: absolute;
+    top: -1px;
+    right: 0px;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+        -webkit-box-shadow: -11px 9px 45px -9px rgba(69,63,69,1);
+-moz-box-shadow: -11px 9px 45px -9px rgba(69,63,69,1);
+box-shadow: -11px 9px 45px -9px rgba(69,63,69,1);
+        
+        strong{
+            font-size: 16px;
+        }
+        
+        a{
+            color: #333 !important;
+            text-decoration: none;
+            
+            &:hover{
+                text-decoration: underline;
+            }
+            &:after{
+                    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-left: 3px;
+    transform: rotate(45deg);
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+            }
+        }
+    }
+    
+    .go-now-btn a{
+         border-radius: 0;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #b99c79;
+    box-shadow: none;
+        
+        .cmn-richtext{
+                padding-right: 15px;
+        }
+        
+        .g-ButtonUnit__link__icon{
+            color: #333;
+            font-size: 14px;
+        }
+    }
+    
+    .g-ImageTextHP{
+            padding: 10px;
+    background-color: #fff;
+        
+        h3{
+    font-size: 20px !important;
+    border-bottom: 2px solid #e3d5c4;
+    color: #bea384 !important;
+    font-weight: normal;
+        }        
+        
+
+    }
+}

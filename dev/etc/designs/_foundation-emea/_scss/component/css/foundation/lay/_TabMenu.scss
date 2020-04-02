@@ -1,0 +1,1075 @@
+@charset "utf-8";
+
+$size_vlues: xs, s, m, l, xl;
+@function get-radius-value($size) {
+  @if $size == xs {
+    @return $borderRadius_xs;
+  }
+  @if $size == s {
+    @return $borderRadius_s;
+  }
+  @if $size == m {
+    @return $borderRadius_m;
+  }
+  @if $size == l {
+    @return $borderRadius_l;
+  }
+  @if $size == xl {
+    @return $borderRadius_xl;
+  }
+}
+@mixin tabBottomColor {
+  .l-TabMenu__nav__link {
+    border-bottom-color: $tabmenu__content__border;
+    &:hover {
+      border-bottom-color: $tabmenu__content__border;
+    }
+    &.is-active {
+      border-bottom-color: $tabmenu__tab__bg--active;
+    }
+  }
+  .l-TabMenu__nav {
+    .l-TabMenu__nav__inner {
+      .l-TabMenu__nav__ctl {
+        border-bottom-color: $tabmenu__content__border;
+        &:hover {
+          border-bottom-color: $tabmenu__content__border;
+        }
+      }
+    }
+  }
+  &.is-content-borderColor--1 {
+    .l-TabMenu__nav__link {
+      border-bottom-color: $option__border--01;
+      &:hover {
+        border-bottom-color: $option__border--01;
+      }
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__inner {
+        .l-TabMenu__nav__ctl {
+          border-bottom-color: $option__border--01;
+          &:hover {
+            border-bottom-color: $option__border--01;
+          }
+        }
+      }
+    }
+  }
+  &.is-content-borderColor--2 {
+    .l-TabMenu__nav__link {
+      border-bottom-color: $option__border--02;
+      &:hover {
+        border-bottom-color: $option__border--02;
+      }
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__inner {
+        .l-TabMenu__nav__ctl {
+          border-bottom-color: $option__border--02;
+          &:hover {
+            border-bottom-color: $option__border--02;
+          }
+        }
+      }
+    }
+  }
+  &.is-content-borderColor--3 {
+    .l-TabMenu__nav__link {
+      border-bottom-color: $option__border--03;
+      &:hover {
+        border-bottom-color: $option__border--03;
+      }
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__inner {
+        .l-TabMenu__nav__ctl {
+          border-bottom-color: $option__border--03;
+          &:hover {
+            border-bottom-color: $option__border--03;
+          }
+        }
+      }
+    }
+  }
+  &.is-content-borderColor--4 {
+    .l-TabMenu__nav__link {
+      border-bottom-color: $option__border--04;
+      &:hover {
+        border-bottom-color: $option__border--04;
+      }
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__inner {
+        .l-TabMenu__nav__ctl {
+          border-bottom-color: $option__border--04;
+          &:hover {
+            border-bottom-color: $option__border--04;
+          }
+        }
+      }
+    }
+  }
+  &.is-content-borderColor--5 {
+    .l-TabMenu__nav__link {
+      border-bottom-color: $option__border--05;
+      &:hover {
+        border-bottom-color: $option__border--05;
+      }
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__inner {
+        .l-TabMenu__nav__ctl {
+          border-bottom-color: $option__border--05;
+          &:hover {
+            border-bottom-color: $option__border--05;
+          }
+        }
+      }
+    }
+  }
+  &.is-content-borderColor--6 {
+    .l-TabMenu__nav__link {
+      border-bottom-color: $option__border--06;
+      &:hover {
+        border-bottom-color: $option__border--06;
+      }
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__inner {
+        .l-TabMenu__nav__ctl {
+          border-bottom-color: $option__border--06;
+          &:hover {
+            border-bottom-color: $option__border--06;
+          }
+        }
+      }
+    }
+  }
+  &.is-content-borderColor--7 {
+    .l-TabMenu__nav__link {
+      border-bottom-color: $option__border--07;
+      &:hover {
+        border-bottom-color: $option__border--07;
+      }
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__inner {
+        .l-TabMenu__nav__ctl {
+          border-bottom-color: $option__border--07;
+          &:hover {
+            border-bottom-color: $option__border--07;
+          }
+        }
+      }
+    }
+  }
+  &.is-tab-backgroundColor--active--1 {
+    .l-TabMenu__nav__link {
+      &.is-active {
+        border-bottom-color: $option__bg--01;
+      }
+    }
+  }
+  &.is-tab-backgroundColo--activer--2 {
+    .l-TabMenu__nav__link {
+      &.is-active {
+        border-bottom-color: $option__bg--02;
+      }
+    }
+  }
+  &.is-tab-backgroundColor--active--3 {
+    .l-TabMenu__nav__link {
+      &.is-active {
+        border-bottom-color: $option__bg--03;
+      }
+    }
+  }
+  &.is-tab-backgroundColor--active--4 {
+    .l-TabMenu__nav__link {
+      &.is-active {
+        border-bottom-color: $option__bg--04;
+      }
+    }
+  }
+  &.is-tab-backgroundColor--active--5 {
+    .l-TabMenu__nav__link {
+      &.is-active {
+        border-bottom-color: $option__bg--05;
+      }
+    }
+  }
+  &.is-tab-backgroundColor--active--6 {
+    .l-TabMenu__nav__link {
+      &.is-active {
+        border-bottom-color: $option__bg--06;
+      }
+    }
+  }
+  &.is-tab-backgroundColor--active--7 {
+    .l-TabMenu__nav__link {
+      &.is-active {
+        border-bottom-color: $option__bg--07;
+      }
+    }
+  }
+}
+@mixin tabHoverActiveBorderColor {
+  .l-TabMenu__nav__link {
+    &:hover {
+      border-color: $tabmenu__tab__border--hover;
+    }
+    &.is-active {
+      border-color: $tabmenu__tab__border--active;
+    }
+  }
+}
+@mixin tabHoverActiveBgColor {
+  .l-TabMenu__nav__link {
+    &:hover {
+      background-color: $tabmenu__tab__bg--hover;
+    }
+    &.is-active {
+      background-color: $tabmenu__tab__bg--active;
+    }
+  }
+}
+@mixin tabControlHoverBorderColor {
+  .l-TabMenu__nav__ctl {
+    &:hover {
+      border-color: $tabmenu__control__border--hover;
+      border-bottom-color: $tabmenu__content__border;
+    }
+  }
+}
+@mixin tabControlHoverBgColor {
+  .l-TabMenu__nav__ctl {
+    &:hover {
+      background-color: $tabmenu__control__bg--hover;
+    }
+  }
+}
+.l-TabMenu {
+  &.is-border--solid {
+    border-style: solid;
+  }
+  &.is-border--dot {
+    border-style: dotted;
+  }
+
+  &.is-borderWidth--s {
+    border-width: $borderWidthBox_s;
+  }
+  &.is-borderWidth--m {
+    border-width: $borderWidthBox_m;
+  }
+  &.is-borderWidth--l {
+    border-width: $borderWidthBox_l;
+  }
+
+  &.is-borderColor--1 {
+    border-color: $option__border--01;
+  }
+  &.is-borderColor--2 {
+    border-color: $option__border--02;
+  }
+  &.is-borderColor--3 {
+    border-color: $option__border--03;
+  }
+  &.is-borderColor--4 {
+    border-color: $option__border--04;
+  }
+  &.is-borderColor--5 {
+    border-color: $option__border--05;
+  }
+  &.is-borderColor--6 {
+    border-color: $option__border--06;
+  }
+  &.is-borderColor--7 {
+    border-color: $option__border--07;
+  }
+  &.is-backgroundColor--1 {
+    background-color: $option__bg--01;
+  }
+  &.is-backgroundColor--2 {
+    background-color: $option__bg--02;
+  }
+  &.is-backgroundColor--3 {
+    background-color: $option__bg--03;
+  }
+  &.is-backgroundColor--4 {
+    background-color: $option__bg--04;
+  }
+  &.is-backgroundColor--5 {
+    background-color: $option__bg--05;
+  }
+  &.is-backgroundColor--6 {
+    background-color: $option__bg--06;
+  }
+  &.is-backgroundColor--7 {
+    background-color: $option__bg--07;
+  }
+  
+  // tab
+  @include tabBottomColor();
+  &.is-tab-borderWidth--s {
+    .l-TabMenu__nav__link {
+      border-width: $borderWidthBox_s;
+    }
+  }
+  &.is-tab-borderWidth--m {
+    .l-TabMenu__nav__link {
+      border-width: $borderWidthBox_m;
+    }
+  }
+  &.is-tab-borderWidth--l {
+    .l-TabMenu__nav__link {
+      border-width: $borderWidthBox_l;
+    }
+  }  
+
+  &.is-tab-borderColor--1 {
+    .l-TabMenu__nav__link {
+      border-color: $option__border--01;
+    }
+    @include tabHoverActiveBorderColor();
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--2 {
+    .l-TabMenu__nav__link {
+      border-color: $option__border--02;
+    }
+    @include tabHoverActiveBorderColor();
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--3 {
+    .l-TabMenu__nav__link {
+      border-color: $option__border--03;
+    }
+    @include tabHoverActiveBorderColor();
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--4 {
+    .l-TabMenu__nav__link {
+      border-color: $option__border--04;
+    }
+    @include tabHoverActiveBorderColor();
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--5 {
+    .l-TabMenu__nav__link {
+      border-color: $option__border--05;
+    }
+    @include tabHoverActiveBorderColor();
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--6 {
+    .l-TabMenu__nav__link {
+      border-color: $option__border--06;
+    }
+    @include tabHoverActiveBorderColor();
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--7 {
+    .l-TabMenu__nav__link {
+      border-color: $option__border--07;
+    }
+    @include tabHoverActiveBorderColor();
+    @include tabBottomColor();
+  }
+
+  &.is-tab-borderColor--hover--1 {
+    .l-TabMenu__nav__link:hover {
+      border-color: $option__border--01;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--hover--2 {
+    .l-TabMenu__nav__link:hover {
+      border-color: $option__border--02;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--hover--3 {
+    .l-TabMenu__nav__link:hover {
+      border-color: $option__border--03;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--hover--4 {
+    .l-TabMenu__nav__link:hover {
+      border-color: $option__border--04;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--hover--5 {
+    .l-TabMenu__nav__link:hover {
+      border-color: $option__border--05;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--hover--6 {
+    .l-TabMenu__nav__link:hover {
+      border-color: $option__border--06;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--hover--7 {
+    .l-TabMenu__nav__link:hover {
+      border-color: $option__border--07;
+    }
+    @include tabBottomColor();
+  }
+
+  &.is-tab-borderColor--active--1 {
+    .l-TabMenu__nav__link.is-active {
+      border-color: $option__border--01;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--active--2 {
+    .l-TabMenu__nav__link.is-active {
+      border-color: $option__border--02;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--active--3 {
+    .l-TabMenu__nav__link.is-active {
+      border-color: $option__border--03;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--active--4 {
+    .l-TabMenu__nav__link.is-active {
+      border-color: $option__border--04;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--active--5 {
+    .l-TabMenu__nav__link.is-active {
+      border-color: $option__border--05;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--active--6 {
+    .l-TabMenu__nav__link.is-active {
+      border-color: $option__border--06;
+    }
+    @include tabBottomColor();
+  }
+  &.is-tab-borderColor--active--7 {
+    .l-TabMenu__nav__link.is-active {
+      border-color: $option__border--07;
+    }
+    @include tabBottomColor();
+  }
+
+  &.is-tab-backgroundColor--1 {
+    .l-TabMenu__nav__link {
+      background-color: $option__bg--01;
+    }
+    @include tabHoverActiveBgColor();
+  }
+  &.is-tab-backgroundColor--2 {
+    .l-TabMenu__nav__link {
+      background-color: $option__bg--02;
+    }
+    @include tabHoverActiveBgColor();
+  }
+  &.is-tab-backgroundColor--3 {
+    .l-TabMenu__nav__link {
+      background-color: $option__bg--03;
+    }
+    @include tabHoverActiveBgColor();
+  }
+  &.is-tab-backgroundColor--4 {
+    .l-TabMenu__nav__link {
+      background-color: $option__bg--04;
+    }
+    @include tabHoverActiveBgColor();
+  }
+  &.is-tab-backgroundColor--5 {
+    .l-TabMenu__nav__link {
+      background-color: $option__bg--05;
+    }
+    @include tabHoverActiveBgColor();
+  }
+  &.is-tab-backgroundColor--6 {
+    .l-TabMenu__nav__link {
+      background-color: $option__bg--06;
+    }
+    @include tabHoverActiveBgColor();
+  }
+  &.is-tab-backgroundColor--7 {
+    .l-TabMenu__nav__link {
+      background-color: $option__bg--07;
+    }
+    @include tabHoverActiveBgColor();
+  }
+
+  &.is-tab-backgroundColor--hover--1 {
+    .l-TabMenu__nav__link:hover {
+      background-color: $option__bg--01;
+    }
+  }
+  &.is-tab-backgroundColor--hover--2 {
+    .l-TabMenu__nav__link:hover {
+      background-color: $option__bg--02;
+    }
+  }
+  &.is-tab-backgroundColor--hover--3 {
+    .l-TabMenu__nav__link:hover {
+      background-color: $option__bg--03;
+    }
+  }
+  &.is-tab-backgroundColor--hover--4 {
+    .l-TabMenu__nav__link:hover {
+      background-color: $option__bg--04;
+    }
+  }
+  &.is-tab-backgroundColor--hover--5 {
+    .l-TabMenu__nav__link:hover {
+      background-color: $option__bg--05;
+    }
+  }
+  &.is-tab-backgroundColor--hover--6 {
+    .l-TabMenu__nav__link:hover {
+      background-color: $option__bg--06;
+    }
+  }
+  &.is-tab-backgroundColor--hover--7 {
+    .l-TabMenu__nav__link:hover {
+      background-color: $option__bg--07;
+    }
+  }
+
+  &.is-tab-backgroundColor--active--1 {
+    .l-TabMenu__nav__link.is-active {
+      background-color: $option__bg--01;
+    }
+  }
+  &.is-tab-backgroundColor--active--2 {
+    .l-TabMenu__nav__link.is-active {
+      background-color: $option__bg--02;
+    }
+  }
+  &.is-tab-backgroundColor--active--3 {
+    .l-TabMenu__nav__link.is-active {
+      background-color: $option__bg--03;
+    }
+  }
+  &.is-tab-backgroundColor--active--4 {
+    .l-TabMenu__nav__link.is-active {
+      background-color: $option__bg--04;
+    }
+  }
+  &.is-tab-backgroundColor--active--5 {
+    .l-TabMenu__nav__link.is-active {
+      background-color: $option__bg--05;
+    }
+  }
+  &.is-tab-backgroundColor--active--6 {
+    .l-TabMenu__nav__link.is-active {
+      background-color: $option__bg--06;
+    }
+  }
+  &.is-tab-backgroundColor--active--7 {
+    .l-TabMenu__nav__link.is-active {
+      background-color: $option__bg--07;
+    }
+  }
+  
+  @each $value in $size_vlues {
+    &.is-tab-borderradius--#{$value} {
+      .l-TabMenu__nav__link {
+        @include border-top-left-radius(get-radius-value($value));
+        @include border-top-right-radius(get-radius-value($value));
+      }
+      .l-TabMenu__nav__ctl--prev {
+        @include border-top-left-radius(get-radius-value($value));
+      }
+      .l-TabMenu__nav__ctl--next {
+        @include border-top-right-radius(get-radius-value($value));
+      }
+    }
+  }
+
+
+  // tab controle
+  &.is-tabctl-borderWidth--s {
+    .l-TabMenu__nav__ctl {
+      border-width: $borderWidthBox_s;
+    }
+  }
+  &.is-tabctl-borderWidth--m {
+    .l-TabMenu__nav__ctl {
+      border-width: $borderWidthBox_m;
+    }
+  }
+  &.is-tabctl-borderWidth--l {
+    .l-TabMenu__nav__ctl {
+      border-width: $borderWidthBox_l;
+    }
+  }
+
+  &.is-tabctl-borderColor--1 {
+    .l-TabMenu__nav__ctl {
+      border-color: $option__border--01;
+    }
+    @include tabControlHoverBorderColor();
+  }
+  &.is-tabctl-borderColor--2 {
+    .l-TabMenu__nav__ctl {
+      border-color: $option__border--02;
+    }
+    @include tabControlHoverBorderColor();
+  }
+  &.is-tabctl-borderColor--3 {
+    .l-TabMenu__nav__ctl {
+      border-color: $option__border--03;
+    }
+    @include tabControlHoverBorderColor();
+  }
+  &.is-tabctl-borderColor--4 {
+    .l-TabMenu__nav__ctl {
+      border-color: $option__border--04;
+    }
+    @include tabControlHoverBorderColor();
+  }
+  &.is-tabctl-borderColor--5 {
+    .l-TabMenu__nav__ctl {
+      border-color: $option__border--05;
+    }
+    @include tabControlHoverBorderColor();
+  }
+  &.is-tabctl-borderColor--6 {
+    .l-TabMenu__nav__ctl {
+      border-color: $option__border--06;
+    }
+    @include tabControlHoverBorderColor();
+  }
+  &.is-tabctl-borderColor--7 {
+    .l-TabMenu__nav__ctl {
+      border-color: $option__border--07;
+    }
+    @include tabControlHoverBorderColor();
+  }
+
+  &.is-tabctl-borderColor--hover--1 {
+    .l-TabMenu__nav__ctl:hover {
+      border-color: $option__border--01;
+    }
+  }
+  &.is-tabctl-borderColor--hover--2 {
+    .l-TabMenu__nav__ctl:hover {
+      border-color: $option__border--02;
+    }
+  }
+  &.is-tabctl-borderColor--hover--3 {
+    .l-TabMenu__nav__ctl:hover {
+      border-color: $option__border--03;
+    }
+  }
+  &.is-tabctl-borderColor--hover--4 {
+    .l-TabMenu__nav__ctl:hover {
+      border-color: $option__border--04;
+    }
+  }
+  &.is-tabctl-borderColor--hover--5 {
+    .l-TabMenu__nav__ctl:hover {
+      border-color: $option__border--05;
+    }
+  }
+  &.is-tabctl-borderColor--hover--6 {
+    .l-TabMenu__nav__ctl:hover {
+      border-color: $option__border--06;
+    }
+  }
+  &.is-tabctl-borderColor--hover--7 {
+    .l-TabMenu__nav__ctl:hover {
+      border-color: $option__border--07;
+    }
+  }
+
+  &.is-tabctl-backgroundColor--1 {
+    .l-TabMenu__nav__ctl {
+      background-color: $option__bg--01;
+    }
+    @include tabControlHoverBgColor();
+  }
+  &.is-tabctl-backgroundColor--2 {
+    .l-TabMenu__nav__ctl {
+      background-color: $option__bg--02;
+    }
+    @include tabControlHoverBgColor();
+  }
+  &.is-tabctl-backgroundColor--3 {
+    .l-TabMenu__nav__ctl {
+      background-color: $option__bg--03;
+    }
+    @include tabControlHoverBgColor();
+  }
+  &.is-tabctl-backgroundColor--4 {
+    .l-TabMenu__nav__ctl {
+      background-color: $option__bg--04;
+    }
+    @include tabControlHoverBgColor();
+  }
+  &.is-tabctl-backgroundColor--5 {
+    .l-TabMenu__nav__ctl {
+      background-color: $option__bg--05;
+    }
+    @include tabControlHoverBgColor();
+  }
+  &.is-tabctl-backgroundColor--6 {
+    .l-TabMenu__nav__ctl {
+      background-color: $option__bg--06;
+    }
+    @include tabControlHoverBgColor();
+  }
+  &.is-tabctl-backgroundColor--7 {
+    .l-TabMenu__nav__ctl {
+      background-color: $option__bg--07;
+    }
+    @include tabControlHoverBgColor();
+  }
+
+  &.is-tabctl-backgroundColor--hover--1 {
+    .l-TabMenu__nav__ctl:hover {
+      background-color: $option__bg--01;
+    }
+  }
+  &.is-tabctl-backgroundColor--hover--2 {
+    .l-TabMenu__nav__ctl:hover {
+      background-color: $option__bg--02;
+    }
+  }
+  &.is-tabctl-backgroundColor--hover--3 {
+    .l-TabMenu__nav__ctl:hover {
+      background-color: $option__bg--03;
+    }
+  }
+  &.is-tabctl-backgroundColor--hover--4 {
+    .l-TabMenu__nav__ctl:hover {
+      background-color: $option__bg--04;
+    }
+  }
+  &.is-tabctl-backgroundColor--hover--5 {
+    .l-TabMenu__nav__ctl:hover {
+      background-color: $option__bg--05;
+    }
+  }
+  &.is-tabctl-backgroundColor--hover--6 {
+    .l-TabMenu__nav__ctl:hover {
+      background-color: $option__bg--06;
+    }
+  }
+  &.is-tabctl-backgroundColor--hover--7 {
+    .l-TabMenu__nav__ctl:hover {
+      background-color: $option__bg--07;
+    }
+  }
+
+  // content
+  &.is-content-borderWidth--s {
+    .l-TabMenu__item {
+      border-width: $borderWidthBox_s;
+      margin-top: -$borderWidthBox_s;
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__link {
+        border-bottom-width: $borderWidthBox_s;
+      }
+      .l-TabMenu__nav__ctl {
+        border-bottom-width: $borderWidthBox_s;
+      }
+    }
+  }
+  &.is-content-borderWidth--m {
+    .l-TabMenu__item {
+      border-width: $borderWidthBox_m;
+      margin-top: -$borderWidthBox_m;
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__link {
+        border-bottom-width: $borderWidthBox_m;
+      }
+      .l-TabMenu__nav__ctl {
+        border-bottom-width: $borderWidthBox_m;
+      }
+    }
+  }
+  &.is-content-borderWidth--l {
+    .l-TabMenu__item {
+      border-width: $borderWidthBox_l;
+      margin-top: -$borderWidthBox_l;
+    }
+    .l-TabMenu__nav {
+      .l-TabMenu__nav__link {
+        border-bottom-width: $borderWidthBox_l;
+      }
+      .l-TabMenu__nav__ctl {
+        border-bottom-width: $borderWidthBox_l;
+      }
+    }
+  }
+
+  &.is-content-borderColor--1 {
+    .l-TabMenu__item {
+      border-color: $option__border--01;
+    }
+  }
+  &.is-content-borderColor--2 {
+    .l-TabMenu__item {
+      border-color: $option__border--02;
+    }
+  }
+  &.is-content-borderColor--3 {
+    .l-TabMenu__item {
+      border-color: $option__border--03;
+    }
+  }
+  &.is-content-borderColor--4 {
+    .l-TabMenu__item {
+      border-color: $option__border--04;
+    }
+  }
+  &.is-content-borderColor--5 {
+    .l-TabMenu__item {
+      border-color: $option__border--05;
+    }
+  }
+  &.is-content-borderColor--6 {
+    .l-TabMenu__item {
+      border-color: $option__border--06;
+    }
+  }
+  &.is-content-borderColor--7 {
+    .l-TabMenu__item {
+      border-color: $option__border--07;
+    }
+  }
+
+  &.is-content-backgroundColor--1 {
+    .l-TabMenu__item {
+      background-color: $option__bg--01;
+    }
+  }
+  &.is-content-backgroundColor--2 {
+    .l-TabMenu__item {
+      background-color: $option__bg--02;
+    }
+  }
+  &.is-content-backgroundColor--3 {
+    .l-TabMenu__item {
+      background-color: $option__bg--03;
+    }
+  }
+  &.is-content-backgroundColor--4 {
+    .l-TabMenu__item {
+      background-color: $option__bg--04;
+    }
+  }
+  &.is-content-backgroundColor--5 {
+    .l-TabMenu__item {
+      background-color: $option__bg--05;
+    }
+  }
+  &.is-content-backgroundColor--6 {
+    .l-TabMenu__item {
+      background-color: $option__bg--06;
+    }
+  }
+  &.is-content-backgroundColor--7 {
+    .l-TabMenu__item {
+      background-color: $option__bg--07;
+    }
+  }
+  
+
+  .l-TabMenu__nav__link {
+    border-color: $tabmenu__tab__border;
+    background-color: $tabmenu__tab__bg;
+    border-bottom-color: $tabmenu__content__border;
+    .l-HeadingTitle {
+      .l-HeadingTitle__h2,
+      .l-HeadingTitle__h3,
+      .l-HeadingTitle__h4,
+      .l-HeadingTitle__h5,
+      .l-HeadingTitle__h6,
+      .l-HeadingTitle__p {
+        color: $tabmenu__tab__text;
+      }
+      .is-authorring & {
+        color: $tabmenu__tab__text;
+      }
+    }
+    &:hover {
+      border-color: $tabmenu__tab__border--hover;
+      background-color: $tabmenu__tab__bg--hover;
+      border-bottom-color: $tabmenu__content__border;
+      .l-HeadingTitle {
+        .l-HeadingTitle__h2,
+        .l-HeadingTitle__h3,
+        .l-HeadingTitle__h4,
+        .l-HeadingTitle__h5,
+        .l-HeadingTitle__h6,
+        .l-HeadingTitle__p {
+          color: $tabmenu__tab__text--hover;
+        }
+        .is-authorring & {
+          color: $tabmenu__tab__text--hover;
+        }
+      }
+    }
+    &.is-active {
+      border-color: $tabmenu__tab__border--active;
+      background-color: $tabmenu__tab__bg--active;
+      border-bottom-color: $tabmenu__tab__bg--active;
+      .l-HeadingTitle {
+        .l-HeadingTitle__h2,
+        .l-HeadingTitle__h3,
+        .l-HeadingTitle__h4,
+        .l-HeadingTitle__h5,
+        .l-HeadingTitle__h6,
+        .l-HeadingTitle__p {
+          color: $tabmenu__tab__text--active;
+        }
+        .is-authorring & {
+          color: $tabmenu__tab__text--active;
+        }
+      }
+    }
+  }
+
+  @each $value in $size_vlues {
+    &.is-content-borderradius--#{$value} {
+      .l-TabMenu__item {
+        @include border-bottom-left-radius(get-radius-value($value));
+        @include border-bottom-right-radius(get-radius-value($value));
+      }
+    }
+  }
+}
+
+.l-TabMenu__nav__ctl {
+  background-color: $tabmenu__control__bg;
+  border-color: $tabmenu__control__border;
+  border-bottom-color: $tabmenu__content__border;
+  &:before {
+    color: $tabmenu__control__icon;
+  }
+  &:hover {
+    background-color: $tabmenu__control__bg--hover;
+    border-color: $tabmenu__control__border--hover;
+    border-bottom-color: $tabmenu__content__border;
+    &:before {
+      color: $tabmenu__control__icon--hover;
+    }
+  }
+}
+
+// content
+.l-TabMenu__item {
+  background-color: $tabmenu__content__bg;
+  border-color: $tabmenu__content__border;
+}
+
+/* TabMenuUnit ============================== */
+.l-TabMenuUnit {
+  &.is-gutter--s {
+    @include bp(sm) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_sm_s / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_sm_s / 2 );
+    }
+    @include bp(md) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_md_s / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_md_s / 2 );
+    }
+    @include bp(lg) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_lg_s / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_lg_s / 2 );
+    }
+    .l-TabMenuUnit__inner {
+      @include gutterColumnWrapper(s);
+    }
+    .l-TabMenuUnit__cols {
+      @include gutterColumnInner(s);
+    }
+  }
+  &.is-gutter--m {
+    @include bp(sm) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_sm_m / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_sm_m / 2 );
+    }
+    @include bp(md) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_md_m / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_md_m / 2 );
+    }
+    @include bp(lg) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_lg_m / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_lg_m / 2 );
+    }
+    .l-TabMenuUnit__inner {
+      @include gutterColumnWrapper(m);
+    }
+    .l-TabMenuUnit__cols {
+      @include gutterColumnInner(m);
+    }
+  }
+  &.is-gutter--l {
+    @include bp(sm) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_sm_l / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_sm_l / 2 );
+    }
+    @include bp(md) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_md_l / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_md_l / 2 );
+    }
+    @include bp(lg) {
+      padding-top: $cmn_paddingInner - ( $marginGutterColumn_lg_l / 2 );
+      padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_lg_l / 2 );
+    }
+    .l-TabMenuUnit__inner {
+      @include gutterColumnWrapper(l);
+    }
+    .l-TabMenuUnit__cols {
+      @include gutterColumnInner(l);
+    }
+  }
+  &.is-gutter--xl {
+    @include bp(sm) {
+      @if $cmn_paddingInner < $marginGutterColumn_sm_xl / 2 {
+        padding-top: 0;
+        padding-bottom: 0;
+      } @else {
+        padding-top: $cmn_paddingInner - ( $marginGutterColumn_sm_xl / 2 );
+        padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_sm_xl / 2 );
+      }
+    }
+    @include bp(md) {
+      @if $cmn_paddingInner < $marginGutterColumn_md_xl / 2 {
+        padding-top: 0;
+        padding-bottom: 0;
+      } @else {
+        padding-top: $cmn_paddingInner - ( $marginGutterColumn_md_xl / 2 );
+        padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_md_xl / 2 );
+      }
+    }
+    @include bp(lg) {
+      @if $cmn_paddingInner < $marginGutterColumn_lg_xl / 2 {
+        padding-top: 0;
+        padding-bottom: 0;
+      } @else {
+        padding-top: $cmn_paddingInner - ( $marginGutterColumn_lg_xl / 2 );
+        padding-bottom: $cmn_paddingInner - ( $marginGutterColumn_lg_xl / 2 );
+      }
+    }
+    .l-TabMenuUnit__inner {
+      @include gutterColumnWrapper(xl);
+    }
+    .l-TabMenuUnit__cols {
+      @include gutterColumnInner(xl);
+    }
+  }
+}

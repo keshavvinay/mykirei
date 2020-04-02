@@ -1,0 +1,1138 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/38fe1f");
+@font-face {
+  font-family: 'HelveticaNeueLTW1G-Lt';
+  src: url("../fonts/38fe1f_7_0.eot");
+  src: url("../fonts/38fe1f_7_0.eot?#iefix") format("embedded-opentype"), url("../fonts/38fe1f_7_0.woff2") format("woff2"), url("../fonts/38fe1f_7_0.woff") format("woff"), url("../fonts/38fe1f_7_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'HelveticaNeueLTW1G-Roman';
+  src: url("../fonts/38fe1f_8_0.eot");
+  src: url("../fonts/38fe1f_8_0.eot?#iefix") format("embedded-opentype"), url("../fonts/38fe1f_8_0.woff2") format("woff2"), url("../fonts/38fe1f_8_0.woff") format("woff"), url("../fonts/38fe1f_8_0.ttf") format("truetype");
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes example {
+  from {
+    opacity: 0;
+    visibility: visible;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#area-Contents .g-Section__inner {
+  max-width: 100%;
+}
+
+#landingpage-title {
+  margin-bottom: 56px;
+}
+#landingpage-title h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.scrolltop-sample {
+  width: 1276px;
+  opacity: 1;
+  height: 200px;
+}
+
+.g-ImageCarouselPUnit__inner #goldwell,
+.g-ImageCarouselPUnit__inner #kms,
+.g-ImageCarouselPUnit__inner #orbie {
+  margin: 0;
+}
+.g-ImageCarouselPUnit__inner #goldwell p img,
+.g-ImageCarouselPUnit__inner #kms p img,
+.g-ImageCarouselPUnit__inner #orbie p img {
+  opacity: 1;
+  position: relative;
+  left: -10px;
+  -webkit-transform: translate3d(-10px, 0, 0) scale(1, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  transform: translate3d(-10px, 0, 0) scale(1.05, 1.05);
+}
+.g-ImageCarouselPUnit__inner #goldwell p img:hover, .g-ImageCarouselPUnit__inner #goldwell p img:active,
+.g-ImageCarouselPUnit__inner #kms p img:hover,
+.g-ImageCarouselPUnit__inner #kms p img:active,
+.g-ImageCarouselPUnit__inner #orbie p img:hover,
+.g-ImageCarouselPUnit__inner #orbie p img:active {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
+  -webkit-transition: all 0.35s ease;
+  transform: translate3d(0, 0, 0) scale(1, 1);
+  transition: all 0.35s ease;
+}
+.g-ImageCarouselPUnit__inner .color-image {
+  position: absolute !important;
+  left: 0px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  transform: translate3d(0, 0, 0) scale(1, 1);
+}
+.g-ImageCarouselPUnit__inner .color-image img {
+  width: calc(100% + 60px);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.g-ImageCarouselPUnit__inner:hover .color-image {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.g-ImageCarouselPUnit__inner:hover .color-image img {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.slick-cloned .carousel-groupbox .g-Image {
+  display: none;
+}
+
+#goldwell {
+  -webkit-animation: example 1s ease-out .1s 1 normal backwards;
+  animation: example 1s ease-out .1s 1 normal backwards;
+}
+
+#kms {
+  -webkit-animation: example 1s ease-out 1s 1 normal backwards;
+  animation: example 1s ease-out 1s 1 normal backwards;
+}
+
+#orbie {
+  -webkit-animation: example 1s ease-out 2s 1 normal backwards;
+  animation: example 1s ease-out 2s 1 normal backwards;
+}
+
+.carousel-groupbox {
+  position: relative !important;
+  bottom: 60px;
+  cursor: pointer;
+}
+.carousel-groupbox #orbie-logo,
+.carousel-groupbox #kms-logo,
+.carousel-groupbox #goldwell-logo {
+  opacity: 0;
+  position: absolute !important;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 70%;
+  bottom: 55px;
+  -webkit-animation: fadein 2s ease forwards;
+  animation: fadein 2s ease forwards;
+  animation-delay: 4s;
+}
+
+.grouped {
+  -webkit-animation: fadeInUp 2s ease 0s 1 normal forwards;
+  animation: fadeInUp 2s ease 0s 1 normal forwards;
+}
+
+.g-ButtonUnit__link {
+  width: auto;
+}
+.g-ButtonUnit__link:hover {
+  background-color: #00B48C !important;
+  border: 1px solid #00B48C !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+#enriching-clients {
+  margin-top: 32px;
+  height: 70px;
+}
+
+#shop-online {
+  vertical-align: middle;
+  font-weight: normal;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+#area-BrHeader {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 40px;
+}
+#area-BrHeader .kaosalon-header-wrapper {
+  position: relative;
+  height: 54px;
+  padding: 10px;
+}
+#area-BrHeader .kaosalon-header-wrapper .kaosalon-button-wrapper {
+  position: absolute;
+  right: 82px;
+}
+#area-BrHeader .kaosalon-header-wrapper .kaosalon-button-wrapper #contact-button {
+  min-width: 171px;
+  height: 46px !important;
+}
+#area-BrHeader .kaosalon-header-wrapper .kaosalon-logo-wrapper {
+  position: absolute;
+  max-width: 250px;
+  left: 82px;
+}
+
+.kaosalon-footer {
+  background-color: #ffffff;
+  padding: 0 42px;
+}
+.kaosalon-footer .g-Text {
+  display: inline-block;
+}
+.kaosalon-footer #language {
+  position: relative;
+  cursor: pointer;
+  float: left;
+}
+.kaosalon-footer #language::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 0;
+  background-size: contain;
+  background-image: url("/content/dam/sites/kaousa/www-kaosalondivision-com/icons_svg/Icon_globe.svg");
+}
+.kaosalon-footer #language:hover {
+  color: #00B48C;
+}
+.kaosalon-footer #language:hover::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 0;
+  background-size: contain;
+  background-image: url("/content/dam/sites/kaousa/www-kaosalondivision-com/icons_svg/Icon_globe_green.svg");
+  transition: 0.2s;
+}
+.kaosalon-footer #language:hover::before {
+  display: none;
+}
+.kaosalon-footer #language a {
+  padding-left: 30px;
+  z-index: 1;
+}
+.kaosalon-footer #footer-list {
+  display: -webkit-inline-box;
+  float: right;
+}
+.kaosalon-footer #footer-list .g-ListP__ul__item {
+  display: inline;
+  font-weight: normal;
+  padding: 0 15px;
+}
+.kaosalon-footer #footer-list .g-ListP__ul__item:last-child {
+  padding-right: 0;
+}
+
+.g-BrFooter__sitemapBlock {
+  display: none;
+}
+
+/* Pop-up*/
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 5;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #0000008f;
+  background-color: rgba(0, 0, 0, 0.56078);
+  overflow-y: scroll;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.modal .g-HeadingTitle {
+  background-color: #ffffff;
+  margin-bottom: 0;
+  width: 685px;
+  margin: auto;
+  padding: 40px;
+  box-sizing: border-box;
+  transform-origin: bottom;
+  display: inline-block;
+  -webkit-transform: translateY(50%);
+  -webkit-transition: 0.2s;
+  transform: translateY(50%);
+  transition: 0.2s;
+}
+.modal .g-TextLinkP {
+  background-color: #ffffff;
+  margin: auto;
+  padding-top: 40px;
+}
+.modal.slide {
+  transition: 0.2s;
+}
+.modal.slide .g-HeadingTitle {
+  -webkit-transform: translateY(0%);
+  -webkit-transition: 1s;
+  -webkit-transform-origin: bottom;
+  transform: translateY(0%);
+  transition: 1s;
+  transform-origin: bottom;
+}
+.modal .sub-country {
+  padding-top: 0;
+  display: none;
+}
+.modal .close-button {
+  width: 34px;
+  height: 34px;
+}
+.modal .close-button:hover {
+  cursor: pointer;
+}
+.modal .close-button:hover img {
+  opacity: 0;
+}
+
+#country-group-box {
+  background-image: url("/content/dam/sites/kaousa/www-kaosalondivision-com/backgroundimages/kaosalondivision_home_backgroundimage3_desktop_2019@2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#country-group-box ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -12px;
+  text-align: left;
+}
+#country-group-box ul li {
+  color: #63666a;
+  font-size: 18px;
+  box-sizing: border-box;
+  display: block;
+  padding: 12px;
+  text-align: left;
+  width: 33%;
+}
+
+/*contact-form*/
+#contact-group-box .g-HeadingTitle__titleBlock {
+  margin-bottom: 20px;
+}
+#contact-group-box .thanks,
+#contact-group-box .sorry {
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+}
+#contact-group-box .thanks .g-Image,
+#contact-group-box .sorry .g-Image {
+  bottom: 25px;
+}
+#contact-group-box .form {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: 100%;
+}
+#contact-group-box .form #fullWidth {
+  min-width: 100%;
+}
+#contact-group-box .error {
+  color: #E7354C;
+  float: right;
+  margin-top: 0;
+  width: 100%;
+  position: absolute;
+  line-height: 24px;
+  right: 0;
+  bottom: -24px;
+}
+#contact-group-box #emailAddress_rightcol .error {
+  font-size: 11px;
+}
+#contact-group-box .selectDropDown .error {
+  left: 20px !important;
+  right: auto;
+  width: calc(100% - 20px);
+  font-size: 13px;
+  line-height: 24px;
+}
+
+#error-message {
+  display: none;
+}
+
+#contactUsForm_countryPreference-error {
+  position: absolute;
+}
+
+.g-GroupBox .form_row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 24px;
+}
+
+.form_row {
+  width: 50%;
+  float: left;
+  display: block;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.form_row .form_leftcolmark {
+  display: none !important;
+}
+.form_row label {
+  float: left;
+  width: 100%;
+  color: #555656;
+  font-size: 12px;
+  line-height: 20px;
+}
+.form_row #phoneNumber_rightcol {
+  padding-bottom: 10px;
+}
+.form_row .form_rightcol {
+  float: left;
+  width: 100%;
+  padding-bottom: 24px;
+}
+.form_row .form_rightcol input,
+.form_row .form_rightcol textarea {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 20px;
+  padding: 10px 20px;
+  border: 1px solid #63666A;
+  transition: 0.2s;
+  outline: none;
+  color: #555656;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.form_row .form_rightcol input[type='submit'] {
+  float: right !important;
+  min-width: 108px !important;
+  width: auto;
+  background-color: #00B48C;
+  color: #ffffff;
+  border: none;
+  transition: 0.2s;
+}
+.form_row .form_rightcol input[type='submit']:hover {
+  background-color: #00B48C;
+  transition: 0.2s;
+}
+.form_row .form_rightcol select {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 20px;
+  padding: 10px 20px;
+  border: 1px solid #63666A;
+  transition: 0.2s;
+  outline: none;
+}
+.form_row .form_rightcol .form_rightcol_wrapper {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.form_row .form_rightcol .form_rightcol_wrapper .error-cotnainer {
+  position: absolute;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  top: 0;
+}
+.form_row .form_rightcol .form_rightcol_wrapper .error-cotnainer.has-error-icon {
+  background-image: url("/content/dam/sites/kaousa/www-kaosalondivision-com/icons_svg/Icon_close_red.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 19px;
+  right: 10px;
+  cursor: pointer;
+}
+.form_row .form_rightcol .form_rightcol_wrapper .error-cotnainer.has-no-error-icon {
+  background-color: transparent;
+}
+.form_row.messageBox {
+  width: 100%;
+}
+.form_row.has-success {
+  color: #63666A;
+}
+.form_row.has-success input {
+  border-color: #63666A;
+}
+.form_row.has-error input,
+.form_row.has-error label,
+.form_row.has-error textarea {
+  border-color: #E7354C;
+  color: #E7354C;
+}
+.form_row:hover input,
+.form_row:hover label,
+.form_row:hover textarea, .form_row:focus input,
+.form_row:focus label,
+.form_row:focus textarea, .form_row:active input,
+.form_row:active label,
+.form_row:active textarea {
+  color: #00B48C;
+  border-color: #00B48C;
+  transition: 0.2s;
+}
+
+#callAllowed {
+  float: right;
+  width: 50%;
+  padding-bottom: 0;
+}
+#callAllowed .form_row {
+  top: 0;
+}
+#callAllowed .g-Text {
+  font-size: 15px;
+}
+
+#tcAgreed-error {
+  float: left !important;
+}
+
+#how-can-we-help {
+  width: 100%;
+}
+
+.group-checkbox {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+.group-checkbox .form_row_description {
+  display: none;
+}
+.group-checkbox .form_row {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 20px !important;
+  height: 20px !important;
+}
+.group-checkbox .form_row:first-child {
+  display: none;
+}
+.group-checkbox .form_row input {
+  width: 20px !important;
+  height: 20px !important;
+  opacity: 0;
+  position: relative;
+  z-index: 9;
+}
+.group-checkbox .form_row .form_rightcol {
+  height: 20px;
+  border: 1px solid #555656;
+  background-color: #ffffff;
+  width: 20px;
+  box-sizing: border-box;
+  padding-bottom: 0;
+}
+.group-checkbox.active-checkbox .form_row .form_rightcol {
+  background-image: url("/content/dam/sites/kaousa/www-kaosalondivision-com/icons_svg/Icon_checkbox.svg");
+  background-color: #00B48C;
+  border-color: #00B48C;
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+.group-checkbox .g-Text {
+  padding-left: 33px;
+}
+
+.contact-required {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  float: left;
+  width: 50%;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+.selectDropDown {
+  width: 50%;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+.selectDropDown > .cmn-richtext {
+  border: 1px solid #63666A;
+  padding: 10px 20px;
+  color: #63666A;
+  position: relative;
+}
+.selectDropDown > .cmn-richtext::before {
+  content: '';
+  background-image: url("/content/dam/sites/kaousa/www-kaosalondivision-com/icons_svg/Icon_dropdown-arrow.svg");
+  width: 12px;
+  height: 5px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 15px;
+  top: calc(50% - 2.5px);
+}
+.selectDropDown .g-ListP {
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  left: 20px;
+  top: 100%;
+  width: calc(100% - 20px);
+  background-color: #ffffff;
+  z-index: 4;
+  max-height: 185px;
+  overflow-y: scroll;
+}
+.selectDropDown .g-ListP ul {
+  padding: 0;
+  margin: 0;
+}
+.selectDropDown .g-ListP ul li {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #63666A;
+  border-top-color: transparent;
+  color: #63666A;
+  transition: 0.2s;
+  padding: 10px 20px;
+}
+.selectDropDown .g-ListP ul li:hover {
+  color: #00B48C;
+  transition: 0.2s;
+}
+
+/*cookie */
+#area-PrivacyNotice .g-PrivacyNotice__modal {
+  padding: 40px 40px 0;
+}
+#area-PrivacyNotice .g-PrivacyNotice__modal .g-HeadingTitle {
+  margin-bottom: 20px;
+}
+#area-PrivacyNotice .g-PrivacyNotice__modal__policyLink ul {
+  display: none;
+}
+
+.green-mark .g-Column__cols {
+  position: relative;
+}
+.green-mark .g-ColumnUnit.show::before {
+  z-index: 15;
+  opacity: 1;
+}
+.green-mark .g-ColumnUnit::before {
+  background-color: #00B48C;
+  content: " ";
+  width: 48px;
+  position: absolute;
+  top: 10px;
+  left: -72px;
+  height: calc(100% - 45px);
+}
+
+.g-ImageCarouselP__nextArrow,
+.g-ImageCarouselP__prevArrow,
+.g-ImageCarouselP__nav__toggle {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none !important;
+}
+.g-ImageCarouselP__nextArrow:before,
+.g-ImageCarouselP__prevArrow:before,
+.g-ImageCarouselP__nav__toggle:before {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+
+.kaosalon-footer #language a,
+.kaosalon-footer #footer-list a {
+  position: relative;
+  color: #63666A;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.kaosalon-footer #language a:hover, .kaosalon-footer #language a:focus, .kaosalon-footer #language a:active,
+.kaosalon-footer #footer-list a:hover,
+.kaosalon-footer #footer-list a:focus,
+.kaosalon-footer #footer-list a:active {
+  text-decoration: none;
+  color: #1db68f;
+  cursor: pointer;
+}
+.kaosalon-footer #language a::after,
+.kaosalon-footer #footer-list a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  background-color: #A1A3A6;
+  width: 0;
+  transition: width 0.4s;
+}
+.kaosalon-footer #language a:hover::after {
+  width: calc(100% - 30px);
+  left: 30px;
+}
+.kaosalon-footer #footer-list a:hover::after {
+  width: 100%;
+}
+
+.text-slideup {
+  -webkit-animation: fadeInUp 2s ease 0s 1 normal forwards;
+  animation: fadeInUp 2s ease 0s 1 normal forwards;
+}
+
+#wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+body.is-authorring {
+  /*header-footer*/
+  /*cotact-form*/
+}
+body.is-authorring #area-BrHeader {
+  background-color: transparent;
+}
+body.is-authorring .scrolltop-sample {
+  opacity: 1 !important;
+  height: auto;
+}
+body.is-authorring .g-ImageCarouselPUnit__inner #goldwell .color-image,
+body.is-authorring .g-ImageCarouselPUnit__inner #kms .color-image,
+body.is-authorring .g-ImageCarouselPUnit__inner #orbie .color-image {
+  position: relative !important;
+  visibility: visible;
+  opacity: 1;
+}
+body.is-authorring .carousel-groupbox {
+  bottom: 0;
+}
+body.is-authorring .carousel-groupbox #orbie-logo,
+body.is-authorring .carousel-groupbox #kms-logo,
+body.is-authorring .carousel-groupbox #goldwell-logo {
+  position: relative !important;
+  width: auto;
+  height: auto;
+  bottom: 0;
+}
+body.is-authorring .modal {
+  position: relative;
+  visibility: visible;
+  padding: 0;
+}
+body.is-authorring .modal .g-HeadingTitle,
+body.is-authorring .modal .g-TextLinkP {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+body.is-authorring .modal .sub-country {
+  padding: 10px;
+  display: block;
+}
+body.is-authorring .kaosalon-button-wrapper .g-ButtonP,
+body.is-authorring .kaosalon-button-wrapper #hamberger {
+  float: none;
+}
+body.is-authorring .kaosalon-footer #footer-list {
+  float: none;
+}
+body.is-authorring #area-PrivacyNotice .g-PrivacyNotice__modal__policyLink ul {
+  display: block;
+}
+body.is-authorring #error-message {
+  display: block;
+}
+body.is-authorring #contact-group-box input[type='submit'] {
+  width: 100% !important;
+}
+body.is-authorring #contact-group-box .form_row {
+  float: none;
+  width: 100%;
+}
+body.is-authorring #contact-group-box .form_row .form_rightcol {
+  float: none;
+}
+body.is-authorring #contact-group-box .form_row .form_rightcol input,
+body.is-authorring #contact-group-box .form_row .form_rightcol textarea,
+body.is-authorring #contact-group-box .form_row .form_rightcol select {
+  float: none !important;
+}
+body.is-authorring #contact-group-box .form_row .form_leftcolmark {
+  display: block !important;
+}
+body.is-authorring #contact-group-box .thanks,
+body.is-authorring #contact-group-box .sorry {
+  display: block !important;
+}
+body.is-authorring #contact-group-box .contact-required {
+  position: initial;
+  width: 100%;
+}
+body.is-authorring #contact-group-box .group-checkbox {
+  float: none;
+}
+body.is-authorring #contact-group-box .group-checkbox .form_row {
+  position: relative;
+  left: 0;
+}
+body.is-authorring .selectDropDown {
+  width: 100%;
+}
+body.is-authorring .selectDropDown .g-ListP {
+  position: relative !important;
+  top: 0 !important;
+  display: block !important;
+}
+
+/*large-screen*/
+/*tablet*/
+@media (max-width: 1024px) and (min-width: 641px) {
+  #wrapper {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  #common_section_wrapper_1 .g-Section__inner {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  #landingpage-title {
+    margin-bottom: 40px;
+  }
+  #landingpage-title h1 {
+    font-weight: normal;
+  }
+
+  #area-BrHeader {
+    top: 26px;
+  }
+  #area-BrHeader .kaosalon-header-wrapper .kaosalon-logo-wrapper {
+    max-width: 120px;
+    left: 69px;
+  }
+  #area-BrHeader .kaosalon-header-wrapper .kaosalon-button-wrapper {
+    right: 70px;
+  }
+  #area-BrHeader .kaosalon-header-wrapper .kaosalon-button-wrapper #contact-button {
+    min-width: 138px;
+    height: 40px !important;
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .carousel-groupbox #orbie-logo,
+  .carousel-groupbox #kms-logo,
+  .carousel-groupbox #goldwell-logo {
+    bottom: 40px;
+    width: 60%;
+  }
+
+  .green-mark .g-ColumnUnit::before {
+    width: 36px;
+    left: -59px;
+    height: 87%;
+  }
+
+  #shop-online {
+    font-weight: normal;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+
+  #area-BrFooter .g-BrFooter__inner {
+    padding: 40px 0;
+  }
+  #area-BrFooter .kaosalon-footer {
+    padding: 0 69px;
+  }
+  #area-BrFooter .kaosalon-footer #language {
+    display: inline-block;
+    float: left;
+  }
+  #area-BrFooter .kaosalon-footer #language::before, #area-BrFooter .kaosalon-footer #language::after {
+    top: 0;
+  }
+  #area-BrFooter .kaosalon-footer #footer-list {
+    text-align: right;
+    display: inline-block;
+    float: right;
+  }
+  #area-BrFooter .kaosalon-footer #footer-list .g-ListP__ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  #imprint-image {
+    padding-left: 0;
+  }
+
+  .modal .g-HeadingTitle {
+    width: 611px;
+    padding: 35px;
+  }
+  .modal .close-button {
+    width: 28px;
+    height: 28px;
+  }
+  .modal .g-TextLinkP {
+    padding-top: 20px;
+  }
+
+  #contact-group-box .form_row,
+  #contact-group-box .selectDropDown {
+    font-size: 18px;
+  }
+  #contact-group-box .form_row input[type='submit'],
+  #contact-group-box .selectDropDown input[type='submit'] {
+    min-width: 96px !important;
+  }
+  #contact-group-box .selectDropDown .g-ListP {
+    max-height: 195px;
+  }
+
+  #country-group-box ul li {
+    font-size: 18px;
+    line-height: 55px !important;
+  }
+}
+/*mobile*/
+@media (max-width: 640px) {
+  #wrapper {
+    max-width: 640px;
+    margin: auto;
+  }
+
+  #area-BrHeader {
+    top: 16px;
+  }
+  #area-BrHeader .kaosalon-header-wrapper {
+    height: 38px;
+  }
+  #area-BrHeader .kaosalon-header-wrapper .kaosalon-logo-wrapper {
+    max-width: 70px;
+    left: 28px;
+  }
+  #area-BrHeader .kaosalon-header-wrapper .kaosalon-button-wrapper {
+    right: 28px;
+    top: 5px;
+  }
+  #area-BrHeader .kaosalon-header-wrapper .kaosalon-button-wrapper #contact-button {
+    min-width: 96px;
+    height: 30px !important;
+    padding: 0px;
+    font-size: 10px;
+  }
+
+  .green-mark .g-ColumnUnit::before {
+    width: 16px;
+    left: -18px;
+    height: calc(100% - 97px);
+  }
+
+  #landingpage-title {
+    margin-bottom: 14px;
+  }
+
+  .carousel-groupbox #orbie-logo,
+  .carousel-groupbox #kms-logo,
+  .carousel-groupbox #goldwell-logo {
+    bottom: 20px;
+    width: 50%;
+  }
+
+  #if-you-are-partner {
+    font-size: 10px;
+  }
+
+  #shop-online {
+    height: 30px !important;
+    color: #ffffff;
+    font-family: HelveticaNeueLTW1G-Roman, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 12px;
+  }
+
+  #enriching-clients {
+    margin-top: 20px;
+    height: 65px;
+  }
+
+  #imprint-image {
+    padding-left: 0;
+  }
+
+  #area-BrFooter .kaosalon-footer {
+    background-color: #ffffff;
+    height: 47px;
+    line-height: 20px;
+    padding: 0 28px;
+  }
+  #area-BrFooter .kaosalon-footer #language {
+    display: block;
+    font-size: 9px;
+    width: 100%;
+  }
+  #area-BrFooter .kaosalon-footer #language::before, #area-BrFooter .kaosalon-footer #language::after {
+    width: 13px;
+    height: 13px;
+    top: calc(50% - 7px);
+  }
+  #area-BrFooter .kaosalon-footer #language a {
+    padding-left: 15px;
+  }
+  #area-BrFooter .kaosalon-footer #footer-list {
+    padding-top: 0;
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  #area-BrFooter .kaosalon-footer #footer-list .g-ListP__ul {
+    padding: 0;
+  }
+  #area-BrFooter .kaosalon-footer #footer-list .g-ListP__ul .g-ListP__ul__item {
+    display: inline;
+    padding: 0 5px;
+  }
+
+  #img-sustainability {
+    margin-top: 30px;
+  }
+
+  .modal .country-group-box.g-HeadingTitle {
+    width: 85%;
+    padding: 20px;
+  }
+  .modal .contact-group-box.g-HeadingTitle {
+    width: 100%;
+    padding: 20px;
+    top: 0 !important;
+  }
+  .modal .close-button {
+    width: 16px;
+    height: 16px;
+  }
+  .modal .g-TextLinkP {
+    padding-top: 17px;
+  }
+
+  #country-group-box ul li {
+    font-size: 12px;
+    line-height: 20px !important;
+    width: 50%;
+  }
+
+  #contact-group-box .form_row,
+  #contact-group-box .selectDropDown {
+    width: 100% !important;
+    box-sizing: content-box;
+    font-size: 12px;
+  }
+  #contact-group-box .form_row .form_rightcol,
+  #contact-group-box .selectDropDown .form_rightcol {
+    padding-bottom: 24px;
+  }
+  #contact-group-box .form_row input[type='submit'],
+  #contact-group-box .selectDropDown input[type='submit'] {
+    min-width: 100% !important;
+  }
+  #contact-group-box .contact-required {
+    top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  #contact-group-box #callAllowed {
+    width: 100%;
+  }
+
+  /*cookie */
+  #area-PrivacyNotice .g-PrivacyNotice__modal {
+    padding: 14px 28px 0;
+  }
+  #area-PrivacyNotice .g-PrivacyNotice__modal .g-HeadingTitle {
+    margin-bottom: 10px;
+  }
+  #area-PrivacyNotice .g-PrivacyNotice__modal__policyLink ul {
+    display: none;
+  }
+}
+body {
+  font-family: HelveticaNeueLTW1G-Roman, Helvetica, Arial, sans-serif !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: HelveticaNeueLTW1G-Lt, Helvetica, Arial, sans-serif !important;
+}

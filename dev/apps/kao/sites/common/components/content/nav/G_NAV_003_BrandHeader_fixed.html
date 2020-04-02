@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>N020: Brand Header (fixed)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- css -->
+<link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/kao-header-footer.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/brand-header-footer.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/site-navigation.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+<!-- / css -->
+<!-- debug css -->
+<link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+<!-- / debug css -->
+
+<!-- script -->
+<script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+<script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+<script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+<script src="/etc/clientlibs/common/component/js/slick.js"></script>
+<script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+<script src="/etc/clientlibs/common/component/js/component.js"></script>
+<script src="/etc/clientlibs/common/component/js/kao-header-footer.js"></script>
+<script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+<!-- / script -->
+<!-- debug script -->
+<script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+<script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+<!--
+<script src="/etc/clientlibs/common/authoring/js/component-authoring.js"></script>-->
+<!-- debug script -->
+</head>
+<body>
+
+<div id="menu">
+  <div class="js-menuHolder">
+    <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+  </div>
+</div>
+
+
+<div id="wrapper">
+
+<!-- area-BrHeader -->
+<div class="g-Area" id="area-BrHeader">
+  <div class="g-BrHeaderPlaceholder l-BrHeaderPlaceholder">
+    <div class="g-BrHeader l-BrHeader" data-fixed-lg="true" data-fixed-md="true" data-fixed-sm="true">
+      <div class="g-BrHeaderCommon l-BrHeaderCommon">
+        <div class="g-BrHeaderCommon__logoBlock l-BrHeaderCommon__logoBlock is-lg-center is-lg-middle">
+          <div class="g-BrHeaderLogo l-BrHeaderLogo opt-lg-w100p opt-md-w100p opt-sm-w100p">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--LinkOnlyImage"></div>
+            <!-- / G_CON_004: Image Item -->
+          </div>
+        </div>
+        <div class="g-BrHeaderCommon__navBlock l-BrHeaderCommon__navBlock">
+          <div class="g-BrHeaderNav__buttonBlock l-BrHeaderNav__buttonBlock"><a href="#">MENU<span class="cmn-icon cmn-icon--down g-BrHeaderNavButton__icon l-BrHeaderNavButton__icon"></span></a></div>
+          <div class="g-BrHeaderNav__listBlock l-BrHeaderNav__listBlock">
+            <ul class="g-BrHeaderNavList l-BrHeaderNavList js-uniformHeight" data-uniform-target="g-BrHeaderNavListLink">
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1 is-active"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-1"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目1ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-2"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目2ラベルああああああ<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-3"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目3ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a class="g-BrHeaderNavListLink l-BrHeaderNavListLink" href="#1-4"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">リンク項目4ラベル<span class="cmn-icon cmn-icon--bullet g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><span class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">非リンク項目ラベル</span></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- / area-BrHeader -->
+
+
+<!-- contentsWrapper -->
+<div id="contentsWrapper" class="contentsWrapper">
+
+  <!-- area-Contents -->
+  <div class="g-Area" id="area-Contents">
+
+    <div class="parsys">
+
+      <!-- Section -->
+      <div class="g-Section is-marginReset">
+        <div class="g-Section__inner">
+          Section (marginReset)
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">ColumnUnit<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+
+    </div>
+
+  </div>
+  <!-- / area-Contents -->
+
+</div>
+<!-- / contentsWrapper -->
+
+
+<!-- area-PageTop -->
+<div class="g-Area" id="area-PageTop">
+  <div class="g-PageTop l-PageTop">
+    <a class="g-PageTop__link l-PageTop__link" href="#wrapper">ページ先頭へ戻る<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+  </div>
+</div>
+<!-- / area-PageTop -->
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

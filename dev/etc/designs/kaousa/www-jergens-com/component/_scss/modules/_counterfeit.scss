@@ -1,0 +1,86 @@
+//PROTECTION AGAINST COUNTERFIET CSS
+.article-section{    
+    @include section-max-width;
+    background-color:#fff; 
+    
+    .g-Column__cols{
+        @media (min-width:641px){
+            padding-top: 0 !important;
+        }
+    }
+    
+    .heading-light{
+        margin-bottom: 0;
+        font-family: "PT Sans Narrow";
+        font-size: 18px;
+    }
+    
+  
+
+.article-column{
+        position: relative;
+} 
+
+.text-on-image{
+    .g-Image__img{
+         max-height: 220px;
+        overflow: hidden;
+    }
+    
+    
+}
+
+.counterfeit-header{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-family: "PT Sans Narrow";
+    line-height: 1;
+    
+    h1{
+        @media (max-width:$breakpoint_sm){
+        font-size:24px !important;
+    }
+    }
+}
+    
+    ul{
+        padding-left: 20px;
+    }
+
+.article-column2{
+        padding: 20px;
+    background-color: #fff;
+    
+    .updated{
+        font-size: 16px;
+    }
+    
+    .article-centered-image{
+        img{
+            margin: 0 auto;
+        }
+    }
+    
+    .article-text{
+          
+                font-size: 16px;
+           
+    
+    }
+    
+    .article-heading{
+        text-align: center;
+    margin: 20px 0;
+        
+                @media (max-width:$breakpoint_sm){
+            h3{
+                font-size: 14px !important;
+            }
+        }
+        
+    }
+}
+      }
+
+

@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/* voice01 ============================== */
+$color_voice01_highlight: #e528b6;
+
+.ip-voice01__section--main {
+  margin: 0;
+  .l-Image {
+    margin-bottom: 0;
+  }
+}
+
+.ip-voice01__section--member {
+  margin-top: 70px;
+  @include bp(sm) {
+    margin-top: 30px;
+  }
+  .ip-voice01__section--member__title {
+    width: 320px;
+    margin: 0 auto 16px;
+    @include bp(sm) {
+      width: 250px;
+    }
+  }
+  .ip-voice01__section--member__clmnlist {
+    .l-ImageTextVP {
+      .l-ImageTextVP__contentsBlock__image {
+        width: 80%;
+        @include bp(sm) {
+          width: 30%;
+        }
+      }
+      .l-ImageTextVP__contentsBlock__text {
+        .l-HeadingTitle {
+          margin-bottom: 4px;
+          .cmn-richtext {
+            font-size: 18px;
+            color: $color_voice01_highlight;
+            @include bp(sm) {
+              font-size: 16px;
+              width: 30%;
+            }
+          }
+        }
+        .l-Text {
+          .cmn-richtext {
+            font-size: 14px;
+            @include bp(sm) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ip-voice01__section--severity {
+  margin-bottom: 30px;
+  @include bp(sm) {
+    margin-bottom: 0;
+  }
+  .ip-voice01__section--severity__clmn {
+    padding: 40px 0;
+    @include bp(sm) {
+      padding: 40px 0 30px;
+    }
+  }
+  .ip-voice01__section--severity__title {
+    margin-bottom: 40px;
+    @include bp(sm) {
+      margin-bottom: 30px;
+    }
+    .l-HeadingTitle__titleBlock__titleBox__title {
+      width: 402px;
+      @include bp(sm) {
+        width: 195px;
+      }
+      .l-Image {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .ip-voice01__section--severity__image {
+    margin-bottom: 0;
+  }
+}
+
+.ip-voice01__section--talking {
+  margin-bottom: 30px;
+  @include bp(sm) {
+    margin-bottom: 12px;
+  }
+  .ip-voice01__section--talking__title {
+    .l-HeadingTitle {
+      margin-bottom: 32px;
+      @include bp(sm) {
+        margin-bottom: 22px;
+      }
+    }
+  }
+  .ip-voice01__section--talking__talk {
+    margin-bottom: 10px;
+    @include bp(sm) {
+      padding: 0 14px;
+    }
+    .l-ImageTextHP {
+      margin-bottom: 22px;
+      @include bp(sm) {
+        margin-bottom: 12px;
+      }
+      .l-ImageTextHP__contentsBlock__image {
+        .l-Image {
+          width: 90%;
+          margin: 0 auto;
+        }
+      }
+      .l-ImageTextHP__contentsBlock__text {
+        box-sizing: border-box;
+        padding: 24px 26px;
+        background-color: #fef4fb;
+        width: 80%;
+        @include bp(sm) {
+          padding: 12px 13px;
+        }
+        .is-layoutL & {
+          float: left;
+        }
+        .is-layoutR & {
+          float: right;
+        }
+        .l-Text {
+          margin-bottom: 0;
+        }
+        strong {
+          color: $color_voice01_highlight;
+        }
+      }
+      &.is-layoutL {
+        .l-ImageTextHP__contentsBlock__text {
+          float: left;
+        }
+      }
+      &.is-layoutR {
+        .l-ImageTextHP__contentsBlock__text {
+          float: right;
+        }
+      }
+    }
+  }
+  .ip-voice01__section--talking__image {
+    margin: 0 auto;
+    width: 80%;
+    @include bp(sm) {
+      padding: 0 14px;
+      width: 100%;
+    }
+  }
+}
+
+.ip-voice01__section--cheer {
+}
+
+.ip-voice01__section--monitor {
+  margin-bottom: 120px;
+  @include bp(sm) {
+    margin-bottom: 75px;
+  }
+}

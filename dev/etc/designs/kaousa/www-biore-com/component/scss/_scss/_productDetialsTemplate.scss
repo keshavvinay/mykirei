@@ -1,0 +1,534 @@
+.g-ProductDetailWrapper {
+    #area-Contents {
+        background-color: transparent;
+        overflow: visible;
+    }
+}
+
+.g-ProductDetailTemplate {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    @media(max-width:$break-md) {
+        margin-top: 20px;
+    }
+
+    @media(max-width:$break-sm) {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .g-ProductDetail__inner {
+        margin-left: -50px;
+        margin-right: -50px;
+
+        @media(max-width:$break-md) {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        @media(max-width:$break-sm) {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        @media(min-width:641px) and (max-width: $break-md) {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .g-ProductDetailUnit {
+        padding: 0 50px;
+
+        @media(max-width:$break-md) {
+            padding: 0 15px;
+            width: auto;
+            margin-bottom: 20px;
+        }
+
+        /*  @media(max-width:$break-md){
+        width: 100%;
+        padding: 0;
+    }*/
+    }
+
+    .g-ProductDetailUnit__inner {
+        padding: 0;
+
+        .g-ProductDetailImage {
+            .g-ProductImageCarouselPUnit__inner {
+                .g-ImageTextHP {
+                    padding: 30px;
+
+                    .g-ImageTextHP__contentsBlock {
+                        max-width: 400px;
+                        margin: 0 auto;
+
+                        .g-ImageTextHP__contentsBlock__text {
+                            display: table;
+                            height: 60px;
+
+                            .g-Text {
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+                        }
+
+                        .g-ImageTextHP__contentsBlock__image {
+                            img {
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .g-PageTitle__titleBlock__titleBox .g-Text {
+        font-size: 25px;
+        font-family: $archer-semibold;
+        color: $gray-dark;
+    }
+
+    .g-PageTitle__h1 {
+        font-size: 25px;
+        color: #fff;
+        letter-spacing: 1px;
+        padding: 0.625rem 2px;
+
+        sup {
+            top: -15px;
+        }
+    }
+
+    .l-PageTitle {
+        margin-bottom: 0;
+        border: 0;
+    }
+
+    .g-ProductDescription {
+        .g-Text {
+            background-size: auto;
+            background-position: 50% 0;
+            padding: 0;
+            background-repeat: repeat;
+            font-family: $archer-bold;
+            font-size: 16px;
+
+            p.cmn-richtext {
+                display: inline-block;
+                background-color: #fff;
+                margin: 3px 0;
+                padding: 5px 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .g-ProductDetailRating {
+        padding: 10px 0;
+    }
+
+    .g-ProductSocial {
+        display: flex;
+        padding: 10px 0;
+        width: 100%;
+
+        .g-ProductSocialShare,
+        .g-ProductLike {
+            padding-right: 15px;
+        }
+
+        li.shariff-button {
+            margin-bottom: 0;
+        }
+
+        .facebook-like-button iframe {
+            height: 25px;
+        }
+
+        .g-ProductLike {
+            position: relative;
+            top: 5px;
+        }
+    }
+
+    .g-WhereToBuy {
+        padding: 10px 0;
+        float: left !important;
+        margin: 0 .75em 8px 0 !important;
+
+
+        .ps-widget {
+            float: none;
+        }
+
+        .ps-disabled {
+            display: none !important;
+        }
+    }
+}
+
+.product-detail-info {
+    &.g-Section {
+        overflow: visible;
+    }
+
+    .g-Column__inner {
+        @media(max-width: $break-md) {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
+    .g-Column.is-gutter--m .g-Column__inner {
+        margin-left: -50px;
+        margin-right: -50px;
+
+        @media(max-width: $break-md) {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        @media(max-width: $break-md) {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+
+    .g-Column.is-gutter--m .g-Column__cols {
+        padding: 0 50px;
+
+        @media(max-width: $break-md) {
+            padding: 0 15px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .g-AccordionMenu {
+        @media (max-width:$break-md) {
+            margin-top: 0 !important;
+        }
+
+        h4.g-HeadingTitle__h4 {
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+
+    .g-RelatedContent:hover {
+        a {
+            color: $primary-light-color;
+        }
+    }
+
+    .g-RelatedContent__wrapper {
+        .g-RelatedContent__wrapper--inner {
+            .g-RelatedContent {
+                .g-RelatedImage {
+                    min-height: 245px;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                }
+
+                .g-RelatedImage,
+                .g-RelatedPreviewLine__text {
+                    margin-bottom: 10px;
+                }
+
+                .g-RelatedPreviewLine__text {
+                    display: none;
+                }
+            }
+        }
+
+        @media (max-width:$break-sm) {
+            .g-RelatedContent__wrapper--inner {
+                display: block;
+
+                .g-RelatedContent {
+
+                    @media(max-width:$break-sm) {
+                        padding: 40px;
+                    }
+                }
+            }
+        }
+
+        .slick-slider {
+            .slick-prev {
+                left: 0 !important;
+            }
+
+            .slick-next {
+                right: 0;
+            }
+
+            .slick-prev,
+            .slick-next {
+                &:before {
+                    font-size: 30px;
+                    color: #7BAAD7;
+                    opacity: 0.75;
+                }
+
+                z-index: 1;
+            }
+        }
+    }
+
+    .g-RelatedContent__headingWrapper .g-HeadingTitle {
+        margin-bottom: 0;
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            padding: 5px 7px;
+            background-color: $primary-dark-color;
+            color: #fff;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin-bottom: 0;
+        }
+
+    }
+
+    .g-RelatedHeadingTitleBlock--h2 {
+        margin: 0;
+    }
+
+    .g-RelatedHeadingTitleBlock--unit--link {
+        font-size: 0.5rem;
+        color: $primary-dark-color;
+    }
+}
+
+.g-TileLinkVP.related-products {
+
+    width: 50%;
+    margin-left: auto;
+    padding-left: 50px;
+
+    @media(max-width: $break-md) {
+        padding-left: 0;
+    }
+
+    a.g-TileLinkVUnit {
+        padding: 0;
+        position: relative;
+        border: 0;
+    }
+
+    img {
+        max-width: 70px;
+    }
+
+    .g-TileLinkVUnit__leadBlock {
+        display: none;
+        text-align: center;
+        height: auto !important;
+        padding: 5px;
+        background-color: #fef343;
+
+        .g-Text {
+            font-size: 12px;
+        }
+    }
+
+    .g-TileLinkVP__list {
+        @media (max-width:$break-sm) {
+            margin: 0;
+        }
+    }
+
+    .g-TileLinkVP__list__tile {
+        @media (max-width:$break-sm) {
+            max-width: 33.33%;
+        }
+    }
+
+    a.g-TileLinkVUnit {
+        position: relative;
+
+        &:hover,
+        &:focus {
+            .g-TileLinkVUnit__leadBlock {
+                display: block;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+
+    @media (max-width:$break-md) {
+        width: auto;
+    }
+}
+
+//THEME BASED STYLE
+._dontbedirty,
+._charcoalforoilyandnormalskin,
+._charcoalformenforoilytonormalskin {
+    @include biore-product-detail($_dontbedirty, $_dontbedirty-light);
+}
+
+// THEME BASED ARROWS
+.g-RelatedContent {
+    .g-RelatedHeadingTitle--unit {
+        a {
+            background-repeat: no-repeat;
+            background-position-x: right;
+            background-position-y: bottom;
+            padding-right: 18px;
+            min-height: 40px;
+            display: block;
+            text-transform: capitalize;
+        }
+    }
+
+    &._facial_cleansing,
+    &._acnesouttahere {
+        @include biore-product-detail-theme-arrow($_acnesouttahere-arrow);
+    }
+
+    &._breakupwithblackheads,
+    &._porestripsforblackheadremoval,
+    &._porestrips {
+        @include biore-product-detail-theme-arrow($_breakupwithblackheads-arrow);
+    }
+
+    &._dontbedirty,
+    &._charcoalforoilyandnormalskin,
+    &._charcoalformenforoilytonormalskin {
+        @include biore-product-detail-theme-arrow($_dontbedirty-arrow);
+    }
+
+    &._twostepporekits {
+        @include biore-product-detail-theme-arrow($_twostepporekits-arrow);
+    }
+
+    &._justtakeitalloff,
+    &._cleaningmicellarwaters {
+        @include biore-product-detail-theme-arrow($_justtakeitalloff-arrow);
+    }
+
+    &._bakingsodafordryoilycombinationskin {
+        @include biore-product-detail-theme-arrow($_bakingsodafordryoilycombinationskin-arrow);
+    }
+
+    &._witchhazelforspotproneskin {
+        @include biore-product-detail-theme-arrow($_bakingsodafordryoilycombinationskin-arrow);
+    }
+}
+
+// THEME BASED BACKGROUND IMAGE
+._facial_cleansing,
+._acnesouttahere {
+    @include biore-product-detail-background-image($_pale-pink-bg-image);
+    @include header-list($_acnesouttahere);
+}
+
+._dontbedirty,
+._charcoalforoilyandnormalskin,
+._charcoalformenforoilytonormalskin {
+    @include biore-product-detail-background-image($_pale-blue-bg-image);
+    @include header-list($_dontbedirty);
+}
+
+._twostepporekits {
+    @include biore-product-detail-background-image($_pale-pink-bg-image);
+    @include header-list($_twostepporekits);
+}
+
+
+._bakingsodafordryoilycombinationskin {
+    @include biore-product-detail-background-image($_pale-blue-bg-image);
+    @include header-list($_bakingsodafordryoilycombinationskin);
+}
+
+._witchhazelforspotproneskin {
+    @include biore-product-detail-background-image($_pale-blue-bg-image);
+    @include header-list($_witchhazelforspotproneskin);
+}
+
+._breakupwithblackheads,
+._porestripsforblackheadremoval,
+._porestrips {
+    @include header-list($_breakupwithblackheads);
+    @include biore-product-detail-background-image($_pale-pink-bg-image);
+}
+
+._justtakeitalloff,
+._cleaningmicellarwaters {
+    @include header-list($_justtakeitalloff);
+    @include biore-product-detail-background-image($_pale-blue-bg-image);
+}
+
+
+// html:lang(en-gb),
+// html:lang(fr-ca),
+// html:lang(en-ca) {
+//     .product-detail-info {
+//         .g-AccordionMenu {
+//             .review.g-AccordionUnit {
+//                 display: none;
+//             }
+//         }
+//     }
+// }
+
+html:lang(fr-ca),
+html:lang(fr-fr),
+html:lang(de-de) {
+    .g-RelatedContent {
+        .g-RelatedHeadingTitle--unit {
+            a {
+                text-transform: inherit;
+            }
+        }
+    }
+}
+
+html:lang(de-de) {
+    .g-ProductDetailTemplate .g-ProductDescription .g-Text {
+        text-transform: lowercase;
+    }
+}
+
+html:lang(ar-sa) {
+    .g-TileLinkVP.related-products {
+        margin-right: auto;
+        padding-right: 50px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+//BAZAAR VOICE
+
+
+.review {
+    .css-18o1hlj {
+        margin-right: 30%;
+    }
+
+    .css-65q2dg {
+        min-width: inherit;
+
+        .css-1j1td2x {
+            flex-direction: column-reverse
+        }
+    }
+}

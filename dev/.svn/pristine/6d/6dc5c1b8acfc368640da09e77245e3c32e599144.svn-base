@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+@mixin fontSize($size, $base:16) {
+  font-size: $size / $base + rem;
+}

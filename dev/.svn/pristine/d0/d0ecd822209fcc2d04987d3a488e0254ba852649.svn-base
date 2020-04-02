@@ -1,0 +1,45 @@
+@mixin theme-background($theme-color){
+    
+    &.g-ProductListingListUnit .g-ProducOverviewProductLine{
+        background-color: $theme-color;
+    }
+    
+    .g-ImageTextIconItem__content{
+        background-color: $theme-color !important;
+        color: $solid-white;
+        
+        h2,h3,h4,h5,h6,p.g-HeadingTitle__p{
+            color: $solid-white !important;
+//            font-family: "AvenirBold";
+        }
+        
+        .g-ButtonP .g-ButtonP__list .g-ButtonP__list__item .g-ButtonUnit__link{
+            color: $solid-white;
+            border-color: $solid-white;
+            
+            &:hover,&:active{
+                background-color: $solid-white;
+                color: $solid-black;
+            }
+        }
+    }
+    .g-ProductSwiperUnit__content{
+        background-color: $theme-color !important;
+        color: $solid-white;
+        
+        h2,h3,h4,h5,h6,p.g-HeadingTitle__p{
+            color: $solid-white !important;
+//            font-family: $tramcn;
+        }
+        
+        .g-ButtonP .g-ButtonP__list .g-ButtonP__list__item .g-ButtonUnit__link{
+            color: $solid-white;
+            border-color: $solid-white;
+            
+            &:hover,&:active{
+                background-color: $solid-white;
+                color: $solid-black;
+            }
+        }
+    }
+}

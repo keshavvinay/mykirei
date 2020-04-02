@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+
+/* TileLinkHP ================================================== */
+
+
+/* TileLinkHUnit ================================================== */
+.l-TileLinkHUnit {
+  @include areaLink();
+  padding: $TileLinkPack__padding;
+  @if $TileLinkPack__bordered == true {
+    border: 2px solid;
+  }
+  &.is-colorset--1 {
+    background-color: $tileLink__bg;
+    border-color: $tileLink__border;
+    color: $tileLink__text;
+    .l-TileLinkHUnit__icon {
+      color: $tileLink__text;
+    }
+  }
+  &.is-colorset--2 {
+    background-color: $tileLink__bg--reverse;
+    border-color: $tileLink__border--reverse;
+    color: $tileLink__text--reverse;
+    .l-TileLinkHUnit__icon {
+      color: $tileLink__text--reverse;
+    }
+  }
+}
+.l-TileLinkHUnit__imageBlock {
+  .is-layoutL & {
+    padding-right: $TileLinkPack__separator;
+    @include bp(sm) {
+      padding-right: $TileLinkPack__separator--sm;
+    }
+  }
+}
+.l-TileLinkHUnit__leadBlock {
+  .is-layoutR & {
+    padding-right: $TileLinkPack__separator;
+    @include bp(sm) {
+      padding-right: $TileLinkPack__separator--sm;
+    }
+  }
+}

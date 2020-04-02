@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    //Padding give on body to make header fixed
+    padding-top: 93px;
+    font-family: $primary-font;
+    transition: 0.5s ease padding;
+    background-color: $primary;
+    
+    &.shrink{
+        padding-top: 74px;
+    }
+}
+button {
+    outline: none !important;
+} 
+
+a {
+    color: $primary;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+.is-rightIcon {
+    .cmn-richtext {
+        padding-right: 0 !important;
+    }
+}
+.is-leftIcon {
+    .cmn-richtext {
+        padding-left: 0 !important;
+    } 
+}
+.cmn-icon {
+    &::before {
+        display: none !important;
+    }
+}
+
+.g-Breadcrumbs__list__icon.cmn-icon {
+    font-size: 1em;
+    &::before {
+        display: inline !important;
+    }
+}
+
+.g-PageTitle__h1{
+    font-weight: $wt700;
+}
+
+#area-PageTop{
+    display: none !important;
+}

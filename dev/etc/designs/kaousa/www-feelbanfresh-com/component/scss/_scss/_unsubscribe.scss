@@ -1,0 +1,90 @@
+.heading-padding{
+    .g-Section__inner {
+        padding-top: 0 !important;
+    }
+}
+.ban_unsubscription_section {
+	#msg_email {
+		display: inline;
+	}
+	#user_email {
+		display: inline;
+	}  
+	.error_msg { 
+		display: none;
+		color: red;
+	}
+	.loader {
+		display: none;
+		background-size: auto;
+		height: 100px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: #fff;
+		height: 100%;
+		z-index: 10;
+	}
+	.unsubscribe {
+		a {
+			border-color: rgb(0, 0, 0);
+			background-color: rgb(255, 255, 255);
+			color: rgb(0, 0, 0);
+			box-shadow: 0 0;
+			border-radius: 0px;
+			cursor: pointer;
+		}
+	}
+	.ban_unsub_header_image {
+		margin: 0 auto;
+		background-position: left 0 !important;
+		background-size: cover !important;
+		min-height: 200px;
+		padding-top: 20px !important;
+	}
+	//max-width: 985px;
+	margin: 0 auto;
+	#heading-title {
+		font-family: "PT Sans Narrow";
+		font-size: 18px;
+		color: #999999;
+		text-transform: uppercase;
+		line-height: 22px;
+		margin: 0px;
+		margin-top: 50px;
+	}
+	.g-Column__cols {
+		padding: 0 !important;
+	}
+	.ban_unsubscribe_content {
+		background-color: #fff;
+		padding: 12px;
+		min-height: 100px;
+	}
+	.heading {
+		line-height: 1;
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 30px;
+		font-family: "PT Sans Narrow";
+	}
+    .unsubscription_button {
+        border: 2px solid #4d2b6c;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+    }    
+}
+@media only screen and (max-width:640px) {
+	.ban_unsubscription_section {
+		.ban_unsub_header_image {
+			margin: 0 auto;
+			background-position: center 0 !important;
+			background-size: cover !important;
+			min-height: auto;
+			padding-top: 20px !important;
+		}
+	}
+}

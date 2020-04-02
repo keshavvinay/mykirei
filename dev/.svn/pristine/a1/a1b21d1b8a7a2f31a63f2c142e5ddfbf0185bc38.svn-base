@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Icon Font Note</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="noteWrapper">
+      <header class="header header--note">
+        <div class="header__inner">
+          <h1 class="header__title">アイコンファイルの作成方法</h1>
+        </div>
+      </header>
+      <section class="section">
+        <div class="section__note">
+          <h3 class="contentsSection__title">使用ツール</h3>
+          <p>icomoon<br><a href="https://icomoon.io/" target="_blank">https://icomoon.io/</a></p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__note">
+          <h3 class="contentsSection__title">手順</h3>
+          <ol class="flowList">
+            <li class="flowList__item">
+              <span class="flowList__item__text">変更したいアイコンのSVG形式のアイコンデータを作成する</span>
+            </li>
+            <li class="flowList__item">
+              <span class="flowList__item__text">IcoMoon App（<a href="https://icomoon.io/app" target="_blank">https://icomoon.io/app</a>）を開く</span>
+            </li>
+            <li class="flowList__item">
+              <span class="flowList__item__text js-downloadLink">AEMデフォルトで使用しているアイコンのSVGデータをインポート（<a href="/etc/clientlibs/common/component/fonts/icomoon.svg?vlhs1s" target="_blank" download="icomoon.svg">SVGデータのダウンロードはこちら</a>）</span><small class="js-ieNote hide">※リンクを右クリックし「対象をファイルに保存」でダウンロードしてください</small>
+            </li>
+            <li class="flowList__item">
+              <span class="flowList__item__text">作成されたIconのセットに、用意した変更分のSVGデータをインポート</span>
+            </li>
+            <li class="flowList__item">
+              <span class="flowList__item__text">変更分と重複するデフォルトのアイコンを削除</span>
+            </li>
+            <li class="flowList__item">
+              <span class="flowList__item__text">Iconセットのアイコンを全て選択して書き出し（Generate Font）</span>
+            </li>
+            <li class="flowList__item">
+              <span class="flowList__item__text">変更分のアイコンのclassとunicodeを規定のもの（上書きするアイコンにあらかじめ定義されていたもの）に変更</span>
+            </li>
+            <li class="flowList__item">
+              <span class="flowList__item__text">ダウンロード（生成される「.eot」「.svg」「.ttf」「.woff」の<span class="note">4種類のデータをすべて</span>アップロードしてください）</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__note">
+          <h3 class="contentsSection__title">注意点</h3>
+          <ul class="anotationList">
+            <li class="anotationList__item">
+              <spna class="anotationList__item__text">class名とunicodeは変更しないでください。（グリフは割り当てない）</spna>
+            </li>
+            <li class="anotationList__item">
+              <span class="anotationList__item__text">デザイン変更対象だけでなく、アイコンセット一式をエクスポートしてください。</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section__note">
+          <h3 class="contentsSection__title">デフォルトアイコン一覧</h3>
+          <ul class="iconList">
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--pdf"></span></div>
+              <p class="iconList__item__name">PDF</p>
+              <p class="iconList__item__fileName">icon-pdf</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--mail"></span></div>
+              <p class="iconList__item__name">メール</p>
+              <p class="iconList__item__fileName">icon-mail</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--map"></span></div>
+              <p class="iconList__item__name">地図</p>
+              <p class="iconList__item__fileName">icon-map</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--download"></span></div>
+              <p class="iconList__item__name">ファイルダウンロード</p>
+              <p class="iconList__item__fileName">icon-download</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--phone"></span></div>
+              <p class="iconList__item__name">電話（スマートフォン用）</p>
+              <p class="iconList__item__fileName">icon-phone</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--right"></span></div>
+              <p class="iconList__item__name">ページ遷移・右移動</p>
+              <p class="iconList__item__fileName">icon-right</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--left"></span></div>
+              <p class="iconList__item__name">戻る・左移動</p>
+              <p class="iconList__item__fileName">icon-left</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--to_bottom"></span></div>
+              <p class="iconList__item__name">ページ内アンカー（下方向へ）</p>
+              <p class="iconList__item__fileName">icon-to_bottom</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--to_top"></span></div>
+              <p class="iconList__item__name">ページ内アンカー（上方向へ）</p>
+              <p class="iconList__item__fileName">icon-to_top</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--down"></span></div>
+              <p class="iconList__item__name">アコーディオン開く・下移動</p>
+              <p class="iconList__item__fileName">icon-down</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--up"></span></div>
+              <p class="iconList__item__name">アコーディオン閉じる・上移動</p>
+              <p class="iconList__item__fileName">icon-up</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--window"></span></div>
+              <p class="iconList__item__name">新規ウィンドウ（タブ）を開く</p>
+              <p class="iconList__item__fileName">icon-window</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--start"></span></div>
+              <p class="iconList__item__name">再生</p>
+              <p class="iconList__item__fileName">icon-start</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--pause"></span></div>
+              <p class="iconList__item__name">一時停止</p>
+              <p class="iconList__item__fileName">icon-pause</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--stop"></span></div>
+              <p class="iconList__item__name">停止</p>
+              <p class="iconList__item__fileName">icon-stop</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--indicator_off"></span></div>
+              <p class="iconList__item__name">インジゲーター（オフ）</p>
+              <p class="iconList__item__fileName">icon-indicator_off</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--indicator_on"></span></div>
+              <p class="iconList__item__name">インジゲーター（オン）</p>
+              <p class="iconList__item__fileName">icon-indicator_on</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--share"></span></div>
+              <p class="iconList__item__name">シェア</p>
+              <p class="iconList__item__fileName">icon-share</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--comment"></span></div>
+              <p class="iconList__item__name">コメント</p>
+              <p class="iconList__item__fileName">icon-comment</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--thumbs_up"></span></div>
+              <p class="iconList__item__name">いいね！（Facebook）</p>
+              <p class="iconList__item__fileName">icon-thumbs_up</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--reply"></span></div>
+              <p class="iconList__item__name">リプライ</p>
+              <p class="iconList__item__fileName">icon-reply</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--retweet"></span></div>
+              <p class="iconList__item__name">リツイート</p>
+              <p class="iconList__item__fileName">icon-retweet</p>
+            </li>
+            <li class="iconList__item">
+              <div class="iconList__item__image"><span class="cmn-icon cmn-icon--heart"></span></div>
+              <p class="iconList__item__name">いいね！（Twitter・Instagram）</p>
+              <p class="iconList__item__fileName">icon-heart</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/jquery.validate.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

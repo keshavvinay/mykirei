@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*
+ * SOFINA
+ */
+
+.cmn-icon {
+    font-family: 'icomoon';
+    color: $colorIcon_dark;
+    &.cmn-icon--reverse {
+        color: $colorIcon_light;
+    }
+
+    //toshick
+    font-size: .5em;
+}
+
+
+
+//
+// iconmoonのクラスを以下にはっつける
+//
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ii6rbk');
+    src: url('../fonts/icomoon.eot?#iefixii6rbk') format('embedded-opentype'), url('../fonts/icomoon.ttf?ii6rbk') format('truetype'), url('../fonts/icomoon.woff?ii6rbk') format('woff'), url('../fonts/icomoon.svg?ii6rbk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cmn-icon--close:before {
+    content: "\e600";
+}
+
+.cmn-icon--open:before {
+    content: "\e601";
+}
+
+.cmn-icon--left:before {
+    content: "\e602";
+}
+
+.cmn-icon--right:before {
+    content: "\e603";
+}
+
+.cmn-icon--blank:before {
+    content: "\e604";
+}
+
+.cmn-icon--bullet:before {
+    content: "\e605";
+}
+
+.cmn-icon--menu:before {
+    content: "\e606";
+}
+
+.cmn-icon--pagetop:before {
+    content: "\e607";
+}
+
+.cmn-icon--phonecall:before {
+    content: "電話発信";
+    color: $colorGray_9;
+    background-color: $colorIcon_dark;
+    padding: 2px 4px 2px 4px;
+    vertical-align: middle;
+
+    //toshick
+    font-size: 1.7em;
+}
+
+
+
+@font-face {
+    font-family: 'icomoon-common';
+    src: url('../../../../../../clientlibs/common/component/fonts/icomoon.eot?ii6rbk');
+    src: url('../../../../../../clientlibs/common/component/fonts/icomoon.eot?#iefixii6rbk') format('embedded-opentype'), url('../../../../../../clientlibs/common/component/fonts/icomoon.ttf?ii6rbk') format('truetype'), url('../../../../../../clientlibs/common/component/fonts/icomoon.woff?ii6rbk') format('woff'), url('../../../../../../clientlibs/common/component/fonts/icomoon.svg?ii6rbk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+//
+// iconmoonのクラスを以下にはっつける　↑
+//
+
+/*
+  icon-list(リンク用カスタムクラス名)
+ */
+// .cmn-icon--bullet:before {
+//     @extend .cmn-icon--right: before;
+// }
+

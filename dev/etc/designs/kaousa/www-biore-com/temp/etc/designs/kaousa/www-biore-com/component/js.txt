@@ -1,0 +1,4 @@
+#base=js
+jquery.validate.min.js
+component.js
+biore.js

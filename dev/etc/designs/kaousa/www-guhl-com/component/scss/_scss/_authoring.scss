@@ -1,0 +1,85 @@
+body.is-authorring {
+    margin-top:0;
+    overflow-x:visible;
+    .guhl-header {
+        position: static !important;
+        width:90%;
+        height: 300px;
+        transform:translateX(0);
+        margin-bottom:20px;
+        ul {
+            li {
+                overflow: visible;
+                &.header-menu {
+                    ul {
+                        margin:0 !important;
+                        position: relative !important;
+                        -webkit-transform: translateY(0%);
+                        -ms-transform: translateY(0);
+                        transform: translateY(0%);
+                   }   
+                }
+                &.close-menu {
+                    display: inline-block;
+                    ul {
+                        margin:0 !important;
+                        position: relative !important;
+                        -webkit-transform: translateY(0%);
+                        -ms-transform: translateY(0);
+                        transform: translateY(0%);
+                   }   
+                }
+                &.logo {
+                    .g-Image__img  {
+                        position: relative;
+                        -webkit-transform: translateX(0%) translateY(0%) scale(1);
+                        -ms-transform: translateX(0%) translateY(0%) scale(1);
+                        transform: translateX(0%) translateY(0%) scale(1);
+                        left:50% !important;                     
+                    }
+                }
+                &.header-links {
+                    ul {
+                        position: relative;
+                        -webkit-transform: translateY(0%);
+                        -ms-transform: translateY(0%);
+                         transform: translateY(0%);
+                         right:40% !important;
+                    }
+                }
+            }
+        }
+    }
+    .sidenav{
+        opacity: 1;
+        position: relative;
+        overflow:visible;
+        width:340px;
+        .menu-nav1, .menu-nav2, .menu-social-nav,.menu-txt-link {
+            display:block;
+            position: relative;
+        }
+    }
+    .guhl-footer {
+        width: 90%;
+        text-align:right;
+        position: static !important;
+        background: none !important;
+        height:auto;
+        margin-bottom:20px;
+    }
+    .g-PrivacyNotice {
+        position :static;
+        width:100%;
+        margin-bottom:20px;
+        .g-PrivacyNotice__modal  {
+            top:auto;
+            .g-PrivacyNotice__modal__text {
+                display:block;
+            }
+        }
+    }
+    .home-carousel-txt {
+        position: relative;
+    }
+}

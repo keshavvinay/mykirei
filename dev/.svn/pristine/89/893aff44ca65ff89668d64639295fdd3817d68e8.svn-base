@@ -1,0 +1,20 @@
+﻿@charset "utf-8";
+@import "_scss/_KSD_fonts.scss";
+@import "_scss/_variables.scss";
+@import "_scss/_landingPage.scss";
+@import "_scss/_headerFooter.scss";
+@import "_scss/_imprint.scss";
+
+@import "_scss/common.scss";
+@import"_scss/authoring.scss";
+@import "_scss/responsiveScreen.scss";
+
+body {
+    font-family: $primary-font !important
+}
+
+h1,
+h2,
+h3 {
+    font-family: $secondary-font !important;
+}

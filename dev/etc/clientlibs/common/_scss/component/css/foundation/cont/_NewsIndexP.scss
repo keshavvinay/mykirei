@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+/* NewsIndexP ================================================== */
+.g-NewsIndexP {
+}
+.g-NewsIndexP__list__item {
+  border-color: $newsIndex__border;
+}
+
+/* NewsIndexUnit ================================================== */
+.g-NewsIndexUnit {
+  @include fontSize(body);
+  &.is-link {
+    @include link();
+    @include areaLink();
+  }
+}
+.g-NewsIndexUnit__infoBlock__time {
+  @include fontSize(body);
+  color: $newsIndex__text;
+}
+.g-NewsIndexUnit__infoBlock__label {
+  @include fontSize(body);
+}

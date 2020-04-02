@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>foundationGUI</title>
+    <link href="libs/css/normalize.css" rel="stylesheet">
+    <link href="libs/css/spectrum.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <form action="" method="post" id="js-inputForm">
+
+    <header class="header header--foundationGUI">
+      <div class="header__inner">
+
+        <!-- サブデザイン ver. -->
+        <div class="header__title is-sub">
+          <h1 class="header__title__designName">ブランド名</h1>
+          <div class="header__title__subDesignName js-editSubDesignName">
+            <span class="header__title__subDesignName__text">サブデザイン名</span>
+            <input class="header__title__subDesignName__input" type="text" name="sub_design_name" value="サブデザイン名" />
+            <a id="editSubDesignName" class="header__title__subDesignName__edit" href="javascript:void(0);">編集</a>
+          </div>
+        </div>
+        <!-- /サブデザイン ver. -->
+
+        <p class="header__update">last update yyyy.mm.dd</p>
+      </div>
+      <ul class="header__achors">
+        <li class="header__anchors__item">
+          <a href="#marginBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Margin</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#titleBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Title装飾</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#colorsBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Colors</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#fontBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Font</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#radiusBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Border-radius</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#shadowBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Box-shadow</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#lineBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Line (size)</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#linkBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Link (opacity)</a>
+        </li>
+        <li class="header__anchors__item">
+          <a href="#iconBlock" class="header__anchors__item__link js-anchor"><span class="cmn-icon cmn-icon--to_bottom header__anchors__item__link__icon"></span>Icon</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- formArea -->
+    <div class="formArea">
+
+    <!-- （省略） -->
+
+    <footer class="footer">
+      <div class="footer__button">
+        <input type="button" value="保存する" id="js-submit" class="footer__button__save">
+        <span class="footer__error uploadFile__errorMsg__text">入力エラーがあります</span>
+      </div>
+    </footer>
+    <input type="hidden" name="designPath" id="js-designPath" value="dummyPath">
+
+    </div>
+    <!-- / formArea -->
+
+    </form>
+
+    <div class="dialog dialog-success" id="js-showDialog_success">
+      <p class="dialog__inner success">設定を保存しました。</p>
+    </div>
+    <div class="dialog dialog-error" id="js-showDialog_error">
+      <p class="dialog__inner error">エラーが発生しました。時間をあけて再度お試しください。</p>
+      <a href="#" class="close"></a>
+    </div>
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/jquery.validate.js"></script>
+    <script src="libs/js/spectrum.js"></script>
+    <script src="libs/js/jsrender.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/fileUpload.js"></script>
+  </body>
+</html>

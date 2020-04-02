@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+
+/* Global Footer ================================================== */
+.g-GlFooter {
+  color: $globalFooter__text;
+  background-color: $globalFooter__bg;
+  border-color: $globalFooter__separateBorder--top;
+}
+
+// FooterTop
+.g-GlFooterTop {
+  line-height: $lineHeight_globalFooter;
+  font-size: $fontSize_globalFooter;
+  font-family: $fontFamily_globalHeader;
+  letter-spacing: $letterSpacing_globalFooter;
+}
+
+.g-footerLinks {
+  a {
+    color: $globalFooter__link;
+  }
+
+  // media query
+  @include bp(sm) {
+    li {
+      border-color: $globalFooter__accordion__border;
+    }
+  }
+  @include bp(md) {
+    li {
+      border-color: $globalFooter__accordion__border;
+      &:nth-child(odd) {
+        border-right-color: $globalFooter__accordion__border;
+      }
+    }
+  }
+}
+
+
+// FooterBottom
+// (copyright, logo)
+.g-GlFooterBottom {
+  border-color: $globalFooter__border;
+  line-height: $lineHeight_globalFooter;
+  font-size: $fontSize_globalFooter;
+  font-family: $fontFamily_globalHeader;
+  letter-spacing: $letterSpacing_globalFooter;
+}
+
+.g-GlFooterBottom__copyright {
+  color: $globalFooter__text;
+  font-size: $fontSize_globalFooter_copyright;
+}
+.g-GlFooterBottom__logo {
+  color: $globalFooter__logo;
+}

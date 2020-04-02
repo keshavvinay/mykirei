@@ -1,0 +1,588 @@
+## redirection for www.jergens.com au
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/about-us.aspx$ https://www.jergens.com/en-au/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/contact-us.aspx$ https://www.jergens.com/en-au/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/default.aspx$ https://www.jergens.com/en-au/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/hydralucence.aspx$ https://www.jergens.com/en-au/hydralucence/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/legal/$ https://www.jergens.com/en-au/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/privacy/$ https://www.jergens.com/en-au/privacy/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/default.aspx$ https://www.jergens.com/en-au/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/crema/en-US/deep-conditioning-oatmeal.aspx$ https://www.jergens.com/en-au/products/crema/deep-conditioning-shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/crema/en-US/default.aspx$ https://www.jergens.com/en-au/products/crema/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/crema/en-US/hydrating-coconut-milk.aspx$ https://www.jergens.com/en-au/products/crema/hydrating-coconut-milk/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/bb-body-perfecting-skin-cream.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/bb-body-perfecting-skin-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/shea-beauty-oil.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/shea-beauty-oil/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/shea-butter-deep-conditioning-moisturizer.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/age-defying-multi-vitamin-moisturizer.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/age-defying/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/default.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/faqs-for-bb-body-perfecting-skin-cream.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/perfecting-skin-cream-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/hand-cream.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/hand-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/skin-firming-toning-moisturizer.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/skin-firming/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/soothing-aloe-refreshing-moisturizer.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/soothing-aloe/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/daily-moisturizers/ultra-healing-extra-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-au/products/daily-moisturisers/ultra-healing/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/3-days-to-glow.aspx$ https://www.jergens.com/en-au/products/natural-glow/3-days-to-glow-moisturiser/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/default.aspx$ https://www.jergens.com/en-au/products/natural-glow/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/faqs-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/3-days-to-glow-moisturiser-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/faqs-for-daily-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/daily-moisturiser-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/faqs-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/skin-firming-moisturiser-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/firming-daily-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/skin-firming-moisturiser/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/glow-tips-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/3-days-to-glow-moisturiser-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/glow-tips-for-daily-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/daily-moisturiser-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/glow-tips-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/skin-firming-moisturiser-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/products/natural-glow/revitalizing-daily-moisturizer.aspx$ https://www.jergens.com/en-au/products/natural-glow/daily-moisturiser/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.au
+RewriteRule ^/sign-up/optin.aspx$ https://www.jergens.com/en-au/sign-up/ [R=301]
+
+## redirection for www.jergens.com me
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/$ https://www.jergens.com/en-sa/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/about-us.aspx$ https://www.jergens.com/en-sa/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/contact-us.aspx$ https://www.jergens.com/en-sa/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/faq/default.aspx$ https://www.jergens.com/en-sa/faq/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/hydralucence.aspx$ https://www.jergens.com/en-sa/hydralucence/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/legal/$ https://www.jergens.com/en-sa/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/privacy/$ https://www.jergens.com/en-sa/privacy/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/advanced-body-collection/bb-body-perfecting-skin-cream.aspx$ https://www.jergens.com/en-sa/products/bb-body/perfecting-skin-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/advanced-body-collection/bright-revival-body-cream.aspx$ https://www.jergens.com/en-sa/products/advanced-body-collection/bright-revival-body-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/advanced-body-collection/bright-revival-hand-cream.aspx$ https://www.jergens.com/en-sa/products/advanced-body-collection/bright-revival-hand-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/advanced-body-collection/default.aspx$ https://www.jergens.com/en-sa/products/advanced-body-collection/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/creams/default.aspx$ https://www.jergens.com/en-sa/products/creams/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/creams/shea-butter.aspx$ https://www.jergens.com/en-sa/products/creams/shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/creams/softening-musk.aspx$ https://www.jergens.com/en-sa/products/creams/softening-musk/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/age-defying-multi-vitamin-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/age-defying/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/daily-moisture-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/daily-moisture/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/default.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/fair-and-soft-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/fair-and-soft/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/hydrating-coconut-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/hydrating-coconut/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/original-scent-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/original-scent/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/overnight-repair-nightly-restoring-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/overnight-repair/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/shea-butter-deep-conditioning-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/skin-firming-toning-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/skin-firming/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/smoothing-oud-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/smoothing-oud/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/softening-musk-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/softening-musk/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/soothing-aloe-refreshing-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/soothing-aloe/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/daily-moisturizers/ultra-healing-extra-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-sa/products/daily-moisturizers/ultra-healing/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/default.aspx$ https://www.jergens.com/en-sa/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/hand-and-foot/default.aspx$ https://www.jergens.com/en-sa/products/hand-and-foot/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/hand-and-foot/foot-cream.aspx$ https://www.jergens.com/en-sa/products/hand-and-foot/foot-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/soaps/anti-bacterial-soap.aspx$ https://www.jergens.com/en-sa/products/soaps/anti-bacterial/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/soaps/default.aspx$ https://www.jergens.com/en-sa/products/soaps/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/soaps/mild-soap.aspx$ https://www.jergens.com/en-sa/products/soaps/mild/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/products/soaps/softening-musk-soap.aspx$ https://www.jergens.com/en-sa/products/soaps/softening-musk/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/en-GB/where-to-buy/default.aspx$ https://www.jergens.com/en-sa/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/$ https://www.jergens.com/ar-sa/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/about-us.aspx$ https://www.jergens.com/ar-sa/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/contact-us.aspx$ https://www.jergens.com/ar-sa/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/faq/default.aspx$ https://www.jergens.com/ar-sa/faq/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/hydralucence.aspx$ https://www.jergens.com/ar-sa/hydralucence/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/legal/$ https://www.jergens.com/ar-sa/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/privacy/$ https://www.jergens.com/ar-sa/privacy/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/advanced-body-collection/bb-body-perfecting-skin-cream.aspx$ https://www.jergens.com/ar-sa/products/bb-body/perfecting-skin-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/advanced-body-collection/bright-revival-body-cream.aspx$ https://www.jergens.com/ar-sa/products/advanced-body-collection/bright-revival-body-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/advanced-body-collection/bright-revival-hand-cream.aspx$ https://www.jergens.com/ar-sa/products/advanced-body-collection/bright-revival-hand-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/advanced-body-collection/default.aspx$ https://www.jergens.com/ar-sa/products/advanced-body-collection/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/creams/default.aspx$ https://www.jergens.com/ar-sa/products/creams/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/creams/shea-butter.aspx$ https://www.jergens.com/ar-sa/products/creams/shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/creams/softening-musk.aspx$ https://www.jergens.com/ar-sa/products/creams/softening-musk/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/age-defying-multi-vitamin-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/age-defying/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/daily-moisture-dry-skin-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/daily-moisture/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/default.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/fair-and-soft-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/fair-and-soft/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/hydrating-coconut-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/hydrating-coconut/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/original-scent-dry-skin-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/original-scent/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/overnight-repair-nightly-restoring-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/overnight-repair/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/shea-butter-deep-conditioning-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/skin-firming-toning-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/skin-firming/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/smoothing-oud-dry-skin-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/smoothing-oud/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/softening-musk-dry-skin-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/softening-musk/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/soothing-aloe-refreshing-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/soothing-aloe/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/daily-moisturizers/ultra-healing-extra-dry-skin-moisturizer.aspx$ https://www.jergens.com/ar-sa/products/daily-moisturizers/ultra-healing/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/default.aspx$ https://www.jergens.com/ar-sa/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/hand-and-foot/default.aspx$ https://www.jergens.com/ar-sa/products/hand-and-foot/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/hand-and-foot/foot-cream.aspx$ https://www.jergens.com/ar-sa/products/hand-and-foot/foot-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/soaps/anti-bacterial-soap.aspx$ https://www.jergens.com/ar-sa/products/soaps/anti-bacterial/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/soaps/default.aspx$ https://www.jergens.com/ar-sa/products/soaps/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/soaps/mild-soap.aspx$ https://www.jergens.com/ar-sa/products/soaps/mild/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/products/soaps/softening-musk-soap.aspx$ https://www.jergens.com/ar-sa/products/soaps/softening-musk/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens-me.com
+RewriteRule ^/ar-SA/where-to-buy/default.aspx$ https://www.jergens.com/ar-sa/where-to-buy/ [R=301]
+
+## redirection for www.jergens.ca ca
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/about-us.aspx$ https://www.jergens.com/fr-ca/a-propos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/contact-us.aspx$ https://www.jergens.com/fr-ca/contactez-nous/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/default.aspx$ https://www.jergens.com/fr-ca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/legal.aspx$ https://www.jergens.com/fr-ca/avis-juridique/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/privacy-policy.aspx$ https://www.jergens.com/fr-ca/confidentialite/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/bb-body/bb-hand-perfecting-hand-cream.aspx$ https://www.jergens.com/fr-ca/produits/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/default.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/fragrance-free.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/hydratant-quotidien-sans-parfum/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/hydrating-coconut-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/noix-de-coco-hydratante/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/original-scent-dry-skin-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/originale/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/shea-butter-deep-conditioning-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/beurre-de-karite/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/shea-beauty-oil.aspx$ https://www.jergens.com/fr-ca/produits/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/soothing-aloe-refreshing-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/aloes-apaisant/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/ultra-healing-extra-dry-skin-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/hydratant-soins-ultra/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/daily-moisturizers/vitamin-e-replenishing-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/hydratants-quotidiens/vitamine-e/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/default.aspx$ https://www.jergens.com/fr-ca/produits/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/3-days-to-glow.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-eclatant-en-3-jours/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/default.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/faqs-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-eclatant-en-3-jours-faq/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/faqs-for-daily-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-quotidien-faq/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/firming-daily-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-raffermissant/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/glow-tips-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-eclatant-en-3-jours-conseils/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/glow-tips-for-daily-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-quotidien-conseils/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/glow-tips-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-raffermissant-conseils/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/instant-sun-sunless-tanning-mousse.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/instant-sun-mousse-autobronzante/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/revitalizing-daily-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/hydratant-nourrissant/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/wet-skin-moisturizers/argan-oil.aspx$ https://www.jergens.com/fr-ca/produits/hydratant-pour-peau-mouillee/huile-argan/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/wet-skin-moisturizers/calming-green-tea.aspx$ https://www.jergens.com/fr-ca/produits/hydratant-pour-peau-mouillee/the-vert/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/wet-skin-moisturizers/default.aspx$ https://www.jergens.com/fr-ca/produits/hydratant-pour-peau-mouillee/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/wet-skin-moisturizers/faqs-for-wet-skin-moisturizers.aspx$ https://www.jergens.com/fr-ca/produits/hydratant-pour-peau-mouillee/hydratant-pour-peau-mouillee-faq/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/wet-skin-moisturizers/refreshing-coconut.aspx$ https://www.jergens.com/fr-ca/produits/hydratant-pour-peau-mouillee/huile-noix-de-coco/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/products/natural-glow/faqs-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/fr-ca/produits/eclat-natural/raffermissant-hydratant-quotidien-faq/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/fr-CA/sign-up/optin.aspx$ https://www.jergens.com/fr-ca/sign-up/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/about-us.aspx$ https://www.jergens.com/en-ca/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/contact-us.aspx$ https://www.jergens.com/en-ca/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/default.aspx$ https://www.jergens.com/en-ca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/legal.aspx$ https://www.jergens.com/en-ca/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/privacy-policy.aspx$ https://www.jergens.com/en-ca/privacy/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/bb-body/bb-hand-perfecting-hand-cream.aspx$ https://www.jergens.com/en-ca/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/default.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/fragrance-free.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/daily-moisture-fragrance-free/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/hydrating-coconut-moisturizer.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/hydrating-coconut/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/original-scent-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/original-scent/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/shea-butter-deep-conditioning-moisturizer.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/shea-beauty-oil.aspx$ https://www.jergens.com/en-ca/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/soothing-aloe-refreshing-moisturizer.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/soothing-aloe/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/ultra-healing-extra-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/ultra-care-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/daily-moisturizers/vitamin-e-replenishing-moisturizer.aspx$ https://www.jergens.com/en-ca/products/daily-moisturizers/vitamin-e/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/default.aspx$ https://www.jergens.com/en-ca/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/3-days-to-glow.aspx$ https://www.jergens.com/en-ca/products/natural-glow/3-days-to-glow-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/default.aspx$ https://www.jergens.com/en-ca/products/natural-glow/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/faqs-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/3-days-to-glow-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/faqs-for-daily-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/daily-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/firming-daily-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/skin-firming-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/glow-tips-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/3-days-to-glow-moisturizer-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/glow-tips-for-daily-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/daily-moisturizer-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/glow-tips-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/skin-firming-moisturizer-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/instant-sun-sunless-tanning-mousse.aspx$ https://www.jergens.com/en-ca/products/natural-glow/instant-sun-sunless-tanning-mousse/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/revitalizing-daily-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/skin-nourish-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/wet-skin-moisturizers/argan-oil.aspx$ https://www.jergens.com/en-ca/products/wet-skin-moisturizers/argan-oil/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/wet-skin-moisturizers/calming-green-tea.aspx$ https://www.jergens.com/en-ca/products/wet-skin-moisturizers/green-tea/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/wet-skin-moisturizers/default.aspx$ https://www.jergens.com/en-ca/products/wet-skin-moisturizers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/wet-skin-moisturizers/faqs-for-wet-skin-moisturizers.aspx$ https://www.jergens.com/en-ca/products/wet-skin-moisturizers/faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/wet-skin-moisturizers/refreshing-coconut.aspx$ https://www.jergens.com/en-ca/products/wet-skin-moisturizers/coconut-oil/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/products/natural-glow/faqs-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/en-ca/products/natural-glow/firming-daily-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.ca
+RewriteRule ^/en-CA/sign-up/optin.aspx$ https://www.jergens.com/en-ca/sign-up/ [R=301]
+
+## redirection for www.jergens.com.mx mx
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/about-us.aspx$ https://www.jergens.com/es-mx/sobre-nosotros/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/contact-us.aspx$ https://www.jergens.com/es-mx/contact-nosotros/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/default.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/wet-skin-moisturizers/default.aspx$ https://www.jergens.com/es-mx/productos/humectante-para-piel-humeda/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/cleansers/default.aspx$ https://www.jergens.com/es-mx/productos/limpiadores/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/wet-skin-moisturizers/faqs-for-wet-skin-moisturizers.aspx$ https://www.jergens.com/es-mx/productos/humectante-para-piel-humeda/humectante-para-piel-humeda-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/bb-body/faqs-for-bb-body-perfecting-skin-cream.aspx$ https://www.jergens.com/es-mx/productos/bb-cuerpo/crema-perfeccionadora-para-la-piel-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/faqs-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-3-days-to-glow-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/faqs-for-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-diario-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/faqs-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-3-days-to-glow-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/faqs-for-protect-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-con-fps-20-natual-glow-y-proteger-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/faqs-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-reafirmante-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/faqs-for-foaming-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-espuma-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/faqs-for-daily-facial-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-facial-con-fps-20-preguntas/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/glow-tips-for-3-days-to-glow-moisturizer.aspx#top$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-3-days-to-glow-consejos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/glow-tips-for-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-diario-consejos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/glow-tips-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-3-days-to-glow-consejos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/glow-tips-for-protect-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-con-fps-20-natual-glow-y-proteger-consejos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/glow-tips-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-reafirmante-consejos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/glow-tips-for-foaming-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-espuma-consejos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/glow-tips-for-daily-facial-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-facial-con-fps-20-consejos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/default.aspx$ https://www.jergens.com/es-mx/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/legal/$ https://www.jergens.com/es-mx/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/default.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/privacy-policy.aspx$ https://www.jergens.com/es-mx/politica-de-privacidad/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/default.aspx$ https://www.jergens.com/es-mx/productos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/nourishing-honey-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/miel-nutriva-para-piel-seca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/shea-butter-deep-conditioning-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/manteca-de-karite-para-piel-extra-seca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/ultra-healing-extra-dry-skin-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/ultra-humectante-para-piel-extra-seca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/original-scent-dry-skin-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/fragancia-original-para-piel-seca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/daily-moisture-dry-skin-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/para-piel-seca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/skin-firming-toning-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/reafirmante-para-piel-normal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/soothing-aloe-refreshing-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/aloe-refrescante-para-piel-normal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/vitamina-e-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/vitamina-e-para-piel-seca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/daily-moisturizers/hydrating-coconut-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/humectacion-diaria/coco-hidratante-para-piel-seca/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/wet-skin-moisturizers/refreshing-coconut.aspx$ https://www.jergens.com/es-mx/productos/humectante-para-piel-humeda/refrescante-aceite-de-coco/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/wet-skin-moisturizers/calming-green-tea.aspx$ https://www.jergens.com/es-mx/productos/humectante-para-piel-humeda/relajante-aceite-de-te-verde/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/wet-skin-moisturizers/nourishing-monoi.aspx$ https://www.jergens.com/es-mx/productos/humectante-para-piel-humeda/nutriente-aceite-de-monoi/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/bb-body/bb-body-perfecting-skin-cream.aspx$ https://www.jergens.com/es-mx/productos/bb-cuerpo/crema-perfeccionadora-para-la-piel/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/instant-sun-sunless-tanning-mousse.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/mousse-bronceador-sin-sol-al-instante/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-diario/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/3-days-to-glow.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-3-days-to-glow/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/protect-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-con-fps-20-natual-glow-y-proteger/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/firming-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-reafirmante/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/foaming-daily-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-espuma/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/natural-glow/daily-facial-moisturizer.aspx$ https://www.jergens.com/es-mx/productos/natural-glow/humectante-facial-con-fps-20/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/cleansers/extra-moisturizing-liquid-hand-wash.aspx$ https://www.jergens.com/es-mx/productos/limpiadores/jabon-liquido-para-manos/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/products/cleansers/mild-soap.aspx$ https://www.jergens.com/es-mx/productos/limpiadores/jabon-mild/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com.mx
+RewriteRule ^/where-to-buy/default.aspx$ https://www.jergens.com/es-mx/donde-comprar/ [R=301]
+
+## redirection for www.jergens.com us
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/about-us.aspx$ https://www.jergens.com/en-us/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/contact-us.aspx$ https://www.jergens.com/en-us/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/counterfeitfacts/$ https://www.jergens.com/en-us/protecting-against-counterfeit-products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/default.aspx$ https://www.jergens.com/en-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/legal/$ https://www.jergens.com/en-us/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/privacy/$ https://www.jergens.com/en-us/privacy-policy/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/bb-body/default.aspx$ https://www.jergens.com/en-us/products/bb-body/perfecting-skin-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/bb-body/bb-body-perfecting-skin-cream.aspx$ https://www.jergens.com/en-us/products/bb-body/perfecting-skin-cream/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/cleansers/default.aspx$ https://www.jergens.com/en-us/products/cleansers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/cleansers/extra-moisturizing-liquid-hand-wash.aspx$ https://www.jergens.com/en-us/products/cleansers/extra-moisturizing-hand-soap/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/cleansers/mild-soap.aspx$ https://www.jergens.com/en-us/products/cleansers/mild-soap/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/crema/en-US/deep-conditioning-oatmeal.aspx$ https://www.jergens.com/en-us/products/crema/deep-conditioning-shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/crema/en-US/default.aspx$ https://www.jergens.com/en-us/products/crema/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/crema/en-US/hydrating-coconut-milk.aspx$ https://www.jergens.com/en-us/products/crema/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/default.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/age-defying-multi-vitamin-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/age-defying/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/argan-oil-infused-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/argan-oil-infused/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/oil-infused-coconut.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/coconut-oil-infused/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/daily-moisture-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/daily-moisture/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/daily-moisture-fragrance-free-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/daily-moisture-fragrance-free/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/hydrating-coconut-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/hydrating-coconut/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/oil-infused-monoi.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/monoi-oil-infused/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/nourishing-honey-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/nourishing-honey/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/original-scent-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/original-scent/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/shea-butter-deep-conditioning-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/shea-butter/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/skin-firming-toning-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/skin-firming/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/soothing-aloe-refreshing-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/soothing-aloe/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/daily-moisturizers/ultra-healing-extra-dry-skin-moisturizer.aspx$ https://www.jergens.com/en-us/products/daily-moisturizers/ultra-healing/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/3-days-to-glow.aspx$ https://www.jergens.com/en-us/products/natural-glow/3-days-to-glow-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/faqs-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/3-days-to-glow-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/default.aspx$ https://www.jergens.com/en-us/products/natural-glow/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/faqs-for-wet-skin-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/wet-skin-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/glow-tips-for-3-days-to-glow-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/3-days-to-glow-moisturizer-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/color-primer-shower-scrub.aspx$ https://www.jergens.com/en-us/products/natural-glow/color-primer-shower-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/revitalizing-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/daily-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/faqs-for-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/daily-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/daily-moisturizer-pumps.aspx$ https://www.jergens.com/en-us/products/natural-glow/daily-moisturizer-pumps/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/glow-tips-for-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/daily-moisturizer-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/daily-facial-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/face-moisturizer-spf-20/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/faqs-for-daily-facial-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/face-moisturizer-spf-20-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/glow-tips-for-daily-facial-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/face-moisturizer-spf-20-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/foaming-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/foam-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/faqs-for-foaming-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/foam-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/glow-tips-for-foaming-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/foam-moisturizer-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/instant-sun-sunless-tanning-mousse.aspx$ https://www.jergens.com/en-us/products/natural-glow/instant-sunless-tanning-mousse/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/tan-extender-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/natural-tan-extender/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/protect-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/protect-moisturizier-spf-20/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/faqs-for-protect-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/protect-moisturizier-spf-20-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/glow-tips-for-protect-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/protect-moisturizier-spf-20-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/firming-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/skin-firming-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/faqs-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/firming-daily-moisturizer-faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/wet-skin-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/wet-skin-moisturizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/wet-skin-moisturizers/argan-oil.aspx$ https://www.jergens.com/en-us/products/natural-glow/argan-oil/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/wet-skin-moisturizers/cherry-oil.aspx$ https://www.jergens.com/en-us/products/natural-glow/cherry-almond-essence/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/wet-skin-moisturizers/calming-green-tea.aspx$ https://www.jergens.com/en-us/products/natural-glow/green-tea-oil/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/wet-skin-moisturizers/default.aspx$ https://www.jergens.com/en-us/products/wet-skin-moisturizers/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/wet-skin-moisturizers/faqs-for-wet-skin-moisturizers.aspx$ https://www.jergens.com/en-us/products/wet-skin-moisturizers/faqs/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/wet-skin-moisturizers/nourishing-monoi.aspx$ https://www.jergens.com/en-us/products/wet-skin-moisturizers/monoi-oil/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/wet-skin-moisturizers/refreshing-coconut.aspx$ https://www.jergens.com/en-us/products/wet-skin-moisturizers/coconut-oil/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/default.aspx$ https://www.jergens.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/products/natural-glow/glow-tips-for-firming-daily-moisturizer.aspx$ https://www.jergens.com/en-us/products/natural-glow/skin-firming-moisturizer-tips/ [R=301]
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/sign-up/optin.aspx$ https://www.jergens.com/en-us/sign-up/ [R=301]
+
+##Redirection Rules for DM-1103
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/patents$ http://www.kaocareers.com/patents/ [R=301]
+
+##Redirection Rules for DM-1328
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/en-us/products/crema/$ https://www.jergens.com/en-us/products/butters/ [R=301]
+
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/en-us/products/crema/hydrating-coconut-milk/$ https://www.jergens.com/en-us/products/butters/hydrating-coconut-milk/ [R=301]
+
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/en-us/products/crema/deep-conditioning-shea-butter/$ https://www.jergens.com/en-us/products/butters/deep-conditioning-shea-butter/ [R=301]
+
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/en-us/products/daily-moisturizers/argan-oil-infused/$ https://www.jergens.com/en-us/products/daily-moisturizers/ [R=301]
+
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/en-us/products/natural-glow/color-primer-shower-scrub/$ https://www.jergens.com/en-us/products/natural-glow/ [R=301]
+
+RewriteCond %{HTTP_HOST} www.jergens.com
+RewriteRule ^/en-us/products/daily-moisturizers/coconut-oil-infused/$ https://www.jergens.com/en-us/products/daily-moisturizers/ [R=301]

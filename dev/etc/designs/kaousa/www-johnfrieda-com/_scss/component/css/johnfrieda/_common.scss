@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* john frieda common */
+
+a {
+  &:focus {
+    outline: none;
+  }
+  * {
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
+#area-Contents {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+#area-PageTop {
+  display: none !important;
+}
+
+body.is-stuck #area-Contents {
+  margin-top: 76px;
+  @include bp(sm) {
+    margin-top: 59px;
+  };
+}
+
+.jf-cta_arrow {
+  .cmn-richtext {
+    &:after {
+      content: "";
+      display: inline-block;
+      width: .6em;
+      height: .6em;
+      border: 2px solid currentColor;
+      border-bottom: 0;
+      border-left: 0;
+      margin-left: .4em;
+      @include rotateZ(45deg);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+  }
+}
+
+[class*="--beachBlondeTheme"] {
+  background-color: $beachBlonde;
+}
+
+[class*="--brilliantBrunetteTheme"] {
+  background-color: $brilliantBrunette;
+}
+
+[class*="--combinedColorTheme"] {
+  background-color: $combinedColor;
+}
+
+[class*="--frizzEaseTheme"] {
+  background-color: $frizzEase;
+}
+
+[class*="--fullRepairTheme"] {
+  background-color: $fullRepair;
+}
+
+[class*="--hiImpactTheme"] {
+  background-color: $hiImpact;
+}
+
+[class*="--jfHairsprayTheme"] {
+  background-color: $jfHairspray;
+}
+
+[class*="--luxuriousVolumeTheme"] {
+  background-color: $luxuriousVolume;
+}
+
+[class*="--radiantRedTheme"] {
+  background-color: $radiantRed;
+}
+
+[class*="--sheerBlondeTheme"] {
+  background-color: $sheerBlonde;
+}
+
+// carousel
+.jf-carousel {
+  .slick-prev:after, .slick-next:after {
+    top: 40%;
+  }
+  .slick-prev:after {
+    border-left-color: #000000;
+    border-bottom-color: #000000;
+    left: 1rem;
+  }
+  .slick-next:after {
+    border-top-color: #000000;
+    border-right-color: #000000;
+    right: 1rem;
+  }
+  .slick-dots {
+    position: relative;
+    text-align: center;
+    button:before {
+      content: "";
+    }
+    button:after {
+      background-color: #000;
+    }
+  }
+  .slick-slide {
+    outline: none;
+  }
+}
+
+// Avoid Font-Weight Bold Style for Tile-Link & h3 Elements; these styles were coming from common component css
+.g-TileLinkHUnit__leadBlock__title {
+   display: inline-block;
+   font-weight: normal;
+}
+
+.g-TileLinkTextUnit__leadBlock__title {
+   display: inline-block;
+   font-weight: normal;
+}
+
+.g-TileLinkVUnit__leadBlock__title {
+   display: inline-block;
+   width: 100%;
+   font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+   font-weight: normal;
+}
+/*To hide loader section in preview mode*/
+.aem-AuthorLayer-Preview{
+  #HomePageLoader_Section {
+    display: none;
+  }
+} 

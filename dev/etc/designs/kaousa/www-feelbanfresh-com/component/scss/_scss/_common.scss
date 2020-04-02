@@ -1,0 +1,425 @@
+.relative {
+    position: relative;
+}
+
+// Home Page 
+
+.homeContentWrapper {
+    .g-Text {
+        font-weight: $wt700;
+    }
+
+    .g-PageTitle {
+        .g-PageTitle__titleBlock__titleBox__title {
+            margin-bottom: 0;
+        }
+
+        .g-PageTitle__h1 {
+            margin-top: 3.5rem;
+            font-weight: $wt400;
+        }
+
+        .g-Text {
+            font-weight: $wt800;
+        }
+    }
+
+    .g-Movie {
+        margin-bottom: 0;
+    }
+
+    .g-Movie__iframe {
+        margin-bottom: 0;
+    }
+
+    .g-Column__cols {
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .icon-arrow-right {
+        &>p {
+            &>span {
+                &::after {
+                    content: '\ea3c';
+                    font-family: icomoon;
+                    color: $unscented;
+                }
+            }
+        }
+    }
+}
+
+
+// Product Overview testing
+.roll-ons-wrapper{
+    .g-TileLinkVUnit__imageBlock img{
+        max-height: 200px;
+        height: auto;
+        width: auto !important;
+  
+    }
+}
+
+// Product Details Page
+.roll-ons-product-wrapper, .invisible-solids-product-wrapper{
+    .g-Section__inner{
+//        @media(max-width:$break-md){
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 1rem;
+//        }
+    }
+}
+ 
+.productNavigation {
+    margin-top: 30px;
+    border-top: 1px solid $productBorder;
+    
+    @media(max-width:$break-md){
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .g-ColumnUnit {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    
+    a.g-TileLinkVUnit img{
+        max-height: 138px;
+        width: auto !important;
+    } 
+
+    .g-TileLinkVUnit__imageBlock {
+        margin-bottom: 5px !important;
+    }
+
+    .g-TileLinkVP ul.g-TileLinkVP__list > li {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        
+        &.active {
+            &::before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-bottom: 8px solid $secondary;
+                position: absolute;
+                left: calc(50% - 5px);
+                bottom: 10px;
+            }
+        }
+    }
+    .g-TileLinkVP ul.g-TileLinkVP__list > li a{
+//        padding: 0;
+        border: none;
+//        
+//        padding-bottom: 10px !important;
+        
+
+        &:hover {
+            .g-TileLinkVUnit__inner {
+                background-color: $hover-gray;
+                transition: 0.2s;
+            }
+        }
+
+        .g-TileLinkVUnit__inner {
+            transition: 0.2s;
+        }
+    }
+
+    .g-Text {
+        font-size: 0.8rem;
+        margin-bottom: 0px !important;
+    }
+}
+
+.productDetailsSection {
+    h1 {
+        font-weight: $wt700;
+    }
+
+    .g-PageTitle .g-Text {
+        font-weight: $wt700;
+    }
+
+    .g-Image__img img {
+        margin-left: auto !important;
+        margin-right: 1rem;
+        width: auto !important;
+        max-height: 400px;
+    }
+    @media (max-width: $break-md) {
+        .g-Image__img img {
+            max-height: 340px;
+        }
+    }
+}
+
+// Price spider
+.ps-widget {
+    background-color: #4d2b6c !important;
+    color: #fff !important;
+    margin-top: 0.625rem !important;
+    text-decoration: none !important;
+    border-color: #4d2b6c !important;
+    transition: 0.2s !important;
+}
+.ps-widget span {
+    border-bottom: none !important;
+}
+.ps-widget:hover {
+    background-color: #b5be33 !important;
+    border-color: #b5be33 !important;
+    transition: 0.2s !important;
+}
+
+//FAQ PAGE
+.g-HeadingTitle.accordion-btn {
+    border-bottom-width: 1px;
+    padding-left: 2.5rem;
+    cursor: pointer;
+    
+    .g-HeadingTitle__h2{
+        @media(min-width: 1025px) {
+            font-size: 2.375rem;
+        }
+    }
+
+    &:before {
+        content: "\ea3c";
+        font-family: icomoon;
+        position: absolute;
+        left: 0;
+        top: 5%;
+        font-size: 1.6rem;
+        color: $primary;
+
+        @media(max-width: $break-md) {
+            top: 0;
+        }
+        
+        @media(max-width: $break-sm) {
+            top: -5px;
+        }
+    }
+
+    &:hover:before {
+        color: inherit;
+    }
+
+    &.active:before {
+        color: inherit;
+        transform: rotate(90deg);
+    }
+
+    &+.g-AccordionMenu {
+        display: none;
+        padding-left: 2rem;
+
+        &.active {
+            display: block;
+        }
+        
+        .g-AccordionUnit__titleBlock{
+            text-transform: uppercase;
+        }
+    }
+}
+
+//site wide Background
+.is-ban-background {
+    background-image: url("/content/dam/sites/kaousa/www-feelbanfresh-com/us/global/background/ban-theater-faded.jpg");
+
+    .g-Section__inner {
+        max-width: calc(100% - 4rem); 
+        background-color: $white; 
+
+        @media (max-width:1240px) {
+            max-width: calc(100% - 2rem);
+            min-height: 800px;
+        }
+        
+        @media(max-width:$break-md) {
+            max-width: 100%;
+            min-height: 800px;
+        }
+
+        @media(max-width:$break-sm) {
+            max-width: 100%;
+            min-height: 100%;
+        }
+        
+        @media(min-width:$break-lg) {
+            max-width: 1800px;
+        }
+    }
+}
+
+// Where to buy
+
+.whereToBuy {
+    ul.g-ListP__ul {
+        padding: 0;
+        margin: 0;
+
+        li.g-ListP__ul__item {
+            width: calc(100% / 5);
+            float: left;
+            position: relative;
+            padding: 12px 0;
+            cursor: pointer;
+            user-select: none;
+
+            span.is-background {
+                width: 209px;
+                margin: 0 auto;
+                height: 95px !important;
+                display: block;
+                background-position: left center;
+
+                &>.cmn-richtext {
+                    display: none;
+                }
+            }
+
+            .g-ListP {
+                user-select: none;
+                position: absolute;
+                top: -50%;
+                background-color: #fff;
+                width: 110px;
+                margin: 0 auto;
+                text-align: left;
+                left: 0;
+                right: 0;
+                padding: 0.5rem 0.5rem 1rem;
+                border: 1px solid #a0c7ff;
+                box-shadow: 0px 3px 20px -5px #060606;
+                border-radius: 4px;
+                min-height: 50px;
+                transform: translateY(-30px);
+                visibility: hidden;
+                opacity: 0;
+                transition: 0.3s;
+
+                &::before {
+                    content: url(/content/dam/sites/kaousa/www-feelbanfresh-com/us/global/background/bubble-tail2.png);
+                    width: 30px;
+                    height: 29px;
+                    position: absolute;
+                    left: calc(50% - 15px);
+                    bottom: -20px;
+                }
+
+                ul {
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        line-height: 25px;
+                        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+                        font-size: 12px;
+                        width: 100%;
+                        padding: 0;
+                        a {
+                            transition: 0.2s;
+                        }
+                        &:hover {
+                            a {
+                                text-decoration: none;
+                                transition: 0.2s;
+                            }
+                        }
+                    }
+                }
+            }
+
+            @media(min-width: 1025px){
+                &:hover {
+                    span.is-background {
+                        background-position: right center;
+                    }
+                    cursor: pointer;
+                    
+                    .g-ListP {
+                        transform: translateY(0);
+                        visibility: visible;
+                        opacity: 1;
+                        transition: 0.5s;
+                        user-select: none;
+                    }
+                }
+            }
+             
+            @media(max-width:$break-md){
+                span.is-background.active {
+                        background-position: right center;
+                    }
+                .g-ListP{
+                    visibility: hidden;
+                }
+                .g-ListP.active{
+                    transform: translateY(0);
+                    visibility: visible;
+                    opacity: 1;
+                    transition: 0.5s;
+                    user-select: none;
+                    
+                }
+            }
+        }
+    }
+
+    @media (max-width: $break-md) {
+        ul.g-ListP__ul {
+            li.g-ListP__ul__item {
+                width: calc(100% / 3);
+            }
+        }
+    }
+
+    @media (min-width: 466px) and (max-width: 690px) {
+        ul.g-ListP__ul {
+            li.g-ListP__ul__item {
+                width: 50% !important;
+                .g-ListP ul li {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    @media (max-width: $break-sm) {
+        ul.g-ListP__ul {
+            li.g-ListP__ul__item {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Media Queries
+
+@media (max-width: $break-sm) {
+    .productNavigation {
+        .g-HeadingTitle__h2 {
+            text-align: center;
+        }
+    }
+
+    .productDetailsSection {
+        .g-Image__img img {
+            margin-right: auto !important;
+            max-height: 340px;
+        }
+    }
+}

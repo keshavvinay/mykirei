@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+<meta charset="utf-8" />
+<title>SOFINA TOP</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- css -->
+<link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+<link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+<link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+<link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+<link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/basic/css/basic.css">
+<link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/component/css/component.css">
+<link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/option/css/option.css">
+<!-- / css -->
+
+<!-- script -->
+<script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+<script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+<script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+<script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+<script src="/etc/designs/kao/www-sofina-com/component/js/component.js"></script>
+<!-- / script -->
+
+</head>
+
+
+
+<body class="">
+<div id="wrapper">
+
+<!-- ダミー -->
+<div class="dummyheader">
+  <img src="dam/dummy-gheader.jpg">
+</div>
+
+
+
+
+<!-- area-Contents -->
+<div class="g-Area" id="area-Contents">
+
+
+
+<div class="g-Section sofina-section__philosophyMain" id="common_section_wrapper_1">
+  <div class="g-Section__inner">
+    <div class="g-Column js-uniformHeight" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+      <div class="g-Column__inner">
+
+        <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+          <div class="g-ColumnUnit" style="height: auto;">
+
+            <div class="g-PageTitle l-PageTitle is-layoutL sofina-PageTitle--basic">
+              <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                  <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                    <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                      <span class="cmn-richtext">
+                        <span>フィロソフィー</span>
+                      </span>
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="g-Column opt-al_c js-uniformHeight" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+      <div class="g-Column__inner">
+
+        <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+          <div class="g-ColumnUnit" style="height: auto;">
+
+<!--
+            <div class="g-HeadingTitle l-HeadingTitle is-layoutL sofina-philosophy__leadText">
+              <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                  <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                      <span class="cmn-richtext">
+                        <span>生体の営みに学ぶ。<br>「いつまでも美しい肌でいたい」という<br>女性の飽くなき思いに応えるために。</span>
+                      </span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+-->
+
+<div class="g-Image l-Image sofina-philosophy__leadImage s7responsiveContainer" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/philosophy/philosophy_leadtext.png?fmt=png-alpha" alt="生体の営みに学ぶ。 女性の変わらぬ思いに応えるために。" class="cq-dd-image" style="width : 100%;" id="mn_separa_1532931741_common_column_unit_colpar_common_image_item" data-breakpoints="128,320,640,768,1024,1366"></p>
+</div>
+
+            <div class="g-Groupe sofina-philosophy__contentsBlock">
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>ソフィーナは、女性の肌と真摯に向き合ってきました。<br>生体の営みから肌が美しくなるくしくみを学び<br>ひとつひとつ解き明かしながら。<br>「いくつになっても、どんなときでも、<br>美しくあり続けたい。」<br>全ての女性の変わらぬ思いに応えるために。</span>
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+<!-- / area-Contents -->
+
+
+
+<!-- ダミー -->
+<div class="dummyfooterlink">
+  <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る
+</div>
+<div class="dummyfooter">
+  <img src="dam/dummy-gfooter.jpg">
+</div>
+<div class="dummyfooter2">
+  <img src="dam/dummy-gfooter2.jpg">
+</div>
+
+
+
+<!--/wrapper--></div>
+
+
+
+
+
+<script type="text/javascript" src="./philosophy_files/responsive_image.js"></script>
+<style>
+    .s7responsiveImage{ width: 100% }
+</style>
+<script>
+	$(document).ready(function() {
+		$(".s7responsiveContainer img").each(function(index) {
+			s7responsiveImage(this);
+		});
+		$(".s7responsiveImage").each(function(index) {
+			s7responsiveImage(this);
+		});
+	});
+</script>
+
+</body></html>

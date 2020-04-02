@@ -1,0 +1,214 @@
+/* Edit画面のオーサリングエリア下部がグレーになってしまうのを回避 */
+body {
+  height: auto;
+}
+
+/*
+.section {
+	background-color:#EEE;
+}
+
+*/
+
+.new {
+  margin:0px!important;
+}
+
+.is-titlebar {
+  padding-left:1em;
+  text-align:left;
+  border-bottom:dotted 1px #4178cd;
+  background-color:#eef;
+  font-size:11px;
+  font-family:adobe-clean,Helvetica,Arial,sans-serif!important;
+  color:#4178cd;
+  padding-top:3px;
+  padding-bottom:3px;
+}
+
+.is-titlebar.common_section_wrapper-titlebar {
+  background-color:#ddd;
+  border-bottom:dotted 1px #333;
+  color:#333;
+  margin:0px;
+}
+.common_section_wrapper-title {
+  display:inline-block;
+}
+
+.common_section_wrapper-options {
+  display:inline-block;
+}
+.is-titlebar.common_column_separator-titlebar,
+.is-titlebar.common_column_unit-titlebar {
+  background-color:#efe;
+  border-bottom:dotted 1px #9c9;
+  color:#393;
+}
+.common_column_separator-title {
+  display:inline-block;
+}
+
+.common_column_separator-options {
+  display:inline-block;
+}
+
+.is-titlebar.common_group_box-titlebar {
+  background-color:#fee;
+  border-bottom:dotted 1px #c99;
+  color:#933;
+}
+
+/** add buttons **/
+.common_add_section {
+  font-size:11px;
+}
+.common_add_column {
+  font-size:11px;
+}
+
+/** inplace editor **/
+.common_inplace_editor[contenteditable="true"]{
+  border:dotted 1px #ccc;
+}
+
+/** label/tag pack **/
+.common_label_tag_element {
+  display: inline-block;
+}
+
+/** component styles **/
+/** accordion menu **/
+.g-AccordionUnit__contentBlock{
+  display: block !important;
+  height: auto !important;
+}
+
+/* pageTitle/headingTitle style */
+.is-subTitleRight .g-PageTitle__titleBlock__titleBox .subTitle,
+.is-subTitleRight .g-HeadingTitle__titleBlock__titleBox .subTitle {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.is-subTitleRight .g-PageTitle__titleBlock__titleBox .g-Text ,
+.is-subTitleRight .g-HeadingTitle__titleBlock__titleBox .g-Text {
+  min-width: 100px;
+}
+.is-subTitleRight .g-PageTitle__titleBlock__titleBox .g-Text p:not(.cmn-richtext),
+.is-subTitleRight .g-HeadingTitle__titleBlock__titleBox .g-Text p:not(.cmn-richtext) {
+  margin: 0;
+}
+.is-subTitleRight .g-PageTitle__titleBlock__titleBox__title,
+.is-subTitleRight .g-HeadingTitle__titleBlock__titleBox__title {
+  min-width: 100px;
+  vertical-align: baseline;
+}
+
+/* Link/Button Pack */
+.g-LinkButton {
+  display: table;
+  width: 100%;
+}
+[class].g-LinkButton__link .cmn-richtext {
+  display: block;
+}
+
+/* Button Pack */
+.g-ButtonP__list__item {
+  min-width: 150px;
+}
+.g-ButtonUnit__link {
+  display: block;
+}
+.g-ButtonUnit__link .cmn-richtext {
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Text Link Pack */
+.g-TextLinkP__list__item {
+  min-width: 100px;
+}
+.g-TextLinkUnit__link .cmn-richtext {
+  display: block;
+}
+
+/* List Pack */
+.g-ListUnit .cmn-richtext {
+  display: inline-table;
+}
+.g-ListUnit .cmn-richtext .cq-placeholder[data-emptytext] {
+  display: inline-block;
+  min-width: 100px;
+  vertical-align: middle;
+}
+
+/* Movie Item Placeholder */
+.g-Movie__iframe:empty {
+  background: #9cf url("../img/movie-item_placeholder@2x.png") 50% 50% no-repeat;
+  background-size: 259px 118px;
+}
+
+/* Image Item */
+.g-Image {
+  min-width: 0 !important;
+}
+
+/* Image Item caption placeholder */
+.g-Image .cq-placeholder {
+  background-color: #eee;
+}
+.g-Image__caption .cq-Overlay {
+  margin: 0 !important;
+  border: 0 none !important;
+  color: #4a4a4a !important;
+  outline: solid 0 #4178cd;
+  font-family: adobe-clean,Helvetica,Arial,sans-serif;
+  letter-spacing: normal;
+}
+.g-Image__caption .cq-Overlay--placeholder {
+  background-color: #eee;
+  border: dotted 1px #999 !important;
+  box-sizing: border-box;
+}
+.g-Image__caption .cq-Overlay--placeholder:before {
+  margin-right: 6px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  background: url(../../img/text_placeholder@2x.png) 50% 50% no-repeat;
+  background-size: 16px 16px;
+  vertical-align: middle;
+}
+
+/* Image Item (changeBreak) annotation Text */
+.g-Image.is-changeBreak .g-Image__img--sm:after ,
+.g-Image.is-changeBreak .g-Image__img--md:after {
+  padding: 4px;
+  border: dotted 1px #eeeeff;
+  width: 100%;
+  display: block;
+  line-height: 1.4;
+  color: #eeeeff;
+  background: #4178cd;
+  font-size: 11px;
+  letter-spacing: normal;
+  box-sizing: border-box;
+}
+.g-Image.is-changeBreak .g-Image__img--sm:after ,
+.g-Image.is-changeBreak .g-Image__img--md:after {
+  content: 'Image can be changed from dialog';
+}
+html:lang(ja) .g-Image.is-changeBreak .g-Image__img--sm:after ,
+html:lang(ja) .g-Image.is-changeBreak .g-Image__img--md:after {
+  content: '画像はダイアログから変更可';
+}
+
+/* Image & Text Pack (Vertical)  */
+/* @media 指定に対する、AEM上の Emulator での不具合回避 */
+.g-ImageTextVP.is-smallViewHorizontalR.is-wraparound .g-ImageTextVP__contentsBlock__text,
+.g-ImageTextVP.is-smallViewHorizontalL.is-wraparound .g-ImageTextVP__contentsBlock__text {
+  float: none;
+  width: 100%;
+}

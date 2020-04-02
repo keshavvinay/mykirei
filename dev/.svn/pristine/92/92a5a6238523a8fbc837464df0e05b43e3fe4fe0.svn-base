@@ -1,0 +1,15 @@
+.g-Image{
+    text-align: center;
+    &.hasCaption{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+    .g-Image__caption{
+        color: $solid-black;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 32px;
+        font-family: "TramCnThin",sans-serif;
+    }
+}

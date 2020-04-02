@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_026: Social Sharing Item</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>G_CON_026: Social Sharing Item</h1>
+
+
+<!-- G_CON_026: Social Sharing Item -->
+  <div class="method">
+    <p class="componentName">I100: Social Sharing Item</p>
+    <!--<a href="samples/I100_SocialSharing.html">⇒ design sample</a>-->
+    <ul>
+      <li>Element : Heading Title Item (DOM出力変更)</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : [任意クラス付与]</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Typical</h3>
+  <!-- <div class="debug-tmpl" data-tmpl="SocialSharing--Typical"></div> -->
+  <div class="g-SocialSharing l-SocialSharing">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Heading Title Item</h3>
+  <div class="g-SocialSharing l-SocialSharing">
+
+    <div class="g-SocialSharing__titleBlock l-SocialSharing__titleBlock">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--H3"></div>
+      <!-- /G_CON_002: Heading Title Item -->
+    </div>
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-SocialSharing l-SocialSharing opt-al_l">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-SocialSharing l-SocialSharing opt-al_c">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-SocialSharing l-SocialSharing opt-al_r">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-SocialSharing l-SocialSharing SpecificCSSclass">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-SocialSharing l-SocialSharing is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+<!-- / G_CON_026: Social Sharing Item -->
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Bodoni 72 Book';
+  src:  url('../fonts/Bodoni-72-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura Bold';
+  src:  url('../fonts/Futura-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura Book';
+  src:  url('../fonts/Futura-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura Book Obl';
+  src:  url('../fonts/Futura-Book-Obl.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura LT W05 Bold';
+  src:  url('../fonts/Futura-LT-W05-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Futura LT W05 Book';
+  src:  url('../fonts/Futura-LT-W05-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'FuturaLTW05-Bold';
+  src:  url('../fonts/Futura-LT-W05-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'FuturaLTW05-Book';
+  src:  url('../fonts/Futura-LT-W05-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'Georgia bold';
+  src:  url('../fonts/Georgia-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Georgia bold italic';
+  src:  url('../fonts/Georgia-bold-italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Georgia italic';
+  src:  url('../fonts/Georgia-italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Georgia';
+  src:  url('../fonts/Georgia-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Georgia regular';
+  src:  url('../fonts/Georgia-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'ITC Bodoni Seventytwo Pro Book Italic';
+  src:  url('../fonts/ITC-Bodoni-Seventytwo-Pro-Book-Italic.woff') format('woff');
+}
+
+
+@mixin bodoniregularitalic {
+  font-family: "Bodoni 72 Book", serif;
+  font-style: italic;
+}
+
+@mixin georgia {
+  font-family: "Georgia regular", serif;
+}
+
+/* 2017/3/8 Add */
+
+@mixin georgiaitalic {
+  font-family: "Georgia italic", serif;
+}
+
+@mixin georgiabold {
+  font-family: "Georgia bold", serif;
+}
+
+@mixin georgiabolditalic {
+  font-family: "Georgia bold italic", serif;
+}
+@mixin bodoniseventytwoitalic {
+  font-family: "ITC Bodoni Seventytwo Pro Book Italic", sans-serif;
+}

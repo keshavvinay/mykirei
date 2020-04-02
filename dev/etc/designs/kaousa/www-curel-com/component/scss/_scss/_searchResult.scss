@@ -1,0 +1,128 @@
+.curel-search-result {
+    .result-column-section {
+        .curelMarsSearchResultsSection {
+            .mf_finder_searchBox {
+                @media (max-width: $break-lg) {
+                    margin: 0;
+                }
+                .mf_finder_searchBox_items {
+                    border: 1px solid $image-border;
+                    padding: 0;
+                    .mf_finder_searchBox_query_wrap {
+                        .mf_finder_searchBox_query_input {
+                            border: none;
+                            background-color: #F8F8F8;
+                            outline: none;
+                        }
+                    }
+                    .mf_finder_searchBox_submit {
+                        background-color: #F8F8F8;
+                        padding: 0;
+                        span {
+                            margin: 0;
+                        }
+                    }
+                    .mf_finder_searchBox_submit:before {
+                        font-size: 20px;
+                        color: $contact-us-label-color;
+                        margin: 0;
+                        padding: 0 10px;
+                    }
+                    // .mf_finder_searchBox_submit:hover{
+                    //     background-color: $footer-anchor-hover;
+                    // }
+                }
+            }
+            .mf_finder_organic_wrapper {
+                .mf_finder_organic {
+                    .mf_finder_organic_header_wrapper {
+                        .mf_finder_organic_header {
+                            margin-top: 20px;
+                        }
+                    }
+                    .mf_finder_organic_docs_wrapper {
+                        .mf_finder_organic_doc {
+                            @media (max-width: $break-sm) {
+                                display: block;
+                                padding: 1.5rem 0;
+                            }
+                            .mf_finder_organic_doc_img_wrapper {
+                                .mf_finder_organic_doc_zoom {
+                                    display: none;
+                                }
+                            }
+                            .mf_finder_organic_doc_contents_wrapper {
+                                .mf_finder_organic_doc_title {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .mf_finder_organic_pager_wrapper {
+                        .mf_finder_organic_pager {
+                            margin-top: .5rem;
+                        }
+                    }
+                    .mf_finder_logo {
+                        display: none;
+                    }
+                }
+            }
+            .did-you-mean-content {
+                display: none;
+            }
+        }
+    }
+    .no-results {
+        .g-ColumnUnit {
+            .g-HeadingTitle {
+                .g-HeadingTitle__h5 {
+                    .opt-fontsize--xxl {
+                        color: $heading-font-color!important;
+                    }
+                }
+            }
+            .popular-product {
+                margin-top: 40px;
+                .g-HeadingTitle__h2 {
+                    color: $heading-font-color!important;
+                    font-size: 20px;
+                }
+            }
+            .g-TileLinkVP {
+                .g-TileLinkVUnit__leadBlock {
+                    .g-TileLinkVUnit__leadBlock__title {
+                        color: $footer-anchor-hover;
+                    }
+                }
+            }
+        }
+        .popular-product-column {
+            //width: 33.33%;
+        }
+        .g-ImageTextVP {
+            .g-ImageTextVP__contentsBlock__text {
+                .g-HeadingTitle__titleBlock__titleBox {
+                    .g-Text {
+                        font-size: 18px;
+                        font-family: $ralewayBold;
+                        color: #00859b;
+                    }
+                }
+            }
+        }
+        .g-ButtonP {
+            .g-ButtonUnit__link {
+                border-color: #00859b;
+                background-color: #00859b;
+                color: #ffffff;
+            }
+        }
+    }
+    .all-products {
+        margin-top: 74px;
+        @media(max-width: $break-sm) {
+            margin-top: 0;
+        }
+    }
+}

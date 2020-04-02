@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+/* ImageTextVP ================================================== */
+.g-ImageTextVP {
+  //クラス名が入れ子になる可能性があるため
+  &.is-background {
+    padding: $cmn_paddingInner;
+    
+  }
+  &.is-layoutT {
+    .g-ImageTextVP__contentsBlock__image {
+      margin-bottom: 20px;
+    }
+  }
+  &.is-layoutB & {
+    .g-ImageTextVP__contentsBlock__text {
+      margin-bottom: 20px;
+    }
+  }
+  &.is-smallViewHorizontalL {
+    .g-ImageTextVP__contentsBlock__image {
+      @include bp(sm) {
+        float: left;
+        padding-right: 12px;
+        box-sizing: border-box;
+      }
+    }
+    .g-ImageTextVP__contentsBlock__text {
+      @include bp(sm) {
+        float: right;
+      }
+    }
+  }
+  &.is-smallViewHorizontalR {
+    .g-ImageTextVP__contentsBlock__image {
+      @include bp(sm) {
+        float: right;
+        padding-left: 12px;
+        box-sizing: border-box;
+      }
+    }
+    .g-ImageTextVP__contentsBlock__text {
+      @include bp(sm) {
+        float: left;
+      }
+    }
+  }
+  &.is-wraparound {
+    .g-ImageTextVP__contentsBlock__text {
+      float: none;
+      width: 100%;
+    }
+    .g-HeadingTitle__titleBlock {
+      width: auto;
+    }
+    @include imageTextVerticalHeadingTitle('left', 'Image');
+    @include imageTextVerticalHeadingTitle('right', 'Image');
+  }
+}
+
+.g-ImageTextVP__titleBlock {
+  margin: 0; //debug
+}
+
+.g-ImageTextVP__contentsBlock {
+  @include pie-clearfix();
+}
+
+.g-ImageTextVP__contentsBlock__image {
+  margin: 0 auto;
+}
+
+.g-ImageTextVP__contentsBlock__text {
+}

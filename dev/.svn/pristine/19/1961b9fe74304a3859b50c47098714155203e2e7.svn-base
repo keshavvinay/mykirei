@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+/* LabelTagP ================================================== */
+
+
+/* LabelTagUnit ================================================== */
+.l-LabelTagUnit {
+  @include fontSize(caption);
+  &.is-colorset1 {
+    color: $labelTag__text-01;
+    background-color: $labelTag__bg-01;
+    @include labelBorder($labelTag__borderVisible-01, $labelTag__border-01);
+  }
+  &.is-colorset2 {
+    color: $labelTag__text-02;
+    background-color: $labelTag__bg-02;
+    @include labelBorder($labelTag__borderVisible-02, $labelTag__border-02);
+  }
+  &.is-colorset3 {
+    color: $labelTag__text-03;
+    background-color: $labelTag__bg-03;
+    @include labelBorder($labelTag__borderVisible-03, $labelTag__border-03);
+  }
+  &.is-colorset4 {
+    color: $labelTag__text-04;
+    background-color: $labelTag__bg-04;
+    @include labelBorder($labelTag__borderVisible-04, $labelTag__border-04);
+  }
+  &.is-colorset5 {
+    color: $labelTag__text-05;
+    background-color: $labelTag__bg-05;
+    @include labelBorder($labelTag__borderVisible-05, $labelTag__border-05);
+  }
+  &.is-colorset6 {
+    color: $labelTag__text-06;
+    background-color: $labelTag__bg-06;
+    @include labelBorder($labelTag__borderVisible-06, $labelTag__border-06);
+  }
+  &.is-colorset7 {
+    color: $labelTag__text-07;
+    background-color: $labelTag__bg-07;
+    @include labelBorder($labelTag__borderVisible-07, $labelTag__border-07);
+  }
+  &.is-colorset8 {
+    color: $labelTag__text-08;
+    background-color: $labelTag__bg-08;
+    @include labelBorder($labelTag__borderVisible-08, $labelTag__border-08);
+  }
+  &.is-colorset9 {
+    color: $labelTag__text-09;
+    background-color: $labelTag__bg-09;
+    @include labelBorder($labelTag__borderVisible-09, $labelTag__border-09);
+  }
+  &.is-colorset10 {
+    color: $labelTag__text-10;
+    background-color: $labelTag__bg-10;
+    @include labelBorder($labelTag__borderVisible-10, $labelTag__border-10);
+  }
+}

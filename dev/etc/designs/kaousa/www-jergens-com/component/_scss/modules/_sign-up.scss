@@ -1,0 +1,390 @@
+/*jergens error-page css*/
+/*jergens thank-you page css*/
+/*jergens sign-up css*/
+.jergens_error_section {
+	max-width: 985px;
+	margin: 0 auto;
+	background: #fff;
+	.error_404 {
+		font-size: 18px;
+		color: #999;
+		margin-bottom: -5px;
+		font-family: "PT Sans Narrow";
+	}
+	.page_not_found {
+		font-size: 30px;
+		font-family: "PT Sans Narrow";
+	}
+	.go_to_home {
+		a {
+			height: auto;
+			border: 1px solid #b99c79;
+			background: #fff;
+			color: #555;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: bold;
+			border-radius: 0px;
+			padding: 7px 15px;
+			box-shadow: none;
+			&:hover {
+				text-decoration: underline;
+			}
+			.cmn-icon--bullet {
+				color: #555 !important;
+			}
+		}
+	}
+	.error_page_content {
+		color: #333;
+		a {
+			color: #333;
+		}
+	}
+	.error_image {
+		img {
+			width: 100% !important;
+		}
+	}
+}
+html[lang="ar-sa"] {
+	.jergens_error_section {
+		direction: ltr;
+		.cmn-icon--bullet {
+			&:before {
+				content: "\e006";
+				margin-right: 0;
+			}
+		}
+	}
+}
+.jergens_thank_you_section {
+	.jergens_thank_you_column_seperator {
+		background-color: #fff;
+		width: 985px;
+		padding-top: 0 !important;
+		.thank_you_head {
+			margin-left: 15px;
+			font-size: 18px;
+			color: #999;
+			font-family: "PT Sans Narrow";
+		}
+		.thank_you_content {
+			margin: 0 30px;
+			font-size: 16px;
+			font-family: Arial;
+		}
+		#heading-title {
+			font-family: "PT Sans Narrow";
+			font-size: 18px;
+			color: #999999;
+			text-transform: uppercase;
+			line-height: 22px;
+			margin: 0;
+			margin-top: 50px;
+		}
+		.thank_you_title {
+			margin: -6px 0;
+			.cmn-richtext {
+				font-family: "PT Sans Narrow";
+			}
+		}
+		.g-Column__inner {
+			.g-Column__cols {
+				padding-top: 0 !important;
+			}
+		}
+	}
+	.jergens_thank_you_header_image {
+		margin: 0 auto;
+		background-position: left 0 !important;
+		background-size: cover !important;
+		min-height: 200px;
+		padding-top: 20px !important;
+	}
+}
+.jergens_sign_up_section {
+	.loader {
+		display: none;
+		background-size: auto;
+		height: 100px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: #fff;
+		height: 100%;
+		z-index: 10;
+	}
+	.heading_content {
+		font-family: Arial;
+		color: #000;
+		font-size: 13px;
+	}
+	.form_button_reset {
+		border: 0;
+		position: relative;
+		background: none;
+		background-color: #e4d6c6;
+		padding: 8px;
+		color: #666666;
+		text-transform: uppercase;
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.form_button_submit {
+		border: 0;
+		position: relative;
+		background: none;
+		background-color: #e4d6c6;
+		padding: 8px;
+		color: #666666;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-right: 20px;
+		background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/arrowLink.png) 60px 12px no-repeat #e4d6c6;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.jergens_sign_up_header_image {
+		.g-PageTitle {
+			margin: -8px 0px;
+		}
+		.l-PageTitle__h1 {
+			font-family: PT Sans Narrow;
+		}
+		margin: 0 auto;
+		background-position: left 0 !important;
+		background-size: cover !important;
+		min-height: 200px;
+		padding-top: 20px !important;
+	}
+	.personal_information {
+		.cmn-richtext {
+			color: #92816e;
+			font-size: 20px;
+			font-family: PT Sans Narrow;
+			border-bottom: 2px solid #e3d5c4;
+			text-transform: uppercase;
+			padding-bottom: 5px;
+		}
+	}
+	.required {
+		color: #333;
+		font-size: 12px;
+		line-height: 15px;
+		font-family: arial;
+		em {
+			color: #093556;
+			font-size: 11px;
+			font-style: italic;
+			font-family: arial;
+		}
+	}
+	.privacy {
+		a {
+			color: #000;
+		}
+	}
+	#heading-title {
+		font-family: "PT Sans Narrow";
+		font-size: 18px;
+		color: #999999;
+		text-transform: uppercase;
+		line-height: 22px;
+		margin: 0;
+		margin-top: 50px;
+	}
+	.l-Column.is-gutter--m {
+		.l-Column__inner {
+			margin-left: 0 !important;
+			margin-right: -0 !important;
+		}
+	}
+	.jergens_sign_up_image {
+		img {
+			width: 100% !important;
+		}
+	}
+	#common_column_separator_1 {
+		.g-Column__inner {
+			.g-Column__cols {
+				padding: 0;
+			}
+		}
+	}
+	background-color: #fff;
+	max-width: 985px;
+	margin: 0 auto;
+	.g-Section__inner {
+		padding: 0;
+	}
+	.mandatory_content {
+		.form_row {
+			display: inline-block;
+		}
+		.form_row_description {
+			display: none;
+		}
+	}
+	.dob_group_box {
+		.form_row_description {
+			display: none;
+		}
+	}
+	.jergens_sign_up_form {
+		padding: 20px;
+	}
+	#error_firstName {
+		color: red;
+		color: red;
+		visibility: hidden;
+		visibility: hidden;
+	}
+	#error_submit {
+		color: red;
+		visibility: hidden;
+	}
+	#error_lastName {
+		color: red;
+		visibility: hidden;
+	}
+	#error_email {
+		color: red;
+		visibility: hidden;
+	}
+	#error_confirm_email {
+		color: red;
+		visibility: hidden;
+	}
+	#error_address1 {
+		color: red;
+		visibility: hidden;
+	}
+	#error_city {
+		color: red;
+		visibility: hidden;
+	}
+	#error_zipcode {
+		color: red;
+		visibility: hidden;
+	}
+	#error_check_box {
+		color: red;
+		visibility: hidden;
+	}
+	#error_year {
+		color: red;
+		display: none;
+	}
+	#error_day {
+		color: red;
+		display: none;
+	}
+	#error_month {
+		color: red;
+		display: none;
+	}
+	.birthdate {
+		border: 1px solid #e3d5c4;
+		padding: 4px 0px;
+	}
+	.form_row {
+		.form_rightcol {
+			.form_rightcol_wrapper {
+				input {
+					width: 210px;
+					margin-right: 12px;
+					border: 1px solid #e3d5c4;
+					padding: 5px 10px;
+				}
+			}
+		}
+	}
+	#jergens_sign_up_gender {
+		width: 210px;
+		margin-right: 12px;
+		border: 1px solid #e3d5c4;
+		padding: 5px 10px;
+	}
+	#jergens_sign_up_ethnicity {
+		width: 210px;
+		margin-right: 12px;
+		border: 1px solid #e3d5c4;
+		padding: 5px 10px;
+	}
+	.newsletter_check_list {
+		margin: 10px 0px 0px 25px;
+		.form_row {
+			margin-bottom: 10px;
+		}
+	}
+	.form_leftcolmark {
+		display: none;
+	}
+	.error_msg {
+		display: none;
+	}
+}
+html[lang='fr-ca'] {
+	.jergens_sign_up_section {
+		.form_button_submit {
+			background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/arrowLink.png) 90px 12px no-repeat #e4d6c6;
+		}
+	}
+}
+.check_brand {
+	display: inline-block;
+}
+.dob_group_box {
+	.form_row {
+		display: inline-block;
+	}
+}
+.is-authorring {
+	.jergens_sign_up_section {
+		.error_msg {
+			display: block;
+		}
+	}
+}
+@media only screen and (max-width: 1025px) {
+	.jergens_thank_you_section {
+		.jergens_thank_you_column_seperator {
+			width: 100%;
+		}
+	}
+	.jergens_sign_up_section {
+		#common_column_separator_1 {
+			width: 100%;
+		}
+	}
+}
+@media only screen and (max-width: 640px) {
+	.jergens_sign_up_section {
+		.jergens_sign_up_image {
+			width: 60%;
+			margin: 0 auto;
+		}
+		.jergens_sign_up_header_image {
+			background-size: cover !important;
+			background-position: 100% 100% !important;
+		}
+		.form_row {
+			.form_rightcol {
+				.form_rightcol_wrapper {
+					input {
+						width: 225px;
+						padding: 5px 0px;
+					}
+				}
+			}
+		}
+		.jergens_sign_up_form {
+			padding: 8px;
+		}
+	}
+}

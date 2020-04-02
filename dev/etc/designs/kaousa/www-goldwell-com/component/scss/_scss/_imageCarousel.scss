@@ -1,0 +1,175 @@
+.g-ImageCarouselP {
+    //        background-color: $solid-white;
+    overflow: hidden;
+    position: relative;
+    z-index: 102;
+    background-color: $body-bg-color;
+    .slick-list {
+        //        @media (min-width: $desktop-swiper) {
+        //            max-height: 370px;
+        //            overflow: hidden;
+        //        }
+    }
+    .g-ImageCarouselP__nav__dot:before, .g-ImageCarouselP__nav__toggle:before{
+        color: $primary;
+    }
+    .l-ImageCarouselP__nav__dot:before, .l-ImageCarouselP__nav__toggle:before{
+        color: $primary;
+    } 
+    .g-ImageCarouselP__nav__toggle{
+        display: none;
+    }
+    .slick-slider{
+        margin-bottom: 0;
+    }
+    .slick-arrow {
+        height: 100px;
+        width: auto;
+        top: 50%;
+        transform: translateY(-50%); 
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        z-index: 1;
+        border-radius: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s ease-in-out;
+        &::before {
+            color: $primary;
+            opacity: 1;
+            font-size: 80px;
+            line-height: 100px;
+            color: $primary;
+        }
+        @media (max-width: 991px) {
+            top: 50%;
+            transform: translateY(-50%); 
+            display: none !important;
+        }
+    }
+    .slick-prev {
+        left: 0;
+        &::before {
+            content: "\e907";
+            font-family: icomoon;
+        }
+    }
+    .slick-next {
+        right: 0;
+        &::before {
+            content: "\e906";
+            font-family: icomoon;
+        }
+    }
+
+    .g-ImageCarouselPUnit__inner{
+        &>.g-GroupBox{
+            top: auto !important;
+            left: 0;
+            right: 0;
+            bottom: 12%;
+            padding: 0;
+            color: $solid-white;
+
+            @media (max-width: 1024px){
+                bottom: 0;
+            }
+            @media (max-width: 769px){
+                position: static !important;
+                padding: 20px 20px 0 20px;
+                color: $solid-black !important;
+            }
+
+            .g-ButtonP__list{
+                margin: 0;
+            }
+
+            .g-ButtonUnit__link{
+                outline: 0;
+                border-color: $solid-white;
+                color: $solid-white;
+                -webkit-transition: all .5s ease;
+                -moz-transition: all .5s ease;
+                -o-transition: all .5s ease;
+                -ms-transition: all .5s ease;
+                transition: all .5s ease;
+
+                &:hover, &:active {
+                    color: $solid-white;
+                    background-color: transparent !important;
+                    border-color: $solid-white;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    -ms-transition: all .5s ease;
+                    transition: all .5s ease;
+                    outline: 0;
+                    outline-offset: 0;
+
+                    @media (max-width: 769px){
+                        color: $solid-black;
+                        background-color: transparent;
+                        border-color: $solid-black;
+                    }
+                }
+
+                @media (max-width: 769px){
+                    border-color: $solid-black;
+                    color: $solid-black;
+                }
+            }
+        }
+        &>.g-GroupBox.black{ 
+            color: $solid-black; 
+
+            .g-ButtonUnit__link{
+                border-color: $solid-black;
+                color: $solid-black;
+
+                &:hover, &:active {
+                    color: $solid-black;
+                    background-color: transparent;
+                    border-color: $solid-black;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    -ms-transition: all .5s ease;
+                    transition: all .5s ease;
+                    outline: 0;
+                    outline-offset: 0;
+                }
+            }
+        }
+    }
+    .g-ImageCarouselP__nav {
+        .g-ImageCarouselP__nav__dot {
+            &::before {
+                content: "\e020" !important; 
+                font-size: 10px !important;
+                color: $border-primary-color;
+                transition: 0.2s ease-in-out;
+            }
+            &:hover {
+                &::before {
+                    color: $primary;
+                }
+            }
+        }
+        .slick-active {
+            .g-ImageCarouselP__nav__dot::before {
+                color: $primary;
+            }
+        }
+    }
+    &:hover {
+        .slick-arrow {
+            opacity: 1;
+            visibility: visible;
+        }
+        .slick-prev {
+            opacity: 1;
+            visibility: visible;
+        }
+    } 
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+/* Area ============================== */
+.g-Area {
+}
+
+.g-Area__inner {
+  max-width: $contentsMaxWidth_lg;
+  margin: 0 auto;
+}
+
+.g-Area__separater {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  @extend .g-Area__inner;
+}
+
+.g-Area__separater__pane {
+  display: table-cell;
+  width: 250px;
+}
+
+.g-Area__separater__main {
+  display: table-cell;
+}

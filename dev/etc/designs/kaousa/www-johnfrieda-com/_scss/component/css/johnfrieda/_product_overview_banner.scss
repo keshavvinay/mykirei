@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/*  product_overview_banner */
+
+.jf-product_overview_banner {
+  position: relative;
+  height: 562px !important;
+  background-color: #000;
+  background-position: center top;
+  @include bp(sm) {
+    height: auto !important;
+    background-image: none !important;
+  }
+  .jf-product_overview_banner__product {
+    left: 10%;
+    width: 200px;
+    margin: 0;
+    .is-authorring & {
+      position: relative !important;
+	  top: auto !important;
+    }
+    @include bp(lg) {
+      position: absolute!important;
+      top: 57%;
+    }
+    @include bp(md) {
+      top: 57%;
+      width: 130px;
+      position: absolute!important;
+    }
+    @include bp(sm) {
+      position: relative;
+      left: auto;
+      top: auto;
+      clear: both;
+      border: 1px solid transparent;
+      width: 45%;
+      margin: -15% auto 0 auto;
+    }
+  }
+  .jf-product_overview_banner__title {
+    width: auto;
+    position: absolute;
+	.is-authorring & {
+        position: relative;
+		top: auto !important;
+    }
+    @include bp(lg) {
+      top: 16%;
+      padding-left: 10%;
+    }
+    @include bp(md) {
+      top: 20%;
+      padding-left: 10%;
+    }
+    @include bp(sm) {
+      position: relative;
+      left: auto;
+      top: auto;
+      width: 100%;
+    }
+    .l-PageTitle__titleBlock__titleBox__title {
+      margin-bottom: 0;
+      @include bp(sm) {
+        position: relative;
+      }
+    }
+    .l-PageTitle__h1 {
+      font-size: (72rem / 16);
+      text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+      line-height: 1.2;
+      letter-spacing: 0;
+      @include bp(md) {
+        font-size: (48rem / 16);
+      }
+      @include bp(sm) {
+        text-align: center;
+        font-size: (60rem / 16);
+      }
+      
+    }
+    .l-Text {
+      margin: 0;
+      text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      @include bp(lg) {
+      }
+      .is-authorring & {
+        position: relative;
+      }
+      @include bp(md) {
+        font-size: 14px;
+        letter-spacing: .7px;
+      }
+      @include bp(sm) {
+        position: relative;
+        margin-top: 12px;
+        font-size: 14px;
+        letter-spacing: .7px;
+        left: 50%;
+        text-align: center;
+        @include translateX(-50%);
+      }
+    }
+  }
+
+  .l-TextLinkP {
+    margin: 0 0 3em 0;
+    margin-left: 10%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    .is-authorring & {
+      position: relative;
+    }
+    @include bp(md) {
+      top: 50%;
+      left: 10%;
+      margin: 0 0 1.5em 0;
+    }
+    @include bp(sm) {
+      position: relative;
+      margin: 0 auto;
+      padding: 0.8em 0 2em 0;
+      top: auto;
+      left: auto;
+      text-align: center;
+    }
+  }
+  .l-TextLinkUnit__link {
+    font-size: (18rem / 16);
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+    &:after {
+      position: absolute;
+      left: 0;
+      bottom: -3px;
+      width: 100%;
+      height: 3px;
+      background: #fff;
+      content: "";
+      transition: all .1s cubic-bezier(.645, .045, .355, 1);
+    }
+    &:hover {
+      .opt-fontcolor--01 {
+        color: $moreLinkHoverWhite;
+      }
+      &:hover:after {
+        background: $moreLinkHoverWhite;
+        @include scaleX(0);
+      }
+    }
+    @include bp(md) {
+      font-size: (14rem / 16);
+    }
+    @include bp(sm) {
+      text-align: center;
+      font-size: (14rem / 16);
+    }
+  }
+
+  .jf-product_overview_banner__description {
+    .is-authorring & {
+        position: relative;
+		top: auto !important;
+    }
+    @include bp(lg) {
+      position: absolute;
+      left: 10%;
+      top: 38%;
+      font-size: 18px;
+    }
+    @include bp(md) {
+      position: absolute;
+      left: 10%;
+      top: 34%;
+      font-size: 16px;
+    }
+    .l-PageTitle__h1 {
+      color: #fff;
+      @include bp(lg) {
+        font-size: 18px;
+      }
+      @include bp(md) {
+        font-size: 16px;
+      }
+      @include bp(sm) {
+        text-align: center;
+        font-size: 14px;
+      }
+    }
+  }
+}

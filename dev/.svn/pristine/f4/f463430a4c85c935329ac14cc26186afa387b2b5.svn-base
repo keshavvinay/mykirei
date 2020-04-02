@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Brand Header</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!--John Frieda カスタムCSS-->
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-johnfrieda-com/component/css/component.css" />
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-johnfrieda-com/component/css/option.css" />
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-johnfrieda-com/component/css/local.css">
+  <!--/John Frieda カスタムCSS-->
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jsrender.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/moment.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/youtube.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <!--John Frieda カスタムJS-->
+  <script src="/etc/designs/kaousa/www-johnfrieda-com/component/js/component.js"></script>
+  <!--/John Frieda カスタムJS-->
+  <!-- / script -->
+
+</head>
+
+<body>
+  <div class="g-Area" id="area-BrHeader">
+    <!-- area-BrHeader -->
+    <div class="g-Area" id="area-BrHeader">
+      <div>
+        <div class="jf-promo is-dismissed">
+          <div class="jf-promo__text">
+            <!-- PARSYS -->
+            <div class="g-Text l-Text jf-promo__text">
+              <p class="cmn-richtext">
+                <span>
+                  <span class="opt-fontfamily--04">NEW:</span>
+                  <span class="opt-fontfamily--03">We've just launched a new line. </span>
+                  <em>
+                    <a href="#">
+                      <span class="opt-fontfamily--01">Learn more</span>
+                    </a>
+                  </em>
+                </span>
+              </p>
+            </div>
+
+            <!-- /PARSYS -->
+          </div>
+          <button class="jf-promo__dismiss js-dismissPromo" type="button">Dismiss</button>
+        </div>
+      </div>
+
+      <div class="jf-Header__wrapper">
+        <div class="jf-Header">
+          <div class="jf-Header__logo">
+            <!-- PARSYS -->
+            <a class="g-Image l-Image is-link jf-Header__logoImage is-paddingReset" href="#" target="_self" id="common_image_item_20170309182734394_Bxat">
+              <p class="g-Image__img l-Image__img">
+                <img src="/content/dam/sites/kaousa/www-johnfrieda-com/svg/jf-logo.svg" alt="John Frieda" class="cq-dd-image" style="width : 100%;">
+              </p>
+            </a>
+
+            <!-- /PARSYS -->
+          </div>
+          <div class="jf-Header__nav">
+            <button class="jf-Header__navToggle js-mainNavToggle" type="button" data-menuclosedlabel="MENU" data-menuopenlabel="CLOSE"></button>
+            <!-- PARSYS -->
+            <div class="jf-Header__mainNav is-gutter--none g-TextLinkP l-TextLinkP">
+              <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+                <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+                  <div class="g-TextLinkUnit l-TextLinkUnit jf-Header__nav__link is-colorset--2 is-size--m">
+                    <a href="#" target="_self" id="common_text_link_unit_20170309153546204_v81Q" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink">
+                      <span class="cmn-richtext">
+                        <span>
+                          <span class="opt-fontfamily--03">THE MUSE</span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </li>
+                <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+                  <div class="g-TextLinkUnit l-TextLinkUnit jf-Header__nav__link is-colorset--2 is-size--m">
+                    <a href="#" target="_self" id="common_text_link_unit_20170309153728415_SMv7" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink">
+                      <span class="cmn-richtext">
+                        <span>
+                          <span class="opt-fontfamily--03">STYLE MATCH</span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </li>
+                <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+                  <div class="g-TextLinkUnit l-TextLinkUnit jf-Header__nav__link is-colorset--2 is-size--m">
+                    <a href="#" target="_self" id="common_text_link_unit_20170309153754456_73yf" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink">
+                      <span class="cmn-richtext">
+                        <span>
+                          <span class="opt-fontfamily--03">PRODUCTS</span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </li>
+                <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+                  <div class="g-TextLinkUnit l-TextLinkUnit jf-Header__nav__link is-colorset--2 is-size--m">
+                    <a href="#" target="_self" id="common_text_link_unit_20170309153821301_BFXh" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink">
+                      <span class="cmn-richtext">
+                        <span>
+                          <span class="opt-fontfamily--03">OUR STORY</span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </li>
+                <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+                  <div class="g-TextLinkUnit l-TextLinkUnit jf-Header__nav__link is-colorset--2 is-size--m">
+                    <a href="#" target="_self" id="common_text_link_unit_20170309153850981_XfgR" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink">
+                      <span class="cmn-richtext">
+                        <span>
+                          <span class="opt-fontfamily--03">ELITE CLUB</span>
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- /PARSYS -->
+            <div class="jf-Header__navSearch js-navSearch">
+              <div class="jf-Header__navSearch__inner">
+                <button class="jf-Header__navSearch__link">
+                  <img class="jf-Header__navSearch__linkIcon" src="/content/dam/sites/kaousa/www-johnfrieda-com/svg/magnifying-glass-white.svg" alt="">
+                </button>
+                <form class="jf-Header__navSearch__form js-searchForm" action="#">
+                  <input class="jf-Header__navSearch__input" name="q" type="search" placeholder="Search">
+                </form>
+                <button class="jf-Header__navSearch__close"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-BrHeader -->
+  </div>
+
+
+
+  <!-- Dummy area-Contents -->
+  <div class="g-Area" id="area-Contents">
+    <p class="g-Image__img l-Image__img">
+      <img src="/content/dam/sites/kaousa/www-johnfrieda-com/images/product-callout.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+    </p>
+    <p class="g-Image__img l-Image__img">
+      <img src="/content/dam/sites/kaousa/www-johnfrieda-com/images/product-callout.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+    </p>
+    <p class="g-Image__img l-Image__img">
+      <img src="/content/dam/sites/kaousa/www-johnfrieda-com/images/product-callout.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+    </p>
+    <p class="g-Image__img l-Image__img">
+      <img src="/content/dam/sites/kaousa/www-johnfrieda-com/images/product-callout.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+    </p>
+    <p class="g-Image__img l-Image__img">
+      <img src="/content/dam/sites/kaousa/www-johnfrieda-com/images/product-callout.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+    </p>
+    <p class="g-Image__img l-Image__img">
+      <img src="/content/dam/sites/kaousa/www-johnfrieda-com/images/product-callout.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+    </p>
+  </div>
+  <!-- / area-Contents -->
+
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

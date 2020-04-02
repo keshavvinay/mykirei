@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* Overlay ================================================== */
+.g-overlay {
+  z-index: 1000;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+}
+.g-modal {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.g-modal__inner {
+}
+.g-modal__contents {
+  padding: 10px 15px 22px 15px;
+}
+.g-modal__close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+}
+.g-modal__close__link {
+  display: block;
+  padding: 11px 13px;
+}
+.g-modal__contents__button {
+  display: block;
+  width: 100%;
+  height: 44px;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+/* Modal--share ================================================== */
+.g-modal--share {
+  .g-modal__contents__title {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+  }
+}
+.g-modal__contents__shareList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.g-modal__contents__shareList__item {
+  padding-bottom: 20px;
+}
+.g-modal__contents__shareList__input {
+  border: 1px solid #ccc;
+  padding: 0 4px;
+  font-size: 16px;
+  width: 95%;
+  height: 26px;
+}

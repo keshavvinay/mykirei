@@ -1,0 +1,87 @@
+.unsubscribe-section {
+  .l-PageTitle__h1 {
+    line-height: normal;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .unsubscribe-section {
+    margin: 96px 17.5%;
+  }
+
+  .unsub-page-title {
+    margin: auto;
+  }
+
+  .unsubscribe-section {
+    .l-PageTitle__h1 {
+      letter-spacing: 0.5px;
+    }
+    .g-PageTitle__titleBlock__titleBox__title {
+      margin-bottom: 0px;
+    }
+  }
+
+  .unsub-bottom-text {
+    margin: auto;
+    margin-top: 5.4%;
+    margin-bottom: 0px;
+  }
+
+  .unsub-image {
+    margin: auto;
+    width: 47.5%;
+    padding-top: 62px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .unsubscribe-section .g-Column__cols.l-Column__cols.g-Column__cols-lg-1.g-Column__cols-md-1.g-Column__cols-sm-1 {
+    padding-bottom: 0px;
+  }
+
+  .unsub-page-title {
+    margin-top: 44px;
+    margin-bottom: auto;
+  }
+
+  .unsub-image {
+    padding-top: 31px;
+    width: 72.8%;
+    margin: auto;
+  }
+
+  .unsub-bottom-text {
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .unsubscribe-section {
+    padding: 0% 4%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 641px) {
+  .unsub-page-title {
+    padding-top: 70px;
+    margin: auto;
+    width: 93.8%;
+  }
+
+  .unsub-image {
+    width: 43.5%;
+    margin: auto;
+    padding-top: 26px;
+  }
+
+  .unsub-bottom-text {
+    width: 93.8%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 122.2px;
+    width: 59%;
+  }
+
+  .unsub-image {
+    width: 36.3%;
+  }
+}

@@ -1,0 +1,520 @@
+@charset "UTF-8";
+/**
+ * @license
+ * MyFonts Webfont Build ID 3320221, 2016-12-12T20:50:04-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: MrsEavesOT-Roman by Emigre
+ * URL: http://www.myfonts.com/fonts/emigre/mrs-eaves-ot/ot-roman/
+ * Copyright: Copyright (c) Emigre Graphics, 1996. All rights reserved.
+ * Licensed pageviews: 100,000
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3320221
+ *
+ * © 2016 MyFonts Inc
+*/
+/*
+ KMS-font-family
+ @param $fontType (title, subTitle, body)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.kmsBrandHeader {
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+body {
+  color: #000; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%; }
+  @media screen and (min-width: 641px) {
+    .wrapper {
+      width: 77%; } }
+
+.section-search {
+  margin-top: 130px;
+  margin-bottom: 60px; }
+
+@media screen and (min-width: 641px) {
+  .search {
+    display: -webkit-box;
+    display: flex; } }
+
+.search__input {
+  outline: 0;
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #d9d9d6;
+  color: #000;
+  font-family: "DIN 1451 ENGSCHRIFT";
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: normal; }
+  html[lang^=zh] .search__input {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+  html[lang^=zh_hk] .search__input {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+  html[lang^=zh_tw] .search__input {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+  @media screen and (min-width: 641px) and (max-width: 1025px) {
+    .search__input {
+      font-size: 24px;
+      line-height: 1; } }
+  @media screen and (min-width: 1025px) {
+    .search__input {
+      font-size: 16px;
+      line-height: 1.6; } }
+  @media screen and (min-width: 1025px) {
+    .search__input {
+      width: 310px;
+      height: 30px; } }
+  .search__input::-webkit-input-placeholder {
+    color: #000;
+    font-family: "DIN 1451 ENGSCHRIFT";
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #d9d9d6; }
+    html[lang^=zh] .search__input::-webkit-input-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+    html[lang^=zh_hk] .search__input::-webkit-input-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+    html[lang^=zh_tw] .search__input::-webkit-input-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+    @media screen and (min-width: 641px) and (max-width: 1025px) {
+      .search__input::-webkit-input-placeholder {
+        font-size: 24px;
+        line-height: 1; } }
+    @media screen and (min-width: 1025px) {
+      .search__input::-webkit-input-placeholder {
+        font-size: 16px;
+        line-height: 1.6; } }
+  .search__input:-ms-input-placeholder {
+    color: #000;
+    font-family: "DIN 1451 ENGSCHRIFT";
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #d9d9d6; }
+    html[lang^=zh] .search__input:-ms-input-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+    html[lang^=zh_hk] .search__input:-ms-input-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+    html[lang^=zh_tw] .search__input:-ms-input-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+    @media screen and (min-width: 641px) and (max-width: 1025px) {
+      .search__input:-ms-input-placeholder {
+        font-size: 24px;
+        line-height: 1; } }
+    @media screen and (min-width: 1025px) {
+      .search__input:-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 1.6; } }
+  .search__input::-moz-placeholder {
+    color: #000;
+    font-family: "DIN 1451 ENGSCHRIFT";
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #d9d9d6; }
+    html[lang^=zh] .search__input::-moz-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+    html[lang^=zh_hk] .search__input::-moz-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+    html[lang^=zh_tw] .search__input::-moz-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+    @media screen and (min-width: 641px) and (max-width: 1025px) {
+      .search__input::-moz-placeholder {
+        font-size: 24px;
+        line-height: 1; } }
+    @media screen and (min-width: 1025px) {
+      .search__input::-moz-placeholder {
+        font-size: 16px;
+        line-height: 1.6; } }
+  .search__input::-placeholder {
+    color: #000;
+    font-family: "DIN 1451 ENGSCHRIFT";
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #d9d9d6; }
+    html[lang^=zh] .search__input::-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+    html[lang^=zh_hk] .search__input::-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+    html[lang^=zh_tw] .search__input::-placeholder {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+    @media screen and (min-width: 641px) and (max-width: 1025px) {
+      .search__input::-placeholder {
+        font-size: 24px;
+        line-height: 1; } }
+    @media screen and (min-width: 1025px) {
+      .search__input::-placeholder {
+        font-size: 16px;
+        line-height: 1.6; } }
+
+.search__submit {
+  box-sizing: border-box;
+  display: block;
+  cursor: pointer;
+  border-radius: 0;
+  padding: 0 30px;
+  border: 1px solid #000;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: auto; }
+  .search__submit span {
+    font-family: "DIN 1451 ENGSCHRIFT";
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-size: 18px;
+    line-height: 40px; }
+    html[lang^=zh] .search__submit span {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+    html[lang^=zh_hk] .search__submit span {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+    html[lang^=zh_tw] .search__submit span {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+    @media screen and (min-width: 641px) and (max-width: 1025px) {
+      .search__submit span {
+        font-size: 20px;
+        line-height: 40px; } }
+    @media screen and (min-width: 1025px) {
+      .search__submit span {
+        font-size: 15px;
+        line-height: 30px; } }
+  @media screen and (min-width: 641px) and (max-width: 1025px) {
+    .search__submit {
+      margin-left: 25px;
+      margin-top: 0; } }
+  @media screen and (min-width: 1025px) {
+    .search__submit {
+      margin-left: 35px;
+      margin-top: 0; } }
+
+.section-resultHeader {
+  margin-bottom: 60px; }
+  @media screen and (min-width: 1025px) {
+    .section-resultHeader {
+      margin-bottom: 0; } }
+
+.result__header__text {
+  color: #000;
+  font-family: "DIN 1451 ENGSCHRIFT";
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+  html[lang^=zh] .result__header__text {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+  html[lang^=zh_hk] .result__header__text {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+  html[lang^=zh_tw] .result__header__text {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+  @media screen and (min-width: 641px) and (max-width: 1025px) {
+    .result__header__text {
+      font-size: 24px;
+      line-height: 1; } }
+  @media screen and (min-width: 1025px) {
+    .result__header__text {
+      font-size: 16px;
+      line-height: 1.6; } }
+
+.result__header__tag {
+  font-family: "DIN 1451 ENGSCHRIFT";
+  color: #fe5000;
+  font-size: 50px;
+  line-height: 35px; }
+  html[lang^=zh] .result__header__tag {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+  html[lang^=zh_hk] .result__header__tag {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+  html[lang^=zh_tw] .result__header__tag {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+
+.section-result {
+  margin-bottom: 60px; }
+  @media screen and (min-width: 1025px) {
+    .section-result {
+      padding-top: 60px; } }
+
+.result__catTitle {
+  font-family: "SMUDGER";
+  font-size: 50px;
+  line-height: 35px;
+  margin-bottom: 30px; }
+  html[lang^=zh] .result__catTitle {
+    font-family: interpolate-variable("kms_fontFamily_title--zh"); }
+  html[lang^=zh_hk] .result__catTitle {
+    font-family: interpolate-variable("kms_fontFamily_title--zh_hk"); }
+  html[lang^=zh_tw] .result__catTitle {
+    font-family: interpolate-variable("kms_fontFamily_title--zh_tw"); }
+
+.result__inner {
+  position: relative;
+  margin-bottom: 60px; }
+  .result__inner:after {
+    content: "";
+    background-color: #d9d9d6;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: -30px; }
+  @media screen and (min-width: 1025px) {
+    .result__inner {
+      width: 470px; } }
+
+.result__subTitle {
+  color: #000;
+  font-family: "DIN 1451 ENGSCHRIFT";
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+  html[lang^=zh] .result__subTitle {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+  html[lang^=zh_hk] .result__subTitle {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+  html[lang^=zh_tw] .result__subTitle {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+  @media screen and (min-width: 641px) and (max-width: 1025px) {
+    .result__subTitle {
+      font-size: 24px;
+      line-height: 1; } }
+  @media screen and (min-width: 1025px) {
+    .result__subTitle {
+      font-size: 16px;
+      line-height: 1.6; } }
+  .result__subTitle .result__subTitle__keyword {
+    color: #fe5000; }
+
+.result__URL {
+  margin-bottom: 30px; }
+
+.result__URL__link {
+  color: #7a7b75;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 1.4; }
+  .result__URL__link:focus, .result__URL__link:visited {
+    color: #7a7b75; }
+
+.result__desc {
+  font-family: "MrsEavesOT-Roman";
+  letter-spacing: normal;
+  font-size: 16px;
+  line-height: 24px; }
+  html[lang^=zh] .result__desc {
+    font-family: interpolate-variable("kms_fontFamily--zh"); }
+  html[lang^=zh_hk] .result__desc {
+    font-family: interpolate-variable("kms_fontFamily--zh_hk"); }
+  html[lang^=zh_tw] .result__desc {
+    font-family: interpolate-variable("kms_fontFamily--zh_tw"); }
+  @media screen and (min-width: 1025px) {
+    .result__desc {
+      font-size: 14px;
+      line-height: 21px; } }
+  .result__desc .result__desc__keyword {
+    font-weight: 700; }
+
+.section-loadMore {
+  height: 40px;
+  margin-left: -10%;
+  margin-right: -10%;
+  position: relative; }
+  .section-loadMore:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000; }
+  @media screen and (min-width: 1025px) {
+    .section-loadMore {
+      padding-top: 30px; } }
+
+.loadMore__link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  background-color: #fff;
+  z-index: 100; }
+
+.loadMore__link__text {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #000; }
+
+.section-countrySelector {
+  margin-top: 30px;
+  margin-bottom: 290px; }
+
+.countrySelector__inner {
+  position: relative; }
+  @media screen and (min-width: 641px) {
+    .countrySelector__inner {
+      margin: 0 auto;
+      max-width: 290px; } }
+  @media screen and (min-width: 1025px) {
+    .countrySelector__inner {
+      max-width: 310px; } }
+
+.countrySelector__info {
+  margin-bottom: 30px;
+  font-family: "MrsEavesOT-Roman";
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em; }
+  html[lang^=zh] .countrySelector__info {
+    font-family: interpolate-variable("kms_fontFamily--zh"); }
+  html[lang^=zh_hk] .countrySelector__info {
+    font-family: interpolate-variable("kms_fontFamily--zh_hk"); }
+  html[lang^=zh_tw] .countrySelector__info {
+    font-family: interpolate-variable("kms_fontFamily--zh_tw"); }
+
+.countrySelector__select {
+  color: #000;
+  font-family: "DIN 1451 ENGSCHRIFT";
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase; }
+  html[lang^=zh] .countrySelector__select {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+  html[lang^=zh_hk] .countrySelector__select {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+  html[lang^=zh_tw] .countrySelector__select {
+    font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+  @media screen and (min-width: 641px) and (max-width: 1025px) {
+    .countrySelector__select {
+      font-size: 24px;
+      line-height: 1; } }
+  @media screen and (min-width: 1025px) {
+    .countrySelector__select {
+      font-size: 16px;
+      line-height: 1.6; } }
+  .countrySelector__select:after {
+    position: absolute;
+    content: "";
+    right: 10px;
+    top: 42%;
+    width: 10px;
+    height: 10px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    -webkit-transform: translateY(-42%) rotate(-45deg);
+            transform: translateY(-42%) rotate(-45deg); }
+  .visible .countrySelector__select:after {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg); }
+
+.countrySelector__list {
+  position: absolute;
+  display: none; }
+  .visible .countrySelector__list {
+    display: block;
+    height: 240px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #000; }
+  .countrySelector__list::-webkit-scrollbar {
+    width: 5px; }
+  .countrySelector__list::-webkit-scrollbar-track {
+    background-color: #d9d9d6; }
+  .countrySelector__list::-webkit-scrollbar-thumb {
+    background-color: #000; }
+
+.countrySelector__list__item {
+  border-bottom: 1px solid #d9d9d6; }
+  .countrySelector__list__item:last-child {
+    border-bottom: none; }
+  .countrySelector__list__item a {
+    display: block;
+    color: #000;
+    font-family: "DIN 1451 ENGSCHRIFT";
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px; }
+    html[lang^=zh] .countrySelector__list__item a {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh"); }
+    html[lang^=zh_hk] .countrySelector__list__item a {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_hk"); }
+    html[lang^=zh_tw] .countrySelector__list__item a {
+      font-family: interpolate-variable("kms_fontFamily_subTitle--zh_tw"); }
+    @media screen and (min-width: 641px) and (max-width: 1025px) {
+      .countrySelector__list__item a {
+        font-size: 24px;
+        line-height: 1; } }
+    @media screen and (min-width: 1025px) {
+      .countrySelector__list__item a {
+        font-size: 16px;
+        line-height: 1.6; } }

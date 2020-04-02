@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+
+/* TwitterPost ================================================== */
+.l-TwitterPost {
+  &.is-colorset--1 {
+    color: $twitterPost__text--01;
+    .cmn-icon {
+      color: $twitterPost__icon--01;
+    }
+    .l-TwitterPostUnit {
+      border-color: $twitterPost__border--01;
+    }
+    .l-TwitterPost__contentsBlock__links__item__link,
+    .l-TwitterPost__contentsBlock__visit__link,
+    .l-TwitterPost__contentsBlock__tweet a {
+      color: $twitterPost__link--01;
+      &:link {
+        color: $twitterPost__link--01;
+      }
+      &:visited {
+        color: $twitterPost__link--01--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $twitterPost__link--01--hover;
+      }
+    }
+  }
+  &.is-colorset--2 {
+    color: $twitterPost__text--02;
+    .cmn-icon {
+      color: $twitterPost__icon--02;
+    }
+    .l-TwitterPostUnit {
+      border-color: $twitterPost__border--02;
+    }
+    .l-TwitterPost__contentsBlock__links__item__link,
+    .l-TwitterPost__contentsBlock__visit__link,
+    .l-TwitterPost__contentsBlock__tweet a {
+      color: $twitterPost__link--02;
+      &:link {
+        color: $twitterPost__link--02;
+      }
+      &:visited {
+        color: $twitterPost__link--02--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $twitterPost__link--02--hover;
+      }
+    }
+  }
+}
+.l-TwitterPost__contentsBlock {
+}
+.l-TwitterPost__contentsBlock__image {
+}
+.l-TwitterPost__contentsBlock__date {
+}
+.l-TwitterPost__contentsBlock__tweet {
+}
+.l-TwitterPost__contentsBlock__links {
+}
+.l-TwitterPost__contentsBlock__links__item {
+}

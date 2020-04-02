@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+/* iP ============================== */
+
+////////////////////////////////////
+//
+// Q&Aメインイメージセクション
+//
+////////////////////////////////////
+.ip-drink-qa__lead__title__column {
+  .g-Column__cols {
+    padding-top: 0;
+  }
+}
+.ip-drink-qa__lead__column.g-Column {
+  margin: 10px 50px 0;
+  width: auto;
+  @include bp(sm) {
+    margin: 10px 0;
+  }
+}
+.ip-drink-qa__lead__image {
+  width: 376px;
+  text-align: center;
+  .l-Image__img {
+    display: inline-block;
+    width: 247px;
+  }
+  @include bp(md) {
+    width: auto;
+  }
+  @include bp(sm) {
+    width: auto;
+    .l-Image__img {
+      width: 38.5%;
+    }
+  }
+}
+.ip-drink-qa__lead__anchors {
+  &.g-ColumnUnit {
+    box-sizing: content-box;
+  }
+  width: 382px;
+  height: auto !important;
+  padding: 28px 0 20px 28px;
+  border-top: 1px solid $colorLink_ip;
+  border-bottom: 1px solid $colorLink_ip;
+  .l-LinkButton__link {
+    font-family: $fontFamily_Mincho;
+  }
+  @include bp(md) {
+    width: auto;
+  }
+  @include bp(sm) {
+    width: auto;
+    padding: 15px 0 9px;
+    .l-LinkButton__link {
+      font-family: $fontFamily;
+    }
+  }
+}
+.ip-drink-qa__lead__anchor__item {
+  margin-bottom: 14px;
+  &.is-link {
+    .l-LinkButton__link {
+      position: relative;
+      padding-left: 34px;
+      @include fontSizeNum(16);
+      line-height: 1.5;
+      text-decoration: none;
+      &:after {
+        position: absolute;
+        display: block;
+        font-family: 'icomoon-ip';
+        content: "\e609";
+        width: 24px;
+        height: 24px;
+        left: 0;
+        top: 12px;
+        margin-top: -12px;
+        background-color: $colorMain_05;
+        @include border-radius(50%);
+        color: $colorLink_ip;
+        @include fontSizeNum(14);
+        line-height: 24px;
+        text-align: center;
+      }
+      &:link, &:visited {
+        color: $colorLink_ip;
+      }
+    }
+  }
+  @include bp(sm) {
+    margin-bottom: 8px;
+    .l-LinkButton__link {
+      padding-left: 22px;
+      @include fontSizeNum(14);
+      &:after {
+        width: 16px;
+        height: 16px;
+        top: 10px;
+        margin-top: -8px;
+        @include fontSizeNum(10);
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+////////////////////////////////////
+//
+// Q&A Answerセクション
+//
+////////////////////////////////////
+.ip-drink-qa__answer__section {
+}
+.ip-drink-qa__answer__column {
+  margin-bottom: 60px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @include bp(sm) {
+    margin-bottom: 28px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.ip-drink-qa__answer__title.g-HeadingTitle {
+  @extend .ip-bullet__title;
+  margin-bottom: 20px;
+  .g-HeadingTitle__titleBlock__titleBox {
+    display: block;
+  }
+  @include bp(sm) {
+    .l-HeadingTitle__h2 {
+      .cmn-richtext {
+        @include fontSizeNum(14);
+      }
+    }
+    .l-HeadingTitle__titleBlock__imageBox {
+      top: -6px;
+    }
+  }
+}
+
+.ip-drink-qa__answer__item {
+  border: 1px solid $colorLine_01;
+  margin-bottom: 10px;
+}
+.ip-drink-qa__answer__item__q {
+  display: block;
+  position: relative;
+  background-color: $colorMain_05;
+  text-decoration: none;
+  &:after {
+    position: absolute;
+    display: block;
+    font-family: 'icomoon-ip';
+    content: "\e601";
+    width: 24px;
+    height: 24px;
+    right: 20px;
+    top: 50%;
+    margin-top: -12px;
+    background-color: $colorLink_ip;
+    @include border-radius(50%);
+    color: $colorFont_light;
+    @include fontSizeNum(12);
+    line-height: 24px;
+    text-align: center;
+  }
+  &.js-is-open {
+    &:after {
+      content: "\e600";
+    }
+  }
+  dl {
+    position: relative;
+    padding: 10px 49px 10px 69px;
+  }
+  dt {
+    position: absolute;
+    left: 42px;
+    top: 10px;
+    @include fontSizeNum(18);
+    line-height: 24px;
+    color: $colorLink_ip;
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      font-family: $fontFamily;
+    }
+  }
+  dd {
+    @include fontSizeNum(16);
+    line-height: 24px;
+    color: $colorFont_dark;
+    font-family: $fontFamily_Gothic;
+  }
+  @include bp(sm) {
+    &:after {
+      width: 20px;
+      height: 20px;
+      right: 9px;
+      margin-top: -10px;
+      @include fontSizeNum(10);
+      line-height: 20px;
+    }
+    dl {
+      padding: 6px 38px 6px 27px;
+    }
+    dt {
+      left: 9px;
+      top: 6px;
+      @include fontSizeNum(12);
+      line-height: 18px;
+    }
+    dd {
+      @include fontSizeNum(12);
+      line-height: 18px;
+    }
+  }
+}
+.ip-drink-qa__answer__item__a {
+  dl {
+    position: relative;
+    padding: 27px 49px 27px 69px;
+  }
+  dt {
+    position: absolute;
+    left: 42px;
+    top: 27px;
+    @include fontSizeNum(18);
+    line-height: 21px;
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      font-family: $fontFamily;
+    }
+  }
+  dd {
+    @include fontSizeNum(14);
+    line-height: 21px;
+  }
+  @include bp(sm) {
+    dl {
+      padding: 11px 9px 11px 27px;
+    }
+    dt {
+      left: 9px;
+      top: 11px;
+      @include fontSizeNum(12);
+      line-height: 18px;
+    }
+    dd {
+      @include fontSizeNum(12);
+      line-height: 18px;
+    }
+  }
+}
+
+.ip-drink-qa__anchor__pagetop {
+  margin-bottom: 0;
+  font-family: $fontFamily_Gothic;
+  &.is-link {
+    .l-LinkButton__link:link {
+      padding-left: 24px;
+      text-decoration: none;
+      @include fontSizeNum(14);
+      line-height: 1.5;
+      color: $colorFont_dark;
+      &:after {
+        position: absolute;
+        font-family: 'icomoon-ip';
+        color: $colorLink_ip;
+        content: "\e607";
+        left: 0;
+        top: 0;
+      }
+      @include bp(sm) {
+        @include fontSizeNum(12);
+        line-height: 1.25;
+      }
+    }
+    .l-LinkButton__link:visited {
+      color: $colorFont_dark;
+    }
+  }
+}
+
+.ip-drink-qa__answer__item__memo {
+  @include fontSizeNum(12);
+  position: relative;
+  top: -6px;
+  @include bp(sm) {
+    @include fontSizeNum(10);
+    top: -4px;
+  }
+}
+
+.ip-drink-qa__answer__item__notice {
+  @include fontSizeNum(12);
+  @include bp(sm) {
+    @include fontSizeNum(10);
+  }
+}
+
+.ip-drink-qa__answer__shopLink {
+  display: inline-block;
+  margin-bottom: 0;
+  .l-TextLinkP__list {
+    display: block;
+  }
+  .l-TextLinkP__list__item {
+    display: block;
+  }
+  .l-TextLinkUnit {
+    position: relative;
+    display: block;
+  }
+  .l-TextLinkUnit__link:link {
+    @include fontSizeNum(14);
+    color: $colorLink_ip;
+    @include bp(sm) {
+      @include fontSizeNum(12);
+    }
+  }
+  .l-TextLinkUnit__link:visited {
+    color: $colorLink_ip;
+  }
+  .cmn-icon--bullet {
+    top: 50%;
+    &:before {
+      @include link_arrow_2($colorLink_ip, $colorMain_05);
+      left: 0;
+      right: auto;
+    }
+  }
+}

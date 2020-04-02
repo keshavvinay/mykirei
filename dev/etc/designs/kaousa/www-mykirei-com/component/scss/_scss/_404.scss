@@ -1,0 +1,118 @@
+.mykirei-404page-section2-column {
+  .g-Column__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .g-Column__cols {
+    width: 100%;
+  }
+}
+
+.mykirei-404page-section2 .g-Section__inner {
+  padding: 2.4% 3.6% 0 3.6%;
+}
+
+.mykirei-404page-section2-column2 {
+  .g-TileLinkVUnit__leadBlock__title .g-Text {
+    margin-bottom: 0;
+    font-family: cerapro-regular;
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  .g-HeadingTitle, .g-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }
+}
+
+.mykirei-404page-section1 .l-Section__inner {
+  padding: 4.8% 20.8% 1.8%;
+}
+
+.mykirei-404page-section1-pagetitle {
+  width: 86.1%;
+  margin: auto;
+
+  .g-PageTitle__titleBlock__titleBox__title {
+    margin-bottom: 26px;
+  }
+
+  .g-PageTitle__h1 {
+    line-height: normal;
+  }
+}
+
+.mykirei-404page-section2-column2 .g-TileLinkVUnit__leadBlock__title .g-Text .cmn-richtext {
+  letter-spacing: 1px !important;
+  line-height: normal;
+  line-height: 1.22;
+}
+
+@media (min-width: 1025px) {
+  .mykirei-404page-section1-pagetitle .g-PageTitle__h1 {
+    letter-spacing: 0.5px;
+  }
+
+  .mykirei-404page-section2-column2 .g-TileLinkVUnit__leadBlock__title .g-Text .cmn-richtext {
+    line-height: normal;
+  }
+}
+
+@media (max-width: 640px) {
+  .mykirei-404page-section2-column2 .g-TileLinkVUnit__leadBlock__title .g-Text {
+    font-size: 18px;
+  }
+
+  .mykirei-404page-section1 .l-Section__inner {
+    padding: 11.8% 4.9% 69px;
+  }
+
+  .mykirei-404page-section2-column2 {
+    .g-TileLinkVUnit {
+      padding: 0;
+    }
+
+    .g-Image .g-Image__img--sm img {
+      width: 100% !important;
+    }
+  }
+
+  .mykirei-404page-section2 .g-Section__inner {
+    padding: 0 8.6% 0 9.1%;
+  }
+
+  .mykirei-404page-section2-column2 .g-TileLinkVUnit__leadBlock__title {
+    line-height: 1.22;
+
+    .g-Text {
+      margin-bottom: 22px;
+
+      .cmn-richtext {
+        line-height: 1.22;
+      }
+    }
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .mykirei-404page-section2-column2 .g-TileLinkVUnit__leadBlock__title .g-Text {
+    font-size: 18px;
+  }
+
+  .mykirei-404page-section2 .g-Section__inner {
+    padding: 2.4% 20px 6.2% 20px;
+  }
+
+  .mykirei-404page-section2-column2 .g-TileLinkVUnit {
+    padding: 0px 11px 0px;
+  }
+
+  .mykirei-404page-section1 .l-Section__inner {
+    padding: 10.8% 3.8% 6.2%;
+  }
+
+  .mykirei-404page-section2-column2 .g-TileLinkVUnit__leadBlock__title {
+    line-height: 1.22;
+  }
+}

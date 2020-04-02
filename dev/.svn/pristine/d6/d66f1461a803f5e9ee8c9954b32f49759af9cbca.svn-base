@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/*****************************
+  Corporate option
+ *****************************/
+
+.opt-corp-lg-section80 {
+  @include bp(lg) {
+    .l-Section__inner {
+      width: 80%;
+    }
+  }
+}

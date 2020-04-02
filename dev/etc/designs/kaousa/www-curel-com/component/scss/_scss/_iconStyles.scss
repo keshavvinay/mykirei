@@ -1,0 +1,72 @@
+.cmn-icon {
+    &.g-TextLinkUnit__link__icon {
+        &::before {
+            font-family: icomoon;
+        }
+    }
+    &.cmn-icon--right, &.cmn-icon--bullet {
+        &::before {
+            content: '\f0da';
+        }
+    }
+    &.cmn-icon--left {
+        &::before {
+            content: '\f0d9';
+        }
+    }
+    &.cmn-icon--external {
+        &::before {
+            content: '\f0da';
+        }
+    }
+}
+.is-colorset--1 {
+    .cmn-icon {
+        &.g-TextLinkUnit__link__icon {
+            &::before {
+                color: #0098b1;
+            }
+        }
+    }
+    &:hover, &:focus, &:visited {
+        .cmn-icon {
+            &.g-TextLinkUnit__link__icon {
+                &::before {
+                    color: #eb2d97;
+                }
+            }
+        } 
+    }
+}
+.is-colorset--2 {
+    .cmn-icon {
+        &.g-TextLinkUnit__link__icon {
+            &::before {
+                color: #eb2d97;
+            }
+        }
+    }
+    &:hover, &:focus, &:visited {
+        .cmn-icon {
+            &.g-TextLinkUnit__link__icon {
+                &::before {
+                    color: #0098b1;
+                }
+            }
+        } 
+    }
+}
+.is-rightIcon {
+    .g-TextLinkUnit__link{
+        &>.cmn-richtext {
+            padding-right: 1em;
+        }
+    }
+}
+.is-leftIcon {
+    .g-TextLinkUnit__link{
+        &>.cmn-richtext {
+            padding-left: 1em;
+        }
+    }
+}

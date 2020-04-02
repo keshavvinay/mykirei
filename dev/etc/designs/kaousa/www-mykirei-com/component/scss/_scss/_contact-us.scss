@@ -1,0 +1,442 @@
+.kirei-contact-us-page-title-section-wrapper {
+    img {
+        width: 100% !important;
+    }
+    .g-PageTitle__h1 {
+        line-height: normal;
+        letter-spacing: normal;
+    }
+}
+
+.kirei-contact-us-content-section-wrapper {
+    .g-HeadingTitle {
+        margin-bottom: 15px;
+    }
+    .g-HeadingTitle__h3 {
+        line-height: normal;
+    }
+    .g-HeadingTitle__titleBlock__titleBox__title {
+        margin: 0;
+    }
+}
+
+.kirei-contact-us-form-section-wrapper {
+    margin: auto;
+    .kirei-contact-us-form-heading {
+        .kirei-contact-us-form-required {
+            float: right;
+            margin-right: 2px;
+            margin-bottom: 0;
+        }
+        .g-HeadingTitle__h3 {
+            line-height: normal;
+        }
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin: 0;
+        }
+    }
+    .mykirei_contact_us_form {
+        .g-GroupBox {
+            &:not(.form-birthdate-phone):not(.form-upc-mfg-code):not(.form-question-comment) {
+                width: 100%;
+                margin-bottom: 10px;
+                display: inline-block;
+            }
+            &.form-birthdate-phone {
+                width: 100%;
+                display: inline-block;
+            }
+            &.form-upc-mfg-code {
+                width: 100%;
+                display: inline-block;
+                position: relative;
+            }
+            &.form-question-comment {
+                width: 100%;
+                display: inline-block;
+            }
+            .form_row {
+                display: inline-block;
+            }
+            .form_row_description {
+                display: none;
+            }
+            .form_leftcol,
+            .birthText .cmn-richtext {
+                margin-bottom: 5px;
+            }
+            .form_leftcolmark {
+                display: none;
+            }
+            .form_field_text {
+                width: calc(100% - 22px);
+                border-radius: 5px;
+                border: solid 1px #979797;
+                background-color: transparent;
+            }
+            &:not(.form-question-comment) .form_field_text {
+                height: 42px;
+                padding: 0 10px;
+            }
+            &.form-question-comment .form_field_text {
+                height: 103px;
+                padding: 10px;
+            }
+            .form_field_select {
+                width: 100%;
+                border-radius: 5px;
+                border: solid 1px #979797;
+                background-color: transparent;
+                height: 44px;
+                padding: 0 10px;
+            }
+            .form_rightcol {
+                position: relative;
+            }
+        }
+        .form_button_submit {
+            padding: 0;
+            height: 40px;
+            border: solid 1px #6d6c6c;
+            background-color: transparent;
+            margin: auto;
+            display: block;
+            font-size: 12px;
+            letter-spacing: 2px;
+            &:hover {
+                background-color: #404144 !important;
+                color: #f9f9f9 !important;
+            }
+        }
+        .error {
+            &:not(label) {
+                border: 1px solid #a8483d !important;
+            }
+            &:not(.form_field_text):not(.form_field_select) {
+                color: #a8483d;
+                margin-left: 22px;
+            }
+        }
+        .form-error-msg-text,
+        .error_submit.error {
+            display: none;
+        }
+        .form-terms-text a {
+            color: #a8483d !important;
+            text-decoration: underline;
+        }
+        .g-GroupBox.form-upc-mfg-code {
+            .product-code-text {
+                display: none;
+                position: absolute;
+                z-index: 1;
+                border-radius: 5px;
+                padding: 15px 0;
+                bottom: 100%;
+                right: 0;
+                left: 0;
+                .cmn-richtext {
+                    position: relative;
+                    padding: 0 15px;
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    border-width: 5px;
+                    border-style: solid;
+                }
+                .g-Image {
+                    width: 40%;
+                    margin: 10px auto 0;
+                }
+            }
+            #product_upc_text {
+                background-color: #f7d7cf;
+                color: #404144;
+                &::after {
+                    border-color: #f7d7cf transparent transparent transparent;
+                }
+            }
+            #product_mfg_text {
+                background-color: #f7d7cf;
+                color: #404144;
+                margin-left: auto;
+                &::after {
+                    border-color: #f7d7cf transparent transparent transparent;
+                }
+            }
+            #upc_info_button,
+            #mfg_info_button {
+                background-color: #a8483d;
+                color: #fff;
+                border: none;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                line-height: 0;
+                outline: none;
+                font-family: CeraPro-Regular, sans-serif;
+            }
+        }
+    }
+}
+
+@media (min-width: 641px) {
+    .kirei-contact-us-content-section-wrapper {
+        margin: 0 auto 15px;
+        .g-Column__cols:nth-last-child(1) {
+            float: right;
+        }
+    }
+    .kirei-contact-us-form-section-wrapper {
+        .kirei-contact-us-form-heading .g-HeadingTitle {
+            margin: 0;
+        }
+        .mykirei_contact_us_form {
+            .g-GroupBox {
+                &.form-birthdate-phone,
+                &.form-upc-mfg-code,
+                &.form-question-comment {
+                    margin-bottom: 30px;
+                }
+                .birthText {
+                    display: inline-block;
+                    margin: 0;
+                }
+                &:not(.form-question-comment) .birthText .form_row:nth-child(2) {
+                    float: left;
+                }
+                &.form-question-comment .form_row {
+                    width: 100%;
+                }
+                .form_row:nth-last-child(2) {
+                    float: right;
+                }
+            }
+            .form-terms-text {
+                margin-bottom: 35px;
+            }
+            .form_button_submit {
+                width: 200px;
+            }
+            .g-GroupBox.form-upc-mfg-code {
+                #product_upc_text::after {
+                    left: 161px;
+                }
+                #product_mfg_text::after {
+                    left: 163px;
+                }
+                #upc_info_button,
+                #mfg_info_button {
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .kirei-contact-us-page-title-section-wrapper {
+        margin: 95px 0 50px;
+        /* check with keshav */
+        h1.g-PageTitle__h1.l-PageTitle__h1 {
+            letter-spacing: 0.5px;
+        }
+    }
+    .kirei-contact-us-content-section-wrapper {
+        width: 58.4%;
+        .g-Column__cols {
+            width: 48.1%;
+        }
+    }
+    .kirei-contact-us-form-section-wrapper {
+        width: 58.4%;
+        .kirei-contact-us-form-heading {
+            .kirei-contact-us-form-required {
+                margin-top: 75px;
+            }
+            .g-HeadingTitle {
+                width: 90%;
+            }
+            .g-Text:not(.kirei-contact-us-form-required) {
+                margin-bottom: 30px;
+            }
+        }
+        .mykirei_contact_us_form {
+            .g-GroupBox .birthText .cmn-richtext,
+            label {
+                font-family: CeraPro-Regular, sans-serif;
+            }
+            .g-GroupBox {
+                &:not(.form-question-comment) {
+                    .form_row {
+                        width: 48.1%;
+                    }
+                    .birthText {
+                        width: 48.1%;
+                        .form_row {
+                            width: 32.4%;
+                            &:nth-child(4) {
+                                margin-left: 1.4%;
+                            }
+                        }
+                    }
+                }
+                &.form-upc-mfg-code .product-code-text {
+                    width: 48.1%;
+                }
+            }
+            .form_button_submit {
+                margin-bottom: 104px;
+            }
+        }
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .kirei-contact-us-page-title-section-wrapper {
+        margin: 70px 0 40px;
+    }
+    .kirei-contact-us-content-section-wrapper {
+        width: 93.8%;
+        .g-Column__cols {
+            width: 48.75%;
+        }
+        .g-HeadingTitle .g-HeadingTitle__h3 {
+            line-height: normal;
+        }
+    }
+    .kirei-contact-us-form-section-wrapper {
+        width: 93.8%;
+        .kirei-contact-us-form-heading {
+            .g-HeadingTitle {
+                margin-bottom: 15px;
+                width: calc(100% - 75px);
+                .g-HeadingTitle__h3 {
+                    line-height: normal;
+                }
+            }
+            .g-Text {
+                margin-bottom: 20px;
+            }
+        }
+        .mykirei_contact_us_form {
+            .g-GroupBox {
+                &:not(.form-question-comment) {
+                    .form_row {
+                        width: 48.75%;
+                    }
+                    .birthText {
+                        width: 48.75%;
+                        .form_row {
+                            width: 32.7%;
+                            &:nth-child(4) {
+                                margin-left: 1%;
+                            }
+                        }
+                    }
+                }
+                .form_field_select {
+                    line-height: 1.5;
+                }
+                &.form-upc-mfg-code .product-code-text {
+                    width: 48.75%;
+                }
+            }
+            .form_button_submit {
+                margin-bottom: 75px;
+            }
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .kirei-contact-us-page-title-section-wrapper {
+        margin: 45px 0 37px;
+        /* check with keshav */
+    }
+    .kirei-contact-us-content-section-wrapper {
+        width: 86.1%;
+        margin: 0 auto 35px;
+        .g-Column__cols:nth-child(1) {
+            margin-bottom: 40px;
+        }
+        .g-HeadingTitle .g-HeadingTitle__h3 {
+            line-height: normal;
+        }
+    }
+    .kirei-contact-us-form-section-wrapper {
+        width: 86.1%;
+        .kirei-contact-us-form-heading {
+            .kirei-contact-us-form-required {
+                line-height: normal;
+            }
+            .g-HeadingTitle {
+                width: calc(100% - 70px);
+            }
+            .g-Text {
+                margin-bottom: 15px;
+            }
+        }
+        .mykirei_contact_us_form {
+            .g-GroupBox {
+                &.form-birthdate-phone,
+                &.form-upc-mfg-code {
+                    margin-bottom: 10px;
+                }
+                &.form-question-comment {
+                    margin-bottom: 15px;
+                }
+                .form_row {
+                    width: 100%;
+                    &:nth-last-child(2) {
+                        margin-top: 10px;
+                    }
+                }
+                .birthText {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    margin: 0;
+                    .cmn-richtext {
+                        width: 100%;
+                        margin-bottom: 5px;
+                    }
+                    .form_row:nth-last-child(2) {
+                        margin: 0;
+                    }
+                }
+                &:not(.form-question-comment) .birthText {
+                    width: 100%;
+                    .form_row {
+                        width: 32.5%;
+                    }
+                }
+            }
+            .form-terms-text {
+                margin-bottom: 35px;
+            }
+            .form_button_submit {
+                width: 100%;
+            }
+            .g-GroupBox.form-upc-mfg-code {
+                .product-code-text {
+                    width: 100%;
+                }
+                #product_upc_text::after,
+                #product_mfg_text::after {
+                    left: 142px;
+                }
+                #upc_info_button,
+                #mfg_info_button {
+                    float: right;
+                }
+            }
+            .form_button_submit {
+                line-height: 1;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

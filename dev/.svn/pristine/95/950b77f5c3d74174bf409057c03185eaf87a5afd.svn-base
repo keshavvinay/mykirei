@@ -1,0 +1,584 @@
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="花王,ソフィーナ,SOFINA,SOFINA iP,美活パワームース,土台美容液,クロロゲン酸 美活飲料" />
+  <meta name="description" content="一人ひとりがもつ＜自ら美しくなろうとする力＞に着目した、SOFINA iP。いま、全ての女性へ。" />
+  <meta property="og:title" content="花王 ソフィーナ　SOFINA iP" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="一人ひとりがもつ＜自ら美しくなろうとする力＞に着目した、SOFINA iP。いま、全ての女性へ。" />
+  <meta property="og:url" content="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip.html" />
+  <meta property="og:site_name" content="花王 ソフィーナ" />
+  <meta property="og:image" content="/etc/designs/kao/www-sofina-co-jp/ip/img/og-image.png" />
+  <title>花王 ソフィーナ　SOFINA iP</title>
+
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/kao/www-sofina-co-jp/ip/img/favicon.ico" />
+  <link rel="apple-touch-icon" href="/etc/designs/kao/www-sofina-co-jp/ip/img/apple-touch-icon.png" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/ip/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/ip/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/ip/component/css/header-footer.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/ip/option/css/option.css">
+  <!-- / css -->
+
+  <!--script-->
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/ip/component/js/header-footer.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/ip/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/ip/component/js/jquery.transit.min.js"></script>
+  <!-- debug script -->
+  <!--/script-->
+
+
+  <script src="//assets.adobedtm.com/46f7aa89c5c29a2e0a036bb0dd699ffc023b83b8/satelliteLib-cf35c269e2df9ef06ad960b4e951b4137f475ab3.js"></script>
+  <script>
+    $(document).ready(function() {
+      var updateZoomFactor = function() {
+        var orientation = "landscape";
+        var zoom = 1;
+        if (typeof(window.orientation) != "undefined") {
+          orientation = ((screen.width / screen.height) > 1) ? "landscape" : "portrait";
+          zoom = document.documentElement.clientWidth / window.innerWidth;
+          return {
+            zoom: zoom,
+            orient: orientation
+          };
+        } else {
+          if (document.documentElement.clientWidth > document.documentElement.clientHeight) {
+            orientation = "landscape";
+          } else {
+            orientation = "portrait";
+          }
+          return {
+            zoom: 1,
+            orient: orientation
+          };
+        }
+      };
+
+      var devPixelRatio = function() {
+        var retVal = 1;
+        if (window.devicePixelRatio) {
+          retVal = window.devicePixelRatio;
+        } else if (screen.deviceXDPI) {
+          retVal = window.screen.deviceXDPI / window.screen.logicalXDPI;
+        } else if ("matchMedia" in window && window.matchMedia) {
+          if (window.matchMedia("(min-resolution: 2dppx)").matches || win.matchMedia("(min-resolution: 192dpi)").matches) {
+            retVal = 2;
+          } else if (window.matchMedia("(min-resolution: 1.5dppx)").matches || window.matchMedia("(min-resolution: 144dpi)").matches) {
+            retVal = 1.5;
+          }
+        }
+        return retVal;
+      };
+
+      var updateBackground = function() {
+        // 背景画像が指定されているものを取得する
+        $(".js-dm-bgimage").each(function() {
+          var $elm = $(this);
+
+          // 背景画像URLを取得する
+          var url = $elm.data("src");
+
+          // パラメータ連結用の区切り文字を追加する
+          url += (url.indexOf("?") < 0) ? "?" : "&";
+
+          // オリジナル画像の幅を取得する
+          var orgWidth = $elm.data("widthOrg");
+
+          // background-sizeプロパティを取得する
+          var bgSize = $elm.css('backgroundSize');
+
+          // background-sizeプロパティによって画像サイズを計算する。
+          var bgRatio;
+          if (bgSize == "contain" || bgSize == "cover") {
+            bgRatio = devPixelRatio();
+            // 要素の幅を取得する
+            var elmWidth = Math.round($elm.outerWidth() * bgRatio * updateZoomFactor().zoom);
+
+            if (bgSize == "cover") {
+              // 要素の高さを取得する
+              var elmheight = Math.round($elm.outerHeight() * bgRatio * updateZoomFactor().zoom);
+              // 画像の表示高さを算出する
+              var assetheight = Math.round($elm.data("heightOrg") * bgRatio * updateZoomFactor().zoom);
+
+            }
+
+          } else if (bgSize.indexOf("px") != -1) {
+            bgRatio = devPixelRatio();
+            var widths = bgSize.substring(0, bgSize.indexOf("px"));
+            // 要素の幅を取得する
+            elmWidth = Math.round(widths * bgRatio * updateZoomFactor().zoom);
+          } else if (bgSize.indexOf("%") != -1) {
+            bgRatio = devPixelRatio();
+            var per = bgSize.substring(0, bgSize.indexOf("%"));
+            // 要素の幅を取得する
+            elmWidth = Math.round($elm.outerWidth() * (per / 100) * bgRatio * updateZoomFactor().zoom);
+          } else {
+            bgRatio = 1;
+            // 要素の幅を取得する
+            elmWidth = Math.round($elm.outerWidth() * bgRatio * updateZoomFactor().zoom);
+          }
+
+          // 前回の表示幅を取得する
+          var oldWidth = $elm.data("currentWidth");
+
+          // 幅が変わっていない場合（afterEditなど）は何もしない
+          if (oldWidth && elmWidth == oldWidth) {
+            return;
+          }
+
+          // 現在幅をデータに保存する
+          $elm.data("currentWidth", elmWidth);
+
+          // オリジナル画像の幅を超える場合はオリジナル画像、そうでなければ最適な解像度で取得する
+          if (elmWidth >= orgWidth) {
+            url = $elm.data("bgimgOrg");
+          } else if (bgSize == "cover" && elmheight > assetheight) {
+            url = (url + "hei=" + elmheight);
+          } else {
+            url = (url + "wid=" + elmWidth);
+          }
+
+          // 背景画像として設定する
+          $elm.css("background-image", "url(\"" + url + "\")");
+        });
+      }
+
+      var timer = false;
+
+      // リサイズ時に実行する処理をバインドする
+      $(window).on("load resize", function() {
+        if (timer !== false) {
+          clearTimeout(timer);
+        }
+        timer = setTimeout(updateBackground, 500);
+      });
+    });
+  </script>
+  <!--fontplus-->
+  <script type="text/javascript" src="//fontplus.aem.kao.com/accessor/script/fontplus.js?EIr0inqzQsY%3D&pm=1&aa=1" charset="utf-8"></script>
+</head>
+
+<body class="">
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div></div>
+    <div>
+      <div class="g-Area sofina-BlHeader" id="area-BlHeader">
+        <div class="g-Area__inner">
+         <div class="BlHeaderPlaceHolder" style="height: 63px;"><div class="BlHeader" data-fixedheight-lg="93" data-fixedheight-md="84" data-fixedheight-sm="63">
+          <!-- トップページ用 -->
+          <h1 class="sofina-HeaderLogo sofina-HeaderLogo--ip"><img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/header-logo-sofina-ip.png" alt="SOFINA iP" data-fixedimgsrc="header-logo-sofina-ip_s.png"></h1>
+          <a href="javascript:void(0);" class="sofina-HeaderMenu"></a>
+          <ul class="sofina-HeaderGlobalNav" style="height: 185px;">
+           <li><a href="/ip/">トップ</a></li>
+           <li><a href="/ip/mousse/">美活パワームース</a></li>
+           <li><a href="/ip/drink/">クロロゲン酸 美活飲料</a></li>
+          </ul>
+         </div></div>
+        </div>
+       </div>
+    </div>
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section l-Section ip-mainVisual__section" id="common_section_wrapper_1">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column ip-mainVisual__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit ip-mainVisual__column__unit">
+                  <div class="g-Image l-Image ip-mainVisual s7responsiveContainer" style="position : relative;">
+                    <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-main-visual-logo2.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                  </div>
+                  <div class="g-GroupBox l-GroupBox ip-banner__block">
+                    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                      <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-now-on-sale-top.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                    </div>
+                    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                      <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-est-banner.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                    </div>
+                    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                      <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-bps-banner.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                    </div>
+
+                  </div>
+                  <div class="g-Image l-Image ip-mainVisual ip-mainVisual--sp s7responsiveContainer" style="position : relative;">
+                    <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-main-visual-logo2-sp.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                  </div>
+                  <div class="g-GroupBox l-GroupBox ip-banner__block--sp">
+                    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                      <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-now-on-sale-top.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                    </div>
+                    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                      <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-est-banner.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                    </div>
+                    <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                      <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-bps-banner.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section ip-top__shop__section" id="common_section_wrapper_2">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column ip-top__shop__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit ip-top__shop__column__unit">
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section ip-top__lineup__section" id="common_section_wrapper_3">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column ip-top__lineup__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_3" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit ip-top__lineup__column__unit">
+                  <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight ip-top__lineup__tileLink" data-uniform-target="g-TileLinkHUnit__leadBlock,g-TileLinkHUnit">
+                    <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                        <a class="g-TileLinkHUnit l-TileLinkHUnit is-colorset--1 ip-top__lineup__link__item ip-top__lineup__link__mousse is-layoutL" id="common_tile_link_unit_20150930142858607_DhAx" href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/mousse.html" target="_self">
+                          <div class="g-TileLinkHUnit__inner l-TileLinkHUnit__inner">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-lg-w50p opt-md-w50p opt-sm-w50p">
+                              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-lineup-mousse.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text is-background js-dm-bgimage" data-src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-lineup-mousse-copy2.png?fmt=png-alpha" data-bgimg-org="/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-lineup-mousse-copy2.png"
+                                  data-width-org="487" data-height-org="247">
+                                  <p class="cmn-richtext">
+                                    <span>土台＊から変える。まずは10日間。 ＊お手入れのファーストステップ
+</span></p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>美活パワームース<br />
+＜土台美容液＞
+</span></p>
+                                </div>
+                              </div>
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                        <a class="g-TileLinkHUnit l-TileLinkHUnit is-colorset--1 ip-top__lineup__link__item ip-top__lineup__link__drink is-layoutL" id="common_tile_link_unit_20150930173302399_Cb3Y" href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/drink.html" target="_self">
+                          <div class="g-TileLinkHUnit__inner l-TileLinkHUnit__inner">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-lg-w50p opt-md-w50p opt-sm-w50p">
+                              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-lineup-drink.jpg" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text is-background js-dm-bgimage" data-src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-lineup-drink-copy2.png?fmt=png-alpha" data-bgimg-org="/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-lineup-drink-copy2.png" data-width-org="702"
+                                  data-height-org="208">
+                                  <p class="cmn-richtext">
+                                    <span>「自ら美しくなろうとする力」に着目。
+</span></p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>クロロゲン酸 美活飲料
+</span></p>
+                                </div>
+                              </div>
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section ip-top__passion__section" id="common_section_wrapper_4">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column ip-top__passion__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_4" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit ip-top__passion__column__unit">
+                  <div class="g-HeadingTitle l-HeadingTitle is-layoutL ip-top__passion__title g-HeadingTitle--h2 l-HeadingTitle--h2">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+      <span>SOFINA iPに込めた想い<small>開発担当者が語るSOFINA iPの魅力とは。</small>
+</span></span></h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight ip-top__passion__tileLink" data-uniform-target="g-TileLinkHUnit__leadBlock,g-TileLinkHUnit">
+                    <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                        <a class="g-TileLinkHUnit l-TileLinkHUnit is-colorset--1 ip-top__passion__link__item is-layoutL" id="common_tile_link_unit_20150930173327992_gFHc" href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/mousse.html#rd" target="_self">
+                          <div class="g-TileLinkHUnit__inner l-TileLinkHUnit__inner">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-lg-w30p opt-md-w50p opt-sm-w50p">
+                              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-mousse-desire-photo.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>一人でも多くの女性に、感動を。
+</span></p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>美活パワームース　＜土台美容液＞<br />
+開発担当　築地綾乃
+</span></p>
+                                </div>
+                              </div>
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                        <a class="g-TileLinkHUnit l-TileLinkHUnit is-colorset--1 ip-top__passion__link__item is-layoutL" id="common_tile_link_unit_20150930173336458_AuQm" href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/drink.html#rd" target="_self">
+                          <div class="g-TileLinkHUnit__inner l-TileLinkHUnit__inner">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-lg-w30p opt-md-w50p opt-sm-w50p">
+                              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-top-passion-photo02.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>鏡を見るのが楽しくなる毎日に！
+</span></p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>クロロゲン酸 美活飲料<br />
+開発担当　實川紀子
+</span></p>
+                                </div>
+                              </div>
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section ip-banner__shop" id="common_section_wrapper_5">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column ip-banner__shop__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_5" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit ip-banner__shop__column__unit">
+                  <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight ip-banner__shop__tileLink" data-uniform-target="g-TileLinkHUnit__leadBlock,g-TileLinkHUnit">
+                    <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+                      <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-1 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                        <a class="g-TileLinkHUnit l-TileLinkHUnit is-colorset--1 ip-banner__shop_titleLink__item is-layoutR" id="common_tile_link_unit_20150930173426615_z61G" href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/shops.html" target="_self">
+                          <div class="g-TileLinkHUnit__inner l-TileLinkHUnit__inner">
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>取扱い店舗
+</span></p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>SOFINA iPの取扱い店舗のご紹介。
+</span></p>
+                                </div>
+                              </div>
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </div>
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-lg-w50p opt-md-w50p opt-sm-w50p">
+                              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/ip/ip-photo-shop.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-Contents -->
+    <div>
+      <div class="g-Area sofina-SbBlFooter" id="area-SbBlFooter">
+        <div class="g-Area__inner">
+          <div class="SbBlFooter">
+            <div class="sofina-footerSNS">
+              <div class="sofina-footerSNS__inner">
+                <!-- COMMON SNS BUTTON START -->
+                <table width="965" height="28" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td width="761" height="28" nowrap align="right" valign="middle" bgcolor="#ffffff"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="18d43b045a7f3a2aa10f9d69f786175580f5bee5" data-button="button-2">Check</a>
+                        <script type="text/javascript" src="https://static.mixi.jp/js/share.js"></script>
+                      </td>
+                      <td width="4"></td>
+                      <td width="200" height="28" nowrap align="left" valign="middle">
+                        <!-- AddThis Button BEGIN -->
+                        <div class="addthis_toolbox">
+                          <div class="custom_images">
+                            <a class="addthis_button_facebook"><img src="http://www.sofina.co.jp/common/j/imgs/fb_button.gif" width="69" height="20" border="0" alt="Share to Facebook"></a>
+                            <a class="addthis_button_twitter"><img src="http://www.sofina.co.jp/common/j/imgs/twitter_button.gif" width="55" height="20" border="0" alt="Share to Twitter"></a>
+                            <a class="addthis_button_more"><img src="http://www.sofina.co.jp/common/j/imgs/add_button.gif" width="50" height="20" border="0" alt="More..."></a>
+                          </div>
+                        </div>
+                        <script type="text/javascript">
+                          var addthis_config = {
+                            "data_track_clickback": true
+                          };
+                        </script>
+                        <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+                        <!-- AddThis Button END -->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- COMMON SNS BUTTON END -->
+              </div>
+            </div>
+            <div class="sofina-footerPagetop">
+              <a href="#wrapper"><span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る</a>
+            </div>
+            <div class="sofina-footerSitemap">
+              <div class="sofina-footerSitemapColumn">
+                <div class="sofina-footerSitemap__cols">
+                  <ul class="sofina-footerSitemapLinks">
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip.html">トップ</a></li>
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/mousse.html">美活パワームース</a></li>
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/drink.html" class="sofina-footerSitemapLinks__PseudoLabel is-open">クロロゲン酸 美活飲料</a>
+                      <ul class="is-open">
+                        <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/drink/qa.html">クロロゲン酸 美活飲料 Q&amp;A</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/ip/shops.html">取扱い店舗</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Area sofina-BlFooter" id="area-BlFooter">
+        <div class="g-Area__inner">
+          <div class="BlFooter">
+            <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp.html" class="sofina-footerLogo">
+              <p class="sofina-footerLogo__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina.png" alt="SOFINA"></p>
+              <p class="sofina-footerLogo__txt">ソフィーナトップページ</p>
+            </a>
+            <div class="sofina-footerUtility">
+              <ul class="sofina-footerUtility__links">
+                <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護方針</a></li>
+                <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+                <li><a href="http://www.kao.com/jp/">花王株式会社</a></li>
+                <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+              </ul>
+              <p class="sofina-footerUtility__copyright">Copyright © 1999-2016 Kao Corporation. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span id="breakPoint-small"></span>
+      <span id="breakPoint-middle"></span>
+      <span id="breakPoint-large"></span>
+    </div>
+    <div></div>
+  </div>
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    _satellite.pageBottom();
+  </script>
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

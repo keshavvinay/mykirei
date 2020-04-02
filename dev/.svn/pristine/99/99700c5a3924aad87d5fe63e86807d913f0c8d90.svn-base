@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>contactSection</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="https://sites.aem.kao.com/etc/designs/kao/www-kao-com/jp/ja/basic.css" />
+  <link rel="stylesheet" href="https://sites.aem.kao.com/etc/designs/kao/www-kao-com/jp/ja/component.css" />
+  <link rel="stylesheet" href="https://sites.aem.kao.com/etc/designs/kao/www-kao-com/jp/ja/option.css" />
+  <!--corporateサイト カスタムCSS-->
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/corporate/component/css/local.css">
+  <!--/corporateサイト カスタムCSS-->
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jsrender.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/moment.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <!-- / script -->
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <!-- area-LocalNav -->
+    <div class="g-Area" id="area-LocalNavTop">
+      <div class="g-LocalNav l-LocalNav">
+        <div class="g-LocalNav__inner l-LocalNav__inner">
+          <div class="g-LocalNav__listBlock l-LocalNav__listBlock">
+            <ul class="g-LocalNavList l-LocalNavList js-uniformHeight" data-uniform-target="g-LocalNavListLink">
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/masui.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">masui
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/yamauchi.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">yamauchi
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/sakamoto.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">sakamoto
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1 is-active">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template_detail.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template_detail
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-image.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-image
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-text.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-text
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-LocalNav -->
+    <!-- area-Breadcrumbs -->
+    <div class="g-Area" id="area-BreadcrumbsTop">
+      <div class="g-Breadcrumbs l-Breadcrumbs">
+        <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">jp<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">ja<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">corporate<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">elements<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">template_detail</li>
+        </ul>
+      </div>
+    </div>
+    <!-- / area-Breadcrumbs -->
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section l-Section corp-sectionBorder opt-corp-section80 is-paddingReset--topBottom is-paddingReset--leftRight" id="common_section_wrapper_4">
+ <div class="g-Section__inner l-Section__inner">
+  <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w90p is-gutter--l" id="common_column_separator_11" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit is-paddingReset" style="height: auto;">
+ <div class="g-HeadingTitle l-HeadingTitle opt-al_c corp-headingLv2-02 opt-mb15 g-HeadingTitle--h2 l-HeadingTitle--h2">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+      <span>お問い合わせ
+</span></span></h2>
+   </div>
+  </div>
+ </div>
+</div><div class="g-Text l-Text opt-al_c corp-paragraph-01 opt-mb30">
+ <p class="cmn-richtext">
+  <span>花王株式会社 広報部<br>
+
+</span></p>
+</div><div class="opt-al_c corp-textLink opt-mb0--imp is-gutter--none g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m is-leftIcon">
+ <a href="#" target="_self" id="common_text_link_unit_20170328195659619_F3Fj" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>リンクラベル<br>
+
+</span></span><span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+  </div>
+ </div>
+</div><div class="g-Column l-Column opt-md-al_c opt-sm-al_c corp-contactSection__linkColumn js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_12" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-3 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit is-paddingReset" style="height: auto;">
+ <div class="g-TelephoneCall l-TelephoneCall js-telephoneCall corp-iconTel-01 opt-mb0--imp is-phone is-freeimg--m">
+ <span class="g-TelephoneCall__item l-TelephoneCall__item">
+  <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+   <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+    <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+   </div>
+   <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+    <span class="cmn-richtext">
+     <span>03-3660-7041</span></span>
+   </div>
+  </div></span>
+</div>
+
+</div>
+  </div>
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-3 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit is-paddingReset" style="height: auto;">
+ <div class="g-TelephoneCall l-TelephoneCall js-telephoneCall corp-iconFax-01 opt-mb0--imp is-fax is-freeimg--m">
+ <span class="g-TelephoneCall__item l-TelephoneCall__item">
+  <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+   <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+    <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+   </div>
+   <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+    <span class="cmn-richtext">
+     <span>03-3660-7041</span></span>
+   </div>
+  </div></span>
+</div>
+
+</div>
+  </div>
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-3 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit is-paddingReset" style="height: auto;">
+ <div class="corp-textLink-03 opt-mb0--imp opt-lg-pt10 is-gutter--none g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit corp-textLinkUnit--mail is-colorset--1 is-size--m">
+ <a href="#" target="_self" id="common_text_link_unit_20170328173222710_YD8E" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>XXXX@XXXXXXX<br>
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+  </div>
+ </div>
+</div>
+ </div>
+</div>
+<div class="g-Section l-Section" id="common_section_wrapper_5">
+ <div class="g-Section__inner l-Section__inner">
+  <div class="g-Column l-Column corp-contactSection js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_13" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--2" style="height: 337px;">
+ <div class="g-GroupBox l-GroupBox is-marginBottom--m">
+ <div class="g-HeadingTitle l-HeadingTitle opt-al_c corp-headingLv2-02 opt-mb15 g-HeadingTitle--h2 l-HeadingTitle--h2">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+      <span>お問い合わせ
+</span></span></h2>
+   </div>
+  </div>
+ </div>
+</div><div class="g-Text l-Text opt-al_c corp-paragraph-01 opt-mb30">
+ <p class="cmn-richtext">
+  <span>花王株式会社 広報部<br>
+
+</span></p>
+</div><div class="opt-al_c corp-textLink opt-mb0--imp is-gutter--none g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m is-leftIcon">
+ <a href="#" target="_self" id="common_text_link_unit_20170330172911143_mvre" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>リンクラベル<br>
+
+</span></span><span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-TelephoneCall l-TelephoneCall js-telephoneCall opt-al_c corp-iconTel-01 opt-mb20 is-phone is-freeimg--m">
+ <span class="g-TelephoneCall__item l-TelephoneCall__item">
+  <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+   <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+    <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+   </div>
+   <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+    <span class="cmn-richtext">
+     <span>03-3660-7041</span></span>
+   </div>
+  </div></span>
+</div><div class="g-TelephoneCall l-TelephoneCall js-telephoneCall opt-al_c corp-iconFax-01 opt-mb20 is-fax is-freeimg--m">
+ <span class="g-TelephoneCall__item l-TelephoneCall__item">
+  <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+   <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+    <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+   </div>
+   <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+    <span class="cmn-richtext">
+     <span>03-3660-7041</span></span>
+   </div>
+  </div></span>
+</div><div class="opt-al_c corp-textLink-03 opt-mb0--imp is-gutter--none g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit corp-textLinkUnit--mail is-colorset--1 is-size--m">
+ <a href="#" target="_self" id="common_text_link_unit_20170330172911149_Xmyd" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>XXXX@XXXXXXX<br>
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+  </div>
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--2" style="height: 337px;">
+ <div class="g-GroupBox l-GroupBox is-marginBottom--m">
+ <div class="g-HeadingTitle l-HeadingTitle opt-al_c corp-headingLv2-02 opt-mb15 g-HeadingTitle--h2 l-HeadingTitle--h2">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+      <span>お問い合わせ
+</span></span></h2>
+   </div>
+  </div>
+ </div>
+</div><div class="g-Text l-Text opt-al_c corp-paragraph-01 opt-mb30">
+ <p class="cmn-richtext">
+  <span>花王株式会社 広報部<br>
+
+</span></p>
+</div><div class="opt-al_c corp-textLink opt-mb0--imp is-gutter--none g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m is-leftIcon">
+ <a href="#" target="_self" id="common_text_link_unit_20170330173421795_MGU4" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>リンクラベル<br>
+
+</span></span><span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-TelephoneCall l-TelephoneCall js-telephoneCall opt-al_c corp-iconTel-01 opt-mb20 is-phone is-freeimg--m">
+ <span class="g-TelephoneCall__item l-TelephoneCall__item">
+  <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+   <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+    <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+   </div>
+   <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+    <span class="cmn-richtext">
+     <span>03-3660-7041</span></span>
+   </div>
+  </div></span>
+</div><div class="g-TelephoneCall l-TelephoneCall js-telephoneCall opt-al_c corp-iconFax-01 opt-mb20 is-fax is-freeimg--m">
+ <span class="g-TelephoneCall__item l-TelephoneCall__item">
+  <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+   <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+    <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+   </div>
+   <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+    <span class="cmn-richtext">
+     <span>03-3660-7041</span></span>
+   </div>
+  </div></span>
+</div><div class="opt-al_c corp-textLink-03 opt-mb0--imp is-gutter--none g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit corp-textLinkUnit--mail is-colorset--1 is-size--m">
+ <a href="#" target="_self" id="common_text_link_unit_20170330173421819_HRwa" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>XXXX@XXXXXXX<br>
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+  </div>
+ </div>
+</div>
+ </div>
+</div>
+
+
+    </div>
+    <!-- / area-Contents -->
+    <!-- area-LocalNav -->
+    <div class="g-Area" id="area-LocalNavBottom">
+      <div class="g-LocalNav l-LocalNav">
+        <div class="g-LocalNav__inner l-LocalNav__inner">
+          <div class="g-LocalNav__listBlock l-LocalNav__listBlock">
+            <ul class="g-LocalNavList l-LocalNavList js-uniformHeight" data-uniform-target="g-LocalNavListLink">
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/masui.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">masui
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/yamauchi.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">yamauchi
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/sakamoto.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">sakamoto
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1 is-active">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template_detail.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template_detail
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-image.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-image
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+              <li class="g-LocalNavList__item l-LocalNavList__item g-LocalNavList__item-md-2 g-LocalNavList__item-sm-1">
+                <a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements/template__index-text.html" target="_self" class="g-LocalNavListLink l-LocalNavListLink">
+                  <span class="g-LocalNavListLink__inner l-LocalNavListLink__inner">template__index-text
+                    <span class="cmn-icon--bullet cmn-icon g-LocalNavList__item__icon l-LocalNavList__item__icon"></span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-LocalNav -->
+    <!-- area-Breadcrumbs -->
+    <div class="g-Area" id="area-BreadcrumbsBottom">
+      <div class="g-Breadcrumbs l-Breadcrumbs">
+        <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">jp<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">ja<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">corporate<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a href="/content/wcm_kao/sites/kao/www-kao-com/jp/ja/corporate/elements.html" target="_self" class="g-BreadcrumbsLink l-BreadcrumbsLink">elements<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+          <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">template_detail</li>
+        </ul>
+      </div>
+    </div>
+    <!-- / area-Breadcrumbs -->
+  </div>
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    _satellite.pageBottom();
+  </script>
+  <!-- area-PageTop -->
+  <div class="g-Area" id="area-PageTop">
+    <div class="g-PageTop l-PageTop">
+      <a class="g-PageTop__link l-PageTop__link" href="#wrapper">ページ先頭へ戻る<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+    </div>
+  </div>
+  <!-- / area-PageTop -->
+
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

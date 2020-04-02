@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/*検索表示設定*/
+#mf_menu {
+  border-radius: 4px;
+  background-color: #999;
+}
+#mf_menubtn_l {
+  padding-top: 0;
+  padding-left: 70px;
+  line-height: 40px;
+}
+
+/*検索バー*/
+.mf_doctype select {
+  padding: 8px;
+  padding-right: 16px;
+  border-radius: 8px;
+  background-image: none;
+  background-color: #fff;
+}
+.mf_doctype label:after {
+  right: 8px;
+}
+.mf_searchbox_inner {
+  border-radius: 8px;
+}
+@media only screen and (max-width: 700px) {
+  .mf_doctype select {
+    width: 84px;
+  }
+}
+
+/*ページタイトル*/
+.mf_zubah3 a, h3.mf_pagetitle a {
+  color: #00b48c;
+}
+
+/*おすすめページ*/
+#mf_zubaarea {
+  border-radius: inherit;
+  border-width: 1px;
+}
+
+/*絞り込みサイドメニュー*/
+#mf_drilldownbg {
+  border-radius: inherit;
+  border-width: 1px;
+}
+
+/*ページネーション*/
+.mf_pagenumber li {
+  border: none;
+  border-radius: 4px;
+}
+.mf_nextpage a {
+  border-radius: 4px;
+}
+
+/*関連検索キーワード*/
+#mf_rankingarea, .mf_relatedarea {
+  border-radius: inherit;
+  border-width: 1px;
+}
+
+/*header*/
+.l-BrHeaderNav__listBlock.is-open {
+  z-index: 1000;
+}
+@media only screen and (min-width: 1025px) {
+  .l-BrHeaderCommon {
+    padding-top: 22px;
+  }
+}
+
+/*簡易版footer*/
+.l-BrFooter__inner {
+  height: 106px;
+}
+.l-BrFooterLogo .l-Image {
+  display: inline;
+}
+.l-BrFooter__sitemapBlock__logo {
+  display: inline;
+}
+.l-BrFooter__sitemapBlock {
+  display: block;
+  padding-left: 20px;
+  width: 160px;
+}
+@media only screen and (min-width: 1000px) {
+  .l-BrFooter__inner {
+    height: auto;
+  }
+}

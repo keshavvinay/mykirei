@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/*  utility_header */
+
+.jf-utility_header {
+  position: relative;
+  height: 560px !important;
+  background-color: #000;
+  background-position: center top;
+  @include bp(md) {
+    height: 358px !important;
+  }
+  @include bp(sm) {
+    height: 200px !important;
+  }
+  img {
+	display: none !important;
+  }
+  .l-PageTitle__titleBlock {
+    width: auto;
+    @include bp(sm) {
+      width: 100%;
+    }
+  }
+  .l-PageTitle {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    padding: 0;
+    background-color: transparent;
+    text-align: left;
+    @include bp(sm) {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  .l-PageTitle__h1 {
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-family: 'FuturaLTW05-Book', sans-serif;
+    @include bp(md) {
+      font-size: 18px;
+    }
+    @include bp(sm) {
+      font-size: 14px;
+    }
+  }
+  .l-PageTitle__titleBlock__titleBox{
+    @include bp(sm) {
+      padding: .75em;
+      margin: 0;
+      text-align: center;
+      color: #FFF;
+      font-size: 3rem;
+      line-height: 1;
+      font-family: "BodoniSeventytwoITCW02-_737178", serif;
+      font-weight: 400;
+    }
+  }
+  .l-PageTitle__titleBlock__titleBox__title{
+    @include bp(sm) {
+      margin-bottom: 0;
+    }    
+  }
+  .l-Image{
+    @include bp(sm) {
+      margin-bottom: 0;
+    }    
+  }
+
+}

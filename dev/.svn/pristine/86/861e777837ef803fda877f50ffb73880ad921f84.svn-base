@@ -1,0 +1,42 @@
+.g-MovieTextVP{
+    margin-bottom: 0px;
+
+    .g-MovieTextVP__contentsBlock{
+        position: relative;
+    }
+
+    &.is-layoutT .g-MovieTextVP__contentsBlock__movie{
+        margin-bottom: 0; 
+    }
+
+    .g-MovieTextVP__contentsBlock__text{
+        position: absolute;
+        text-align: center;
+        color: #ccc;
+        bottom: 5%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 20px;
+        z-index: 1;
+    }
+
+    .g-Movie{
+        margin-bottom: 0;   
+        
+        .pv-video-player{
+            position: absolute;
+            top: 0; 
+        }
+    }
+
+    @media(max-width:$break-xs){
+        .g-MovieTextVP__contentsBlock__text{
+            position: static;
+        }
+        &.is-layoutT .g-MovieTextVP__contentsBlock__movie{
+            margin-bottom: 20px; 
+        }
+    }
+}
+

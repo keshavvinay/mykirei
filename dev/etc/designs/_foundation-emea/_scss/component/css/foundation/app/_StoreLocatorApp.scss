@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+
+/* Store Locator App ================================================== */
+.l-StoreLocatorApp {
+}
+
+.l-StoreLocator__nav__keyword {
+  input[type="search"] {
+    border-radius: $borderRadius_xs;
+    border-color: $storeLocator__search__input__border;
+    background-color: $storeLocator__search__input__bg;
+    color: $storeLocator__search__input__text;
+    &::placeholder {
+        color: $storeLocator__search__input__placeholder;
+        opacity: 1; // Firefox
+    }
+    &:focus {
+      border-color: $storeLocator__search__input__border--focus;
+      background-color: $storeLocator__search__input__bg--focus;
+    }
+  }
+  input[type="submit"] {
+    border-radius: 0 $borderRadius_xs $borderRadius_xs 0;
+    border-color: $storeLocator__search__btn__border;
+    background-color: $storeLocator__search__btn__bg;
+    color: $storeLocator__search__btn__text;
+  }
+}
+
+.l-StoreLocator__nav__geo__link {
+  color: $storeLocator__link__text;
+  .cmn-icon {
+    color: $storeLocator__link__icon;
+  }
+  &:hover {
+    color: $storeLocator__link__text--hover;
+  }
+  &:visited {
+    color: $storeLocator__link__text--visited;
+  }
+}
+
+.l-StoreLocatorArea__list__title {
+  border-color: $storeLocator__accordion__title__border;
+  background-color: $storeLocator__accordion__title__bg;
+  color: $storeLocator__accordion__title__text;
+  @include fontSize(body);
+  .is-open & {
+    border-color: $storeLocator__accordion__title__border--active;
+    background-color: $storeLocator__accordion__title__bg--active;
+    color: $storeLocator__accordion__title__text--active;
+  }
+  .cmn-icon {
+    color: $storeLocator__accordion__title__text;
+    .is-open & {
+      color: $storeLocator__accordion__title__text--active;
+    }
+  }
+}
+
+.l-StoreLocatorArea__list__list {
+  border-color: $storeLocator__accordion__link__border;
+  &::-webkit-scrollbar-thumb {
+    background-color: $storeLocator__accordion__link__scrollbar;
+    border-radius: 4px;
+  }
+}
+
+.l-StoreLocatorArea__list__list__link {
+  background-color: $storeLocator__accordion__link__bg;
+  color: $storeLocator__accordion__link__text;
+  .cmn-icon {
+    color: $storeLocator__accordion__link__icon;
+  }
+  &:hover {
+    background-color: $storeLocator__accordion__link__bg--hover;
+    color: $storeLocator__accordion__link__text--hover;
+    .cmn-icon {
+      color: $storeLocator__accordion__link__icon--hover;
+    }
+  }
+}
+
+.l-StoreLocatorDetail {
+  color: $storeLocator__text;
+}
+
+.l-StoreLocatorDetail__app__link {
+  color: $storeLocator__link__text;
+  .cmn-icon {
+    color: $storeLocator__link__icon;
+  }
+  &:hover {
+    color: $storeLocator__link__text--hover;
+  }
+  &:visited {
+    color: $storeLocator__link__text--visited;
+  }
+}
+
+.l-StoreLocatorList__list {
+  border-color: $storeLocator__list__border;
+  & > li {
+    border-color: $storeLocator__list__border;
+  }
+}
+
+.l-StoreLocatorList__list__store {
+  background-color: $storeLocator__list__bg;
+  color: $storeLocator__list__text;
+  & > .cmn-icon {
+    color: $storeLocator__list__icon;
+  }
+  &:hover {
+    background-color: $storeLocator__list__bg--hover;
+    color: $storeLocator__list__text--hover;
+    & > .cmn-icon {
+      color: $storeLocator__list__icon--hover;
+    }
+  }
+}
+
+.l-StoreLocatorList__list__store__name {
+  @include fontSize(lv5);
+}
+
+.l-StoreLocator__footer__back {
+  background-color: $storeLocator__btn__bg;
+  color: $storeLocator__btn__text;
+  border-color: $storeLocator__btn__border;
+  @include border-radius($borderRadius_xs);
+  @include fontSize(body);
+  @include areaLink();
+  @include btnShadow($storeLocator__btn__shadowVisible);
+  .cmn-icon {
+    color: $storeLocator__btn__text;
+  }
+}

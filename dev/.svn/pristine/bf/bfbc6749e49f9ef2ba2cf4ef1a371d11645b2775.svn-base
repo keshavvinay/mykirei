@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+
+/* LinksButtonsP ================================================== */
+.g-LinksButtonsP {
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  &.is-background {
+    padding: 10px;
+    
+  }
+}
+
+.g-LinksButtonsP__list {
+  @include gutterItemWrapper();
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  @include pie-clearfix;
+}
+
+.g-LinksButtonsP__list__item {
+  float: left;
+  @include gutterItemInner();
+  vertical-align: top;
+  @include fontSize(body);
+  .g-LinkButton {
+    margin-bottom: 0;
+    &.is-link {
+      margin-top: -6px;
+      margin-bottom: -6px;
+      @include bp(sm) {
+        margin-top: -4px;
+        margin-bottom: -4px;
+      }
+    }
+  }
+  .g-LinkButton__link {
+    display: table-cell;
+  }
+}
+@include bp(sm) {
+  .g-LinksButtonsP__list__item-sm-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-LinksButtonsP__list__item-sm-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-LinksButtonsP__list__item-sm-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-LinksButtonsP__list__item-sm-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-LinksButtonsP__list__item-sm-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-LinksButtonsP__list__item-sm-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(md) {
+  .g-LinksButtonsP__list__item-md-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-LinksButtonsP__list__item-md-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-LinksButtonsP__list__item-md-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-LinksButtonsP__list__item-md-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-LinksButtonsP__list__item-md-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-LinksButtonsP__list__item-md-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(lg) {
+  .g-LinksButtonsP__list__item-lg-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-LinksButtonsP__list__item-lg-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-LinksButtonsP__list__item-lg-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-LinksButtonsP__list__item-lg-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-LinksButtonsP__list__item-lg-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-LinksButtonsP__list__item-lg-6 {
+    width: $cmn_colsWidth_6;
+  }
+}

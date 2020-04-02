@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+.adhoc_listing_sorting_section {
+	a.l-TileLinkVUnit{
+		padding: 0px;
+		border: 0px;
+		.is-authorring & {
+           padding: 20px;
+			border: 2px;
+        }
+	}
+    .l-Image__caption{
+		font-family: "FuturaLTW05-Book", sans-serif;
+		font-weight: 400;
+		z-index: 3;
+		position: absolute;
+		left: 0;
+		bottom: 5%;
+		padding: 0 0 0 0.925rem;
+		font-size: 0.875rem;
+		text-transform: uppercase;
+		letter-spacing: 0.0625rem;
+		color: #ffffff;
+		.is-authorring & {
+           color: black !important;
+		   bottom: -13%;
+        }
+	}
+	.l-TileLinkVUnit__leadBlock__title{
+		display: block;
+	}
+	.l-TileLinkVUnit__leadBlock__title .cmn-richtext span{
+		display: block;
+		margin: 10px 0 25px 0;
+		font-size: 1rem;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		font-family: "FuturaLTW05-Book", sans-serif;
+		transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+		
+		&:after{
+		    content: "";
+			display: inline-block;
+			width: .6em;
+			height: .6em;
+			position: relative;
+			bottom: 2px;
+			border: 2px solid #C53391;
+			border-bottom: 0;
+			border-left: 0;
+			margin-left: .4em;
+			transform: rotate(45deg);
+			-webkit-backface-visibility: hidden;
+		}
+	}
+
+	.AdhocGallery__filterWrap{
+		display: block;
+		text-align: center;
+		height: auto;
+	}
+	.AdhocGallery__filterWrap .l-Text {
+		display:  inline-block;
+		text-transform: uppercase;
+		color: #707070;
+		font-weight: normal;
+		font-size: 0.875rem;
+		letter-spacing: 0.075em;
+	}
+
+	.AdhocGallery__filterWrap li .l-Text {
+		display:  inline-block;
+		color: #989898;
+		margin-right: 0;
+		font-family: "FuturaLTW05-Book", sans-serif;
+		font-weight: 400;
+		font-size: 1rem;
+		margin-bottom: 0;
+		
+	}
+	
+	.AdhocGallery__filterWrap li{
+		cursor: pointer;
+		display:  inline-block;
+		min-width: 100px;
+		text-align: center;
+		color: #989898;
+		border: 1px solid #d7d7d7;
+		margin-right: 10px;
+		padding: 5px 10px;
+		margin-bottom: 10px;
+		font-family: "FuturaLTW05-Book", sans-serif;
+		font-weight: 400;
+		font-size: 1rem;
+		min-width: 7rem;
+		@include bp(sm) {
+            min-width: 6rem;
+        }
+	}
+	
+	.AdhocGallery__filters{
+		display: inline-block;
+		li.active{
+			.l-Text {
+				color: #ffffff;
+			}
+			color: #ffffff;
+			background: #707070;
+			border: 1px solid #707070;
+		}
+	}
+	
+	.jf-shariff-adhocGallery{
+		vertical-align: middle;
+		text-align: left;
+		color: #989898;
+		margin-right: 0;
+		font-family: "FuturaLTW05-Book", sans-serif;
+		font-weight: 400;
+		font-size: 0.875rem;
+		margin-bottom: 0;
+		margin-top:18px;
+	}
+	.shariff{
+		display:  inline-block;
+		position: static !important;
+		width: auto !important;
+		height: 35px;
+		vertical-align: middle;
+		&> ul {
+			overflow: hidden;
+			position: relative;
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+		}
+		.shariff-button{
+			margin-right: 5px;
+			float: left;
+			line-height: 0;
+			width: 40px;
+			height: 30px;
+			display: inline-block;
+			padding: 0 10px;
+			opacity: 1 !important;
+			position: static !important;
+			line-height: normal !important;
+			
+			&> a {
+				position: relative;
+				display: block;
+				width: 30px;
+				height: 30px;
+				border-radius: 1.25rem;
+				background-color: #fff;
+				text-align: center;
+				-moz-transition: background-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+				-o-transition: background-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+				-webkit-transition: background-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+				transition: background-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+			}
+			
+			&> a:hover {
+				background-color: #989898;
+			}
+			
+			&> a:after {
+				position: absolute;
+				top: 20%;
+				left: 20%;
+				width: 60%;
+				height: 60%;
+				content: "";
+				background-size: 100% 100%;
+				transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+			}
+			
+			&:nth-child(1) > a:after{
+				background-image: url("/content/dam/sites/kaousa/www-johnfrieda-com/master/svg/facebook-footer.svg");
+			}
+			
+			&:nth-child(2) > a:after{
+				background-image: url("/content/dam/sites/kaousa/www-johnfrieda-com/master/svg/twitter-footer.svg");
+			}
+			
+			&:nth-child(3) > a:after{
+				background-image: url("/content/dam/sites/kaousa/www-johnfrieda-com/master/svg/pinterest-footer.svg");
+			}
+			
+			&:nth-child(4) > a:after{
+				background-image: url("/content/dam/sites/kaousa/www-johnfrieda-com/master/svg/mail-black.svg");
+			}
+			
+			span.fa {
+				display: none;
+			}
+			span.share_text {
+				display: none;
+			}
+			
+		}
+	}
+	
+
+}

@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Groupbox Layer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="menu">
+  <div class="js-menuHolder">
+    <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+  </div>
+</div>
+
+
+<div id="wrapper">
+
+
+<!-- contentsWrapper -->
+<div id="contentsWrapper" class="contentsWrapper">
+
+  <!-- area-Contents -->
+  <div class="g-Area" id="area-Contents">
+
+    <div class="parsys">
+
+      <!-- Section -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          Section
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit default
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1">
+                        <div class="parsys">GroupBox default (border solid 1px color1)</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox">
+                        <div class="parsys">GroupBox no border</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1">
+                        <div class="parsys">GroupBox border solid</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--dot is-borderWidth--s is-borderColor--1">
+                        <div class="parsys">GroupBox border dotted</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1">
+                        <div class="parsys">GroupBox border width s</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--m is-borderColor--1">
+                        <div class="parsys">GroupBox border width m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--l is-borderColor--1">
+                        <div class="parsys">GroupBox border width l</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1">
+                        <div class="parsys">GroupBox border color1</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--2">
+                        <div class="parsys">GroupBox border color2</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--3">
+                        <div class="parsys">GroupBox border color3</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--4">
+                        <div class="parsys">GroupBox border color4</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--5">
+                        <div class="parsys">GroupBox border color5</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--6">
+                        <div class="parsys">GroupBox border color6</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--7">
+                        <div class="parsys">GroupBox border color7</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--7 is-paddingReset">
+                        <div class="parsys">GroupBox border color7 resetPadding</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox">
+                        <div class="parsys">GroupBox no background</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--1">
+                        <div class="parsys">GroupBox background color1</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--2">
+                        <div class="parsys">GroupBox background color2</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--3">
+                        <div class="parsys">GroupBox background color3</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--4">
+                        <div class="parsys">GroupBox background color4</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--5">
+                        <div class="parsys">GroupBox background color5</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--6">
+                        <div class="parsys">GroupBox background color6</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--7">
+                        <div class="parsys">GroupBox background color7</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+                        <div class="parsys">GroupBox background image</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background opt-bg--repeat js-bgImageSize" data-bgImageSize="80" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+                        <div class="parsys">GroupBox background image repeat</div>
+                        <div class="parsys">GroupBox background image repeat</div>
+                        <div class="parsys">GroupBox background image repeat</div>
+                        <div class="parsys">GroupBox background image repeat</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background opt-bg--repeat-y opt-bg--right js-bgImageSize" data-bgImageSize="80" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+                        <div class="parsys">GroupBox background image repeat-y right</div>
+                        <div class="parsys">GroupBox background image repeat-y right</div>
+                        <div class="parsys">GroupBox background image repeat-y right</div>
+                        <div class="parsys">GroupBox background image repeat-y right</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-backgroundColor--7 is-paddingReset">
+                        <div class="parsys">GroupBox background color7 resetPadding</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background is-paddingReset" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+                        <div class="parsys">GroupBox background image resetPadding</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-background opt-bg--fit js-bgImageSize" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+                        <div class="parsys">GroupBox background image fit(background-size:100% 100%)</div>
+                        <div class="parsys">GroupBox background image fit(background-size:100% 100%)</div>
+                        <div class="parsys">GroupBox background image fit(background-size:100% 100%)</div>
+                        <div class="parsys">GroupBox background image fit(background-size:100% 100%)</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1">
+                        <div class="parsys">GroupBox no margin</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginTop--s">
+                        <div class="parsys">GroupBox marginTop-s</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginTop--m">
+                        <div class="parsys">GroupBox marginTop-m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginTop--l">
+                        <div class="parsys">GroupBox marginTop-l</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginTop--xl">
+                        <div class="parsys">GroupBox marginTop-xl</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginBottom--s">
+                        <div class="parsys">GroupBox marginBottom-s</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginBottom--m">
+                        <div class="parsys">GroupBox marginBottom-m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginBottom--l">
+                        <div class="parsys">GroupBox marginBottom-l</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginBottom--xl">
+                        <div class="parsys">GroupBox marginBottom-xl</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginLeft--s">
+                        <div class="parsys">GroupBox marginLeft-s</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginLeft--m">
+                        <div class="parsys">GroupBox marginLeft-m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginLeft--l">
+                        <div class="parsys">GroupBox marginLeft-l</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginLeft--xl">
+                        <div class="parsys">GroupBox marginLeft-xl</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginRight--s">
+                        <div class="parsys">GroupBox marginRight-s</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginRight--m">
+                        <div class="parsys">GroupBox marginRight-m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginRight--l">
+                        <div class="parsys">GroupBox marginRight-l</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginRight--xl">
+                        <div class="parsys">GroupBox marginRight-xl</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-borderColor--1 is-marginTop--s is-marginRight--m is-marginBottom--l is-marginLeft--xl">
+                        <div class="parsys">GroupBox marginTop-s right-m bottom-l left-xl</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+
+            
+            
+      <!-- 追加角丸 Ver.1_Rev.2 ここから -->
+      <!-- Section -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <p class="opt-mb0--imp opt-fontcolor--08 opt-fs_h_lv2">GroupBox_Ver.1_Rev.2</p>
+          <h2>GroupBox borderradius</h2>
+          Section
+          <div class="parsys">
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit 
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius none</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--xs">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius-xs</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--s">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius-s</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--m">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius-m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--l">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius-l</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--xl">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius-xl</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--tl--m">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius top-left m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--tr--m ">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius top-right m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--bl--m">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius bottom-left m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-borderWidth--s is-Bordercolor--1 opt-borderradius--br--m">
+                        <div class="parsys">GroupBox (border solid 1px color1) borderradius bottom-right m</div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+
+
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+      <!-- 追加角丸 Ver.1_Rev.2 ここまで -->
+      
+      <!-- 追加背景 Ver.1_Rev.2  ここから -->
+      <!-- Section -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <h2>GroupBox background-image</h2>
+          Section
+          <div class="parsys">
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      ColumnUnit 
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg); ">
+                        <div class="parsys">GroupBox background-image no-repeat<br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--repeat is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image repeat<br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--repeat-y is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg); ">
+                        <div class="parsys">GroupBox background-image repeat y<br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--repeat-x is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg); ">
+                        <div class="parsys">GroupBox background-image repeat x<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--top is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position top<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--bottom is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position bottom<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--left is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position left<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--right is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position right<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--center is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position center<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--top-left is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg); ">
+                        <div class="parsys">GroupBox background-image position top-left<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--bottom-left is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position bottom-left<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--top-right is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position top-right<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background opt-bg--bottom-right is-borderWidth--s is-Bordercolor--1" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image position bottom-right<br><br><br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+
+                      <div class="g-GroupBox is-border is-border--solid is-background js-bgImageSize is-borderWidth--s is-Bordercolor--1" data-bgimagesize="80" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                        <div class="parsys">GroupBox background-image size:80px<br><br><br><br><br></div>
+                      </div>
+
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background is-bg--ignore-size is-borderWidth--s is-Bordercolor--1" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:no-repeat,no-repeat; background-position: center,center;">
+                        <div class="parsys">GroupBox background-image<br> (1)position center no-repeat<br> (2)position center no-repeat<br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background is-bg--ignore-size is-borderWidth--s is-Bordercolor--1" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,no-repeat; background-position: center,center;">
+                        <div class="parsys">GroupBox background-image<br> (1)position center repeat x<br> (2)position center no-repeat<br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background is-bg--ignore-size is-borderWidth--s is-Bordercolor--1" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,repeat-x; background-position: center,center;">
+                        <div class="parsys">GroupBox background-image<br> (1)position center repeat x<br> (2)position center repeat x<br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background is-bg--ignore-size is-borderWidth--s is-Bordercolor--1" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10%,25%;">
+                        <div class="parsys">GroupBox background-image<br> (1)position bottom repeat x size 10%<br> (2)position center repeat x size 25%<br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background is-bg--ignore-size is-borderWidth--s is-Bordercolor--1" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10% 20%,25%;">
+                        <div class="parsys">GroupBox background-image<br> (1)position bottom repeat x size 10% 20%<br> (2)position center repeat x size 25%<br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+                      <!-- g-GroupBox -->
+                      <div class="g-GroupBox is-border is-border--solid is-background is-bg--ignore-size is-borderWidth--s is-Bordercolor--1" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-y,repeat-x; background-position: bottom,center; background-size: 10px,30px;">
+                        <div class="parsys">GroupBox background-image<br> (1)position bottom repeat y size 10px<br> (2)position center repeat x size 30px<br><br><br></div>
+                      </div>
+                      <!-- / g-GroupBox -->
+                      
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column -->
+
+
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+      <!-- 追加背景 Ver.1_Rev.2 ここまで -->
+
+    </div>
+
+  </div>
+  <!-- / area-Contents -->
+
+</div>
+<!-- / contentsWrapper -->
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

@@ -1,0 +1,392 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?vlhs1s');
+  src:url('../fonts/icomoon.eot?vlhs1s#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vlhs1s') format('truetype'),
+    url('../fonts/icomoon.woff?vlhs1s') format('woff'),
+    url('../fonts/icomoon.svg?vlhs1s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cmn-icon {
+  display: inline-block;
+  font-family: 'icomoon';
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  color: $contents__icon;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &.cmn-icon--reverse {
+    color: $contents__icon--reverse;
+  }
+}
+
+/*
+  icon-list
+ */
+.cmn-icon--pdf:before {
+  content: "\e001";
+}
+.cmn-icon--mail:before {
+  content: "\e002";
+}
+.cmn-icon--map:before {
+  content: "\e003";
+}
+.cmn-icon--download:before {
+  content: "\e004";
+}
+.cmn-icon--phone:before {
+  content: "\e005";
+}
+.cmn-icon--right:before {
+  content: "\e006";
+}
+.cmn-icon--left:before {
+  content: "\e007";
+}
+.cmn-icon--to_bottom:before {
+  content: "\e008";
+}
+.cmn-icon--to_top:before {
+  content: "\e009";
+}
+.cmn-icon--down:before {
+  content: "\e010";
+}
+.cmn-icon--up:before {
+  content: "\e011";
+}
+.cmn-icon--window:before {
+  content: "\e012";
+}
+.cmn-icon--close:before {
+  content: "\e014";
+}
+.cmn-icon--start:before {
+  content: "\e016";
+}
+.cmn-icon--pause:before {
+  content: "\e017";
+}
+.cmn-icon--stop:before {
+  content: "\e018";
+}
+.cmn-icon--indicator_off:before {
+  content: "\e019";
+}
+.cmn-icon--indicator_on:before {
+  content: "\e020";
+}
+
+.cmn-icon--share:before {
+  content: "\e021";
+}
+.cmn-icon--comment:before {
+  content: "\e022";
+}
+.cmn-icon--thumbs_up:before {
+  content: "\e023";
+}
+.cmn-icon--reply:before {
+  content: "\e024";
+}
+.cmn-icon--retweet:before {
+  content: "\e025";
+}
+.cmn-icon--heart:before {
+  content: "\e026";
+}
+
+
+/*
+  icon-list(リンク用カスタムクラス名)
+ */
+.cmn-icon--bullet:before {
+  @extend .cmn-icon--right:before;
+}
+
+.cmn-icon--external:before {
+  @extend .cmn-icon--window:before;
+}
+
+
+/*
+  洗濯表示アイコン (2017/9追加)
+*/
+@font-face {
+  font-family: 'washing';
+  src:url('../fonts/washing.eot?vlhs1s');
+  src:url('../fonts/washing.woff2?vlhs1s') format('woff2'),
+    url('../fonts/washing.eot?vlhs1s#iefix') format('embedded-opentype'),
+    url('../fonts/washing.ttf?vlhs1s') format('truetype'),
+    url('../fonts/washing.woff?vlhs1s') format('woff'),
+    url('../fonts/washing.svg?vlhs1s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wash-icon {
+  display: inline-block;
+  font-family: 'washing';
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wash-icon--100 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e900";
+  }
+}
+.wash-icon--110 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e901";
+  }
+}
+.wash-icon--130 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e902";
+  }
+}
+.wash-icon--131 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e903";
+  }
+}
+.wash-icon--132 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e904";
+  }
+}
+.wash-icon--140 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e905";
+  }
+}
+.wash-icon--141 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e906";
+  }
+}
+.wash-icon--142 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e907";
+  }
+}
+.wash-icon--150 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e908";
+  }
+}
+.wash-icon--151 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e909";
+  }
+}
+.wash-icon--160 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e90a";
+  }
+}
+.wash-icon--161 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e90b";
+  }
+}
+.wash-icon--170 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e90c";
+  }
+}
+.wash-icon--190 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e90d";
+  }
+}
+.wash-icon--200 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e90e";
+  }
+}
+.wash-icon--210 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e90f";
+  }
+}
+.wash-icon--220 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e910";
+  }
+}
+.wash-icon--300 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e911";
+  }
+}
+.wash-icon--310 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e912";
+  }
+}
+.wash-icon--320 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e913";
+  }
+}
+.wash-icon--410 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e914";
+  }
+}
+.wash-icon--415 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e915";
+  }
+}
+.wash-icon--420 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e916";
+  }
+}
+.wash-icon--425 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e917";
+  }
+}
+.wash-icon--430 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e918";
+  }
+}
+.wash-icon--435 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e919";
+  }
+}
+.wash-icon--440 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e91a";
+  }
+}
+.wash-icon--445 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e91b";
+  }
+}
+.wash-icon--500 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e91c";
+  }
+}
+.wash-icon--510 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e91d";
+  }
+}
+.wash-icon--520 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e91e";
+  }
+}
+.wash-icon--530 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e91f";
+  }
+}
+.wash-icon--600 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e920";
+  }
+}
+.wash-icon--610 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e921";
+  }
+}
+.wash-icon--611 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e922";
+  }
+}
+.wash-icon--620 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e923";
+  }
+}
+.wash-icon--621 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e924";
+  }
+}
+.wash-icon--700 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e925";
+  }
+}
+.wash-icon--710 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e926";
+  }
+}
+.wash-icon--711 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e927";
+  }
+}
+.wash-icon--712 {
+  @extend .wash-icon;
+  &:before {
+    content: "\e928";
+  }
+}

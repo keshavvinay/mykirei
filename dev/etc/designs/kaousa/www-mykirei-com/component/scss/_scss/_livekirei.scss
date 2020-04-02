@@ -1,0 +1,349 @@
+.kirei-live-kirei-section-wrapper img {
+  width: 100% !important;
+}
+
+.kirei-live-kirei-banner-column {
+  position: relative;
+
+  .g-Column__inner .g-Column__cols:nth-child(2) {
+    .g-PageTitle, .g-PageTitle__titleBlock {
+      margin: 0;
+    }
+
+    .g-PageTitle__titleBlock__titleBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .g-Text {
+      margin: 0;
+    }
+  }
+}
+
+.kirei-live-kirei-text-column-separator {
+  .g-Column__inner {
+    width: 43%;
+    margin: auto;
+    padding: 60px 0;
+  }
+
+  .g-HeadingTitle__titleBlock__titleBox__title, .g-Column__inner .g-Text {
+    margin: 0;
+  }
+}
+
+.kirei-live-kirei-image-text-text-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+
+  .kirei-live-kirei-flower-1 {
+    width: 60%;
+
+    .g-Image__img {
+      margin-bottom: 25px;
+    }
+
+    img {
+      height: 78px;
+    }
+
+    .g-HeadingTitle, .g-Text {
+      margin: 0;
+    }
+  }
+}
+
+.kirei-live-kirei-image-column-separator .g-Column__inner {
+  width: 74%;
+  margin: 0 auto 60px;
+}
+
+.kirei-live-kirei-quote-column-separator {
+  .g-Column__inner {
+    width: 58%;
+    margin: auto;
+  }
+
+  .kirei-live-kirei-flower-2 {
+    margin-bottom: 40px;
+
+    img {
+      height: 60px;
+    }
+  }
+
+  .g-Hr__hr {
+    border-width: 0.5px;
+    opacity: 0.5;
+    margin: auto;
+  }
+
+  .g-Hr {
+    width: 400px;
+  }
+
+  .kirei-live-kirei-hr-1, .g-HeadingTitle {
+    margin-bottom: 40px;
+  }
+
+  .g-HeadingTitle__titleBlock__titleBox__title {
+    margin: 0;
+  }
+
+  .kirei-live-kirei-hr-2 {
+    margin-bottom: 70px;
+  }
+}
+
+.kirei-live-kirei-tile-link-column-separator .g-HeadingTitle {
+  margin-bottom: 0;
+}
+
+.mykirei-live-kirei-heading .g-HeadingTitle__h2 {
+  font-family: granville-lightitalic;
+}
+
+
+
+@media (min-width: 641px) {
+  .kirei-live-kirei-banner-column .g-Column__inner .g-Column__cols:nth-child(2) {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 21%;
+    margin-left: 13%;
+  }
+
+  .g-Hr {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .kirei-live-kirei-tile-link-column-separator {
+    width: 74% !important;
+    margin: 0 auto;
+
+    .g-TileLinkVUnit__leadBlock {
+      display: none;
+    }
+
+    .g-TileLinkVP__list__tile {
+      &:nth-child(1) .g-TileLinkVUnit {
+        padding: 0 20px 0 0;
+        border: none;
+      }
+
+      &:nth-child(2) .g-TileLinkVUnit {
+        padding: 0 0 0 20px;
+        border: none;
+      }
+    }
+  }
+  .mykirei-live-kirei-line1 {
+  margin-bottom: 34px !important;
+  width: 401px;
+}
+
+.mykirei-live-kirei-line2 {
+  margin-top: 38px !important;
+  width: 401px;
+}
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .kirei-live-kirei-text-column-separator {
+    .g-Column__inner {
+      width: 69.4%;
+      padding: 49px 0 55px;
+    }
+
+    .g-HeadingTitle {
+      margin-bottom: 0;
+    }
+  }
+
+  .kirei-live-kirei-image-text-text-column .kirei-live-kirei-flower-1 .g-Image__img, .kirei-live-kirei-flower-1 .g-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }
+
+  .kirei-live-kirei-image-text-text-column .kirei-live-kirei-flower-1 {
+    width: 85.9%;
+  }
+
+  .kirei-live-kirei-image-text-column-separator .g-Column__inner .g-Column__cols:nth-child(2) .g-Image__img img {
+    height: 100%;
+  }
+
+  .kirei-live-kirei-banner-column .g-Column__inner .g-Column__cols:nth-child(2) {
+    width: 28.5%;
+    margin-left: 11%;
+  }
+
+  .kirei-live-kirei-image-column-separator .g-Column__inner {
+    width: 93.8%;
+  }
+
+  .kirei-live-kirei-quote-column-separator {
+    .g-Column__inner {
+      width: 69.4%;
+      margin: 10px auto;
+    }
+
+    .kirei-live-kirei-flower-2 {
+      margin-bottom: 32px;
+    }
+
+    .kirei-live-kirei-hr-1, .g-HeadingTitle {
+      margin-bottom: 34px;
+    }
+  }
+
+  .kirei-live-kirei-tile-link-column-separator {
+    padding-bottom: 61px;
+  }
+
+  .mykirei-live-kirei-line1 {
+    width: 401px;
+    margin-bottom: 27px !important;
+  }
+
+  .mykirei-live-kirei-line2 {
+    width: 401px;
+    margin-top: 31px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .kirei-live-kirei-banner-column .g-Column__inner .g-Column__cols:nth-child(2) {
+    .g-ColumnUnit {
+      width: 75%;
+      margin: 30px auto;
+    }
+
+    .g-Text {
+      margin: 0;
+    }
+  }
+
+  .kirei-live-kirei-text-column-separator {
+    .g-Column__inner {
+      width: 86.5%;
+      margin: auto;
+      padding: 30px 0;
+    }
+
+    .g-HeadingTitle__titleBlock__titleBox__title, .g-Column__inner .g-Text {
+      margin: 0;
+    }
+  }
+
+  .kirei-live-kirei-image-text-column-separator .g-Column__inner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .kirei-live-kirei-image-text-text-column {
+    background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+
+    .kirei-live-kirei-flower-1 {
+      width: 86.5%;
+      margin: 0 auto;
+      padding: 30px 0;
+
+      .g-Image__img {
+        margin-bottom: 25px;
+      }
+
+      img {
+        height: 78px;
+      }
+
+      .g-HeadingTitle, .g-Text {
+        margin: 0;
+      }
+    }
+  }
+
+  .kirei-live-kirei-image-column-separator .g-Column__inner {
+    width: 86.5%;
+    margin: 0 auto 37px;
+  }
+
+  .kirei-live-kirei-quote-column-separator {
+    .g-Column__inner {
+      width: 86.5%;
+      margin: auto;
+    }
+
+    .kirei-live-kirei-flower-2 {
+      margin-bottom: 27px;
+
+      img {
+        height: 50px;
+      }
+    }
+
+    .g-Hr__hr {
+      border-width: 0.5px;
+    }
+
+    .kirei-live-kirei-hr-1 {
+      margin-bottom: 20px;
+    }
+
+    .g-HeadingTitle {
+      margin-bottom: 30px;
+    }
+
+    .g-HeadingTitle__titleBlock__titleBox__title {
+      margin: 0;
+    }
+
+    .kirei-live-kirei-hr-2 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .kirei-live-kirei-tile-link-column-separator {
+    width: 86.5% !important;
+    margin: 0 auto;
+
+    .g-TileLinkVUnit__leadBlock {
+      display: none;
+    }
+
+    .g-HeadingTitle {
+      margin: 0;
+    }
+
+    .g-TileLinkVP__list__tile {
+      &:nth-child(1) .g-TileLinkVUnit {
+        padding: 0 0 30px;
+        border: none;
+      }
+
+      &:nth-child(2) .g-TileLinkVUnit {
+        padding: 0 0 0 0;
+        border: none;
+      }
+    }
+  }
+
+  .kirei-live-kirei-quote-column-separator .g-Hr {
+    width: 100% !important;
+  }
+
+  .mykirei-live-kirei-line1 {
+    margin-bottom: 19px !important;
+  }
+
+  .mykirei-live-kirei-line2 {
+    margin-top: 33px !important;
+  }
+}

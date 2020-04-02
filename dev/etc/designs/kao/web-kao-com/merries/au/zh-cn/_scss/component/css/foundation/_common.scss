@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* common */
+.cmn-richtext {
+  a {
+    @include link();
+  }
+}
+
+#area-Contents {
+  @include fontSize(body);
+  font-family: $fontFamily;
+  color: $contents__text;
+  background-color: $contents__bg;
+}

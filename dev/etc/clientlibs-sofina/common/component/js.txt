@@ -1,0 +1,7 @@
+#base=js
+jquery.extend.js
+slick.js
+carousel.js
+component.js
+kao-header-footer.js
+brand-header-footer.js

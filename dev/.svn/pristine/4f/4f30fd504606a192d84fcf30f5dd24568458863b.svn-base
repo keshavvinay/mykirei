@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+/* TextP ================================================== */
+.g-TextP {
+  margin-bottom: 12px;
+  &.is-background {
+    padding: 20px;
+    
+  }
+}
+
+.g-TextP__titleBlock {
+  margin-bottom: 12px;
+}
+
+.g-TextP__leadBlock {
+  margin: 0; //debug
+}

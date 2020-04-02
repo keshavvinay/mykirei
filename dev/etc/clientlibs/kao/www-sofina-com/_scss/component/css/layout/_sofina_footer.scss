@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+/* Gl Footer ================================================== */
+.sofina-GlFooter {
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+.sofina-GlFooter__inner {
+  margin: 0 auto;
+  padding: 10px 32px;
+  max-width: $contentsMaxWidth_lg;
+  text-align: center;
+  box-sizing: border-box;
+  @include bp(sm) {
+    padding: 10px 24px;
+  }
+  @include bp(md) {
+    text-align: left;
+  }
+  @include bp(lg) {
+    text-align: left;
+  }
+}
+
+// sbps FooterLogo
+.sofina-footerLogoLinkArea {
+  @include clearfix();
+}
+.sofina-footerLogoArea {
+  float: left;
+  @include bp(md) {
+    float: none;
+    text-align: left;
+  }
+  @include bp(sm) {
+    float: none;
+    text-align: left;
+  }
+}
+.sofina-footerLogo {
+  margin: 5px 0 0;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  &:hover ,
+  &:focus {
+    color: #9a9a9a;
+    img {
+      opacity: .5;
+    }
+  }
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    margin: 10px 0 0;
+  }
+  @include bp(lg) {
+    margin: 10px 0 0;
+  }
+}
+.sofina-footerLogo__img {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  img {
+    width: 90px;
+    height: 18px;
+    vertical-align: top;
+  }
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    img {
+      width: 120px;
+      height: 24px;
+    }
+  }
+  @include bp(lg) {
+    img {
+      width: 120px;
+      height: 24px;
+    }
+  }
+}
+.sofina-footerLogo__txt {
+  margin: 0 0 0 10px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    margin-left: 20px;
+  }
+  @include bp(lg) {
+    margin-left: 20px;
+  }
+}
+
+.sofina-footerLinkList {
+  float: right;
+  margin-top: 15px;
+  @include clearfix;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style: outside none none;
+  }
+  .sofina-footerLink {
+    float: left;
+    margin: 0 0 0 30px;
+    a {
+      text-decoration: none;
+      color: #333;
+      display: block;
+      position: relative;
+      font-size: 12px;
+      line-height: 1.4;
+      &:hover ,
+      &:focus {
+        color: #9a9a9a;
+      }
+      &:before {
+        position: absolute;
+        left: -13px;
+        top: -2px;
+        content: url(/content/dam/sites/kao/www-sofina-co-jp/common/global-footer/bullet_gray_right.png);
+      }
+    }
+  }
+  @include bp(md) {
+    float: none;
+    margin-left: -15px;
+  }
+  @include bp(sm) {
+    float: none;
+    margin-top: 0;
+    .sofina-footerLink {
+      float: none;
+      margin: 5px 0 0 16px;
+      text-align: left;
+      a {
+        font-size: 14px;
+        &:before {
+          left: -16px;
+        }
+      }
+    }
+  }
+}
+
+// sofina-footerUtility
+.sofina-footerUtility {
+  margin: 3px 0 0;
+  text-align: center;
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    margin: 20px 0 0;
+  }
+  @include bp(lg) {
+    margin: 20px 0 10px;
+  }
+}
+
+// sofina-footerUtility Links
+.sofina-footerUtility__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 12px -1px 0 0;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 0 1px;
+    line-height: 1.1;
+    font-size: 12px;
+    box-sizing: border-box;
+    a {
+      padding: 0 12px;
+      display: block;
+      color: #333;
+      text-decoration: none;
+      &:hover ,
+      &:focus {
+        color: #9a9a9a;
+      }
+    }
+  }
+  @include bp(sm) {
+    font-size: 0;
+    li {
+      display: inline-block;
+    }
+  }
+  @include bp(md) {
+    float: left;
+    margin-bottom: 10px;
+    li {
+      margin: 0;
+      border-width: 0 1px 0 0;
+      float: left;
+      &:first-child {
+        border-left-width: 1px;
+      }
+      a {
+        padding: 0 16px;
+      }
+    }
+  }
+  @include bp(lg) {
+    float: left;
+    li {
+      margin: 0;
+      border-width: 0 1px 0 0;
+      float: left;
+      &:first-child {
+        border-left-width: 1px;
+      }
+      a {
+        padding: 0 16px;
+      }
+    }
+  }
+}
+
+// sofina-footerUtility Copyright
+.sofina-footerUtility__copyright {
+  margin: 15px 0 0;
+  padding: 0;
+  display: inline-block;
+  color: #333;
+  font-size: 9px;
+  text-align: left;
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    margin: 0 0 10px;
+    float: right;
+    font-size: 10px;
+    padding-left: 15px;
+  }
+  @include bp(lg) {
+    margin: 0;
+    float: right;
+    font-size: 10px;
+  }
+}

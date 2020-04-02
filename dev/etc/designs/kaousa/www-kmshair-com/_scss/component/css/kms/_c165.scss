@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/* C165 IMAGE TEXT TEASER */
+.c165__section {
+  overflow: visible;
+  .l-Section__inner {
+    max-width: none;
+    background-color: #d9d9d6;
+  }
+  .l-Column {
+    max-width: 1302px;
+  }
+}
+
+.c165__imageText {
+  position: relative;
+  .l-ImageTextHP__contentsBlock__image {
+    /*position: absolute;
+    left: 0;
+    top: 0;*/
+    margin-top: -30px;
+    @include bp(sm) {
+      margin-top: -30px !important;
+      position: relative;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__text {
+    padding: 75px 0 60px;
+    > .l-Text {
+      width: 66.67%;
+      @include kms-fontSize(longcopy);
+      @include kms-fontFamily(body);
+      @include bp(md) {
+        width: 100%;
+      }
+      @include bp(sm) {
+        width: 100%;
+      }
+    }
+    @include bp(sm) {
+      position: relative;
+      padding: 18px 0 60px !important;
+    }
+  }
+}
+
+.c165__buttons {
+  margin-top: 30px;
+}
+.c165__subtitle {
+  width: 66.67%;
+  margin-bottom: 0;
+  @include bp(md) {
+    width: 100%;
+  }
+  @include bp(sm) {
+    width: 100%;
+  }
+  .l-HeadingTitle__h3 {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(headline3);
+    text-transform: uppercase;
+  }
+  &:not(.is-link) {
+    .l-HeadingTitle__h3 {
+      color: 000;
+    }
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    @include bp(lg) {
+      margin-bottom: 15px;
+    };
+    margin-bottom: 0;
+  }
+  .l-Text {
+    margin-bottom: 15px;
+    width: 100%;
+    @include kms-fontSize(longcopy);
+    @include kms-fontFamily(body);
+    text-transform: uppercase;
+  }
+}
+
+.c165__innerTitle {
+  margin: 15px 0 0;
+  .l-HeadingTitle__h4 {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(headline4);
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }
+  &:not(.is-link) {
+    .l-HeadingTitle__h3 {
+      color: 000;
+    }
+  }
+}
+
+.c165__list {
+  margin-bottom: 30px;
+  .l-ListP__ul {
+    margin: 0;
+    padding: 0;
+  }
+  .l-ListP__ul__item {
+    margin-top: 15px;
+  }
+}
+.c165__list__item {
+  @include kms-fontSize(longcopy);
+  letter-spacing: normal;
+  .cmn-richtext {
+    > span {
+      @include display-flex;
+    }
+  }
+}
+.c165__list__marker {
+  @include kms-fontSize(longcopy);
+}
+
+.c165__text {
+  margin: 15px 0 30px;
+  @include kms-fontSize(longcopy);
+}
+
+.c165__title {
+  position: absolute;
+  top: 0;
+  font-size: 35px;
+  margin-top: -.5em !important;
+}
+.c165__title--sm {
+  font-size: 35px;
+  margin-top: -.5em !important;
+  padding-top: 60px;
+}

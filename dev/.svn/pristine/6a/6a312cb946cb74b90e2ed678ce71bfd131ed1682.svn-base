@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/*****************************
+  ASIENCE config
+ *****************************/
+/*
+ setting（上書き禁止）
+ */
+/*
+ variable
+ サイト、ページ別に上書きを許可する値
+ */
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+/*
+ Line-Frame
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Corner Radius
+ @param $size (ss, s, m, l, ll)
+ */
+/*
+ Shadow
+ @param $angle (center, downward, rightUpward, rightDownward)
+ @param $size (s, m)
+ */
+/*
+ Link
+ */
+/*
+ AreaLink
+ */
+/*
+  gutterWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/* Setting ============================================================ */
+html {
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  background-color: #fff8da;
+  font-family: Times New Roman, "游明朝", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "ＭＳ 明朝", serif;
+  color: #5e170e;
+}
+
+/* Wrapper ============================================================ */
+#area-GlHeader,
+#area-GlFooter {
+  padding: 10px 0;
+  background-color: #00b48c;
+  color: #fff;
+}
+
+#area-BlHeader,
+#area-BlFooter {
+  padding: 10px 0;
+  background-color: #46889c;
+  color: #fff;
+}
+
+#area-SbBlHeader,
+#area-SbBlFooter {
+  padding: 10px 0;
+  background-color: #95c7d3;
+  color: #fff;
+}
+
+#area-LocalNav {
+  padding: 10px 0;
+  background-color: #424242;
+  color: #fff;
+}
+
+#area-CntHeader,
+#area-CntFooter {
+  padding: 10px 0;
+  border: solid 1px #00b48c;
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+
+/* Global Header ================================================== */
+.l-GlHeader {
+  background: $globalHeader__bg;
+  border-bottom-color: $globalHeader__separateBorder--bottom;
+  letter-spacing: $letterSpacing_globalHeader;
+  font-family: $fontFamily_globalHeader;
+}
+
+
+// Utility
+.l-GlMenu__utilityBlock {
+  background: $globalHeader__bg;
+}
+
+// (Utility Region)
+.l-GlHeaderUtilityRegion__country,
+.l-GlHeaderUtilityRegion__world {
+  display: inline-block;
+  p {
+    color: $globalHeader__text;
+    font-size: $fontSize_globalHeader_region;
+    a {
+      color: $globalHeader__link;
+      &:hover ,
+      &:focus {
+        color: $globalHeader__link--hover;
+      }
+    }
+  }
+}
+.l-GlMenuUtilityRegion__country,
+.l-GlMenuUtilityRegion__world {
+  p {
+    color: $globalHeader__text;
+    font-size: $fontSize_globalHeader_region;
+    a {
+      color: $globalHeader__link;
+      &:hover ,
+      &:focus {
+        color: $globalHeader__link--hover;
+      }
+    }
+  }
+}
+
+// (Utility Search)
+.l-GlHeaderUtilitySearch,
+.l-GlMenuUtilitySearch {
+  position: relative;
+  input[type=text] {
+    background: $globalHeader__form__bg;
+    font-size: $fontSize_globalHeader_search;
+    line-height: $lineHeight_globalHeader_search;
+  }
+  button[type=submit] {
+    background: $globalHeader__form__bg;
+    .cmn-icon {
+      color: $globalHeader__form__texticon;
+      font-size: $fontSize_globalHeader_icon;
+      line-height: $lineHeight_globalHeader_icon;
+    }
+  }
+}
+
+
+// Navigation
+@include bp(sm) {
+  .l-GlMenu__navBlock {
+    background: $globalHeader__bg;
+  }
+}
+@include bp(md) {
+  .l-GlMenu__navBlock {
+    background: $globalHeader__bg;
+  }
+}
+#wrapper {
+  &.is-open {
+    border-color: $globalHeader__border;
+  }
+}
+.l-GlMenu {
+  border-color: $globalHeader__border;
+  background: $globalHeader__bg;
+}
+
+// (Navigation Button)
+.l-GlHeaderButtonLink,
+.l-GlMenuButtonLink {
+  a {
+    .cmn-icon {
+      color: $globalHeader__icon;
+      font-size: $fontSize_globalHeader_icon;
+      line-height: $lineHeight_globalHeader_icon;
+    }
+  }
+}
+
+// (Navigation List)
+.l-GlHeaderNavList,
+.l-GlMenuNavList {
+  li {
+    border-color: $globalHeader__border;
+    color: $globalHeader__text;
+    font-size: $fontSize_globalHeader;
+    line-height: $lineHeight_globalHeader;
+    a {
+      color: $globalHeader__link;
+      &:hover ,
+      &:focus {
+        color: $globalHeader__link--hover;
+      }
+    }
+  }
+}

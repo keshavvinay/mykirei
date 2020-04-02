@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+/* Brand Footer ================================================== */
+.l-BrFooter {
+  color: $brandFooter__text-02;
+  background-color: $brandFooter__bg-01;
+  border-top-color: $brandFooter__separateBorder--top;
+  @include bp(sm) {
+    @include font-size-lang('fontSize_sm_brandFooter_categoryLabel');
+    @include line-height-lang('lineHeight_sm_brandFooter_categoryLabel');
+    @include letter-spacing-lang('letterSpacing_sm_brandFooter_categoryLabel');
+    @include font-family-lang('fontFamily_sm_brandFooter_categoryLabel');
+  }
+  @include bp(md) {
+    @include font-size-lang('fontSize_md_brandFooter_categoryLabel');
+    @include line-height-lang('lineHeight_md_brandFooter_categoryLabel');
+    @include letter-spacing-lang('letterSpacing_md_brandFooter_categoryLabel');
+    @include font-family-lang('fontFamily_md_brandFooter_categoryLabel');
+  }
+  @include bp(lg) {
+    @include font-size-lang('fontSize_lg_brandFooter_categoryLabel');
+    @include line-height-lang('lineHeight_lg_brandFooter_categoryLabel');
+    @include letter-spacing-lang('letterSpacing_lg_brandFooter_categoryLabel');
+    @include font-family-lang('fontFamily_lg_brandFooter_categoryLabel');
+  }
+}
+
+// "g-BrFooterSitemap"
+// "サイトマップ領域" の中のタイル構造。
+// .l-BrFooterSitemap
+//   .l-BrFooterSitemap__list
+//     .l-BrFooterSitemap__list__tile
+.l-BrFooterSitemap__list__tile {
+  @include bp(md) {
+    border-color: $brandFooter__border-02;
+  }
+  @include bp(lg) {
+    border-color: $brandFooter__border-02;
+  }
+}
+
+// "g-BrFooterSitemapUnit"
+// "サイトマップ領域" の中のタイル構造内の Unit。
+// .l-BrFooterSitemapUnit
+.l-BrFooterSitemapUnit {
+  @include bp(md) {
+    border-color: $brandFooter__border-02;
+  }
+  @include bp(lg) {
+    border-color: $brandFooter__border-02;
+  }
+}
+
+// "g-BrFooterSitemapUnit__title"
+// Unit内、リンクグループタイトル。
+// .l-BrFooterSitemapUnit__title
+//   .l-BrFooterSitemapUnit__title__link
+.l-BrFooterSitemapUnit__title {
+  color: $brandFooter__text-02;
+  // media query
+  @include bp(sm) {
+    border-color: $brandFooter__border-01;
+    &.is-open {
+      color: $brandFooter__text-01;
+      background-color: $brandFooter__bg--open;
+    }
+  }
+}
+.l-BrFooterSitemapUnit__title__icon {
+  color: $brandFooter__icon-02;
+  @include bp(sm) {
+    .is-open & {
+      color: $brandFooter__icon-01;
+    }
+  }
+}
+// "g-BrFooterSitemapUnit__panel"
+// Unit内、リンクグループ。
+// .l-BrFooterSitemapUnit__panel
+//   .l-BrFooterSitemapUnit__links
+//   .l-BrFooterSitemapUnit__moreinfo
+//   (parsys)
+.l-BrFooterSitemapUnit__panel {
+  @include bp(sm) {
+    background-color: $brandFooter__bg-02;
+  }
+}
+.l-BrFooterSitemapUnit__links {
+  @include font-size-lang('fontSize_brandFooter_label');
+  @include line-height-lang('lineHeight_brandFooter_label');
+  @include letter-spacing-lang('letterSpacing_brandFooter_label');
+  @include font-family-lang('fontFamily_brandFooter_label');
+  a {
+    color: $brandFooter__text-02;
+  }
+  // media query
+  @include bp(sm) {
+    border-color: $brandFooter__border-01;
+    li {
+      border-color: $brandFooter__border-01;
+    }
+    a {
+      color: $brandFooter__text-01;
+    }
+  }
+}
+.l-BrFooterSitemapUnit__links__icon {
+  @include bp(sm) {
+    color: $brandFooter__icon-01;
+  }
+  @include bp(md) {
+    color: $brandFooter__icon-02;
+  }
+  @include bp(lg) {
+    color: $brandFooter__icon-02;
+  }
+}
+.l-BrFooterSitemapUnit__moreinfo {
+  a {
+    color: $brandFooter__text-02;
+  }
+  // media query
+  @include bp(sm) {
+    a {
+      color: $brandFooter__text-01;
+    }
+  }
+}
+.l-BrFooterSitemapUnit__moreinfo__icon {
+  @extend .l-BrFooterSitemapUnit__links__icon;
+}

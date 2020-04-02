@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/*****************************
+  Content Color set (bioredeodorantz)
+ *****************************/
+
+/* Body */
+$body__bg: #000000; //
+
+/* Brand Header */
+$brandHeader__bg: #e72d81; //
+$brandHeader__border: #ffb1c8; //
+$brandHeader__button__bg: #000000; //
+$brandHeader__button__icontext: #fff;
+
+$brandHeader__linkNormal__bg: transparent;
+$brandHeader__linkNormal__text: #ffffff; //
+$brandHeader__linkNormal__icon: #ffffff; //
+$brandHeader__linkNormal__bg--hover: #fa5fa5; //
+$brandHeader__linkNormal__text--hover: #ffffff; //
+$brandHeader__linkNormal__icon--hover: #ffffff; //
+
+$brandHeader__linkCurrent__bg: #ffffff; //
+$brandHeader__linkCurrent__text: #e72d81; //
+$brandHeader__linkCurrent__icon: #e72d81; //
+$brandHeader__linkCurrent__bg--hover: #ffffff; //
+$brandHeader__linkCurrent__text--hover: #e72d81; //
+$brandHeader__linkCurrent__icon--hover: #e72d81; //
+
+$brandHeader__separateBorder--top: #e72d81; //
+$brandHeader__separateBorder--bottom: #e72d81; //
+
+/* Local Navigation */
+$localNavigation__bg: #ffb1c8; //
+$localNavigation__bg--smmd: #ffb1c8; //
+$localNavigation__border: #ff5fa5; //
+
+$localNavigation__linkNormal__bg: transparent;
+$localNavigation__linkNormal__text: #333;
+$localNavigation__linkNormal__icon: #999;
+$localNavigation__linkNormal__bg--hover: #ffffff; //
+$localNavigation__linkNormal__text--hover: #333;
+$localNavigation__linkNormal__icon--hover: #666;
+
+$localNavigation__linkCurrent__bg: #ffffff; //
+$localNavigation__linkCurrent__text: #333;
+$localNavigation__linkCurrent__icon: #666;
+$localNavigation__linkCurrent__bg--hover: #ffffff; //
+$localNavigation__linkCurrent__text--hover: #333;
+$localNavigation__linkCurrent__icon--hover: #666;
+
+$localNavigation__separateBorder--top: #ffb1c8; //
+$localNavigation__separateBorder--bottom: #ffb1c8; //
+
+/* Breadcrumbs */
+$breadcrumb__link: #666;
+$breadcrumb__link--hover: #999;
+$breadcrumb__link--visited: #e72d81; //
+$breadcrumb__separateBorder--bottom: #ccc;
+$breadcrumb__icon: #cccccc; //
+
+/* Contents Area */
+$contents__bg: #000000; //
+$contents__text: #ffffff; //
+$contents__icon: #999;
+$contents__icon--reverse: #CCC;
+$contents__heading__text: #ffffff; //
+$contents__heading__border: #CCC;
+
+/* Link */
+$text__link--01: #ffffff; //
+$text__link--01--hover: #ffffff; //
+$text__link--01--visited: #e6e6e6; //
+
+$text__link--02: #e72d81; //
+$text__link--02--hover: #e72d81; //
+$text__link--02--visited: #e72d81; //
+
+/* Button */
+$button__bg--01: #e72d81; //
+$button__text--01: #FFF;
+$button__border--01: #e72d81; //
+$button__shadowVisible--01: true; // //
+
+$button__bg--02: #000000; //
+$button__text--02: #FFF;
+$button__border--02: #000000; //
+$button__shadowVisible--02: false; //
+
+$button__bg--03: #E72D81; //
+$button__text--03: #FFF;
+$button__border--03: #E72D81; //
+$button__shadowVisible--03: true; // //
+
+$button__bg--04: transparent; //
+$button__text--04: #333;
+$button__border--04: transparent; //
+$button__shadowVisible--04: false; //
+
+$button__bg--05: transparent;
+$button__text--05: #e72d81; //
+$button__border--05: #e72d81; //
+$button__shadowVisible--05: false;
+
+$button__bg--06: transparent;
+$button__text--06: #E02D00;
+$button__border--06: #E02D00;
+$button__shadowVisible--06: false;
+
+$button__bg--07: transparent;
+$button__text--07: #333;
+$button__border--07: #333;
+$button__shadowVisible--07: false;
+
+/* Accordion */
+$accordion__title__bg: #e72d81; //
+$accordion__title__text: #ffffff; //
+$accordion__title__border: #e72d81; //
+
+$accordion__content__bg: #000000; //
+$accordion__content__text: #ffffff; //
+$accordion__content__border: #e72d81; //
+
+/* TileLink */
+$tileLink__bg: #FFF;
+$tileLink__border: #333333; //
+$tileLink__text: #333;
+
+$tileLink__bg--reverse: #000;
+$tileLink__border--reverse: #000;
+$tileLink__text--reverse: #FFF;
+
+/* NewsIndex */
+$newsIndex__text: #ffffff; //
+$newsIndex__border: #333333; //
+
+/* TelephoneCallItem */
+$telCall__border--sm: #999;
+
+/* FullwidthVisuals&Carousel */
+$carousel__mainText: #ffffff; //
+$carousel__subText: #ffffff; //
+$carousel__subText--sm: #ffffff; //
+$carousel__arrow__icon: #FFF;
+$carousel__indicator__icon: #e72d81; //
+$carousel__icon--sm: #e72d81; //
+$carousel__arrow__icon__bg: #E72D81; //
+
+$carousel__button__bg--sm: #e72d81; //
+$carousel__button__text--sm: #FFF;
+$carousel__button__border--sm: transparent; //
+$carousel__button__shadowVisible--sm: false; //
+
+/* Label/Tag */
+$labelTag__bg-01: #757575;
+$labelTag__text-01: #FFF;
+
+$labelTag__bg-02: #e72d81; //
+$labelTag__text-02: #FFF;
+
+$labelTag__bg-03: #ff5fa5; //　　　//スウォッチの設定に誤りがあります
+$labelTag__text-03: #FFF;
+
+$labelTag__bg-04: #0081cc; //
+$labelTag__text-04: #FFF;
+
+$labelTag__bg-05: #fff100; //
+$labelTag__text-05: #000000; //
+
+$labelTag__bg-06: #ffb1c8; //
+$labelTag__text-06: #000000; //
+
+$labelTag__bg-07: #1d2088; //
+$labelTag__text-07: #FFF;
+
+/* DefinitionList */
+$definitionList__label__bg-01: #999;
+$definitionList__label__text-01: #fff;
+
+$definitionList__label__bg-02: #fff;
+$definitionList__label__text-02: #444;
+
+/* Brand Footer */
+$brandFooter__bg-01: #e72d81; //
+$brandFooter__bg-02: #FA5FA5; // //
+$brandFooter__bg--open: #E72D81; // //　　//スウォッチの設定に誤りがあります
+$brandFooter__text-01: #FFFFFF; // //
+$brandFooter__text-02: #ffffff; //
+$brandFooter__icon-01: #FFFFFF; // //
+$brandFooter__icon-02: #ffffff; //
+$brandFooter__border-01: #FFB1C8; // //
+$brandFooter__border-02: #FFB1C8; // //
+$brandFooter__separateBorder--top: #000000; //
+$brandFooter__separateBorder--bottom: #000000; //
+
+/* Page Top */
+$pageTop__bg: rgba(102,102,102,.5);
+$pageTop__icon: #fff;
+
+/* Option */
+$option__bg--01: #FFF;
+$option__bg--02: #e72d81; //
+$option__bg--03: #EEE;
+$option__bg--04: #FFB1C8; //
+$option__bg--05: #000000; // //
+$option__bg--06: #666;
+$option__bg--07: #333;
+
+$option__border--01: #CCC;
+$option__border--02: #FFF;
+$option__border--03: #e72d81; //
+$option__border--04: #EEE;
+$option__border--05: #f5f100; //
+$option__border--06: #666;
+$option__border--07: #333;
+
+$option__inPlaceEditor--01: #FFF;
+$option__inPlaceEditor--02: #e72d81; //
+$option__inPlaceEditor--03: #EEE;
+$option__inPlaceEditor--04: #CCC;
+$option__inPlaceEditor--05: #ff5fa5; //
+$option__inPlaceEditor--06: #666;
+$option__inPlaceEditor--07: #333;
+$option__inPlaceEditor--08: #000;
+$option__inPlaceEditor--09: #ffb1c8; //
+$option__inPlaceEditor--10: #0081cc; //
+$option__inPlaceEditor--11: #fff100; //
+$option__inPlaceEditor--12: #1d2088; //

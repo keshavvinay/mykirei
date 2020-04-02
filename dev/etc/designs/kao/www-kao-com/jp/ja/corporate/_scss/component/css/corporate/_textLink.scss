@@ -1,0 +1,40 @@
+/* TextLink */
+.corp-textLink {
+  .l-TextLinkUnit__link {
+    .cmn-richtext span {
+      padding-bottom: 2px;
+      border-bottom: 1px solid #3a3a3a;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+// mailIcon
+.corp-textLinkUnit--mail {
+  .l-TextLinkUnit__link {
+    padding-left: 45px;
+    font-size: 16px;
+    @include bp(sm) {
+      padding-left: 41px;
+      font-size: 14px;
+    };
+    &:before {
+      display: block;
+      color: #9b9b9b;
+      font-family: 'icomoon';
+      font-size: 30px;
+      @include bp(sm) {
+        font-size: 26px;
+      };
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      content: "\e002";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+}

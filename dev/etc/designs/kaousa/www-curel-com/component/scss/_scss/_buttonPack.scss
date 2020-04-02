@@ -1,0 +1,53 @@
+.g-ButtonP {
+    .g-ButtonP__list {
+        .g-ButtonP__list__item {
+            padding-top: 0;
+            padding-bottom: 0;
+            .g-ButtonUnit {
+                .g-ButtonUnit__link {
+                    border-radius: 6rem !important;
+                    border-width: 2px !important;
+                    font-size: 16px;
+                    font-family: $ralewayBlack;
+                    text-transform: uppercase;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                    transition: 0.2s;
+                    span {
+                        display: block;
+                    }
+                }
+                &.is-colorset--1 {
+                    .g-ButtonUnit__link {
+                        &:hover {
+                            background-color: $footer-anchor-hover;
+                            border-color: $footer-anchor-hover;
+                            color: $solid-white;
+                            transition: 0.2s;
+                        }
+                    }
+                }
+                &.is-colorset--2 {
+                    .g-ButtonUnit__link {
+                        &:hover {
+                            background-color: $footer-anchor-hover;
+                            border-color: $footer-anchor-hover;
+                            color: $solid-white;
+                            transition: 0.2s;
+                        }
+                    }
+                }
+                &.is-colorset--3 {
+                    .g-ButtonUnit__link {
+                        &:hover {
+                            background-color: $footer-anchor-hover;
+                            border-color: $footer-anchor-hover;
+                            color: $solid-white;
+                            transition: 0.2s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

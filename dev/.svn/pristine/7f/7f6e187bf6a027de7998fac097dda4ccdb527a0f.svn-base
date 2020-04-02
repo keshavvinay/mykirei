@@ -1,0 +1,105 @@
+.jergens-btn{
+    @include jergens-btn;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.back-to-btn a{
+    @include back-to-btn;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.heading-light{
+        @include header-light;
+    }
+
+h1{
+    font-size: 30px !important;
+    
+    @media(max-width:$breakpoint_sm){
+        font-size: 30px;
+    }
+}
+
+.glowAdvisor{
+    margin: 0;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-family: 'PT Sans';
+    
+    @media(max-width:$breakpoint_md){
+        font-size: 24px;
+    }
+}
+
+
+.hash5-heading{
+    font-size: 20px;
+    color: #555;
+}
+
+
+.glow{
+     color: #8a622a;
+}
+.hash5-color{
+    color: #555;
+}
+
+.font-13{
+    font-size: 13px;
+}
+
+.jergens-pink{
+    color: #db1973;
+}
+.overlay{
+    display: none;
+        position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(1,1,1,0.8);
+}
+.french-mc{
+    font-size: 50%;
+    top: -1.2em;
+    letter-spacing: 1px;
+}
+.single-line-text{
+    ul{
+        padding: 0;
+        li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+    ol{
+        padding-left: 15px;
+        li{
+            margin-right: 30px;
+            float: left;
+        }
+    }
+}
+.lowercase-english-listing{
+    ol{
+        list-style-type: lower-alpha !important;
+    }
+}
+.uppercase-english-listing{
+    ol{
+        list-style-type: upper-alpha !important;
+    }
+}

@@ -1,0 +1,97 @@
+/* relatedLink-01 */
+.corp-relatedLink-01 {
+  .l-TileLinkTextUnit {
+    padding: 25px 30px 28px 30px;
+    @include bp(sm) {
+      padding: 20px 15px;
+    };
+    border: none;
+    border-bottom: 1px solid #eee;
+    &:hover {
+      opacity: 1;
+      background-color: $bg-01;
+      .l-TileLinkTextUnit__leadBlock__title {
+        .cmn-richtext span {
+          padding-bottom: 2px;
+          border-bottom: 1px solid #333;
+        }
+      }
+      .l-TileLinkTextUnit__leadBlock__lead {
+        .cmn-richtext span {
+          padding-bottom: 2px;
+          border-bottom: 1px solid #333;
+        }
+      }
+    }
+    .l-TileLinkTextUnit__leadBlock {
+      padding-left: 30px;
+      @include bp(sm) {
+        padding-left: 0;
+        padding-right: 30px;
+      };
+      &:after {
+        display: none;
+        @include bp(sm) {
+          display: block;
+          color: $accent;
+          font-family: 'icomoon';
+          font-size: 13px;
+          position: absolute;
+          top: 50%;
+          right: 15px;
+          transform: translateY(-50%);
+          content: "\e006";
+        };
+      }
+    }
+    .l-TileLinkTextUnit__leadBlock__title {
+      .l-Text {
+        margin-bottom: 0;
+        position: relative;
+        font-size: 16px;
+        @include bp(sm) {
+          font-size: 14px;
+        };
+        font-weight: normal;
+        &:before {
+          color: $accent;
+          font-family: 'icomoon';
+          font-size: 16px;
+          @include bp(sm) {
+            display: none;
+          };
+          position: absolute;
+          top: 50%;
+          left: -25px;
+          transform: translateY(-50%);
+          content: "\e006";
+        }
+      }
+    }
+    .l-TileLinkTextUnit__leadBlock__lead {
+      padding-top: 5px;
+      @include bp(sm) {
+        padding-top: 0;
+      };
+      .l-Text {
+        font-size: 14px;
+        @include bp(sm) {
+          font-size: 12px;
+        };
+        margin-bottom: 0;
+      }
+    }
+  }
+  .is-newWindow .l-TileLinkTextUnit__leadBlock {
+    &:after {
+      content: "\e012";
+    }
+    .l-TileLinkTextUnit__leadBlock__title {
+      .l-Text {
+        &:before {
+          content: "\e012";
+        }
+      }
+    }
+  }
+}

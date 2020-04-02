@@ -1,0 +1,434 @@
+@charset "utf-8";
+
+/*****************************
+  Content Color set (light)
+ *****************************/
+
+/* Body */
+$body__bg: #FFF;
+
+/* Brand Header */
+$brandHeader__bg: #fff;
+$brandHeader__border: #ccc;
+$brandHeader__button__bg: #666;
+$brandHeader__button__icontext: #fff;
+
+$brandHeader__linkNormal__bg: transparent;
+$brandHeader__linkNormal__text: #333;
+$brandHeader__linkNormal__icon: #999;
+$brandHeader__linkNormal__bg--hover: #eee;
+$brandHeader__linkNormal__text--hover: #333;
+$brandHeader__linkNormal__icon--hover: #666;
+
+$brandHeader__linkCurrent__bg: #eee;
+$brandHeader__linkCurrent__text: #333;
+$brandHeader__linkCurrent__icon: #666;
+$brandHeader__linkCurrent__bg--hover: #ccc;
+$brandHeader__linkCurrent__text--hover: #333;
+$brandHeader__linkCurrent__icon--hover: #666;
+
+$brandHeader__separateBorder--top: #ccc;
+$brandHeader__separateBorder--bottom: #ccc;
+
+/* Local Navigation */
+$localNavigation__bg: #f1f1f1;
+$localNavigation__bg--smmd: #fff;
+$localNavigation__border: #ccc;
+
+$localNavigation__linkNormal__bg: transparent;
+$localNavigation__linkNormal__text: #333;
+$localNavigation__linkNormal__icon: #999;
+$localNavigation__linkNormal__bg--hover: #ccc;
+$localNavigation__linkNormal__text--hover: #333;
+$localNavigation__linkNormal__icon--hover: #666;
+
+$localNavigation__linkCurrent__bg: #ccc;
+$localNavigation__linkCurrent__text: #333;
+$localNavigation__linkCurrent__icon: #666;
+$localNavigation__linkCurrent__bg--hover: #aaa;
+$localNavigation__linkCurrent__text--hover: #333;
+$localNavigation__linkCurrent__icon--hover: #666;
+
+$localNavigation__separateBorder--top: transparent;
+$localNavigation__separateBorder--bottom: #ccc;
+
+/* Breadcrumbs */
+$breadcrumb__link: #666;
+$breadcrumb__link--hover: #999;
+$breadcrumb__link--visited: #666;
+$breadcrumb__separateBorder--bottom: #ccc;
+$breadcrumb__icon: #999;
+
+/* Contents Area */
+$contents__bg: #FFF;
+$contents__text: #333;
+$contents__icon: #999;
+$contents__icon--reverse: #CCC;
+$contents__heading__text: #333;
+$contents__heading__border: #CCC;
+
+/* Link */
+$text__link--01: #06A;
+$text__link--01--hover: #007BCD;
+$text__link--01--visited: #527;
+
+$text__link--02: #66C2FF;
+$text__link--02--hover: #CCEBFF;
+$text__link--02--visited: #EBCCFF;
+
+/* Button */
+$button__bg--01: #0066AA;
+$button__text--01: #FFF;
+$button__border--01: #0066AA;
+$button__shadowVisible--01: true;
+
+$button__bg--02: #E02D00;
+$button__text--02: #FFF;
+$button__border--02: #E02D00;
+$button__shadowVisible--02: true;
+
+$button__bg--03: #666;
+$button__text--03: #FFF;
+$button__border--03: #666;
+$button__shadowVisible--03: true;
+
+$button__bg--04: #F1F1F1;
+$button__text--04: #333;
+$button__border--04: #F1F1F1;
+$button__shadowVisible--04: true;
+
+$button__bg--05: transparent;
+$button__text--05: #0066AA;
+$button__border--05: #0066AA;
+$button__shadowVisible--05: false;
+
+$button__bg--06: transparent;
+$button__text--06: #E02D00;
+$button__border--06: #E02D00;
+$button__shadowVisible--06: false;
+
+$button__bg--07: transparent;
+$button__text--07: #333;
+$button__border--07: #333;
+$button__shadowVisible--07: false;
+
+/* Accordion */
+$accordion__title__bg: #F1F1F1;
+$accordion__title__text: #333;
+$accordion__title__border: #CCC;
+
+$accordion__content__bg: #FFF;
+$accordion__content__text: #333;
+$accordion__content__border: #CCC;
+
+/* Tab Menu */
+$tabmenu__tab__border: #CCC;
+$tabmenu__tab__bg: #F1F1F1;
+$tabmenu__tab__text: #333;
+$tabmenu__tab__border--hover: #CCC;
+$tabmenu__tab__bg--hover: #CCC;
+$tabmenu__tab__text--hover: #333;
+$tabmenu__tab__border--active: #CCC;
+$tabmenu__tab__bg--active: #FFF;
+$tabmenu__tab__text--active: #333;
+
+$tabmenu__control__border: #999;
+$tabmenu__control__bg: #999;
+$tabmenu__control__icon: #FFF;
+$tabmenu__control__border--hover: #666;
+$tabmenu__control__bg--hover: #666;
+$tabmenu__control__icon--hover: #FFF;
+
+$tabmenu__content__border: #CCC;
+$tabmenu__content__bg: #FFF;
+
+/* TileLink */
+$tileLink__bg: #FFF;
+$tileLink__border: #EEE;
+$tileLink__text: #333;
+
+$tileLink__bg--reverse: #000;
+$tileLink__border--reverse: #000;
+$tileLink__text--reverse: #FFF;
+
+/* NewsIndex */
+$newsIndex__text: #333;
+$newsIndex__border: #EEE;
+$newsIndex__summary: #333;
+$newsIndex__bg__cardview: #FFF;
+
+/* TelephoneCallItem */
+$telCall__border--sm: #999;
+
+/* FullwidthVisuals&Carousel */
+$carousel__mainText: #333;
+$carousel__subText: #333;
+$carousel__subText--sm: #333;
+$carousel__arrow__icon: #FFF;
+$carousel__indicator__icon: #999;
+$carousel__icon--sm: #999;
+$carousel__arrow__icon__bg: rgba(#000, .5);
+
+$carousel__button__bg--sm: #0066AA;
+$carousel__button__text--sm: #FFF;
+$carousel__button__border--sm: #0066AA;
+$carousel__button__shadowVisible--sm: true;
+
+/* ImageCarousel */
+$carouselImage__arrow__icon: #FFF;
+$carouselImage__indicator__icon: #999;
+$carouselImage__icon--sm: #999;
+$carouselImage__arrow__icon__bg: rgba(#000, .5);
+$carouselImage__icon__small__movie: #FFF;
+$carouselImage__icon__small__movie__bg: rgba(#000, .5);
+
+/* Label/Tag */
+$labelTag__bg-01: #757575;
+$labelTag__text-01: #FFF;
+$labelTag__border-01: transparent;
+$labelTag__borderVisible-01: false;
+
+$labelTag__bg-02: #9C27B0;
+$labelTag__text-02: #FFF;
+$labelTag__border-02: transparent;
+$labelTag__borderVisible-02: false;
+
+$labelTag__bg-03: #3F51B5;
+$labelTag__text-03: #FFF;
+$labelTag__border-03: transparent;
+$labelTag__borderVisible-03: false;
+
+$labelTag__bg-04: #039BE5;
+$labelTag__text-04: #FFF;
+$labelTag__border-04: transparent;
+$labelTag__borderVisible-04: false;
+
+$labelTag__bg-05: #43A047;
+$labelTag__text-05: #FFF;
+$labelTag__border-05: transparent;
+$labelTag__borderVisible-05: false;
+
+$labelTag__bg-06: #FFEB3B;
+$labelTag__text-06: #333;
+$labelTag__border-06: transparent;
+$labelTag__borderVisible-06: false;
+
+$labelTag__bg-07: #F44336;
+$labelTag__text-07: #FFF;
+$labelTag__border-07: transparent;
+$labelTag__borderVisible-07: false;
+
+$labelTag__bg-08: #FFFFFF;
+$labelTag__text-08: #757575;
+$labelTag__border-08: #757575;
+$labelTag__borderVisible-08: true;
+
+$labelTag__bg-09: #FFFFFF;
+$labelTag__text-09: #9C27B0;
+$labelTag__border-09: #9C27B0;
+$labelTag__borderVisible-09: true;
+
+$labelTag__bg-10: #FFFFFF;
+$labelTag__text-10: #3F51B5;
+$labelTag__border-10: #3F51B5;
+$labelTag__borderVisible-10: true;
+
+/* DefinitionList */
+$definitionList__label__bg-01: #999;
+$definitionList__label__text-01: #fff;
+
+$definitionList__label__bg-02: #fff;
+$definitionList__label__text-02: #444;
+
+/* YouTubeVideo */
+$youTubeVideo__text--01: #333;
+$youTubeVideo__icon--01: #999;
+$youTubeVideo__link--01: #06a;
+$youTubeVideo__link--01--hover: #007BCD;
+$youTubeVideo__link--01--visited: #527;
+$youTubeVideo__text--02: #fff;
+$youTubeVideo__icon--02: #ccc;
+$youTubeVideo__link--02: #66C2FF;
+$youTubeVideo__link--02--hover: #CCEBFF;
+$youTubeVideo__link--02--visited: #EBCCFF;
+
+/* FacebookPost */
+$facebookPost__text--01: #333;
+$facebookPost__icon--01: #999;
+$facebookPost__border--01: #ccc;
+$facebookPost__link--01: #06a;
+$facebookPost__link--01--hover: #007BCD;
+$facebookPost__link--01--visited: #527;
+$facebookPost__shared__text--01: #333;
+$facebookPost__shared__border--01: #ccc;
+$facebookPost__shared__bg--01: #fff;
+$facebookPost__text--02: #fff;
+$facebookPost__icon--02: #ccc;
+$facebookPost__border--02: #999;
+$facebookPost__link--02: #66C2FF;
+$facebookPost__link--02--hover: #CCEBFF;
+$facebookPost__link--02--visited: #EBCCFF;
+$facebookPost__shared__text--02: #fff;
+$facebookPost__shared__border--02: #999;
+$facebookPost__shared__bg--02: #000;
+
+/* TwitterPost */
+$twitterPost__text--01: #333;
+$twitterPost__icon--01: #999;
+$twitterPost__border--01: #ccc;
+$twitterPost__link--01: #06a;
+$twitterPost__link--01--hover: #007BCD;
+$twitterPost__link--01--visited: #527;
+$twitterPost__text--02: #fff;
+$twitterPost__icon--02: #ccc;
+$twitterPost__border--02: #999;
+$twitterPost__link--02: #66C2FF;
+$twitterPost__link--02--hover: #CCEBFF;
+$twitterPost__link--02--visited: #EBCCFF;
+
+/* InstagramPost */
+$instagramPost__text--01: #333;
+$instagramPost__icon--01: #999;
+$instagramPost__border--01: #ccc;
+$instagramPost__link--01: #06a;
+$instagramPost__link--01--hover: #007BCD;
+$instagramPost__link--01--visited: #527;
+$instagramPost__carousel__icon--01: #FFFFFF;
+$instagramPost__carousel__icon__bg--01: rgba(0,0,0,0.5);
+$instagramPost__indicator__icon--01: #999999;
+$instagramPost__text--02: #fff;
+$instagramPost__icon--02: #ccc;
+$instagramPost__border--02: #999;
+$instagramPost__link--02: #66C2FF;
+$instagramPost__link--02--hover: #CCEBFF;
+$instagramPost__link--02--visited: #EBCCFF;
+$instagramPost__carousel__icon--02: #FFFFFF;
+$instagramPost__carousel__icon__bg--02: rgba(0,0,0,0.5);
+$instagramPost__indicator__icon--02: #CCCCCC;
+
+/* Store Locator */
+// search nav
+$storeLocator__search__input__bg: #FFFFFF;
+$storeLocator__search__input__border: #CCCCCC;
+$storeLocator__search__input__placeholder: #CCCCCC;
+$storeLocator__search__input__bg--focus: #F1F1F1;
+$storeLocator__search__input__border--focus: #CCCCCC;
+$storeLocator__search__input__text: #333333;
+$storeLocator__search__btn__bg: #0066AA;
+$storeLocator__search__btn__text: #FFFFFF;
+$storeLocator__search__btn__border: #0066AA;
+// area accordion
+$storeLocator__accordion__title__bg: #F1F1F1;
+$storeLocator__accordion__title__text: #333333;
+$storeLocator__accordion__title__border: #CCCCCC;
+$storeLocator__accordion__title__bg--active: #CCCCCC;
+$storeLocator__accordion__title__text--active: #333333;
+$storeLocator__accordion__title__border--active: #CCCCCC;
+$storeLocator__accordion__link__border: #CCCCCC;
+$storeLocator__accordion__link__bg: #FFFFFF;
+$storeLocator__accordion__link__text: #333333;
+$storeLocator__accordion__link__icon: #999999;
+$storeLocator__accordion__link__bg--hover: #F1F1F1;
+$storeLocator__accordion__link__text--hover: #333333;
+$storeLocator__accordion__link__icon--hover: #999999;
+$storeLocator__accordion__link__scrollbar: #EEEEEE;
+// store list
+$storeLocator__list__border: #EEEEEE;
+$storeLocator__list__bg: #FFFFFF;
+$storeLocator__list__text: #333333;
+$storeLocator__list__icon: #999999;
+$storeLocator__list__bg--hover: #F1F1F1;
+$storeLocator__list__text--hover: #333333;
+$storeLocator__list__icon--hover: #999999;
+// back btn
+$storeLocator__btn__bg: #0066AA;
+$storeLocator__btn__text: #FFFFFF;
+$storeLocator__btn__border: #0066AA;
+$storeLocator__btn__shadowVisible: true;
+// text
+$storeLocator__text: #333333;
+// link
+$storeLocator__link__icon: #999999;
+$storeLocator__link__text: #0066AA;
+$storeLocator__link__text--hover: #007BCD;
+$storeLocator__link__text--visited: #552277;
+// app
+$appError__overlay__bg: rgba(0,0,0,0.5);
+$appError__modal__bg: #FFFFFF;
+$appError__modal__text: #333333;
+$appError__modal__icon: #999999;
+$appError__modal__btn__bg: #0066AA;
+$appError__modal__btn__text: #FFFFFF;
+$appError__modal__btn__border: #0066AA;
+$appError__modal__button__shadowVisible: true;
+
+
+/* Overlay */
+$overlay__bg: rgba(#000, 0.5);
+$modal__text: #333;
+$modal__icon: #999;
+$modal__bg: #fff;
+$modal__button__bg: #0066AA;
+$modal__button__text: #fff;
+$modal__button__border: #0066AA;
+$modal__button__shadowVisible: true;
+
+/* Brand Footer */
+$brandFooter__bg-01: #666;
+$brandFooter__bg-02: #eee;
+$brandFooter__bg--open: #ccc;
+$brandFooter__text-01: #333;
+$brandFooter__text-02: #eee;
+$brandFooter__icon-01: #333;
+$brandFooter__icon-02: #eee;
+$brandFooter__border-01: #ccc;
+$brandFooter__border-02: #eee;
+$brandFooter__separateBorder--top: #ccc;
+
+/* Page Top */
+$pageTop__bg: rgba(102,102,102,.5);
+$pageTop__icon: #fff;
+
+/* Privacy Notice */
+$privacyNotice__overlay__bg: rgba(0,0,0,.5);
+$privacyNotice__bg: #fff;
+$privacyNotice__heading__text: #333;
+$privacyNotice__heading__underline: #ccc;
+$privacyNotice__text: #333;
+$privacyNotice__button__bg: #06a;
+$privacyNotice__button__text: #fff;
+$privacyNotice__button__border: #06a;
+$privacyNotice__button__shadowVisible: true;
+$privacyNotice__link: #06a;
+$privacyNotice__link__icon: #999;
+$privacyNotice__link--hover: #007bcd;
+
+/* Option */
+$option__bg--01: #FFF;
+$option__bg--02: #F1F1F1;
+$option__bg--03: #EEE;
+$option__bg--04: #CCC;
+$option__bg--05: #999;
+$option__bg--06: #666;
+$option__bg--07: #333;
+
+$option__border--01: #CCC;
+$option__border--02: #FFF;
+$option__border--03: #F1F1F1;
+$option__border--04: #EEE;
+$option__border--05: #999;
+$option__border--06: #666;
+$option__border--07: #333;
+
+$option__inPlaceEditor--01: #FFF;
+$option__inPlaceEditor--02: #F1F1F1;
+$option__inPlaceEditor--03: #EEE;
+$option__inPlaceEditor--04: #CCC;
+$option__inPlaceEditor--05: #999;
+$option__inPlaceEditor--06: #666;
+$option__inPlaceEditor--07: #333;
+$option__inPlaceEditor--08: #000;
+$option__inPlaceEditor--09: #00B48C;
+$option__inPlaceEditor--10: #FF6600;
+$option__inPlaceEditor--11: #039BE5;
+$option__inPlaceEditor--12: #F44336;

@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@font-face {
+ font-family: 'Smudger';
+ src:url("../fonts/SMUDGER.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'DIN 1451 ENGSCHRIFT';
+ src: url("../fonts/DIN 1451 ENGSCHRIFT.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+    font-family: 'DIN 1451 ENGSCHRIFT';
+    src: url("../fonts/DIN 1451 ENGSCHRIFT.woff") format("woff");
+    font-weight: bold;
+}
+@font-face {
+    font-family: '32A99D_0_0';
+    src: url("../fonts/32A99D_0_0.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KFOmCnqEu92Fr1Mu4mxK';
+    src:url("../fonts/KFOmCnqEu92Fr1Mu4mxK.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '3d4c80e6';
+    src:url("../fonts/3d4c80e6");
+    font-weight: normal;
+    font-style: normal;
+}
+// @font-face {
+//   font-family: 'MRS EAVES';
+//   src: url("../fonts/32A99D_0_0.ttf") format("truetype");
+//   src: url("../fonts/32A99D_0_0.eot") format("embedded-opentype"),
+//   url("../fonts/32A99D_0_0.woff2") format("woff2"),
+//   url("../fonts/32A99D_0_0.woff") format("woff"),
+//   url("../fonts/32A99D_0_0.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3320221, 2016-12-12T20:50:04-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: MrsEavesOT-Roman by Emigre
+ * URL: http://www.myfonts.com/fonts/emigre/mrs-eaves-ot/ot-roman/
+ * Copyright: Copyright (c) Emigre Graphics, 1996. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3320221
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+$kms_fontFamily: 'DIN 1451 ENGSCHRIFT';
+$kms_fontFamily_title: 'SMUDGER';
+$kms_fontFamily_subTitle: 'DIN 1451 ENGSCHRIFT';
+
+$kms_fontFamily--zh: 'MSungHK Medium';
+$kms_fontFamily_title--zh: 'MHGHagoromoTHK Medium';
+$kms_fontFamily_subTitle--zh: 'MHei HK Xbold';
+
+$kms_fontFamily--zh_hk: 'Msung HK Medium';
+$kms_fontFamily_title--zh_hk: 'Mwindy HK Bold';
+$kms_fontFamily_subTitle--zh_hk: 'Mhei HK Heavy';
+
+$kms_fontFamily--zh_tw: 'Msung HK Medium';
+$kms_fontFamily_title--zh_tw: 'Mwindy HK Bold';
+$kms_fontFamily_subTitle--zh_tw: 'Mhei HK Heavy';

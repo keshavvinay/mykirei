@@ -1,0 +1,17 @@
+.g-TileLinkVP {
+    .g-TileLinkVP__list {
+        .g-TileLinkVUnit__leadBlock {
+            padding-right: 0;
+            .g-TileLinkVUnit__leadBlock__title  {
+                .g-Text {
+                    margin: 0px;
+                    font-weight: $wt700;
+                }
+            }
+            .g-TileLinkVUnit__leadBlock__lead {
+                font-size: 0.75rem;
+                line-height: 0.875rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,225 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3579388, 2018-05-14T07:29:57-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Verdana by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/verdana/regular/
+ * Copyright: Typeface and data &#x00A9; 1996 Microsoft Corporation. All Rights Reserved
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: Verdana-Bold by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/verdana/bold/
+ * Copyright: Typeface and data &#x00A9; 1996 Microsoft Corporation. All Rights Reserved
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: GarthGraphicPro-Regular by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/garth-graphic/pro-regular/
+ * Copyright: Copyright 1991, 2001 Monotype Imaging, Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: GarthGraphicPro-Bold by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/garth-graphic/pro-bold/
+ * Copyright: Copyright 1991, 2001 Monotype Imaging, Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: HelveticaLTWXX-Light by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-light/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: HelveticaLTWXX-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-regular/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: HelveticaLTWXX-Oblique by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-oblique-174619/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: HelveticaLTWXX-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-bold-174619/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: Tahoma by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/tahoma/regular/
+ * Copyright: &#x00A9; 2006 Microsoft Corporation. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: Tahoma-Bold by Ascender
+ * URL: https://www.myfonts.com/fonts/ascender/tahoma/bold/
+ * Copyright: &#x00A9; 2006 Microsoft Corporation. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: DidotLTPro-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/didot/pro-roman/
+ * Copyright: Copyright &#x00A9; 2012 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Linotype Didot is a trademark of Linotype Gmb
+ * Licensed pageviews: 7,500,000
+ * 
+ * Webfont: DidotLTPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/didot/pro-bold/
+ * Copyright: Copyright &#x00A9; 2012 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Linotype Didot is a trademark of Linotype Gmb
+ * Licensed pageviews: 7,500,000
+ * 
+ * Webfont: BaskervilleMTPro-SemiboldIt by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/baskerville-mt/pro-semi-bold-italic/
+ * Copyright: Copyright &#x00A9; 2015 The Monotype Corporation. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: HelveticaNeueLTPro-Lt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-45-light-189171/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * Webfont: HelveticaNeueLTPro-Roman by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-55-roman-189171/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: HelveticaNeueLTPro-It by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-56-italic-189171/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * Webfont: HelveticaNeueLTPro-Bd by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-75-bold-189171/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 2,500,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3579388
+ * 
+ * © 2018 MyFonts Inc
+ */
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/369dfc");
+
+@font-face {
+    font-family: 'Verdana';
+    src: url('../fonts/webfonts/369DFC_0_0.eot');
+    src: url('../fonts/webfonts/369DFC_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_0_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_0_0.woff') format('woff'), url('../fonts/webfonts/369DFC_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Verdana-Bold';
+    src: url('../fonts/webfonts/369DFC_1_0.eot');
+    src: url('../fonts/webfonts/369DFC_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_1_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_1_0.woff') format('woff'), url('../fonts/webfonts/369DFC_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GarthGraphicPro-Regular';
+    src: url('../fonts/webfonts/369DFC_2_0.eot');
+    src: url('../fonts/webfonts/369DFC_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_2_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_2_0.woff') format('woff'), url('../fonts/webfonts/369DFC_2_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GarthGraphicPro-Bold';
+    src: url('../fonts/webfonts/369DFC_3_0.eot');
+    src: url('../fonts/webfonts/369DFC_3_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_3_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_3_0.woff') format('woff'), url('../fonts/webfonts/369DFC_3_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaLTWXX-Light';
+    src: url('../fonts/webfonts/369DFC_4_0.eot');
+    src: url('../fonts/webfonts/369DFC_4_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_4_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_4_0.woff') format('woff'), url('../fonts/webfonts/369DFC_4_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaLTWXX-Roman';
+    src: url('../fonts/webfonts/369DFC_5_0.eot');
+    src: url('../fonts/webfonts/369DFC_5_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_5_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_5_0.woff') format('woff'), url('../fonts/webfonts/369DFC_5_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaLTWXX-Oblique';
+    src: url('../fonts/webfonts/369DFC_6_0.eot');
+    src: url('../fonts/webfonts/369DFC_6_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_6_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_6_0.woff') format('woff'), url('../fonts/webfonts/369DFC_6_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaLTWXX-Bold';
+    src: url('../fonts/webfonts/369DFC_7_0.eot');
+    src: url('../fonts/webfonts/369DFC_7_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_7_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_7_0.woff') format('woff'), url('../fonts/webfonts/369DFC_7_0.ttf') format('truetype');
+}
+
+/* @font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/webfonts/369DFC_8_0.eot');
+    src: url('../fonts/webfonts/369DFC_8_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_8_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_8_0.woff') format('woff'), url('../fonts/webfonts/369DFC_8_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Tahoma-Bold';
+    src: url('../fonts/webfonts/369DFC_9_0.eot');
+    src: url('../fonts/webfonts/369DFC_9_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_9_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_9_0.woff') format('woff'), url('../fonts/webfonts/369DFC_9_0.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: 'DidotLTPro-Roman';
+    src: url('../fonts/webfonts/369DFC_A_0.eot');
+    src: url('../fonts/webfonts/369DFC_A_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_A_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_A_0.woff') format('woff'), url('../fonts/webfonts/369DFC_A_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DidotLTPro-Bold';
+    src: url('../fonts/webfonts/369DFC_B_0.eot');
+    src: url('../fonts/webfonts/369DFC_B_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_B_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_B_0.woff') format('woff'), url('../fonts/webfonts/369DFC_B_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BaskervilleMTPro-SemiboldIt';
+    src: url('../fonts/webfonts/369DFC_C_0.eot');
+    src: url('../fonts/webfonts/369DFC_C_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_C_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_C_0.woff') format('woff'), url('../fonts/webfonts/369DFC_C_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTPro-Lt';
+    src: url('../fonts/webfonts/369DFC_D_0.eot');
+    src: url('../fonts/webfonts/369DFC_D_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_D_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_D_0.woff') format('woff'), url('../fonts/webfonts/369DFC_D_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTPro-Roman';
+    src: url('../fonts/webfonts/369DFC_E_0.eot');
+    src: url('../fonts/webfonts/369DFC_E_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_E_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_E_0.woff') format('woff'), url('../fonts/webfonts/369DFC_E_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTPro-It';
+    src: url('../fonts/webfonts/369DFC_F_0.eot');
+    src: url('../fonts/webfonts/369DFC_F_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_F_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_F_0.woff') format('woff'), url('../fonts/webfonts/369DFC_F_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTPro-Bd';
+    src: url('../fonts/webfonts/369DFC_10_0.eot');
+    src: url('../fonts/webfonts/369DFC_10_0.eot?#iefix') format('embedded-opentype'), url('../fonts/webfonts/369DFC_10_0.woff2') format('woff2'), url('../fonts/webfonts/369DFC_10_0.woff') format('woff'), url('../fonts/webfonts/369DFC_10_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/new_fonts/Gotham-Bold.otf');
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    src: url('../fonts/new_fonts/Gotham-ExtraLight.otf');
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../fonts/new_fonts/Gotham-Light.otf');
+}@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/new_fonts/Gotham-Medium.otf');
+}
+@font-face {
+    font-family: 'PTSans';
+    src: url('../fonts/new_fonts/PTSans.ttc');
+}

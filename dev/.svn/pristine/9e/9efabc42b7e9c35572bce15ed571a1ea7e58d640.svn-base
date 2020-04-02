@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 08_1_Ex_1_About_KMS_Style-Matters_Template */
+
+.aboutKMSTemplate_section-c185 {
+  @include bp(lg) {
+    margin: 0 auto;
+    max-width: 1366px;
+    background-position: center left;
+    background-size: 202px 202px;
+  }
+  @include bp(md) {
+    background-position: center left;
+    background-size: 125px 125px;
+  };
+  @include bp(sm) {
+    background-position: top right;
+    background-size: 181px 200px;
+  };
+}

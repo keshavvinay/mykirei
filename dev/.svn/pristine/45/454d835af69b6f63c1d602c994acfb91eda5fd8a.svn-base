@@ -1,0 +1,553 @@
+/*jergens contact-us css*/
+html[lang='ar-sa'] {
+	.jergens_contact_us_section {
+		label {
+			margin-right: 16px;
+		}
+		.form_button_submit {
+			padding-left: 20px;
+			background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/arrowLink_left.png) 8px 13px no-repeat #e4d6c6;
+		}
+		select {
+			margin-right: 13px;
+		}
+		#jergens_contact_us_day {
+			width: 50px;
+		}
+	}
+}
+
+html[lang='en-au'] {
+    .jergens_sign_up_section{
+        .jergens_sign_up_image{
+            img{
+                    width: auto !important;
+                max-height: 450px;
+                margin: 0 auto;
+                
+                @media(max-width:$breakpoint_md){
+                    
+                max-height: 300px;
+                }
+            }
+        }
+    }
+}
+
+html[lang='es-mx'] {
+	.jergens_contact_us_section {
+		#confirm_email_rightcol {
+			position: relative;
+			margin-bottom: 30px;
+		}
+		#mx_group_box {
+			display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+		}
+		#error_confirm_email {
+			position: absolute;
+		}
+		#jergens_contact_us_product_image {
+			img {
+				width: auto !important;
+				max-height: 450px;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+.jergens_contact_us_section {
+	.g-Section__inner {
+		padding-top: 0 !important;
+	}
+	.dob_group_box {
+		margin-bottom: 20px;
+	}
+	.online-style {
+		em {
+			color: #093556;
+			font-size: 11px;
+			font-style: italic;
+			font-family: arial;
+		}
+		.fill {
+			font-size: 12px;
+			font-family: Arial;
+			margin-bottom: -5px;
+		}
+	}
+	.form_button_reset {
+		border: 0;
+		position: relative;
+		background: none;
+		background-color: #e4d6c6;
+		padding: 8px;
+		color: #666666;
+		text-transform: uppercase;
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.form_button_submit {
+		border: 0;
+		position: relative;
+		background: none;
+		background-color: #e4d6c6;
+		padding: 8px;
+		color: #666666;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-right: 20px;
+		background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/arrowLink.png) 92% 13px no-repeat #e4d6c6;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:after {
+			content: '';
+		}
+	}
+	.online {
+		color: #92816e;
+		font-size: 20px;
+		font-weight: normal;
+		text-transform: uppercase;
+		font-family: "PT Sans Narrow";
+	}
+	.address-heading {
+		color: #92816e;
+		font-size: 20px;
+		font-weight: normal;
+		text-transform: uppercase;
+		border-bottom: 2px solid #e3d5c4;
+	}
+	.contact-us-heading {
+		color: #000;
+	}
+	.jergens_contact_us_form {
+		.online-style {
+			.cmn-richtext {
+				border-bottom: 2px solid #e3d5c4;
+			}
+			hr {
+				display: none;
+			}
+		}
+		padding: 10px;
+		textarea {
+			border: 1px solid #e3d5c4;
+		}
+	}
+	.sub_heading {
+		display: flex;
+		.g-Text {
+			font-family: Arial;
+			font-size: 12px;
+			&:first-child {
+				margin-right: 20px;
+			}
+		}
+		hr {
+			border: 1px solid #e3d5c4;
+		}
+	}
+	.media-contact {
+		width: 250px;
+		font-family: Arial;
+		font-size: 12px;
+		hr {
+			border: 1px solid #e3d5c4;
+		}
+	}
+	.l-PageTitle__h1 {
+		font-family: "PT Sans Narrow";
+		line-height: 1;
+	}
+	.SubmitContainer {
+		a {
+			color: #000;
+		}
+		font-size: 14px;
+		font-family: Arial;
+	}
+	.g-GroupBox {
+		.form_row {
+			display: inline-block;
+		}
+		.form_row_description {
+			display: none;
+		}
+	}
+	#jergens_contact_us_address3 {
+		margin-bottom: 19px;
+	}
+	#jergens_contact_us_phone {
+		margin-bottom: 19px;
+	}
+	#jergens_contact_us_upcCode {
+		margin-bottom: 19px;
+	}
+	#jergens_contact_us_mfgCode {
+		margin-bottom: 19px;
+	}
+	#error_address2 {
+		color: red;
+		visibility: hidden;
+	}
+	#error_firstName {
+		color: red;
+		visibility: hidden;
+	}
+	#error_lastName {
+		color: red;
+		visibility: hidden;
+	}
+	#error_email {
+		color: red;
+		visibility: hidden;
+	}
+	#error_confirm_email {
+		color: red;
+		visibility: hidden;
+	}
+	#error_address1 {
+		color: red;
+		visibility: hidden;
+	}
+	#error_city {
+		color: red;
+		visibility: hidden;
+	}
+	#error_zipcode {
+		color: red;
+		visibility: hidden;
+	}
+	#error_comment {
+		color: red;
+		visibility: hidden;
+	}
+	#error_state {
+		color: red;
+		visibility: hidden;
+	}
+	#error_submit {
+		color: red;
+		visibility: hidden;
+	}
+	#error_gender {
+		color: red;
+		visibility: hidden;
+	}
+	#error_year {
+		color: red;
+		display: none;
+	}
+	#error_day {
+		color: red;
+		display: none;
+	}
+	#error_month {
+		color: red;
+		display: none;
+	}
+	#jergens_contact_us_comment {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.help-tip {
+		background-color: #000;
+		border-radius: 50%;
+		cursor: default;
+		font-size: 14px;
+		height: 18px;
+		left: 100px;
+		line-height: 18px;
+		text-align: center;
+		top: 0px;
+		width: 18px;
+		font-weight: bold;
+		color: #fff;
+		z-index: 5000;
+		margin-right: 12px;
+		margin-left: 5px;
+		padding: 0px 4px;
+	}
+	#common_column_separator_2 {
+		float: right;
+	}
+	.form_leftcolmark {
+		display: none;
+	}
+	#common_column_separator_1 {
+		.g-Column__inner {
+			.g-Column__cols {
+				padding-top: 0 !important;
+			}
+		}
+		background-color: #fff;
+		width: 985px;
+		padding-top: 0 !important;
+	}
+	.jergens_contact_us_header_image {
+		margin: 0 auto;
+		background-position: left 0 !important;
+		background-size: cover !important;
+		min-height: 200px;
+		padding-top: 20px !important;
+		.l-PageTitle {
+			margin-bottom: 0;
+		}
+		.l-Text {
+			margin-bottom: 0;
+		}
+	}
+	#heading-title {
+		font-family: "PT Sans Narrow";
+		font-size: 18px;
+		color: #999999;
+		text-transform: uppercase;
+		line-height: 22px;
+		margin: 0;
+		margin-top: 50px;
+	}
+	.form_row {
+		.form_rightcol {
+			.form_rightcol_wrapper {
+				input {
+					width: 210px;
+					margin-right: 12px;
+					border: 1px solid #e3d5c4;
+					padding: 5px 10px;
+				}
+			}
+		}
+	}
+	#by_mail {
+		width: 250px;
+	}
+	#jergens_contact_us_state {
+		width: 230px;
+		height: 30px;
+		border: 1px solid #e3d5c4;
+		padding: 5px 10px;
+	}
+	#jergens_contact_us_gender {
+		width: 28%;
+		height: 30px;
+		border: 1px solid #e3d5c4;
+		padding: 5px 10px;
+	}
+	#jergens_contact_us_day {
+		height: 30px;
+		border: 1px solid #e3d5c4;
+	}
+	#jergens_contact_us_month {
+		height: 30px;
+		border: 1px solid #e3d5c4;
+	}
+	#jergens_contact_us_year {
+		height: 30px;
+		border: 1px solid #e3d5c4;
+	}
+	.error_msg {
+		display: none;
+	}
+	.product_code_image {
+		margin-bottom: 8px;
+		flex-direction: column-reverse;
+		position: absolute !important;
+		padding: 10px;
+		background-color: #333;
+		color: #fff;
+		border-radius: 2px;
+		display: none;
+	}
+	#product_mfg_image {
+		left: 353px;
+		width: 52%;
+		top: 25px;
+		&:before {
+			content: '';
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: -5px;
+			left: 1px;
+			border-left: 7px solid transparent;
+			border-right: 7px solid transparent;
+			border-bottom: 5px solid #333;
+		}
+	}
+	#product_upc_image {
+		left: 111px;
+		width: 52%;
+		top: 25px;
+		&:before {
+			content: '';
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: -5px;
+			left: 1px;
+			border-left: 7px solid transparent;
+			border-right: 7px solid transparent;
+			border-bottom: 5px solid #333;
+		}
+	}
+	#product_code {
+		img {
+			max-height: 126px;
+			width: auto !important;
+			margin: 0 auto;
+		}
+	}
+	#jergens_contact_us_product_image {
+		width: 100%;
+		img {
+			width: 100% !important;
+		}
+	}
+	.loader {
+		display: none;
+		background-size: auto;
+		height: 100px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: #fff;
+		height: 100%;
+		z-index: 10;
+	}
+}
+html[lang='fr-ca'] {
+	.jergens_contact_us_section {
+		.form_button_submit {
+			background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/arrowLink.png) 92% 13px no-repeat #e4d6c6;
+		}
+	}
+}
+.is-authorring {
+	.jergens_contact_us_section {
+		.error_msg {
+			display: block;
+		}
+		.product_code_image {
+			display: block;
+		}
+	}
+}
+#product_code {
+	position: relative;
+}
+@media only screen and (max-width: 1025px) {
+    
+    
+    html[lang='es-mx'] {
+	.jergens_contact_us_section {
+        #jergens_contact_us_product_image {
+			img {
+				width: 100% !important;		
+				
+			}
+		}
+	
+	}
+	}
+    
+	.jergens_contact_us_section {
+		#jergens_contact_us_comment {
+			width: 90%;
+		}
+		#common_column_separator_1 {
+			width: 100%;
+		}
+		#product_mfg_image {
+			left: 115px;
+			top: 93px;
+		}
+		#jergens_contact_us_gender {
+			width: 50%;
+		}
+		#by_mail {
+			width: 100%;
+		}
+		.sub_heading {
+			display: block;
+			g-Text {
+				width: 100%;
+			}
+			.g-Text {
+				&:first-child {
+					margin-right: 0;
+				}
+			}
+		}
+		.media-contact {
+			width: 100%;
+		}
+		.online-style {
+			width: 100%;
+		}
+	}
+}
+@media only screen and (max-width: 640px) {
+    
+    
+    
+	.jergens_contact_us_section {
+		#jergens_contact_us_product_image {
+			width: 60%;
+			margin: 0 auto;
+		}
+		.form_button_submit {
+			background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/arrowLink.png) 62px 13px no-repeat #e4d6c6;
+		}
+		#by_mail {
+			width: 100%;
+		}
+		.sub_heading {
+			display: block;
+		}
+		.jergens_contact_us_header_image {
+			background-size: cover !important;
+			background-position: 100% 100% !important;
+		}
+		.jergens_contact_us_form {
+			padding: 7px;
+		}
+		.form_row {
+			.form_rightcol {
+				.form_rightcol_wrapper {
+					input {
+						width: 185px;
+					}
+				}
+			}
+		}
+		#product_upc_image {
+			img {
+				max-height: 34px;
+			}
+		}
+		#product_mfg_image {
+			img {
+				max-height: 100px;
+			}
+		}
+		#jergens_contact_us_state {
+			width: 205px;
+		}
+		#jergens_contact_us_gender {
+			width: 50%;
+		}
+	}
+	html[lang='ar-sa'] {
+		.jergens_contact_us_section {
+			.jergens_contact_us_form {
+				padding: 2px;
+			}
+		}
+	}
+}

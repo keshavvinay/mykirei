@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA BPS</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/header-footer.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/header-footer.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div>
+      <div class="g-Area sofina-BlHeader" id="area-BlHeader">
+        <div class="g-Area__inner">
+          <div class="BlHeader">
+            <div class="sofina-HeaderLogo sofina-HeaderLogo--bps">
+              <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps.html">
+                <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                  <p class="g-Image__img l-Image__img">
+                    <img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/bps/header-logo-sofina-bps@2x.png?fmt=png-alpha" alt="SOFINA Beauty Power Station" data-fixedimgsrc="header-logo-sofina-bps_s@2x.png">
+                  </p>
+                </div>
+              </a>
+            </div>
+            <a href="javascript:void(0);" class="sofina-HeaderMenu"></a>
+            <ul class="sofina-HeaderGlobalNav">
+              <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps.html">トップ</a></li>
+              <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/studio.html">Personal Lesson Studio</a></li>
+              <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+              <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/access.html">店舗情報・アクセス</a></li>
+              <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/reserve.html">ご予約方法</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section l-Section sofina-quickcheck-section__titleblock" id="common_section_wrapper_1">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-paddingReset" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-PageTitle l-PageTitle opt-al_c is-layoutL sofina-quickcheck-section__titleblock__title is-subTitleTop">
+                    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                            <span class="cmn-richtext">
+                              <span>体験レポート
+                              </span>
+                            </span>
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-Text l-Text opt-al_c sofina-quickcheck-section__titleblock__text">
+                    <p class="cmn-richtext">
+                      <span>Report
+                      </span>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section sofina-quickcheck-section__mainvisual" id="common_section_wrapper_2">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column sofina-quickcheck-section__mainvisual__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle opt-al_c sofina-quickcheck-section__mainvisual__title g-HeadingTitle--h2 l-HeadingTitle--h2">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-lg-w90p opt-md-w90p opt-sm-w100p">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                              <p class="g-Image__img l-Image__img">
+                                <img src="../dam/bps/quickcheck/mainvi-title.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                              </p>
+                            </div>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-ImageTextHP l-ImageTextHP is-layoutL sofina-quickcheck-section__mainvisual__imagetext is-smallViewVertical opt-sm-al_c">
+                    <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                      <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-lg-w50p opt-md-w50p opt-sm-w100p">
+                        <div class="g-Image l-Image sofina-quickcheck-section__mainvisual__image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="../dam/bps/quickcheck/mainvi-img.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w0p">
+                        <div class="g-Text l-Text sofina-quickcheck-section__mainvisual__imagetext__text">
+                          <p class="cmn-richtext">
+                            <span>優木まおみさんが、
+                              <br /> 15分のお肌の
+                              <br /> クイックチェックにTRY！
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section sofina-quickcheck-section__contents" id="common_section_wrapper_3">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column sofina-quickcheck-section__contents__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_3" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-MovieTextVP l-MovieTextVP sofina-quickcheck-section__contents__movie is-layoutT">
+                    <div class="g-MovieTextVP__contentsBlock l-MovieTextVP__contentsBlock">
+                      <div class="g-MovieTextVP__contentsBlock__movie l-MovieTextVP__contentsBlock__movie opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Movie l-Movie">
+                          <div class="g-Movie__iframe l-Movie__iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6gT_h2N3uH0" frameborder="0" allowfullscreen></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="g-MovieTextVP__contentsBlock__text l-MovieTextVP__contentsBlock__text">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>誰もが羨む美肌の持ち主である、タレントの優木まおみさん。
+                              <br />そんな彼女にも肌悩みがあるようです。
+                              <br />
+                              <br />「30代になってから、ますます肌が乾燥してきて……。
+                              <br />特に目元が気になりますね。
+                              <br />肌チェックは受けたかったんですけど、仕事と子育てでなかなか時間がとれなくて……。
+                              <br />でも銀座のソフィーナのお店はたった15分で詳しくチェックできるって聞いて、
+                              <br />行ってみたいと思ってたんです。」（優木さん）
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT sofina-quickcheck-section__contents__image">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="../dam/bps/quickcheck/dummy-img.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>まずは自分の肌状態を
+                                      <br />伝えてから測定スタート！
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>肌に専用の機器をあてて、弾力・水分・皮脂分泌量をチェック。
+                              <br />測定を終えたら、データを転送し、あとは結果を待つだけです。
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT sofina-quickcheck-section__contents__image">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="../dam/bps/quickcheck/dummy-img.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>まずは自分の肌状態を
+                                      <br />伝えてから測定スタート！
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>肌に専用の機器をあてて、弾力・水分・皮脂分泌量をチェック。
+                              <br />測定を終えたら、データを転送し、あとは結果を待つだけです。
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT sofina-quickcheck-section__contents__image">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="../dam/bps/quickcheck/dummy-img.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>まずは自分の肌状態を
+                                      <br />伝えてから測定スタート！
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>肌に専用の機器をあてて、弾力・水分・皮脂分泌量をチェック。
+                              <br />測定を終えたら、データを転送し、あとは結果を待つだけです。
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT sofina-quickcheck-section__contents__image">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="../dam/bps/quickcheck/dummy-img.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>まずは自分の肌状態を
+                                      <br />伝えてから測定スタート！
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>肌に専用の機器をあてて、弾力・水分・皮脂分泌量をチェック。
+                              <br />測定を終えたら、データを転送し、あとは結果を待つだけです。<br>
+                              <span class="sofina-quickcheck-section__contents__image__note">注釈</span>
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-GroupBox l-GroupBox sofina-quickcheck-section__contents__event is-border is-border--solid is-borderWidth--s is-borderColor--1">
+                    <div class="g-HeadingTitle l-HeadingTitle opt-al_c sofina-quickcheck-section__contents__event__title g-HeadingTitle--h3 l-HeadingTitle--h3">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                              <span class="cmn-richtext">
+                                <span>イベント情報
+                                </span>
+                              </span>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-Text l-Text opt-al_c sofina-quickcheck-section__contents__event__entitle">
+                      <p class="cmn-richtext">
+                        <span>Event Information
+                        </span>
+                      </p>
+                    </div>
+                    <div class="g-HeadingTitle l-HeadingTitle sofina-quickcheck-section__contents__event__subtitle g-HeadingTitle--h4 l-HeadingTitle--h4">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+                              <span class="cmn-richtext">
+                                <span>お肌のクイックチェック実施中！
+                                </span>
+                              </span>
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- freehtml -->
+                    <div class="g-ImageTextHP l-ImageTextHP is-layoutR sofina-quickcheck-section__contents__event__detail is-smallViewVertical">
+                      <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                        <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w0p">
+                          <table class="sofina-quickcheck-section__contents__event__detail__table">
+                            <tr>
+                              <th class="sofina-quickcheck-section__contents__event__detail__th">場　　所</th>
+                              <td class="sofina-quickcheck-section__contents__event__detail__td">
+                                <span>
+                                  SOFINA Beauty Power Station<br>
+                                  ‘Try & Enjoy’ Shop<br>
+                                </span>
+                                <div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay sofina-section_shopinfo__btnaccess">
+                                  <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/access.html" target="_self" id="common_link_button_item_20150831212010199_Rcpe" class="g-LinkButton__link l-LinkButton__link ">
+                                    <span class="cmn-richtext">
+                                      <span>アクセス</span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th class="sofina-quickcheck-section__contents__event__detail__th">受付時間</th>
+                              <td class="sofina-quickcheck-section__contents__event__detail__td">
+                                <span>
+                                  11:00〜19:45（不定休）<br>
+                                  ご予約は不要です。<br>
+                                </span>
+                              </td>
+                            </tr>
+                          </table>
+                          <div class="g-ImageTextHP l-ImageTextHP is-layoutL sofina-quickcheck-section__contents__event__detail__3step">
+                            <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                              <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-lg-w30p opt-md-w30p opt-sm-w30p">
+                                $PARSYS
+                              </div>
+                              <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-lg-w70p opt-md-w70p opt-sm-w70p">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>体験いただいた方に
+                                      <br />
+                                      <strong>土台美容液から始める ３ＳＴＥＰ 体験キット</strong>も差し上げます！
+                                    </span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-Text l-Text sofina-quickcheck-section__contents__event__detail__note">
+                            <p class="cmn-richtext">
+                              <span>※お1人様1回限りの進呈（なくなり次第終了）となります。
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-lg-w50p opt-md-w50p opt-sm-w100p sofina-quickcheck-section__contents__event__detail__img">
+                          $PARSYS
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /freehtml -->
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-Contents -->
+    <div></div>
+    <div>
+      <div class="g-Area sofina-SbBlFooter" id="area-SbBlFooter">
+        <div class="g-Area__inner">
+          <div class="SbBlFooter">
+            <div class="sofina-footerSNS">
+              <div class="sofina-footerSNS__inner">
+                <!-- COMMON SNS BUTTON START -->
+                <table width="965" height="28" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td width="761" height="28" nowrap align="right" valign="middle" bgcolor="#ffffff"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="18d43b045a7f3a2aa10f9d69f786175580f5bee5" data-button="button-2">Check</a>
+                        <script type="text/javascript" src="https://static.mixi.jp/js/share.js"></script>
+                      </td>
+                      <td width="4"></td>
+                      <td width="200" height="28" nowrap align="left" valign="middle">
+                        <!-- AddThis Button BEGIN -->
+                        <div class="addthis_toolbox">
+                          <div class="custom_images">
+                            <a class="addthis_button_facebook">
+                              <img src="http://www.sofina.co.jp/common/j/imgs/fb_button.gif" width="69" height="20" border="0" alt="Share to Facebook">
+                            </a>
+                            <a class="addthis_button_twitter">
+                              <img src="http://www.sofina.co.jp/common/j/imgs/twitter_button.gif" width="55" height="20" border="0" alt="Share to Twitter">
+                            </a>
+                            <a class="addthis_button_more">
+                              <img src="http://www.sofina.co.jp/common/j/imgs/add_button.gif" width="50" height="20" border="0" alt="More...">
+                            </a>
+                          </div>
+                        </div>
+                        <script type="text/javascript">
+                          var addthis_config = {
+                            "data_track_clickback": true
+                          };
+                        </script>
+                        <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+                        <!-- AddThis Button END -->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- COMMON SNS BUTTON END -->
+              </div>
+            </div>
+            <div class="sofina-footerPagetop">
+              <a href="#wrapper">
+                <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る</a>
+            </div>
+            <div class="sofina-footerSitemap">
+              <div class="sofina-footerSitemapColumn">
+                <div class="sofina-footerSitemap__cols">
+                  <ul class="sofina-footerSitemapLinks">
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps.html">トップ</a></li>
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/studio.html">Personal Lesson Studio</a></li>
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/access.html">店舗情報・アクセス</a></li>
+                    <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/reserve.html">ご予約方法</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Area sofina-BlFooter" id="area-BlFooter">
+        <div class="g-Area__inner">
+          <div class="BlFooter">
+            <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp.html" class="sofina-footerLogo">
+              <p class="sofina-footerLogo__img">
+                <img src="/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina.png" alt="SOFINA">
+              </p>
+              <p class="sofina-footerLogo__txt">ソフィーナトップページ</p>
+            </a>
+            <div class="sofina-footerUtility">
+              <ul class="sofina-footerUtility__links">
+                <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護方針</a></li>
+                <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+                <li><a href="http://www.kao.com/jp/">花王株式会社</a></li>
+                <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+              </ul>
+              <p class="sofina-footerUtility__copyright">Copyright © 1999-2016 Kao Corporation. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span id="breakPoint-small"></span>
+      <span id="breakPoint-middle"></span>
+      <span id="breakPoint-large"></span>
+    </div>
+  </div>
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    _satellite.pageBottom();
+  </script>
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/*****************************
+  Content Color set (ecolife)
+ *****************************/
+
+/* Body */
+$body__bg: #d2eefc; //
+
+/* Brand Header */
+$brandHeader__bg: #26a4ed; //
+$brandHeader__text: #ffffff; //
+$brandHeader__icon: #ffffff; //
+$brandHeader__border: transparent; //
+$brandHeader__button__bg: #ffffff; //
+$brandHeader__button__icontext: #008cd6; //
+
+$brandHeader__linkNormal__bg: transparent;
+$brandHeader__linkNormal__text: #ffffff; //
+$brandHeader__linkNormal__icon: #ffffff; //
+$brandHeader__linkNormal__bg--hover: #26a4ed; //
+$brandHeader__linkNormal__text--hover: #1c71be; //
+$brandHeader__linkNormal__icon--hover: #ffffff; //
+
+$brandHeader__linkCurrent__bg: #00a4ed; //
+$brandHeader__linkCurrent__text: #1c71be; //
+$brandHeader__linkCurrent__icon: #ffffff; //
+$brandHeader__linkCurrent__bg--hover: #26a4ed; //
+$brandHeader__linkCurrent__text--hover: #1c71be; //
+$brandHeader__linkCurrent__icon--hover: #1c71be; //
+
+$brandHeader__separateBorder--top: #ccc;
+$brandHeader__separateBorder--bottom: #ccc;
+
+/* Local Navigation */
+$localNavigation__bg: #ffffff; //
+$localNavigation__bg--smmd: #fff;
+$localNavigation__text: #333;
+$localNavigation__icon: #008cd6; //
+$localNavigation__border: transparent; //
+
+$localNavigation__linkNormal__bg: transparent;
+$localNavigation__linkNormal__text: #333;
+$localNavigation__linkNormal__icon: #008cd6; //
+$localNavigation__linkNormal__bg--hover: transparent; //
+$localNavigation__linkNormal__text--hover: #797979; //
+$localNavigation__linkNormal__icon--hover: #1c71be; //
+
+$localNavigation__linkCurrent__bg: transparent;
+$localNavigation__linkCurrent__text: #1c71be; //
+$localNavigation__linkCurrent__icon: #008cd6; //        ///スウォッチの設定に誤りがあります。
+$localNavigation__linkCurrent__bg--hover: transparent;
+$localNavigation__linkCurrent__text--hover: #1c71be; //
+$localNavigation__linkCurrent__icon--hover: #1c71be; //
+
+$localNavigation__separateBorder--top: #eeeeee; //
+$localNavigation__separateBorder--bottom: #eeeeee; //
+
+/* Breadcrumbs */
+$breadcrumb__link: #008cd6; //
+$breadcrumb__link--hover: #1c71be; //
+$breadcrumb__link--visited: #008cd6; //
+$breadcrumb__separateBorder--top: transparent; //
+$breadcrumb__separateBorder--bottom: transparent; //
+$breadcrumb__icon: #797979; //
+
+/* Contents Area */
+$contents__bg: #FFF;
+$contents__text: #333;
+$contents__icon: #008cd6; //
+$contents__icon--reverse: #1c71be; //
+$contents__border: #CCC;
+$contents__heading__text: #005bac; //
+$contents__heading__border: #008cd6; //
+
+/* Link */
+$text__link--01: #008cd6; //
+$text__link--01--hover: #1c71be; //
+$text__link--01--visited: #008cd6; //
+
+$text__link--02: #333333; //
+$text__link--02--hover: #797979; //
+$text__link--02--visited: #333333; //
+
+/* Button */
+$button__bg--01: #008cd6; //
+$button__text--01: #FFF;
+$button__border--01: #008cd6; //
+$button__shadowVisible--01: true;
+
+$button__bg--02: #ffffff; //
+$button__text--02: #008cd6; //
+$button__border--02: #eeeeee; //
+$button__shadowVisible--02: true;
+
+$button__bg--03: #f95208; //
+$button__text--03: #FFF;
+$button__border--03: #f95208; //
+$button__shadowVisible--03: true;
+
+$button__bg--04: #77c649; //
+$button__text--04: #ffffff; //
+$button__border--04: #77c649; //
+$button__shadowVisible--04: true;
+
+$button__bg--05: #7dcefb; //
+$button__text--05: #ffffff; //
+$button__border--05: #7dcefb; //
+$button__shadowVisible--05: true; //
+
+$button__bg--06: #d89dff; //
+$button__text--06: #ffffff; //
+$button__border--06: #d89dff; //
+$button__shadowVisible--06: true; //
+
+$button__bg--07: #169302; //
+$button__text--07: #ffffff; //
+$button__border--07: #169302; //
+$button__shadowVisible--07: true; //
+
+/* Accordion */
+$accordion__title__bg: #008cd6; //
+$accordion__title__text: #ffffff; //
+$accordion__title__border: transparent; //
+
+$accordion__content__bg: #FFF;
+$accordion__content__text: #333;
+$accordion__content__border: #ffffff; //
+
+/* TileLink */
+$tileLink__bg: #FFF;
+$tileLink__border: transparent; //
+$tileLink__text: #008cd6; //
+
+$tileLink__bg--reverse: #d2eefc; //
+$tileLink__border--reverse: #d2eefc; //        ///スウォッチの設定に誤りがあります。
+$tileLink__text--reverse: #008cd6; //
+
+/* NewsIndex */
+$newsIndex__text: #333;
+$newsIndex__border: #d2eefc; //
+
+/* TelephoneCallItem */
+$telCall__border--sm: #d2eefc; //
+
+/* FullwidthVisuals&Carousel */
+$carousel__mainText: #333;
+$carousel__subText: #333;
+$carousel__subText--sm: #333;
+$carousel__arrow__icon: #008cd6; //
+$carousel__indicator__icon: #008cd6; //
+$carousel__icon--sm: #008cd6; //
+$carousel__arrow__icon__bg: #ffffff; //
+
+$carousel__button__bg--sm: #008cd6; //
+$carousel__button__text--sm: #FFF;
+$carousel__button__border--sm: transparent; //
+$carousel__button__shadowVisible--sm: true;
+
+/* Label/Tag */
+$labelTag__bg-01: #008cd6; //
+$labelTag__text-01: #FFF;
+
+$labelTag__bg-02: #d2eefc; //
+$labelTag__text-02: #008cd6; //
+
+$labelTag__bg-03: #fce2d0; //
+$labelTag__text-03: #fe8721; //
+
+$labelTag__bg-04: #f7e4ed; //
+$labelTag__text-04: #fb4683; //
+
+$labelTag__bg-05: #ecdcf9; //
+$labelTag__text-05: #b953fa; //
+
+$labelTag__bg-06: #dff2ed; //
+$labelTag__text-06: #16a58d; //
+
+$labelTag__bg-07: #f95208; //
+$labelTag__text-07: #FFF;
+
+/* DefinitionList */
+$definitionList__label__bg-01: #999;
+$definitionList__label__text-01: #fff;
+
+$definitionList__label__bg-02: #fff;
+$definitionList__label__text-02: #444;
+
+/* Brand Footer */
+$brandFooter__bg-01: #ffffff; //
+$brandFooter__bg-02: #eee;
+$brandFooter__bg--open: #ffffff; //
+$brandFooter__text-01: #333;
+$brandFooter__text-02: #333333; //      ///スウォッチの設定に誤りがあります
+$brandFooter__icon-01: #d2eefc; //
+$brandFooter__icon-02: #008cd6; //
+$brandFooter__border-01: #eeeeee; //
+$brandFooter__border-02: #ffffff; //
+$brandFooter__separateBorder--top: #eeeeee; //
+$brandFooter__separateBorder--bottom: #eeeeee; //
+
+/* Page Top */
+$pageTop__bg: rgba(102,102,102,.5);
+$pageTop__icon: #fff;
+
+/* Option */
+$option__bg--01: #FFF;
+$option__bg--02: #d2eefc; //
+$option__bg--03: #fce2d0; //
+$option__bg--04: #f7e4ed; //
+$option__bg--05: #ecdcf9; //
+$option__bg--06: #dff2ed; //
+$option__bg--07: #e4ffd4; //
+
+$option__border--01: #008cd6; //
+$option__border--02: #d2eefc; //
+$option__border--03: #fe8d2c; //
+$option__border--04: #f08eb9; //
+$option__border--05: #d89dff; //
+$option__border--06: #28b8a2; //
+$option__border--07: #77c649; //
+
+$option__inPlaceEditor--01: #FFF;
+$option__inPlaceEditor--02: #f95208; //
+$option__inPlaceEditor--03: #fe8721; //
+$option__inPlaceEditor--04: #fb4683; //
+$option__inPlaceEditor--05: #b953fa; //
+$option__inPlaceEditor--06: #16a58d; //
+$option__inPlaceEditor--07: #169302; //   ///スウォッチの設定に誤りがあります
+$option__inPlaceEditor--08: #008cd6; //
+$option__inPlaceEditor--09: #1c71be; //
+$option__inPlaceEditor--10: #005bac; //
+$option__inPlaceEditor--11: #999999; //
+$option__inPlaceEditor--12: #333333; //

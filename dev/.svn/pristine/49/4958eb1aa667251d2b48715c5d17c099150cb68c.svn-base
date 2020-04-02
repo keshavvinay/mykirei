@@ -1,0 +1,26 @@
+// .curel-404-wrapper {
+//     .g-Column__inner {
+//         .g-Column__cols {
+//             &:first-child {
+//                 .g-ColumnUnit {
+//                     display: flex;
+//                     justify-content: center;
+//                     flex-direction: column;
+//                     .g-PageTitle{
+//                         .g-Text{
+//                             font-family: $ralewayBlack;
+//                         }
+//                     }
+//                 }
+//             }
+//             .g-ImageTextVP {
+//                 .g-ImageTextVP__contentsBlock__image {
+//                     border: 1px solid $image-border;
+//                     img {
+//                         margin: auto
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_024: News Index Pack</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>G_CON_024: News Index Pack</h1>
+
+<!-- G_CON_024: News Index Pack -->
+<div class="method">
+  <p class="componentName">NewsIndex</p>
+  <ul>
+    <li>日付型 : （DOM出力変更）
+      <ul>
+        <li>YYYY-MM-DD</li>
+        <li>YYYY年MM月DD日</li>
+        <li>DD/MM/YYYY</li>
+        <li>MM/DD/YYYY</li>
+        <li>DD-MMM-YYYY</li>
+        <li>MMM DD, YYYY</li>
+        <li>DD.MM.YYYY</li>
+        <li>MM.DD.YYYY</li>
+      </ul>
+    </li>
+    <li>アイコンの色調反転</li>
+    <li>Specific CSS class : 任意クラス付与</li>
+    <li>Background image : 背景画像スタイル付与</li>
+    <li>Specific CSS class : 任意クラス付与</li>
+  </ul>
+</div>
+
+
+<h3 class="settingName">Typical</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <!-- NewsIndexUnit -->
+      <div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+      <!-- / NewsIndexUnit -->
+    </li>
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <!-- NewsIndexUnit -->
+      <div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+      <!-- / NewsIndexUnit -->
+    </li>
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <!-- NewsIndexUnit -->
+      <div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+      <!-- / NewsIndexUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : YYYY-MM-DD</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">2016-01-01</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : YYYY年MM月DD日</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">2016年01月01日</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : DD/MM/YYYY</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">01/01/2016</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : MM/DD/YYYY</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">01/01/2016</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : DD-MM-YYYY</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">01-01-2016</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : MMM DD, YYYY</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">Jan 01, 2016</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : DD.MM.YYYY</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">01.01.2016</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">DateTime : MM.DD.YYYY</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">01.01.2016</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">アイコンを反転 (背景色はダミー)</h3>
+<div class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list" style="background-color: red;">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+        <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+          <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+            <time datetime="2016-01-01">Jan 01, 2016</time>
+          </div>
+          <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+            <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+              LabelTag items text
+            </span>
+          </div>
+        </div>
+
+        <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+          <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+            <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+          </div>
+          <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+            <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+        </div>
+
+        <span class="cmn-icon cmn-icon--reverse cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+      </a>
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">Specific CSS class</h3>
+<div class="g-NewsIndexP l-NewsIndexP SpecificCSSclass">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <!-- TileLinkTextUnit -->
+      <div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+      <!-- / TileLinkTextUnit -->
+    </li>
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <!-- TileLinkTextUnit -->
+      <div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+      <!-- / TileLinkTextUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">Background image</h3>
+<div class="g-NewsIndexP l-NewsIndexP is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <!-- NewsIndexUnit -->
+      <div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+      <!-- / NewsIndexUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">ID</h3>
+<div id="" class="g-NewsIndexP l-NewsIndexP">
+  <ul class="g-NewsIndexP__list l-NewsIndexP__list">
+
+    <li class="g-NewsIndexP__list__item l-NewsIndexP__list__item">
+      <!-- NewsIndexUnit -->
+      <div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+      <!-- / NewsIndexUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<!-- NewsIndexUnit -->
+<div class="method">
+  <p class="componentName">NewsIndexUnit</p>
+  <ul>
+    <li>Link : div → aタグ変更</li>
+    <li>Element : （DOM出力変更）
+      <ul>
+        <li>Label/Tag: none, text, image(サイズ任意)</li>
+        <li>Thumbnail</li>
+      </ul>
+    </li>
+    <li>Target/Link icon : アイコン用ステータスクラス付与</li>
+  </ul>
+</div>
+
+
+<h3 class="settingName">Typical</h3>
+<div class="debug-tmpl" data-tmpl="NewsIndexUnit--Typical"></div>
+
+
+<h3 class="settingName">Element : not link</h3>
+<div class="g-NewsIndexUnit l-NewsIndexUnit">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        LabelTag items text
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">Element : Label/Tag (Image)</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-NewsIndexUnit__infoBlock__label__img l-NewsIndexUnit__infoBlock__label__img">
+        <img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" alt="dummy">
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+
+  <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+</a>
+
+<h3 class="settingName">Element : Label/Tag (none)</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+
+  <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+</a>
+
+
+<h3 class="settingName">Element : Thumbnail (none)</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        LabelTag items text
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+    </div>
+  </div>
+
+  <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+</a>
+
+
+<h3 class="settingName">LinkIcon : external</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        LabelTag items text
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+
+  <span class="cmn-icon cmn-icon--external g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+</a>
+
+
+<h3 class="settingName">LinkIcon : basic</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        LabelTag items text
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+
+  <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+</a>
+
+
+<h3 class="settingName">LinkIcon : PDF</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        LabelTag items text
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+
+  <span class="cmn-icon cmn-icon--pdf g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+</a>
+
+
+<h3 class="settingName">LinkIcon : download</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        LabelTag items text
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+
+  <span class="cmn-icon cmn-icon--download g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+</a>
+
+
+<h3 class="settingName">LinkIcon : none</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+        LabelTag items text
+      </span>
+    </div>
+  </div>
+
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+</a>
+
+
+<hr>
+
+
+<!-- test -->
+<h3 class="settingName">Element : Label/Tag (Image) - サイズ出力サンプル</h3>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-NewsIndexUnit__infoBlock__label__img l-NewsIndexUnit__infoBlock__label__img">
+        <img src="//dummyimage.com/150x36/000/fff.png" alt="dummy">
+      </span>
+    </div>
+  </div>
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">規定値内で最大</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+</a>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-NewsIndexUnit__infoBlock__label__img l-NewsIndexUnit__infoBlock__label__img">
+        <img src="//dummyimage.com/50x14/000/fff.png" alt="dummy">
+      </span>
+    </div>
+  </div>
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">画像が縦/横ともに小さい</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+</a>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-NewsIndexUnit__infoBlock__label__img l-NewsIndexUnit__infoBlock__label__img">
+        <img src="//dummyimage.com/1000x36/000/fff.png" alt="dummy">
+      </span>
+    </div>
+  </div>
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">幅のみが最大値を超える</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+</a>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-NewsIndexUnit__infoBlock__label__img l-NewsIndexUnit__infoBlock__label__img">
+        <img src="//dummyimage.com/150x500/000/fff.png" alt="dummy">
+      </span>
+    </div>
+  </div>
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">高さのみが最大値を超える</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+</a>
+<a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+  <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+    <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+      <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+    </div>
+    <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+      <span class="g-NewsIndexUnit__infoBlock__label__img l-NewsIndexUnit__infoBlock__label__img">
+        <img src="//dummyimage.com/1000x500/000/fff.png" alt="dummy">
+      </span>
+    </div>
+  </div>
+  <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+    <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+      <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">幅/高さともに最大値を超える</p>
+    </div>
+    <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+      <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    </div>
+  </div>
+</a>
+<!-- /test -->
+
+
+<!-- / G_CON_024: News Index Pack -->
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

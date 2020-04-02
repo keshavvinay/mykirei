@@ -1,0 +1,321 @@
+.kirei-sustainability-section-wrapper img {
+  width: 100% !important;
+}
+
+.kirei-sustainability-link-column .g-TextLinkUnit__link {
+  line-height: 1.63;
+
+  &:hover {
+    color: rgba(64, 65, 68, 0.6);
+  }
+}
+
+.kirei-sustainability-self-society-world-column .g-TileLinkVUnit__leadBlock__title .g-Text {
+  font-size: 18px;
+}
+
+.kirei-sustainability-section-wrapper .kirei-sustainability-text-column .g-ButtonP__list__item .g-ButtonUnit__link {
+  line-height: normal;
+  padding: 12px 20px;
+  letter-spacing: 2px;
+}
+.mykirei-reduce-plastic-left-column{
+  padding: 65px 7%;
+}
+.mykirei-reduce-plastic-section2 img{
+  width: 100% !important;
+}
+
+@media (min-width: 1025px) {
+  .kirei-sustainability-section-wrapper {
+    .kirei-sustainability-banner-column {
+      position: relative;
+
+      .g-Column__inner .g-Column__cols:nth-child(2) {
+        position: absolute;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: 43%;
+
+        .g-PageTitle, .g-PageTitle__titleBlock {
+          margin: 0;
+        }
+
+        .g-PageTitle__titleBlock__titleBox {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .g-Text {
+          width: 60%;
+          margin: 0;
+        }
+      }
+    }
+
+    .kirei-sustainability-link-column .g-TextLinkP {
+      margin: 40px auto;
+      width: 75%;
+      border-bottom: 1px solid rgba(64, 65, 68, 0.25);
+      border-top: 1px solid rgba(64, 65, 68, 0.25);
+      padding: 10px 0;
+    }
+
+    .kirei-sustainability-text-column {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+
+      .g-HeadingTitle {
+        width: 61%;
+      }
+
+      .g-ButtonP__list__item {
+        width: 51.5%;
+      }
+    }
+
+    .kirei-sustainability-self-society-world-column {
+      .g-ColumnUnit {
+        display: flex;
+        justify-content: center;
+      }
+
+      .g-TileLinkVP {
+        width: 75%;
+      }
+
+      img {
+        height: 60px;
+      }
+
+      .g-ButtonUnit__link {
+        border-bottom: solid 1px rgba(64, 65, 68, 0.6);
+        padding: 0 0;
+      }
+
+      .g-ColumnUnit {
+        padding-top: 42px;
+      }
+    }
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .kirei-sustainability-section-wrapper {
+    .kirei-sustainability-banner-column {
+      position: relative;
+
+      .g-Column__inner .g-Column__cols:nth-child(2) {
+        position: absolute;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: 43%;
+
+        .g-PageTitle, .g-PageTitle__titleBlock {
+          margin: 0;
+        }
+
+        .g-PageTitle__titleBlock__titleBox {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .g-Text {
+          width: 65.5%;
+          margin: 0;
+        }
+      }
+    }
+
+    .kirei-sustainability-link-column .g-TextLinkP {
+      margin: 40px auto;
+      width: 93.56%;
+      border-bottom: 1px solid rgba(64, 65, 68, 0.25);
+      border-top: 1px solid rgba(64, 65, 68, 0.25);
+      padding: 18px 18px;
+    }
+
+    .kirei-sustainability-text-column {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+
+      .g-HeadingTitle {
+        width: 75%;
+      }
+
+      .g-ButtonP__list__item {
+        width: 80.5%;
+      }
+    }
+
+    .kirei-sustainability-self-society-world-column {
+      .g-ColumnUnit {
+        display: flex;
+        justify-content: center;
+      }
+
+      .g-TileLinkVP {
+        width: 93%;
+      }
+
+      img {
+        height: 60px;
+      }
+
+      .g-ButtonUnit__link {
+        border-bottom: solid 1px rgba(64, 65, 68, 0.6);
+        padding: 0 0;
+      }
+    }
+
+    .kirei-sustainability-text-image-column-reverse {
+      .g-Image, .g-Image__img, img {
+        height: 100%;
+      }
+    }
+
+    .kirei-sustainability-text-image-column {
+      .g-Image, .g-Image__img, img {
+        height: 100%;
+      }
+    }
+  }
+
+  .kirei-sustainability-banner-column .g-Image__img img {
+    height: 327px;
+  }
+
+  .kirei-sustainability-link-column {
+    .g-TextLinkP__list {
+      flex-wrap: nowrap !important;
+    }
+
+    .g-TextLinkP__list__item {
+      padding: 0 !important;
+      width: 100%;
+    }
+  }
+
+  .kirei-sustainability-self-society-world-column {
+    .g-ColumnUnit {
+      padding-top: 54px;
+      padding-bottom: 0;
+    }
+
+    .g-TileLinkVUnit__leadBlock {
+      height: auto;
+    }
+  }
+   .mykirei-reduce-plastic-section2 .g-Image__img{
+  height: 100%;
+  }
+  
+     .mykirei-reduce-plastic-section2 .g-Image{
+  height: 100%;
+  }
+       .mykirei-reduce-plastic-section2 img{
+  height: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .kirei-sustainability-section-wrapper {
+    .kirei-sustainability-banner-column .g-Column__inner .g-Column__cols:nth-child(2) {
+      .g-PageTitle {
+        margin: 25px 6% 0px;
+      }
+
+      .g-PageTitle__titleBlock {
+        margin: 0;
+      }
+    }
+
+    .kirei-sustainability-link-column .g-TextLinkP {
+      margin: 0 7% 30px;
+
+      .g-TextLinkP__list__item {
+        font-size: 18px;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid rgba(64, 65, 68, 0.25);
+          padding: 10px 0;
+        }
+      }
+    }
+
+    .kirei-sustainability-text-image-column-reverse .g-Column__inner {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .kirei-sustainability-text-column {
+      background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+
+      .g-HeadingTitle {
+        padding: 28px 7.5% 40px;
+        margin: 0;
+      }
+
+      .g-ButtonP__list__item {
+        width: 81%;
+      }
+    }
+
+    .kirei-sustainability-self-society-world-column {
+      background-color: #f6ece2;
+
+      .g-TileLinkVP__list {
+        padding-top: 40px;
+      }
+
+      .g-TileLinkVP__list__tile {
+        padding: 0 6.5% 25px !important;
+      }
+
+      .g-TileLinkVUnit {
+        padding: 0px;
+      }
+
+      img {
+        height: 60px;
+      }
+
+      .g-TileLinkVUnit__leadBlock__title .g-Text {
+        font-size: 18px;
+      }
+
+      .g-ButtonP {
+        margin: 0;
+      }
+
+      .g-ButtonUnit__link {
+        border-bottom: solid 1px rgba(64, 65, 68, 0.6);
+        padding: 0 0;
+      }
+    }
+  }
+
+  .kirei-sustainability-link-column .g-TextLinkUnit {
+    line-height: 2.67;
+  }
+
+  .kirei-sustainability-banner-column .g-Image__img img {
+    height: 222px;
+  }
+    .mykirei-reduce-plastic-column-separator .g-Column__inner {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.mykirei-reduce-plastic-left-column {
+    padding: 25px 7%;
+}
+
+}

@@ -1,0 +1,220 @@
+.curel-signup-wrapper {
+  .g-HeadingTitle {
+    margin-bottom: 0;
+    .g-Text {
+      margin-bottom: 0;
+    }
+  }
+  .sign-up-wrapper {
+    form[name="sign_up_form"] {
+      .form {
+        .form_row {
+          .form_leftcol {
+            .form_leftcollabel {
+              label {
+                font-family: $cu-font-family;
+                font-size: 16px;
+                color: $contact-us-label-color;
+              }
+            }
+            .form_leftcolmark {
+              display: none;
+            }
+          }
+          .form_rightcol {
+            .form_rightcol_wrapper {
+              position: relative;
+              padding-bottom: 28px;
+              input,
+              textarea {
+                height: 41px;
+                width: 100%;
+                padding: 15px;
+                box-sizing: border-box;
+                border: 1px solid $cu-border-color;
+                font-family: $cu-font-family;
+                font-size: 16px;
+                color: $contact-us-label-color;
+                &::placeholder {
+                  color: $solid-white;
+                }
+              }
+              label.help-block {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                line-height: 24px;
+                color: $error-clr;
+                font-size: 13px;
+                font-style: italic;
+              }
+            }
+            input[type="submit"] {
+                font-family: $ralewayExtraBold;
+                font-size: 18px;
+                background-color: $cu-submit-btn;
+                color: $solid-white;
+                border: 1px solid $cu-submit-btn;
+                padding-left: 30px;
+                padding-right: 30px;
+                line-height: 30px;
+                text-transform: uppercase;
+                outline: none;
+                border-radius: 40px;
+                transition: 0.2s;
+                &:hover {
+                    background-color: $cu-submit-btnp-hover;
+                    border-color: $cu-submit-btnp-hover;
+                    color: $solid-white;
+                    transition: 0.2s;
+                }
+            }
+            input[type="reset"] {
+                font-family: $ralewayExtraBold;
+                font-size: 18px;
+                background-color: $solid-white;
+                border: 1px solid $cu-submit-btn;
+                color: $cu-submit-btn;
+                padding-left: 30px;
+                padding-right: 30px;
+                line-height: 30px;
+                outline: none;
+                text-transform: uppercase;
+                border-radius: 40px;
+                transition: 0.2s;
+                &:hover {
+                    background-color: $cu-submit-btnp-hover;
+                    border-color: $cu-submit-btnp-hover;
+                    color: $solid-white;
+                    transition: 0.2s;
+                }
+            }
+          }
+          
+          &.sm-flex-container {
+            .form_rightcol {
+              @media (max-width: $break-sm) {
+                display: flex;
+              }
+            }    
+          }
+        }
+        .g-GroupBox {
+          &.email-zip-groupbox {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -12px;
+            margin-right: -12px;
+            margin-bottom: 12px;
+            .form_row {
+              flex-basis: 65%;
+              padding-left: 12px;
+              padding-right: 12px;
+              box-sizing: border-box;
+              @media (max-width: $break-sm) {
+                flex-basis: 100%;
+              }
+              &.zip-code-wrapper {
+                flex-basis: 35% !important;
+                @media (max-width: $break-sm) {
+                  flex-basis: 100% !important;
+                }
+              }
+            }
+            .form_row_description {
+              display: none;
+            }
+          }
+          &.concern-groupbox {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            flex-direction: column;
+            margin-bottom: 50px;
+            .form_row {
+              .form_leftcollabel {
+                margin-bottom: 15px;
+              }
+              .form_leftcolmark {
+                display: none;
+              }
+              &.nl-checkbox {
+                .form_rightcol {
+                  display: inline-block;
+                  position: relative;
+                  line-height: 24px;
+                  padding-left: 30px;
+                  transition: 0.3s;
+                  &:hover {
+                    color: $primary-hover-color;
+                    transition: 0.3s;
+                  }
+                  &::before {
+                    content: '';
+                    width: 18px;
+                    height: 18px;
+                    border: 1px solid $primary-color;
+                    box-sizing: border-box;
+                    position: absolute;
+                    left: 6px;
+                    top: 3px;
+                    border-radius: 50%;
+                    background-color: $solid-white;
+                    transition: 0.3s;
+                  }
+                  &::after {
+                    content: '';
+                    width: 18px;
+                    height: 18px;
+                    border: 7px solid $primary-hover-color;
+                    box-sizing: border-box;
+                    position: absolute;
+                    left: 6px;
+                    top: 3px;
+                    border-radius: 50%;
+                    background-color: $solid-white;
+                    z-index: 0;
+                    opacity: 0;
+                    transition: 0.3s
+                  }
+                  input[type="checkbox"] {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 24px;
+                    width: 100%;
+                    opacity: 0;
+                    z-index: 2;
+                    cursor: pointer;
+                  }
+                }
+              }
+              &.active {
+                .form_rightcol {
+                  &::before {
+                    opacity: 0;
+                    transition: 0.3s;
+                  }
+                  &::after {
+                    opacity: 1;
+                    transition: 0.3s;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .g-Text {
+          margin-bottom: 40px;
+          a {
+            font-family: $ralewayExtraBold;
+            color: $primary-hover-color;
+          }
+          &.hide_comments {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

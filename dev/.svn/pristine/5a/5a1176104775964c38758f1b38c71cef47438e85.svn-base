@@ -1,0 +1,9 @@
+.g-Movie{
+    margin-bottom: 0;   
+
+    .pv-video-player{
+        position: absolute;
+        top: 0; 
+        height: 100% !important; 
+    }
+}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+/* ListP ================================================== */
+.g-ListP {
+  margin-bottom: 12px;
+  &.is-background {
+    padding: $cmn_paddingInner;
+    
+  }
+}
+
+.g-ListP__ol,
+.g-ListP__ul {
+  margin: 0;
+  .is-dot & {
+    list-style-type: disc;
+  }
+  .is-num & {
+    list-style-type: decimal;
+  }
+  .is-none & {
+    list-style-type: none;
+  }
+}
+
+.g-ListP__ol__item,
+.g-ListP__ul__item {
+  margin: 0;
+}
+
+
+/* ListUnit ================================================== */
+.g-ListUnit {
+  line-height: $lineHeight_lg_lv6;
+  &.is-link {
+    @include link();
+  }
+  &.is-background {
+    //display: inline-block;
+    //padding: 20px;
+    
+  }
+}
+
+.g-ListUnit__icon {
+  vertical-align: middle;
+  margin-left: 0.5em;
+}

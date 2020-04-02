@@ -1,0 +1,100 @@
+.green-mark {
+    .g-Column__cols {
+        position: relative;
+    }
+
+    .g-ColumnUnit {
+        &.show::before {
+            z-index: 15;
+            opacity: 1;
+        }
+
+        &::before {
+            background-color: $primary-color;
+            content: " ";
+            width: 48px;
+            position: absolute;
+            top: 10px;
+            left: -72px;
+            height: calc(100% - 45px);
+        }
+    }
+}
+
+.g-ImageCarouselP__nextArrow,
+.g-ImageCarouselP__prevArrow,
+.g-ImageCarouselP__nav__toggle {
+    -webkit-appearance: none;
+
+    appearance: none;
+    display: none !important;
+
+    &:before {
+        -webkit-appearance: none;
+
+        appearance: none;
+        display: none;
+    }
+}
+
+.kaosalon-footer {
+
+    #language,
+    #footer-list {
+        a {
+            position: relative;
+            color: $secondary-text;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.4s ease;
+
+            &:hover,
+            &:focus,
+            &:active {
+                text-decoration: none;
+                color: #1db68f;
+                cursor: pointer;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -3px;
+                height: 2px;
+                background-color: #A1A3A6;
+                width: 0;
+                transition: width 0.4s;
+            }
+
+        }
+    }
+
+    #language {
+        a {
+            &:hover::after {
+                width: calc(100% - 30px);
+                left: 30px;
+            }
+        }
+    }
+
+    #footer-list {
+        a {
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.text-slideup {
+    -webkit-animation: fadeInUp 2s ease 0s 1 normal forwards;
+
+    animation: fadeInUp 2s ease 0s 1 normal forwards;
+}
+
+#wrapper {
+    max-width: 1440px;
+    margin: auto;
+}

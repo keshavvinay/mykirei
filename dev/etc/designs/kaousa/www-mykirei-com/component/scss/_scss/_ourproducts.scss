@@ -1,0 +1,39 @@
+.mykirei-our-products-section1-column .g-Image__img img {
+    width: 100% !important;
+}
+
+.mykirei-our-products-section2 {
+    padding: 50px 0 60px !important;
+}
+
+.mykirei-our-products-section2-text {
+    padding: 40px 26.4% 0;
+}
+
+.mykirei-our-products-section3 .g-Section__inner {
+    padding: 53px 0;
+}
+
+@media (max-width: 640px) {
+    .mykirei-our-products-section2-text {
+        padding: 0px 6.9% 0 !important;
+    }
+    .mykirei-our-products-section2 {
+        padding: 50px 0 35px !important;
+    }
+    .mykirei-our-products-section3 .g-Section__inner {
+        padding: 29px 6.7%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .mykirei-our-products-section2-text {
+        padding: 22px 19.1% 0;
+    }
+    .mykirei-our-products-section2 {
+        padding: 50px 0 54px !important;
+    }
+    .mykirei-our-products-section3 .g-Section__inner {
+        padding: 32px 0;
+    }
+}

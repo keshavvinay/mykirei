@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+
+/* TelephoneCall ================================================== */
+.g-TelephoneCall {
+  line-height: 0;
+  margin-bottom: 12px;
+}
+
+.g-TelephoneCall__item {
+  display: inline-block;
+  //display: table;
+  position: relative;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: default;
+  overflow: hidden;
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+  .is-tel--md & {
+    @include bp(md) {
+      cursor: pointer;
+    }
+  }
+  .is-tel--sm & {
+    @include bp(sm) {
+      cursor: pointer;
+    }
+  }
+  .is-fullwidth--sm & {
+    @include bp(sm) {
+      width: 100%;
+    }
+  }
+}
+
+.g-TelephoneCall__item__inner {
+  display: table;
+  vertical-align: middle;
+  .opt-al_l & {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .opt-al_c & {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .opt-al_r & {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+.g-TelephoneCall__item__icon {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.g-TelephoneCall__item__icon__phone {
+  margin-right: 4px;
+  vertical-align: middle;
+  font-size: 32px;
+  line-height: 1;
+  @include bp(sm) {
+    margin-right: 0;
+  }
+  .is-freeimg & {
+    display: none;
+  }
+  .is-tel--sm & {
+    @include bp(sm) {
+      display: block;
+      position: absolute;
+      margin-top: -9px;
+      top: 50%;
+      right: 8px;
+      font-size: 18px;
+    }
+  }
+}
+
+.g-TelephoneCall__item__fax {
+  display: block;
+  position: relative;
+  margin-right: 8px;
+  width: 66px;
+  padding: 5px 0;
+  text-align: center;
+  vertical-align: middle;
+  @include bp(md) {
+    width: 33px;
+    height: 11px;
+  }
+  @include bp(sm) {
+    width: 33px;
+    height: 11px;
+  }
+}
+
+.g-TelephoneCall__item__fax__text {
+  display: block;
+  font-size: 12px;
+  line-height: 1;
+  @include bp(md) {
+    font-size: 10px;
+    -webkit-transform: scale(0.7);
+       -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+         -o-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  @include bp(sm) {
+    font-size: 10px;
+    -webkit-transform: scale(0.7);
+       -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+         -o-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+.g-TelephoneCall__item__img {
+  display: table-cell;
+  vertical-align: middle;
+  .is-tel--sm & {
+    @include bp(sm) {
+      padding: 10px 0;
+    }
+  }
+  .g-Image {
+    margin-right: 8px;
+    margin-bottom: 0;
+    .is-freeimg--s & {
+      width: 40px;
+    }
+    .is-freeimg--m & {
+      width: 60px;
+    }
+    .is-freeimg--l & {
+      width: 80px;
+    }
+  }
+}
+
+.g-TelephoneCall__item__number {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  .is-tel--md & {
+    @include bp(md) {
+      text-decoration: underline;
+    }
+  }
+  .is-tel--sm & {
+    @include bp(sm) {
+      padding: 14px 0;
+    }
+  }
+}
+
+/* (もしかして) Foundation */
+
+/* TelephoneCall */
+.g-TelephoneCall__item {
+  .is-tel--sm & {
+    @include bp(sm) {
+      padding: 0 32px 0 10px;
+      border: solid 1px;
+    }
+  }
+}

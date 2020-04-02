@@ -1,0 +1,43 @@
+.g-AccordionMenu{
+    .g-AccordionUnit__titleBlock{
+        padding-left: 1.875em;
+        padding-right: 10px;
+        border: 1px solid #ddd;
+        padding-bottom: 10px;
+
+        .g-HeadingTitle{
+            z-index: 1;
+            text-align: center;
+
+            h2,h3,h4,h5,h6,p.g-HeadingTitle__p{
+                font-family: $avenir-regular;
+                font-weight: 400;
+                font-size: 16px;
+                text-transform: none;
+            }
+
+            h2,h3,h4,h5,h6,p.g-HeadingTitle__p{
+                &:hover{
+                    color: $primary;
+                } 
+            }
+
+        }
+    }
+
+    .g-AccordionUnit__contentBlock{
+        border: 1px solid #ddd;
+        text-align: center;
+        border-top: 0;
+    }
+
+    .g-AccordionUnit__titleBlock__icon{
+        position: absolute;
+        top: 50%;
+        left: .6em;
+        margin-top: -.6em;
+        color: $primary;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

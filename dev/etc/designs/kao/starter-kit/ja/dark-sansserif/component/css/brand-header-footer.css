@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/*****************************
+  Clientlibs config
+ *****************************/
+/*
+ setting
+ （上書き禁止）
+ */
+/*
+ common veriable
+ （共通変数・任意）
+ */
+/* design priciples */
+/*****************************
+  principles
+ *****************************/
+/*
+ design principles
+ （サイト、ページ別に上書きを許可）
+ */
+/*****************************
+  Content Color set (dark)
+ *****************************/
+/* Body */
+/* Contents Area */
+/* Link */
+/* Button */
+/* Accordion */
+/* TileLink */
+/* NewsIndex */
+/* TelephoneCallItem */
+/* FullwidthVisuals&Carousel */
+/* Label/Tag */
+/* Option */
+/* Brand Header */
+/* Local Navigation */
+/* Breadcrumbs */
+/* Brand Footer */
+/* Page Top */
+/*****************************
+  principles font-family ゴシック
+ *****************************/
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+/*
+ Link
+ */
+/*
+ AreaLink
+ */
+/*
+ Button
+ */
+/*
+  gutterWrapper (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterInner (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterItemWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  上マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  下マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  左マージン.
+  @param $level s,m,l,xl
+*/
+/*
+  右マージン.
+  @param $level s,m,l,xl
+*/
+/*
+ Corner Radius（※廃止予定）
+ @param $size (ss, s, m, l, ll)
+ */
+/*
+ Background画像をセット
+ @param $type(default, repeat)
+ */
+/*
+ Image(or Movie) Text Pack(Horizontal)内のHeadingTitle
+ @param $imagePosition(left, right)
+ */
+/*
+  シャドウ.
+  @param $pattern A,B,none
+*/
+/*
+  ボタン用シャドウ.
+  @param $visible true,false
+*/
+/* layout */
+/* No files to import found in layout/include/** */
+/* No files to import found in layout/include/brand-header-footer/** */
+/* design principles */
+/* Brand Footer ================================================== */
+.l-BrFooter {
+  color: #EEE;
+  background-color: #666;
+  border-top-color: #666;
+  border-bottom-color: #666;
+}
+@media only screen and (max-width: 640px) {
+  .l-BrFooter {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro R", UDKakugo_LargePro-R, sans-serif;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-BrFooter {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro DB", UDKakugo_LargePro-DB, sans-serif;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-BrFooter {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro DB", UDKakugo_LargePro-DB, sans-serif;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-BrFooterSitemap__list__tile {
+    border-color: #EEE;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-BrFooterSitemap__list__tile {
+    border-color: #EEE;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-BrFooterSitemapUnit {
+    border-color: #EEE;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-BrFooterSitemapUnit {
+    border-color: #EEE;
+  }
+}
+
+.l-BrFooterSitemapUnit__title {
+  color: #EEE;
+}
+@media only screen and (max-width: 640px) {
+  .l-BrFooterSitemapUnit__title {
+    border-color: #CCC;
+  }
+  .l-BrFooterSitemapUnit__title.is-open {
+    color: #333;
+    background-color: #CCC;
+  }
+}
+
+.l-BrFooterSitemapUnit__title__icon {
+  color: #EEE;
+}
+@media only screen and (max-width: 640px) {
+  .is-open .l-BrFooterSitemapUnit__title__icon {
+    color: #333;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .l-BrFooterSitemapUnit__panel {
+    background-color: #EEE;
+  }
+}
+
+.l-BrFooterSitemapUnit__links {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  font-family: "FOT-UD角ゴ_ラージ Pro R", UDKakugo_LargePro-R, sans-serif;
+}
+.l-BrFooterSitemapUnit__links a {
+  color: #EEE;
+}
+@media only screen and (max-width: 640px) {
+  .l-BrFooterSitemapUnit__links {
+    border-color: #CCC;
+  }
+  .l-BrFooterSitemapUnit__links li {
+    border-color: #CCC;
+  }
+  .l-BrFooterSitemapUnit__links a {
+    color: #333;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .l-BrFooterSitemapUnit__links__icon, .l-BrFooterSitemapUnit__moreinfo__icon {
+    color: #333;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-BrFooterSitemapUnit__links__icon, .l-BrFooterSitemapUnit__moreinfo__icon {
+    color: #EEE;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-BrFooterSitemapUnit__links__icon, .l-BrFooterSitemapUnit__moreinfo__icon {
+    color: #EEE;
+  }
+}
+
+.l-BrFooterSitemapUnit__moreinfo a {
+  color: #EEE;
+}
+@media only screen and (max-width: 640px) {
+  .l-BrFooterSitemapUnit__moreinfo a {
+    color: #333;
+  }
+}
+
+/* Brand Header ================================================== */
+.l-BrHeader {
+  border-top-color: #666;
+  border-bottom-color: #666;
+  background: #000;
+}
+@media only screen and (max-width: 640px) {
+  .l-BrHeader {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro R", UDKakugo_LargePro-R, sans-serif;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-BrHeader {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro R", UDKakugo_LargePro-R, sans-serif;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-BrHeader {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: normal;
+    font-family: "FOT-UD角ゴ_ラージ Pro DB", UDKakugo_LargePro-DB, sans-serif;
+  }
+}
+
+.l-BrHeaderNav__buttonBlock a {
+  background: #FFF;
+  color: #333;
+}
+.l-BrHeaderNav__buttonBlock a .cmn-icon {
+  color: #333;
+}
+
+.l-BrHeaderNav__listBlock {
+  border-color: #666;
+}
+@media only screen and (max-width: 640px) {
+  .l-BrHeaderNav__listBlock {
+    background: #000;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-BrHeaderNav__listBlock {
+    background: #000;
+  }
+}
+
+.l-BrHeaderNavList__item {
+  border-color: #666;
+}
+.l-BrHeaderNavList__item .l-BrHeaderNavListLink {
+  color: #FFF;
+  background-color: transparent;
+}
+.l-BrHeaderNavList__item .l-BrHeaderNavListLink .cmn-icon {
+  color: #FFF;
+}
+.l-BrHeaderNavList__item a.l-BrHeaderNavListLink:hover, .l-BrHeaderNavList__item a.l-BrHeaderNavListLink:focus {
+  color: #FFF;
+  background-color: #666;
+}
+.l-BrHeaderNavList__item a.l-BrHeaderNavListLink:hover .cmn-icon, .l-BrHeaderNavList__item a.l-BrHeaderNavListLink:focus .cmn-icon {
+  color: #FFF;
+}
+.l-BrHeaderNavList__item.is-active a.l-BrHeaderNavListLink {
+  color: #FFF;
+  background-color: #666;
+}
+.l-BrHeaderNavList__item.is-active a.l-BrHeaderNavListLink .cmn-icon {
+  color: #FFF;
+}
+.l-BrHeaderNavList__item.is-active a.l-BrHeaderNavListLink:hover, .l-BrHeaderNavList__item.is-active a.l-BrHeaderNavListLink:focus {
+  color: #333;
+  background-color: #CCC;
+}
+.l-BrHeaderNavList__item.is-active a.l-BrHeaderNavListLink:hover .cmn-icon, .l-BrHeaderNavList__item.is-active a.l-BrHeaderNavListLink:focus .cmn-icon {
+  color: #666;
+}
+
+@media only screen and (min-width: 1025px) {
+  .l-BrHeaderNavList__item-lg-1,
+  .l-BrHeaderNavList__item-lg-2,
+  .l-BrHeaderNavList__item-lg-3,
+  .l-BrHeaderNavList__item-lg-4,
+  .l-BrHeaderNavList__item-lg-5,
+  .l-BrHeaderNavList__item-lg-6,
+  .l-BrHeaderNavList__item-lg-7,
+  .l-BrHeaderNavList__item-lg-8 {
+    border-color: #666;
+  }
+}

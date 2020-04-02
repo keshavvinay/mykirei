@@ -1,0 +1,2539 @@
+@charset "UTF-8";
+/*****************************
+  SOFINA config
+ *****************************/
+/*
+ setting（上書き禁止）
+ */
+/*
+ variable
+ サイト、ページ別に上書きを許可する値
+ */
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+/*
+ Line-Frame
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Corner Radius
+ @param $size (ss, s, m, l, ll)
+ */
+/*
+ Shadow
+ @param $angle (center, downward, rightUpward, rightDownward)
+ @param $size (s, m)
+ */
+/*
+ Link
+ */
+/*
+ AreaLink
+ */
+/*
+  gutterWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+ * SOFINA
+ */
+.cmn-icon, .sofina-LinkButton--common .l-LinkButton__link:before, .sofina-LinkButton--btnA .l-LinkButton__link:before, .sofina-LinkButton--btnB .l-LinkButton__link:before, .sofina-LinkButton--btnC .l-LinkButton__link:before {
+  font-family: 'icomoon';
+  color: #007caa;
+  vertical-align: middle;
+  font-size: .9em;
+}
+.cmn-icon.cmn-icon--reverse, .sofina-LinkButton--common .cmn-icon--reverse.l-LinkButton__link:before, .sofina-LinkButton--btnA .cmn-icon--reverse.l-LinkButton__link:before, .sofina-LinkButton--btnB .cmn-icon--reverse.l-LinkButton__link:before, .sofina-LinkButton--btnC .cmn-icon--reverse.l-LinkButton__link:before {
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?ii6rbk");
+  src: url("../fonts/icomoon.eot?#iefixii6rbk") format("embedded-opentype"), url("../fonts/icomoon.ttf?ii6rbk") format("truetype"), url("../fonts/icomoon.woff?ii6rbk") format("woff"), url("../fonts/icomoon.svg?ii6rbk#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.cmn-icon--accordion-close:before {
+  content: "\e600";
+}
+
+.cmn-icon--accordion-open:before {
+  content: "\e601";
+}
+
+.cmn-icon--arrow-left:before {
+  content: "\e602";
+}
+
+.cmn-icon--arrow-right:before {
+  content: "\e603";
+}
+
+.cmn-icon--blank:before, .cmn-icon--external:before {
+  content: "\e604";
+}
+
+.cmn-icon--bullet:before {
+  content: "\e605";
+}
+
+.cmn-icon--menu:before {
+  content: "\e606";
+}
+
+.cmn-icon--pagetop:before {
+  content: "\e607";
+}
+
+.cmn-icon--phonecall:before {
+  content: "電話発信";
+  color: #fff;
+  background-color: #007caa;
+  padding: 3px 6px;
+  vertical-align: middle;
+  font-size: 10px;
+  line-height: 2;
+}
+
+/*
+  icon-list(リンク用カスタムクラス名)
+ */
+/* Area ============================== */
+.g-Area__inner, .g-Area__separater {
+  max-width: 1336px;
+}
+
+/* Section ============================== */
+@media only screen and (min-width: 1025px) {
+  .g-Section {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .g-Section {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .g-Section {
+    margin-bottom: 0px;
+  }
+}
+
+.g-Section__inner {
+  max-width: 1336px;
+}
+@media only screen and (max-width: 640px) {
+  .g-Section__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Column ============================== */
+.g-Column__inner {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.g-Column__cols {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media only screen and (min-width: 1025px) {
+  .g-Column__cols {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .g-Column__cols {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .g-Column__cols {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+
+/* ColumnUnit ============================== */
+/* GroupBox ============================== */
+/* PageTitle
+ ================================================== */
+.l-PageTitle__h1 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .l-PageTitle__h1 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-PageTitle__h1 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-PageTitle__h1 {
+    font-size: 24px;
+    letter-spacing: normal;
+  }
+}
+
+/* HeadingTitle
+ ================================================== */
+.l-HeadingTitle.is-link:hover, .l-HeadingTitle.is-link:focus, .l-HeadingTitle.is-link:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+.l-HeadingTitle__h2 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 28px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .l-HeadingTitle__h2 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-HeadingTitle__h2 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-HeadingTitle__h2 {
+    font-size: 22px;
+    letter-spacing: normal;
+  }
+}
+
+.l-HeadingTitle__h3 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-HeadingTitle__h3 {
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+}
+
+.l-HeadingTitle__h4 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .l-HeadingTitle__h4 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-HeadingTitle__h4 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-HeadingTitle__h4 {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+
+.l-HeadingTitle__h5 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .l-HeadingTitle__h5 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-HeadingTitle__h5 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-HeadingTitle__h5 {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+
+.l-HeadingTitle__h6 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .l-HeadingTitle__h6 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-HeadingTitle__h6 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-HeadingTitle__h6 {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+
+.l-HeadingTitle__p {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media only screen and (min-width: 1025px) {
+  .l-HeadingTitle__p {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-HeadingTitle__p {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-HeadingTitle__p {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+
+/* Text ================================================== */
+.l-Text {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+@media only screen and (min-width: 1025px) {
+  .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-Text {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+.l-Text.is-background {
+  padding: 20px;
+}
+
+/* modifer sample ==================================================*/
+.l-Text--sample1 {
+  color: #ccc;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 1025px) {
+  .l-Text--sample1 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-Text--sample1 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-Text--sample1 {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+}
+
+.l-Text--sample2 {
+  padding: 10px;
+  box-sizing: border-box;
+  border: solid 2px #ccc;
+}
+
+.l-Text--sample3 {
+  position: relative;
+  padding: 20px;
+  background-color: #eee;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.l-Text--sample3:before {
+  content: '';
+  position: absolute;
+  border-bottom: 12px solid #eee;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  top: -11px;
+  left: 25px;
+}
+
+/* Image ================================================== */
+.l-Image.is-link:hover, .l-Image.is-link:focus, .l-Image.is-link:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+.l-Image__caption {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 1025px) {
+  .l-Image__caption {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-Image__caption {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-Image__caption {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+}
+
+.l-Image__link:link {
+  color: #333;
+}
+.l-Image__link:hover, .l-Image__link:focus, .l-Image__link:active {
+  color: #a9a9a9;
+}
+.l-Image__link:visited {
+  color: #333;
+}
+
+/* LinkButton ================================================== */
+.l-LinkButton__link {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media only screen and (min-width: 1025px) {
+  .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-LinkButton__link {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+.is-link .l-LinkButton__link:link {
+  color: #333;
+}
+.is-link .l-LinkButton__link:hover, .is-link .l-LinkButton__link:focus, .is-link .l-LinkButton__link:active {
+  color: #a9a9a9;
+}
+.is-link .l-LinkButton__link:visited {
+  color: #333;
+}
+.is-btn .l-LinkButton__link {
+  background-color: #fff;
+  color: #fff;
+}
+.is-btn .l-LinkButton__link:hover, .is-btn .l-LinkButton__link:focus, .is-btn .l-LinkButton__link:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* List ================================================== */
+.l-List__ol__item__link:link,
+.l-List__ul__item__link:link {
+  color: #333;
+}
+.l-List__ol__item__link:hover, .l-List__ol__item__link:focus, .l-List__ol__item__link:active,
+.l-List__ul__item__link:hover,
+.l-List__ul__item__link:focus,
+.l-List__ul__item__link:active {
+  color: #a9a9a9;
+}
+.l-List__ol__item__link:visited,
+.l-List__ul__item__link:visited {
+  color: #333;
+}
+
+/* TextP ================================================== */
+/* ImageTextVP ================================================== */
+/* ImageTextHP ================================================== */
+/* TileLinkVP ================================================== */
+@media only screen and (min-width: 1025px) {
+  .l-TileLinkVP__list {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-TileLinkVP__list {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-TileLinkVP__list {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}
+
+.l-TileLinkVUnit {
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+.l-TileLinkVUnit:hover, .l-TileLinkVUnit:focus, .l-TileLinkVUnit:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* TileLinkHP ================================================== */
+@media only screen and (min-width: 1025px) {
+  .l-TileLinkHP__list {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-TileLinkHP__list {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-TileLinkHP__list {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}
+
+.l-TileLinkHP__list__tile {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media only screen and (min-width: 1025px) {
+  .l-TileLinkHP__list__tile {
+    padding: 12px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-TileLinkHP__list__tile {
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-TileLinkHP__list__tile {
+    padding: 8px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .l-TileLinkHP__list__tile {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-TileLinkHP__list__tile {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-TileLinkHP__list__tile {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+
+.l-TileLinkHUnit {
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+.l-TileLinkHUnit:hover, .l-TileLinkHUnit:focus, .l-TileLinkHUnit:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/*
+ * sofina
+ */
+/* sofinaデザイン用リセット */
+.g-Section__inner {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 1024px;
+}
+
+.g-Column {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 640px) {
+  .g-Column.is-gutter--m .g-Column__inner {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .g-Column.is-gutter--m .g-Column__cols {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .is-gutter--m .g-Column__cols {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.l-HeadingTitle {
+  margin-bottom: 0;
+}
+.l-HeadingTitle.l-HeadingTitle--h2 {
+  border-bottom: none;
+}
+
+.l-HeadingTitle__titleBlock__titleBox__title {
+  margin-bottom: 0;
+}
+
+.l-Image {
+  margin-bottom: 0;
+}
+
+.l-Text {
+  margin-bottom: 0;
+}
+
+.l-LinkButton.is-btn .l-LinkButton__link {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: 0 0 0 0;
+  -webkit-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+}
+.l-LinkButton.is-link .l-LinkButton__link:link {
+  color: #333;
+}
+.l-LinkButton.is-link .l-LinkButton__link:hover, .l-LinkButton.is-link .l-LinkButton__link:focus, .l-LinkButton.is-link .l-LinkButton__link:active {
+  color: #a9a9a9;
+}
+.l-LinkButton.is-link .l-LinkButton__link:visited {
+  color: #333;
+}
+
+.l-TileLinkHUnit__leadBlock__title,
+.l-TileLinkVUnit__leadBlock__title {
+  font-weight: normal;
+}
+
+/* common ============================== */
+.disabled {
+  pointer-events: none;
+}
+
+.dummyheader {
+  background-color: #FFF;
+}
+.dummyheader img {
+  display: block;
+  margin: 0px auto 0px auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+.dummyfooterlink {
+  background-color: #FFF;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  border-top: solid 1px #CCC;
+  border-bottom: solid 1px #CCC;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .dummyfooterlink {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .dummyfooterlink {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .dummyfooterlink {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+.dummyfooterlink span {
+  color: #666;
+}
+.dummyfooterlink img {
+  display: block;
+  margin: 0px auto 0px auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+.dummyfooter {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.dummyfooter img {
+  display: block;
+  margin: 0px auto 0px auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+.dummyfooter2 {
+  background-color: #FFF;
+  text-align: center;
+}
+.dummyfooter2 img {
+  display: block;
+  margin: 0px auto 0px auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+.sofina-PageTitle--basic {
+  margin-bottom: 35px;
+  box-sizing: border-box;
+  border-bottom: solid 1px #ccc;
+}
+.sofina-PageTitle--basic .l-PageTitle__titleBlock__titleBox__title {
+  margin-bottom: 12px;
+}
+.sofina-PageTitle--basic .l-PageTitle__h1 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-PageTitle--basic .l-PageTitle__h1 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-PageTitle--basic .l-PageTitle__h1 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-PageTitle--basic .l-PageTitle__h1 {
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+}
+
+.sofina-HeadingTitle--blue {
+  margin-bottom: 5px !important;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeadingTitle--blue {
+    margin-bottom: 10px !important;
+  }
+}
+.sofina-HeadingTitle--blue .l-HeadingTitle__titleBlock__titleBox {
+  overflow: hidden;
+}
+.sofina-HeadingTitle--blue .l-Text {
+  display: inline-block;
+  color: #007caa;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'EB Garamond', serif;
+  margin-right: 5px;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    letter-spacing: .08em;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    letter-spacing: .08em;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    letter-spacing: .08em;
+  }
+}
+.sofina-HeadingTitle--blue .l-HeadingTitle__titleBlock__titleBox__title {
+  display: inline-block;
+}
+.sofina-HeadingTitle--blue .l-HeadingTitle__h2 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+  font-weight: normal;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-HeadingTitle--blue .l-HeadingTitle__h2 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-HeadingTitle--blue .l-HeadingTitle__h2 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeadingTitle--blue .l-HeadingTitle__h2 {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+.sofina-HeadingTitle--blue.has-btn {
+  position: relative;
+}
+.sofina-HeadingTitle--blue.has-btn .l-LinkButton {
+  position: absolute;
+  right: 0;
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeadingTitle--blue {
+    margin-bottom: 10px;
+  }
+  .sofina-HeadingTitle--blue .l-Text {
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'EB Garamond', serif;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 1025px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  .sofina-HeadingTitle--blue .l-Text {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeadingTitle--blue .l-Text .cmn-richtext {
+    letter-spacing: .08em;
+  }
+  .sofina-HeadingTitle--blue .l-HeadingTitle__h2 {
+    font-size: 12px;
+  }
+}
+
+.sofina-blocktitle_blue {
+  margin-bottom: 0;
+}
+.sofina-blocktitle_blue .l-HeadingTitle__titleBlock__titleBox {
+  overflow: hidden;
+}
+.sofina-blocktitle_blue .l-Text {
+  display: inline-block;
+  color: #007caa;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'EB Garamond', serif;
+  margin-right: 5px;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-blocktitle_blue .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-blocktitle_blue .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-blocktitle_blue .l-Text {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-blocktitle_blue .l-Text {
+    letter-spacing: .08em;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-blocktitle_blue .l-Text {
+    letter-spacing: .08em;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-blocktitle_blue .l-Text {
+    letter-spacing: .08em;
+  }
+}
+.sofina-blocktitle_blue .l-HeadingTitle__titleBlock__titleBox__title {
+  display: inline-block;
+}
+.sofina-blocktitle_blue .l-HeadingTitle__h2 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+  font-weight: normal;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-blocktitle_blue .l-HeadingTitle__h2 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-blocktitle_blue .l-HeadingTitle__h2 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-blocktitle_blue .l-HeadingTitle__h2 {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+
+.sofina-HeadingTitle--sub .l-HeadingTitle__h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeadingTitle--sub .l-HeadingTitle__h2 {
+    font-size: 14px;
+  }
+}
+.sofina-HeadingTitle--sub.has-btn {
+  position: relative;
+}
+.sofina-HeadingTitle--sub.has-btn .l-LinkButton {
+  position: absolute;
+  right: 0;
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+}
+
+.sofina-LinkButton--common .l-LinkButton__link, .sofina-LinkButton--btnA .l-LinkButton__link, .sofina-LinkButton--btnB .l-LinkButton__link, .sofina-LinkButton--btnC .l-LinkButton__link {
+  text-align: center;
+  border: solid 1px #ccc;
+  color: #333;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.sofina-LinkButton--common .l-LinkButton__link:hover, .sofina-LinkButton--btnA .l-LinkButton__link:hover, .sofina-LinkButton--btnB .l-LinkButton__link:hover, .sofina-LinkButton--btnC .l-LinkButton__link:hover, .sofina-LinkButton--common .l-LinkButton__link:focus, .sofina-LinkButton--btnA .l-LinkButton__link:focus, .sofina-LinkButton--btnB .l-LinkButton__link:focus, .sofina-LinkButton--btnC .l-LinkButton__link:focus, .sofina-LinkButton--common .l-LinkButton__link:active, .sofina-LinkButton--btnA .l-LinkButton__link:active, .sofina-LinkButton--btnB .l-LinkButton__link:active, .sofina-LinkButton--btnC .l-LinkButton__link:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+.sofina-LinkButton--common .l-LinkButton__link:before, .sofina-LinkButton--btnA .l-LinkButton__link:before, .sofina-LinkButton--btnB .l-LinkButton__link:before, .sofina-LinkButton--btnC .l-LinkButton__link:before {
+  content: "\e605";
+  font-size: .5em;
+}
+.sofina-LinkButton--common .l-LinkButton__link .cmn-richtext, .sofina-LinkButton--btnA .l-LinkButton__link .cmn-richtext, .sofina-LinkButton--btnB .l-LinkButton__link .cmn-richtext, .sofina-LinkButton--btnC .l-LinkButton__link .cmn-richtext {
+  padding-right: 3px;
+  vertical-align: middle;
+}
+.sofina-LinkButton--common .l-LinkButton__link__icon, .sofina-LinkButton--btnA .l-LinkButton__link__icon, .sofina-LinkButton--btnB .l-LinkButton__link__icon, .sofina-LinkButton--btnC .l-LinkButton__link__icon {
+  position: static;
+  top: 0;
+  right: 0;
+  margin-top: 0;
+}
+
+.sofina-LinkButton--btnA .l-LinkButton__link {
+  padding: 10px 0px;
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-LinkButton--btnA .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-LinkButton--btnA .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-LinkButton--btnA .l-LinkButton__link {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+.sofina-LinkButton--btnA .l-LinkButton__link:hover, .sofina-LinkButton--btnA .l-LinkButton__link:focus, .sofina-LinkButton--btnA .l-LinkButton__link:active {
+  background-color: #f9f9f9;
+}
+
+.sofina-LinkButton--btnB .l-LinkButton__link {
+  padding: 10px 0px;
+  background-color: #eefbfb;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-LinkButton--btnB .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-LinkButton--btnB .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-LinkButton--btnB .l-LinkButton__link {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+.sofina-LinkButton--btnB .l-LinkButton__link:hover, .sofina-LinkButton--btnB .l-LinkButton__link:focus, .sofina-LinkButton--btnB .l-LinkButton__link:active {
+  background-color: #dbf1f8;
+}
+
+.sofina-LinkButton--btnC .l-LinkButton__link {
+  padding: 3px 8px 2px;
+  background-color: #fff;
+  font-size: 14px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-LinkButton--btnC .l-LinkButton__link {
+    font-size: 12px;
+  }
+}
+.sofina-LinkButton--btnC .l-LinkButton__link:hover, .sofina-LinkButton--btnC .l-LinkButton__link:focus, .sofina-LinkButton--btnC .l-LinkButton__link:active {
+  background-color: #f9f9f9;
+}
+
+.l-LinkButton.is-link.is-leftIcon .cmn-richtext {
+  padding-left: 1.2em;
+}
+.l-LinkButton.is-link .l-LinkButton__link {
+  text-decoration: none;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .l-LinkButton.is-link .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .l-LinkButton.is-link .l-LinkButton__link {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .l-LinkButton.is-link .l-LinkButton__link {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+
+.sofina-TagLabels {
+  margin-right: -10px;
+}
+
+.sofina-TagLabels_tag {
+  display: inline-block;
+  background-color: #ededed;
+  color: #666;
+  padding: 3px 7px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-TagLabels_tag {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-TagLabels_tag {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-TagLabels_tag {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+}
+
+.sofina-typepanel {
+  display: inline-block;
+  background-color: #ededed;
+  color: #666;
+  padding: 4px 8px 4px 8px;
+  margin: 1px;
+  text-align: center;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-typepanel {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-typepanel {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-typepanel {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+}
+
+.sofina-br-sm {
+  display: none;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-br-sm {
+    display: inline;
+  }
+}
+
+/* top ============================== */
+.sofina-section--topMainvisual {
+  background-color: #c1e8f2;
+  background-color: #e7f5f6;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2MxZThmMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U3ZjVmNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c1e8f2), color-stop(100%, #e7f5f6));
+  background-image: -moz-linear-gradient(top, #c1e8f2, #e7f5f6);
+  background-image: -webkit-linear-gradient(top, #c1e8f2, #e7f5f6);
+  background-image: linear-gradient(to bottom, #c1e8f2, #e7f5f6);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC1E8F2', endColorstr='#FFE7F5F6');
+  padding: 20px 0px 0px 0px;
+  /*-----------------------*/
+  /*-----------------------*/
+}
+.sofina-section--topMainvisual .g-Section__inner {
+  padding: 0px 0px 0px 0px;
+  max-width: 100%;
+}
+.sofina-section--topMainvisual .g-Column__cols {
+  padding: 0;
+}
+.sofina-section--topMainvisual .l-Image {
+  margin-bottom: 0;
+}
+.sofina-section--topMainvisual img {
+  display: block;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topMainvisual {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__title .g-Column__cols {
+    padding: 0;
+  }
+}
+.sofina-section--topBps .sofina-topBps__title .l-Image {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.sofina-section--topBps .sofina-topBps__title .l-Text {
+  margin-top: 8px;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #555;
+  font-weight: normal;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__title .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__title .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__title .l-Text {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topBps .sofina-topBps__guidance {
+  margin-top: 30px;
+}
+.sofina-section--topBps .sofina-topBps__guidance .l-Image {
+  padding: 0px 10%;
+}
+.sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #007caa;
+  line-height: 1.6;
+  font-weight: normal;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topBps .sofina-topBps__guidance .l-Text {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-Text {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topBps .sofina-topBps__guidance .l-ImageTextHP__contentsBlock__text__moreinfo {
+  overflow: hidden;
+}
+.sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  background-image: url("../../component/img/border-blue-doubble@2x.png"), url("../../component/img/border-blue-doubble@2x.png");
+  background-repeat: repeat-x, repeat-x;
+  background-position: top left, bottom left;
+  background-size: 1px 4px, 1px 4px;
+}
+.sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text {
+  color: #007caa;
+  margin-bottom: 0;
+}
+.sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(1) {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(1) {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(1) {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(1) {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+  margin-top: 5px;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topBps .sofina-topBps__guidance .l-LinkButton {
+  float: left;
+}
+.sofina-section--topBps .sofina-topBps__guidance .l-LinkButton__link {
+  display: inline-block;
+  width: 140px;
+  margin-right: 10px;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    line-height: 1.6;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__title .l-Image {
+    max-width: 165px;
+    margin: 0 auto;
+  }
+  .sofina-section--topBps .sofina-topBps__title .l-Text {
+    margin-top: 8px;
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #555;
+    font-weight: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__title .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__title .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__title .l-Text {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance {
+    margin-top: 30px;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .l-Image {
+    padding: 0px 10%;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    line-height: 1.6;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-HeadingTitle .l-HeadingTitle__h3 {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-Text {
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .l-Text {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open {
+    padding: 15px 0;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+    margin-top: 3px;
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 1025px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .sofina-topBps__guidance__open .l-Text:nth-child(2) {
+    font-size: 12px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBps .sofina-topBps__guidance .g-GroupBox {
+    display: table;
+    width: 100%;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .l-LinkButton {
+    float: none;
+    display: table-cell;
+    width: 50%;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .l-LinkButton .l-LinkButton__link {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .l-LinkButton:nth-child(odd) {
+    padding-right: 5px;
+  }
+  .sofina-section--topBps .sofina-topBps__guidance .l-LinkButton:nth-child(even) {
+    padding-left: 5px;
+  }
+}
+
+.sofina-section--topInformation {
+  background-color: #eefbfb;
+  /*-----------------------*/
+  /*-----------------------*/
+  /*-----------------------*/
+  /*-----------------------*/
+  /*-----------------------*/
+  /*-----------------------*/
+  /*-----------------------*/
+  /*-----------------------*/
+}
+.sofina-section--topInformation .g-Column__cols {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.sofina-section--topInformation .l-TileLinkHUnit {
+  background-color: #FFF;
+  padding: 0;
+  border: solid 1px #dedede;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sofina-section--topInformation .l-TileLinkHUnit img {
+  display: block;
+}
+.sofina-section--topInformation .l-TileLinkHUnit:hover, .sofina-section--topInformation .l-TileLinkHUnit:focus, .sofina-section--topInformation .l-TileLinkHUnit:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  background-color: #eefbfb;
+}
+.sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock {
+  vertical-align: top;
+  padding: 15px 18px 5px;
+}
+.sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-Text {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #007caa;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-Text {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock__lead .l-Text {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock__lead .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock__lead .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock__lead .l-Text {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit_body {
+  display: table;
+}
+.sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom {
+  display: block;
+  text-align: center;
+  padding: 18px 0px 0px 0px;
+}
+.sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom .cmn-richtext {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #007caa;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom .cmn-richtext {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom .cmn-richtext {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom .cmn-richtext {
+    font-size: 22px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom span {
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom span {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom span {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit .g-TileLinkHUnit__bottom span {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topInformation .sofina-section_information__img1 .l-TileLinkHUnit__imageBlock {
+  width: 140px;
+}
+.sofina-section--topInformation .sofina-section_information__img2 .l-TileLinkHUnit__imageBlock {
+  width: 200px;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .l-Text {
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .l-Text {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text {
+    color: #007caa;
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-top: 3px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text {
+    font-size: 22px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text span {
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    vertical-align: middle;
+    padding-left: 0.5em;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text span {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text span {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__leadBlock .sofina-information__counseling__tel .l-Text span {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__imageBlock {
+    width: 140px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkHUnit__imageBlock {
+    width: 30%;
+  }
+  .sofina-section--topInformation .l-TileLinkHP__list__tile {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .sofina-section--topInformation div.l-TileLinkHUnit:hover, .sofina-section--topInformation div.l-TileLinkHUnit:focus, .sofina-section--topInformation div.l-TileLinkHUnit:active {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    background-color: #FFF;
+  }
+  .sofina-section--topInformation .l-TileLinkHUnit {
+    border-bottom: 0;
+  }
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock {
+    padding: 10px;
+  }
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-TileLinkHUnit__leadBlock__title .l-Text {
+    font-size: 14px;
+  }
+  .sofina-section--topInformation .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-TileLinkHUnit__leadBlock__lead .l-Text {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .sofina-section--topInformation .l-LinkButton {
+    border: solid 1px #dedede;
+    margin: 10px;
+    text-align: center;
+  }
+  .sofina-section--topInformation .l-LinkButton__link {
+    padding: 5px;
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  .sofina-section--topInformation .l-LinkButton__link {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-LinkButton__link:hover, .sofina-section--topInformation .l-LinkButton__link:focus, .sofina-section--topInformation .l-LinkButton__link:active {
+    background-color: #f9f9f9;
+  }
+  .sofina-section--topInformation .l-LinkButton__link .cmn-icon, .sofina-section--topInformation .l-LinkButton__link .sofina-LinkButton--common .l-LinkButton__link:before, .sofina-LinkButton--common .sofina-section--topInformation .l-LinkButton__link .l-LinkButton__link:before, .sofina-section--topInformation .l-LinkButton__link .sofina-LinkButton--btnA .l-LinkButton__link:before, .sofina-LinkButton--btnA .sofina-section--topInformation .l-LinkButton__link .l-LinkButton__link:before, .sofina-section--topInformation .l-LinkButton__link .sofina-LinkButton--btnB .l-LinkButton__link:before, .sofina-LinkButton--btnB .sofina-section--topInformation .l-LinkButton__link .l-LinkButton__link:before, .sofina-section--topInformation .l-LinkButton__link .sofina-LinkButton--btnC .l-LinkButton__link:before, .sofina-LinkButton--btnC .sofina-section--topInformation .l-LinkButton__link .l-LinkButton__link:before {
+    color: #007caa;
+  }
+  .sofina-section--topInformation .sofina-information__howto .l-TileLinkHUnit .l-Image {
+    height: 100%;
+  }
+  .sofina-section--topInformation .sofina-information__howto .l-TileLinkHUnit .l-Text {
+    margin-top: 0;
+  }
+  .sofina-section--topInformation .sofina-information__counseling__telsp .l-LinkButton__link .l-Text {
+    color: #007caa;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+  }
+  .sofina-section--topInformation .sofina-information__counseling__telsp .l-LinkButton__link .l-Text span {
+    margin-left: 5px;
+    font-size: 9px;
+    vertical-align: middle;
+  }
+  .sofina-section--topInformation .sofina-information__counseling__telsp .l-LinkButton__link .cmn-richtext {
+    vertical-align: middle;
+  }
+  .sofina-section--topInformation .sofina-information__counseling__telsp .l-LinkButton__link .cmn-richtext span {
+    vertical-align: middle;
+  }
+}
+.sofina-section--topInformation .l-TileLinkVUnit {
+  background-color: #FFF;
+  padding: 0;
+  border: solid 1px #dedede;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sofina-section--topInformation .l-TileLinkVUnit img {
+  display: block;
+  width: 100%;
+}
+.sofina-section--topInformation .l-TileLinkVUnit:hover, .sofina-section--topInformation .l-TileLinkVUnit:focus, .sofina-section--topInformation .l-TileLinkVUnit:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  background-color: #eefbfb;
+}
+.sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+  padding: 20px 20px 20px 20px;
+  margin: 0;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #007caa;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+.sofina-section--topInformation .l-Image {
+  margin: 0;
+}
+.sofina-section--topInformation .l-TileLinkVUnit__imageBlock {
+  margin: 0;
+}
+.sofina-section--topInformation .l-TileLinkVUnit__leadBlock {
+  padding-right: 0;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkVP__list__tile {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .sofina-section--topInformation .l-TileLinkVP__list__tile:first-child .l-TileLinkVUnit {
+    border-top: solid 1px #dedede;
+  }
+  .sofina-section--topInformation .l-TileLinkVUnit {
+    border-top: none;
+    display: table;
+    width: 100%;
+  }
+  .sofina-section--topInformation .l-TileLinkVUnit .l-TileLinkVUnit__imageBlock {
+    display: table-cell;
+    width: 30%;
+  }
+  .sofina-section--topInformation .l-TileLinkVUnit .l-TileLinkVUnit__leadBlock {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+    font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 0px 0px 0px 10px;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 1025px) {
+  .sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  .sofina-section--topInformation .l-TileLinkVUnit .l-Text {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+
+.sofina-section--topInformation__caution {
+  color: #f00;
+}
+
+.sofina-section--topQuality {
+  background-color: #f7fefe;
+}
+.sofina-section--topQuality .g-Column__cols {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.sofina-section--topQuality .l-TileLinkHUnit {
+  background-color: #FFF;
+  padding: 0;
+  border: solid 1px #dedede;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sofina-section--topQuality .l-TileLinkHUnit img {
+  display: block;
+}
+.sofina-section--topQuality .l-TileLinkHUnit:hover, .sofina-section--topQuality .l-TileLinkHUnit:focus, .sofina-section--topQuality .l-TileLinkHUnit:active {
+  background-color: #f7fefe;
+}
+.sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__imageBlock {
+  margin: 0;
+  padding-right: 0;
+  width: 140px;
+}
+.sofina-section--topQuality .l-TileLinkHUnit .g-Image {
+  margin: 0;
+}
+.sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock {
+  vertical-align: top;
+  padding: 18px;
+}
+.sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-Text {
+  font-size: 20px;
+  color: #007caa;
+  line-height: 1.4;
+}
+.sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock__lead .l-Text {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-Text {
+    font-size: 18px;
+  }
+  .sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock__lead .l-Text {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topQuality .l-TileLinkHP__list__tile {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .sofina-section--topQuality .l-TileLinkHP__list__tile:not(:first-child) .l-TileLinkHUnit {
+    border-top: none 0;
+  }
+  .sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__imageBlock {
+    width: 90px;
+  }
+  .sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock {
+    padding: 8px;
+  }
+  .sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock .l-Text {
+    font-size: 14px;
+  }
+  .sofina-section--topQuality .l-TileLinkHUnit .l-TileLinkHUnit__leadBlock__lead .l-Text {
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 1.4;
+  }
+}
+
+.sofina-section--topWhatsnew {
+  background-color: #fff;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topWhatsnew .g-Column__cols {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.sofina-whatsnew {
+  margin-top: 10px;
+}
+
+.sofina-whatsnew__line {
+  display: table;
+  position: relative;
+  width: 100%;
+  border-bottom: dotted 1px #ccc;
+  text-align: left;
+  color: #333;
+  text-decoration: none;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  /*-----------------------*/
+  /*-----------------------*/
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-whatsnew__line {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-whatsnew__line {
+    letter-spacing: normal;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sofina-whatsnew__line {
+    font-size: 14px;
+    letter-spacing: normal;
+  }
+}
+.sofina-whatsnew__line .l-Image {
+  display: inline;
+  vertical-align: middle;
+}
+.sofina-whatsnew__line .l-Image .l-Image__img {
+  display: inline;
+}
+.sofina-whatsnew__line img {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 1em;
+  width: 100px;
+}
+.sofina-whatsnew__line:first-child {
+  border-top: dotted 1px #ccc;
+}
+.sofina-whatsnew__line:link:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  background-color: #f1f9fd;
+}
+.sofina-whatsnew__line:link:after {
+  content: "&gt";
+  position: absolute;
+  right: 10px;
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+  display: block;
+  background-image: url("../../component/img/arrow_blue_right.png");
+  background-repeat: no-repeat;
+  background-size: 8px 14px;
+  width: 8px;
+  height: 14px;
+  text-indent: 8px;
+  white-space: nowrap;
+  text-align: left;
+  overflow: hidden;
+}
+.sofina-whatsnew__line:link:after br {
+  display: none;
+}
+.sofina-whatsnew__line .sofina-whatsnew__line__head {
+  display: table-cell;
+  width: 210px;
+  vertical-align: middle;
+  padding: 12px 0px 12px 0px;
+}
+.sofina-whatsnew__line .sofina-whatsnew__line__body {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 12px 25px 12px 0px;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-whatsnew__line .sofina-whatsnew__line__head {
+    display: block;
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .sofina-whatsnew__line .sofina-whatsnew__line__body {
+    display: block;
+    padding: 8px 25px 7px 0px;
+    font-size: 12px;
+  }
+}
+
+.sofina-section--topBrands {
+  background-color: #f9f9f9;
+  /*-----------------------*/
+  /*-----------------------*/
+}
+.sofina-section--topBrands .l-TileLinkVUnit {
+  background-color: #FFF;
+  padding: 0 0 12px 0;
+  border: solid 1px #dedede;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sofina-section--topBrands .l-TileLinkVUnit > .l-Image {
+  margin: 10px 0;
+  padding: 0 15px;
+}
+.sofina-section--topBrands .l-TileLinkVUnit:hover, .sofina-section--topBrands .l-TileLinkVUnit:focus, .sofina-section--topBrands .l-TileLinkVUnit:active {
+  background-color: #f9f9f9;
+}
+.sofina-section--topBrands .l-TileLinkVUnit__imageBlock {
+  margin: 0;
+}
+.sofina-section--topBrands .l-TileLinkVUnit__leadBlock {
+  display: none;
+}
+.sofina-section--topBrands .l-Image {
+  margin: 0;
+}
+.sofina-section--topBrands .l-Image img {
+  display: block;
+}
+.sofina-section--topBrands .sofina-TagLabels {
+  padding: 0 15px;
+}
+.sofina-section--topBrands .l-TileLinkVUnit__extraStructural > .l-Image {
+  margin: 10px 0;
+  padding: 0 15px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section--topBrands .g-Section__inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sofina-section--topBrands .l-HeadingTitle {
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sofina-section--topBrands .l-TileLinkVP__list {
+    margin: 0;
+  }
+  .sofina-section--topBrands .l-TileLinkVP__list__tile {
+    padding: 0;
+  }
+  .sofina-section--topBrands .l-TileLinkVP__list__tile:nth-child(1), .sofina-section--topBrands .l-TileLinkVP__list__tile:nth-child(2) {
+    border-top: solid 1px #dedede;
+  }
+  .sofina-section--topBrands .l-TileLinkVP__list__tile:nth-child(even) {
+    border-right: none;
+  }
+  .sofina-section--topBrands .l-TileLinkVUnit {
+    border-top: none;
+    border-left: none;
+    padding: 10px 16px 10px 16px;
+  }
+  .sofina-section--topBrands .l-TileLinkVUnit .l-TileLinkVUnit__leadBlock {
+    padding: 0;
+  }
+  .sofina-section--topBrands .l-TileLinkVUnit > .l-Image {
+    padding: 0 0;
+  }
+  .sofina-section--topBrands .sofina-TagLabels {
+    padding: 0 0;
+  }
+  .sofina-section--topBrands .l-TileLinkVUnit__extraStructural > .l-Image {
+    padding: 0;
+  }
+}
+
+/**/
+.sofina-section_mainvisual {
+  background-color: #c1e8f2;
+  background-color: #e7f5f6;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2MxZThmMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U3ZjVmNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c1e8f2), color-stop(100%, #e7f5f6));
+  background-image: -moz-linear-gradient(top, #c1e8f2, #e7f5f6);
+  background-image: -webkit-linear-gradient(top, #c1e8f2, #e7f5f6);
+  background-image: linear-gradient(to bottom, #c1e8f2, #e7f5f6);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC1E8F2', endColorstr='#FFE7F5F6');
+  padding: 20px 0px 0px 0px;
+  /*-----------------------*/
+  /*-----------------------*/
+}
+.sofina-section_mainvisual .g-Section__inner {
+  padding: 0px 0px 0px 0px;
+  max-width: 100%;
+}
+.sofina-section_mainvisual .g-Column__cols {
+  padding: 0;
+}
+.sofina-section_mainvisual .l-Image {
+  margin-bottom: 0;
+  visibility: hidden;
+}
+.sofina-section_mainvisual img {
+  display: block;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section_mainvisual {
+    padding-top: 0;
+  }
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/* brands ============================== */
+.sofina-section__brandsTitle .g-Section__inner {
+  padding-bottom: 0;
+}
+
+.sofina-section__brandsList {
+  overflow: visible;
+}
+.sofina-section__brandsList .g-Section__inner {
+  padding-top: 0;
+}
+.sofina-section__brandsList .sofina-HeadingTitle--sub {
+  margin-bottom: 10px;
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit {
+  padding: 0 0 30px 0;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  box-sizing: border-box;
+  border: solid 1px #ccc;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit {
+    padding: 0 0 10px 0;
+  }
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .l-TileLinkVUnit__imageBlock {
+  margin-bottom: 0;
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .l-TileLinkVUnit__imageBlock .l-Image {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .l-TileLinkVUnit__imageBlock .l-Image {
+    padding: 10px 10px 0;
+  }
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .l-TileLinkVUnit__leadBlock {
+  display: none;
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit > .l-Image {
+  margin: 10px 0;
+  padding: 0 15px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit > .l-Image {
+    padding: 0 10px;
+  }
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .sofina-TagLabels {
+  padding: 0 15px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .sofina-TagLabels {
+    padding: 0 10px;
+  }
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit > .l-Text {
+  margin-top: 10px;
+  padding: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit > .l-Text {
+    margin-top: 5px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .l-Text.sofina-Text--anotation {
+  margin-top: 3px;
+  padding: 0 15px;
+  font-size: 11px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit .l-Text.sofina-Text--anotation {
+    padding: 0 10px;
+  }
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit:hover, .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit:focus, .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit:active {
+  background-color: #f9f9f9;
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit__extraStructural > .l-Image {
+  margin: 10px 0;
+  padding: 0 15px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit__extraStructural > .l-Image {
+    padding: 0 10px;
+  }
+}
+.sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit__extraStructural > .l-Text {
+  margin-top: 10px;
+  padding: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__brandsList .sofina-TileLink__brandsList .l-TileLinkVUnit__extraStructural > .l-Text {
+    margin-top: 5px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+}
+
+/* スライダ ============================== */
+.slider {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  overflow: hidden;
+}
+.slider .imgholder {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 390px;
+}
+.slider .imgholder a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider .imgholder a img {
+  width: 100%;
+}
+.slider .imgcover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 50;
+}
+
+.slider-sidebtnholder {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  z-index: 50;
+  pointer-events: none;
+}
+.slider-sidebtnholder.disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+.slider-btn--left {
+  position: absolute;
+  z-index: 51;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  pointer-events: auto;
+  background-image: url("../../component/img/mainvisual-btn_left.png");
+  background-repeat: no-repeat;
+  background-size: 12px 20px;
+  background-position: 50% 50%;
+  /*-----------------------*/
+  /*-----------------------*/
+  left: 0;
+}
+.slider-btn--left:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+@media only screen and (max-width: 640px) {
+  .slider-btn--left {
+    width: 20px;
+    background-image: url("../../component/img/mainvisual-btn_left.png");
+    background-repeat: no-repeat;
+    background-size: 6px 10px;
+  }
+}
+
+.slider-btn--right {
+  position: absolute;
+  z-index: 51;
+  top: 0;
+  width: 40px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  pointer-events: auto;
+  background-image: url("../../component/img/mainvisual-btn_right.png");
+  background-repeat: no-repeat;
+  background-size: 12px 20px;
+  background-position: 50% 50%;
+  /*-----------------------*/
+  /*-----------------------*/
+  right: 0;
+}
+.slider-btn--right:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+@media only screen and (max-width: 640px) {
+  .slider-btn--right {
+    width: 20px;
+    background-image: url("../../component/img/mainvisual-btn_right.png");
+    background-repeat: no-repeat;
+    background-size: 6px 10px;
+  }
+}
+
+.slider-pagination {
+  pointer-events: none;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+.slider-pagination li {
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
+}
+.slider-pagination li a {
+  display: block;
+  width: 3px;
+  height: 3px;
+  line-height: 3px;
+  border-radius: 50%;
+  border: solid 3px #007caa;
+  background-color: #007caa;
+  text-indent: 100%;
+  overflow: hidden;
+}
+.slider-pagination li a:hover {
+  border: solid 3px #9ac4d4;
+  background-color: #9ac4d4;
+}
+.slider-pagination li a.current {
+  pointer-events: none;
+  border: solid 3px #9ac4d4;
+  background-color: #9ac4d4;
+}
+
+/* philosophy ============================== */
+.sofina-section__philosophyMain {
+  margin-bottom: 70px;
+}
+.sofina-section__philosophyMain .sofina-philosophy__leadImage {
+  margin-bottom: 55px;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__philosophyMain .sofina-philosophy__leadImage {
+    margin-bottom: 35px;
+  }
+}
+.sofina-section__philosophyMain .sofina-philosophy__leadImage .l-Image__img {
+  margin: 0 auto;
+  max-width: 640px;
+}
+.sofina-section__philosophyMain .sofina-philosophy__contentsBlock .l-Text {
+  font-size: 16px;
+  line-height: 2em;
+}
+.sofina-section__philosophyMain .sofina-philosophy__contentsBlock .l-Text:not(:first-child) {
+  margin-top: 2em;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-section__philosophyMain .sofina-philosophy__contentsBlock .l-Text {
+    font-size: 12px;
+  }
+}
+
+/* 404 ============================== */

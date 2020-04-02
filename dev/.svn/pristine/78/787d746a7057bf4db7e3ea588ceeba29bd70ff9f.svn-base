@@ -1,0 +1,6 @@
+.g-PageTitle{
+    .g-PageTitle__titleBlock__titleBox__title{
+       margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+} 

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA BPS</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/header-footer.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/header-footer.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div class="g-Area sofina-BlHeader" id="area-BlHeader">
+      <div class="g-Area__inner">
+        <div class="BlHeader">
+          <div class="sofina-HeaderLogo sofina-HeaderLogo--bps">
+            <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps.html">
+              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                <p class="g-Image__img l-Image__img">
+                  <img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/bps/header-logo-sofina-bps@2x.png?fmt=png-alpha" alt="SOFINA Beauty Power Station" data-fixedimgsrc="header-logo-sofina-bps_s@2x.png">
+                </p>
+              </div>
+            </a>
+          </div>
+          <a href="javascript:void(0);" class="sofina-HeaderMenu"></a>
+          <ul class="sofina-HeaderGlobalNav">
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps.html">トップ</a></li>
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/lesson.html">Beauty Power Lesson</a></li>
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/access.html">店舗情報・アクセス</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+
+
+
+
+      <div class="g-Section sofina-section_mainvisual_visualleft sofina-access-section_mainvisual is-marginReset" id="common_section_wrapper_1">
+        <div class="g-Section__inner">
+          <div class="g-Column dontuniform is-marginReset js-uniformHeight" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit sofina-section_mainvisual_visualleft__txtholder is-japaneseMain">
+                  <div class="g-PageTitle l-PageTitle opt-al_c is-layoutL">
+                    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                            <span class="cmn-richtext">
+                              <span>店舗情報・アクセス
+
+                              </span>
+                            </span>
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-Text l-Text sofina-section_mainvisual_visualleft__txtholder__subtitle">
+                    <p class="cmn-richtext">
+                      <span>Shop Information / Access
+
+                      </span>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section sofina-access-section_shopinfo sofina-section_shopinfo_big is-marginReset" id="common_section_wrapper_2">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                            <span class="cmn-richtext">
+                              <span>SOFINA Beauty Power Station 銀座店
+
+                              </span>
+                            </span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sofina-section_shopinfo_big__contholder">
+                    <div class="sofina-section_shopinfo_big__contholder__info">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>住　　所</td>
+                            <td>〒104-0061 東京都中央区銀座三丁目4番12号 文祥堂銀座ビル 1F</td>
+                          </tr>
+                          <tr>
+                            <td>営業時間</td>
+                            <td>11:00〜20:00（不定休） </td>
+                          </tr>
+                          <tr>
+                            <td>お問合せ</td>
+                            <td class="sofina-section_shopinfo_big__contholder__info_telnum">03-3561-2600 </td>
+                          </tr>
+                          <tr class="sofina-section_shopinfo_big__contholder__info__tel">
+                            <td colspan="2">
+                              <!-- リンク -->
+                              <div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay icon-phonecall">
+                                <a class="g-LinkButton__link l-LinkButton__link" href="tel:03-3561-2600">
+                                  <span class="cmn-richtext">
+                                    <span>お電話でのお問い合わせ </span>
+                                  </span>
+                                </a>
+                              </div>
+                              <!-- /リンク -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>交通手段</td>
+                            <td>東京メトロ 銀座線・丸の内線・日比谷線 銀座駅A13出口から徒歩1分
+                              <p class="sofina-section_shopinfo_big__contholder__info__cap">※駐車スペースはございません</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay sofina-section_shopinfo__btnaccess">
+                        <a class="g-LinkButton__link l-LinkButton__link">
+                          <span class="cmn-richtext">
+                            <span>アクセス </span>
+                          </span>
+                        </a>
+                      </div>
+                      <!-- /リンク -->
+                    </div>
+                    <div class="sofina-section_shopinfo_big__contholder__map">
+                      <!-- グーグルマップ -->
+                      <div class="sofina-section_shopinfo_big__contholder__map__gmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1784860131756!2d139.7654405!3d35.6726069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be43240f7a5%3A0xfab463bf056a8099!2z44CSMTA0LTAwNjEg5p2x5Lqs6YO95Lit5aSu5Yy66YqA5bqn77yT5LiB55uu77yU4oiS77yR77ySIOaWh-elpeWggumKgOW6p-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1441786050111"
+                        width="100%" height="100%" frameborder="0" style="" allowfullscreen></iframe>
+                      </div>
+                      <!-- /グーグルマップ -->
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-sm btn-map">
+                        <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                          <span class="cmn-richtext">
+                            <span>地図アプリで表示 </span>
+                          </span>
+                        </a>
+                      </div>
+                      <!-- /リンク -->
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-md btn-map">
+                        <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                          <span class="cmn-richtext">
+                            <span>地図アプリで表示 </span>
+                          </span>
+                        </a>
+                      </div>
+                      <!-- /リンク -->
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-dark-bullet-glay opt-hide-sm sofina-section_shopinfo_big__contholder__map__print btn-open-printwindow">
+                        <a class="g-LinkButton__link l-LinkButton__link" href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/map_ginza.html" target="popup">
+                          <span class="cmn-richtext">
+                            <span>印刷 </span>
+                          </span>
+                        </a>
+                      </div>
+                      <!-- /リンク -->
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- / area-Contents -->
+
+
+
+
+    <div class="g-Area sofina-SbBlFooter" id="area-SbBlFooter">
+      <div class="g-Area__inner">
+        <div class="SbBlFooter">
+          <div class="sofina-footerSNS">
+            <div class="sofina-footerSNS__inner">
+              <!-- COMMON SNS BUTTON START -->
+              <table width="965" height="28" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="761" height="28" nowrap align="right" valign="middle" bgcolor="#ffffff"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="18d43b045a7f3a2aa10f9d69f786175580f5bee5" data-button="button-2">Check</a>
+                      <script type="text/javascript" src="https://static.mixi.jp/js/share.js"></script>
+                    </td>
+                    <td width="4"></td>
+                    <td width="200" height="28" nowrap align="left" valign="middle">
+                      <!-- AddThis Button BEGIN -->
+                      <div class="addthis_toolbox">
+                        <div class="custom_images">
+                          <a class="addthis_button_facebook">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/fb_button.gif" width="69" height="20" border="0" alt="Share to Facebook">
+                          </a>
+                          <a class="addthis_button_twitter">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/twitter_button.gif" width="55" height="20" border="0" alt="Share to Twitter">
+                          </a>
+                          <a class="addthis_button_more">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/add_button.gif" width="50" height="20" border="0" alt="More...">
+                          </a>
+                        </div>
+                      </div>
+                      <script type="text/javascript">
+                        var addthis_config = {
+                          "data_track_clickback": true
+                        };
+                      </script>
+                      <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+                      <!-- AddThis Button END -->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- COMMON SNS BUTTON END -->
+            </div>
+          </div>
+          <div class="sofina-footerPagetop">
+            <a href="#wrapper">
+              <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る</a>
+          </div>
+          <div class="sofina-footerSitemap">
+            <div class="sofina-footerSitemapColumn">
+              <div class="sofina-footerSitemap__cols">
+                <ul class="sofina-footerSitemapLinks">
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps.html">トップ</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/lesson.html">Beauty Power Lesson</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/access.html">店舗情報・アクセス</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/news.html">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-Area sofina-BlFooter" id="area-BlFooter">
+      <div class="g-Area__inner">
+        <div class="BlFooter">
+          <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2.html" class="sofina-footerLogo">
+            <p class="sofina-footerLogo__img">
+              <img src="/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina.png" alt="SOFINA">
+            </p>
+            <p class="sofina-footerLogo__txt">ソフィーナトップページ</p>
+          </a>
+          <div class="sofina-footerUtility">
+            <ul class="sofina-footerUtility__links">
+              <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護方針</a></li>
+              <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+              <li><a href="http://www.kao.com/jp/">花王株式会社</a></li>
+              <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+            </ul>
+            <p class="sofina-footerUtility__copyright">Copyright © 1999-2015 Kao Corporation. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span id="breakPoint-small"></span>
+    <span id="breakPoint-middle"></span>
+    <span id="breakPoint-large"></span>
+
+    <!--/wrapper-->
+  </div>
+
+
+
+
+
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

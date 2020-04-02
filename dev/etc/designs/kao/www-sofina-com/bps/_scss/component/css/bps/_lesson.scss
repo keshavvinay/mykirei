@@ -1,0 +1,1127 @@
+@charset "utf-8";
+
+/* lesson ============================== */
+
+////////////////////////////////////
+//
+// セクション（メインビジュアル）
+//
+////////////////////////////////////
+.sofina-lesson-section_mainvisual{
+  @include bg_main("bps-mainvisual-lesson-new.jpg");
+  // background-size: 50%;
+  background-size: contain;
+  //最初は非表示とする
+  background-position: -200% 0;
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    @include bg_main("tb_bps-lesson-mainvisual-new@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    @include bg_main("bps-mainvisual-lesson-new@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+}
+
+////////////////////////////////////
+//
+// セクション（メインビジュアル）2
+//
+////////////////////////////////////
+.sofina-section_mainvisual_visualleft2{
+  border: solid 1px #FF3344;
+  display: none;
+}
+
+.sofina-section_mainvisual_visualleft__imgholder{
+
+}
+
+////////////////////////////////////
+//
+// セクション（レッスンについて）
+//
+////////////////////////////////////
+.sofina-lesson-section_about {
+  .g-Column__inner {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .g-Column__inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    font-family: $fontFamily_Gothic;
+    .g-Column__inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.sofina-lesson-section_about__cont {
+  //タイトル
+  .l-HeadingTitle__h3 {
+    @include fontSize(lv4); //20px
+    color: $colorGray_2;
+    line-height: 1.5;
+    font-weight: normal;
+  }
+  //説明
+  .l-Text {
+    padding-top: 15px;
+    @include fontSize(lv6); //16px
+    color: $colorGray_2;
+    line-height: 1.6;
+    font-weight: normal;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .l-HeadingTitle {
+      margin-bottom: 0;
+    }
+    .l-HeadingTitle__h3 {
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.sofina-lesson-section_about__cont__txtholder {
+  padding-right: 30px;
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding-right: 0px;
+  }
+}
+
+.sofina-lesson-section_about__cont__imgholder {
+  padding-right: 80px;
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    padding-right: 0px;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding-right: 0px;
+  }
+}
+
+.sofina-lesson-section_about__pdflink {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  @include bp(sm) {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .l-LinkButton {
+    a {
+      border: 1px solid $colorGray_5;
+      max-width: 560px;
+      min-width: 480px;
+      width: 65%;
+      margin: 0 auto;
+      padding: 20px 10px;
+      display: block;
+      text-align: center;
+      @include bp(sm) {
+        width: 100%;
+        min-width: 0;
+        max-width: none;
+        margin: 0;
+        padding: 10px 10px 10px 25px;
+        text-align: left;
+      }
+      &:hover {
+        background-color: #f5f5f5;
+        opacity: 1;
+      }
+      .cmn-richtext {
+        position: relative;
+        font-size: $fontSize_lv5;
+        &:before {
+          position: absolute;
+          top: 50%;
+          left: -8px;
+          margin-top: -3px;
+        }
+        &:after {
+          margin-bottom: 3px;
+        }
+        @include bp(sm) {
+          max-width: 410px;
+          font-size: $fontSize_sm_lv5;
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+/**/
+
+////////////////////////////////////
+//
+// セクション（概要）
+//
+////////////////////////////////////
+.sofina-section--lessonSummary {
+  .g-Section__inner {
+    padding-left: 82px;
+    padding-right: 82px;
+    @include bp(sm) {
+      padding-bottom: 0;
+    }
+  }
+  //タイトル（背景色をフローと同じにしてくっつける）
+  .sofina-lessonSummary__bps {
+    background-color: #f5f5f5;
+    padding-top: 24px;
+    .l-HeadingTitle {
+      margin-bottom: 24px;
+    }
+    .l-HeadingTitle__h2 {
+      @include fontSize(lv2);
+      font-family: $fontFamily_Title;
+      font-weight: normal;
+      @include bp(lg) {
+        letter-spacing: 0.06em;
+      }
+      @include bp(md) {
+        letter-spacing: 0.06em;
+      }
+      @include bp(sm) {
+        letter-spacing: 0.06em;
+      }
+    }
+    @include bp(sm) {
+      padding-top: 17px;
+      .l-HeadingTitle {
+        margin-bottom: 17px;
+      }
+    }
+  }
+  .sofina-lessonSummary__shop {
+    background-color: #f5f5f5;
+    padding: 0 30px;
+    .g-Column__inner {
+      background-color: $colorGray_8;
+      padding: 27px 10px 19px;
+    }
+    @include bp(sm) {
+      padding: 0 10px;
+      .g-Column__inner {
+        padding: 15px 10px 7px;
+      }
+    }
+  }
+  .sofina-lessonSummary__shop__title {
+    .cmn-richtext {
+      display: inline-block;
+      @include fontSize(lv4);
+      border-bottom: solid 3px #777777;
+      margin-bottom: 14px;
+      @include bp(sm) {
+        @include fontSize(lv3);
+        margin-bottom: 0;
+      }
+    }
+  }
+  .sofina-lessonSummary__shop__text {
+    @include fontSize(lv6);
+    line-height: 1.5;
+    margin-bottom: 10px;
+    @include bp(sm) {
+      @include fontSize(lv7);
+      line-height: 1.5;
+    }
+  }
+  .sofina-lessonSummary__shop__note {
+    @include fontSize(caption);
+    line-height: 1.5;
+  }
+  
+  .sofina-lessonSummary__after {
+    background-color: #f5f5f5;
+    padding-top: 46px;
+    position: relative;
+    &:after {
+      position: absolute;
+      display: inline-block;
+      content: "▼";
+      left: 50%;
+      top: 10px;
+      font-size: 16px;
+      line-height: 1;
+      margin-left: -.5em;
+      color: #777;
+    }
+    @include bp(sm) {
+      padding: 30px 10px 0;
+      &:after {
+        font-size: 12px;
+      }
+    }
+  }
+  
+  .sofina-lessonSummary__after__title {
+    font-size: $fontSize_lv4;
+    line-height: 1.5;
+    margin-bottom: 0;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv3;
+    }
+  }
+  
+  .sofina-lessonSummary__after__text {
+    font-size: $fontSize_lv6;
+    line-height: 1.5;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv7;
+    }
+  }
+  
+  //フロー
+  .sofina-lessonSummary__flow {
+    background-color: #f5f5f5;
+    margin-top: 0;
+    margin-bottom: 34px;
+    .g-Column__inner {
+      padding: 0 30px;
+      @include bp(sm) {
+        padding: 0 10px;
+      }
+    }
+    .g-Column__cols {
+      padding: 20px 0;
+      &:nth-child(odd) {
+        width: 44.75%;
+        @include bp(sm) {
+          width: 100%;
+        }
+      }
+      &:nth-child(even) {
+        width: 10.5%;
+        @include bp(sm) {
+          width: 100%;
+          padding-bottom: 5px;
+        }
+      }
+      @include bp(sm) {
+        padding: 0 0 18px;
+      }
+    }
+    .sofina-lessonSummary__flow__unit {
+      .l-Text {
+        margin-bottom: 0;
+      }
+      .sofina-flow__sublead_center{
+        text-align: center;
+      }
+      &.is-side {
+        padding: 30px;
+        background-color: $colorGray_8;
+        text-align: center;
+        .sofina-flow__lead {
+          display: inline-block;
+          font-size: $fontSize_lv4;
+          border-bottom: solid 3px #777777;
+          text-align: center;
+          @include bp(sm) {
+            font-size: $fontSize_sm_lv3;
+          }
+        }
+        @include bp(sm) {
+          padding: 15px 10px 20px;
+        }
+      }
+      &.is-center {
+        padding: 34px 0;
+        .sofina-flow__lead {
+          text-align: center;
+          font-size: $fontSize_lv6;
+          @include bp(sm) {
+            font-size: $fontSize_sm_lv7;
+          }
+        }
+        @include bp(sm) {
+          margin: -13px 0 0;
+          padding: 0;
+        }
+      }
+    }
+    @include bp(sm) {
+      margin-bottom: 20px;
+    }
+  }
+  @include bp(md) {
+    .g-Section__inner {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  @include bp(sm) {
+    .g-Section__inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+.sofina-lesson-section_summary {
+  .g-Column__inner {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .g-Column__inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    font-family: $fontFamily_Gothic;
+    .g-Column__inner {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+
+/**/
+
+////////////////////////////////////
+//
+// セクション（フロー）
+//
+////////////////////////////////////
+.sofina-lesson-section_flow {
+  .g-Section__inner {
+    padding-left: 82px;
+    padding-right: 82px;
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .g-Section__inner {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .g-Section__inner {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+%sofina-lesson-section_flow__head {
+  position: relative;
+  display: table;
+  width: 100%;
+  $h: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 108px;
+  height: $h;
+  background-position: 0 50%;
+
+  //タイトル
+  .l-HeadingTitle__h3 {
+    @include fontSize(lv4); //20px
+    color: $colorGray_2;
+    line-height: 1.5;
+    font-weight: normal;
+
+  }
+  //回数
+  .sofina-lesson-section_flow__head__kaisu{
+
+  }
+
+  //所要時間
+  .sofina-lesson-section_flow__head__time {
+    position: absolute;
+    @include vMiddle();
+    right: 0;
+    // top: 50%;
+    @include fontSize(lv6); //16px
+    color: $colorGray_2;
+
+
+  }
+  //サブタイトル
+  .sofina-lesson-section_flow__head__subtitle {
+    @include fontSize(caption); //12px
+    color: $colorGray_2;
+    margin-bottom: 0;
+
+  }
+
+
+  .l-HeadingTitle {
+    display: table-cell;
+    vertical-align: middle;
+    height: $h;
+
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 70px;
+
+    //タイトル
+    .l-HeadingTitle__h3 {
+      @include fontSize(lv6); //16px
+      font-family: $fontFamily_Gothic;
+      padding-right: 60px;
+    }
+    //サブタイトル
+    .sofina-lesson-section_flow__head__subtitle {
+      padding-right: 60px;
+      padding-top: 4px;
+      font-family: $fontFamily_Gothic;
+    }
+    // .sofina-lesson-section_flow__head__subtitle2{
+    //   padding-bottom: 10px;
+    // }
+    //所要時間
+    .sofina-lesson-section_flow__head__time {
+      width: 52px;
+      @include fontSize(caption); //12px
+      font-family: $fontFamily_Gothic;
+
+    }
+    .l-HeadingTitle {
+      // height: $h;
+
+    }
+  }
+}
+
+.sofina-lesson-section_flow__head1 {
+  @extend %sofina-lesson-section_flow__head;
+
+  .sofina-lesson-section_flow__head__kaisu{
+    position: absolute;
+    @include img_bps("icon-lesson-1st.png", 2);
+    @include vMiddle();
+    left: 0;
+  }
+
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .sofina-lesson-section_flow__head__kaisu{
+      @include img_bps("icon-lesson-1st@2x.png", 2);
+    }
+  }
+}
+
+.sofina-lesson-section_flow__head2 {
+  @extend %sofina-lesson-section_flow__head;
+
+  .sofina-lesson-section_flow__head__kaisu{
+    position: absolute;
+    @include img_bps("icon-lesson-2nd.png", 2);
+    @include vMiddle();
+    left: 0;
+  }
+
+
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .sofina-lesson-section_flow__head__kaisu{
+      @include img_bps("icon-lesson-2nd@2x.png", 2);
+    }
+  }
+}
+
+.sofina-lesson-section_flow__item {
+  border-bottom: solid 1px $colorGray_5;
+  padding-left: 110px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-position: 36px 50%;
+  &.sofina-lesson-section_flow__item01 {
+    border-top: solid 1px $colorGray_5;
+  }
+  .g-ColumnUnit {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  //タイトル
+  .l-HeadingTitle {
+    margin-bottom: 0;
+  }
+  .l-HeadingTitle__h4 {
+    @include fontSize(lv5); //18px
+    color: $colorGray_2;
+    font-weight: normal;
+  }
+  //説明
+  .l-Text {
+    margin-top: 16px;
+    @include fontSize(lv7); //14px
+    color: $colorGray_2;
+    font-weight: normal;
+    line-height: 1.5;
+    &.is-annotation {
+      @include fontSize(caption); //12px
+    }
+  }
+  //画像
+  .l-Image__img {
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+  //リスト
+  .l-ListP {
+    margin-top: 16px;
+    margin-left: 10px;
+    @include fontSize(lv7); //14px
+    color: $colorGray_2;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    //font-family: $fontFamily_Gothic;
+    padding-left: 30px;
+    background-position: 0 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .g-ColumnUnit {
+      display: block;
+    }
+    //タイトル
+    .l-HeadingTitle {
+      //font-family: $fontFamily_Gothic;
+    }
+    .l-HeadingTitle__h4 {
+      @include fontSize(lv7); //14px
+    }
+    //説明
+    .l-Text {
+      margin-top: 5px;
+      @include fontSize(caption); //12px
+    }
+    //画像
+    .l-Image__img {
+      padding-left: 0;
+      padding-right: 30px;
+      width: 90%;
+      margin: 0 auto;
+    }
+    //リスト
+    .l-List {
+      margin-top: -4px;
+      margin-left: 8px;
+      @include fontSize(caption); //12px
+      line-height: 1.5;
+    }
+  }
+}
+
+.sofina-lesson-section_flow__home {
+  position: relative;
+  padding: 50px 0;
+  &:before,
+  &:after {
+    content: "▼";
+    position: absolute;
+    @include hMiddle();
+  }
+  &:before {
+    top: 10px;
+  }
+  &:after {
+    bottom: 10px;
+  }
+  .g-ColumnUnit {
+    display: table;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 30px 35px;
+  }
+  .sofina-lesson-section_flow__home__left {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 15px;
+    .l-HeadingTitle__h4 {
+      font-weight: normal;
+      font-size: $fontSize_lv5;
+    }
+    .l-Text {
+      font-size: $fontSize_lv7;
+    }
+  }
+  .sofina-lesson-section_flow__home__right {
+    display: table-cell;
+    width: 130px;
+    vertical-align: middle;
+  }
+  @include bp(sm) {
+    .g-ColumnUnit {
+      display: block;
+      padding: 20px 10px;
+    }
+    .sofina-lesson-section_flow__home__left {
+      display: block;
+      padding-right: 0;
+      .l-HeadingTitle__h4 {
+        font-size: $fontSize_lv7;
+      }
+      .l-Text {
+        font-size: $fontSize_sm_caption;
+      }
+    }
+    .sofina-lesson-section_flow__home__right {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.sofina-lesson-section_flow__finish {
+  padding: 30px 0;
+  .l-Text {
+    @include fontSize(lv5); //18px
+    color: $colorGray_2;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  border-bottom: solid 1px $colorGray_5;
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding: 20px 0;
+  }
+}
+.sofina-lesson-section_flow__cap {
+  .cmn-richtext{
+    padding-top: 17px;
+    @include fontSize(caption); //12px
+  }
+}
+
+//マル番号
+@for $i from 1 through 4 {
+  $n: keta2($i);
+  .sofina-lesson-section_flow__item#{$n} {
+    @include bg_main("icon-circlenum"+$n+".png", 2);
+    /*-----------------------*/
+    // sm
+    /*-----------------------*/
+    @include bp(sm) {
+      @include bg_main("icon-circlenum"+$n+"@2x.png", 2);
+    }
+  }
+}
+
+
+/**/
+
+////////////////////////////////////
+//
+// セクション（料金）
+//
+////////////////////////////////////
+.sofina-lesson-section_fee {
+  .g-Section__inner {
+    padding-left: 82px;
+    padding-right: 82px;
+  }
+  margin-bottom: 50px;
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .g-Section__inner {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    margin-bottom: 20px;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    font-family: $fontFamily_Gothic;
+    .g-Section__inner {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    margin-bottom: 20px;
+  }
+}
+
+.sofina-lesson-section_fee__cont {}
+
+//二回分の料金
+.sofina-lesson-2timesfee {
+  position: relative;
+  border: solid 1px $colorGray_5;
+  padding: 20px 46px 15px 46px;
+  //パネル右上
+  .g-GroupBox {
+    //overflow: hidden;
+    position: absolute;
+    @include topRight(30px, 46px);
+    .l-Text {
+      //float: left;
+      display: inline-block;
+      margin-left: 10px;
+      .cmn-richtext {
+        padding: 8px 26px;
+        border: solid 1px $colorGray_5;
+        @include fontSize(lv7); //14px
+        color: $colorGray_2;
+        font-weight: normal;
+        text-align: center;
+      }
+    }
+  }
+  //リンク
+  .icon-pdf{
+    .cmn-richtext{
+      @include fontSize(caption); //12px
+    }
+
+  }
+  .sofina-bps__startreservation {
+    width: 50%;
+    margin: 15px auto 10px;
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    padding-left: 20px;
+    padding-right: 20px;
+    .g-GroupBox {
+      position: static;
+      text-align: center;
+      @include topRight(30px, 20px);
+      .l-Text {
+        margin-left: 0px;
+        margin-right: 10px;
+        .cmn-richtext {
+          //padding: 8px 13px;
+        }
+      }
+    }
+    .sofina-bps__startreservation {
+      width: 55%;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding: 10px;
+    .g-GroupBox {
+      position: static;
+      display: table;
+      width: 100%;
+      .l-Text {
+        display: table-cell;
+        width: 50%;
+        margin: 0;
+        padding: 0px 0px 0px 10px;
+        &:first-child {
+          padding-left: 0;
+        }
+        .cmn-richtext {
+          padding: 4px 0px 4px 0px;
+        }
+      }
+    }
+    .sofina-bps__startreservation {
+      width: 100%;
+    }
+  }
+}
+
+.sofina-lesson-2timesfee__txt {
+  margin-bottom: 0;
+  //値段
+  .cmn-richtext {
+    @include fontSize(lv5); //18px
+    color: $colorGray_2;
+    font-weight: normal;
+  }
+  strong {
+    @include fontSize(lv1); //36px
+  }
+  br {
+    display: none;
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    text-align: center;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    text-align: center;
+    .cmn-richtext {
+      // line-height: 1.8;
+    }
+    br {
+      display: inline;
+    }
+  }
+}
+
+//値段下のキャプション
+.sofina-lesson-2timesfee__cap {
+
+  margin-top: 10px;
+  li{
+    @include fontSize(caption); //12px
+    color: $colorGray_2;
+    font-weight: normal;
+    text-indent: -1em;
+    padding-left: 1em;
+  }
+  .sofina-lesson-2timesfee__cap__indent{
+    margin-left: 2em;
+    text-indent: 0;
+    padding-left: 0;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+}
+
+
+
+.sofina-lesson-section_fee__button.is-btn {
+  margin-top: 20px;
+  .l-LinkButton__link {
+    display: block;
+    margin: 0px auto 0px auto;
+    padding: 20px 0px 20px 0px;
+    width: 320px;
+    text-align: center;
+    border: none;
+    @include fontSize(lv4); //20px
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .l-LinkButton__link {
+      width: 100%;
+    }
+  }
+}
+
+////////////////////////////////////
+//
+// セクション（PDFリンク）
+//
+////////////////////////////////////
+.sofina-lesson-section_pdf {
+
+}
+
+
+////////////////////////////////////
+//
+// Comming Soon 緊急対応
+//
+////////////////////////////////////
+.bps-1019lesson {
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px 0;
+  border-top: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+  @include bp(sm) {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+}
+.bps-1019lesson__commingsoon {
+  @include fontSize(lv1_1);
+  font-family: $fontFamily_Title;
+  letter-spacing: 1.5;
+  margin-bottom: 20px;
+  @include bp(sm) {
+    margin-bottom: 15px;
+  }
+}
+.bps-1019lesson__lead {
+  margin-bottom: 0;
+  @include bp(sm) {
+    margin-bottom: 0;
+  }
+}
+
+
+////////////////////////////////////
+//
+// セクション（体験レポート）
+//
+////////////////////////////////////
+.sofina-lesson-section__report {
+  background-color: #f5f5f5;
+  .l-Section__inner {
+    padding: 6px 0;
+  }
+  .l-Column {
+    width: 66%;
+    margin: 0 auto;
+  }
+  @include bp(md) {
+    .l-Column {
+      width: 85%;
+    }
+  }
+  @include bp(sm) {
+    .l-Section__inner {
+      padding: 0 10px;
+    }
+    .is-gutter--m {
+      .l-Column__cols {
+        padding: 7px 12px;
+      }
+    }
+    .l-Column {
+      width: 100%;
+    }
+  }
+}
+.sofina-lesson-section__report__tilelink__unit {
+  border: none;
+  @include box-shadow(none);
+  padding: 4px 20px 0 30px;
+  position: relative;
+  .l-TileLinkHUnit__inner {
+    position: static;
+  }
+  .l-Image {
+    margin-bottom: 0;
+  }
+  .l-TileLinkHUnit__leadBlock {
+    padding-bottom: 4px;
+  }
+  .l-TileLinkHUnit__leadBlock__title {
+    margin-bottom: 16px;
+  }
+  .l-TileLinkHUnit__imageBlock {
+    width: 32%;
+  }
+  .l-Text {
+    margin-bottom: 0;
+    @include fontSize(lv4);
+    font-family: $fontFamily;
+    @include bp(lg) {
+      letter-spacing: .1em;
+    }
+    @include bp(md) {
+      letter-spacing: .1em;
+    }
+    @include bp(sm) {
+      letter-spacing: .1em;
+    }
+  }
+  .cmn-icon--bullet {
+    &:before {
+      display: block;
+      content: "\e006";
+      font-size: 14px;
+      color: $colorGray_1;
+      margin-top: -.5em;
+      margin-right: 20px;
+    }
+  }
+  @include bp(sm) {
+    padding: 15px 10px 0 10px;
+    .l-TileLinkHUnit__leadBlock__title {
+      width: 54.29%;
+      margin-bottom: 12px;
+    }
+    .l-Text {
+      font-size: 15px;
+    }
+    &.is-smallViewVertical.is-layoutR {
+      .g-TileLinkHUnit__leadBlock {
+        padding-bottom: 0;
+      }
+    }
+    &.is-smallViewVertical {
+      .g-TileLinkHUnit__inner .g-TileLinkHUnit__leadBlock {
+        padding-right: 10px;
+      }
+    }
+    .l-TileLinkHUnit__imageBlock {
+      width: 60.71%;
+      margin: 10px auto 0;
+    }
+    .cmn-icon--bullet {
+      &:before {
+        font-size: 10px;
+        margin-right: 0;
+      }
+    }
+  }
+}

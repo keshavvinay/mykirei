@@ -1,0 +1,284 @@
+body.is-authorring {
+    .contentstopcarousel .common_image_carousel_pack {
+        display: none;
+    }
+    #wrapper #area-BrHeader.hide, #wrapper #area-BrFooter, #wrapper #area-PrivacyNotice {
+        display: none !important;
+    }
+
+    .loader-image{
+        position: static !important;
+        display: block;
+    }
+
+    #area-BrHeader .header-container{
+        position: static;
+
+        &.not-fixed{
+            position: static; 
+        }
+    }
+
+    #area-BrHeader .header-mainWrapper {
+        max-width: 100%;
+
+        .mobile-toggle {
+            display: none !important;
+        }
+
+        .header-logoContainer {
+            width: auto;
+            position: relative;
+            left: auto;
+        }
+
+        .header-searchContainer {
+            position: relative;
+            top: auto;
+            right: auto;
+        }
+
+        .header-mobile-wrapper {
+            display: block;
+        }
+
+        .header-socialMediaContainer {
+            width: 100%;
+            float: none;
+        }
+
+        .country-selector-container {
+            float: none;
+            width: auto !important;
+
+            .g-TextLinkP {
+                max-width: 100%;
+                height: auto;
+                width: 100%;
+                float: none;
+            }
+
+            .g-TextLinkP ul li {
+                display: block;
+            }
+        }
+
+        .header-topContainer {
+            display: block;
+            height: auto;
+        }
+
+        .header-logoContainer {
+            flex-basis: initial;
+        }
+
+        .header-searchContainer .search-button {
+            float: none;
+        }
+
+        .header-searchContainer .search-from {
+            position: initial;
+        }
+
+        .header-searchContainer .search-from {
+            position: relative;
+            bottom: auto;
+            display: block;
+
+            input[type="text"] {
+                width: 100%;
+            }
+        }
+
+        .header-nav .header-nav__ul {
+            display: block;
+        }
+
+        .header-topContainer .header-socialMediaContainer>div {
+            width: 100%;
+            float: none;
+        }
+
+        .header-socialMediaContainer>div {
+            float: none;
+        }
+
+        .header-nav .header-nav__ul .header-nav__dropdown {
+            position: relative;
+            top: auto;
+            display: block;
+        }
+
+        .header-nav .header-nav__dropdown .header-navDropdown__ul {
+            display: block;
+        }
+
+        .header-nav .header-navDropdown__ul .header-navDropdown__list {
+            width: 100%;
+        }
+
+        .header-nav .header-nav__subDropdown .header-nav__subDropdown__ul {
+            display: block;
+        }
+
+        .header-nav .header-nav__subDropdown .header-nav__subDropdown__list {
+            width: 100%;
+        }
+    }
+
+    //LANDING PAGE
+
+    //COMPONENT STYLE
+    .white {
+        color: $text-black;
+    }
+
+    .g-TileItem {
+        &.white .g-HeadingTitle {
+
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p.g-HeadingTitle__p {
+                color: $text-black;
+            }
+        }
+    }
+
+    //Moview item vertical (Video Text Banner)
+    .g-MovieTextVP .g-MovieTextVP__contentsBlock__text {
+        color: #333;
+        position: static;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 1;
+    }
+
+    // Form Loader
+    .goldwell-loader-wrapper {
+        .loader-img {
+            display: none;
+        }
+    }
+
+    // Contact Us
+    form[name="goldwell-contact-us"] {
+        .form {
+            .form_row {
+                float: none;
+                width: 100%;
+            }
+        }
+    }
+
+    form {
+        .form_row {
+            display: block !important;
+
+            &.hidden {
+                display: block !important;
+            }
+
+        }
+    }
+
+    //SWIPER
+    .g-ImageTextIconItem.imageCombined{
+        .g-HeadingTitle__titleBlock{
+            display: block;
+        }
+        .g-Text{
+            display: block;
+        }
+    }
+
+    // Shariff
+    .sharrif-wrapper {
+        position: relative;
+        top: auto;
+        left: auto;
+        height: auto;
+        max-width: 100%;
+    }
+    // Country Selector
+    .country-selector-wrapper {
+        @media (max-width: 1010px) {
+            display: block !important;
+        }
+    }
+    .map-static {
+        display: block !important;
+    }
+
+
+    ////////////////////////////////////////////////
+
+    //NEW HEADER SASS
+
+    .header-nav .main-nav{
+
+        .js-level{
+            display: block;
+        }
+
+        .js-level.level-for-mobile{
+            display: block;
+        }
+
+        & > .g-ListP__ul{
+            display: block;
+        }
+
+        & > .g-ListP__ul > li.g-ListP__ul__item{
+            display: block;
+            margin: 0 5px;
+            padding: 5px;
+        }
+
+        .product-category{
+            text-align: initial;
+            position: static;
+
+            &>.g-ListP > .g-ListP__ul{
+                display: block;
+                width: auto;
+            }
+        }
+
+        .product-category{
+            text-align: initial;
+            display: block;
+            position: static;
+        }
+
+    }
+    .checkbox-wrapper {
+        display: block !important;
+    }
+
+    //NO RESULTS
+    .no-results {
+        display: block;
+    }
+
+    .did-you-mean-content {
+        display: block;
+    }
+    
+    //LANGUAGE SELECTOR
+    .select-language{
+        float: none;
+        
+        .g-ListP{
+            position: static !important;
+        }
+        .g-ListP__ul__item{
+            display: list-item !important;
+        }
+    }
+
+}

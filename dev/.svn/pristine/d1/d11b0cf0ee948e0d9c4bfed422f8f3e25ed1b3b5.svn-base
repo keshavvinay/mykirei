@@ -1,0 +1,404 @@
+@charset "utf-8";
+
+/* sofinaデザイン用リセット */
+.g-Section__inner {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 1024px; //表示幅が960pxになるよう調整
+}
+.g-Column {
+  margin-top: 0;
+  margin-bottom: 0;
+  @include bp(sm) {
+    &.is-gutter--m {
+      .g-Column__inner {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+      .g-Column__cols {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+.g-Column__cols {
+  @include bp(sm) {
+    //padding: 0;
+    .is-gutter--m & {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+  }
+}
+
+
+.l-HeadingTitle {
+  margin-bottom: 0;
+  &.l-HeadingTitle--h2 {
+    border-bottom: none;
+    //margin-bottom: 0;
+  }
+}
+.l-HeadingTitle__titleBlock__titleBox__title {
+  margin-bottom: 0;
+}
+.l-Image {
+  margin-bottom: 0;
+}
+.l-Text {
+  margin-bottom: 0;
+}
+.l-LinkButton {
+  &.is-btn {
+    .l-LinkButton__link {
+      @include border-radius(0);
+      @include box-shadow(0 0 0 0);
+    }
+  }
+  &.is-link {
+    .l-LinkButton__link {
+      @include link();
+    }
+  }
+}
+.l-TileLinkHUnit__leadBlock__title,
+.l-TileLinkVUnit__leadBlock__title {
+  font-weight: normal;
+}
+
+
+/* common ============================== */
+
+.disabled {
+  pointer-events: none;
+}
+
+//
+// ダミー
+//
+.dummyheader {
+  background-color: #FFF;
+  img {
+    display: block;
+    margin: 0px auto 0px auto;
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+.dummyfooterlink {
+  background-color: #FFF;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  border-top: solid 1px #CCC;
+  border-bottom: solid 1px #CCC;
+  @include fontSize(lv6);
+  span {
+    color: #666;
+  }
+  img {
+    display: block;
+    margin: 0px auto 0px auto;
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+.dummyfooter {
+  background-color: #f9f9f9;
+  text-align: center;
+  img {
+    display: block;
+    margin: 0px auto 0px auto;
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+.dummyfooter2 {
+  background-color: #FFF;
+  text-align: center;
+  img {
+    display: block;
+    margin: 0px auto 0px auto;
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+//
+// 共通ページタイトル
+//
+.sofina-PageTitle--basic {
+  margin-bottom: 35px;
+  @include lineBottom(solid, s);
+  .l-PageTitle__titleBlock__titleBox__title {
+    margin-bottom: 12px;
+  }
+  .l-PageTitle__h1 {
+    @include fontSize(lv3);
+    font-weight: normal;
+  }
+}
+
+//
+// 共通ブロックタイトル
+//
+.sofina-HeadingTitle--blue {
+  margin-bottom: 5px !important;
+  @include bp(sm) {
+    margin-bottom: 10px !important;
+  }
+  .l-HeadingTitle__titleBlock__titleBox {
+    overflow: hidden;
+  }
+  .l-Text {
+    display: inline-block;
+    color: $colorIcon_dark;
+    @include fontSize(lv4);
+    font-family: 'EB Garamond', serif;
+    margin-right: 5px;
+    @include bp(lg) {
+      letter-spacing: .08em;
+    }
+    @include bp(md) {
+      letter-spacing: .08em;
+    }
+    @include bp(sm) {
+      letter-spacing: .08em;
+    }
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    display: inline-block;
+  }
+  .l-HeadingTitle__h2 {
+    @include fontSize(lv7);
+    color: $colorGray_3;
+    font-weight: normal;
+  }
+  &.has-btn {
+    position: relative;
+    .l-LinkButton {
+      position: absolute;
+      right: 0;
+      @include vMiddle();
+    }
+  }
+  @include bp(sm) {
+    margin-bottom: 10px;
+    .l-Text {
+      @include fontSize(lv5);
+      font-family: 'EB Garamond', serif;
+      .cmn-richtext {
+        letter-spacing: .08em;
+      }
+    }
+    .l-HeadingTitle__h2 {
+      font-size: $fontSize_sm_caption;
+    }
+  }
+}
+
+.sofina-section--hasBtn__columnUnit {
+  position: relative;
+  .l-HeadingTitle + .l-LinkButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    a {
+      height: 30px;
+      width: 90px;
+    }
+    @include bp(sm) {
+      right: 10px;
+      height: 25px;
+      a {
+        height: 25px;
+        width: 80px;
+      }
+    };
+  }
+}
+
+.sofina-blocktitle_blue {
+  margin-bottom: 0;
+  .l-HeadingTitle__titleBlock__titleBox {
+    overflow: hidden;
+  }
+  .l-Text {
+    display: inline-block;
+    color: $colorIcon_dark;
+    @include fontSize(lv4);
+    font-family: 'EB Garamond', serif;
+    margin-right: 5px;
+    @include bp(lg) {
+      letter-spacing: .08em;
+    }
+    @include bp(md) {
+      letter-spacing: .08em;
+    }
+    @include bp(sm) {
+      letter-spacing: .08em;
+    }
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    display: inline-block;
+  }
+  .l-HeadingTitle__h2 {
+    @include fontSize(lv7);
+    color: $colorGray_3;
+    font-weight: normal;
+  }
+}
+
+.sofina-HeadingTitle--sub {
+  .l-HeadingTitle__titleBlock {
+  }
+  .l-HeadingTitle__titleBlock__titleBox {
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+  }
+  .l-HeadingTitle__h2 {
+    font-size: $fontSize_lv5;
+    font-weight: normal;
+    @include bp(sm) {
+      font-size: $fontSize_lv7;
+    }
+  }
+  &.has-btn {
+    position: relative;
+    .l-LinkButton {
+      position: absolute;
+      right: 0;
+      @include vMiddle();
+    }
+  }
+}
+
+
+//
+// 共通ボタン
+//
+.sofina-LinkButton--common {
+  .l-LinkButton__link {
+    text-align: center;
+    border: solid 1px $colorLine_dark;
+    color: $colorGray_2;
+    text-decoration: none;
+    vertical-align: middle;
+    @include areaLink();
+    &:before {
+      content: "\e605";
+      @extend .cmn-icon;
+      font-size: .5em;
+    }
+    .cmn-richtext {
+      padding-right: 3px;
+      vertical-align: middle;
+    }
+  }
+  .l-LinkButton__link__icon {
+    position: static;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+  }
+}
+.sofina-LinkButton--btnA {
+  @extend .sofina-LinkButton--common;
+  .l-LinkButton__link {
+    padding: 10px 0px;
+    background-color: $colorAction_1;
+    @include fontSize(lv6);
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $colorAction_1_hover;
+    }
+  }
+}
+.sofina-LinkButton--btnB {
+  @extend .sofina-LinkButton--common;
+  .l-LinkButton__link {
+    padding: 10px 0px;
+    background-color: $colorAction_2;
+    @include fontSize(lv6);
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $colorAction_2_hover;
+    }
+  }
+}
+.sofina-LinkButton--btnC {
+  @extend .sofina-LinkButton--common;
+  .l-LinkButton__link {
+    padding: 3px 8px 2px;
+    background-color: $colorAction_1;
+    font-size: $fontSize_lv7;
+    @include bp(sm) {
+      font-size: $fontSize_sm_caption;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $colorAction_1_hover;
+    }
+  }
+}
+
+
+//
+// 共通リンク
+//
+.l-LinkButton.is-link {
+  &.is-leftIcon {
+    .cmn-richtext {
+      padding-left: 1.2em;
+    }
+  }
+  .l-LinkButton__link {
+    text-decoration: none;
+    @include fontSize(lv7);
+  }
+}
+
+
+//
+// 共通タグラベル（オリジナルfreeHTMLコンポーネント）
+//
+.sofina-TagLabels {
+  margin-right: -10px;
+}
+.sofina-TagLabels_tag {
+  display: inline-block;
+  background-color: #ededed;
+  color: #666;
+  padding: 3px 7px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  text-align: center;
+  @include fontSize(caption);
+}
+.sofina-typepanel {
+  display: inline-block;
+  background-color: #ededed;
+  color: #666;
+  padding: 4px 8px 4px 8px;
+  margin: 1px;
+  text-align: center;
+  @include fontSize(caption);
+}
+
+
+//
+// テキスト中のブレイク指定（※インプレイスエディタ内扱い注意）
+//
+.sofina-br-sm {
+  display: none;
+  @include bp(sm) {
+    display: inline;
+  }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>G_NAV_005: Breadcrumbs</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- css -->
+<link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+<link rel="stylesheet" href="/etc/clientlibs/kao/component/css/component.css">
+<link rel="stylesheet" href="/etc/clientlibs/kao/component/css/kao-header-footer.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+<!-- / css -->
+<!-- debug css -->
+<link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+<!-- / debug css -->
+
+<!-- script -->
+<script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+<script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+<script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+<script src="/etc/clientlibs/common/component/js/slick.js"></script>
+<script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+<script src="/etc/clientlibs/common/component/js/component.js"></script>
+<script src="/etc/clientlibs/common/component/js/kao-header-footer.js"></script>
+<script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+<!-- / script -->
+<!-- debug script -->
+<script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+<script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+<!--
+<script src="/etc/clientlibs/common/authoring/js/component-authoring.js"></script>-->
+<!-- debug script -->
+</head>
+<body>
+
+
+<div id="menu">
+  <div class="js-menuHolder">
+    <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+  </div>
+</div>
+
+
+<div id="wrapper">
+
+
+<h1>N035: Breadcrumbs</h1>
+
+<div class="method">
+  <p class="componentName">Breadcrumbs</p>
+  <ul>
+    <li>xxxxxxxxxxxxx</li>
+  </ul>
+</div>
+
+<!-- area-Breadcrumbs -->
+<div class="g-Area" id="area-BreadcrumbsTop">
+  <div class="g-Breadcrumbs l-Breadcrumbs">
+    <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="http://www.kao.com/jp/">花王トップ<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず１<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず２<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず３<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず４<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">パンくず５（非リンク）</li>
+    </ul>
+  </div>
+</div>
+<!-- / area-Breadcrumbs -->
+
+<!-- contentsWrapper -->
+<div id="contentsWrapper" class="contentsWrapper">
+
+  <!-- area-CntHeader -->
+  <div class="g-Area" id="area-CntHeader">
+    <div class="g-Area__inner">
+      <div class="CntHeader">
+        Contents Header Area
+      </div>
+    </div>
+  </div>
+  <!-- / area-CntHeader -->
+
+
+  <!-- area-Contents -->
+  <div class="g-Area" id="area-Contents">
+
+    <div class="parsys">
+
+      <!-- Section -->
+      <div class="g-Section is-marginReset">
+        <div class="g-Section__inner">
+          Section (marginReset)
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">ColumnUnit</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+
+    </div>
+
+  </div>
+  <!-- / area-Contents -->
+
+
+  <!-- area-CntFooter -->
+  <div class="g-Area" id="area-CntFooter">
+    <div class="g-Area__inner">
+      <div class="CntFooter">
+        Contents Footer Area
+      </div>
+    </div>
+  </div>
+  <!-- / area-CntFooter -->
+
+</div>
+<!-- / contentsWrapper -->
+
+<!-- area-Breadcrumbs -->
+<div class="g-Area" id="area-BreadcrumbsBottom">
+  <div class="g-Breadcrumbs l-Breadcrumbs">
+    <ul class="g-Breadcrumbs__list l-Breadcrumbs__list">
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="http://www.kao.com/jp/">花王トップ<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず１<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず２<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず３<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item"><a class="g-BreadcrumbsLink l-BreadcrumbsLink" href="#">パンくず４<span class="cmn-icon cmn-icon--bullet g-Breadcrumbs__list__icon l-Breadcrumbs__list__icon"></span></a></li>
+      <li class="g-Breadcrumbs__list__item l-Breadcrumbs__list__item">パンくず５（非リンク）</li>
+    </ul>
+  </div>
+</div>
+<!-- / area-Breadcrumbs -->
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

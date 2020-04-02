@@ -1,0 +1,278 @@
+.mykirei-idp-ingredientdetails {
+    .g-HeadingTitle__titleBlock__titleBox__title {
+        margin: 0;
+    }
+    .g-HeadingTitle__h3 {
+        color: #404144 !important;
+        font-stretch: normal;
+        font-style: normal;
+        font-family: cerapro-regular;
+    }
+    .g-HeadingTitle__h4 {
+        color: #404144 !important;
+        font-stretch: normal;
+        font-style: normal;
+        font-family: cerapro-regular;
+    }
+    .mykirei-found-in-product-link-pack {
+        .g-TileLinkTextUnit {
+            padding: 0;
+            border: 0;
+            .g-Text {
+                font-family: CeraPro-Regular;
+                color: #404144;
+                font-weight: normal;
+            }
+        }
+    }
+    .mykirei-found-in-product-list-pack {
+        margin: 0;
+    }
+    .mykirei-found-in-product-carousel {
+        .g-ImageCarouselP__list {
+            display: flex;
+            justify-content: center;
+        }
+        .g-ImageCarouselP__nextArrow {
+            position: initial;
+            background-color: transparent;
+            outline: none;
+        }
+        .g-ImageCarouselP__prevArrow {
+            position: initial;
+            background-color: transparent;
+            outline: none;
+        }
+        .g-ImageCarouselP__prevArrow:before {
+            background-image: url(/content/dam/sites/kaousa/www-mykirei-com/us/icons/Carrot%20Left.svg);
+        }
+        .g-ImageCarouselP__nextArrow:before {
+            background-image: url(/content/dam/sites/kaousa/www-mykirei-com/us/icons/Carrot%20Right.svg);
+        }
+        .g-ImageCarouselP__nextArrow:before,
+        .g-ImageCarouselP__prevArrow:before {
+            content: "";
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 23px;
+            width: 13px;
+        }
+        .slick-list {
+            .g-ImageCarouselPUnit {
+                .g-Image {
+                    margin-bottom: 20px;
+                    img {
+                        width: 100% !important;
+                    }
+                }
+                .g-GroupBox {
+                    position: relative;
+                    padding: 1px;
+                    .g-TileLinkTextP {
+                        padding-bottom: 16px;
+                        .g-TileLinkTextUnit {
+                            padding: 0;
+                            border: none;
+                            .g-Text {
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .g-ButtonP {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .g-ImageCarouselP__nav {
+            display: none !important;
+        }
+    }
+}
+
+.mykirei-idp-section2 {
+    .product-tilelinkpack {
+        .g-TileLinkVUnit {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .g-ButtonP__list__item {
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 641px) {
+    .mykirei-idp-ingredientdetails {
+        display: flex;
+        align-items: center;
+        .g-Column__inner {
+            width: 100%;
+        }
+        .mykirei-found-in-product-carousel {
+            .g-ImageCarouselP__nextArrow {
+                padding: 0 0 0 7.9%;
+            }
+            .g-ImageCarouselP__prevArrow {
+                padding: 0 7.9% 0 0;
+            }
+            .g-TileLinkTextUnit__leadBlock__title .g-Text {
+                font-size: 14px;
+                letter-spacing: 1.2px;
+                line-height: normal;
+            }
+        }
+        .mykirei-found-in-product-link-pack {
+            .g-Text {
+                line-height: normal;
+                letter-spacing: 0.95px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .mykirei-idp-ingredientdetails {
+        width: 47.4% !important;
+        padding: 0 6%;
+        .g-HeadingTitle {
+            margin-bottom: 22px;
+            margin-top: 34px;
+        }
+        .g-HeadingTitle__h3 {
+            font-size: 28px;
+            letter-spacing: 2px;
+            line-height: 0.86;
+        }
+        .g-HeadingTitle__h4 {
+            letter-spacing: 1px;
+            line-height: normal;
+        }
+        .mykirei-found-in-product-carousel {
+            .slick-list {
+                width: 56.5%;
+            }
+        }
+        .mykirei-found-in-product-link-pack {
+            .g-Text {
+                font-size: 19px;
+            }
+        }
+    }
+    .mykirei-idp-section2 {
+        padding-top: 6px;
+        .g-HeadingTitle {
+            margin-bottom: 24px;
+        }
+    }
+    .mykirei-idp-section3 {
+        .g-Section__inner {
+            padding: 53px 0 0;
+        }
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .mykirei-idp-ingredientdetails {
+        width: 50% !important;
+        padding: 20px 6.6%;
+        .g-HeadingTitle {
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+        .g-HeadingTitle__h3 {
+            letter-spacing: 1px;
+            line-height: 1.09;
+        }
+        .g-HeadingTitle__h4 {
+            font-size: 18px;
+            letter-spacing: 1px;
+            line-height: 1.22;
+        }
+        .mykirei-found-in-product-carousel {
+            .slick-list {
+                width: 58.2%;
+            }
+        }
+    }
+    .mykirei-idp-section2 {
+        .mykirei-transparency-section2-columnsep-products .g-Column__cols {
+            padding-top: 40px !important;
+        }
+        .g-HeadingTitle {
+            margin-bottom: 13px;
+        }
+        .product-tilelinkpack {
+            .g-TileLinkVP__list {
+                margin-left: 2% !important;
+                margin-right: 2% !important;
+            }
+            .g-TileLinkVP__list__tile {
+                width: 32.6%;
+            }
+        }
+    }
+    .mykirei-idp-section3 {
+        .g-Section__inner {
+            padding: 32px 0 64px;
+        }
+        .mykirei-our-story-flower-separator .g-Column__cols {
+            width: 46.3%;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .mykirei-idp-ingredientdetails {
+        padding: 45px 0 33px;
+        .g-Column__cols:nth-child(odd) {
+            padding: 0 26px;
+            box-sizing: border-box;
+        }
+        .g-HeadingTitle {
+            margin-bottom: 20px;
+            margin-top: 35px;
+        }
+        .g-HeadingTitle__h3 {
+            font-size: 18px;
+            letter-spacing: 1.5px;
+            line-height: 1.22;
+        }
+        .g-HeadingTitle__h4 {
+            letter-spacing: 1.5px;
+            line-height: 1.22;
+        }
+        .mykirei-idp-ingredientdetails-description {
+            margin-top: 30px;
+        }
+        .mykirei-found-in-product-carousel {
+            .g-ImageCarouselP__nextArrow {
+                padding: 0 0 0 5.7%;
+                display: block !important;
+            }
+            .g-ImageCarouselP__prevArrow {
+                padding: 0 5.7% 0 0;
+                display: block !important;
+            }
+            .g-TileLinkTextUnit__leadBlock__title .g-Text {
+                font-size: 18px;
+                letter-spacing: 1.5px;
+                line-height: 1.22;
+            }
+            .g-ButtonUnit__link {
+                line-height: 1;
+            }
+        }
+        .mykirei-found-in-product-link-pack {
+            .g-Text {
+                font-size: 13px;
+            }
+        }
+    }
+    .mykirei-idp-section3 {
+        .g-Section__inner {
+            padding: 29px 6.7% 0;
+        }
+    }
+}

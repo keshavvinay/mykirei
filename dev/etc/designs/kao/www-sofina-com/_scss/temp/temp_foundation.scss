@@ -1,0 +1,74 @@
+@import "libs/config";
+@import "libs/mixin";
+
+
+$localNavigation__separateBorder--top: #ccc; //
+
+$breadcrumb__separateBorder--top: #ccc; // ローカルナビのborder-bottomが#cccのため不要
+
+$button__bg--02: #8CD1C9; //
+$button__border--02: #8CD1C9; //
+
+$button__text--06: #8CD1C9; //
+$button__border--06: #8CD1C9; //
+
+$brandFooter__bg-01: #EEEEEE; //
+$brandFooter__text-02: #333333; //
+$brandFooter__border-02: #333333; //
+$brandFooter__separateBorder--top: #666666; //
+$brandFooter__separateBorder--bottom: #666666; //
+
+
+.l-LocalNav {
+  border-top-color: $localNavigation__separateBorder--top;
+}
+
+.l-ButtonUnit__link {
+  .is-colorset--2 & {
+    background-color: $button__bg--02;
+    border-color: $button__border--02;
+  }
+  .is-colorset--6 & {
+    color: $button__text--06;
+    border-color: $button__border--06;
+    .l-ButtonUnit__link__icon {
+      color: $button__text--06;
+    }
+  }
+}
+
+.l-BrFooter {
+  background-color: $brandFooter__bg-01;
+  color: $brandFooter__text-02;
+  border-top-color: $brandFooter__separateBorder--top;
+  border-bottom-color: $brandFooter__separateBorder--bottom;
+}
+.l-BrFooterSitemapUnit__title {
+  color: $brandFooter__text-02;
+}
+.l-BrFooterSitemapUnit__links {
+  a {
+    color: $brandFooter__text-02;
+  }
+}
+.l-BrFooterSitemapUnit__moreinfo {
+  a {
+    color: $brandFooter__text-02;
+  }
+}
+.l-BrFooterSitemap__list__tile {
+  @include bp(md) {
+    border-color: $brandFooter__border-02;
+  }
+  @include bp(lg) {
+    border-color: $brandFooter__border-02;
+  }
+}
+.l-BrFooterSitemapUnit {
+  @include bp(md) {
+    border-color: $brandFooter__border-02;
+  }
+  @include bp(lg) {
+    border-color: $brandFooter__border-02;
+  }
+}

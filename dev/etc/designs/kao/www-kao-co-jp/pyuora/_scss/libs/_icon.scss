@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?vlhs1s');
+  src:url('../fonts/icomoon.woff2?vlhs1s') format('woff2'),
+    url('../fonts/icomoon.eot?vlhs1s#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vlhs1s') format('truetype'),
+    url('../fonts/icomoon.woff?vlhs1s') format('woff'),
+    url('../fonts/icomoon.svg?vlhs1s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cmn-icon {
+  display: inline-block;
+  font-family: 'icomoon';
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  color: $contents__icon;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &.cmn-icon--reverse {
+    color: $contents__icon--reverse;
+  }
+}
+
+/*
+  icon-list
+ */
+.cmn-icon--pdf:before {
+  content: "\e001";
+}
+.cmn-icon--mail:before {
+  content: "\e002";
+}
+.cmn-icon--map:before {
+  content: "\e003";
+}
+.cmn-icon--download:before {
+  content: "\e004";
+}
+.cmn-icon--phone:before {
+  content: "\e005";
+}
+.cmn-icon--right:before {
+  content: "\e006";
+}
+.cmn-icon--left:before {
+  content: "\e007";
+}
+.cmn-icon--to_bottom:before {
+  content: "\e008";
+}
+.cmn-icon--to_top:before {
+  content: "\e009";
+}
+.cmn-icon--down:before {
+  content: "\e010";
+}
+.cmn-icon--up:before {
+  content: "\e011";
+}
+.cmn-icon--window:before {
+  content: "\e012";
+}
+.cmn-icon--close:before {
+  content: "\e014";
+}
+.cmn-icon--start:before {
+  content: "\e016";
+}
+.cmn-icon--pause:before {
+  content: "\e017";
+}
+.cmn-icon--stop:before {
+  content: "\e018";
+}
+.cmn-icon--indicator_off:before {
+  content: "\e019";
+}
+.cmn-icon--indicator_on:before {
+  content: "\e020";
+}
+
+.cmn-icon--share:before {
+  content: "\e021";
+}
+.cmn-icon--comment:before {
+  content: "\e022";
+}
+.cmn-icon--thumbs_up:before {
+  content: "\e023";
+}
+.cmn-icon--reply:before {
+  content: "\e024";
+}
+.cmn-icon--retweet:before {
+  content: "\e025";
+}
+.cmn-icon--heart:before {
+  content: "\e026";
+}
+
+
+/*
+  icon-list(リンク用カスタムクラス名)
+ */
+.cmn-icon--bullet:before {
+  @extend .cmn-icon--right:before;
+}
+
+.cmn-icon--external:before {
+  @extend .cmn-icon--window:before;
+}

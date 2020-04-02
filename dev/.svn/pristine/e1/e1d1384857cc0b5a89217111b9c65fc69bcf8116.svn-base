@@ -1,0 +1,802 @@
+//JERGENS HEADER CSS
+
+#headerWrapper-au,#headerWrapper-mx,#headerWrapper-us,#headerWrapper-sa,#headerWrapper-ca{
+    background-color: #fff;
+    
+    &:after{
+    border-bottom:1px solid #ccc;    
+    }
+}
+
+.headerWrapper{
+    position: relative;
+    
+    background:url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/jergens-global-header-background.png) 49% -80px no-repeat;
+    
+    @media(min-width:1025px){
+        border-bottom: 1px solid #d7d7d7;
+    }
+    
+    @media(max-width:$breakpoint_md){
+        
+        background-size: 120px;
+        background-position: 51% -5px;
+    }
+    
+//    &.noBorder{
+//            border-bottom: 0;
+//        }
+    
+    .hamberger-jergens{
+        display: none;
+        z-index: 10;
+        border: none;
+    background: none;
+    outline: none;
+    position: absolute;
+    right: 5px;    
+    top: 36%;
+        
+        
+        
+        @media (max-width:$breakpoint_md){
+            display: block;
+        }
+        
+        &>span{
+                height: 2px;
+    width: 25px;
+    background-color: #333;
+    display: block;
+    margin-bottom: 5px;
+        }
+    }
+    
+    .close-menu{
+        border: none;
+    background: none;
+    outline: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+        
+        img{
+           width: 30px;
+           height: auto;
+        }
+        
+        @media (min-width:1025px){
+            display: none;
+        }
+        
+        &:before{
+                content: '';
+    display: block;
+    width: 2px;
+    height: 18px;
+    background-color: #333;
+    transform: rotate(45deg);
+        }
+         &:after{
+             content: '';
+    display: block;
+    width: 2px;
+    height: 18px;
+    background-color: #333;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 1px;
+    z-index: -1;
+        }
+    }
+    
+    background-color: rgba(247, 247, 247,1);
+//    -webkit-box-shadow: 0px 5px 10px -5px rgba(167, 163, 163, 1);
+//-moz-box-shadow: 0px 5px 10px -5px rgba(167, 163, 163, 1);
+//box-shadow: 0px 5px 10px -5px rgba(167, 163, 163, 1);
+    
+    &:after{
+        content: '';
+        display: none;
+  
+    }
+    
+    
+    
+    &.openScreen:after{
+        
+        @media (max-width:$breakpoint_md){
+          display: none;
+    }
+        
+        content: '';
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+    height: 40px;
+    display: block;
+        background-color: #f7f7f7;
+    background-color:  rgba(247, 247, 247,0.9);
+        -webkit-box-shadow: inset 0px 5px 10px -5px rgba(167, 163, 163, 1);
+        -moz-box-shadow: inset 0px 5px 10px -5px rgba(167, 163, 163, 1);
+        box-shadow: inset 0px 5px 10px -5px rgba(167, 163, 163, 1);
+        
+//        @media (min-width:826px) and (max-width:991px){
+//                    height: 60px;
+//                }
+//        
+//        @media (min-width:641px) and (max-width:825px){
+//                    height: 50px;
+//                }
+        
+    }
+    
+    @media (max-width:$breakpoint_md){
+        &:after{
+            display: none;
+        }
+    }
+}
+
+.header{
+    height: 100px;
+    max-width: 985px;
+    position: relative;
+    margin: 0 auto;
+    
+     @media (max-width:$breakpoint_md){
+        height: 80px;
+    }
+    
+    .change-language{
+            color: #333;
+             position: absolute;
+            text-decoration: none;
+        padding-left: 2px;
+        padding-top: 2px;
+        
+        @media(min-width:1025px){
+               
+            right: 0;
+            top: 2px;
+        }
+        
+        @media (max-width:$breakpoint_md){
+        left: 0;
+            right: auto;
+            top: 2px;
+    }
+    }
+    
+    @media (min-width:641px) and (max-width:$breakpoint_md){
+        margin-left:15px;
+        margin-right: 15px;
+    }
+    
+    @media (max-width:$breakpoint_md){
+        
+        
+        #globalNav{
+            z-index: 100;
+    display: none;
+    position: fixed;
+    overflow-y: scroll;
+    padding: 0px 30px;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+            
+            .lvl1{
+                padding-top: 75px;
+            }
+            
+            .open-dropdown{
+//                transform: rotate(-90deg);
+//                -webkit-transform: rotate(-90deg);
+                background: none;
+                display: none;
+    position: absolute;
+                outline: 0;
+    right: 0;
+    border: 0;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    transform: rotate(45deg);
+    padding: 0;
+                
+                @media (max-width:$breakpoint_md){
+                    display: block;
+                }
+            }
+            
+        }
+    }
+    
+    #globalNav{
+                    @media (min-width:1025px){
+                    display: block !important;
+                }
+                }
+    
+    
+    //AUSTRALIA ENGLISH CSS STARTS
+    .globalNav-au{
+        @media (min-width:1025px){  
+                    position: relative;
+        }
+        
+        .lvl1 > li{
+                 @media (min-width:1025px){  
+                position: absolute;
+                }
+            }
+        
+        
+        .products-au{
+                
+                 @media (min-width:1025px){  
+                left: 0%;
+                }
+            }
+        
+        .where-to-buy-au{
+            @media (min-width:1025px){  
+                left: 15%;
+                
+                z-index: 15;
+                }
+        }
+            
+            .spotLight-au{
+                 @media (min-width:1025px){  
+                left: 33%;
+                     z-index: 16;
+                }
+                
+                .subnav{
+                    @media (max-width:$breakpoint_md){ 
+                    display:  block !important;
+                    }
+                }
+                
+                .campaign-category-list{
+                    height: 100%;
+                    position: relative;
+                    float: left;
+                    margin-right: 20px; 
+                    
+                    @media (max-width:$breakpoint_md){ 
+                            margin-right: 0;
+                        margin-bottom: 10px;
+                        float: none;
+                }
+                    
+                    .is-gutter--m {
+                           margin-bottom: 0;
+                        }
+                    
+                    &:hover{
+                        .is-gutter--m {
+                            background-color: #fff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                
+                .productsSubNav{
+                    li{
+                        display: inline-block;
+                        @media (max-width:$breakpoint_md){ 
+                            text-align: center;
+               display: block;
+                } 
+                    }
+                }
+            }
+        
+        .spotLight-tab{
+           @media (max-width:$breakpoint_md){  
+               display: none;
+                } 
+        }
+        
+       
+    }
+    
+    //CANADA ENGLISH CSS STARTS
+    
+    .globalNav-ca{
+        @media (min-width:1025px){  
+                    position: relative;
+        }
+        
+        .lvl1 > li{
+                 @media (min-width:1025px){  
+                position: absolute;
+                }
+            }
+        
+        .products-ca{
+                
+                 @media (min-width:1025px){  
+                left: 0%;
+                }
+            }
+        
+        .newsletter-ca{
+                 @media (min-width:1025px){  
+                left: 15%;
+                z-index: 12;
+                }
+            }
+    }
+    
+    //CANADA ENGLISH CSS ENDS
+    
+    //MIDDLE EAST ENGLISH CSS STARTS
+ 
+    .globalNav-sa{
+         @media (min-width:1025px){  
+                    position: relative;
+        }
+        
+        
+            .lvl1 > li{
+                 @media (min-width:1025px){  
+                position: absolute;
+                }
+            }
+            
+            .products-sa{
+                
+                 @media (min-width:1025px){  
+                left: 0%;
+                }
+            }
+            
+            .spotLight-sa{
+                 @media (min-width:1025px){  
+                left: 15%;
+                     z-index: 12;
+                }
+                
+                .subnav{
+                    @media (max-width:$breakpoint_md){ 
+                    display:  block !important;
+                    }
+                }
+            }
+        
+        .where-to-buy-sa{
+            @media (min-width:1025px){  
+                left: 30%;
+                z-index: 13;
+                }
+        }
+        
+        .FAQ-sa{
+            @media (min-width:1025px){  
+                left: 50%;
+                z-index: 14;
+                }
+        }
+        
+        .contactUs-sa{
+            @media (min-width:1025px){  
+                left: 60%;
+                z-index: 15;
+                }
+        }
+        
+        .spotLight-tab{
+           @media (max-width:$breakpoint_md){  
+               display: none;
+                } 
+        }
+            
+             
+    }
+           
+    
+    //MIDDLE EAST ENGLISH CSS ENDS
+    
+    //MIDDLE EAST ARABIC CSS STARTS
+    
+    .globalNav-sa-ar{
+         @media (min-width:1025px){  
+                    position: relative;
+        }
+        
+        .lvl1.clearfix{
+             @media (min-width:1025px){  
+            text-align: right;
+                 
+                 
+        .subnav{
+             @media (min-width:1025px){  
+                 .products-category-list{
+                     margin-left:20px;
+                     margin-right: 0;
+                     float: right;
+                 }
+            }
+        }
+                 
+            }
+        }
+        
+        .lvl1 > li{
+                 @media (min-width:1025px){  
+                position: absolute;
+                }
+            }
+        
+        
+        .list-of-products{
+            @media (min-width:1025px){  
+            left: auto;
+            right: 0;
+            text-align: right;
+            }
+        }
+        
+        .products-sa{
+                
+                 @media (min-width:1025px){  
+                right: 0%;
+                }
+            }
+            
+            .spotLight-sa{
+                 @media (min-width:1025px){  
+                right: 14%;
+                     z-index: 12;
+                }
+                
+                .subnav{
+                    @media (max-width:$breakpoint_md){ 
+                    display:  block !important;
+                    }
+                }
+            }
+        
+        .where-to-buy-sa{
+            @media (min-width:1025px){  
+                right: 24%;
+                z-index: 13;
+                }
+        }
+        
+        .FAQ-sa{
+            @media (min-width:1025px){  
+                right: 50%;
+                z-index: 14;
+                }
+        }
+        
+        .contactUs-sa{
+            @media (min-width:1025px){  
+                right: 71%;
+                z-index: 15;
+                }
+        }
+        
+        .spotLight-tab{
+           @media (max-width:$breakpoint_md){  
+               display: none;
+                } 
+        }
+    }
+    
+     //MIDDLE EAST ARABIC CSS ENDS
+    
+    //MEXICO SPANISH CSS STARTS
+    .globalNav-mx{
+        @media (min-width:1025px){  
+                    position: relative;
+        }
+        
+        .lvl1 > li{
+                 @media (min-width:1025px){  
+                position: absolute;
+                }
+            }
+        
+        
+        .products-mx{
+                
+                 @media (min-width:1025px){  
+                left: 0%;
+                }
+            }
+        
+        .where-to-buy-mx{
+            @media (min-width:1025px){  
+                left: 15%;
+                
+             
+                    z-index: 15;
+               
+                }
+        }
+       
+    }
+    //MEXICO SPANISH CSS ENDS
+
+    .logo{
+        text-align: center;
+    }
+    
+    .open-dropdown{
+        display: none;
+    }
+
+.jergens-brand-logo{
+        display: inline-block;
+        padding-bottom: 0;
+    background: none !important;
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+    @media(max-width:$breakpoint_sm){
+        margin-left: -24px;
+    }
+    
+    
+    img{
+        margin: 0 auto;
+    }
+}
+    
+    ul{ 
+        padding: 0;
+        margin: 0;
+        list-style: none !important;
+    }
+    
+    
+    .lvl1{
+        
+        a{
+            color:#333 !important;
+            font-size: 14px;
+            
+            &.active{
+                color: #b89e80 !important;
+            }
+            
+            &:hover{
+                color: #b89e80 !important;
+             }
+            
+//            @media (max-width:825px){
+//            font-size: 12px;
+//        }
+//            
+//            @media (min-width:641px) and (max-width:825px){
+//            font-size: 10px;
+//        }
+            
+            @media (max-width:$breakpoint-sm){
+            &:hover{
+                color: #333 !important;
+             }
+        }
+            
+        }
+        
+        .header-products{
+            &>a{
+             font-size: 18px;   
+            }
+            
+            &>a.active{
+                color: #b89e80 !important;
+            }
+        }
+        
+        .products-tab{ 
+            margin-bottom: 9px;
+            
+
+            
+            @media (max-width:$breakpoint-md){
+           text-align: center;
+        }
+        }
+        
+        .subnav{
+            display: none;
+            font-size: 14px;
+            position: relative;
+            z-index: 3;
+            
+//            @media (min-width:826px) and (max-width:991px){
+//                    
+//            
+//            &>li{
+//                display: inline-block;
+//                height: 55px;
+//            }
+//                }
+//            
+//            @media (min-width:641px) and (max-width:825px){
+//                    
+//            
+//            &>li{
+//                display: inline-block;
+//                height: 45px;
+//            }
+//                }
+
+            
+            .products-category-list{
+                height: 100%;
+                 -webkit-tap-highlight-color: transparent !important;
+                
+                
+                &>div{
+                    margin-bottom: 0;
+                }
+                    position: relative;
+                    float: left;
+                    margin-right: 20px;
+                
+                .list-of-products{
+                    font-weight: bold;
+                    z-index: 10;                    
+                    padding-top: 0px;
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    top: 36%;
+                    min-width: 315px;
+                    background-color: #f7f7f7;
+                    background-color: rgba(247, 247, 247, 1);
+                    -webkit-box-shadow: 0px 1px 6px -1px #999499;
+                    -moz-box-shadow: 0px 1px 6px -1px #999499;
+                    box-shadow: 0px 1px 6px -1px #999499;
+                    
+                    .g-ListUnit{
+                         width: 100%;
+                        display: block;
+                        text-decoration: none;
+                        line-height: 1.2;
+                        &:active{
+                            color: #b89e80 !important;
+                        }
+
+                        
+                        .sub-title{
+                            font-size: 12px;
+                            font-weight: normal;
+                        }
+                    }
+                    
+                    
+                    &>div{
+                        margin-bottom: 0;
+                    }
+                    
+                    
+                    li{
+                            padding: 5px 10px;
+                        min-height: 25px;
+                        border-bottom: 1px solid #efecec;
+                    }
+                    
+                    @media (max-width:$breakpoint_md){
+                        border-top: 2px solid #ccc;
+                        position: static;
+                        box-shadow: none;
+                        display: none;
+                        min-width: 250px;
+                    }
+                    
+//                    @media (min-width:641px) and (max-width:825px){
+//            min-width: 200px;
+//        }
+                    
+                }
+                
+                @media(min-width:1025px){
+                    height: 40px;
+                }
+                
+                &:hover {
+                    @media (min-width:1025px){
+                          z-index: 2;
+                        height:100px;
+                    }
+                  
+                    .is-gutter--m{
+                        
+                    background-color: #fff;
+                    cursor: pointer;
+                    }
+                    
+                    & a.g-TextLinkUnit__link{
+                        color: #b89e80 !important;
+                    }
+                }
+                
+                &:hover > .list-of-products{
+                display: block;
+            
+            }
+                
+//                @media (min-width:641px) and (max-width:825px){
+//                    max-width: 100px;
+//                    text-align: center;
+//                }
+//                
+//                @media (min-width:826px) and (max-width:991px){
+//                    max-width: 120px;
+//                    text-align: center;
+//                }
+                
+                @media (max-width:$breakpoint_md){
+                   &:hover {
+                    background:none;
+                    cursor: pointer;
+                    
+                    & a.g-TextLinkUnit__link{
+                        color: #b89e80 !important;
+                    }
+                } 
+                    
+                    &:hover > .list-of-products{
+                display: none;
+            
+            }
+                    
+                    position: relative;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    margin-right: 0;
+                    float: none;
+                    height: auto;
+                }
+            }
+            
+        }
+        
+        &>li{
+            display: inline-block;
+            position: relative;
+            @media (max-width:$breakpoint_md){
+                display: block;
+            }
+        }
+        
+        li#ctl00_header_navProducts{
+            
+            &:hover{
+                
+                min-height: 150px;
+                z-index: 10;
+            }
+            
+        }
+        
+        li:hover{
+           
+            .subnav{
+                display: block;
+            }
+        }
+        
+        @media (max-width:$breakpoint_md){
+            .subnav{
+                display: block;
+            }
+        }
+        
+    }
+     
+}

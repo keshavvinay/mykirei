@@ -1,0 +1,82 @@
+.g-BrFooter {
+    margin-top: 100px;
+    padding-top: 60px;
+    .g-BrFooter__inner {
+        max-width: 1136px;
+        padding: 0;
+        .g-BrFooter__sitemapBlock {
+            display: none;
+        }
+        .footer-wrapper {
+            margin-bottom: 30px;
+        }
+        .footer-wrapper .footer-wrapper-row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            @media (max-width: $header-break-sm) {
+                flex-direction: column;
+            }
+        }
+        .footer-wrapper .footer-wrapper-row .footer-col {
+            -ms-flex: 1; 
+            flex: 1;
+        }
+        .footer-wrapper .footer-wrapper-row .footer-col .g-TextLinkP__list, .footer-wrapper .footer-wrapper-row .footer-col .g-ButtonP__list {
+            @media (max-width: $break-xs) {
+                margin: 0 !important;
+            }
+        }
+        .footer-groupBox.g-GroupBox {
+            padding-top: 40px;
+            padding-bottom: 60px;
+        }
+        .footer-groupBox.g-GroupBox .g-Image {
+            position: relative;
+            &::before {
+                content: '';
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                left: calc(50% - 5px);
+                bottom: -20px;
+                background-color: $square-color;
+            }
+        }
+        .g-TextLinkP .g-TextLinkP__list .g-TextLinkP__list__item {
+            padding: 10px 15px;
+        }
+        .g-TextLinkP .g-TextLinkP__list .g-TextLinkP__list__item .g-TextLinkUnit {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            height: 20px;
+        }
+        .g-TextLinkP .g-TextLinkP__list .g-TextLinkP__list__item .g-TextLinkUnit a {
+            line-height: 20px;
+        }
+    }
+
+    .g-ButtonP__list{
+        margin: 0 !important;
+    }
+
+    #qrcode{
+        max-width: 110px;
+        margin: 0 auto;
+        min-width: 75px;
+        vertical-align: top;
+    }
+
+    //FR STYLE
+    .fr-footer-copy{
+        padding: 16.0px;
+        border-top: 1.0px solid rgb(172,172,172);
+        display: flex;
+        margin-top: 4rem;
+        align-items: center;
+        justify-content: center; 
+        img {
+            margin-right: 10px;
+        }
+    }
+}

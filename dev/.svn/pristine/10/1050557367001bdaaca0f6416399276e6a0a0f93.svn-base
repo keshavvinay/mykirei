@@ -1,0 +1,52 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    @include background-texture;
+    background-color: transparent;
+    
+     
+    //WHERE TO BUY PRODUCT NAME OVERLAP ON MOBILE SCREEN FIX
+    .ps-product-details > h1.ps-product-name{
+        line-height: normal;
+    }
+}
+
+#area-Contents{
+   padding-bottom: 35px;
+}
+
+#area-BreadcrumbsTop{
+    z-index: 1;
+    position: relative;
+    @include section-max-width;
+    ul{
+        padding-left: 0;
+    }
+    
+    .cmn-icon{
+        font-size: 10px;
+    }
+    
+    a{
+         text-decoration: none;
+        
+        &:hover{
+             text-decoration: underline;
+        }
+    }
+    
+    .g-Breadcrumbs{
+        padding-left: 5px;
+    }
+    
+} 
+
+#area-BreadcrumbsBottom{
+    @media (max-width:$breakpoint_sm){
+        display: none;
+    }
+    
+}
+
+#area-PageTop{
+   display: none !important; 
+}

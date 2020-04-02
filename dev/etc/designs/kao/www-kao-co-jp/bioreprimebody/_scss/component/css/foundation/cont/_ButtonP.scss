@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+
+/* ButtonP ================================================== */
+.l-ButtonP {
+  &.is-gutter--xs {
+    .l-ButtonP__list {
+      @include gutterItemWrapper(false, 'xs');
+    }
+    .l-ButtonP__list__item {
+      @include gutterItemInner(false, 'xs');
+    }
+  }
+  &.is-gutter--s {
+    .l-ButtonP__list {
+      @include gutterItemWrapper(false, 's');
+    }
+    .l-ButtonP__list__item {
+      @include gutterItemInner(false, 's');
+    }
+  }
+  &.is-gutter--m {
+    .l-ButtonP__list {
+      @include gutterItemWrapper(false, 'm');
+    }
+    .l-ButtonP__list__item {
+      @include gutterItemInner(false, 'm');
+    }
+  }
+  &.is-gutter--l {
+    .l-ButtonP__list {
+      @include gutterItemWrapper(false, 'l');
+    }
+    .l-ButtonP__list__item {
+      @include gutterItemInner(false, 'l');
+    }
+  }
+  &.is-gutter--xl {
+    .l-ButtonP__list {
+      @include gutterItemWrapper(false, 'xl');
+    }
+    .l-ButtonP__list__item {
+      @include gutterItemInner(false, 'xl');
+    }
+  }
+}
+.l-ButtonP__list__item {
+  @include fontSize(body);
+}
+
+/* ButtonUnit ================================================== */
+.l-ButtonUnit {
+}
+.l-ButtonUnit__link {
+  background-color: $button__bg--01;
+  color: $button__text--01;
+  border-color: $button__border--01;
+  @include border-radius($borderRadius_xs);
+  @include fontSize(body);
+  @include areaLink();
+  .cmn-icon {
+    color: $button__text--01;
+  }
+  .is-colorset--1 & {
+    color: $button__text--01;
+    background-color: $button__bg--01;
+    border-color: $button__border--01;
+    //@include box-shadow($button__shadow--01);
+    @include btnShadow($button__shadowVisible--01);
+    .l-ButtonUnit__link__icon {
+      color: $button__text--01;
+    }
+  }
+  .is-colorset--2 & {
+    color: $button__text--02;
+    background-color: $button__bg--02;
+    border-color: $button__border--02;
+    //@include box-shadow($button__shadow--02);
+    @include btnShadow($button__shadowVisible--02);
+    .l-ButtonUnit__link__icon {
+      color: $button__text--02;
+    }
+  }
+  .is-colorset--3 & {
+    color: $button__text--03;
+    background-color: $button__bg--03;
+    border-color: $button__border--03;
+    //@include box-shadow($button__shadow--03);
+    @include btnShadow($button__shadowVisible--03);
+    .l-ButtonUnit__link__icon {
+      color: $button__text--03;
+    }
+  }
+  .is-colorset--4 & {
+    color: $button__text--04;
+    background-color: $button__bg--04;
+    border-color: $button__border--04;
+    //@include box-shadow($button__shadow--04);
+    @include btnShadow($button__shadowVisible--04);
+    .l-ButtonUnit__link__icon {
+      color: $button__text--04;
+    }
+  }
+  .is-colorset--5 & {
+    color: $button__text--05;
+    background-color: $button__bg--05;
+    border-color: $button__border--05;
+    //@include box-shadow($button__shadow--05);
+    @include btnShadow($button__shadowVisible--05);
+    .l-ButtonUnit__link__icon {
+      color: $button__text--05;
+    }
+  }
+  .is-colorset--6 & {
+    color: $button__text--06;
+    background-color: $button__bg--06;
+    border-color: $button__border--06;
+    //@include box-shadow($button__shadow--06);
+    @include btnShadow($button__shadowVisible--06);
+    .l-ButtonUnit__link__icon {
+      color: $button__text--06;
+    }
+  }
+  .is-colorset--7 & {
+    color: $button__text--07;
+    background-color: $button__bg--07;
+    border-color: $button__border--07;
+    //@include box-shadow($button__shadow--07);
+    @include btnShadow($button__shadowVisible--07);
+    .l-ButtonUnit__link__icon {
+      color: $button__text--07;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+form[name="newsletter"] {
+    .form {
+        .form_row #email_rightcol .help-block {
+            position: relative;
+            top: auto;
+            bottom: auto;
+        }        
+
+        .form-button-wrapper .form_rightcol{
+            display: block;
+            text-align: center;
+
+            .form_button_submit{
+                margin: 0 auto !important;
+            }
+        }
+    }
+
+    #dataAgreement-error{
+        bottom: -20px;
+        left: 0;
+    }
+
+    .error_submit{
+        color: $primary;
+    }
+}

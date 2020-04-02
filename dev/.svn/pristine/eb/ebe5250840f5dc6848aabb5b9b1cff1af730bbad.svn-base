@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/*****************************
+  Content Color set (beaute・grace)
+ *****************************/
+
+/* Body */
+$body__bg: #FFF;
+
+/* Brand Header */
+$brandHeader__bg: #fff;
+$brandHeader__text: #333;
+$brandHeader__icon: #999;
+$brandHeader__border: #ccc;
+$brandHeader__button__bg: #666;
+$brandHeader__button__icontext: #fff;
+
+$brandHeader__linkNormal__bg: transparent;
+$brandHeader__linkNormal__text: #333;
+$brandHeader__linkNormal__icon: #999;
+$brandHeader__linkNormal__bg--hover: #eee;
+$brandHeader__linkNormal__text--hover: #333;
+$brandHeader__linkNormal__icon--hover: #666;
+
+$brandHeader__linkCurrent__bg: #eee;
+$brandHeader__linkCurrent__text: #333;
+$brandHeader__linkCurrent__icon: #666;
+$brandHeader__linkCurrent__bg--hover: #ccc;
+$brandHeader__linkCurrent__text--hover: #333;
+$brandHeader__linkCurrent__icon--hover: #666;
+
+$brandHeader__separateBorder--top: #ccc;
+$brandHeader__separateBorder--bottom: #ccc;
+
+/* Local Navigation */
+$localNavigation__bg: #f1f1f1;
+$localNavigation__bg--smmd: #fff;
+$localNavigation__text: #333;
+$localNavigation__icon: #999;
+$localNavigation__border: #ccc;
+
+$localNavigation__linkNormal__bg: transparent;
+$localNavigation__linkNormal__text: #333;
+$localNavigation__linkNormal__icon: #999;
+$localNavigation__linkNormal__bg--hover: #ccc;
+$localNavigation__linkNormal__text--hover: #333;
+$localNavigation__linkNormal__icon--hover: #666;
+
+$localNavigation__linkCurrent__bg: #ccc;
+$localNavigation__linkCurrent__text: #333;
+$localNavigation__linkCurrent__icon: #666;
+$localNavigation__linkCurrent__bg--hover: #aaa;
+$localNavigation__linkCurrent__text--hover: #333;
+$localNavigation__linkCurrent__icon--hover: #666;
+
+$localNavigation__separateBorder--top: #ccc; //
+$localNavigation__separateBorder--bottom: #ccc;
+
+/* Breadcrumbs */
+$breadcrumb__link: #666;
+$breadcrumb__link--hover: #999;
+$breadcrumb__link--visited: #666;
+$breadcrumb__separateBorder--top: #ccc; //
+$breadcrumb__separateBorder--bottom: #ccc;
+$breadcrumb__icon: #999;
+
+/* Contents Area */
+$contents__bg: #FFF;
+$contents__text: #333;
+$contents__icon: #999;
+$contents__icon--reverse: #CCC;
+$contents__border: #CCC;
+$contents__heading__text: #333;
+$contents__heading__border: #CCC;
+
+/* Link */
+$text__link--01: #06A;
+$text__link--01--hover: #007BCD;
+$text__link--01--visited: #527;
+
+$text__link--02: #66C2FF;
+$text__link--02--hover: #CCEBFF;
+$text__link--02--visited: #EBCCFF;
+
+/* Button */
+$button__bg--01: #0066AA;
+$button__text--01: #FFF;
+$button__border--01: #0066AA;
+$button__shadowVisible--01: true;
+
+$button__bg--02: #8CD1C9; //
+$button__text--02: #FFF;
+$button__border--02: #8CD1C9; //
+$button__shadowVisible--02: true;
+
+$button__bg--03: #666;
+$button__text--03: #FFF;
+$button__border--03: #666;
+$button__shadowVisible--03: true;
+
+$button__bg--04: #F1F1F1;
+$button__text--04: #333;
+$button__border--04: #F1F1F1;
+$button__shadowVisible--04: true;
+
+$button__bg--05: transparent;
+$button__text--05: #0066AA;
+$button__border--05: #0066AA;
+$button__shadowVisible--05: false;
+
+$button__bg--06: transparent;
+$button__text--06: #8CD1C9; //
+$button__border--06: #8CD1C9; //
+$button__shadowVisible--06: false;
+
+$button__bg--07: transparent;
+$button__text--07: #333;
+$button__border--07: #333;
+$button__shadowVisible--07: false;
+
+/* Accordion */
+$accordion__title__bg: #F1F1F1;
+$accordion__title__text: #333;
+$accordion__title__border: #CCC;
+
+$accordion__content__bg: #FFF;
+$accordion__content__text: #333;
+$accordion__content__border: #CCC;
+
+/* TileLink */
+$tileLink__bg: #FFF;
+$tileLink__border: #EEE;
+$tileLink__text: #333;
+
+$tileLink__bg--reverse: #000;
+$tileLink__border--reverse: #000;
+$tileLink__text--reverse: #FFF;
+
+/* NewsIndex */
+$newsIndex__text: #333;
+$newsIndex__border: #EEE;
+
+/* TelephoneCallItem */
+$telCall__border--sm: #999;
+
+/* FullwidthVisuals&Carousel */
+$carousel__mainText: #333;
+$carousel__subText: #333;
+$carousel__subText--sm: #333;
+$carousel__arrow__icon: #FFF;
+$carousel__indicator__icon: #999;
+$carousel__icon--sm: #999;
+$carousel__arrow__icon__bg: rgba(#000, .5);
+
+$carousel__button__bg--sm: #0066AA;
+$carousel__button__text--sm: #FFF;
+$carousel__button__border--sm: #0066AA;
+$carousel__button__shadowVisible--sm: true;
+
+/* Label/Tag */
+$labelTag__bg-01: #757575;
+$labelTag__text-01: #FFF;
+
+$labelTag__bg-02: #9C27B0;
+$labelTag__text-02: #FFF;
+
+$labelTag__bg-03: #3F51B5;
+$labelTag__text-03: #FFF;
+
+$labelTag__bg-04: #039BE5;
+$labelTag__text-04: #FFF;
+
+$labelTag__bg-05: #43A047;
+$labelTag__text-05: #FFF;
+
+$labelTag__bg-06: #FFEB3B;
+$labelTag__text-06: #333;
+
+$labelTag__bg-07: #F44336;
+$labelTag__text-07: #FFF;
+
+/* DefinitionList */
+$definitionList__label__bg-01: #999;
+$definitionList__label__text-01: #fff;
+
+$definitionList__label__bg-02: #fff;
+$definitionList__label__text-02: #444;
+
+/* Brand Footer */
+$brandFooter__bg-01: #EEEEEE; //
+$brandFooter__bg-02: #eee;
+$brandFooter__bg--open: #ccc;
+$brandFooter__text-01: #333;
+$brandFooter__text-02: #333333; //
+$brandFooter__icon-01: #333;
+$brandFooter__icon-02: #eee;
+$brandFooter__border-01: #ccc;
+$brandFooter__border-02: #333333; //
+$brandFooter__separateBorder--top: #666666; //
+$brandFooter__separateBorder--bottom: #666666; //
+
+/* Page Top */
+$pageTop__bg: rgba(102,102,102,.5);
+$pageTop__icon: #fff;
+
+/* Option */
+$option__bg--01: #FFF;
+$option__bg--02: #F1F1F1;
+$option__bg--03: #EEE;
+$option__bg--04: #CCC;
+$option__bg--05: #999;
+$option__bg--06: #666;
+$option__bg--07: #333;
+
+$option__border--01: #CCC;
+$option__border--02: #FFF;
+$option__border--03: #F1F1F1;
+$option__border--04: #EEE;
+$option__border--05: #999;
+$option__border--06: #666;
+$option__border--07: #333;
+
+$option__inPlaceEditor--01: #FFF;
+$option__inPlaceEditor--02: #F1F1F1;
+$option__inPlaceEditor--03: #EEE;
+$option__inPlaceEditor--04: #CCC;
+$option__inPlaceEditor--05: #999;
+$option__inPlaceEditor--06: #666;
+$option__inPlaceEditor--07: #333;
+$option__inPlaceEditor--08: #000;
+$option__inPlaceEditor--09: #00B48C;
+$option__inPlaceEditor--10: #FF6600;
+$option__inPlaceEditor--11: #039BE5;
+$option__inPlaceEditor--12: #F44336;

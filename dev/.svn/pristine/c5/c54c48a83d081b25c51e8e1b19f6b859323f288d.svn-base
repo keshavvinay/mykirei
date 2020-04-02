@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>ASIENCE TOP</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- css -->
+<link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+<link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+<link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/asience/basic/css/basic.css">
+<link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/asience/component/css/component.css">
+<link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/asience/option/css/option.css">
+<!-- / css -->
+
+<!-- script -->
+<script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+<script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+<script src="/etc/clientlibs/common/component/js/component.js"></script>
+<!-- / script -->
+<!-- debug script -->
+<script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+<script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+<!-- debug script -->
+
+</head>
+<body>
+
+<div id="menu">
+  <div class="js-menuHolder">
+    <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+  </div>
+</div>
+
+
+<div id="wrapper">
+
+<!-- area-GlHeader -->
+<div class="g-Area" id="area-GlHeader">
+  <div class="g-Area__inner">
+    <div class="g-GlHeader">
+      Global Header Area
+    </div>
+  </div>
+</div>
+<!-- / area-GlHeader -->
+
+
+<!-- contentsWrapper -->
+<div id="contentsWrapper" class="contentsWrapper">
+  <!-- area-CntHeader -->
+  <div class="g-Area" id="area-CntHeader">
+    <div class="g-Area__inner">
+      <div class="CntHeader">
+        Contents Header Area
+      </div>
+    </div>
+  </div>
+  <!-- / area-CntHeader -->
+
+
+  <!-- area-Contents -->
+  <div class="g-Area" id="area-Contents">
+
+    <div class="parsys">
+
+      <!-- Section(main) -->
+      <div class="g-Section is-marginReset is-fullwidth">
+        <div class="g-Section__inner">
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      <!-- I030: Image Item -->
+                      <div class="g-Image l-Image">
+                        <p class="g-Image__img l-Image__img"><img src="dam/top_mainvisual.jpg" width="100%" alt="ASIENCE 美容液シャンプーうるおいをまとったやわらかな手触りに"></p>
+                      </div>
+                      <!-- / I030: Image Item -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section(main) -->
+
+      <!-- Section(products) -->
+      <div class="g-Section is-marginReset asience-Section--productsInfo">
+        <div class="g-Section__inner">
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      <!-- I010: Heading Title Item -->
+                      <div class="g-HeadingTitle l-HeadingTitle is-layoutL opt-al_c asience-HeadingTitle--productsInfo">
+
+                        <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                          <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                            <!-- title -->
+                            <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                              <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                                <span class="cmn-richtext">
+                                  <span>商品情報</span>
+                                </span>
+                              </h2>
+                            </div>
+                            <!-- / title -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- / I010: Heading Title Item -->
+
+                      <!-- P210: Tile Link Pack (Vertical) -->
+                      <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight opt-al_c asience-TileLinkVP--products" data-uniform-target="g-TileLinkVUnit">
+                        <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-5 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_product_shampoo.png" width="100%" alt="シャンプー"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>シャンプー</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-5 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_product_conditioner.png" width="100%" alt="コンディショナー"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>コンディショナー</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-5 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_product_treatment.png" width="100%" alt="トリートメント"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>トリートメント</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-5 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_product_hairmask.png" width="100%" alt="濃密ヘアマスク"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>濃密ヘアマスク</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-5 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_product_washless_shampoo.png" width="100%" alt="洗い流さないトリートメント"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>洗い流さないトリートメント</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                        </ul>
+                      </div>
+                      <!-- / P210: Tile Link Pack (Vertical) -->
+
+                      <!-- I050: Link/Button Item -->
+                      <div class="g-LinkButton l-LinkButton is-btn is-icon opt-al_c asience-LinkButton--showlist">
+                        <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                          <span class="cmn-icon g-LinkButton__link__bullet l-LinkButton__link__bullet"></span>
+                          <span class="cmn-richtext">
+                            <span>一覧を見る</span>
+                          </span>
+                          <span class="cmn-icon cmn-icon--bullet cmn-icon--reverse g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                        </a>
+                      </div>
+                      <!-- / I050: Link/Button Item -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section(products) -->
+
+      <!-- Section(tried) -->
+      <div class="g-Section is-marginReset asience-Section--tried">
+        <div class="g-Section__inner">
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      <!-- I030: Image Item -->
+                      <a class="g-Image l-Image is-link asience-Image--triedshampoo" href="" target="">
+                        <p class="g-Image__img l-Image__img"><img src="dam/banner_tried_shampoo.jpg" width="100%" alt="私たち美容液シャンプー実際に使ってみました"></p>
+                      </a>
+                      <!-- / I030: Image Item -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section(tried) -->
+
+      <!-- Section(counseling) -->
+      <div class="g-Section is-marginReset asience-Section--counseling">
+        <div class="g-Section__inner">
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      <!-- I010: Heading Title Item -->
+                      <div class="g-HeadingTitle l-HeadingTitle is-layoutL opt-al_c asience-HeadingTitle--counselingSub">
+                        <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                          <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                            <!-- title -->
+                            <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                              <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                <span class="cmn-richtext">
+                                  <span>髪のビューティー度は？</span>
+                                </span>
+                              </h3>
+                            </div>
+                            <!-- / title -->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- / I010: Heading Title Item -->
+
+                      <!-- P040: Text Pack -->
+                      <div class="g-TextP l-TextP opt-al_c">
+
+                        <div class="g-TextP__titleBlock l-TextP__titleBlock">
+                          <!-- I010: Heading Title Item -->
+                          <div class="g-HeadingTitle l-HeadingTitle asience-HeadingTitle--counselingTitle is-layoutL">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <!-- title -->
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                                    <span class="cmn-richtext">
+                                      <span>髪のカウンセリング</span>
+                                    </span>
+                                  </h2>
+                                </div>
+                                <!-- / title -->
+                              </div>
+                            </div>
+                          </div>
+                          <!-- / I010: Heading Title Item -->
+                        </div>
+
+                        <div class="g-TextP__leadBlock l-TextP__leadBlock">
+                          <!-- I020: Text Item -->
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>Q.あなたにもっとも近い髪の長さは、どれですか？</span>
+                            </p>
+                          </div>
+                          <!-- / I020: Text Item -->
+                        </div>
+                      </div>
+                      <!-- / P040: Text Pack -->
+
+                      <!-- P210: Tile Link Pack (Vertical) -->
+                      <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight opt-al_c asience-TileLinkVP--hairstyle" data-uniform-target="g-TileLinkVUnit">
+                        <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-4 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_hairstyle_short.png" width="100%" alt="ショート"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>ショート</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-4 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_hairstyle_medium.png" width="100%" alt="ミディアム"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>ミディアム</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-4 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_hairstyle_shoulderlength.png" width="100%" alt="セミロング"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>セミロング</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                          <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-4 g-TileLinkVP__list__tile-sm-2">
+                            <!-- TileLinkVUnit -->
+                            <a class="g-TileLinkVUnit l-TileLinkVUnit" href="" target="">
+                              <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_hairstyle_long.png" width="100%" alt="ロング"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>ロング</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                                <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                              </div>
+                            </a>
+                            <!-- / TileLinkVUnit -->
+                          </li>
+
+                        </ul>
+                      </div>
+                      <!-- / P210: Tile Link Pack (Vertical) -->
+
+                      <!-- I050: Link/Button Item -->
+                      <div class="g-LinkButton l-LinkButton is-btn opt-al_c asience-LinkButton--checkItOut">
+                        <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+                          <span class="cmn-icon g-LinkButton__link__bullet l-LinkButton__link__bullet"></span>
+                          <span class="cmn-richtext">
+                            <span>あなたも今すぐチェック！</span>
+                          </span>
+                          <span class="cmn-icon cmn-icon--bullet cmn-icon--reverse g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+                        </a>
+                      </div>
+                      <!-- / I050: Link/Button Item -->
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section(counseling) -->
+
+      <!-- Section(promotion) -->
+      <div class="g-Section is-marginReset asience-Section--promotion">
+        <div class="g-Section__inner">
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+
+                      <!-- P220: Tile Link Pack (Horizontal) -->
+                      <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight asience-TileLinkHP--promotionMain" data-uniform-target="g-TileLinkHUnit">
+                        <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+
+                          <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                            <!-- TileLinkHUnit -->
+                            <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutR is-background" style="background-image:url(dam/frame_decoration.png)" href="" target="">
+
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>お手入れポイント</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>商品の使い方のコツや意外と知られていない、お手入れのポイントをご紹介します。</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                              </div>
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w40p">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_banner_repairpoint.png" width="100%" alt="お手入れポイント"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </a>
+                            <!-- / TileLinkHUnit -->
+                          </li>
+
+                          <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                            <!-- TileLinkHUnit -->
+                            <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutR is-background" style="background-image:url(dam/frame_decoration.png)" href="" target="">
+
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>CM情報</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>現在放映中のCMをご覧いただけます。</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                              </div>
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w40p">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_banner_cm.png" width="100%" alt="CMイメージ"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </a>
+                            <!-- / TileLinkHUnit -->
+                          </li>
+
+                        </ul>
+                      </div>
+                      <!-- / P220: Tile Link Pack (Horizontal) -->
+
+                      <!-- P220: Tile Link Pack (Horizontal) -->
+                      <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight asience-TileLinkHP--promotionSub" data-uniform-target="g-TileLinkHUnit">
+                        <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+
+                          <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                            <!-- TileLinkHUnit -->
+                            <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutR" href="" target="">
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w30p">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_banner_silicone.png" width="100%" alt="シリコーンの真実"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>シリコーンの真実</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                              </div>
+
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </a>
+                            <!-- / TileLinkHUnit -->
+                          </li>
+
+                          <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-2 g-TileLinkHP__list__tile-sm-1">
+                            <!-- TileLinkHUnit -->
+                            <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutR" href="" target="">
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w30p">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_banner_winning_history.png" width="100%" alt="dummy"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>受賞履歴</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                              </div>
+
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </a>
+                            <!-- / TileLinkHUnit -->
+                          </li>
+
+                        </ul>
+                      </div>
+                      <!-- / P220: Tile Link Pack (Horizontal) -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section(promotion) -->
+
+      <!-- Section(others) -->
+      <div class="g-Section is-marginReset asience-Section--others">
+        <div class="g-Section__inner">
+          <div class="parsys">
+            <!-- Column -->
+            <div class="g-Column is-marginReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      <!-- P220: Tile Link Pack (Horizontal) -->
+                      <div class="g-TileLinkHP l-TileLinkHP asience-TileLinkHP--others js-uniformHeight" data-uniform-target="g-TileLinkHUnit">
+                        <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+
+                          <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-3 g-TileLinkHP__list__tile-md-3 g-TileLinkHP__list__tile-sm-1">
+                            <!-- TileLinkHUnit -->
+                            <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutR is-background" style="background-image:url(dam/frame_decoration_small.png)" href="" target="">
+
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>商品情報</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>毎日の髪のお手入れが幸せな美容時間へ</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                              </div>
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w50p">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_banner_products_info.png" width="100%" alt="商品情報"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </a>
+                            <!-- / TileLinkHUnit -->
+                          </li>
+
+                          <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-3 g-TileLinkHP__list__tile-md-3 g-TileLinkHP__list__tile-sm-1">
+                            <!-- TileLinkHUnit -->
+                            <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutR is-background" style="background-image:url(dam/frame_decoration_small.png)" href="" target="">
+
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>髪のカウンセリング</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>髪のビューティ度をカンタンにチェック！</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                              </div>
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w50p">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_banner_counseling.png" width="100%" alt="dummy"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </a>
+                            <!-- / TileLinkHUnit -->
+                          </li>
+
+                          <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-3 g-TileLinkHP__list__tile-md-3 g-TileLinkHP__list__tile-sm-1">
+                            <!-- TileLinkHUnit -->
+                            <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutR is-background" style="background-image:url(dam/frame_decoration_small.png)" href="" target="">
+
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>お手入れポイント</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <!-- I020: Text Item -->
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">
+                                      <span>意外と知られていないお手入れポイント</span>
+                                    </p>
+                                  </div>
+                                  <!-- / I020: Text Item -->
+                                </div>
+                              </div>
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w50p">
+                                <!-- I030: Image Item -->
+                                <div class="g-Image l-Image">
+                                  <p class="g-Image__img l-Image__img"><img src="dam/pic_banner_repairpoint.png" width="100%" alt="お手入れポイント"></p>
+                                </div>
+                                <!-- / I030: Image Item -->
+                              </div>
+
+                              <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+                            </a>
+                            <!-- / TileLinkHUnit -->
+                          </li>
+
+                        </ul>
+                      </div>
+                      <!-- / P220: Tile Link Pack (Horizontal) -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Column -->
+          </div>
+        </div>
+      </div>
+      <!-- / Section(others) -->
+
+    </div>
+
+  </div>
+  <!-- / area-Contents -->
+
+</div>
+<!-- / contentsWrapper -->
+
+
+<!-- area-SbBlFooter -->
+<div class="g-Area" id="area-SbBlFooter">
+  <div class="g-Area__inner">
+    <div class="SbBlFooter">
+      Sub Brand Footer Area
+    </div>
+  </div>
+</div>
+<!-- / area-SbBlFooter -->
+
+<!-- area-GlFooter -->
+<div class="g-Area" id="area-GlFooter">
+  <div class="g-Area__inner">
+    <div class="g-GlFooter">
+      Global Footer Area
+    </div>
+  </div>
+</div>
+<!-- / area-GlFooter -->
+
+<!--/wrapper--></div>
+
+</body>
+</html>

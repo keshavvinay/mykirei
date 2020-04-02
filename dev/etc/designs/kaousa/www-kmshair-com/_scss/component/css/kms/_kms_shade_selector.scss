@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+/* Shade Selector Style */
+
+.shade-selector-section {
+    .g-Section__inner {
+        padding-bottom: 0;
+    }
+    .step-text {
+        letter-spacing: normal;
+        @include kms-fontSize(longcopy);
+        @include kms-fontFamily(body);
+        color: #000;
+    }
+    .sub-heading {
+        width: 33%;
+        @include bp(sm) {
+            width: 100%;
+        }
+        @include bp(md) {
+            width: 50%;
+        }
+    }
+    #shadeSelectorResult {
+        .result-one-placeholder {
+            .g-Text {
+                letter-spacing: normal;
+            }
+        }
+    }
+}
+
+/*Step One*/
+
+.step-one-images {
+    @include bp(sm) {
+        text-align: left;
+    }
+    .g-Image {
+        cursor: pointer;
+        display: inline-block;
+        width: 9.86%;
+        @include bp(sm) {
+            width: 44% !important;
+            margin-right: 15px;
+            display: inline-block !important;
+            border: 2px solid white;
+        }
+        &:nth-child(even) {
+            @include bp(sm) {
+                margin-right: 0px;
+                margin-left: 7px;
+            }
+        }
+        &:hover {
+            border: 2px solid #fe5000;
+        }
+        &.active {
+            border: 2px solid #fe5000;
+        }
+    }
+}
+
+/*Step Two*/
+
+.looks-carousel {
+    .g-ImageCarouselPUnit {
+        cursor: pointer;
+        @include bp(sm) {
+           padding: 10px !important;
+        }
+        @include bp(lg) {
+            &:hover {
+                border: 2px solid #fe5000;
+            }
+        }
+        @include bp(lg) {
+            &.active {
+                border: 2px solid #fe5000;
+            }
+        }
+        @include bp(md) {
+            &.active {
+                border: 2px solid #fe5000;
+            }
+        }
+        @include bp(sm) {
+            &.active {
+                .g-Image {
+                    border: 2px solid #fe5000;
+                }
+            }
+        }
+        .g-Image {
+            margin-bottom: 0;
+        }
+
+    }
+}
+
+body:not(.is-authorring) {
+    .looks-carousel {
+        .slick-slider {
+            margin-bottom: 0 !important;
+
+            @include bp(md) {
+                margin: 10px;
+                max-width: 700px;
+                margin: 0 auto;
+            }
+            @include bp(lg) {
+                margin: 10px;
+                max-width: 1260px;
+                margin: 0 auto;
+            }
+            .g-ImageCarouselP__nav {
+                li {
+                    .is-play,
+                    .is-pause {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .slick-list {
+
+            @include bp(md) {
+                min-height: 410px;
+            }
+            @include bp(lg) {
+                min-height: 725px;
+            }
+            .slick-track {
+                @include bp(md) {
+                    width: auto !important;
+                    height: inherit !important;
+                }
+                @include bp(lg) {
+                    width: auto !important;
+                    height: inherit !important;
+                }
+            }
+        }
+        .g-ImageCarouselPUnit {
+            padding: 0;
+            margin: auto;
+            height: auto;
+
+            @include bp(md) {
+                width: 19% !important;
+                position: absolute;
+            }
+            @include bp(lg) {
+                width: 19% !important;
+                position: absolute;
+            }
+            @include bp(sm) {
+                height: 330px !important;
+            }
+            &:hover {
+                .g-GroupBox {
+                    opacity: 1;
+                }
+            }
+            .g-GroupBox {
+
+                @include bp(sm) {
+                    display: none;
+                }
+
+                z-index: 100;
+                opacity: 0;
+                -webkit-transition: opacity 0.5s ease-out;
+                transition: opacity 0.5s ease-out;
+                background-color: rgba(255, 255, 255, 0.8);
+
+                left: 0;
+                top: 8%;
+                width: 80%;
+                right: 0;
+                padding: 0;
+                margin: auto;
+            }
+            // &.slick-cloned {
+            //     &:first-child{
+            //         @include bp(sm) {
+            //             width: 0 !important;
+            //         }
+            //     }
+            // }
+        }
+    }
+}
+
+body:not(.is-authorring) {
+    .looks-carousel {
+        #KasiaModerateDuskyBlonde {
+            @include bp(md) {
+                top: 50px;
+                left: 1.5px;
+            }
+            @include bp(lg) {
+                top: 110px;
+            }
+        }
+        #KasiaModerateCopper {
+            @include bp(md) {
+                left: 142px;
+                top: 96px;
+            }
+            @include bp(lg) {
+                left: 20%;
+                top: 182px;
+            }
+
+        }
+        #KieranModerateBrushedGold {
+            @include bp(md) {
+                left: 282px;
+            }
+            @include bp(lg) {
+                left: 40.5%;
+            }
+        }
+        #BoModerateFrostedBrown {
+            @include bp(md) {
+                left: 282px;
+                top: 188px;
+            }
+            @include bp(lg) {
+                left: 40.5%;
+                margin-top: 27%;
+            }
+        }
+        #BoContemporaryVintageBlush {
+            @include bp(md) {
+                right: 140px;
+                top: 38px;
+            }
+            @include bp(lg) {
+                left: 61%;
+                margin-top: 7%;
+            }
+        }
+        #KieranContemporaryIcedConcrete {
+            @include bp(md) {
+                right: 140px;
+                top: 227px;
+            }
+            @include bp(lg) {
+                left: 61%;
+                margin-top: 34%;
+            }
+        }
+        #KasiaContemporaryStonewashDenim {
+            @include bp(md) {
+                right: 0.5px;
+                top: 60px;;
+            }
+            @include bp(lg) {
+                left: 81%;
+                top: 120px;
+            }
+        }
+    }
+}
+
+
+/*Scale Line*/
+
+body:not(.is-authorring) {
+
+
+    .line-scale {
+        position: relative;
+
+        .g-Text {
+            position: absolute;
+            top: -9px;
+            background-color: #fff;
+            text-transform: uppercase;
+        }
+        #step-two-contemporary {
+            right: 0;
+            padding-left: 5px;
+        }
+        #step-two-moderate {
+            padding-right: 5px;
+        }
+    }
+}
+
+
+/*Results*/
+
+/*Results One*/
+
+.result-one {
+    width: auto;
+    .result-one-placeholder {
+        .g-ImageTextVP__contentsBlock__text {
+            @include bp(lg) {
+                min-width: 480px;
+                min-height: 475px;
+            }
+            /*@include bp(md) {
+                min-width: 480px;
+                min-height: 415px;
+            }
+            @include bp(sm) {
+                min-width: 480px;
+                min-height: 415px;
+            }*/
+        }
+    }
+}
+
+.result-one {
+    .g-ImageTextVP {
+        width: 49%;
+        display: inline-block;
+        @include bp(sm) {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        .g-Image {
+            width: 100%;
+            display: inline-block;
+            margin: auto;
+        }
+    }
+}
+
+.result-one {
+
+    .g-Image {
+        @include bp(md) {
+            width: 48%;
+            display: inline-block;
+            margin-left: 2%;
+            vertical-align: top;
+        }
+        @include bp(lg) {
+            width: 48%;
+            display: inline-block;
+            margin-left: 2%;
+        }
+    }
+    .g-Image__caption {
+        letter-spacing: normal;
+        @include kms-fontSize(longcopy);
+        @include kms-fontFamily(body);
+        color: #000;
+        text-transform: uppercase;
+        position: absolute;
+        left: -60px;
+        top: 24px;
+        transform: rotate(270deg);
+        @include bp(sm) {
+            left: 0;
+            right: 0;
+            top: -32px;
+            text-align: center;
+            transform: none;
+        }
+    }
+
+}
+
+body:not(.is-authorring) {
+    .shade-selector-section {
+        .result-one {
+            .placeholder-row {
+                margin-bottom: 36px;
+            }
+            .result-products-shades {
+                display: none;
+            }
+        }
+    }
+}
+
+/*Results Two*/
+
+.shade-selector-result-section {
+    .g-Section__inner {
+        padding-top: 0;
+    }
+}
+.shade-selector-result {
+    @include bp(sm) {
+        margin-top: 25px;
+    }
+}
+body:not(.is-authorring) {
+    .shade-selector-result-section {
+        .result-two {
+            display: none;
+        }
+        .C190__carousel {
+            .slick-track {
+                &.carousel-inactive {
+                    width: auto !important;
+                }
+                .slick-slide {
+                    &.carousel-active {
+                        @include bp(lg) {
+                            width: 9.43% !important;
+                        }
+                        @include bp(md) {
+                            width: 8.96% !important;
+                        }
+                    }
+                    @include bp(lg) {
+                        width: 32% !important;
+                        padding: 0;
+                        &:first-child,
+                        &:nth-child(2) {
+                            margin-right: 15px;
+                        }
+                    }
+                    @include bp(md) {
+                        width: 29.44% !important;
+                    }
+                }
+            }
+            .g-ImageTextVP__contentsBlock__text {
+                display: none !important;
+            }
+        }
+    }
+}
+body.is-authorring {
+    .result-products-shades {
+        .c190__imageTextVP {
+            .l-ImageTextVP__contentsBlock {
+                .l-ImageTextVP__contentsBlock__text {
+                    left: 100% !important;
+                    margin-left: 60% !important;
+                    opacity:1 !important;
+                }
+            }
+        }
+    }
+}    
+/*End of Shade Selector*/

@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_010: Telephone Call Item</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>G_CON_010: Telephone Call Item</h1>
+
+
+<!-- G_CON_010: Telephone Call Item -->
+  <div class="method">
+    <p class="componentName">G_CON_010: Telephone Call Item</p>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--l is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 左<br>
+    ボタンの幅 : 配置領域の幅全体</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_l is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 中央<br>
+    ボタンの幅 : 配置領域の幅全体</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_c is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 右<br>
+    ボタンの幅 : 配置領域の幅全体</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_r is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 左<br>
+    ボタンの幅 : 文字数に依存</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_l js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 中央<br>
+    ボタンの幅 : 文字数に依存</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_c is-autowidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 右<br>
+    ボタンの幅 : 文字数に依存</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_r is-autowidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 小</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--s is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+        <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+      </div>
+      <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+        <!-- G_CON_004: Image Item -->
+        <div class="g-Image l-Image">
+          <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+        </div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+        <span class="cmn-richtext">
+          <span>03-0000-0000</span>
+        </span>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 中</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+        <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+      </div>
+      <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+        <!-- G_CON_004: Image Item -->
+        <div class="g-Image l-Image">
+          <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+        </div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+        <span class="cmn-richtext">
+          <span>03-0000-0000</span>
+        </span>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 大</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--l is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+        <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+      </div>
+      <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+        <!-- G_CON_004: Image Item -->
+        <div class="g-Image l-Image">
+          <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+        </div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+        <span class="cmn-richtext">
+          <span>03-0000-0000</span>
+        </span>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    背景画像 : 指定あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" href="tel:0300000000" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    背景画像 : 指定あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" href="tel:0300000000" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    行揃え : 左</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m opt-al_l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    行揃え : 中央</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m opt-al_c is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    行揃え : 右</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m opt-al_r is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 小</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--s is-align--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 中</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m is-align--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 大</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--l is-align--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    背景画像 : 指定あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">SpecificCSSclass<span class="sup"></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall SpecificCSSclass">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+<!-- / G_CON_010: Telephone Call Item -->
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

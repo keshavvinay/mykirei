@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'corpicon';
+  src:url('../corp_fonts/corp.eot?vlhs1s');
+  src:url('../corp_fonts/corp.eot?vlhs1s#iefix') format('embedded-opentype'),
+    url('../corp_fonts/corp.ttf?vlhs1s') format('truetype'),
+    url('../corp_fonts/corp.woff?vlhs1s') format('woff'),
+    url('../corp_fonts/corp.svg?vlhs1s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.corp-icon {
+  display: inline-block;
+  font-family: 'corpicon';
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+  icon-list
+ */
+.corp-icon--worldwide:before {
+  content: "\e900";
+}
+.corp-icon--search:before {
+  content: "\e901";
+}
+.corp-icon--fax:before {
+  content: "\e903";
+}
+.corp-icon--zoom:before {
+  content: "\e905";
+}

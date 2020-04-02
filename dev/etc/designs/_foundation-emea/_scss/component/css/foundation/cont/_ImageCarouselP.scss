@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+/* ImageCarouselP ================================================== */
+
+.l-ImageCarouselP {
+  overflow: hidden;
+}
+
+.l-ImageCarouselP__list {
+  @include gutterCarouselImageWrapper;
+}
+
+.l-ImageCarouselP__nextArrow,
+.l-ImageCarouselP__prevArrow {
+  @include button();
+  background-color: $carouselImage__arrow__icon__bg;
+  @include bp(sm) {
+    background-color: transparent;
+  }
+  &:before {
+    color: $carouselImage__arrow__icon;
+    @include bp(sm) {
+      color: $carouselImage__icon--sm;
+    }
+  }
+}
+.l-ImageCarouselP__nextArrow {
+  @include border-left-radius($borderRadius_xs);
+  @include bp(lg) {
+    right: $marginGutterImageCarousel_lg/2;
+  }
+  @include bp(md) {
+    right: $marginGutterImageCarousel_md/2;
+  }
+}
+.l-ImageCarouselP__prevArrow {
+  @include border-right-radius($borderRadius_xs);
+  @include bp(lg) {
+    left: $marginGutterImageCarousel_lg/2;
+  }
+  @include bp(md) {
+    left: $marginGutterImageCarousel_md/2;
+  }
+}
+.l-ImageCarouselP__nav__dot,
+.l-ImageCarouselP__nav__toggle {
+  @include button();
+  &:before {
+    color: $carouselImage__indicator__icon;
+    @include bp(sm) {
+      color: $carouselImage__icon--sm;
+    }
+  }
+}
+
+/* ImageCarouselPUnit ================================================== */
+.l-ImageCarouselPUnit {
+  color: $contents__text;
+  @include gutterCarouselImageInner;
+  &.is-link {
+    @include areaLink();
+  }
+}
+
+.l-ImageCarouselPUnit__youtubeHolder__btn,
+.l-ImageCarouselPUnit__videoHolder__btn {
+  @include button();
+    background-color: $carouselImage__icon__small__movie__bg;
+  &:before {
+    color: $carouselImage__icon__small__movie;
+  }
+}

@@ -1,0 +1,24 @@
+.g-HistoryWrapper{
+    .g-HistoryDate{
+        font-size: 42px;
+        color: $primary;
+        font-family: $tramcn; 
+    }
+    .g-HistoryWrapper--unit{
+        @media(max-width: $break-md){
+            max-width: 80%;
+        }
+        @media(max-width: $break-md){
+            max-width: 100%;
+        }
+    }
+    
+    .g-HistoryWrapper--bg{
+        @media(max-width: $break-md){
+            padding: 34px 30px 110px 30px;
+        }
+        @media(max-width: $break-xs){
+            padding: 34px 20px 110px 20px;
+        }
+    }
+}

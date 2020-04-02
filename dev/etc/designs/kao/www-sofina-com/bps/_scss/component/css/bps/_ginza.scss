@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/* ginza ============================== */
+
+////////////////////////////////////
+//
+// 銀座
+//
+////////////////////////////////////
+.sofina-ginza-section_mainvisual {
+
+  .g-Section__inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .g-Column__inner {
+    padding: 0px 50px 0px 50px;
+  }
+  //タイトル
+  .g-ColumnUnit{
+    position: relative;
+  }
+  .l-PageTitle__h1 {
+    // @include fontSize(lv1);
+    // color: $colorGray_2;
+    // font-weight: normal;
+    @include img_main("logo-sofina-bps-printtitle.gif");
+
+  }
+  .l-PageTitle__titleBlock {
+    margin-bottom: 10px;
+  }
+  //印刷ボタン
+  .l-LinkButton {
+    position: absolute;
+    @include topRight(0px, 0px);
+    a {
+      padding: 8px 20px 8px 10px;
+
+    }
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .g-Column__inner {
+      padding: 0;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .g-Column__inner {
+      padding: 0;
+    }
+    .l-LinkButton {
+      @include topRight(0px, 10px);
+      @include fontSize(lv5);
+      a {
+        padding: 5px 10px 5px 0;
+      }
+    }
+  }
+  /*-----------------------*/
+  // print
+  /*-----------------------*/
+  @include bp(print) {
+    .g-Section__inner {
+      padding: 0;
+    }
+  }
+}
+
+//店舗情報   ////////////////////////////////////
+////////////////////////////////////
+//
+// 銀座
+//
+////////////////////////////////////
+.sofina-ginza-section_shopinfo {
+  margin-top: 0px;
+  .l-HeadingTitle {
+    margin-bottom: 12px;
+
+  }
+  .l-HeadingTitle__h2{
+    @include fontSize(lv5);
+    font-weight: normal;
+    @include bp(lg) {
+      letter-spacing: 0.05em;
+    }
+    @include bp(md) {
+      letter-spacing: 0.05em;
+    }
+    @include bp(sm) {
+      letter-spacing: 0.05em;
+    }
+  }
+  table {
+    margin-top: 0px;
+  }
+  .sofina-section_shopinfo_big__contholder__map {
+    margin-top: 0px;
+  }
+  .btn-block-bullet-glay {
+    margin-bottom: 0;
+  }
+  .sofina-section_shopinfo_big__contholder{
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .btn-block-close-white{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+
+    .l-HeadingTitle__h2 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}

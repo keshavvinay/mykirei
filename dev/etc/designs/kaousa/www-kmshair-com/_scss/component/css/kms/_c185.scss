@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* C185 IMAGE ABOVE (TWO COLUMN) TEXT */
+.c185__imageBlock {
+  position: relative;
+  margin-bottom: 30px;
+  @include bp(sm) {
+    margin-top: 70px;
+    .l-Image__img {
+      margin-top: -2.6em;
+    }
+  };
+  .c185__title {
+    @include bp(lg) {
+      position: relative;
+      top: 35px;
+      left: 35%;
+      z-index: 2;
+    };
+    @include bp(md) {
+      position: relative;
+      top: 35px;
+      left: 35%;
+      z-index: 2;
+    };
+    @include bp(sm) {
+      position: relative;
+      left: 50%;
+      transform: translate(-40%, 0);
+      margin-top: -4em;
+      z-index: 2;
+      width: 80%;
+    };
+  }
+}
+
+.c185__separatorBottom {
+  @include bp(lg) {
+    .l-Column__cols:first-child {
+      width: 35%;
+    }
+    .l-Column__cols:last-child {
+      width: 65%;
+    }
+  };
+  @include bp(md) {
+    .l-Column__cols:first-child {
+      width: 35%;
+    }
+    .l-Column__cols:last-child {
+      width: 65%;
+    }
+  };
+}
+
+.c185__titleBlock {
+  min-height: 1px;
+  @include bp(lg) {
+    width: 63%;
+  };
+  @include bp(md) {
+    margin-right: 35px;
+  };
+  .l-HeadingTitle {
+    @include bp(sm) {
+      margin-bottom: 20px;
+    };
+  }
+  .l-HeadingTitle__h3 {
+    @include kms-fontSize(headline3);
+    @include kms-fontFamily(subTitle);
+    &:not(.is-link) {
+      color: #000;
+    }
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    @include bp(sm) {
+      margin-bottom: 0;
+    };
+  }
+  .l-Text {
+    @include kms-fontFamily(body);
+    color: #000;
+    @include kms-fontSize(longcopy);
+  }
+}
+
+.c185__textBlock {
+  @include bp(lg) {
+    width: 73%;
+  };
+  .l-Text {
+    margin-bottom: 30px;
+    @include kms-fontSize(longcopy);
+    @include kms-fontFamily(body);
+    color: #000;
+    letter-spacing: normal;
+    
+  }
+}

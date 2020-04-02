@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* PrivacyNotice ================================================== */
+.l-PrivacyNotice {
+  @include fontSize(body);
+  @include font-family-lang('fontFamily');
+  color: $privacyNotice__text;
+  background: $privacyNotice__overlay__bg;
+}
+.l-PrivacyNotice__modal {
+  background-color: $privacyNotice__bg;
+  .l-PrivacyNotice__modal__button {
+    .l-ButtonUnit__link {
+      border-color: $privacyNotice__button__border;
+      background-color: $privacyNotice__button__bg;
+      color: $privacyNotice__button__text;
+      @include btnShadow($privacyNotice__button__shadowVisible);
+    }
+  }
+  .l-PrivacyNotice__modal__policyLink {
+    .l-TextLinkUnit__link {
+      &:link {
+        color: $privacyNotice__link;
+      }
+      &:hover {
+        color: $privacyNotice__link--hover;
+      }
+    }
+    .l-TextLinkUnit__link__icon {
+      color: $privacyNotice__link__icon;
+    }
+  }
+}
+.l-PrivacyNotice__modal__title {
+  .l-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h2,
+    .l-HeadingTitle__h3,
+    .l-HeadingTitle__h4,
+    .l-HeadingTitle__h5,
+    .l-HeadingTitle__h6,
+    .l-HeadingTitle__p {
+      color: $privacyNotice__heading__text;
+    }
+  }
+  .l-HeadingTitle.l-HeadingTitle--h2,
+  .l-HeadingTitle.l-HeadingTitle--h3,
+  .l-HeadingTitle.l-HeadingTitle--h4,
+  .l-HeadingTitle.l-HeadingTitle--h5,
+  .l-HeadingTitle.l-HeadingTitle--h6,
+  .l-HeadingTitle.l-HeadingTitle--p {
+    border-color: $privacyNotice__heading__underline;
+  }
+}

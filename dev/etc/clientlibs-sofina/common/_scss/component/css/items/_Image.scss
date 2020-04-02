@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+/* Image ================================================== */
+.g-Image {
+  display: block;
+  margin-bottom: 8px;
+  &.is-link {
+    display: block;
+    @include link();
+    @include areaLink();
+  }
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+}
+.g-Image__img {
+  position: relative;
+  margin: 0 0 8px 0;
+  img {
+    display: block;
+  }
+  &:last-child {
+    margin: 0;
+  }
+}
+.g-Image__img__icon {
+  position: absolute;
+  top: 50%;
+  right: 0.5em;
+  margin-top: -.6em
+}
+.g-Image__caption {
+  margin: 0;
+  @include fontSize(caption);
+}
+.g-Image__link {
+  display: block;
+  @include link();
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+/* TwitterPost ================================================== */
+.l-YouTubeVideo {
+  &.is-colorset--1 {
+    color: $youTubeVideo__text--01;
+    .cmn-icon {
+      color: $youTubeVideo__icon--01;
+    }
+    .l-YouTubeVideo__textBlock__title__link,
+    .l-YouTubeVideo__textBlock__listItem__link,
+    .l-YouTubeVideo__textBlock__visit__link,
+    .l-YouTubeVideo__textBlock__description a {
+      color: $youTubeVideo__link--01;
+      &:link {
+        color: $youTubeVideo__link--01;
+      }
+      &:visited {
+        color: $youTubeVideo__link--01--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $youTubeVideo__link--01--hover;
+      }
+    }
+  }
+  &.is-colorset--2 {
+    color: $youTubeVideo__text--02;
+    .cmn-icon {
+      color: $youTubeVideo__icon--02;
+    }
+    .l-YouTubeVideo__textBlock__title__link,
+    .l-YouTubeVideo__textBlock__listItem__link,
+    .l-YouTubeVideo__textBlock__visit__link,
+    .l-YouTubeVideo__textBlock__description a {
+      color: $youTubeVideo__link--02;
+      &:link {
+        color: $youTubeVideo__link--02;
+      }
+      &:visited {
+        color: $youTubeVideo__link--02--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $youTubeVideo__link--02--hover;
+      }
+    }
+  }
+}

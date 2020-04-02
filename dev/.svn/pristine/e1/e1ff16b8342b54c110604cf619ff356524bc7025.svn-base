@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+/* Section ============================== */
+.g-Section {
+  @include bp(lg) {
+    margin-bottom: $marginSectionButtom_lg;
+  }
+  @include bp(md) {
+    margin-bottom: $marginSectionButtom_lg;
+  }
+  @include bp(sm) {
+    margin-bottom: $marginSectionButtom_lg;
+  }
+
+
+}
+
+.g-Section__inner {
+  max-width: $maxWidth_lg;
+
+  @include bp(sm) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

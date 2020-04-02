@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+/* MovieTextVP ================================================== */
+.l-MovieTextVP {
+  &.is-smallViewHorizontalL {
+    .l-MovieTextVP__contentsBlock__movie {
+      @include bp(sm) {
+        padding-right: $MovieTextPack__separator--sm;
+      }
+    }
+  }
+  &.is-smallViewHorizontalR {
+    .l-MovieTextVP__contentsBlock__movie {
+      @include bp(sm) {
+        padding-left: $MovieTextPack__separator--sm;
+      }
+    }
+  }
+}

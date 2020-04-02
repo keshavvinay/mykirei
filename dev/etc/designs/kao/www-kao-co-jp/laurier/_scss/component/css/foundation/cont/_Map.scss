@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+
+/* Image ================================================== */
+.l-Map {
+}
+.l-Map__appLink {
+  @include fontSize(body);
+  @include link();
+}

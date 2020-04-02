@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+
+/* TileLinkHP ================================================== */
+.g-TileLinkHP {
+  box-sizing: border-box;
+  //font-size: 0;
+  &.is-background {
+    padding: $cmn_paddingInner;
+    
+    @include bp(lg) {
+      padding-top: $cmn_paddingInner - $cmn_marginItemGutter_lg/2;
+      padding-bottom: $cmn_paddingInner - $cmn_marginItemGutter_lg/2;
+    }
+    @include bp(md) {
+      padding-top: $cmn_paddingInner - $cmn_marginItemGutter_md/2;
+      padding-bottom: $cmn_paddingInner - $cmn_marginItemGutter_md/2;
+    }
+    @include bp(sm) {
+      padding-top: $cmn_paddingInner - $cmn_marginItemGutter_sm/2;
+      padding-bottom: $cmn_paddingInner - $cmn_marginItemGutter_sm/2;
+    }
+  }
+}
+
+.g-TileLinkHP__list {
+  @include gutterItemWrapper();
+  padding: 0;
+  list-style-type: none;
+  @include pie-clearfix;
+}
+
+.g-TileLinkHP__list__tile {
+  float: left;
+  //display: inline-block;
+  @include gutterItemInner();
+  vertical-align: top;
+  @include fontSize(body);
+}
+@include bp(sm) {
+  .g-TileLinkHP__list__tile-sm-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkHP__list__tile-sm-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkHP__list__tile-sm-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkHP__list__tile-sm-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkHP__list__tile-sm-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkHP__list__tile-sm-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(md) {
+  .g-TileLinkHP__list__tile-md-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkHP__list__tile-md-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkHP__list__tile-md-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkHP__list__tile-md-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkHP__list__tile-md-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkHP__list__tile-md-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(lg) {
+  .g-TileLinkHP__list__tile-lg-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkHP__list__tile-lg-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkHP__list__tile-lg-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkHP__list__tile-lg-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkHP__list__tile-lg-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkHP__list__tile-lg-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+
+/* TileLinkHUnit ================================================== */
+.g-TileLinkHUnit {
+  position: relative;
+  display: table;
+  width: 100%;
+  padding: $cmn_paddingInner;
+  box-sizing: border-box;
+  background-color: $cmn_colorGray_0;
+  @include areaLink();
+  border: 2px solid $cmn_colorGray_6;
+  text-decoration: none;
+  color: $colorFontBody;
+  @include bp(sm) {
+    &.is-smallViewVertical {
+      display: block;
+    }
+  }
+  &.is-background {
+    
+  }
+}
+
+.g-TileLinkHUnit__imageBlock {
+  display: table-cell;
+  vertical-align: top;
+  box-sizing: border-box;
+  .is-layoutL & {
+    padding-right: 16px;
+    @include bp(sm) {
+      padding-right: 12px;
+    }
+  }
+  .is-layoutR & {
+    padding-right: 24px;
+    @include bp(sm) {
+      padding-right: 20px;
+    }
+  }
+
+  @include bp(sm) {
+    .is-smallViewVertical & {
+      display: block;
+      padding-right: 0;
+    }
+    .is-smallViewVertical.is-layoutL & {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.g-TileLinkHUnit__leadBlock {
+  display: table-cell;
+  vertical-align: middle;
+  .is-layoutL & {
+    padding-right: 24px;
+    @include bp(sm) {
+      padding-right: 20px;
+    }
+  }
+  .is-layoutR & {
+    padding-right: 16px;
+    @include bp(sm) {
+      padding-right: 12px;
+    }
+  }
+
+  @include bp(sm) {
+    .is-smallViewVertical & {
+      display: block;
+      position: relative;
+      padding-right: 20px;
+      .g-TileLinkHUnit__icon {
+        right: 0;
+      }
+    }
+    .is-smallViewVertical.is-layoutR & {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.g-TileLinkHUnit__leadBlock__title {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.g-TileLinkHUnit__leadBlock__lead {
+}
+
+.g-TileLinkHUnit__leadBlock__tag {
+}
+
+.g-TileLinkHUnit__icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  margin-top: -.7em;
+}

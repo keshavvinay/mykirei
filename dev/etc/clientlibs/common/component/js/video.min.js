@@ -1,0 +1,1 @@
+!function(i,n){function o(){var i=$("video:not(.is-ignore--videojs)");i[0]&&i.each(function(){var i=$(this);i.addClass("video-js vjs-default-skin vjs-big-play-centered"),videojs(i.get(0),{fluid:!0},function(){})})}$(document).ready(function(){o()}),n.initAddedVideo=function(){o()}}(window,window.kaoAPI||(window.kaoAPI={}));

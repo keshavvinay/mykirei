@@ -1,0 +1,316 @@
+.hide_comments {
+    display: none;
+}
+
+.cjp-section.cjp-newsletter {
+
+    @media #{$tablet-only} {
+        margin: 0 auto;
+        width: 94%;
+    }
+
+    @media #{$phone-only} {
+        width: 93%;
+        margin: 30px auto 0;
+    }
+
+    input {
+        padding-left: 10px;
+
+        @media #{$desktop-md} {
+            padding-left: 5px;
+        }
+    }
+    .g-Section__inner.l-Section__inner {
+        padding: 0;
+
+        .g-HeadingTitle__p.l-HeadingTitle__p {
+            font-size: 24px;
+            line-height: 28px;
+
+            @media #{$tablet-only} {
+                font-size: 22px;
+                line-height: 20px;
+            }
+        }
+        .newsletter-form {
+            .form_row:nth-child(1) {
+                float: left;
+
+                @media #{$tablet-only} {
+                    float: none;
+                    padding-top: 20px;
+                }
+
+                @media #{$phone-only} {
+                    float: none;
+                    padding-top: 20px;
+                }
+            }
+            .form_row {
+               
+
+                @media #{$tablet-only} {
+                    float: none;
+                    padding-top: 20px;
+                }
+
+                @media #{$phone-only} {
+                    float: none;
+                    padding-top: 20px;
+                }
+
+            }
+
+            label {
+                font-size: 20px;
+                color: $text-color-primary;
+                display: block;
+            }
+
+            .form_leftcolmark {
+                display: none;
+            }
+
+            input[name="first_name"] {
+                width: 575px;
+                margin-right: 15px;
+                border-radius: 24px;
+                height: 40px;
+                border: 1px solid $text-color-blue;
+
+                @media #{$desktop-md} {
+                    width: 445px;
+                }
+
+                @media #{$tablet-only} {
+                    max-width: 945px;
+                    width: 98%;
+                    height: 33px;
+                }
+
+                @media #{$phone-only} {
+                    max-width: 585px;
+                    width: 97%;
+                    height: 33px;
+                }
+            }
+
+            input[name="email"] {
+                width: 575px;
+                border-radius: 20px;
+                height: 40px;
+                border: 1px solid $text-color-blue;
+
+                @media #{$desktop-md} {
+                    width: 445px;
+                }
+
+                @media #{$tablet-only} {
+                    max-width: 945px;
+                    width: 98%;
+                    height: 33px;
+                }
+                @media #{$phone-only} {
+                    max-width: 585px;
+                    width: 97%;
+                    height: 33px;
+                }
+            }
+
+            input[name="first_name"]:focus {
+                border-radius: 20px;
+                border: 1px dashed $text-color-blue;
+                outline: none;
+
+              
+            }
+            input[name="email"]:focus {
+                border-radius: 20px;
+                border: 1px dashed $text-color-blue;
+                outline: none;
+            }
+
+            .newsletter-agree-txt {
+                padding-top: 30px;
+                float: left;
+                width: 100%;
+                p {
+                   // max-width: 384px;
+                    height: 42px;
+                    width: 100%;
+                    line-height: 20px; 
+                    font-size: 16px;
+                    color: $text-color-secondary;
+
+                    @media #{$desktop-md} {
+                        max-width: unset;
+                    }
+                    a {
+                        color: $text-color-blue;
+                    }
+                }
+            }
+            .form_rightcol {
+                @media #{$phone-sm} {
+                    text-align: center;
+                }
+            }
+       
+        }
+    }
+
+    .form_button_submit {
+        width: 180px;
+        height: 40px;
+        border: 1px solid $text-color-blue;
+        border-radius: 24px;
+        background-color: $text-color-blue;
+        color: $text-color-white;
+        font-size: 16px;
+
+        @media #{$tablet-only} {
+            margin-right: 34px;
+            width: 165px;
+            height: 33px;
+        }
+
+        @media #{$phone-only} {
+            margin: 0 auto;
+            width: 165px;
+            height: 33px;
+            margin-bottom: 10px;
+            display: block;
+
+        }
+    }
+
+    .form_button_reset {
+        width: 180px;
+        height: 40px;
+        border: 1px solid $text-color-blue;
+        background: none;
+        border-radius: 24px;
+        background-color: $text-color-white;
+        color: $text-color-blue;
+        font-size: 16px;
+
+        @media #{$tablet-only} {
+            width: 165px;
+            height: 33px;
+        }
+        @media #{$phone-only} {
+            margin: 0 auto;
+            width: 165px;
+            height: 33px;
+            margin-bottom: 10px;
+            display: block;
+
+        }
+    }
+}
+
+.is-authorring {
+    .hide_comments {
+        display: block;
+    }
+
+    .cjp-section.cjp-newsletter {
+
+        width: 100% !important;
+        
+        .g-Section__inner.l-Section__inner {
+            padding: 0;
+    
+            .g-HeadingTitle__p.l-HeadingTitle__p {
+                font-size: 24px;
+                line-height: 28px;
+    
+                @media #{$tablet-only} {
+                    font-size: 22px;
+                    line-height: 20px;
+                }
+            }
+            .newsletter-form {
+                .form_row {
+                    float: none;
+    
+    
+                }
+    
+                label {
+                    font-size: 20px;
+                    color: $text-color-primary;
+                    display: block;
+                }
+    
+                .form_leftcolmark {
+                    display: block;
+                }
+    
+                input[name="first_name"] {
+                    width: 100% !important;
+                    margin-right: 0;
+                    border-radius: unset;
+                    height: 40px;
+                    border: 1px solid $text-color-blue;
+    
+                    @media #{$desktop-md} {
+                        width: 720px;
+                    }
+    
+                }
+    
+                input[name="email"] {
+                    width: 100% !important;
+                    border-radius: unset;
+                    height: unset;
+                    border: 1px solid $text-color-blue;
+                }
+
+    
+                .newsletter-agree-txt {
+                    padding-top: 0;
+                    float: none;
+                    width: 100%;
+                    p {
+                        max-width: unset;
+                        height: auto;
+                        width: 100%;
+                        line-height: unset; 
+                        font-size: 16px;
+                        color: $text-color-secondary;
+    
+                        a {
+                            color: $text-color-blue;
+                        }
+                    }
+                }
+           
+            }
+        }
+    
+        .form_button_submit {
+            width: 100% !important;
+            height: 40px;
+            border: 1px solid $text-color-blue;
+            border-radius: 24px;
+            background-color: $text-color-blue;
+            color: $text-color-white;
+            font-size: 16px;
+    
+
+        }
+    
+        .form_button_reset {
+            width: 100% !important;
+            height: auto;
+            border: none;
+            background: none;
+            border-radius: unset;
+            background-color: unset;
+            color: initial;
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+#area-Contents {
+    @media #{$desktop-md} {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.fade-out {
+	background: #9D9D9C 0% 0% no-repeat padding-box;
+    opacity: 0.45;
+}
+
+.text-color-blue-md {
+    @media #{$tablet-only}, #{$phone-only} {
+        color: $text-color-blue !important;
+    }    
+}
+
+/*--------------------- HEADING TITLE STYLES ----------------------*/
+
+h1 {
+    font-size: 34px !important;
+}
+
+h2 {
+    font-size: 30px !important;
+}
+
+h3 {
+    font-size: 24px !important;
+}
+
+/*---------------------------- TABLET -------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 32px !important;
+    }
+
+    h2 {
+        font-size: 26px !important;
+    }
+
+    h3 {
+        font-size: 22px !important;
+    }
+
+}
+
+/*------------------------- MOBILE ---------------------------------*/
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 28px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+    }
+}

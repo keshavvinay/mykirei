@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+/* HeadingTitle
+ ================================================== */
+.g-HeadingTitle {
+  position: relative;
+  margin-bottom: 12px;
+  &.is-link {
+    display: block;
+    text-decoration: none;
+    @include link();
+    @include areaLink();
+  }
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+  &.is-rightIcon {
+    padding-right: 1.5em;
+  }
+  &.is-layoutL {
+    .g-HeadingTitle__titleBlock__imageBox {
+      padding-right: 12px;
+    }
+  }
+  &.is-layoutR {
+    .g-HeadingTitle__titleBlock__imageBox {
+      padding-left: 12px;
+    }
+  }
+  :link {
+    text-decoration: none;
+  }
+  &.g-HeadingTitle--h2 {
+    border-bottom: 2px solid $cmn_colorGray_5;
+    margin-bottom: 18px;
+  }
+}
+
+.g-HeadingTitle__titleBlock {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.g-HeadingTitle__titleBlock__imageBox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.g-HeadingTitle__titleBlock__titleBox {
+  display: table-cell;
+  vertical-align: middle;
+  .g-Text {
+    .is-subTitleRight & {
+      display: inline-block;
+      vertical-align: baseline;
+    }
+  }
+}
+
+.g-HeadingTitle__titleBlock__titleBox__title {
+  margin-bottom: 8px;
+  .is-subTitleRight & {
+    display: inline-block;
+    margin-right: 8px;
+    @include bp(sm) {
+      display: block;
+    }
+  }
+
+  .opt-al_c & {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .opt-al_r & {
+    margin-left: auto;
+  }
+}
+
+.g-HeadingTitle__h2,
+.g-HeadingTitle__h3,
+.g-HeadingTitle__h4,
+.g-HeadingTitle__h5,
+.g-HeadingTitle__h6,
+.g-HeadingTitle__p {
+  margin: 0;
+}
+.g-HeadingTitle__h2 {
+  @include fontSize(lv2);
+  font-weight: bold;
+}
+.g-HeadingTitle__h3 {
+  @include fontSize(lv3);
+  font-weight: bold;
+}
+.g-HeadingTitle__h4 {
+  @include fontSize(lv4);
+  font-weight: bold;
+}
+.g-HeadingTitle__h5 {
+  @include fontSize(lv5);
+  font-weight: bold;
+}
+.g-HeadingTitle__h6 {
+  font-weight: bold;
+  @include fontSize(lv6);
+}
+.g-HeadingTitle__p {
+  @include fontSize(body);
+}
+
+.g-HeadingTitle__icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -.7em;
+}

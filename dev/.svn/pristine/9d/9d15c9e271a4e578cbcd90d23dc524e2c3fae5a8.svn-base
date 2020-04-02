@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-jp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 NOT FOUND</title>
+  <meta name="author" content="Copyright © Kao Corporation. All rights reserved." />
+  <!-- AEM CSS -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/lib.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/basic.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/basic.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/component.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/component.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/option.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/option.css" type="text/css">
+  <!-- /AEM CSS -->
+  <!-- AEM JS -->
+  <script type="text/javascript" src="/etc/clientlibs/common/lib.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/lib.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/basic.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/libs_kao/common/common-utils.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/common/component.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/component.js"></script>
+  <script type="text/javascript" src="/etc/designs/kao/www-kao-com/jp/ja/component.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/option.js"></script>
+  <script type="text/javascript" src="//fontplus.aem.kao.com/accessor/script/fontplus.js?EIr0inqzQsY%3D&amp;pm=1&amp;aa=1"></script>
+  <script type="text/javascript" src="/etc/clientlibs/libs_kao/common/page-component.js"></script>
+  <!-- /AEM JS -->
+
+</head>
+<body>
+<div>
+ <div id="menu">
+  <div class="js-menuHolder">
+   <div class="g-GlMenu">
+    <div class="g-GlMenu__utilityBlock">
+     <div class="g-GlMenuUtilityRegion">
+      <div class="g-GlMenuUtilityRegion__country">
+       <p> <span class="g-GlMenuUtilityRegion__country__lang">Global</span> <span class="g-GlMenuUtilityRegion__country__lang">English</span> </p>
+      </div>
+      <div class="g-GlMenuUtilityRegion__world">
+       <p><a href="//www.kao.com/global/en/worldwide/"><span class="kao-icon g-GlMenuUtilityRegion__world__icon"></span>Kao Worldwide</a></p>
+      </div>
+     </div>
+    </div>
+    <div class="g-GlMenu__buttonBlock">
+     <div class="g-GlMenuButtonLink">
+      <a href="#">Close<span class="kao-icon kao-icon--close g-GlMenuButtonLink__icon"></span></a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<div id="wrapper">
+        <noscript>
+            &lt;div class="noscript"&gt;To view this website correctly, please ensure you have &lt;span&gt;JavaScript enabled.&lt;/span&gt;&lt;br /&gt;Some of the website layout and links may not function properly with JavaScript disabled.&lt;/div&gt;
+        </noscript>
+
+<div>
+ <div class="g-Area" id="area-GlHeader">
+  <div class="g-GlHeader">
+   <div class="g-GlHeader__inner g-GlHeader__inner--global">
+    <div class="g-GlHeader__logoBlock">
+     <div class="g-GlHeaderLogo">
+      <a href="//www.kao.com/global/en/">
+        <img src="//www.kao.com/content/dam/sites/kao/inc-common/gl_header_logo_global.png" alt="kao">
+      </a>
+     </div>
+    </div>
+    <div class="g-GlHeader__utilityBlock">
+     <div class="g-GlHeaderUtilityRegion">
+      <div class="g-GlHeaderUtilityRegion__country">
+       <p> <span class="g-GlHeaderUtilityRegion__country__lang">Global</span> <span class="g-GlHeaderUtilityRegion__country__lang">English</span> </p>
+      </div>
+      <div class="g-GlHeaderUtilityRegion__world">
+       <p><a href="//www.kao.com/global/en/worldwide/"><span class="g-GlHeaderUtilityRegion__world__icon"></span>Kao Worldwide</a></p>
+      </div>
+     </div>
+    </div>
+    <div class="g-GlHeader__buttonBlock">
+     <div class="g-GlHeaderButtonLink g-GlHeaderButtonLink--global">
+      <a href="#">Open<span class="kao-icon kao-icon--menu g-GlHeaderButtonLink__icon"></span></a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div><!-- area-BrHeader -->
+<div class="g-Area" id="area-BrHeader">
+ <div class="g-BrHeaderPlaceholder l-BrHeaderPlaceholder">
+  <div class="g-BrHeader l-BrHeader corp-BrHeader" data-fixed-lg="false" data-fixed-md="false" data-fixed-sm="false">
+   <div class="g-BrHeaderCommon l-BrHeaderCommon">
+    <div class="g-BrHeaderCommon__logoBlock l-BrHeaderCommon__logoBlock is-lg-center is-lg-middle">
+     <div class="g-BrHeaderLogo l-BrHeaderLogo opt-lg-w100p opt-md-w100p opt-sm-w100p">
+      <div class="g-Image l-Image">
+ <div class="cq-dd-image"></div>
+</div>
+     </div>
+    </div>
+    <div class="g-BrHeaderCommon__navBlock l-BrHeaderCommon__navBlock">
+     <div class="g-BrHeaderNav__buttonBlock l-BrHeaderNav__buttonBlock">
+      <a href="#" aria-selected="false" aria-expanded="false" aria-hidden="true">MENU<span class="cmn-icon cmn-icon--down g-BrHeaderNavButton__icon l-BrHeaderNavButton__icon"></span></a>
+     </div>
+     <div class="g-BrHeaderNav__listBlock l-BrHeaderNav__listBlock" style="">
+      <ul class="g-BrHeaderNavList l-BrHeaderNavList js-uniformHeight" data-uniform-target="g-BrHeaderNavListLink">
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="//www.kao.com/global/en/about/" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink" style="height: 37px;"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">About the Kao Group<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="//www.kao.com/global/en/products/" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink" style="height: 37px;"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Products<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="//www.kao.com/global/en/research-development/" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink" style="height: 37px;"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Research &amp; Development<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="//www.kao.com/global/en/sustainability/" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink" style="height: 37px;"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Sustainability<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="//www.kao.com/global/en/investor-relations/" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink" style="height: 37px;"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Investor Relations<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="//www.kao.com/global/en/careers/" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink" style="height: 37px;"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Careers<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+       <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="//www.kao.com/global/en/news/" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink" style="height: 37px;"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">News Release<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span>
+       </a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div><!-- area-Contents -->
+<div class="g-Area" id="area-Contents">
+  <div class="g-Section l-Section is-paddingReset--topBottom" id="common_section_wrapper_1">
+ <div class="g-Section__inner l-Section__inner">
+  <div class="g-Column l-Column opt-mt80 opt-mb50 js-uniformHeight opt-sm-w100p opt-md-w80p opt-lg-w50p is-paddingReset" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit" style="height: auto;">
+ <div class="g-GroupBox l-GroupBox opt-lg-mb40 opt-sm-mb30 is-paddingReset">
+ <div class="g-HeadingTitle l-HeadingTitle opt-al_c is-paddingReset g-HeadingTitle--p l-HeadingTitle--p">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <p class="g-HeadingTitle__p l-HeadingTitle__p"><span class="cmn-richtext">
+      <span><span class="opt-fontsize--l">Page not found.</span><br>
+
+</span></span></p>
+   </div>
+  </div>
+ </div>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox opt-lg-mb50 opt-sm-mb40 is-paddingReset">
+ <div class="g-Text l-Text">
+ <p class="cmn-richtext">
+  <span>We're sorry. The page you requested cannot be found. Click on the link below to transfer to the new location.
+</span></p>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox corp-textLink-wrapper is-paddingReset">
+ <div class="opt-al_c corp-textLink opt-mb0--imp is-gutter--m g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//www.kao.com/global/en/" target="_self" id="common_text_link_unit_20171114184500407_Fdcs" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Kao Global - English
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//www.kao.com/jp/" target="_self" id="common_text_link_unit_20171114184500414_bgfC" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Japan - 日本語
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//www.kao.com/cn/" target="_self" id="common_text_link_unit_20171114184500421_JtJt" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>China - 简体中文
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//www.kao.com/tw/" target="_self" id="common_text_link_unit_20171114184500428_RKsu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Taiwan - 繁體中文
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//www.kao.com/th/" target="_self" id="common_text_link_unit_20171114184500435_EM5n" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Thailand - ไทย
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+</div>
+  </div>
+ </div>
+</div>
+ </div>
+</div>
+</div>
+<!-- / area-Contents -->
+<!-- area-BrFooter -->
+<div class="g-Area" id="area-BrFooter">
+ <div class="g-BrFooter l-BrFooter corp-BrFooter">
+  <div class="g-BrFooter__inner l-BrFooter__inner">
+   <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+    <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+     <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+      <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-1 g-BrFooterSitemap__list__tile-md-1 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel" style="height: auto;">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="g-BrFooter__infoBlock l-BrFooter__infoBlock">
+    <div>
+ <div class="corp-BrFooter__inner">
+  <ul class="corp-BrFooter__links">
+   <li class="corp-BrFooter__links__item"> <a class="corp-BrFooter__links__link" href="//www.kao.com/global/en/about/">About the Kao Group</a> </li>
+   <li class="corp-BrFooter__links__item"> <a class="corp-BrFooter__links__link" href="//www.kao.com/global/en/products/">Products</a> </li>
+   <li class="corp-BrFooter__links__item"> <a class="corp-BrFooter__links__link" href="//www.kao.com/global/en/research-development/">Research &amp; Development</a> </li>
+   <li class="corp-BrFooter__links__item"> <a class="corp-BrFooter__links__link" href="//www.kao.com/global/en/sustainability/">Sustainability</a> </li>
+   <li class="corp-BrFooter__links__item"> <a class="corp-BrFooter__links__link" href="//www.kao.com/global/en/investor-relations/">Investor Relations</a></li>
+   <li class="corp-BrFooter__links__item"> <a class="corp-BrFooter__links__link" href="//www.kao.com/global/en/careers/">Careers</a> </li>
+   <li class="corp-BrFooter__links__item"> <a class="corp-BrFooter__links__link" href="//www.kao.com/global/en/news/">News Release</a> </li>
+  </ul>
+ </div>
+</div>
+
+   </div>
+  </div>
+ </div>
+</div><!-- / area-BrFooter -->
+<div>
+ <div class="g-Area" id="area-GlFooter">
+  <div class="g-GlFooter">
+   <div class="g-GlFooterTop">
+    <!-- Column -->
+    <div class="g-GlFooterColumn is-marginReset">
+     <div class="g-GlFooterColumn__inner">
+      <ul class="g-footerLinks is-oneLine js-uniformHeight" data-uniform-target="g-footerLinks__item">
+       <li class="g-footerLinks__item" style="height: 16px;"><a href="//www.kao.com/global/en/">Kao Global Site</a></li>
+       <li class="g-footerLinks__item" style="height: 16px;"><a href="//www.kao.com/global/en/who-we-are/">Who We Are</a></li>
+       <li class="g-footerLinks__item" style="height: 16px;"><a href="//www.kao.com/global/en/terms-of-use/">Legal Statement</a></li>
+       <li class="g-footerLinks__item" style="height: 16px;"><a href="//www.kao.com/global/en/privacy/">Privacy Policy</a></li>
+      </ul>
+     </div>
+    </div>
+    <!-- / Column -->
+   </div>
+   <div class="g-GlFooterBottom">
+    <p class="g-GlFooterBottom__copyright">Copyright © Kao Corporation. All rights reserved.</p>
+    <p class="g-GlFooterBottom__logo"><a href="//www.kao.com/global/en/"><img src="//www.kao.com/content/dam/sites/kao/inc-common/gl_footer_group_logo.png" alt="KAO Group"></a></p>
+   </div>
+  </div>
+ </div>
+</div></div>
+    <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+<style>
+    .s7responsiveImage{ width: 100% }
+</style>
+<script>
+  $(document).ready(function() {
+    $(".s7responsiveContainer img").each(function(index) {
+      s7responsiveImage(this);
+    });
+    $(".s7responsiveImage").each(function(index) {
+      s7responsiveImage(this);
+    });
+  });
+</script>
+<!-- area-PageTop -->
+    <div class="g-Area" id="area-PageTop" style="display: none;">
+      <div class="g-PageTop l-PageTop">
+        <a class="g-PageTop__link l-PageTop__link" href="#wrapper">Page Top<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+      </div>
+    </div>
+    <!-- / area-PageTop -->
+
+    <!-- breakpoint -->
+    <div id="js-breakpoint--lg"></div>
+    <div id="js-breakpoint--md"></div>
+    <div id="js-breakpoint--sm"></div>
+
+<div class="g-overlay l-overlay js-overlay">
+  <div class="g-modal l-modal">
+    <div class="g-modal__close l-modal__close">
+      <a href="javascript:void(0);" class="g-modal__close__link l-modal__close__link js-closeModal">
+        <span class="cmn-icon cmn-icon--close g-modal__close__icon l-g-modal__close__icon"></span>
+      </a>
+    </div>
+    <div class="g-modal__inner l-modal__inner js-modalInner">
+    </div>
+  </div>
+</div>
+</body>
+</html>

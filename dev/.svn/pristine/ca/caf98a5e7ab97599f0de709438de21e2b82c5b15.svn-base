@@ -1,0 +1,14 @@
+.g-TileLinkVP {
+    .g-Image {
+        img {
+            margin: 0 auto;
+        }
+    }
+    .g-TileLinkVUnit__leadBlock {
+        padding-right: 0;
+    }
+    
+    a.g-TileLinkVUnit{
+            padding: 0.625rem;
+    }
+}

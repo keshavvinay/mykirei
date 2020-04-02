@@ -1,0 +1,47 @@
+//Accordion menu style
+.g-AccordionMenu{
+    .g-AccordionMenu__item{
+        margin-bottom: 1.5rem;
+    }
+    .g-AccordionUnit__titleBlock{
+        outline: 0;
+        padding-left: 2rem;
+        
+        &:before{
+            content: "\ea3c";
+            font-family: icomoon;
+            position: absolute;
+            left: 0;
+            top: 8px;
+            color: $primary;
+            font-size: $font-lg;
+        }
+        
+        &:hover:before{
+            color: #333333;
+        }
+    }
+    
+    .is-radius--open{
+        .g-AccordionUnit__titleBlock:before{
+            color: #333333;
+            transform: rotate(90deg);
+        }
+    }
+    
+    .g-HeadingTitle .cmn-richtext{
+        font-weight: $wt700;
+        letter-spacing: 0.1rem;
+    }
+    
+    .g-AccordionUnit__contentBlock{
+        padding-left: 0;
+        .g-Text{
+            font-size: $font-20;
+        }
+    }
+    
+    @media(max-width: $break-sm){
+        padding-left: 0 !important;
+    }
+}

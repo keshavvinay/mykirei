@@ -1,0 +1,358 @@
+@charset "utf-8";
+
+.c370__section {
+  .l-Section__inner {
+    @include bp(sm) {
+      padding-left: 0;
+      padding-right: 0;
+    };
+  }
+}
+
+/* C370 Facebook Post Item */
+.c370 {
+  &.is-colorset--1 .l-FacebookPostUnit {
+    border-style: none;
+    @include bp(lg) {
+      width: 100%;
+      margin-left: auto;
+    };
+    @include bp(md) {
+      margin: 0 auto;
+    };
+    @include bp(sm) {
+      padding-left: 15px;
+      padding-right: 15px;
+    };
+  }
+  &.is-layoutL .l-FacebookPost__imageBlock {
+    margin-bottom: 18px;
+    padding-right: 0;
+    @include bp(md) {
+      margin-bottom: 26px;
+    };
+    @include bp(sm) {
+      margin-bottom: 30px;
+    };
+  }
+  &.is-media-w50--lg {
+    .l-FacebookPost__imageBlock {
+	  @include bp(lg) {
+        width: 50%;
+	  };
+    }
+    .l-FacebookPost__textBlock {
+      @include bp(lg) {
+        float: none;
+      };
+    }
+  }
+  .l-FacebookPost__contentsBlock {
+    position: relative;
+  }
+  .l-FacebookPost__textBlock {
+    @include bp(sm) {
+      margin: 0 auto !important;
+      width: 83.3% !important;
+    };
+	@include bp(md) {
+      width: 40% !important;
+    };
+  }
+
+  // image block
+  .l-FacebookPost__imageBlock__inner {
+    @include bp(lg) {
+      margin-left: 0;
+    }
+    @include bp(md) {
+      margin-left: auto;
+    }
+  }
+
+  // text block
+  .l-FacebookPost__textBlock {
+    @include bp(lg) {
+      position: absolute;
+	  top: 50%;
+      width: 45%;
+	  padding: 0;
+    };
+    @include bp(sm) {
+      position: relative;
+    };
+    
+  }
+
+  // body
+  .l-FacebookPost__textBlock__message {
+    margin-bottom: 27px;
+    @include bp(md) {
+      width: 70%;
+      margin-bottom: 20px;
+    };
+    @include bp(sm) {
+      margin-bottom: 18px;
+    };
+  }
+  .l-FacebookPost__textBlock__message__text,
+  .l-FacebookPost__textBlock__message__info,
+  .l-FacebookPost__sharedBlock__title {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(longcopy);
+    color: #000 !important;
+    a {
+      color: #fe5000 !important;
+      text-decoration: none;
+      &:hover, &:visited {
+        color: #fe5000 !important;
+      }
+    }
+  }
+
+  // date text
+  .l-FacebookPost__textBlock__date {
+    @include kms-fontFamily(body);
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 26px;
+    color: #d9d9d9;
+    @include bp(md) {
+      margin-bottom: 20px;
+    };
+    @include bp(sm) {
+      margin-bottom: 20px;
+      font-size: 16px;
+    line-height: 18px;
+    };
+  }
+
+  // visit link
+  .l-FacebookPost__textBlock {
+    .l-FacebookPost__textBlock__visit {
+      @include bp(sm) {
+        display: block !important;
+        right: -11%;
+        top: 2px;
+      };
+    }
+  }
+  .l-FacebookPost__textBlock__visit {
+    line-height: 0;
+    position: absolute;
+    right: 30px;
+    top: -2px;
+    @include bp(lg) {
+      .l-FacebookPost__textBlock__visit__link {
+        line-height: 24px;
+      }
+    };
+    @include bp(sm) {
+      display: none;
+    };
+  }
+  .l-FacebookPost__textBlock__visit__link {
+    position: relative;
+    padding: 0 25px 0 0;
+    @include kms-fontFamily(subTitle);
+    font-size: 18px;
+    line-height: 20px;
+    
+      @include bp(md) {
+        font-size: 18px;
+        line-height: 20px;
+        top: 2px;
+      };
+      @include bp(sm) {
+        font-size: 16px;
+        line-height: 18px;
+        top: -2px;
+        right: -7px;
+      };
+    text-transform: uppercase;
+    color: #d9d9d9 !important;
+    &:after {
+      font-family: 'kms';
+      font-size: 16px;
+      @include bp(md) {
+        font-size: 20px;
+      };
+      @include bp(sm) {
+        font-size: 20px;
+      };
+      content: "\e901";
+      display: block;
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      transform: translateY(-60%);
+    }
+      &:hover:after{
+          color: #fe5000;
+      }
+    .l-FacebookPost__textBlock__visit__icon {
+      display: none;
+    }
+  }
+
+  .visited__media .l-FacebookPost__textBlock__listItem__icon,
+  .visited__media .l-FacebookPost__textBlock__listItem__label{
+    color: #fe5000 !important;
+  }
+  // share
+  .l-FacebookPost__textBlock__listItem {
+    margin-right: 20px;
+  }
+  .l-FacebookPost__textBlock__listItem__icon {
+    color: #d9d9d9 !important;
+    font-size: 16px !important;
+    padding-bottom: 2px;
+    @include bp(md) {
+      padding-bottom: 5px;
+      font-size: 20px !important;
+    };
+    @include bp(sm) {
+      padding-bottom: 5px;
+      font-size: 20px !important;
+    };
+  }
+  .l-FacebookPost__textBlock__listItem__label {
+    color: #d9d9d9;
+    padding-left: 27px;
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(longcopy);
+  }
+  .l-FacebookPost__textBlock__listItem:first-child {
+    .l-FacebookPost__textBlock__listItem__label {
+      padding-left: 27px;
+    }
+  }
+  .l-FacebookPost__textBlock__listItem--share {
+    .l-FacebookPost__textBlock__listItem__label {
+      display: none;
+    }
+  }
+  .cmn-icon {
+    @extend .kms-icon;
+  }
+  .cmn-icon--comment.l-FacebookPost__textBlock__listItem__icon {
+    @extend .kms-icon--comment1;
+  }
+  .cmn-icon--thumbs_up.l-FacebookPost__textBlock__listItem__icon {
+    @extend .kms-icon--thumbs_up;
+  }
+  .cmn-icon--share.l-FacebookPost__textBlock__listItem__icon {
+    margin-top: -7px;
+    @extend .kms-icon--share;
+  }
+
+    .l-FacebookPost__textBlock__listItem__icon:hover{
+        color: #fe5000 !important;
+    }
+  // no media post
+  .l-FacebookPostUnit.is-none-media {
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #e4e2db;
+    .l-FacebookPost__textBlock {
+      @include bp(lg) {
+        padding-right: 0 !important;
+      };
+    }
+    .l-FacebookPost__textBlock__message {
+      @include bp(sm) {
+        width: 100%;
+      };
+    }
+
+    .l-FacebookPost__textBlock__date {
+      margin-bottom: 20px;
+    }
+
+    .l-FacebookPost__textBlock__date,
+    .l-FacebookPost__textBlock__listItem__icon:before,
+    .l-FacebookPost__textBlock__listItem__label {
+      color: #fff !important;
+    }
+    .l-FacebookPost__textBlock__visit__link,
+    .l-FacebookPost__textBlock__visit__icon {
+      color: #fff !important;
+    }
+  }
+
+  // share post
+  .is-sharepost {
+    .is-media-w50--lg .l-FacebookPost__textBlock {
+      padding-right: 0;
+    }
+    .l-FacebookPost__textBlock__visit {
+      @include bp(md) {
+        top: 5px;
+      };
+    }
+    .l-FacebookPost__sharedBlock__text {
+      @include kms-fontFamily(body);
+      @include kms-fontSize(longcopy);
+    }
+  }
+
+  // trim text
+  .l-FacebookPost__textBlock__message__text {
+    $line-height: 26px;
+    $lines-to-show: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: $line-height * $lines-to-show;
+    -webkit-line-clamp: $lines-to-show;
+    -webkit-box-orient: vertical;
+  }
+  .l-FacebookPost__sharedBlock__text {
+    $font-size: 1.142rem;
+    $line-height: 26px;
+    $lines-to-show: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: $line-height * $lines-to-show;
+    -webkit-line-clamp: $lines-to-show;
+    -webkit-box-orient: vertical;
+  }
+  // IE11 hack
+  @media all and (-ms-high-contrast:none) {
+    *::-ms-backdrop, .l-FacebookPost__textBlock__message__text, .l-FacebookPost__sharedBlock__text {
+      max-height: none;
+      overflow: inherit;
+    }
+  }
+}
+
+.c370.is-layoutR {
+	.l-FacebookPost__textBlock {
+        @include bp(lg) {
+          left: 30px !important;
+		  right: auto !important;
+		  width: 40% !important;
+        };
+    }
+	.l-FacebookPost__textBlock__visit {
+        @include bp(md) {
+		  right: 60% !important;
+        };
+    }
+}
+.c370.is-layoutL {
+    .l-FacebookPost__textBlock {
+        @include bp(lg) {
+          right: 0 !important;
+		  left: auto !important;
+		  width: 40% !important;
+        };
+    }
+	.l-FacebookPost__textBlock__visit {
+        @include bp(md) {
+		  right: 30px !important;
+        };
+    }
+}
+

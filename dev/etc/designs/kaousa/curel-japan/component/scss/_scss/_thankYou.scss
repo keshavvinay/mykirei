@@ -1,0 +1,30 @@
+.bck-home-btn {
+    li {
+        width: 100%;
+
+        >div {
+            width: 180px;
+            margin: 0 auto;
+            height: 40px;
+
+            @media #{$tablet-only} {
+                width: 165px;
+                height: 33px;
+            }
+
+            @media #{$phone-only} {
+                width: 165px;
+                height: 33px;
+            }
+
+            a {
+                height: auto;
+                border: 1px solid $text-color-blue;
+                background-color: $text-color-blue !important;
+                color: $text-color-white !important;
+                border-radius: 24px;
+            }
+        }
+    }
+
+}

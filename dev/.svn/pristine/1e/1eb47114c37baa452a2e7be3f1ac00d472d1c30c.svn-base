@@ -1,0 +1,97 @@
+.cq-Overlay {
+  margin: 0 !important;
+  border: 0 none !important;
+  color: #4a4a4a !important;
+  outline: solid 0 #4178cd;
+}
+
+.cq-Overlay--placeholder {
+  background-color: #eee;
+  border: dotted 1px #999 !important;
+  box-sizing: border-box;
+}
+
+.cq-Overlay.is-hover {
+  outline-width: 1px;
+}
+
+.cq-Overlay.is-active, .cq-Overlay.is-selected {
+  outline-width: .125rem;
+}
+
+/* Placeholder Icon */
+.cq-Overlay--placeholder[data-path*="common_image_item"]:before,
+.cq-Overlay--placeholder[data-path*="/image"]:before,
+.cq-Overlay--placeholder[data-path*="/logo"]:before {
+  padding-left: 22px;
+  background-image: url(../img/image_placeholder@2x.png);
+  background-position: 2px 1.15em;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}
+.cq-Overlay--placeholder[data-path*="/title"]:before ,
+.cq-Overlay--placeholder[data-path*="/text"]:before {
+  padding-left: 22px;
+  background-image: url(../img/text_placeholder@2x.png);
+  background-position: 2px 1.15em;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}
+
+/* Content finder */
+.sidepanel .components.grid .card-component > a[class^="card-"] {
+  padding-top: 0;
+  display: table;
+  table-layout: fixed;
+}
+
+.sidepanel .components.grid .card-component > a > div.card-component-icon {
+  float: none;
+  display: table-cell;
+  width: 28px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 10px;
+  background-color: #fff;
+}
+.sidepanel .components.grid .card-component > a > div.card-component-icon img {
+  width: 28px;
+  height: auto;
+  display: inline;
+}
+.sidepanel .components.grid .card-component > a > div.label {
+  display: table-cell;
+  width: auto;
+  vertical-align: middle;
+  padding: 6px 10px 8px 0;
+}
+.sidepanel .components.grid .card-component > a > div.label em {
+  display: inline-block;
+  padding: 0;
+}
+.sidepanel .components.grid .card-component > a > div.label h4 {
+  padding: 0;
+  font-size: 1rem;
+}
+
+/** in-place editor **/
+.coral-RichText-ui ul.coral-RichText-toolbar-list--checkable li button {
+  padding-right: 20px;
+}
+.coral-RichText-ui ul.coral-RichText-toolbar-list--checkable li button span {
+  width: auto;
+}
+.coral-RichText-ui ul.coral-RichText-toolbar-list--checkable li button i {
+  margin-left: 10px;
+}
+
+/** 最後の Drop zone を非表示に **/
+.cq-Overlay.cq-Overlay--component.cq-droptarget.cq-Overlay--placeholder[data-path$="pagepar/*"] {
+  display: none;
+}
+
+/* Image Item caption placeholder */
+.cq-Overlay--placeholder[data-path*="/image"][title="Image"],
+.cq-Overlay--placeholder[data-path*="/common_image_item"][title="Image Item"] {
+  background-color: transparent; /* caption が見えなくなるので背景を透明に */
+}

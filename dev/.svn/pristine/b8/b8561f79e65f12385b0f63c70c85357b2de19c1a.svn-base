@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>_template</title>
+</head>
+<body>
+<div>
+  <!-- G_CON_002: Heading Title Item -->
+  <script id="tmpl-HeadingTitle--Typical" type="text/x-jquery-tmpl">
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  </script>
+
+  <!-- G_CON_002: Heading Title Item only H2-->
+  <script id="tmpl-HeadingTitle--onlyH2" type="text/x-jquery-tmpl">
+    <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2">
+      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+              <span class="cmn-richtext">
+                <span>Title Richtext</span>
+              </span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <!-- G_CON_002: Heading Title Item H3-->
+  <script id="tmpl-HeadingTitle--H3" type="text/x-jquery-tmpl">
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  </script>
+
+  <!-- G_CON_002: Heading Title Item only H3-->
+  <script id="tmpl-HeadingTitle--onlyH3" type="text/x-jquery-tmpl">
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  </script>
+
+  <!-- G_CON_002: Heading Title Item H4-->
+  <script id="tmpl-HeadingTitle--H4" type="text/x-jquery-tmpl">
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h4 l-HeadingTitle--h4 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h4>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  </script>
+
+  <!-- G_CON_003: Text Item -->
+  <script id="tmpl-Text--Typical" type="text/x-jquery-tmpl">
+  <div class="g-Text l-Text">
+    <p class="cmn-richtext">
+      <span>Text Richtext Text Richtext Text Richtext Text Richtext</span>
+    </p>
+  </div>
+  </script>
+
+  <!-- G_CON_004: Image Item -->
+  <script id="tmpl-Image--Typical" type="text/x-jquery-tmpl">
+  <div class="g-Image l-Image">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+  </script>
+
+  <!-- G_CON_004: Image Item -->
+  <script id="tmpl-Image--LinkStandard" type="text/x-jquery-tmpl">
+  <a class="g-Image l-Image is-link">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+  </script>
+
+  <!-- G_CON_004: Image Item -->
+  <script id="tmpl-Image--LinkOnlyImage" type="text/x-jquery-tmpl">
+  <a class="g-Image l-Image is-link">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+  </a>
+  </script>
+
+  <!-- I040: Movie Item -->
+  <script id="tmpl-Movie--Typical" type="text/x-jquery-tmpl">
+  <div class="g-Movie l-Movie">
+    <div class="g-Movie__iframe l-Movie__iframe">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/movkmQX1_dI?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="g-Movie__caption l-Movie__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+  </script>
+
+  <!-- I050: Link/Button Item -->
+  <script id="tmpl-LinkButton--Typical" type="text/x-jquery-tmpl">
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!--  TextLinkUnit -->
+  <script id="tmpl-TextLinkUnit--Typical" type="text/x-jquery-tmpl">
+  <div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+    <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Text Link Unit Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!--  TextLinkUnit1 -->
+  <script id="tmpl-TextLinkUnit--Text1" type="text/x-jquery-tmpl">
+  <div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+    <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Text Link Unit Richtext　テキストリンクのラベル1（長めのテキスト）</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!--  TextLinkUnit2 -->
+  <script id="tmpl-TextLinkUnit--Text2" type="text/x-jquery-tmpl">
+  <div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+    <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Text Link Unit Richtext　テキストリンクのラベル2</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!--  TextLinkUnit3 -->
+  <script id="tmpl-TextLinkUnit--Text3" type="text/x-jquery-tmpl">
+  <div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+    <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Text Link Unit Richtext テキストリンクラベル3</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!--  TextLinkUnit4 -->
+  <script id="tmpl-TextLinkUnit--Text4" type="text/x-jquery-tmpl">
+  <div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+    <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Text Link Unit Richtext テキストリンク4</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!-- G_CON_008: List Pack -->
+  <script id="tmpl-ListP--Style_dot" type="text/x-jquery-tmpl">
+  <div class="g-ListP l-ListP is-dot">
+    <ul class="g-ListP__ul l-ListP__ul">
+      <li class="g-ListP__ul__item l-ListP__ul__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ul__item l-ListP__ul__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ul>
+  </div>
+  </script>
+
+  <!-- I090: HR Item -->
+  <script id="tmpl-Hr--Typical" type="text/x-jquery-tmpl">
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+  </script>
+
+  <!-- G_CON_009: Annotation List Pack -->
+  <!-- AnnotationListUnit -->
+  <script id="tmpl-AnnotationListUnit--Typical" type="text/x-jquery-tmpl">
+  <div class="g-AnnotationListUnit l-AnnotationListUnit">
+    <span class="g-AnnotationListUnit__symbol l-AnnotationListUnit__symbol">*</span>
+    <span class="cmn-richtext">
+      <span>Annotation List items Richtext</span>
+    </span>
+  </div>
+  </script>
+
+  <!-- G_CON_029: Definition List Pack -->
+  <script id="tmpl-DefListP--Typical" type="text/x-jquery-tmpl">
+  <div class="g-DefListP l-DefListP js-uniformWidth" data-uniform-target="g-DefListUnit__label__inner">
+    <dl class="g-DefListUnit l-DefListUnit">
+      <dt class="g-DefListUnit__label l-DefListUnit__label">
+        <div class="g-DefListUnit__label__inner">
+          <span class="cmn-richtext">
+            Label text Label text
+          </span>
+        </div>
+      </dt>
+      <dd class="g-DefListUnit__item l-DefListUnit__item">
+        Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext
+      </dd>
+    </dl>
+    <dl class="g-DefListUnit l-DefListUnit">
+      <dt class="g-DefListUnit__label l-DefListUnit__label">
+        <div class="g-DefListUnit__label__inner">
+          <span class="cmn-richtext">
+            Label text Label text
+          </span>
+        </div>
+      </dt>
+      <dd class="g-DefListUnit__item l-DefListUnit__item">
+        Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext
+      </dd>
+    </dl>
+  </div>
+  </script>
+
+  <!-- G_CON_006: Label Tag Pack -->
+  <!-- LabelTagUnit -->
+  <script id="tmpl-LabelTagUnit--Typical" type="text/x-jquery-tmpl">
+  <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+    <span class="cmn-richtext">
+      <span>LabelTag items Richtext</span>
+    </span>
+  </span>
+  </script>
+
+  <!-- G_CON_015: Tile Link Pack (Vertical) -->
+  <!-- TileLinkVUnit -->
+  <script id="tmpl-TileLinkVUnit--Typical" type="text/x-jquery-tmpl">
+  <a class="g-TileLinkVUnit l-TileLinkVUnit is-layoutT is-colorset--1" href="" target="">
+    <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+      <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-sm-w100p opt-md-w100p opt-lg-w100p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+
+      <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+          <!-- G_CON_003: Text Item -->
+          <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+          <!-- / G_CON_003: Text Item -->
+        </div>
+
+        <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+          <!-- G_CON_003: Text Item -->
+          <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+          <!-- / G_CON_003: Text Item -->
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+
+      </div>
+    </div>
+  </a>
+  </script>
+
+  <!-- G_CON_016: Tile Link Pack (Horizontal) -->
+  <!-- TileLinkHUnit -->
+  <script id="tmpl-TileLinkHUnit--Typical" type="text/x-jquery-tmpl">
+  <a class="g-TileLinkHUnit l-TileLinkHUnit is-layoutL is-colorset--1" href="" target="">
+    <div class="g-TileLinkHUnit__inner l-TileLinkHUnit__inner">
+      <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-sm-w50p opt-md-w50p opt-lg-w50p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+
+      <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+        <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+          <!-- G_CON_003: Text Item -->
+          <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+          <!-- / G_CON_003: Text Item -->
+        </div>
+
+        <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+          <!-- G_CON_003: Text Item -->
+          <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+          <!-- / G_CON_003: Text Item -->
+        </div>
+
+        <span class="cmn-icon cmn-icon--bullet g-TileLinkHUnit__icon l-TileLinkHUnit__icon"></span>
+      </div>
+    </div>
+  </a>
+  </script>
+
+  <!-- G_CON_017: Tile Link Pack (Text) -->
+  <!-- TileLinkTextUnit -->
+  <script id="tmpl-TileLinkTextUnit--Typical" type="text/x-jquery-tmpl">
+  <a class="g-TileLinkTextUnit l-TileLinkTextUnit is-colorset--1" href="" target="">
+
+    <div class="g-TileLinkTextUnit__leadBlock l-TileLinkTextUnit__leadBlock">
+
+      <div class="g-TileLinkTextUnit__leadBlock__title l-TileLinkTextUnit__leadBlock__title">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+
+      <div class="g-TileLinkTextUnit__leadBlock__lead l-TileLinkTextUnit__leadBlock__lead">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+
+      <span class="cmn-icon cmn-icon--bullet g-TileLinkTextUnit__icon l-TileLinkTextUnit__icon"></span>
+
+    </div>
+  </a>
+  </script>
+
+  <!-- G_CON_014: Links Buttons Pack -->
+  <script id="tmpl-LinksButtonsP--Typical" type="text/x-jquery-tmpl">
+  <div class="g-LinksButtonsP l-LinksButtonsP js-uniformHeight" data-uniform-target="g-LinksButtonsP__list__item">
+    <ul class="g-LinksButtonsP__list l-LinksButtonsP__list">
+
+      <li class="g-LinksButtonsP__list__item l-LinksButtonsP__list__item g-LinksButtonsP__list__item-lg-3 g-LinksButtonsP__list__item-md-2 g-LinksButtonsP__list__item-sm-1">
+        <!-- LinkButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="LinkButton--Typical"></div>
+        <!-- / LinkButtonUnit -->
+      </li>
+
+      <li class="g-LinksButtonsP__list__item l-LinksButtonsP__list__item g-LinksButtonsP__list__item-lg-3 g-LinksButtonsP__list__item-md-2 g-LinksButtonsP__list__item-sm-1">
+        <!-- LinkButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="LinkButton--Typical"></div>
+        <!-- / LinkButtonUnit -->
+      </li>
+
+      <li class="g-LinksButtonsP__list__item l-LinksButtonsP__list__item g-LinksButtonsP__list__item-lg-3 g-LinksButtonsP__list__item-md-2 g-LinksButtonsP__list__item-sm-1">
+        <!-- LinkButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="LinkButton--Typical"></div>
+        <!-- / LinkButtonUnit -->
+      </li>
+
+      <li class="g-LinksButtonsP__list__item l-LinksButtonsP__list__item g-LinksButtonsP__list__item-lg-3 g-LinksButtonsP__list__item-md-2 g-LinksButtonsP__list__item-sm-1">
+        <!-- LinkButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="LinkButton--Typical"></div>
+        <!-- / LinkButtonUnit -->
+      </li>
+
+      <li class="g-LinksButtonsP__list__item l-LinksButtonsP__list__item g-LinksButtonsP__list__item-lg-3 g-LinksButtonsP__list__item-md-2 g-LinksButtonsP__list__item-sm-1">
+        <!-- LinkButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="LinkButton--Typical"></div>
+        <!-- / LinkButtonUnit -->
+      </li>
+
+    </ul>
+  </div>
+  </script>
+
+
+  <!-- G_CON_011: Text Link Pack(default) -->
+  <script id="tmpl-TextLinkP--Typical" type="text/x-jquery-tmpl">
+  <div class="g-TextLinkP l-TextLinkP">
+    <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+      <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+        <!-- TextLinkUnit -->
+        <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+        <!-- / TextLinkUnit -->
+      </li>
+
+    </ul>
+  </div>
+  </script>
+
+
+  <!-- G_CON_011: Text Link Pack4 -->
+  <script id="tmpl-TextLinkP4--Typical" type="text/x-jquery-tmpl">
+  <div class="g-TextLinkP l-TextLinkP">
+    <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+      <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+        <!-- TextLinkUnit -->
+        <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+        <!-- / TextLinkUnit -->
+      </li>
+
+      <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+        <!-- TextLinkUnit -->
+        <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+        <!-- / TextLinkUnit -->
+      </li>
+
+      <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+        <!-- TextLinkUnit -->
+        <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+        <!-- / TextLinkUnit -->
+      </li>
+
+      <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+        <!-- TextLinkUnit -->
+        <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+        <!-- / TextLinkUnit -->
+      </li>
+    </ul>
+  </div>
+  </script>
+
+  <!-- G_CON_011: Text Link Pack pageTop -->
+  <script id="tmpl-TextLinkP--pageTop" type="text/x-jquery-tmpl">
+    <div class="opt-al_r g-TextLinkP l-TextLinkP">
+      <ul class="g-TextLinkP__list l-TextLinkP__list">
+        <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+          <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m is-leftIcon">
+            <a href="#wrapper" target="_self" id="common_text_link_unit_20160316170131601_ZZAQ" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink">
+              <span class="cmn-richtext">
+                <span>ページの先頭へ戻る</span>
+              </span>
+              <span class="cmn-icon cmn-icon--to_top g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </script>
+
+
+  <!-- Button Unit -->
+  <script id="tmpl-Button--Typical" type="text/x-jquery-tmpl">
+  <div class="g-ButtonUnit l-ButtonUnit is-size--m is-rightIcon is-colorset--1">
+    <a class="g-ButtonUnit__link l-ButtonUnit__link" href="" target="">
+      <span class="cmn-richtext">
+        <span>Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-ButtonUnit__link__icon l-ButtonUnit__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!-- Button Unit(Color7) -->
+  <script id="tmpl-Button--Color7" type="text/x-jquery-tmpl">
+  <div class="g-ButtonUnit l-ButtonUnit is-size--m is-rightIcon is-colorset--7">
+    <a class="g-ButtonUnit__link l-ButtonUnit__link" href="" target="">
+      <span class="cmn-richtext">
+        <span>Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-ButtonUnit__link__icon l-ButtonUnit__link__icon"></span>
+    </a>
+  </div>
+  </script>
+
+  <!-- G_CON_012: Button Pack(Default) -->
+  <script id="tmpl-ButtonP--Typical" type="text/x-jquery-tmpl">
+  <div class="g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+    <ul class="g-ButtonP__list l-ButtonP__list">
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="Button--Typical"></div>
+        <!-- / ButtonUnit -->
+      </li>
+
+    </ul>
+  </div>
+  </script>
+
+
+  <!-- G_CON_012: Button Pack4 -->
+  <script id="tmpl-ButtonP4--Typical" type="text/x-jquery-tmpl">
+  <div class="g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+    <ul class="g-ButtonP__list l-ButtonP__list">
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="Button--Typical"></div>
+        <!-- / ButtonUnit -->
+      </li>
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="Button--Typical"></div>
+        <!-- / ButtonUnit -->
+      </li>
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="Button--Typical"></div>
+        <!-- / ButtonUnit -->
+      </li>
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="Button--Typical"></div>
+        <!-- / ButtonUnit -->
+      </li>
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="Button--Typical"></div>
+        <!-- / ButtonUnit -->
+      </li>
+
+    </ul>
+  </div>
+  </script>
+
+  <!-- G_CON_012: Button Pack(Color7) -->
+  <script id="tmpl-ButtonP--Color7" type="text/x-jquery-tmpl">
+  <div class="g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+    <ul class="g-ButtonP__list l-ButtonP__list">
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="debug-tmpl" data-tmpl="Button--Color7"></div>
+        <!-- / ButtonUnit -->
+      </li>
+
+    </ul>
+  </div>
+  </script>
+
+  <!-- G_CON_012: Button Pack(Print) -->
+  <script id="tmpl-ButtonP--Print" type="text/x-jquery-tmpl">
+  <div class="g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+    <ul class="g-ButtonP__list l-ButtonP__list">
+
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <!-- ButtonUnit -->
+        <div class="g-ButtonUnit l-ButtonUnit is-size--m is-rightIcon is-colorset--1">
+          <a class="g-ButtonUnit__link l-ButtonUnit__link" href="javascript:window.print();">
+            <span class="cmn-richtext">
+              <span>印刷</span>
+            </span>
+            <span class="cmn-icon cmn-icon--bullet g-ButtonUnit__link__icon l-ButtonUnit__link__icon"></span>
+          </a>
+        </div>
+        <!-- / ButtonUnit -->
+      </li>
+
+    </ul>
+  </div>
+  </script>
+
+
+  <!-- G_CON_024: News Index Pack -->
+  <!-- NewsIndexUnit -->
+  <script id="tmpl-NewsIndexUnit--Typical" type="text/x-jquery-tmpl">
+  <a class="g-NewsIndexUnit l-NewsIndexUnit is-link" href="" target="">
+    <div class="g-NewsIndexUnit__infoBlock l-NewsIndexUnit__infoBlock">
+      <div class="g-NewsIndexUnit__infoBlock__time l-NewsIndexUnit__infoBlock__time">
+        <time datetime="YYYY-MM-DD">YYYY-MM-DD</time>
+      </div>
+      <div class="g-NewsIndexUnit__infoBlock__label l-NewsIndexUnit__infoBlock__label">
+        <span class="g-LabelTagUnit l-LabelTagUnit is-colorset1">
+          LabelTag items text
+        </span>
+      </div>
+    </div>
+
+    <div class="g-NewsIndexUnit__contentsBlock l-NewsIndexUnit__contentsBlock">
+      <div class="g-NewsIndexUnit__contentsBlock__text l-NewsIndexUnit__contentsBlock__text">
+        <p class="g-NewsIndexUnit__text l-NewsIndexUnit__text">News Index Link Text News Index Link Text News Index Link Text News Index Link Text News Index Link Text</p>
+      </div>
+      <div class="g-NewsIndexUnit__contentsBlock__image l-NewsIndexUnit__contentsBlock__image">
+        <p class="g-NewsIndexUnit__image l-NewsIndexUnit__image"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-NewsIndexUnit__icon l-NewsIndexUnit__icon"></span>
+  </a>
+  </script>
+
+  <!-- G_CON_035 Twitter Post Item -->
+  <script id="tmpl-TwitterPost--Typical" type="text/x-jquery-tmpl">
+  <div class="g-TwitterPost l-TwitterPost js-TwitterPost is-layoutL is-smallViewTop is-media-w50--lg is-media-w50--md is-media-w50--sm is-colorset--1" data-path="/etc/clientlibs/common/component/js/tweet_test.json" data-number="1" data-date-format="DD.MM.YYYY" data-link-label="VISIT TWITTER">
+
+    <div class="g-TwitterPostUnit l-TwitterPostUnit">
+      <div class="g-TwitterPost__contentsBlock l-TwitterPost__contentsBlock">
+
+        <div class="g-TwitterPost__contentsBlock__image l-TwitterPost__contentsBlock__image">
+          <img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy">
+        </div>
+
+        <div class="g-TwitterPost__contentsBlock__text l-TwitterPost__contentsBlock__text">
+          <div class="g-TwitterPost__contentsBlock__date l-TwitterPost__contentsBlock__date">DD.MM.YYYY</div>
+          <p class="g-TwitterPost__contentsBlock__tweet l-TwitterPost__contentsBlock__tweet">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini
+          </p>
+          <ul class="g-TwitterPost__contentsBlock__links l-TwitterPost__contentsBlock__links">
+            <li class="g-TwitterPost__contentsBlock__links__item l-TwitterPost__contentsBlock__links__item g-TwitterPost__contentsBlock__links__item--reply l-TwitterPost__contentsBlock__links__item--reply">
+              <a href="#" target="_blank" class="g-TwitterPost__contentsBlock__links__item__link l-TwitterPost__contentsBlock__links__item__link">
+                <span class="cmn-icon cmn-icon--reply g-TwitterPost__contentsBlock__links__item__icon l-TwitterPost__contentsBlock__links__item__icon"></span>
+                <span class="g-TwitterPost__contentsBlock__links__item__label l-TwitterPost__contentsBlock__links__item__label">Reply</span>
+              </a>
+            </li>
+            <li class="g-TwitterPost__contentsBlock__links__item l-TwitterPost__contentsBlock__links__item g-TwitterPost__contentsBlock__links__item--rt l-TwitterPost__contentsBlock__links__item--rt">
+              <a href="#" target="_blank" class="g-TwitterPost__contentsBlock__links__item__link l-TwitterPost__contentsBlock__links__item__link">
+                <span class="cmn-icon cmn-icon--retweet g-TwitterPost__contentsBlock__links__item__icon l-TwitterPost__contentsBlock__links__item__icon"></span>
+                <span class="g-TwitterPost__contentsBlock__links__item__label l-TwitterPost__contentsBlock__links__item__label">1</span>
+              </a>
+            </li>
+            <li class="g-TwitterPost__contentsBlock__links__item l-TwitterPost__contentsBlock__links__item g-TwitterPost__contentsBlock__links__item--fav l-TwitterPost__contentsBlock__links__item--reply">
+              <a href="#" target="_blank" class="g-TwitterPost__contentsBlock__links__item__link l-TwitterPost__contentsBlock__links__item__link">
+                <span class="cmn-icon cmn-icon--heart g-TwitterPost__contentsBlock__links__item__icon l-TwitterPost__contentsBlock__links__item__icon"></span>
+                <span class="g-TwitterPost__contentsBlock__links__item__label l-TwitterPost__contentsBlock__links__item__label">2</span>
+              </a>
+            </li>
+          </ul>
+          <div class="g-TwitterPost__contentsBlock__visit l-TwitterPost__contentsBlock__visit opt-hide-sm">
+            <a href="#" target="_blank" class="g-TwitterPost__contentsBlock__visit__link l-TwitterPost__contentsBlock__visit__link">
+              <span class="cmn-icon cmn-icon--window g-TwitterPost__contentsBlock__visit__icon l-TwitterPost__contentsBlock__visit__icon"></span>
+              <span class="g-TwitterPost__contentsBlock__visit__label l-TwitterPost__contentsBlock__visit__label">VISIT TWITTER</span>
+            </a>
+          </div>
+        </div>
+        <div class="g-TwitterPost__contentsBlock__visit l-TwitterPost__contentsBlock__visit opt-hide-lg opt-hide-md">
+          <a href="#" target="_blank" class="g-TwitterPost__contentsBlock__visit__link l-TwitterPost__contentsBlock__visit__link">
+            <span class="cmn-icon cmn-icon--window g-TwitterPost__contentsBlock__visit__icon l-TwitterPost__contentsBlock__visit__icon"></span>
+            <span class="g-TwitterPost__contentsBlock__visit__label l-TwitterPost__contentsBlock__visit__label">VISIT TWITTER</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </script>
+
+</div>
+</body>
+</html>

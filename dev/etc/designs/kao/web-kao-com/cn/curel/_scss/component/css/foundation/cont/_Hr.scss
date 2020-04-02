@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+/* HR ================================================== */
+.l-Hr__hr {
+  &.is-width--s {
+    border-top-width: $borderWidthHr_s;
+  }
+  &.is-width--m {
+    border-top-width: $borderWidthHr_m;
+  }
+  &.is-width--l {
+    border-top-width: $borderWidthHr_l;
+  }
+  &.is-color--1 {
+    border-color: $option__border--01;
+  }
+  &.is-color--2 {
+    border-color: $option__border--02;
+  }
+  &.is-color--3 {
+    border-color: $option__border--03;
+  }
+  &.is-color--4 {
+    border-color: $option__border--04;
+  }
+  &.is-color--5 {
+    border-color: $option__border--05;
+  }
+  &.is-color--6 {
+    border-color: $option__border--06;
+  }
+  &.is-color--7 {
+    border-color: $option__border--07;
+  }
+}

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_004: Image Item</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>G_CON_004: Image Item</h1>
+
+
+<!-- G_CON_004: Image Item -->
+  <div class="method">
+    <p class="componentName">G_CON_004: Image Item</p>
+    <!--<a href="samples/I030_Image.html">⇒ design sample</a>-->
+    <ul>
+      <li>Link : div → aタグ変更</li>
+      <li>Link icon : 保留</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Typical</h3>
+  <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+
+  <h3 class="settingName">Default</h3>
+  <div class="g-Image l-Image">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">Change Image each BreakPoint</h3>
+  <div class="g-Image l-Image is-changeBreak">
+    <p class="g-Image__img g-Image__img--lg l-Image__img l-Image__img--lg"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+    <p class="g-Image__img g-Image__img--md l-Image__img l-Image__img--md"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy4.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+    <p class="g-Image__img g-Image__img--sm l-Image__img l-Image__img--sm"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy3.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Link : active (LinkIcon : none)</h3>
+  <a class="g-Image l-Image is-link" href="">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Link : active (LinkIcon : none)、anchor</h3>
+  <a class="g-Image l-Image is-link" href="#wrapper">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Link Icon : Standard</h3>
+  <div class="debug-tmpl" data-tmpl="Image--LinkStandard"></div>
+
+  <h3 class="settingName">Link Icon : External</h3>
+  <a class="g-Image l-Image is-link" href="">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--external g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Link Icon : PDF</h3>
+  <a class="g-Image l-Image is-link" href="">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--pdf g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Link Icon : Download</h3>
+  <a class="g-Image l-Image is-link" href="">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--download g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">IconColor : reverse</h3>
+  <a class="g-Image l-Image is-link" href="">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet cmn-icon--reverse g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-Image l-Image opt-al_l">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-Image l-Image opt-al_c">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-Image l-Image opt-al_r">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-Image l-Image SpecificCSSclass">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <a class="g-Image l-Image is-link is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+
+
+  <!--  Image Item Ver.1_Rev.1ここから  -->
+  <p class="opt-mb0--imp opt-fontcolor--08 opt-fs_h_lv2">Image Item Ver.1_Rev.1</p>
+  <!-- ImageItem border ここから-->
+  <h2>Image Item border</h2>
+
+  <h3 class="settingName">no border</h3>
+  <div class="g-Image l-Image">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border solid</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border dotted</h3>
+  <div class="g-Image l-Image is-border is-border--dot is-borderWidth--s is-borderColor--1">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+  <!-- ImageItem border ここまで-->
+
+
+  <!-- ImageItem border-width ここから-->
+  <h2>Image Item border-width</h2>
+
+  <h3 class="settingName">border width s</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border width m</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--m is-borderColor--1">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border width l</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--l is-borderColor--1">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+  <!-- ImageItem border-width ここまで-->
+
+
+  <!-- ImageItem border-color ここから-->
+  <h2>Image Item border-color</h2>
+
+  <h3 class="settingName">border color1</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border color2</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--2">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border color3</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--3">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border color4</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--4">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border color5</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--5">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+  <h3 class="settingName">border color6</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--6">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">border color7</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--7">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+  <!-- ImageItem border-color ここまで-->
+
+
+  <!-- ImageItem borderradius ここから-->
+  <h2>Image Item borderradius</h2>
+  <h3 class="settingName">(border solid 1px color1) borderradius-xs</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--xs">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius-s</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--s">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius-m</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--m">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius-l</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--l">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius-xl</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--xl">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius top-left-m</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--tl--m">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius top-right-m</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--tr--m">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius bottom-left-m</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--bl--m">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">(border solid 1px color1) borderradius bottom-right-m</h3>
+  <div class="g-Image l-Image is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--br--m">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+  <!-- ImageItem borderradius ここまで-->
+
+  <!-- ImageItem backgroun-color ここから-->
+  <h2>Image Item backgroun-color</h2>
+
+  <h3 class="settingName">background color1</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--1">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background color2</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--2">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background color3</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--3">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background color4</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--4">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background color5</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--5">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background color6</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--6">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background color7</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--7">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+  <!-- ImageItem backgroun-color ここまで-->
+
+  <!-- ImageItem background-image ここから-->
+  <h2>Image Item background-image</h2>
+  <h3 class="settingName">background-image no-repeat</h3>
+  <div class="g-Image l-Image is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image repeat</h3>
+  <div class="g-Image l-Image is-background opt-bg--repeat" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image repeat y</h3>
+  <div class="g-Image l-Image is-background opt-bg--repeat-y" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image repeat x</h3>
+  <div class="g-Image l-Image is-background opt-bg--repeat-x" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position top</h3>
+  <div class="g-Image l-Image is-background opt-bg--top" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position bottom</h3>
+  <div class="g-Image l-Image is-background opt-bg--bottom" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position left</h3>
+  <div class="g-Image l-Image is-background opt-bg--left" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position right</h3>
+  <div class="g-Image l-Image is-background opt-bg--right" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position center</h3>
+  <div class="g-Image l-Image is-background opt-bg--center" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position top-left</h3>
+  <div class="g-Image l-Image is-background opt-bg--top-left" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position bottom-left</h3>
+  <div class="g-Image l-Image is-background opt-bg--bottom-left" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position top-right</h3>
+  <div class="g-Image l-Image is-background opt-bg--top-right" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image position bottom-right</h3>
+  <div class="g-Image l-Image is-background opt-bg--bottom-right" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image size:80px</h3>
+  <div class="g-Image l-Image is-background js-bgImageSize" data-bgimagesize="80" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image
+    (1)position center no-repeat
+    (2)position center no-repeat</h3>
+  <div class="g-Image l-Image is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:no-repeat,no-repeat; background-position: center,center;">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image
+    (1)position center repeat x
+    (2)position center no-repeat</h3>
+  <div class="g-Image l-Image is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,no-repeat; background-position: center,center;">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image
+    (1)position center repeat x
+    (2)position center repeat x</h3>
+  <div class="g-Image l-Image is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,repeat-x; background-position: center,center;">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image
+    (1)position bottom repeat x size 10%
+    (2)position center repeat x size 25%</h3>
+  <div class="g-Image l-Image is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10%,25%;">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image
+    (1)position bottom repeat x size 10% 20%
+    (2)position center repeat x size 25%</h3>
+  <div class="g-Image l-Image is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10% 20%,25%;">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">background-image
+    (1)position bottom repeat y size 10px
+    (2)position center repeat x size 30px</h3>
+  <div class="g-Image l-Image is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-y,repeat-x; background-position: bottom,center; background-size: 10px,30px;">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+
+  <!-- ImageItem background-image ここまで-->
+
+  <!-- ImageItem padding reset ここから-->
+  <h2>Image Item padding reset</h2>
+  <h3 class="settingName">padding reset (border solid 1px color7)</h3>
+  <div class="g-Image l-Image  is-border is-border--solid is-borderWidth--s is-borderColor--7 is-paddingReset">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <h3 class="settingName">padding reset (background color7)</h3>
+  <div class="g-Image l-Image is-background is-backgroundColor--7" style="opacity: .5">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+  </div>
+
+  <!-- ImageItem padding reset ここまで-->
+
+<!--  Image Item Ver.1_Rev.1ここまで  -->
+
+
+<!-- / G_CON_004: Image Item -->
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

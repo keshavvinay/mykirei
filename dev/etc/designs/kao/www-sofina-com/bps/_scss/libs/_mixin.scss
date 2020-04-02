@@ -1,0 +1,607 @@
+@charset "utf-8";
+$imgpath_bps: "../../../../../etc/designs/kao/www-sofina-com/bps/component/img/";
+$imgpath_main: "../../../../../etc/designs/kao/www-sofina-com/component/img/";
+
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+
+@mixin bp($point) {
+  @if $point==sm {
+    @media only screen and (max-width: $maxWidth_sm) {
+      @content;
+    }
+  }
+  @else if $point==md {
+    @media only screen and (min-width: $maxWidth_sm + 1px) and (max-width: $maxWidth_md) {
+      @content;
+    }
+  }
+  @else if $point==lg {
+    @media only screen and (min-width: $maxWidth_md + 1px) {
+      @content;
+    }
+  }
+  @else if $point==print {
+    @media print {
+      @content;
+    }
+  }
+}
+
+
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+
+@mixin fontSize($level) {
+  font-family: $fontFamily_Gothic;
+  @if $level==lv1 {
+    font-size: $fontSize_lv1;
+    line-height: $lineHeight_lv1;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv1;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv1_1 {
+    font-size: $fontSize_lv1_1;
+    line-height: $lineHeight_lv1_1;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv1_1;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv1_2 {
+    font-size: $fontSize_lv1_2;
+    line-height: $lineHeight_lv1_2;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv1_2;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv2 {
+    font-size: $fontSize_lv2;
+    line-height: $lineHeight_lv2;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv2;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv2_1 {
+    font-size: $fontSize_lv2_1;
+    line-height: $lineHeight_lv2_1;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv2_1;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv3 {
+    font-size: $fontSize_lv3;
+    line-height: $lineHeight_lv3;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv3;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv4 {
+    font-size: $fontSize_lv4;
+    line-height: $lineHeight_lv4;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv4;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv5 {
+    font-size: $fontSize_lv5;
+    line-height: $lineHeight_lv5;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv5;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv6 {
+    font-size: $fontSize_lv6;
+    line-height: $lineHeight_lv6;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv6;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==lv7 {
+    font-size: $fontSize_lv7;
+    line-height: $lineHeight_lv7;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv7;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==body {
+    font-size: $fontSize_body;
+    line-height: $lineHeight_body;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_body;
+      letter-spacing: normal;
+    }
+  }
+  @else if $level==caption {
+    font-size: $fontSize_caption;
+    line-height: $lineHeight_caption;
+    @include bp(lg) {
+      letter-spacing: normal;
+    }
+    @include bp(md) {
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_caption;
+      letter-spacing: normal;
+    }
+  }
+}
+
+
+/*
+ Line-Frame
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+
+@mixin lineFrame($style, $size) {
+  //ピクセル値
+  $pixel: 0;
+  @if $size==s {
+    $pixel: 1px;
+  }
+  @else if $size==m {
+    $pixel: 2px;
+  }
+  @else if $size==l {
+    $pixel: 4px;
+  }
+  box-sizing: border-box;
+  border: $style $pixel $colorLine_dark;
+}
+
+
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+
+@mixin lineBottom($style, $size) {
+  //ピクセル値
+  $pixel: 0;
+  @if $size==s {
+    $pixel: 1px;
+  }
+  @else if $size==m {
+    $pixel: 2px;
+  }
+  @else if $size==l {
+    $pixel: 4px;
+  }
+  box-sizing: border-box;
+  border-bottom: $style $pixel $colorLine_dark;
+}
+
+
+/*
+ Corner Radius
+ @param $size (ss, s, m, l, ll)
+ */
+
+@mixin borderRadius($size) {
+  @if $size==ss {
+    @include border-radius(4px);
+  }
+  @else if $size==s {
+    @include border-radius(8px);
+  }
+  @else if $size==m {
+    @include border-radius(12px);
+  }
+  @else if $size==l {
+    @include border-radius(16px);
+  }
+  @else if $size==ll {
+    @include border-radius(20px);
+  }
+}
+
+
+/*
+ Shadow
+ @param $angle (center, downward, rightUpward, rightDownward)
+ @param $size (s, m)
+ */
+
+@mixin shadow($angle, $size) {
+  $dis_px: 0; //距離
+  $shadow_px: 0; //影の大きさ
+  @if $size==s {
+    $dis_px: 2px;
+    $shadow_px: 4px;
+  }
+  @else if $size==m {
+    $dis_px: 4px;
+    $shadow_px: 8px;
+  }
+  @if $angle==center {
+    @include box-shadow(0 0 $shadow_px rgba(#000, .4));
+  }
+  @else if $angle==downward {
+    @include box-shadow(0 $dis_px $shadow_px rgba(#000, .4));
+  }
+  @else if $angle==rightUpward {
+    @include box-shadow($dis_px ($dis_px)*-1 $shadow_px rgba(#000, .4));
+  }
+  @else if $angle==rightDownward {
+    @include box-shadow($dis_px $dis_px $shadow_px rgba(#000, .4));
+  }
+}
+
+
+/*
+ Link
+ */
+
+@mixin link() {
+  &:link {
+    color: $colorLink;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $colorLink_hover;
+  }
+  &:visited {
+    color: $colorLink_visited;
+  }
+}
+
+
+/*
+ AreaLink
+ */
+
+@mixin areaLink() {
+  &:hover,
+  &:focus,
+  &:active {
+    @include opacity($linkHoverOpacity);
+  }
+}
+
+//Margin
+$marginGutter_lg: 24px;
+$marginGutter_md: 24px;
+$marginGutter_sm: 16px;
+
+/*
+  gutterWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+
+@mixin gutterWrapper($resetFlg: false) {
+  @if $resetFlg==false {
+    @include bp(lg) {
+      margin-left: -($marginGutter_lg)/2;
+      margin-right: -($marginGutter_lg)/2;
+    }
+    @include bp(md) {
+      margin-left: -($marginGutter_md)/2;
+      margin-right: -($marginGutter_md)/2;
+    }
+    @include bp(sm) {
+      margin-left: -($marginGutter_sm)/2;
+      margin-right: -($marginGutter_sm)/2;
+    }
+  }
+  @else {
+    @include bp(lg) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include bp(md) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include bp(sm) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+
+@mixin gutterInner($resetFlg: false) {
+  box-sizing: border-box;
+  @if $resetFlg==false {
+    @include bp(lg) {
+      padding: $marginGutter_lg/2;
+    }
+    @include bp(md) {
+      padding: $marginGutter_md/2;
+    }
+    @include bp(sm) {
+      padding: $marginGutter_sm/2;
+    }
+  }
+  @else {
+    @include bp(lg) {
+      padding: 0;
+    }
+    @include bp(md) {
+      padding: 0;
+    }
+    @include bp(sm) {
+      padding: 0;
+    }
+  }
+}
+
+//
+// トップから明るくするグラデーション
+//
+@mixin gradient-top-lighten($color, $lighten:10) {
+  background-color: $color;
+  @include background-image(linear-gradient(lighten($color, $lighten) 0%, $color 100%));
+}
+
+//
+// トップから暗くするグラデーション
+//
+@mixin gradient-top-darken($color, $darken:10) {
+  background-color: $color;
+  @include background-image(linear-gradient(darken($color, $darken) 0%, $color 100%));
+}
+
+//
+// 色指定　上下のグラデーション
+//
+@mixin gradient-topBottom($colorTop, $colorBottom) {
+  background-color: $colorBottom;
+  @include background-image(linear-gradient(top, $colorTop, $colorBottom));
+  @include filter-gradient($colorTop, $colorBottom, vertical);
+}
+
+//
+// 絶対位置をセット
+//
+@mixin topLeft($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+@mixin topRight($top, $right) {
+  top: $top;
+  right: $right;
+}
+
+@mixin bottomLeft($bottom, $left) {
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin bottomRight($bottom, $right) {
+  bottom: $bottom;
+  right: $right;
+}
+
+//
+// 要素を計算せず
+// 上下中央配置する
+//
+@mixin vMiddle() {
+
+  position: absolute;
+  top: 50%;
+  @include transform(translate(0, -50%));
+}
+
+//
+// 要素を計算せず
+// 左右中央配置する
+//
+@mixin hMiddle() {
+
+  position: absolute;
+  left: 50%;
+  @include transform(translate(-50%, 0));
+}
+
+//
+// 代替画像をセット（bps）
+//
+@mixin img_bps($url, $myratio:1) {
+  @include img($url, $imgpath_bps,$myratio, "../img/");
+}
+
+//
+// 代替画像をセット（bps）
+//
+@mixin img_main($url, $myratio:1) {
+  @include img($url, $imgpath_main,$myratio, "../../../component/img/");
+}
+
+
+//
+// 代替画像をセット
+// サイズもセット
+// テキストの押し出しも行う。
+//
+@mixin img($url, $imgpath, $myratio:1, $relativepath:"") {
+  $path: $imgpath + $url;
+  display: block;
+  $w: floor(image-width($path) / $myratio);
+  $h: floor(image-height($path) / $myratio);
+  background-image: url($relativepath + $url);
+  background-repeat: no-repeat;
+  background-size: $w $h;
+  width: $w;
+  height: $h;
+  //textOut
+  text-indent: $w;
+  white-space: nowrap;
+  text-align: left;
+  overflow: hidden;
+  //IE9にて要素がみえる問題に対応
+  span{
+    display: none;
+  }
+}
+
+//
+// 指定画像のサイズだけをセット
+//
+@mixin imgSize($url, $myratio:1) {
+  $path: $imgpath + $url;
+  $w: floor(image-width($path) / $myratio);
+  $h: floor(image-height($path) / $myratio);
+  width: $w;
+  height: $h;
+}
+
+//
+// 背景イメージだけをセット（bps）
+//
+@mixin bg_bps($url, $myratio:1, $fixSize:false, $bgHeight:false) {
+  @include bg($url, $imgpath_bps, $myratio, $fixSize, $bgHeight, "../img/");
+}
+
+//
+// 背景イメージだけをセット（bps）
+//
+@mixin bg_main($url, $myratio:1, $fixSize:false, $bgHeight:false) {
+  @include bg($url, $imgpath_main, $myratio, $fixSize, $bgHeight, "../../../component/img/");
+}
+
+//
+// 背景イメージだけをセット
+// 要素に対してのサイズセットなし
+//
+@mixin bg($url, $imgpath, $myratio:1, $fixSize:false, $bgHeight:false, $relativepath:"") {
+  $path: $imgpath + $url;
+  $w: floor(image-width($path) / $myratio);
+  $h: floor(image-height($path) / $myratio);
+  background-image: url($relativepath + $url);
+  background-repeat: no-repeat;
+  @if $bgHeight !=false {
+    background-size: auto $bgHeight;
+  }
+  @else {
+    background-size: $w $h;
+  }
+  @if $fixSize==true {
+    @include imgSize($url, $myratio);
+  }
+
+}
+
+//
+// 指定番号の桁を2桁にそろえて返却
+//
+@function keta2($num) {
+
+    @if $num < 10 {
+        $num : "0#{$num}";
+    } @else {
+        $num : "#{$num}";
+    }
+    @return $num;
+}
+
+//
+// 画像幅を返却
+//
+@function imgw_main($name, $myratio:1) {
+  $path: $imgpath_main + $name;
+  $w: floor(image-width($path) / $myratio);
+  @return $w;
+}
+
+//
+// 画像高さを返却
+//
+@function imgh_main($name, $myratio:1) {
+  $path: $imgpath_main + $name;
+  $h: floor(image-height($path) / $myratio);
+  @return $h;
+}
+

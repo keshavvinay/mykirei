@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+/* Overlay ================================================== */
+.l-overlay {
+  background-color: $overlay__bg;
+  &.is-error {
+    background-color: $appError__overlay__bg;
+  }
+}
+.l-modal {
+  background-color: $modal__bg;
+  color: $modal__text;
+  .cmn-icon {
+    color: $modal__icon;
+  }
+  .is-error & {
+    background-color: $appError__modal__bg;
+    color: $appError__modal__text;
+    .cmn-icon {
+      color: $appError__modal__icon;
+    }
+  }
+}
+.l-modal__contents__button {
+  background-color: $modal__button__bg;
+  color: $modal__button__text;
+  border-color: $modal__button__border;
+  @include border-radius($borderRadius_xs);
+  @include areaLink();
+  @include btnShadow($modal__button__shadowVisible);
+  .is-error & {
+    background-color: $appError__modal__btn__bg;
+    color: $appError__modal__btn__text;
+    border-color: $appError__modal__btn__border;
+    @include btnShadow($appError__modal__button__shadowVisible);
+  }
+}

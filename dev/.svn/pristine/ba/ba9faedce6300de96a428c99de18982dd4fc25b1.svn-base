@@ -1,0 +1,50 @@
+.cq-dialog-floating .cq-dialog-content.coral-TabPanel > .coral-TabPanel-content,
+.cq-dialog-floating .cq-dialog-content > .coral-TabPanel > .coral-TabPanel-content {
+  overflow: auto;
+  padding: 0.9375rem;
+  height: 20.875rem;
+}
+
+?.coral-Form-fieldwrapper > input.hidden,
+?.coral-Form-fieldwrapper > label > input.hidden{
+  display: none;
+}
+
+.coral-Form--aligned .coral-Form-fieldwrapper {
+  position: relative;
+}
+.cq-dialog-floating .coral-Form-fieldlabel {
+  width: 23%;
+}
+.cq-dialog-floating .coral-Form-fieldlabel {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  line-height: 1.5;
+}
+.cq-dialog-floating .coral-Form-fieldlabel + .coral-Form-field {
+  margin-left: 25%;
+  width: 55%;
+}
+
+.cq-dialog-floating .coral-Form-field {
+  width: 80%;
+}
+
+/* Required */
+.coral-Form-fieldwrapper [aria-required="true"] {
+  border: solid 1px #cc0;
+  background-color: #ffffe5;
+}
+.coral-Form-fieldwrapper [aria-required="true"] + .coral-InputGroup-button .coral-Button {
+  border: solid 1px #cc0;
+}
+
+/* checkbox label */
+/* 複数行になったときの高さの制御 */
+.coral-TabPanel-content .coral-Checkbox {
+  height: auto;
+}

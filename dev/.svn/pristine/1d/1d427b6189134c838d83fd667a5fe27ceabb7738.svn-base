@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA BPS</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/header-footer.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/header-footer.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div class="g-Area sofina-BlHeader" id="area-BlHeader">
+      <div class="g-Area__inner">
+        <div class="BlHeader">
+          <div class="sofina-HeaderLogo sofina-HeaderLogo--bps">
+            <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps.html">
+              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                <p class="g-Image__img l-Image__img">
+                  <img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/bps/header-logo-sofina-bps@2x.png?fmt=png-alpha" alt="SOFINA Beauty Power Station" data-fixedimgsrc="header-logo-sofina-bps_s@2x.png">
+                </p>
+              </div>
+            </a>
+          </div>
+          <a href="javascript:void(0);" class="sofina-HeaderMenu"></a>
+          <ul class="sofina-HeaderGlobalNav">
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps.html">トップ</a></li>
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/lesson.html">Beauty Power Lesson</a></li>
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+            <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/access.html">店舗情報・アクセス</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section sofina-section_mainvisual_visualleft sofina-workshop-section_mainvisual" id="common_section_wrapper_1">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit sofina-section_mainvisual_visualleft__txtholder is-marginReset">
+                  <div class="g-PageTitle l-PageTitle is-layoutL">
+                    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                            <span class="cmn-richtext"><span>Workshop</span></span>
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-Text l-Text sofina-section_mainvisual_visualleft__txtholder__subtitle">
+                    <p class="cmn-richtext">
+                      <span>ワークショップ</span>
+                    </p>
+                  </div>
+                  <div class="g-Text l-Text opt-al_c sofina-section_mainvisual_visualleft__txtholder__des sofina-section_mainvisual_visualleft__txtholder__des_separator">
+                    <p class="cmn-richtext">
+                      <span>もっと美しくなるために楽しく学び、体験する。<br />
+                      特別なプログラムを定期開催。
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="g-Section bps-workshop_list__section" id="common_section_wrapper_2">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle opt-al_c is-layoutL sofina-sectionTitle">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>開催予定のWorkshop
+
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+                            <span>Up Coming
+
+                            </span>                              </span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section bps-workshop-top_detail_content__section" id="common_section_wrapper_3">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_3" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle bps-workshop-top_detail_content__heading is-layoutL">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3"><span class="cmn-richtext">
+                            <span>SOFINA Beauty Power Station レギュラーWorkshop<br />
+
+                              “いつでも、いつまでも”美しくあるために
+
+                            </span></span></h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-Text l-Text bps-workshop_detail_header__text">
+                      <p class="cmn-richtext">
+                        <span>2016年2月18日（木） 10:30〜12:00／14:00〜15:30（各回90分）<br />
+
+                          <br />
+
+                          会場：SOFINA Beauty Power Station 銀座店<br />
+
+                          定員：各回12名（定員に達し次第、受付終了となります）<br />
+
+                          対象：Beauty Power Lessonを受講していない方 （内容の一部がBeauty Power Lessonと重複します）
+
+                        </span>
+                      </p>
+                    </div>
+                    <div class="g-Text l-Text bps-workshop_detail_header__annotation">
+                      <p class="cmn-richtext">
+                        <span>※完全予約制のため、前日・当日のキャンセルはできるだけお控えいただきますよう、お願いいたします。
+
+                        </span>
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="g-Column bps-workshop-top_inner_content__column bps-workshop-top_inner_header__column js-uniformHeight" id="common_column_separator_4" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="g-Text l-Text bps-workshop_detail_content_lead__text">
+                      <p class="cmn-richtext">
+                        <span>“いつでも、いつまでも”美しくあるために。<br>あなたのビューティパワーを高める、レギュラープログラムです。<br />
+                          お一人様はもちろん、ご友人同士でもぜひご参加ください。
+
+                        </span></p>
+                      </div>
+                      <div class="g-HeadingTitle l-HeadingTitle opt-al_c is-layoutL">
+                        <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3"><span class="cmn-richtext">
+                                  <span>Workshopの内容
+
+                                  </span></span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-Column bps-workshop-top_inner_content__column bps-workshop_detail_content__column bps-workshop_detail_content__column--hasImage is-first js-uniformHeight" id="common_column_separator_5" data-uniform-target="g-ColumnUnit">
+                    <div class="g-Column__inner">
+
+                      <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+                        <div class="g-ColumnUnit">
+                          <div class="g-GroupBox bps-workshop_detail_content_title__group">
+                            <div class="g-Text l-Text bps-workshop_detail_content_title__text">
+                              <p class="cmn-richtext">
+                                <span>セミナー
+
+                                </span></p>
+                              </div><div class="g-Text l-Text bps-workshop_detail_content_intro__text">
+                                <p class="cmn-richtext">
+                                  <span>花王の研究員より、あなたの肌本来の美しさが目覚める花王の肌研究について、分かりやすくご紹介します。
+
+                                  </span></p>
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+                            <div class="g-ColumnUnit">
+                              <div class="g-Image l-Image bps-workshop_detail_content__image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/bps/workshop-201602-01.jpg" class="cq-dd-image" style="width : 100%;" id="separa_854589022_common_column_unit0_colpar_common_image_item_co" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="g-Column bps-workshop-top_inner_content__column bps-workshop_detail_content__column bps-workshop_detail_content__column--hasImage js-uniformHeight" id="common_column_separator_6" data-uniform-target="g-ColumnUnit">
+                        <div class="g-Column__inner">
+
+                          <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+                            <div class="g-ColumnUnit">
+                              <div class="g-GroupBox bps-workshop_detail_content_title__group">
+                                <div class="g-Text l-Text bps-workshop_detail_content_title__text">
+                                  <p class="cmn-richtext">
+                                    <span>体験
+
+                                    </span>
+                                  </p>
+                                </div><div class="g-Text l-Text bps-workshop_detail_content_intro__text">
+                                  <p class="cmn-richtext">
+                                    <span>ビューティパワーレッスンでご提供している肌解析の一部をご体験いただけます。実際に測定していただき、その場で結果をご確認いただくことができます。<br />
+
+                                      <br />
+
+                                      <span class="intro-cap">※測定ルームへご入室の際はスリッパに履き替えていただきます。</span>
+
+
+                                    </span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+                            <div class="g-ColumnUnit">
+                              <div class="g-Image l-Image bps-workshop_detail_content__image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/bps/workshop-201602-02.jpg" class="cq-dd-image" style="width : 100%;" id="epara_1370257972_common_column_unit0_colpar_common_image_item_co" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="g-Column bps-workshop-top_inner_content__column bps-workshop_detail_content__column bps-workshop_detail_content__column--hasImage js-uniformHeight" id="common_column_separator_7" data-uniform-target="g-ColumnUnit">
+                        <div class="g-Column__inner">
+
+                          <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+                            <div class="g-ColumnUnit">
+                              <div class="g-GroupBox bps-workshop_detail_content_title__group">
+                                <div class="g-Text l-Text bps-workshop_detail_content_title__text">
+                                  <p class="cmn-richtext">
+                                    <span>実践
+
+                                    </span>
+                                  </p>
+                                </div><div class="g-Text l-Text bps-workshop_detail_content_intro__text">
+                                  <p class="cmn-richtext">
+                                    <span>パーソナルビューティエキスパートより、その日からすぐに取り入れていただけるおすすめのお手入れ法を、丁寧にお伝えしていきます。<br />
+
+                                      <br />
+
+                                      <span class="intro-cap">※目より下のお化粧を落としていただきます。<u>お化粧直しはご自身でお願いいたします</u>（化粧品はご用意しております）。</span>
+
+
+                                    </span>
+                                  </p>
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-2 g-Column__cols-sm-1">
+                            <div class="g-ColumnUnit">
+                              <div class="g-Image l-Image bps-workshop_detail_content__image s7responsiveContainer" style="position : relative;">
+                                <p class="g-Image__img l-Image__img"><img src="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/is/image/content/dam/sites/kao/www-sofina-co-jp/bps/workshop-201602-03.jpg" class="cq-dd-image" style="width : 100%;" id="epara_1718742654_common_column_unit0_colpar_common_image_item_co" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div><div class="g-Column bps-workshop-top_inner_content__column sofina-lesson-section_fee__cont js-uniformHeight" id="common_column_separator_8" data-uniform-target="g-ColumnUnit">
+                        <div class="g-Column__inner">
+
+                          <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                            <div class="g-ColumnUnit sofina-lesson-2timesfee">
+                              <div class="g-Text l-Text sofina-lesson-2timesfee__txt">
+                                <p class="cmn-richtext">
+                                  <span>Workshop<br />
+
+                                    <strong>1,000</strong>
+                                    円（税抜）
+
+                                  </span>
+                                </p>
+                              </div>
+                              <div class="g-GroupBox">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>要予約
+
+                                    </span>
+                                  </p>
+                                </div>
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span>女性限定
+
+                                    </span>
+                                  </p>
+                                </div>
+
+
+                              </div>
+                              <div class="g-Text l-Text sofina-lesson-2timesfee__cap">
+                                <ul>
+                                  <li>・ご予約は、下記「ご予約」ボタンよりお願いします。</li>
+                                  <li>・料金は、お一人様１回あたりの金額です。お支払いは、ワークショップ当日開始前にお願いします。</li>
+                                  <li>・以下に該当する方は、ワークショップへのご参加をお控えください。</li>
+                                  <li class="sofina-lesson-2timesfee__cap__indent">肌に炎症などトラブルのある方、化粧品の使用で肌トラブル等の経験がある方、</li>
+                                  <li class="sofina-lesson-2timesfee__cap__indent">妊娠中もしくは妊娠の可能性のある方、未成年の方、認知症の方、</li>
+                                  <li class="sofina-lesson-2timesfee__cap__indent">ケガ・疾患をお持ちかもしくは通院中の方で、医師からワークショップへの参加を控えるよう指示を受けている方</li>
+                                  <li>・ワークショップは日本語のみの対応です。</li>
+                                  <li>・ご同伴者の入室はご遠慮ください。</li>
+                                  <li>・<span class="bps-fee_cap--underline">ワークショップ中、スタッフがワークショップ全体の様子およびワークショップにご参加いただいているお客様の様子を撮影させていただきます（撮影時には、お客様のお顔が判別できないよう、後方からまたは少し離れて撮影するなどできる限り配慮させていただきます）。また、撮影させていただきました画像は、ソフィーナのウェブサイト（「http://www.sofina.co.jp」ではじまるウェブサイト）、ワークショップを紹介するチラシへ掲載させていただきます（期間の制限なく掲載させていただきます。また、掲載にあたり、トリミング、色調補正その他掲載のために必要な編集をさせていただく場合がございます）。</span></li>
+                                  <li>・承諾書にご同意いただいた上でワークショップにご参加いただきます。ご同意いただけない場合はワークショップにご参加いただけないことがあります。承諾書はこちらからご確認いただけます。</li>
+                                </ul>
+                              </div>
+                              <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay icon-pdf">
+                                <a href="/content/dam/sites/kao/www-sofina-co-jp/bps/pdf/workshop_agreement_1602.pdf" target="_blank" id="common_link_button_item_20150928163541950_uyY7" class="g-LinkButton__link l-LinkButton__link"><span class="cmn-richtext">
+                                  <span>Workshop 承諾書[PDF:1MB]
+
+                                  </span></span>
+                                </a>
+                              </div><div class="g-LinkButton l-LinkButton is-btn sofina-lesson-section_fee__button btn-darkblock-bullet-glay icon-linkwindow">
+                                <a href="https://reservation.sofina.com/bps_reservation_jp/reserve/calendar?label_id=4" target="_blank" id="common_link_button_item_20150909112913891_3fAL" class="g-LinkButton__link l-LinkButton__link"><span class="cmn-richtext">
+                                  <span>ご予約
+
+                                  </span></span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+<!--
+      <div class="g-Section bps-workshop_list__section bps-workshop_list_finished__section" id="common_section_wrapper_3">
+        <div class="g-Section__inner">
+          <div class="g-Column bps-workshop_shop__column js-uniformHeight" id="common_column_separator_4" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit" style="height: auto;">
+                  <div class="g-HeadingTitle l-HeadingTitle opt-al_c is-layoutL sofina-sectionTitle">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>これまでのWorkshop
+
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+                            <span>Finished
+
+                            </span></span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div><div class="g-Column bps-workshop_list_content__column is-first js-uniformHeight" id="common_column_separator_5" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit" style="height: auto;">
+                  <div class="g-Text l-Text pbs-workshop_finish_label__text">
+                    <p class="cmn-richtext">
+                      <span>終了しました<br>
+                      </span>
+                    </p>
+                  </div><div class="g-Text l-Text bps-workshop_list__text--normal">
+                    <p class="cmn-richtext">
+                      <span>SOFINA Beauty Power Station レギュラーWorkshop<br>
+                        “いつでも、いつまでも”美しくあるために
+                      </span>
+                    </p>
+                  </div><div class="g-Text l-Text bps-workshop_list__text--small">
+                    <p class="cmn-richtext">
+                      <span>2016年1月28日（木） 14:00〜15:30（90分）<br>
+                        会場：SOFINA Beauty Power Station 銀座店<br>
+                        定員：15名（定員に達し次第、受付終了となります）
+                      </span>
+                    </p>
+                  </div><div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay bps-workshop_list__link">
+                    <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/workshop/regular_001.html" target="_self" id="common_link_button_item_20160105165620600_MkgL" class="g-LinkButton__link l-LinkButton__link"><span class="cmn-richtext">
+                      <span>詳細
+                      </span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ -->
+
+      <div class="g-Section bps-workshop_shop__section" id="common_section_wrapper_4">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight bps-workshop_shop__column" id="common_column_separator_6" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle opt-al_c is-layoutL sofina-sectionTitle">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>店舗情報
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+                            <span>Shop Information
+                            </span></span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sofina-section_shopinfo__contholder">
+                    <div class="sofina-section_shopinfo__contholder__info">
+                      <h2 class="">SOFINA Beauty Power Station 銀座店</h2>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>住　　所</td>
+                            <td>〒104-0061 <br> 東京都中央区銀座三丁目4番12号<br> 文祥堂銀座ビル 1F</td>
+                          </tr>
+                          <tr>
+                            <td>営業時間</td>
+                            <td>11:00〜20:00（不定休） </td>
+                          </tr>
+                          <tr>
+                            <td>お問合せ</td>
+                            <td class="sofina-section_shopinfo__contholder__info__telnum">03-3561-2600 </td>
+                          </tr>
+                          <tr class="sofina-section_shopinfo__contholder__info__tel">
+                            <td colspan="2">
+                              <!-- リンク -->
+                              <div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay icon-phonecall">
+                                <a href="tel:03-3561-2600" target="_self" id="common_link_button_item_20150831212010199_Rcpe" class="g-LinkButton__link l-LinkButton__link "> <span class="cmn-richtext"> <span>お電話でのお問い合わせ</span> </span> </a>
+                              </div>
+                              <!-- /リンク -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>交通手段</td>
+                            <td>
+                              東京メトロ 銀座線・丸の内線・日比谷線 <br>銀座駅A13出口から徒歩1分
+                              <p class="sofina-section_shopinfo__contholder__info__cap">※駐車スペースはございません</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay sofina-section_shopinfo__btnaccess">
+                        <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/access.html" target="_self" id="common_link_button_item_20150831212010199_Rcpe" class="g-LinkButton__link l-LinkButton__link "> <span class="cmn-richtext"> <span>アクセス</span> </span> </a>
+                      </div>
+                      <!-- /リンク -->
+                    </div>
+                    <div class="sofina-section_shopinfo__contholder__map">
+                      <!-- グーグルマップ -->
+                      <div class="sofina-section_shopinfo__contholder__map__gmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1784860131756!2d139.7654405!3d35.6726069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be43240f7a5%3A0xfab463bf056a8099!2z44CSMTA0LTAwNjEg5p2x5Lqs6YO95Lit5aSu5Yy66YqA5bqn77yT5LiB55uu77yU4oiS77yR77ySIOaWh-elpeWggumKgOW6p-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1441786050111" width="100%" height="100%" frameborder="0" style="" allowfullscreen></iframe>
+                      </div>
+                      <!-- /グーグルマップ -->
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay icon-linkwindow opt-only-lg btn-open-printwindow">
+                        <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/map_ginza.html" target="popup" id="common_link_button_item_20150831212010199_Rcpe" class="g-LinkButton__link l-LinkButton__link "> <span class="cmn-richtext"> <span>地図を印刷</span> </span> </a>
+                      </div>
+                      <!-- /リンク -->
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-md btn-map">
+                        <a href="javascript:void(0);" target="_self" id="common_link_button_item_20150831212010199_Rcpe" class="g-LinkButton__link l-LinkButton__link "> <span class="cmn-richtext"> <span>地図アプリで表示</span> </span> </a>
+                      </div>
+                      <!-- /リンク -->
+                      <!-- リンク -->
+                      <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-sm btn-map">
+                        <a href="javascript:void(0);" target="_self" id="common_link_button_item_20150831212010199_Rcpe" class="g-LinkButton__link l-LinkButton__link "> <span class="cmn-richtext"> <span>地図アプリで表示</span> </span> </a>
+                      </div>
+                      <!-- /リンク -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-Contents -->
+
+
+
+
+    <div class="g-Area sofina-SbBlFooter" id="area-SbBlFooter">
+      <div class="g-Area__inner">
+        <div class="SbBlFooter">
+          <div class="sofina-footerSNS">
+            <div class="sofina-footerSNS__inner">
+              <!-- COMMON SNS BUTTON START -->
+              <table width="965" height="28" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="761" height="28" nowrap align="right" valign="middle" bgcolor="#ffffff"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="18d43b045a7f3a2aa10f9d69f786175580f5bee5" data-button="button-2">Check</a>
+                      <script type="text/javascript" src="https://static.mixi.jp/js/share.js"></script>
+                    </td>
+                    <td width="4"></td>
+                    <td width="200" height="28" nowrap align="left" valign="middle">
+                      <!-- AddThis Button BEGIN -->
+                      <div class="addthis_toolbox">
+                        <div class="custom_images">
+                          <a class="addthis_button_facebook">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/fb_button.gif" width="69" height="20" border="0" alt="Share to Facebook">
+                          </a>
+                          <a class="addthis_button_twitter">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/twitter_button.gif" width="55" height="20" border="0" alt="Share to Twitter">
+                          </a>
+                          <a class="addthis_button_more">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/add_button.gif" width="50" height="20" border="0" alt="More...">
+                          </a>
+                        </div>
+                      </div>
+                      <script type="text/javascript">
+                        var addthis_config = {
+                          "data_track_clickback": true
+                        };
+                      </script>
+                      <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+                      <!-- AddThis Button END -->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- COMMON SNS BUTTON END -->
+            </div>
+          </div>
+          <div class="sofina-footerPagetop">
+            <a href="#wrapper">
+              <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る</a>
+          </div>
+          <div class="sofina-footerSitemap">
+            <div class="sofina-footerSitemapColumn">
+              <div class="sofina-footerSitemap__cols">
+                <ul class="sofina-footerSitemapLinks">
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps.html">トップ</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/lesson.html">Beauty Power Lesson</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/access.html">店舗情報・アクセス</a></li>
+                  <li><a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2/bps/news.html">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-Area sofina-BlFooter" id="area-BlFooter">
+      <div class="g-Area__inner">
+        <div class="BlFooter">
+          <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp2.html" class="sofina-footerLogo">
+            <p class="sofina-footerLogo__img">
+              <img src="/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina.png" alt="SOFINA">
+            </p>
+            <p class="sofina-footerLogo__txt">ソフィーナトップページ</p>
+          </a>
+          <div class="sofina-footerUtility">
+            <ul class="sofina-footerUtility__links">
+              <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護方針</a></li>
+              <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+              <li><a href="http://www.kao.com/jp/">花王株式会社</a></li>
+              <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+            </ul>
+            <p class="sofina-footerUtility__copyright">Copyright © 1999-2015 Kao Corporation. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span id="breakPoint-small"></span>
+    <span id="breakPoint-middle"></span>
+    <span id="breakPoint-large"></span>
+
+    <!--/wrapper-->
+  </div>
+
+
+
+
+
+
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

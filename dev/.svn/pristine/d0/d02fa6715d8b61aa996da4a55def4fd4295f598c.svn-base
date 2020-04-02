@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+/* Page Top ================================================== */
+#area-PageTop {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.g-PageTop {
+  a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    overflow: hidden;
+    .cmn-icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -10px;
+      margin-left: -10px;
+    }
+  }
+}
+

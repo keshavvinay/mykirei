@@ -1,0 +1,167 @@
+.faq-section{
+    
+    @include section-max-width;
+    background-color: #fff;
+    
+    .heading-column-unit{
+        position: relative;
+        @media (max-width:$breakpoint_sm){
+            margin-bottom: 20px;
+        }
+    }
+    
+    .product-title {
+    border-bottom: 2px solid #ebebeb !important;
+        margin-bottom: 0;
+        
+        h1{
+            
+        line-height: 1;
+             font-family: 'PT Sans Narrow';
+            @media (max-width:$breakpoint_sm){
+                max-width: 100%;
+            font-size: 24px !important;
+        }
+        }
+}
+    
+    .print{
+        position: absolute;
+    bottom: 16px;
+    right: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+        margin-bottom: 0;
+    font-family: 'PT Sans';
+    cursor: pointer;
+    padding: 0;
+    padding-right: 25px;
+    background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/print-icon.png) 100% 0px no-repeat;
+    background-size: contain;       
+            &:hover{
+                text-decoration: underline;
+            }
+            
+            @media(max-width:$breakpoint_sm){
+                    bottom: -25px;
+            }
+            
+        }
+    
+    .jergens-brand, .heading-light {
+        line-height: 1;
+        font-family: "PT Sans Narrow";
+        margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #999;
+}
+    
+     .action-buttons-pack{
+        
+        .expand-btn a,.collapse-btn a{
+                padding: 7px;
+            padding-left: 20px;
+                border: 1px solid #b99c79;
+            position: relative;
+    background-color: #fff;
+    color: #333;
+    border-radius: 0;
+    box-shadow: none;
+            font-weight: bold;
+             font-size: 12px;
+    text-transform: uppercase;
+
+    text-align: center;
+            cursor: pointer;
+        }
+        
+        .expand-btn a:before{
+            content: '+';
+            font-size: 20px;
+            display: inline-block;
+            position: absolute;
+            left: 6px;
+            top: 1%;
+            font-family: 'PT Sans';
+        }
+        
+        
+    .collapse-btn a:before{
+        content: '-';
+        font-size: 33px;
+        position: absolute;
+        left: 4px;
+        top: -30%;
+        line-height: normal;
+        font-weight: normal;
+        font-family: 'PT Sans';
+    }
+        
+    }
+    
+    img{
+        width: auto !important;
+        margin: 0 auto;
+    }
+    
+    .faq-column-unit{
+        .heading-light{
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+    }
+    
+    
+        .faq-question{
+            margin-bottom: 0 !important;
+            .cmn-icon{
+                display: none;
+            }
+            
+            .g-AccordionUnit__titleBlock{
+                outline: none;
+                position: relative;
+                padding-left: 20px;
+                font-weight: bold;
+                &:before{
+                    content: '';
+                    display: block;
+                    width: 10px;
+                    height: 2px;
+                    position: absolute;
+                    background-color: #333;
+                    left: 0;
+                    z-index: 1;
+                    top: 19px;
+                }
+
+                &:after{
+                    content: '';
+                    display: block;
+                    height: 10px;
+                    width: 2px;
+                    position: absolute;
+                    background-color: #333;
+                    left: 4px;
+                    top: 15px;
+                }
+            }
+            .g-AccordionUnit__contentBlock{
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            
+            &.is-radius--open{
+                    
+                    .g-AccordionUnit__titleBlock:after{
+                        
+    background-color: #fff;
+                        
+                    }
+                }
+        }
+    
+    
+}

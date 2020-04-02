@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*****************************
+  Clientlibs config
+ *****************************/
+/*
+ setting
+ ∩╝êΣ╕èµ¢╕πüìτªüµ¡ó∩╝ë
+ */
+/*
+ common veriable
+ ∩╝êσà▒ΘÇÜσñëµò░πâ╗Σ╗╗µäÅ∩╝ë
+ */
+/* design foundation */
+/*****************************
+  principles
+ *****************************/
+/*
+ design principles
+ ∩╝êπé╡πéñπâêπÇüπâÜπâ╝πé╕σêÑπü½Σ╕èµ¢╕πüìπéÆΦ¿▒σÅ»∩╝ë
+ */
+/*****************************
+  Content Color set (light)
+ *****************************/
+/* Body */
+/* Brand Header */
+/* Local Navigation */
+/* Breadcrumbs */
+/* Contents Area */
+/* Link */
+/* Button */
+/* Accordion */
+/* TileLink */
+/* NewsIndex */
+/* TelephoneCallItem */
+/* FullwidthVisuals&Carousel */
+/* Label/Tag */
+/* DefinitionList */
+/* Brand Footer */
+/* Page Top */
+/* Option */
+/*****************************
+  principles font-family πé┤πé╖πââπé»
+ *****************************/
+/*
+ KMS-font-family
+ @param $fontType (title, subTitle, body)
+*/
+/*
+ KMS-font-size
+ @param $fontType (headline3, longcopy)
+*/
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+/*
+ Link
+ */
+/*
+ AreaLink
+ */
+/*
+ Button
+ */
+/*
+  gutterWrapper (Column)πü½σ»╛πüùπüªπé¼πé┐πâ╝πâ₧πâ╝πé╕πâ│πéÆπé╗πââπâê
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterInner (Column)πü½σ»╛πüùπüªπé¼πé┐πâ╝πâ₧πâ╝πé╕πâ│πéÆπé╗πââπâê
+  @param $level s,m,l,xl,reset
+*/
+/*
+  gutterItemWrapperπü½σ»╛πüùπüªπâ₧πâ╝πé╕πâ│πéÆπé╗πââπâê
+  @param $resetFlg πâ₧πâ╝πé╕πâ│πâ¬πé╗πââπâêπâòπâ⌐πé░
+*/
+/*
+  gutterInnerπü½σ»╛πüùπüªπâ₧πâ╝πé╕πâ│πéÆπé╗πââπâê
+  @param $resetFlg πâ₧πâ╝πé╕πâ│πâ¬πé╗πââπâêπâòπâ⌐πé░
+*/
+/*
+  Σ╕èπâ₧πâ╝πé╕πâ│.
+  @param $level s,m,l,xl
+*/
+/*
+  Σ╕ïπâ₧πâ╝πé╕πâ│.
+  @param $level s,m,l,xl
+*/
+/*
+  σ╖ªπâ₧πâ╝πé╕πâ│.
+  @param $level s,m,l,xl
+*/
+/*
+  σÅ│πâ₧πâ╝πé╕πâ│.
+  @param $level s,m,l,xl
+*/
+/*
+ Corner Radius∩╝êΓÇ╗σ╗âµ¡óΣ║êσ«Ü∩╝ë
+ @param $size (ss, s, m, l, ll)
+ */
+/*
+ Image(or Movie) Text Pack(Horizontal)σåàπü«HeadingTitle
+ @param $imagePosition(left, right)
+ */
+/*
+ Map Access Pack(Horizontal)σåàπü«HeadingTitle
+ @param $mapPosition(left, right)
+ */
+/*
+  πé╖πâúπâëπéª.
+  @param $pattern A,B,none
+*/
+/*
+  πâ£πé┐πâ│τö¿πé╖πâúπâëπéª.
+  @param $visible true,false
+*/
+/* Setting ============================================================ */
+html {
+  height: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+  background: #FFF;
+}
+
+/* Wrapper ============================================================ */

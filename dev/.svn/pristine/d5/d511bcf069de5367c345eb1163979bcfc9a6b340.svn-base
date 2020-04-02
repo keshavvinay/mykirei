@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+/* workshop ============================== */
+
+.sofina-workshop-section_mainvisual {
+  @include bg_main("bps-mainvisual-workshop-new.jpg");
+  background-size: contain;
+  background-position: -200% 0;
+  @include bp(md) {
+    @include bg_main("tb_bps-workshop-mainvisual-new@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+  @include bp(sm) {
+    @include bg_main("bps-mainvisual-workshop-new@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+  .sofina-section_mainvisual_visualleft__txtholder__des {
+    text-align: center;
+  }
+}
+
+// list section
+.bps-workshop_list__section {
+  &.bps-workshop_list_finished__section {
+    .g-Section__inner {
+      padding-top: 0;
+    }
+  }
+  .g-Section__inner {
+    padding-top: 40px;
+    padding-bottom: 0;
+    @include bp(sm) {
+      padding-top: 20px;
+      padding-bottom: 0;
+    }
+  }
+  .sofina-sectionTitle {
+    margin-bottom: 16px;
+    @include bp(sm) {
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.bps-workshop_list_content__column {
+  .g-Column__inner {
+    border-bottom: 1px dotted #ccc;
+    margin: 0 50px 0;
+    position: relative;
+    @include bp(sm) {
+      margin: 0;
+    }
+  }
+  &.is-first {
+    .g-Column__inner {
+      border-top: 1px dotted #ccc;
+    }
+  }
+
+  .bps-workshop_list__text--small {
+    font-size: $fontSize_lv6; //16px
+    padding-right: 150px;
+    @include bp(sm) {
+      font-size: $fontSize_caption; //12px;
+      padding: 0;
+    }
+  }
+  .bps-workshop_list__text--normal {
+    font-size: $fontSize_lv4; //20px;
+    margin-bottom: 24px;
+    padding-right: 150px;
+    @include bp(sm) {
+      font-size: $fontSize_sm_body; //14px;
+      padding: 0;
+    }
+  }
+  .bps-workshop_list__link {
+    border: 1px solid $colorGray_5;
+    padding: 15px 40px 15px 30px;
+    font-size: $fontSize_lv7;
+    line-height: 1;
+    @include bp(lg) {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      margin-top: -24px;
+    }
+    @include bp(md) {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      margin-top: -24px;
+    }
+    @include bp(sm) {
+      margin-bottom: 0;
+      margin-top: 8px;
+      padding: 10px 0;
+      width: 100%;
+      text-align: center;
+
+    }
+  }
+}
+
+.bps-workshop_list_content_area__link {
+  padding: 30px;
+  display: block;
+  text-decoration: none;
+  color: $colorFont_dark;
+  @include bp(sm) {
+    padding: 16px 0;
+  };
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.bps-workshop_shop__section {
+  .g-Section__inner {
+    padding-top: 0;
+    padding-bottom: 80px;
+    @include bp(sm) {
+      padding-top: 0;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+.bps-workshop_shop__column {
+  .g-Column__inner {
+    margin: 0 50px;
+    @include bp(sm) {
+      margin: 0;
+    }
+  }
+}
+
+/* workshop detail ============================== */
+.bps-workshop_detail_header__section {
+  background-color: #f8f8f8;
+  .g-Section__inner {
+    padding: 40px 82px;
+    @include bp(sm) {
+      padding: 14px 10px;
+    }
+  }
+  .g-HeadingTitle__h2 {
+    font-weight: normal;
+    margin-bottom: 24px;
+    @include bp(md) {
+      font-size: $fontSize_lv2_1;
+    }
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv5;
+    }
+  }
+}
+.bps-workshop_detail_header__text {
+  font-size: $fontSize_lv5;
+  @include bp(sm) {
+    font-size: $fontSize_sm_caption;
+  }
+}
+.bps-workshop_detail_header__annotation {
+  font-size: $fontSize_caption;
+  margin-bottom: 0;
+}
+
+.bps-workshop_detail_content__section {
+  .g-Section__inner {
+    padding: 40px 82px 68px;
+     @include bp(sm) {
+      padding: 15px 10px 26px;
+     }
+  }
+}
+
+.bps-workshop_detail_content_lead__text {
+  margin-bottom: 90px;
+  text-align: center;
+  @include bp(sm) {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+}
+
+.bps-workshop_detail_content__column {
+  border-bottom: 1px solid #ccc;
+  .bps-workshop_detail_content_title__group {
+    display: table;
+    width: 100%;
+  }
+  .bps-workshop_detail_content_title__text {
+    display: table-cell;
+    @include bp(lg) {
+      width: 15%;
+      vertical-align: middle;
+    }
+    @include bp(md) {
+      width: 15%;
+      vertical-align: middle;
+    }
+    @include bp(sm) {
+      width: 25%;
+    }
+  }
+  .bps-workshop_detail_content_intro__text {
+    display: table-cell;
+    @include bp(lg) {
+      width: 85%;
+      vertical-align: middle;
+    }
+    @include bp(md) {
+      width: 85%;
+      vertical-align: middle;
+    }
+    @include bp(sm) {
+      width: 75%;
+    }
+    .intro-cap {
+      font-size: $fontSize_caption;
+    }
+  }
+  .cmn-richtext {
+    font-size: $fontSize_lv7;
+    @include bp(sm) {
+      font-size: $fontSize_sm_caption;
+    }
+  }
+  &.is-first {
+    border-top: 1px solid #ccc;
+  }
+  .g-Column__inner {
+    padding: 30px;
+    @include bp(sm) {
+      padding: 20px 0;
+    }
+  }
+  .g-Column__cols {
+    display: table;
+    .g-ColumnUnit {
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      .l-Text,
+      .l-Image {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &.bps-workshop_detail_content__column--hasImage {
+    .bps-workshop_detail_content_title__text {
+      width: 20%;
+      padding-right: 10px;
+      @include bp(md) {
+        width: 25%;
+      }
+      @include bp(sm) {
+        width: 25%;
+        padding-right: 0;
+      }
+    }
+    .bps-workshop_detail_content_intro__text {
+      width: 80%;
+      padding-right: 30px;
+      @include bp(md) {
+        width: 75%;
+      }
+      @include bp(sm) {
+        width: 75%;
+        padding-right: 0;
+      }
+    }
+    .bps-workshop_detail_content__image {
+      @include bp(sm) {
+        width: 70%;
+        margin: 15px auto 0;
+      }
+    }
+    .g-Column__cols {
+      &:first-child {
+        @include bp(lg) {
+          width: 60%;
+        }
+        @include bp(md) {
+          width: 60%;
+        }
+      }
+      &:last-child {
+        @include bp(lg) {
+          width: 40%;
+        }
+        @include bp(md) {
+          width: 40%;
+        }
+      }
+    }
+  }
+}
+
+.bps-workshop-list__link {
+  margin-top: 30px;
+  margin-bottom: 18px;
+  @include bp(sm) {
+    margin-top: 15px;
+    margin-bottom: 26px;
+  }
+}
+
+.bps-workshop_reserve__title {
+  padding-top: 144px;
+  margin-top: -144px;
+  @include bp(md) {
+    padding-top: 134px;
+    margin-top: -134px;
+  }
+  @include bp(sm) {
+    padding-top: 93px;
+    margin-top: -93px;
+  }
+}
+
+.pbs-workshop_finish_label__text {
+  .cmn-richtext {
+    span {
+      background-color: #777;
+      display: inline-block;
+      color: #fff;
+      font-size: $fontSize_caption;
+      padding: 5px 10px;
+      line-height: 1;
+    }
+  }
+}
+
+.bps-fee_cap--underline {
+  text-decoration: underline;
+}
+
+.bps-workshop_finish_back__section {
+  .g-Section__inner {
+    padding: 40px 82px 82px;
+    @include bp(sm) {
+      padding: 15px 10px 34px;
+    }
+  }
+}
+.bps-workshop_finish_back__text {
+  text-align: center;
+  @include bp(sm) {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+.bps-workshop-top_detail_content__section {
+  margin: 0 auto 100px;
+  max-width: 1048px;
+  @include bp(sm) {
+    margin: 0 0 50px;
+  }
+  .g-Section__inner {
+    background-color: #f5f5f5;
+    margin: 0 82px;
+    padding: 40px 30px 30px;
+    @include bp(sm) {
+      margin: 0;
+      padding: 20px 10px 10px;
+    }
+  }
+}
+
+.bps-workshop-top_detail_content__heading {
+  margin-bottom: 30px;
+  @include bp(sm) {
+    margin-bottom: 25px;
+  }
+  .g-HeadingTitle__h3 {
+    font-weight: normal;
+    font-size: $fontSize_lv4;
+    @include bp(sm) {
+      font-size: $fontSize_sm_lv6;
+    }
+  }
+}
+
+.bps-workshop-top_inner_content__column {
+  background-color: #fff;
+  &.bps-workshop-top_inner_header__column {
+    margin-top: 30px;
+    padding: 30px 30px 0;
+    @include bp(sm) {
+      margin-top: 20px;
+      padding: 15px 10px 0;
+    }
+    .bps-workshop_detail_content_lead__text {
+      margin-bottom: 50px;
+      @include bp(sm) {
+        margin-bottom: 30px;
+      }
+    }
+    .g-HeadingTitle {
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+      margin-bottom: 20px;
+      @include bp(sm) {
+        padding-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    .g-HeadingTitle__h3 {
+      font-weight: normal;
+      font-size: $fontSize_lv5;
+      @include bp(sm) {
+        font-size: $fontSize_sm_body;
+      }
+    }
+  }
+  &.bps-workshop_detail_content__column {
+    border: none;
+    padding: 0 30px;
+    @include bp(sm) {
+      padding: 0 10px;
+    }
+    .g-Column__inner {
+      border-bottom: 1px solid #ccc;
+      padding: 30px 0;
+      @include bp(sm) {
+        padding: 20px 0;
+      }
+    }
+    &.is-first {
+      .g-Column__inner {
+        border-top: 1px solid #ccc;
+      }
+    }
+  }
+  &.sofina-lesson-section_fee__cont {
+    padding: 50px 30px 30px;
+    @include bp(sm) {
+      padding: 50px 10px 15px;
+    }
+  }
+}

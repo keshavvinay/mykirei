@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>nav-001_01</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <script src="/etc/designs/kaousa/www-kmshair-com/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <!--script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script-->
+  <!-- debug script -->
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <!-- area-BrHeader -->
+    <div class="g-Area" id="area-BrHeader">
+      <div class="kmsBrandHeader">
+        <div class="kmsBrandHeader__inner">
+          <a href="javascript:void(0);" class="kmsBrandHeader__menu-trigger is-deactive js-mainmenu-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+          <div class="kmsBrandHeader__logo">
+            $PARSYS<!-- <div class="g-Image l-Image" style="position : relative;">
+              <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmshair-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;"></p>
+            </div>-->
+          </div>
+        </div>
+        <!-- toggle menu -->
+        <div class="kmsBrandHeader__mainmenu">
+          <!-- desktop and mobile -->
+          <div class="kmsBrandHeader__mainmenu__list opt-hide-md">
+            <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) desktop and mobile -->
+            $PARSYS
+            <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) desktop and mobile -->
+          </div>
+          <!-- /desktop and mobile -->
+          <!-- tablet -->
+          <div class="kmsBrandHeader__mainmenu--md opt-hide-lg opt-hide-sm">
+            <div class="kmsBrandHeader__mainmenu__list">
+              <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+              $PARSYS
+              <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+            </div>
+            <div class="kmsBrandHeader__mainmenu__list">
+              <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+              $PARSYS
+              <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+            </div>
+          </div>
+          <!-- /tablet -->
+          <div class="kmsBrandHeader__mainmenu__sns">
+            <ul class="kmsBrandHeader__mainmenu__sns__list">
+              <li class="kmsBrandHeader__mainmenu__sns__item">
+                <a href="https://www.youtube.com/kmshair" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--yt"></span></a>
+              </li>
+              <li class="kmsBrandHeader__mainmenu__sns__item">
+                <a href="https://pinterest.com/kmshair/" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--pinterest"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /toggle menu -->
+        <!-- C280 COUNTRY SELECTOR -->
+        <div class="c280brandHeader">
+          <a href="javascript:void(0);" class="c280brandHeader__trigger js-c280">
+            <span class="c280brandHeader__trigger__globe kms-icon kms-icon--globe"></span>
+          </a>
+          <!-- toggle block -->
+          <div class="c280brandHeader__selector">
+            <!-- PARSYS(headingTitle) -->
+            $PARSYS
+            <!-- /PARSYS(headingTitle) -->
+            <div class="c280brandHeader__selector__wrapper">
+              <div class="c280brandHeader__selector__colgroup--md">
+                <div class="c280brandHeader__selector__colgroup--lg">
+                  <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                  $PARSYS
+                  <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                </div>
+                <div class="c280brandHeader__selector__colgroup--lg">
+                  <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                  $PARSYS
+                  <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                </div>
+              </div>
+              <div class="c280brandHeader__selector__colgroup--md">
+                <div class="c280brandHeader__selector__colgroup--lg">
+                  <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                  $PARSYS
+                  <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                </div>
+                <div class="c280brandHeader__selector__colgroup--lg">
+                  <!-- PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                  $PARSYS
+                  <!-- /PARSYS([GroupBox > textLinkP(name) + textLinkP(lang)] * country) -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /toggle block -->
+        </div>
+        <!-- /C280 COUNTRY SELECTOR -->
+      </div>
+    </div>
+    <!-- / area-BrHeader -->
+
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section l-Section is-paddingReset--topBottom is-paddingReset--leftRight is-fullWidth" id="common_section_wrapper_1">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column c165__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-Image l-Image">
+                    <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmshair-com/en/c270-vi01-lg" class="cq-dd-image" style="width : 100%;"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-Contents -->
+    <!-- area-BrFooter -->
+    <div class="g-Area" id="area-BrFooter">
+      <div class="g-BrFooter l-BrFooter">
+        <div class="g-BrFooter__inner l-BrFooter__inner">
+          <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+            <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+              <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+                <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="g-BrFooter__infoBlock l-BrFooter__infoBlock">
+            <div>
+              <div>
+                freeHtml
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-BrFooter -->
+  </div>
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+  <!-- area-PageTop -->
+  <div class="g-Area" id="area-PageTop">
+    <div class="g-PageTop l-PageTop">
+      <a class="g-PageTop__link l-PageTop__link" href="#wrapper">ページ先頭へ戻る<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+    </div>
+  </div>
+  <!-- / area-PageTop -->
+
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

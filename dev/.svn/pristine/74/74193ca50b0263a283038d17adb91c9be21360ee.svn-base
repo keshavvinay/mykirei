@@ -1,0 +1,624 @@
+
+//CSS WHEN AUTHORRING
+
+
+//styles when authorring
+.is-authorring{  
+    
+    .text-on-image {
+        
+    .article-title-on-image {
+            position: static;
+    top: auto;
+    margin: 0;
+    border: 0;
+    left: auto;
+        
+    }
+}
+    
+    .headerWrapper{
+        .close-menu{
+            display: block;
+            position: static;
+        } 
+        
+        &.openScreen:after{
+            display: none;
+        }
+        
+    }
+    
+   
+    
+    .header{
+        height:auto;
+    max-width: 100%;
+    margin: 0;
+        
+         .products-tab{ 
+            display: block;
+       }
+        
+        #globalNav{
+            position: static;
+            z-index: 0;
+            background: none;
+        }
+    }
+    
+    .header{
+        .open-dropdown{
+            display: block;
+            position: static;
+        }
+        
+        
+        //AUSTRALIA ENGLISH AUTHORRING CSS
+        .globalNav-au{
+        
+                    position: static;
+      
+        .lvl1 > li{
+            
+                position: static !important;
+           
+            }
+        
+            
+                .campaign-category-list{
+                    position: relative;
+                margin: 0;
+                float: none;
+                }
+                
+                .productsSubNav{
+                    li{
+                        display: block;
+                    }
+                }
+            }
+    
+        
+        
+        //CANADA ENGLISH AUTHORRING CSS
+        .globalNav-ca{
+        position: static;
+        
+        .lvl1 > li{
+                 
+            position: static !important;
+            }
+    }
+        //MEXICO SPANISH AUTHORRING CSS
+        //MEXICO SPANISH CSS STARTS
+    .globalNav-mx{
+       position: static;
+        
+        .lvl1 > li{
+            
+                position: static !important;
+            
+            }
+       }
+        
+        //MIDDLE EAST ENGLISH AUTHORRING CSS
+        .globalNav-sa{
+         
+                    position: static;
+      
+        
+        
+            .lvl1 > li{
+               
+                position: static !important;
+               
+            }
+            
+             
+    }
+        
+        .globalNav-sa-ar{
+        
+                    position: static;
+       
+       
+        
+        .lvl1 > li{
+                 
+                position: static !important;
+                
+            }
+            
+            .lvl1.clearfix{
+                .subnav{
+            
+                 .products-category-list{
+                     margin-left:20px;
+                     margin-right: 0;
+                     float: none;
+                     height: auto;
+                 }
+       
+        }
+            }
+        
+    }
+        
+    }
+    
+    #globalNav{
+        display: block !important;
+            z-index: 100;
+    position: static;
+    overflow-y: scroll;
+    padding: 50px 30px;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: auto;
+    }
+    
+    .lvl1{
+        
+        li#ctl00_header_navProducts{
+            height: auto !important;
+        }
+        
+        .subnav{
+            display: block !important;
+            
+            li{
+                float: none;
+                margin-right: 0;
+            }
+            
+            .products-category-list{
+                    position: relative;
+                margin: 0;
+                float: none;
+                height: auto !important;
+            }
+            
+            
+            .list-of-products{
+
+                    display: block !important;
+                    position: static !important;
+                }
+            
+            }
+            
+        
+        li{
+            
+                display: block !important;
+        }
+        
+        }
+    
+    
+    //HYDRALUCENCE PAGE
+.hydralucence-section{
+    
+.product-carousal{
+
+    .carousal-item{
+                display: block;
+                
+                .g-ImageTextHP__contentsBlock__text{
+                        display: block;
+                        position: relative;
+                        text-align: left;
+                        left: 0;
+                        max-width: 100%;
+                }
+        
+        .product-image img{
+                height: inherit;
+            margin: auto;
+        }
+        
+         .active img{
+            width: auto;
+            transition: all 0.5s ease;
+//                height: 320px;
+//    margin-top: -40px;
+            transform: scale(1) !important;
+        }
+    }
+       
+}
+    }
+    
+    //PASS ON THE RADIANCE PAGE
+    .radiance-section{
+    ._3x-groupbox{
+    
+        
+        
+        .g-ImageTextVP__contentsBlock__text{
+            position: static;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+            
+        }
+        
+    }
+        .skincare-column{
+            .skincare-image-pack{
+                .g-ImageTextVP__contentsBlock__text{
+                    position: static;
+                }
+            }
+        }
+    }
+    
+    //PRODUCT DETAILS PAGE
+    
+   .product-details-section{
+        .tab-unit-with-btn{
+                    
+            .go-to-btn-pack{
+                position: static;
+            }
+        }
+       
+       .heading-column-unit{
+           .print{
+               position: static;
+           }
+       }
+       
+       .two-col-table{
+           .extra-content{
+               &> div div{
+                   width: 100%;
+                   
+               }
+           }
+       }
+       
+       .product-details-tab-menu{
+           .tab-unit-with-btn{
+               .go-to-btn-pack{
+                   position: static;
+               }
+           }
+           .g-TabMenu__item{
+                .g-TabMenuUnit{
+                    max-height: 10000px;
+               }   
+           }
+           .g-TabMenu__nav{
+               display: block;
+           }
+       }
+        
+    }
+    .product-details-section2{
+        
+    .you-may-like-products{
+                
+        .link-with-right-arrow{
+                
+    position: static;
+            
+        }
+    }
+}
+
+    
+    
+    //PRODUCT LISTING
+    
+    .product-list-section-wrapper{
+        
+        
+        .product-list-section1-column .product-listing-header-groupbox,.product-list-section1-column .product-listing-us-header-groupbox{
+            position: static;
+        
+    }
+        
+        .right-aligned-text{
+        position: static;
+        top: 0;
+        right: 0;
+    }
+        
+        .product-list-section1-column .product-listing-sa-header-groupbox{
+             position: static;
+    top: 15%;
+    left: 10%;
+         
+    }
+    }
+    
+    //CATEGORY LISTING 
+    .category-list-section-wrapper{
+    .category-list-banner-column-unit{
+    .category-list-banner-groupbox{
+        
+            position: static;
+            
+                
+    }
+        
+        .category-list-natural-glow-groupbox,.category-list-daily-moisturizers-groupbox,.category-list-wet-skin-moisturizers-groupbox{
+            position: static !important;
+        }
+        
+        
+    }
+        
+        .overlay{
+            position: static;
+        &>div{
+            &:before{
+                
+                position: static;
+                
+                
+            }
+        }
+        
+    }
+    
+    #firstVideo,#secondVideo{
+        display: block;
+    }
+    }
+    
+    //FAQ PRODUCTS 
+    .faq-product-section{
+        .heading-column-unit{
+            .print{
+                position: static;
+            }
+        }
+        .faq-tab-menu{
+            .g-TabMenu__item{
+                .g-TabMenuUnit{
+                    max-height: 10000px;
+                }
+            }
+            .g-TabMenu__nav{
+                display: block;
+            }
+        }
+    }
+    
+    
+      //FAQ LISTING
+    
+    .faq-section{
+    
+    
+    .print{
+    position: static;
+    top: auto;
+                
+        }
+    }
+    
+ 
+//UTILITY PAGES
+
+/*LEGAL PAGE*/
+.utility-section{
+    
+    .utility-header{
+                position: static;
+        top: 80px;
+        left: 20px;
+        }
+}   
+    
+    .article-section{
+        .counterfeit-header{
+            position: static;
+        }
+    }
+    
+    
+    
+    //WHERE TO BUY PAGES
+    
+    .where-to-buy-listing-section1{
+
+    
+    .where-to-buy-banner{
+
+    .where-to-buy-header{
+        position: static;
+        top: 50px;
+        left: 20px;
+        
+    }
+
+        }
+        
+        .all-products-image{
+        position: static !important;
+        top: -120px;
+        left: 0;
+        right: 0;
+        
+    }
+    }
+    
+    
+    
+ //CAMPAIGN PAGE GOLDEN_LIFE   
+    
+    .golden-life-section{
+    
+    .golden-life-banner{
+        .g-Column__cols{
+            padding: 0 !important;
+        }
+    }
+        
+        .golden-life-banner-groupox{
+            position: relative;
+            background-color: #ECD086;
+            
+            img{
+                margin: 0 auto;
+            }
+        }
+    
+    .golden-life-title{
+        position: static !important;
+        top: 40%;
+        left: 0;
+    right: 0;
+    }
+        
+        
+        .product-carousal-groupbox{
+       
+        
+        .blue-background{
+            position: static;
+    height: 270px;
+    display: block;
+    width: 270px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    background: radial-gradient(#0082b4,#00accf);
+            
+             @media(max-width:$breakpoint_sm){
+             height: 220px;
+             width: 220px;
+                 top: 10%;
+                 
+        }
+        }
+    }    
+  
+    
+}
+    
+    .womens-health-section{
+   
+    .g-Text{
+        
+        &.is-background{
+            
+    position: static;
+        
+        }
+    }
+        
+      .badge-column{  
+        .single-image-link-pack{
+            position: static;
+            
+        }
+    
+        }
+        
+        .womens-health-image-pack{
+        position: relative;
+        
+        
+        .g-ImageTextVP__contentsBlock__text{
+            position: static;
+            top: 10%;
+        }
+    }
+        
+        .best-tanner-product{
+           
+    position: static !important;
+        
+        img{
+            margin: 0 auto;
+            
+            
+        }
+                
+        .g-Text{
+            
+    display: inline-block;
+    position: relative;
+        right: 0;
+        }
+    }
+}
+    
+    
+    .special-offers-section{
+   
+    
+    .special-offers-heading-groupbox{
+        position: static;
+        top: 30%;
+        left: 15px;
+        
+    }
+}
+   
+    
+    //SIGNUP AUTHORRING CSS
+  
+        .jergens_contact_us_section{
+            .product_code_image{
+   display: block;
+   position: relative !important;
+   left: 0 !important;
+   top: 0 !important;
+            }
+}
+    
+// HOME PAGE (TILE LINKS) AUTHORRING CSS
+    .home-section2 {
+        .tile-container-au {
+            .product-tile {
+                .g-ImageTextVP__contentsBlock__text{
+                    .g-ImageTextVP__contentsBlock__text__moreinfo .g-TextLinkP__list{
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    //List Items inside FAQ pages
+    .single-line-text{
+        ul,ol{
+            li{
+                display: list-item;
+                margin-right: 10px;
+                float: none;
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    }
+
+
+
+
+
+
+
+

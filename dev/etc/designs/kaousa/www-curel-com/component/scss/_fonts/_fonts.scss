@@ -1,0 +1,355 @@
+// Raleway
+@font-face {
+  font-family: "RalewayBlack";
+  src: url("../../component/fonts/raleway/ralewayblack.eot");
+  src: url("../../component/fonts/raleway/ralewayblack.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayblack.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewayblack.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewayblack.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewayblack.svg#ralewayblack")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayBlackItalic";
+  src: url("../../component/fonts/raleway/ralewayblackitalic.eot");
+  src: url("../../component/fonts/raleway/ralewayblackitalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayblackitalic-.woff2")
+      format("woff2"),
+    url("../../component/fonts/raleway/ralewayblackitalic.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewayblackitalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewayblackitalic.svg#ralewayblackitalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayBold";
+  src: url("../../component/fonts/raleway/ralewaybold.eot");
+  src: url("../../component/fonts/raleway/ralewaybold.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaybold.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewaybold.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaybold.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewaybold.svg#ralewaybold")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayBoldItalic";
+  src: url("../../component/fonts/raleway/ralewayboldItalic.eot");
+  src: url("../../component/fonts/raleway/ralewayboldItalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayboldItalic.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewayboldItalic.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewayboldItalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewayboldItalic.svg#ralewayboldItalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayExtraBold";
+  src: url("../../component/fonts/raleway/ralewayextrabold.eot");
+  src: url("../../component/fonts/raleway/ralewayextrabold.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayextrabold.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewayextrabold.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewayextrabold.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewayextrabold.svg#ralewayextrabold")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayExtraBoldItalic";
+  src: url("../../component/fonts/raleway/ralewayextrabolditalic.eot");
+  src: url("../../component/fonts/raleway/ralewayextrabolditalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayextrabolditalic.woff2")
+      format("woff2"),
+    url("../../component/fonts/raleway/ralewayextrabolditalic.woff")
+      format("woff"),
+    url("../../component/fonts/raleway/ralewayextrabolditalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewayextrabolditalic.svg#ralewayextrabolditalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayExtraLight";
+  src: url("../../component/fonts/raleway/ralewayextralight.eot");
+  src: url("../../component/fonts/raleway/ralewayextralight.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayextralight.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewayextralight.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewayextralight.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewayextralight.svg#ralewayextralight")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayExtraLightItalic";
+  src: url("../../component/fonts/raleway/ralewayextralightitalic.eot");
+  src: url("../../component/fonts/raleway/ralewayextralightitalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayextralightitalic.woff2")
+      format("woff2"),
+    url("../../component/fonts/raleway/ralewayextralightitalic.woff")
+      format("woff"),
+    url("../../component/fonts/raleway/ralewayextralightitalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewayextralightitalic.svg#ralewayextralightitalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayItalic";
+  src: url("../../component/fonts/raleway/ralewayitalic.eot");
+  src: url("../../component/fonts/raleway/ralewayitalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayitalic.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewayitalic.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewayitalic.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewayitalic.svg#ralewayitalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayLight";
+  src: url("../../component/fonts/raleway/ralewaylight.eot");
+  src: url("../../component/fonts/raleway/ralewaylight.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaylight.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewaylight.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaylight.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewaylight.svg#ralewaylight")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayLightItalic";
+  src: url("../../component/fonts/raleway/ralewaylightitalic.eot");
+  src: url("../../component/fonts/raleway/ralewaylightitalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaylightitalic.woff2")
+      format("woff2"),
+    url("../../component/fonts/raleway/ralewaylightitalic.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaylightitalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewaylightitalic.svg#ralewaylightitalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayMedium";
+  src: url("../../component/fonts/raleway/ralewaymedium.eot");
+  src: url("../../component/fonts/raleway/ralewaymedium.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaymedium.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewaymedium.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaymedium.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewaymedium.svg#ralewaymedium")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayMediumItalic";
+  src: url("../../component/fonts/raleway/ralewaymediumitalic.eot");
+  src: url("../../component/fonts/raleway/ralewaymediumitalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaymediumitalic.woff2")
+      format("woff2"),
+    url("../../component/fonts/raleway/ralewaymediumitalic.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaymediumitalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewaymediumitalic.svg#ralewaymediumitalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayRegular";
+  src: url("../../component/fonts/raleway/ralewayregular.eot");
+  src: url("../../component/fonts/raleway/ralewayregular.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewayregular.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewayregular.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewayregular.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewayregular.svg#ralewayregular")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewaySemiBold";
+  src: url("../../component/fonts/raleway/ralewaysemibold.eot");
+  src: url("../../component/fonts/raleway/ralewaysemibold.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaysemibold.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewaysemibold.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaysemibold.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewaysemibold.svg#ralewaysemibold")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewaySemiBoldItalic";
+  src: url("../../component/fonts/raleway/ralewaysemibolditalic.eot");
+  src: url("../../component/fonts/raleway/ralewaysemibolditalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaysemibolditalic.woff2")
+      format("woff2"),
+    url("../../component/fonts/raleway/ralewaysemibolditalic.woff")
+      format("woff"),
+    url("../../component/fonts/raleway/ralewaysemibolditalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewaysemibolditalic.svg#ralewaysemibolditalic")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayThin";
+  src: url("../../component/fonts/raleway/ralewaythin.eot");
+  src: url("../../component/fonts/raleway/ralewaythin.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaythin.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewaythin.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaythin.ttf") format("truetype"),
+    url("../../component/fonts/raleway/ralewaythin.svg#ralewaythin")
+      format("svg");
+}
+
+@font-face {
+  font-family: "RalewayThinItalic";
+  src: url("../../component/fonts/raleway/ralewaythinitalic.eot");
+  src: url("../../component/fonts/raleway/ralewaythinitalic.eot")
+      format("embedded-opentype"),
+    url("../../component/fonts/raleway/ralewaythinitalic.woff2") format("woff2"),
+    url("../../component/fonts/raleway/ralewaythinitalic.woff") format("woff"),
+    url("../../component/fonts/raleway/ralewaythinitalic.ttf")
+      format("truetype"),
+    url("../../component/fonts/raleway/ralewaythinitalic.svg#ralewaythinitalic")
+      format("svg");
+}
+
+/*
+	Copyright (C) Hoefler & Co.
+	This software is the property of Hoefler & Co. (H&Co).
+	Your right to access and use this software is subject to the
+	applicable License Agreement, or Terms of Service, that exists
+	between you and H&Co. If no such agreement exists, you may not
+	access or use this software for any purpose.
+	This software may only be hosted at the locations specified in
+	the applicable License Agreement or Terms of Service, and only
+	for the purposes expressly set forth therein. You may not copy,
+	modify, convert, create derivative works from or distribute this
+	software in any way, or make it accessible to any third party,
+	without first obtaining the written permission of H&Co.
+	For more information, please visit us at http://typography.com.
+*/
+
+@font-face {
+	font-family: 'Gotham Light';
+	src: url('../fonts/gotham/gotham-light_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-light_web.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Light Italic';
+	src: url('../fonts/gotham/gotham-lightitalic_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-lightitalic_web.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Book';
+	src: url('../fonts/gotham/gotham-book_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-book_web.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Book Italic';
+	src: url('../fonts/gotham/gotham-bookitalic_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-bookitalic_web.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Medium';
+	src: url('../fonts/gotham/gotham-medium_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-medium_web.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Medium Italic';
+	src: url('../fonts/gotham/gotham-mediumitalic_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-mediumitalic_web.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Bold';
+	src: url('../fonts/gotham/gotham-bold_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-bold_web.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Bold Italic';
+	src: url('../fonts/gotham/gotham-bolditalic_web.woff2') format('woff2'),
+		url('../fonts/gotham/gotham-bolditalic_web.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+
+
+/** Avenir
+ * @license
+ * MyFonts Webfont Build ID 3774511, 2019-06-17T08:10:14-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-It by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-italic/
+ * 
+ * Webfont: AvenirNextLTPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-regular/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3774511
+ * Licensed pageviews: 500,000
+ * Webfonts copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/39982f");
+
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('../fonts/avenir/avenirnextltproiregular.eot');
+    src: url('../fonts/avenir/avenirnextltproiregular.eot?#iefix') format('embedded-opentype'), url('../fonts/avenir/avenirnextltproiregular.woff2') format('woff2'), url('../fonts/avenir/avenirnextltproiregular.woff') format('woff'), url('../fonts/avenir/avenirnextltproiregular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AvenirNextLTPro-It';
+  src: url('../fonts/avenir/avenirnextltproitalic.eot');
+  src: url('../fonts/avenir/avenirnextltproitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/avenir/avenirnextltproitalic.woff2') format('woff2'), url('../fonts/avenir/avenirnextltproitalic.woff') format('woff'), url('../fonts/avenir/avenirnextltproitalic.ttf') format('truetype');
+}

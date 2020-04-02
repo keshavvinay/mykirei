@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+/* common ============================== */
+
+//texuture
+.asience-texutureA {
+  @include background(linear-gradient(#e5ca5c, #ffe580 50%, #e5cf73 80%, #e5c12e));
+}
+.asience-texutureB {
+  background-image: image-url($imgBgTexuture);
+}
+.asience-texutureC {
+  @include background(linear-gradient(#fff7fa, #ffe5ee));
+}
+.asience-texutureD {
+  @include background(linear-gradient(#f7fdff, #e5f7ff));
+}
+.asience-texutureE {
+  background-image: image-url($imgBgTexuture02);
+}
+
+
+//line
+.asience-lineDecorationA {
+  background-image: image-url($imgLineDecoration_pc);
+  background-repeat: repeat-x;
+  @include bp(sm) {
+    background-image: image-url($imgLineDecoration_sp);
+    background-size: image-width($imgLineDecoration_sp)/2 image-height($imgLineDecoration_sp)/2;
+  }
+}
+
+
+//共通設定
+.is-btn {
+  .l-LinkButton__link {
+    //@include fontSize(lv4);
+    @include borderRadius(ss);
+    .cmn-icon--bullet:before {
+      content: "\e601";
+    }
+  }
+}

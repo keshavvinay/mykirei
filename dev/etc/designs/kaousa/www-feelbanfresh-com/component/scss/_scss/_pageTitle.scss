@@ -1,0 +1,10 @@
+//Page title component styles
+.g-PageTitle{
+    font-weight: $wt700;
+    
+    @media (max-width: $break-sm) {
+        h1 {
+            text-align: center;
+        }
+    }
+}

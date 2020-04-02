@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+/* Breadcrumbs ================================================== */
+.l-Breadcrumbs {
+  font-size: $fontSize_breadcrumbs;
+  line-height: $lineHeight_breadcrumbs;
+  letter-spacing: $letterSpacing_breadcrumbs;
+  font-family: $fontFamily_breadcrumbs;
+  background-color: $contents__bg;
+  @include bp(sm) {
+    border-color: $breadcrumb__separateBorder--bottom;
+  }
+}
+.l-Breadcrumbs__list {
+  li {
+    color: $contents__text;
+    a {
+      color: $breadcrumb__link;
+      &:visited {
+        color: $breadcrumb__link--visited;
+      }
+      &:hover ,
+      &:focus {
+        color: $breadcrumb__link--hover;
+      }
+    }
+    .cmn-icon {
+      color: $breadcrumb__icon;
+    }
+  }
+}
+

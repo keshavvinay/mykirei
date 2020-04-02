@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+/* Brand Header ================================================== */
+// "g-BrHeader内主要レイアウト"
+// "g-BrHeaderCommon" では全体を "ロゴ領域" と "ナビゲーション領域" に分ける
+// .g-BrHeader
+//   .g-BrHeaderCommon
+//     .g-BrHeaderCommon__logoBlock (任意表示)
+//     .g-BrHeaderCommon__navBlock
+.g-BrHeader {
+  border-top-color: $brandHeader__separateBorder--top;
+  border-bottom-color: $brandHeader__separateBorder--bottom;
+  background: $brandHeader__bg;
+  @include bp(sm) {
+    @include font-size-lang('fontSize_sm_brandHeader');
+    @include line-height-lang('lineHeight_sm_brandHeader');
+    @include letter-spacing-lang('letterSpacing_sm_brandHeader');
+    @include font-family-lang('fontFamily_sm_brandHeader');
+  }
+  @include bp(md) {
+    @include font-size-lang('fontSize_md_brandHeader');
+    @include line-height-lang('lineHeight_md_brandHeader');
+    @include letter-spacing-lang('letterSpacing_md_brandHeader');
+    @include font-family-lang('fontFamily_md_brandHeader');
+  }
+  @include bp(lg) {
+    @include font-size-lang('fontSize_lg_brandHeader');
+    @include line-height-lang('lineHeight_lg_brandHeader');
+    @include letter-spacing-lang('letterSpacing_lg_brandHeader');
+    @include font-family-lang('fontFamily_lg_brandHeader');
+  }
+}
+
+// "g-BrHeaderCommon__navBlock"
+// "ナビゲーション領域" の中のカラム構造。
+// .g-BrHeaderCommon__navBlock
+//   .g-BrHeaderNav__buttonBlock
+//   .g-BrHeaderNav__listBlock
+.g-BrHeaderNav__buttonBlock {
+  a {
+    background: $brandHeader__button__bg;
+    color: $brandHeader__button__icontext;
+    .cmn-icon {
+      color: $brandHeader__button__icontext;
+    }
+  }
+}
+.g-BrHeaderNav__listBlock {
+  border-color: $brandHeader__border;
+  @include bp(sm) {
+    background: $brandHeader__bg;
+  }
+  @include bp(md) {
+    background: $brandHeader__bg;
+  }
+}
+.g-BrHeaderNavList__item {
+  border-color: $brandHeader__border;
+  .g-BrHeaderNavListLink {
+    color: $brandHeader__linkNormal__text;
+    background-color: $brandHeader__linkNormal__bg;
+    .cmn-icon {
+      color: $brandHeader__linkNormal__icon;
+    }
+  }
+  a.g-BrHeaderNavListLink {
+    &:hover ,
+    &:focus {
+      color: $brandHeader__linkNormal__text--hover;
+      background-color: $brandHeader__linkNormal__bg--hover;
+      .cmn-icon {
+        color: $brandHeader__linkNormal__icon--hover;
+      }
+    }
+  }
+  &.is-active a.g-BrHeaderNavListLink {
+    color: $brandHeader__linkCurrent__text;
+    background-color: $brandHeader__linkCurrent__bg;
+    .cmn-icon {
+      color: $brandHeader__linkCurrent__icon;
+    }
+    &:hover ,
+    &:focus {
+      color: $brandHeader__linkCurrent__text--hover;
+      background-color: $brandHeader__linkCurrent__bg--hover;
+      .cmn-icon {
+        color: $brandHeader__linkCurrent__icon--hover;
+      }
+    }
+  }
+}
+
+@include bp(lg) {
+  .g-BrHeaderNavList__item-lg-1,
+  .g-BrHeaderNavList__item-lg-2,
+  .g-BrHeaderNavList__item-lg-3,
+  .g-BrHeaderNavList__item-lg-4,
+  .g-BrHeaderNavList__item-lg-5,
+  .g-BrHeaderNavList__item-lg-6,
+  .g-BrHeaderNavList__item-lg-7,
+  .g-BrHeaderNavList__item-lg-8 {
+    border-color: $brandHeader__border;
+  }
+}

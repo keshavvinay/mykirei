@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>foundationGUI</title>
+    <link href="libs/css/normalize.css" rel="stylesheet">
+    <link href="libs/css/spectrum.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__title">利用可能フォント一覧</h1>
+      </div>
+    </header>
+    <section class="tabMenu">
+      <ul class="tabMenu__inner">
+        <!--tab-->
+      </ul>
+    </section>
+
+    <ul class="fontList__pagenation"></ul>
+    <section class="fontList">
+      <!--fontList-->
+    </section>
+    <ul class="fontList__pagenation"></ul>
+
+    <!--tabMenu template-->
+    <script id="tabMenu-template" type="text/x-jsrender">
+      <li class="tabMenu__button"><a class="tabMenu__button__link" href="#" data-maker="{{:maker}}">{{:name}}</a></li>
+    </script>
+    <!--/tabMenu template-->
+    <!--fontList template-->
+    <script id="fontList-template" type="text/x-jsrender">
+      <ul class="fontList__wrapper">
+        <li class="fontList__item">
+          <h1 class="fontList__item__name" lang="{{:lang}}">{{:name}}</h1>
+          <h2 class="fontList__item__text" style="font-family: loadname{{>#index}};">美しい文字あいうアイウABCabc123</h2>
+          <div class="fontList__item__copy">
+            <span class="fontList__item__copyTooltip">コピーしました</span>
+            <button class="contentsRest__button copyButton" data-clipboard-text="{{:family}}">CSS用のコードをコピーする</button>
+          </div>
+        </li>
+      </ul>
+    </script>
+    <!--/ fontList template-->
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/jquery.validate.js"></script>
+    <script src="libs/js/spectrum.js"></script>
+    <script src="libs/js/jsrender.min.js"></script>
+    <script src="libs/js/clipboard.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/fontList.js"></script>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+
+/* TileLinkHP ================================================== */
+.g-TileLinkHP {
+  box-sizing: border-box;
+  &.is-background {
+    padding: $cmn_paddingInner;
+    @include gutterItemBgAjust();
+    &.is-gutter--none {
+      @include gutterItemBgAjust('none');
+    }
+  }
+  &.is-gutter--none {
+    .g-TileLinkHP__list {
+      @include gutterItemWrapper(true);
+    }
+    .g-TileLinkHP__list__tile {
+      @include gutterItemInner(true);
+    }
+  }
+  &.is-paddingNone {
+    .g-TileLinkHUnit {
+      padding: 0;
+    }
+  }
+  &.is-borderNone {
+    .g-TileLinkHUnit {
+      border: none;
+    }
+  }
+}
+
+.g-TileLinkHP__list {
+  @include gutterItemWrapper();
+  padding: 0;
+  list-style-type: none;
+  @include pie-clearfix;
+}
+
+.g-TileLinkHP__list__tile {
+  float: left;
+  @include gutterItemInner();
+  vertical-align: top;
+}
+@include bp(sm) {
+  .g-TileLinkHP__list__tile-sm-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkHP__list__tile-sm-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkHP__list__tile-sm-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkHP__list__tile-sm-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkHP__list__tile-sm-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkHP__list__tile-sm-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(md) {
+  .g-TileLinkHP__list__tile-md-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkHP__list__tile-md-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkHP__list__tile-md-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkHP__list__tile-md-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkHP__list__tile-md-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkHP__list__tile-md-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(lg) {
+  .g-TileLinkHP__list__tile-lg-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-TileLinkHP__list__tile-lg-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-TileLinkHP__list__tile-lg-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-TileLinkHP__list__tile-lg-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-TileLinkHP__list__tile-lg-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-TileLinkHP__list__tile-lg-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+
+/* TileLinkHUnit ================================================== */
+.g-TileLinkHUnit {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: $cmn_paddingInner;
+  border: 2px solid;
+  @include bp(sm) {
+    &.is-smallViewVertical > .g-TileLinkHUnit__inner {
+      display: block;
+    }
+  }
+  &.is-background {
+
+  }
+}
+
+.g-TileLinkHUnit__inner {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+
+.g-TileLinkHUnit__imageBlock {
+  display: table-cell;
+  vertical-align: top;
+  box-sizing: border-box;
+  .is-layoutL & {
+    padding-right: $cmn_TileLinkPack__separator;
+    @include bp(sm) {
+      padding-right: $cmn_TileLinkPack__separator--sm;
+    }
+  }
+  .is-layoutR & {
+    padding-right: 24px;
+    @include bp(sm) {
+      padding-right: 20px;
+    }
+  }
+  .is-noicon.is-layoutR & {
+    padding-right: 0;
+    @include bp(sm) {
+      padding-right: 0;
+    }
+  }
+
+  @include bp(sm) {
+    .is-smallViewVertical.is-layoutL &,
+    .is-smallViewVertical.is-layoutR & {
+      display: block;
+      padding-right: 0;
+    }
+    .is-smallViewVertical.is-layoutL & {
+      padding-bottom: 8px;
+    }
+  }
+
+  @include bp(sm) {
+    .opt-sm-al_l & {
+      margin-right:  auto;
+    }
+    .opt-sm-al_r & {
+      margin-left:  auto;
+    }
+    .opt-sm-al_c & {
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+  }
+
+  @include bp(md) {
+    .opt-md-al_l & {
+      margin-right:  auto;
+    }
+    .opt-md-al_r & {
+      margin-left:  auto;
+    }
+    .opt-md-al_c & {
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+  }
+
+  @include bp(lg) {
+    .opt-lg-al_l & {
+      margin-right:  auto;
+    }
+    .opt-lg-al_r & {
+      margin-left:  auto;
+    }
+    .opt-lg-al_c & {
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+  }
+}
+
+.g-TileLinkHUnit__leadBlock {
+  display: table-cell;
+  vertical-align: middle;
+  .is-layoutL & {
+    padding-right: 24px;
+    @include bp(sm) {
+      padding-right: 20px;
+    }
+  }
+  .is-noicon.is-layoutL & {
+    padding-right: 0;
+    @include bp(sm) {
+      padding-right: 0;
+    }
+  }
+  .is-layoutR & {
+    padding-right: $cmn_TileLinkPack__separator;
+    @include bp(sm) {
+      padding-right: $cmn_TileLinkPack__separator--sm;
+    }
+  }
+
+  @include bp(sm) {
+    .is-smallViewVertical & {
+      display: block;
+      position: relative;
+      .g-TileLinkHUnit__icon {
+        right: 0;
+      }
+    }
+    .is-smallViewVertical.is-layoutR & {
+      padding-bottom: 8px;
+    }
+  }
+}
+
+// padding-rightの詳細度を上げるため、下記スタイルだけネストを深くしています
+.g-TileLinkHUnit__inner {
+  .g-TileLinkHUnit__leadBlock {
+    @include bp(sm) {
+      .is-smallViewVertical & {
+        padding-right: 20px;
+      }
+      .is-noicon.is-smallViewVertical & {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.g-TileLinkHUnit__leadBlock__title {
+  display: inline-block;
+  font-weight: bold;
+  @include bp(sm) {
+    .is-smallViewVertical & {
+      width: 100%;
+    }
+  }
+}
+
+.g-TileLinkHUnit__leadBlock__lead {
+  @include bp(sm) {
+    .is-smallViewVertical & {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+.g-TileLinkHUnit__leadBlock__tag {
+}
+
+.g-TileLinkHUnit__icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -.7em;
+}
+
+.g-TileLinkHUnit__extraStructural {
+}

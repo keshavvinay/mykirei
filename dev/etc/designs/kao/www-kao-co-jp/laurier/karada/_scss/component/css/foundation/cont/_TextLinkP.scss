@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+/* TextLinkP ================================================== */
+.l-TextLinkP {
+  &.is-gutter--xs {
+    .l-TextLinkP__list {
+      @include gutterItemWrapper(false, 'xs');
+    }
+    .l-TextLinkP__list__item {
+      @include gutterItemInner(false, 'xs');
+    }
+  }
+  &.is-gutter--s {
+    .l-TextLinkP__list {
+      @include gutterItemWrapper(false, 's');
+    }
+    .l-TextLinkP__list__item {
+      @include gutterItemInner(false, 's');
+    }
+  }
+  &.is-gutter--m {
+    .l-TextLinkP__list {
+      @include gutterItemWrapper(false, 'm');
+    }
+    .l-TextLinkP__list__item {
+      @include gutterItemInner(false, 'm');
+    }
+  }
+  &.is-gutter--l {
+    .l-TextLinkP__list {
+      @include gutterItemWrapper(false, 'l');
+    }
+    .l-TextLinkP__list__item {
+      @include gutterItemInner(false, 'l');
+    }
+  }
+  &.is-gutter--xl {
+    .l-TextLinkP__list {
+      @include gutterItemWrapper(false, 'xl');
+    }
+    .l-TextLinkP__list__item {
+      @include gutterItemInner(false, 'xl');
+    }
+  }
+}
+
+.l-TextLinkP__list__item {
+  @include fontSize(body);
+}
+
+/* TextLinkUnit ================================================== */
+.l-TextLinkUnit__link {
+  @include fontSize(body);
+  .is-colorset--1 & {
+    @include linkColor(1);
+  }
+  .is-colorset--2 & {
+    @include linkColor(2);
+  }
+}

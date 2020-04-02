@@ -1,0 +1,518 @@
+/*.ban-thankyou-page {
+    .g-Section__inner {
+        @media(min-width: 1025px){
+            height: 100vh;        
+        }
+    }
+}*/
+
+
+.heading-padding {
+    .g-Column__cols {
+        padding: 0 !important;
+    }
+}
+
+.mainContent {
+    width: 90%;
+    margin: auto;
+}
+
+.form {
+    .form_field_textarea {
+        @media(max-width: $break-sm) {
+            width: 90% !important;
+        }
+    }
+
+    .msg-error {
+        color: red;
+        margin-top: 42px;
+    }
+
+    .msg-error1 {
+        bottom: 0 !important;
+    }
+
+    .g-Text {
+        //font-weight: bold;
+        //display: inline-block;
+        margin-bottom: 0 ! important;
+        color: #000;
+
+        .error_msg {
+            display: none;
+        }
+    }
+
+    .boldText {
+
+        //font-weight: 400;
+        //font-size: 16.38px;
+        h3 {
+            //margin-top: 0 ! important;
+            margin-bottom: 0 ! important;
+        }
+
+        p {
+            display: none ! important;
+        }
+    }
+
+    .birthText {
+        p {
+            float: left;
+            width: 24%;
+            margin-top: 12px;
+        }
+    }
+
+    .termsCheck {
+        position: relative;
+        //height: 80px;
+        margin-top: 15px;
+
+        .form_row:nth-child(1) {
+            display: none;
+        }
+
+        .form_row:nth-child(2) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: auto;
+            padding: 0;
+        }
+
+        .g-Text {
+            position: relative;
+            //bottom: 40px;
+            left: 18px;
+        }
+
+        /*&.has-feedback{
+            padding-bottom: 20px;
+            position: relative;*/
+
+        .help-block.error {
+            position: absolute;
+            left: 0 ! important;
+            right: 0;
+            top: 55px;
+            width: 300px;
+            color: red;
+
+            @media(max-width: $break-sm) {
+                left: 0 ! important;
+                top: 75px;
+            }
+        }
+    }
+
+    .extraText {
+        margin-top: 25px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .postalContainer {
+        display: inline-block;
+        width: 40%;
+
+        .form_row {
+            display: block;
+            width: auto;
+        }
+
+        .help-block.error {
+            position: absolute;
+            left: 35%;
+            right: 0;
+            bottom: 0;
+            top: 70%;
+            color: red;
+            /*@media(max-width: $break-md){
+                left: 0 ! important;
+            }*/
+        }
+
+        @media(max-width: $break-sm) {
+            display: block;
+            width: auto;
+        }
+
+    }
+
+    .product_code_image {
+        margin-bottom: 8px;
+        flex-direction: column-reverse;
+        position: absolute !important;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 2px;
+        display: none;
+    }
+
+    #product_mfg_image {
+        left: 0;
+        width: 360px;
+        top: 80%;
+
+        @media(max-width: $break-sm) {
+            left: 0;
+            top: 70%;
+        }
+
+        &:before {
+            content: '';
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: -5px;
+            left: 1px;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 5px solid #333;
+        }
+    }
+
+    #product_upc_image {
+        left: 0;
+        width: 360px;
+        top: 30%;
+
+        @media(max-width: $break-sm) {
+            left: 0;
+            top: 15%;
+        }
+
+        &:before {
+            content: '';
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: -5px;
+            left: 1px;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 5px solid #333;
+        }
+    }
+
+    #product_code {
+        position: relative;
+
+        img {
+            max-height: 126px;
+            width: auto !important;
+            margin: 0 auto;
+        }
+    }
+
+    .help-tip {
+        background-color: #000;
+        border-radius: 50%;
+        cursor: default;
+        font-size: 14px;
+        height: 18px;
+        left: 100px;
+        line-height: 18px;
+        text-align: center;
+        top: 0px;
+        width: 18px;
+        font-weight: bold;
+        color: #fff;
+        z-index: 5000;
+        margin-right: 12px;
+        margin-left: 5px;
+        padding: 0px 4px;
+    }
+
+    .dobContainer {
+        display: inline-flex;
+        width: 72%;
+        //padding-left: 5px;
+        position: relative;
+
+        @media(max-width: $break-sm) {
+            display: inline-flex;
+            width: 77%;
+            padding-left: 0;
+        }
+
+        .g-Text {
+            position: absolute;
+            top: 32px;
+
+            @media(max-width: $break-sm) {
+                top: 28px;
+                line-height: 0.8;
+            }
+        }
+
+        .form_row {
+            width: auto;
+            position: relative;
+            top: -4px;
+
+            &.has-feedback {
+                padding-bottom: 0;
+                position: static !important;
+            }
+
+            @media(max-width: $break-sm) {
+                display: inline-block;
+            }
+
+            select {
+                padding: 3px;
+                width: 71px;
+            }
+        }
+
+        &.groupBoxError {
+            padding-bottom: 45px;
+
+            #bioreSignUp_year-error {
+                bottom: 30px;
+                left: 0px;
+            }
+
+            #bioreSignUp_month-error {
+                bottom: 15px;
+                left: 0px;
+            }
+
+            #bioreSignUp_day-error {
+                bottom: 0;
+                left: 0px;
+            }
+        }
+
+        &.groupBoxError {
+            padding-bottom: 40px;
+
+            #bioreContactUs_year-error {
+                bottom: 40px;
+                left: 0px;
+            }
+
+            #bioreContactUs_month-error {
+                bottom: 20px;
+                left: 0px;
+            }
+
+            #bioreContactUs_day-error {
+                bottom: 0;
+                left: 0px;
+            }
+        }
+    }
+
+    .form_row {
+        //display: inline-block;
+        width: 80%;
+        padding-top: 5px;
+        padding-bottom: 20px ! important;
+
+        @media(max-width: $break-sm) {
+            padding-top: 5px;
+            padding-bottom: 20px ! important;
+        }
+
+        .checkOptions {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        &.has-feedback {
+            padding-bottom: 20px;
+            position: relative;
+
+            .help-block.error {
+                position: absolute;
+                left: 30%;
+                right: 0;
+                bottom: 0;
+                color: red;
+
+                @media(max-width: $break-sm) {
+                    left: 0 ! important;
+                }
+            }
+
+            label#bioreContactUs_comment-error {
+                left: 0;
+            }
+        }
+
+        @media(max-width: $break-sm) {
+            display: block;
+            width: auto;
+        }
+
+        .form_leftcollabel {
+            clear: both;
+            margin-top: 5px;
+            //font-weight: bold !important;
+            color: #000;
+            float: left;
+            width: 30%;
+            margin-bottom: 5px;
+
+            @media(max-width: $break-sm) {
+                width: 63%;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .form_leftcolmark {
+            display: none;
+        }
+
+        .form_rightcol {
+            padding-right: 6px;
+
+            .selectContainer {
+                width: 224px;
+                background-color: #fff;
+                //border: 1px solid #ccc;
+                //box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+                //transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+                //border-radius: 0px;
+                color: #555;
+                //display: inline-block;
+                font-size: 14px;
+                height: 25px;
+                line-height: 20px;
+                vertical-align: middle;
+            }
+
+            .form_rightcol_wrapper {
+                .form_field_text {
+                    width: 220px;
+                    background-color: #fff;
+                    //border: 1px solid #ccc;
+                    //box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+                    //transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+                    //border-radius: 0px;
+                    color: #555;
+                    //display: inline-flex;
+                    font-size: 14px;
+                    height: 20px;
+                    line-height: 20px;
+                    vertical-align: middle;
+                }
+
+                .fakeInput {
+                    background-color: #C5E5EE;
+                    padding: 2px 1px;
+                    border: 1px solid #0072BC;
+                    color: #747474;
+                    display: block;
+                    margin: 0;
+                }
+            }
+
+            .form_button_submit {
+                width: 190px;
+                height: 44px;
+                background-color: #e62e5e;
+                border: 2px solid #4d2b6c;
+                border-radius: 5px;
+                color: #fff;
+                cursor: pointer;
+                font-weight: bold;
+                padding: 10px;
+                position: relative;
+                top: 40px;
+            }
+        }
+    }
+
+    .form_row_description {
+        display: none;
+    }
+}
+
+.pageHead {
+    margin-bottom: 0 !important;
+
+    .g-PageTitle__titleBlock__titleBox__title {
+        margin-bottom: 0 !important;
+    }
+}
+
+.sideHeading {
+    margin-bottom: 0 !important;
+
+    h2 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+}
+
+.centerHead {
+    h2 {
+        line-height: 28px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
+
+.loader-section {
+    position: fixed;
+    z-index: 99999;
+    overflow: visible;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+
+    &.transparent {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    &.opaque {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .g-Section__inner {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 10%;
+    }
+
+    .loader {
+        position: relative;
+        background-image: url("/content/dam/sites/kaousa/www-biore-com/master/backgrounds/biore-loader.gif");
+        background-size: auto;
+        background-position: center;
+        border: 0;
+        z-index: 100 !important;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+}
+
+.is-authorring .loader-section {
+    display: block;
+    position: relative;
+}
+
+html:lang(es-mx) {
+    .contact-us {
+        .g-PageTitle__titleBlock__titleBox__title {
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+}

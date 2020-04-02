@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@import "compass";
+@import "../../../../../../../etc/clientlibs/common/_scss/libs/config";
+@import "../../../../../../../etc/clientlibs/common/_scss/libs/mixin";
+
+.nivea-GlFooter {
+  background-color: #f5f5f5;
+  font-family: "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "游ゴシック" , "Yu Gothic" , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+.nivea-GlFooter__inner {
+  position: relative;
+  box-sizing: border-box;
+  @include clearfix;
+  width: 100%;
+  max-width: $contentsMaxWidth_lg;
+  margin: 0 auto;
+  padding: 28px 30px;
+  @include bp(md) {
+    padding: 14px 20px;
+  }
+  @include bp(sm) {
+    padding: 14px 20px;
+  }
+}
+
+.nivea-GlFooter__links {
+  margin: 0;
+  margin-left: -26px;
+  padding: 0;
+  list-style: none;
+  @include bp(lg) {
+    float: left;
+  }
+  @include bp(md) {
+    text-align: center;
+  }
+  @include bp(sm) {
+    text-align: center;
+  }
+}
+.nivea-GlFooter__links__link {
+  display: inline-block;
+  margin-left: 26px;
+  text-decoration: none;
+  line-height: 24px;
+  color: #333333;
+  &:hover {
+    text-decoration: underline;
+  }
+  @include bp(lg) {
+    font-size: 12px;
+    float: left;
+    margin-left: 26px;
+  }
+  @include bp(md) {
+    font-size: 11px;
+  }
+  @include bp(sm) {
+    font-size: 11px;
+  }
+}
+.nivea-GlFooter__copyright {
+  font-size: 10px;
+  line-height: 24px;
+  color: #333333;
+  p {
+    margin: 0;
+  }
+  @include bp(lg) {
+    float: right;
+  }
+  @include bp(md) {
+    margin-top: 5px;
+    text-align: center;
+  }
+  @include bp(sm) {
+    margin-top: 5px;
+    text-align: center;
+  }
+}

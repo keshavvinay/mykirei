@@ -1,0 +1,202 @@
+#cboxClose{
+    top: 10px;
+    right: 12px;
+    color: #a9a9a9;
+}
+#cboxContent{
+    padding: 40px 0px 0px 5px;
+    overflow: auto;
+
+    .g-ImageTextHP.is-layoutL .g-ImageTextHP__contentsBlock__text,.g-ImageTextHP.is-layoutR .g-ImageTextHP__contentsBlock__text{
+        padding: 0;
+    }
+    #cboxLoadedContent{
+        padding-right: 2px;
+        margin-bottom: 0;
+        overflow-y: auto;
+    }
+}
+#cboxOverlay{
+    background-color: transparent;
+}
+.cboxLoadedContent{
+    border-top: 1px solid #ccc;
+}
+button#cboxClose:after{
+    content: "\e909";
+    font-family: icomoon;
+    font-size: 25px;
+}
+
+//MODAL TO OPEN IMAGE GALLERY
+
+.image-gallery{
+    #cboxLoadedContent{
+        margin-bottom: 0;
+    }
+    #cboxContent{
+        padding: 0;
+        .g-Column__cols{
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        background-color: transparent;
+        .g-ImageTextIconItem{
+
+            .g-ImageTextIconItem__inner{
+                display: block;
+            }
+            .g-ImageTextIconItem__image{
+                width: auto;
+            }
+
+            .g-ImageTextIconItem__content{
+                width: auto;
+                display: none;
+            }
+        }
+
+        .g-ImageCarouselPUnit{
+            padding: 0;
+        }
+
+        .g-ImageCarouselP {
+            //        background-color: $solid-white;
+            padding: 0 15px;
+
+            .g-ImageCarouselP__list{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+
+
+    //FANCY BOX IMAGE GALLERY
+    &.fancybox-opened{
+
+        //        .fancybox-inner{
+        //            overflow: hidden !important;
+        //        }
+
+        .fancybox-close:after{
+            text-shadow: 0px 0px 3px $solid-white;
+        }
+
+        .fancybox-skin{
+            padding: 0px !important;
+        }
+
+        .g-Section__inner{
+            padding: 0;
+        }
+
+        .g-Column__inner{
+            margin: 0;
+        }
+
+        .g-Column__cols{
+            padding: 0 !important;
+        }
+
+        .g-ImageCarouselP{
+            width: 460px;
+            min-height: 570px;
+
+            @media(max-width: 480px){
+                width: 300px;
+                min-height: 360px;
+            }
+
+            .slick-arrow {
+                padding: 9px;
+                background-color: #9c1f31;
+                height: auto;
+
+                @media (max-width: 991px) {
+                    top: 50%;
+                    transform: translateY(-50%); 
+                    display: block !important;
+                }
+
+                &::before{
+                    color: $solid-white;
+                    font-size: 18px;
+                    line-height: normal;
+                }
+            }
+        } 
+
+        .slick-slide{
+            width: 460px;
+
+            @media(max-width: 480px){
+                width: 300px;
+            }
+        }
+
+        .l-ImageCarouselP__list{
+            margin: 0;
+        }
+
+        .l-ImageCarouselPUnit{
+            padding: 0;
+
+            img{
+                //                max-height: 500px;
+                //                width: auto !important; 
+            }
+        }
+
+        .slick-arrow {
+            opacity: 1 !important;
+            visibility: visible !important
+        }
+        .slick-prev {
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+    }
+}
+
+
+//FANCYBOX
+.fancybox-overlay{
+    background-color: rgba(255,255,255,0.8);
+}
+.fancybox-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    z-index: 8040;
+    text-align: center;
+    color: #a9a9a9;
+
+    &:link{
+        color: #a9a9a9;
+    }
+}
+.fancybox-close:after{
+    content: "\e909";
+    font-family: icomoon;
+    font-size: 25px;
+}
+.fancybox-skin{
+    padding: 35px 5px 5px 5px !important;
+    background-color: $solid-white;
+    border-radius: 0;
+}
+.fancybox-inner{
+    iframe{
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        position: absolute;
+    }
+}
+

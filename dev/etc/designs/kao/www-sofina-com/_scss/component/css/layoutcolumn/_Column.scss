@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* Column ============================== */
+
+.g-Column {}
+
+.g-Column__inner {
+  margin-left: 0;
+  margin-right: 0;
+  // border: solid 1px #FF3344;
+
+}
+
+.g-Column__cols {
+  // @include gutterInner();
+  @include fontSize(body);
+}
+
+.is-marginReset.g-Column {
+  .g-Column__inner {
+    // @include gutterWrapper(true);
+  }
+  .g-Column__cols {
+    // @include gutterInner(true);
+  }
+}
+
+
+/* ColumnUnit ============================== */
+
+.g-ColumnUnit {}
+

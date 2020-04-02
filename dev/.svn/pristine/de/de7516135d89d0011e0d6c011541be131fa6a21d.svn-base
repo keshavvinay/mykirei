@@ -1,0 +1,28 @@
+//Page title css
+h1.g-PageTitle__h1 {
+    font-weight: 500;
+
+}
+
+.g-PageTitle.is-background {
+    background-size: auto;
+    background-position: 0 90%;
+    background-repeat: repeat-x;
+    padding: 0.625rem;
+}
+
+.g-PageTitle {
+    .g-PageTitle__titleBlock__titleBox__title {
+        margin-bottom: 0;
+    }
+
+    &.is-header-background {
+        .g-PageTitle__h1 {
+            background-image: url(/content/dam/sites/kaousa/www-biore-com/master/backgrounds/heading-background.png);
+            background-position: bottom;
+            background-repeat: repeat-x;
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+        }
+    }
+}

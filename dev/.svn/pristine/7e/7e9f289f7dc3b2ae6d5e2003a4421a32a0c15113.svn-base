@@ -1,0 +1,179 @@
+//JERGENS FOOTER CSS
+
+#area-BrFooter{
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/watermarkBG.png) 45% 40% no-repeat;
+    background-color: #fffcf8;
+}
+
+.jergens-footer{
+    padding:34px 0;
+    padding-bottom: 10px;
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/jergens-footer-background.jpg) repeat-x;
+          border: none;
+    
+    .g-BrFooter__inner{
+            max-width: 985px;
+    margin: 0 auto;
+    padding: 0;
+    }
+    
+    .g-BrFooter__sitemapBlock{
+      display: none;
+    }
+    
+    .footer-column{
+        
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+        
+        .column-heading{
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            font-size: 14px !important;
+            display: block;
+        }
+        
+        .g-ListP__ul{
+            @media (min-width:1025px){
+                 padding-left: 0;
+            }
+            li{
+                a{
+                    color: #333;
+                    font-size: 12px;
+                    text-decoration: none;
+                    &:hover{
+                        color: #d9ccbe;
+                    }
+                }
+            }
+        }
+        
+        li{
+            color:#333;
+            margin-bottom: 5px;
+    font-size: 14px;
+            
+        }
+        
+        .footer-get-newsletter{
+                padding: 10px;
+            position: relative;
+            padding-right: 17px;
+    border: 1px solid #b99c79;
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+    color: #333;
+            font-size: 12px;
+            font-weight: bold;
+    text-decoration: none;
+            
+            &:hover{
+                text-decoration: underline;
+                color: #333 !important;
+            }
+            
+            &:after{
+            content: '';
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+    border-bottom: none;
+    border-left: none;
+    transform: rotate(45deg);
+    top: 41%;
+    right: 8px;
+    }
+        }
+        
+        .footer-facebook{
+            @include footer-social-icons;
+            background-position:  -2px -5px;
+        }
+        
+        .footer-pinterest{
+            @include footer-social-icons;
+            background-position:  -2px -30px;
+        }
+        
+        .footer-youtube{
+            @include footer-social-icons;
+            background-position:  -2px -55px;
+        }
+        
+        .footer-instagram{
+            @include footer-social-icons;
+            background-position:  -2px -78px;
+        }
+        
+        .footer-twitter{
+            background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/social-icon-twitter.png) no-repeat;
+            display: block;
+            padding-left: 30px;
+            height: 20px;
+            background-position: -2px -54px;
+        }
+        
+        @media (min-width:641px) and (max-width:$breakpoint_md){
+                width: 33.3%;
+        }
+        
+        @media (max-width:$breakpoint_sm){
+                width: 100%;
+        }
+        
+                
+    }
+    
+    .footer-hr{
+            hr{
+                border:2px solid #e3d5c4;
+            }
+        }
+        
+        .footer-copy-right{
+                font-size: 12px;
+    text-align: center;
+    color: #333;
+        }
+    
+}
+
+.jergens-footer-sa-ar{
+    .footer-column{
+        .g-ListUnit.footer-facebook{
+            display: inline-block;
+        }
+        
+        .g-ListUnit.footer-instagram{
+            display: inline-block;
+        }
+        
+        .g-ListUnit.footer-pinterest{
+            display: inline-block;
+        }
+        
+        .g-ListUnit.footer-youtube{
+            display: inline-block;
+        }
+    } 
+}
+
+html[lang = "en-ca"], html[lang = "fr-ca"]{
+    .jergens-footer{
+        .footer-column{
+            @media(min-width:641px){
+                width: 25%;
+            }
+            .column-heading{
+                margin-bottom: 5px;
+            }
+
+        }    
+    }
+}

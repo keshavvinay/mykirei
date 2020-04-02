@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+@import "compass";
+@import "libs/config";
+@import "libs/mixin";
+
+/* ------------------------- TOC
+Almighty
+ - Margin
+ - Padding
+ - Width
+ - Background-color
+ - Text-align
+ - Font-Size
+ - Font-Color
+-------------------------- */
+
+/* Hide ============================== */
+.opt-hide-lg {
+  @include bp(lg) {
+    display: none;
+  }
+}
+.opt-hide-md {
+  @include bp(md) {
+    display: none;
+  }
+}
+.opt-hide-sm {
+  @include bp(sm) {
+    display: none;
+  }
+}
+
+/* Margin/Padding ====================== */
+
+@for $i from 0 through 10 {
+  $num: $i * 10;
+  
+  // margin
+  .opt-mg#{$num} {
+    margin: $num + px;
+  }
+  .opt-mg#{$num}--imp {
+    margin: $num + px !important;
+  }
+  // margin-top
+  .opt-mt#{$num} {
+    margin-top: $num + px;
+  }
+  .opt-mt#{$num}--imp {
+    margin-top: $num + px !important;
+  }
+  // margin-left
+  .opt-ml#{$num} {
+    margin-left: $num + px;
+  }
+  .opt-ml#{$num}--imp {
+    margin-left: $num + px !important;
+  }
+  // margin-right
+  .opt-mr#{$num} {
+    margin-right: $num + px;
+  }
+  .opt-mr#{$num}--imp {
+    margin-right: $num + px !important;
+  }
+  // margin-bottom
+  .opt-mb#{$num} {
+    margin-bottom: $num + px;
+  }
+  .opt-mb#{$num}--imp {
+    margin-bottom: $num + px !important;
+  }
+  
+  // padding
+  .opt-pd#{$num} {
+    padding: $num + px;
+  }
+  .opt-pd#{$num}--imp {
+    padding: $num + px !important;
+  }
+  // margin-top
+  .opt-pt#{$num} {
+    padding-top: $num + px;
+  }
+  .opt-pt#{$num}--imp {
+    padding-top: $num + px !important;
+  }
+  // margin-left
+  .opt-pl#{$num} {
+    padding-left: $num + px;
+  }
+  .opt-pl#{$num}--imp {
+    padding-left: $num + px !important;
+  }
+  // margin-right
+  .opt-pr#{$num} {
+    padding-right: $num + px;
+  }
+  .opt-pr#{$num}--imp {
+    padding-right: $num + px !important;
+  }
+  // margin-bottom
+  .opt-pb#{$num} {
+    padding-bottom: $num + px;
+  }
+  .opt-pb#{$num}--imp {
+    padding-bottom: $num + px !important;
+  }
+}
+
+/* padding percent ====================== */
+@for $i from 1 through 30 {
+  @include bp(sm) {
+    .opt-sm-pl#{$i}pc {
+      padding-left: unquote('#{$i}%');
+    }
+    .opt-sm-pr#{$i}pc {
+      padding-right: unquote('#{$i}%');
+    }
+    .opt-sm-pl#{$i}pc--imp {
+      padding-left: unquote('#{$i}%') !important;
+    }
+    .opt-sm-pr#{$i}pc--imp {
+      padding-right: unquote('#{$i}%') !important;
+    }
+  }
+  @include bp(md) {
+    .opt-md-pl#{$i}pc {
+      padding-left: unquote('#{$i}%');
+    }
+    .opt-md-pr#{$i}pc {
+      padding-right: unquote('#{$i}%');
+    }
+    .opt-md-pl#{$i}pc--imp {
+      padding-left: unquote('#{$i}%') !important;
+    }
+    .opt-md-pr#{$i}pc--imp {
+      padding-right: unquote('#{$i}%') !important;
+    }
+  }
+  @include bp(lg) {
+    .opt-lg-pl#{$i}pc {
+      padding-left: unquote('#{$i}%');
+    }
+    .opt-lg-pr#{$i}pc {
+      padding-right: unquote('#{$i}%');
+    }
+    .opt-lg-pl#{$i}pc--imp {
+      padding-left: unquote('#{$i}%') !important;
+    }
+    .opt-lg-pr#{$i}pc--imp {
+      padding-right: unquote('#{$i}%') !important;
+    }
+  }
+}
+
+
+/* Width ============================== */
+.opt-w5p   { width:   5%; }
+.opt-w10p  { width:  10%; }
+.opt-w15p  { width:  15%; }
+.opt-w20p  { width:  20%; }
+.opt-w25p  { width:  25%; }
+.opt-w30p  { width:  30%; }
+.opt-w40p  { width:  40%; }
+.opt-w50p  { width:  50%; }
+.opt-w60p  { width:  60%; }
+.opt-w70p  { width:  70%; }
+.opt-w80p  { width:  80%; }
+.opt-w90p  { width:  90%; }
+.opt-w100p { width: 100%; }
+
+@include bp(sm) {
+  .opt-sm-w5p   { width:   5%; }
+  .opt-sm-w10p  { width:  10%; }
+  .opt-sm-w15p  { width:  15%; }
+  .opt-sm-w20p  { width:  20%; }
+  .opt-sm-w25p  { width:  25%; }
+  .opt-sm-w30p  { width:  30%; }
+  .opt-sm-w40p  { width:  40%; }
+  .opt-sm-w50p  { width:  50%; }
+  .opt-sm-w60p  { width:  60%; }
+  .opt-sm-w70p  { width:  70%; }
+  .opt-sm-w80p  { width:  80%; }
+  .opt-sm-w90p  { width:  90%; }
+  .opt-sm-w100p { width: 100%; }
+}
+
+@include bp(md) {
+  .opt-md-w5p   { width:   5%; }
+  .opt-md-w10p  { width:  10%; }
+  .opt-md-w15p  { width:  15%; }
+  .opt-md-w20p  { width:  20%; }
+  .opt-md-w25p  { width:  25%; }
+  .opt-md-w30p  { width:  30%; }
+  .opt-md-w40p  { width:  40%; }
+  .opt-md-w50p  { width:  50%; }
+  .opt-md-w60p  { width:  60%; }
+  .opt-md-w70p  { width:  70%; }
+  .opt-md-w80p  { width:  80%; }
+  .opt-md-w90p  { width:  90%; }
+  .opt-md-w100p { width: 100%; }
+}
+
+@include bp(lg) {
+  .opt-lg-w5p   { width:   5%; }
+  .opt-lg-w10p  { width:  10%; }
+  .opt-lg-w15p  { width:  15%; }
+  .opt-lg-w20p  { width:  20%; }
+  .opt-lg-w25p  { width:  25%; }
+  .opt-lg-w30p  { width:  30%; }
+  .opt-lg-w40p  { width:  40%; }
+  .opt-lg-w50p  { width:  50%; }
+  .opt-lg-w60p  { width:  60%; }
+  .opt-lg-w70p  { width:  70%; }
+  .opt-lg-w80p  { width:  80%; }
+  .opt-lg-w90p  { width:  90%; }
+  .opt-lg-w100p { width: 100%; }
+}
+
+
+/* Text-align ============================== */
+.opt-al_l { text-align:   left; }
+.opt-al_r { text-align:  right; }
+.opt-al_c { text-align: center; }
+
+.opt-mg-at { margin-left: auto; margin-right: auto }
+.opt-mg-l  { margin-left:    0; margin-right: auto }
+.opt-mg-r  { margin-left: auto; margin-right:    0 }
+
+@include bp(sm) {
+  .opt-sm-al_l { text-align:   left; }
+  .opt-sm-al_r { text-align:  right; }
+  .opt-sm-al_c { text-align: center; }
+}
+
+@include bp(md) {
+  .opt-md-al_l { text-align:   left; }
+  .opt-md-al_r { text-align:  right; }
+  .opt-md-al_c { text-align: center; }
+}
+
+@include bp(lg) {
+  .opt-lg-al_l { text-align:   left; }
+  .opt-lg-al_r { text-align:  right; }
+  .opt-lg-al_c { text-align: center; }
+}
+
+
+
+/* Font-Size ============================== */
+.opt-fs_h_lv1 {
+  @include fontSize(lv1);
+}
+.opt-fs_h_lv2 {
+  @include fontSize(lv2);
+}
+.opt-fs_h_lv3 {
+  @include fontSize(lv3);
+}
+.opt-fs_h_lv4 {
+  @include fontSize(lv4);
+}
+.opt-fs_h_lv5 {
+  @include fontSize(lv5);
+}
+.opt-fs_h_lv6 {
+  @include fontSize(lv6);
+}
+.opt-fs_body {
+  @include fontSize(body);
+}
+.opt-fs_caption {
+  @include fontSize(caption);
+}
+
+
+/* for In Place Editor ============================== */
+.opt-fontcolor--01 {
+  color: $option__inPlaceEditor--01;
+}
+.opt-fontcolor--02 {
+  color: $option__inPlaceEditor--02;
+}
+.opt-fontcolor--03 {
+  color: $option__inPlaceEditor--03;
+}
+.opt-fontcolor--04 {
+  color: $option__inPlaceEditor--04;
+}
+.opt-fontcolor--05 {
+  color: $option__inPlaceEditor--05;
+}
+.opt-fontcolor--06 {
+  color: $option__inPlaceEditor--06;
+}
+.opt-fontcolor--07 {
+  color: $option__inPlaceEditor--07;
+}
+.opt-fontcolor--08 {
+  color: $option__inPlaceEditor--08;
+}
+.opt-fontcolor--09 {
+  color: $option__inPlaceEditor--09;
+}
+.opt-fontcolor--10 {
+  color: $option__inPlaceEditor--10;
+}
+.opt-fontcolor--11 {
+  color: $option__inPlaceEditor--11;
+}
+.opt-fontcolor--12 {
+  color: $option__inPlaceEditor--12;
+}
+.opt-fontsize--xs {
+  font-size: $fontScale_xs;
+}
+.opt-fontsize--s {
+  font-size: $fontScale_s;
+}
+.opt-fontsize--l {
+  font-size: $fontScale_l;
+}
+.opt-fontsize--xl {
+  font-size: $fontScale_xl;
+}
+.opt-fontsize--xxl {
+  font-size: $fontScale_xxl;
+}
+.opt-fontsize--xxxl {
+  font-size: $fontScale_xxxl;
+}
+.opt-fontsize--xxxxl {
+  font-size: $fontScale_xxxxl;
+}
+.opt-fontfamily--01 {
+  font-family: $fontFamily_01;
+}
+.opt-fontfamily--02 {
+  font-family: $fontFamily_02;
+}
+.opt-fontfamily--03 {
+  font-family: $fontFamily_03;
+}
+.opt-fontfamily--04 {
+  font-family: $fontFamily_04;
+}
+.opt-fontfamily--05 {
+  font-family: $fontFamily_05;
+}
+.opt-fontfamily--06 {
+  font-family: $fontFamily_06;
+}
+
+
+/* Background Image ============================== */
+.opt-bg--repeat {
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top left;
+}
+.opt-bg--repeat-x {
+  background-repeat: repeat-x;
+  background-size: auto;
+  background-position: top left;
+}
+.opt-bg--repeat-y {
+  background-repeat: repeat-y;
+  background-size: auto;
+  background-position: top left;
+}
+.opt-bg--top {
+  background-position: top;
+  background-size: auto;
+}
+.opt-bg--bottom {
+  background-position: bottom;
+  background-size: auto;
+}
+.opt-bg--left {
+  background-position: left;
+  background-size: auto;
+}
+.opt-bg--right {
+  background-position: right;
+  background-size: auto;
+}
+.opt-bg--center {
+  background-position: center;
+  background-size: auto;
+}
+.opt-bg--top-left {
+  background-position: top left;
+  background-size: auto;
+}
+.opt-bg--bottom-left {
+  background-position: bottom left;
+  background-size: auto;
+}
+.opt-bg--top-right {
+  background-position: top right;;
+  background-size: auto;
+}
+.opt-bg--bottom-right {
+  background-position: bottom right;;
+  background-size: auto;
+}
+
+/* Line ============================== */
+
+/* Border Radius ============================== */
+
+$size_vlues: xs, s, m, l, xl;
+@function get-radius-value($size) {
+  @if $size == xs {
+    @return $borderRadius_xs;
+  }
+  @if $size == s {
+    @return $borderRadius_s;
+  }
+  @if $size == m {
+    @return $borderRadius_m;
+  }
+  @if $size == l {
+    @return $borderRadius_l;
+  }
+  @if $size == xl {
+    @return $borderRadius_xl;
+  }
+}
+
+@each $value in $size_vlues {
+  .opt-borderradius--#{$value} {
+    @include border-radius(get-radius-value($value));
+  }
+  .opt-borderradius--tl--#{$value} {
+    @include border-top-left-radius(get-radius-value($value));
+  }
+  .opt-borderradius--tr--#{$value} {
+    @include border-top-right-radius(get-radius-value($value));
+  }
+  .opt-borderradius--br--#{$value} {
+    @include border-bottom-right-radius(get-radius-value($value));
+  }
+  .opt-borderradius--bl--#{$value} {
+    @include border-bottom-left-radius(get-radius-value($value));
+  }
+}
+
+/* Shadow ============================== */
+
+/* br ============================== */
+br {
+  @include bp(sm) {
+    &.opt-br-hide--sm {
+      display: none;
+    }
+  }
+  @include bp(md) {
+    &.opt-br-hide--md {
+      display: none;
+    }
+  }
+  @include bp(lg) {
+    &.opt-br-hide--lg {
+      display: none;
+    }
+  }
+}

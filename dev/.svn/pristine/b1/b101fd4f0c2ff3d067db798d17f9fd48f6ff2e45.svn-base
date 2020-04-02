@@ -1,0 +1,37 @@
+// Breakpoints
+$bp-small: 641px;
+$bp-medium: 1025px;
+
+// colors
+$color-body: #000;
+$color-sub: #d9d9d6;
+$color-highlight: #fe5000;
+
+// mediaQuery
+@mixin max-screen($break-point) {
+  @media screen and (max-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin min-screen($break-point) {
+  @media screen and (min-width: $break-point) {
+    @content;
+  }
+}
+
+@mixin screen($break-point-min, $break-point-max) {
+  @media screen and (min-width: $break-point-min) and (max-width: $break-point-max) {
+    @content;
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+}

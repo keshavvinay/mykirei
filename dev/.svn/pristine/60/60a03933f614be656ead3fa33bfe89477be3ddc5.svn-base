@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* DefinitionListUnit ================================================== */
+.g-DefListUnit {
+  .is-borderColor--1 & {
+    border-color: $option__border--01;
+  }
+  .is-borderColor--2 & {
+    border-color: $option__border--02;
+  }
+  .is-borderColor--3 & {
+    border-color: $option__border--03;
+  }
+  .is-borderColor--4 & {
+    border-color: $option__border--04;
+  }
+  .is-borderColor--5 & {
+    border-color: $option__border--05;
+  }
+  .is-borderColor--6 & {
+    border-color: $option__border--06;
+  }
+  .is-borderColor--7 & {
+    border-color: $option__border--07;
+  }
+}
+
+.g-DefListUnit__label__inner {
+  .is-colorset1 & {
+    color: $definitionList__label__text-01;
+    background-color: $definitionList__label__bg-01;
+  }
+  .is-colorset2 & {
+    color: $definitionList__label__text-02;
+    background-color: $definitionList__label__bg-02;
+  }
+  .is-borderRadious_xs & {
+    @include border-radius($borderRadius_xs);
+  }
+  .is-borderRadious_s & {
+    @include border-radius($borderRadius_s);
+  }
+  .is-borderRadious_m & {
+    @include border-radius($borderRadius_m);
+  }
+  .is-borderRadious_l & {
+    @include border-radius($borderRadius_l);
+  }
+  .is-borderRadious_xl & {
+    @include border-radius($borderRadius_xl);
+  }
+}
+
+.g-DefListUnit__icon {
+  color: $contents__icon;
+}

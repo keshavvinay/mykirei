@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*  faq_category_listing */
+
+.jf-faq_category_listing {
+  .l-Image__caption {
+    margin-top: 0;
+    font-size: 0.875rem;
+    font-family: "Futura LT W05 Book", sans-serif;
+    font-weight: 400;
+  }
+  .l-BannerLinkP__list {
+    @include display-flex;
+    @include justify-content(center);
+    @include flex-wrap(wrap);
+    padding: 2em 0.625rem 4em;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    @include bp(lg) {
+      padding-right: 1.25rem;
+      padding-left: 1.25rem;
+    }
+    .is-ltAndroid4_3 & {
+      display: inline-block;
+    }
+  }
+  .l-BannerLinkP__list__item {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    @include display-flex;
+    @include justify-content(center);
+    width: 48.595%;
+    width: calc(50% - (5rem / 16));
+    padding: 3em 1em;
+    margin-top: 0.625rem;
+    background-color: #F1F1F1;
+    height: auto!important;
+    @include bp(lg) {
+      width: 23.486%;
+      width: calc((100% - (60rem / 16)) / 4);
+      margin-left: 1.25rem;
+      margin-top: 1.25rem;
+    }
+    @include bp(md) {
+      width: 23.999%;
+      width: calc((100% - (30rem / 16)) / 4);
+      margin-left: 0.625rem;
+    }
+    .is-ltAndroid4_3 & {
+    &:nth-of-type(odd):last-of-type {
+      text-align: center;
+      margin-left: 25%;
+    }
+    }
+  }
+  .l-BannerLinkP__list__item:nth-child(4n+1) {
+    margin-left: 0;
+  }
+  .l-BannerLinkP__list__item:nth-child(even) {
+    margin-left: 0.625rem;
+    @include bp(lg) {
+      margin-left: 1.25rem;
+    }
+  }
+  .l-Image {
+    padding: 3em 1em;
+    text-decoration: none;
+    margin-bottom: 0;
+    width: 100%;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .l-Image__img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}

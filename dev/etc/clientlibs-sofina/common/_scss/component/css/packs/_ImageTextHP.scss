@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+
+/* ImageTextHP ================================================== */
+.g-ImageTextHP {
+  //クラス名が入れ子になる可能性があるため
+  &.is-background {
+    padding: $cmn_paddingInner;
+    
+  }
+  &.is-layoutL {
+    .g-ImageTextHP__contentsBlock__image {
+      float: left;
+      padding-right: 16px;
+      box-sizing: border-box;
+      @include bp(sm) {
+        padding-right: 12px;
+      }
+    }
+    .g-ImageTextHP__contentsBlock__text {
+      float: right;
+    }
+  }
+  &.is-layoutR {
+    .g-ImageTextHP__contentsBlock__image {
+      float: right;
+      padding-left: 16px;
+      box-sizing: border-box;
+      @include bp(sm) {
+        padding-left: 12px;
+      }
+    }
+    .g-ImageTextHP__contentsBlock__text {
+      float: left;
+    }
+  }
+  &.is-smallViewVertical {
+    .g-ImageTextHP__contentsBlock__image {
+      @include bp(sm) {
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+      }
+    }
+    .g-ImageTextHP__contentsBlock__text {
+      @include bp(sm) {
+        float: none;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+  &.is-wraparound {
+    .g-HeadingTitle__titleBlock {
+      width: auto;
+    }
+    &.is-layoutL {
+      @include imageTextHorizontalHeadingTitle('left', 'Image');
+    }
+    &.is-layoutR {
+      @include imageTextHorizontalHeadingTitle('right', 'Image');
+    }
+    .g-ImageTextHP__contentsBlock__text {
+      float: none;
+      width: 100%;
+    }
+    .g-ImageTextHP__contentsBlock__text__moreinfo {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+.g-ImageTextHP__titleBlock {
+}
+
+.g-ImageTextHP__contentsBlock {
+  @include pie-clearfix();
+}
+
+.g-ImageTextHP__contentsBlock__image {
+}
+
+.g-ImageTextHP__contentsBlock__text {
+}
+
+.g-ImageTextHP__contentsBlock__text__moreinfo {
+}

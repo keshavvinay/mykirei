@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+/* ImageTextHP ================================================== */
+.l-ImageTextHP {
+  &.is-layoutL {
+    .l-ImageTextHP__contentsBlock__image {
+      padding-right: $ImageTextPack__separator;
+      @include bp(sm) {
+        padding-right: $ImageTextPack__separator--sm;
+      }
+    }
+  }
+  &.is-layoutR {
+    .l-ImageTextHP__contentsBlock__image {
+      padding-left: $ImageTextPack__separator;
+      @include bp(sm) {
+        padding-left: $ImageTextPack__separator--sm;
+      }
+    }
+  }
+}

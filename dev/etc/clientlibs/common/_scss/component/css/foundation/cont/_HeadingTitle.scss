@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+
+/* HeadingTitle
+ ================================================== */
+.g-HeadingTitle {
+  &.is-link {
+    @include link();
+    @include areaLink();
+  }
+  &.g-HeadingTitle--h2 {
+    @if $HeadingTitle--h2__bordered == true {
+      border-bottom: 2px solid $contents__heading__border;
+      margin-bottom: 18px;
+      &.is-titleBorder--none {
+        border-bottom: none;
+        margin-bottom: 12px;
+      }
+    } @else {
+      border-bottom: none;
+      margin-bottom: 12px;
+    }
+    
+    &.is-borderWidth--s {
+      border-width: $borderWidthBox_s;
+    }
+    &.is-borderWidth--m {
+      border-width: $borderWidthBox_m;
+    }
+    &.is-borderWidth--l {
+      border-width: $borderWidthBox_l;
+    }
+
+    &.is-borderColor--1 {
+      border-color: $option__border--01;
+    }
+    &.is-borderColor--2 {
+      border-color: $option__border--02;
+    }
+    &.is-borderColor--3 {
+      border-color: $option__border--03;
+    }
+    &.is-borderColor--4 {
+      border-color: $option__border--04;
+    }
+    &.is-borderColor--5 {
+      border-color: $option__border--05;
+    }
+    &.is-borderColor--6 {
+      border-color: $option__border--06;
+    }
+    &.is-borderColor--7 {
+      border-color: $option__border--07;
+    }
+
+    &.is-backgroundColor--1 {
+      background-color: $option__bg--01;
+    }
+    &.is-backgroundColor--2 {
+      background-color: $option__bg--02;
+    }
+    &.is-backgroundColor--3 {
+      background-color: $option__bg--03;
+    }
+    &.is-backgroundColor--4 {
+      background-color: $option__bg--04;
+    }
+    &.is-backgroundColor--5 {
+      background-color: $option__bg--05;
+    }
+    &.is-backgroundColor--6 {
+      background-color: $option__bg--06;
+    }
+    &.is-backgroundColor--7 {
+      background-color: $option__bg--07;
+    }
+
+  }
+  &.g-HeadingTitle--h3,
+  &.g-HeadingTitle--h4,
+  &.g-HeadingTitle--h5,
+  &.g-HeadingTitle--h6,
+  &.g-HeadingTitle--p {
+    &.is-titleBorder--visible {
+      border-bottom: 2px solid $contents__heading__border;
+      margin-bottom: 18px;
+    }
+    
+    &.is-borderWidth--s {
+      border-width: $borderWidthBox_s;
+    }
+    &.is-borderWidth--m {
+      border-width: $borderWidthBox_m;
+    }
+    &.is-borderWidth--l {
+      border-width: $borderWidthBox_l;
+    }
+
+    &.is-borderColor--1 {
+      border-color: $option__border--01;
+    }
+    &.is-borderColor--2 {
+      border-color: $option__border--02;
+    }
+    &.is-borderColor--3 {
+      border-color: $option__border--03;
+    }
+    &.is-borderColor--4 {
+      border-color: $option__border--04;
+    }
+    &.is-borderColor--5 {
+      border-color: $option__border--05;
+    }
+    &.is-borderColor--6 {
+      border-color: $option__border--06;
+    }
+    &.is-borderColor--7 {
+      border-color: $option__border--07;
+    }
+
+    &.is-backgroundColor--1 {
+      background-color: $option__bg--01;
+    }
+    &.is-backgroundColor--2 {
+      background-color: $option__bg--02;
+    }
+    &.is-backgroundColor--3 {
+      background-color: $option__bg--03;
+    }
+    &.is-backgroundColor--4 {
+      background-color: $option__bg--04;
+    }
+    &.is-backgroundColor--5 {
+      background-color: $option__bg--05;
+    }
+    &.is-backgroundColor--6 {
+      background-color: $option__bg--06;
+    }
+    &.is-backgroundColor--7 {
+      background-color: $option__bg--07;
+    }
+
+  }
+  &:not(.is-link) {
+    .g-HeadingTitle__h2,
+    .g-HeadingTitle__h3,
+    .g-HeadingTitle__h4,
+    .g-HeadingTitle__h5,
+    .g-HeadingTitle__h6,
+    .g-HeadingTitle__p {
+      color: $contents__heading__text;
+    }
+  }
+  
+}
+
+.g-HeadingTitle__h2 {
+  @include fontSize(lv2);
+}
+.g-HeadingTitle__h3 {
+  @include fontSize(lv3);
+}
+.g-HeadingTitle__h4 {
+  @include fontSize(lv4);
+}
+.g-HeadingTitle__h5 {
+  @include fontSize(lv5);
+}
+.g-HeadingTitle__h6 {
+  @include fontSize(lv6);
+}
+.g-HeadingTitle__p {
+  @include fontSize(p);
+}

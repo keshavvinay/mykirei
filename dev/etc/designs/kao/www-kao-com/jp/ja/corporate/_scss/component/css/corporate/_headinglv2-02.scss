@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*corp-headingLv2-02*/
+.corp-headingLv2-02 {
+  @include bp(lg) {
+    .l-HeadingTitle__h2 {
+      font-size: 20px;
+      margin-bottom: 26px;
+    }
+  }
+  @include bp(md) {
+    .l-HeadingTitle__h2 {
+      font-size: 19px;
+      margin-bottom: 30px;
+    }
+  }
+  @include bp(sm) {
+    .l-HeadingTitle__h2 {
+      font-size: 17px;
+      margin-bottom: 24px;
+    }
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }
+}
+.corp-headingLv2-02.l-HeadingTitle--h2 {
+  border-bottom: 1px solid #EEEEEE; 
+}
+

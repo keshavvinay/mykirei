@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*****************************
+  Clientlibs config
+ *****************************/
+
+/*
+ setting
+ （上書き禁止）
+ */
+$breakpoint_sm:  640px;
+$breakpoint_md: 1024px;
+$breakpoint_lg: 1366px;
+$contentsMaxWidth_sm: $breakpoint_sm;
+$contentsMaxWidth_md: $breakpoint_md;
+$contentsMaxWidth_lg: $breakpoint_lg;
+
+
+/*
+ common veriable
+ （共通変数・任意）
+ */
+$cmn_paddingInner: 20px;
+$cmn_marginItemGutter_lg: 24px;
+$cmn_marginItemGutter_md: 24px;
+$cmn_marginItemGutter_sm: 16px;
+$cmn_colsWidth_1: 100%;
+$cmn_colsWidth_2: 50%;
+$cmn_colsWidth_3: 33.3%;
+$cmn_colsWidth_4: 25%;
+$cmn_colsWidth_5: 20%;
+$cmn_colsWidth_6: 16.66%;
+

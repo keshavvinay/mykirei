@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* ブレークポイント判定用 */
+#js-breakpoint--lg {
+  display: none;
+  @include bp(lg) {
+    display: block;
+  }
+}
+#js-breakpoint--md {
+  display: none;
+  @include bp(md) {
+    display: block;
+  }
+}
+#js-breakpoint--sm {
+  display: none;
+  @include bp(sm) {
+    display: block;
+  }
+}
+
+
+/* common */
+.cmn-richtext {
+  margin: 0;
+  word-wrap: break-word;
+  p, ul, ol {
+    margin: 0;
+  }
+}
+
+.g-Section,
+.g-Column,
+.g-ColumnUnit,
+.g-GroupBox,
+.g-AccordionMenu,
+.g-QAP,
+.g-Image,
+.g-Movie,
+.g-Text,
+.g-PageTitle,
+.g-HeadingTitle {
+  &.is-border--solid {
+    border-style: solid;
+  }
+  &.is-border--dot {
+    border-style: dotted;
+  }
+  &.is-border--top {
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &.is-border--bottom {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  &.is-border--topBottom {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.is-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}

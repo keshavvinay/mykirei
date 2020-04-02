@@ -1,0 +1,6 @@
+//RELATED-CONTENT COMPONENT SPECIFIC GLOBAL STYLE
+.g-RelatedContent__container{
+    .g-RelatedDescription--unit{
+        display: none;
+    }  
+}

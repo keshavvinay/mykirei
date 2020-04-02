@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*  product_glossary */
+
+.jf-product_glossary {
+  margin: 0 10px;
+  border-width: 0 !important;
+  .l-Section__inner {
+    padding: 2.43333em 0 0;
+    @include bp(md) {
+      padding: 2.43333em 22px 1em;
+    }
+    @include bp(lg) {
+      padding: 2.43333em 22px;
+    }
+  }
+  .jf-product_glossary__title {
+    margin: 0 auto;
+    width: 70%;
+    border-bottom: none !important;
+    .l-HeadingTitle__titleBlock__titleBox__title {
+      margin-bottom: 0;
+    }
+    .l-HeadingTitle__h2 {
+      font-size: 1.65rem;
+      body:not(.is-authorring) & {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 1.2; /** Current line-height value **/
+        max-height: 3.96rem; /** Current line-height value * 3 (number of lines) **/
+        -webkit-line-clamp: 3; /** number of lines **/
+        -webkit-box-orient: vertical;
+      }
+    }
+    .l-Text {
+      margin: .25em 0 0;
+      letter-spacing: 0.035em;
+      @include bodoniregularitalic;
+    }
+    @include bp(md) {
+      width: 100%;
+    }
+    @include bp(lg) {
+      width: 100%;
+    }
+  }
+  @include bp(lg) {
+    border-width: 1px !important;
+  }
+}
+
+.jf-product_glossary__info {
+  margin: 2em auto 0;
+  .l-Column__inner {
+    padding-left: 40px;
+  }
+  @include bp(md) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  @include bp(lg) {
+    padding: 0;
+    margin: 7em auto 0;
+    .l-Column__inner {
+      padding-left: 0;
+    }
+  }
+}
+.jf-product_glossary__item {
+  position: relative;
+  padding: 0 1.75em;
+  .l-GroupBox {
+    background-size: 3em 3em;
+    display: inline-block;
+    color: $black;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2.25em;
+    width: 3em;
+    height: 3em;
+    box-sizing: border-box;
+    font-size: 0.88889rem;
+    @include bp(lg) {
+      background-size: 5em 5em;
+      top: -6em;
+      left: 50%;
+      @include transform(translateX(-2.5em));
+      width: 5em;
+      height: 5em;
+    }
+  }
+  .l-HeadingTitle {
+    margin-bottom: 0;
+    .l-HeadingTitle__titleBlock__titleBox__title {
+      margin-bottom: 0;
+    }
+    .l-Text {
+      margin: 0.313em auto 1.563em;
+      line-height: 1.44444;
+      @include bp(md) {
+        margin: 0.313em 1.8em 1.563em 0;
+      }
+      @include bp(lg) {
+        margin: 0;
+      }
+    }
+    @include bp(md) {
+      text-align: left;
+    }
+    @include bp(sm) {
+      text-align: left;
+    }
+  }
+}

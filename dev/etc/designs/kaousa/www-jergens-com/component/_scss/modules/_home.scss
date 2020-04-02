@@ -1,0 +1,2111 @@
+//JERGENS HOME CSS
+
+//Color classes
+.lightOrange{color: $light-orange;}
+.darkPink{color: $dark-pink;}
+.darkOrange{color: $dark-orange;}
+.lightPink{color: $light-pink;}
+.darkBrown{color: $dark-brown;}
+.pink{color: $pink;}
+.yellow{color: $yellow;}
+.lightGold{color: $light-gold;}
+.purple{color: $purple;}
+.lightBlue{color: $light-blue;}
+.darkBlue{color: $dark-blue;}
+.gold{color: $gold;}
+.middleBlue{color: $middle-blue;}
+.ng-dark-brown{color: $ng-dark-brown;}
+.ng-light-brown{color: $ng-light-brown;}
+.ng-gray{color: $ng-gray;}
+
+.didoColor1{color:$dido-color1;}
+.didoColor2{color:$dido-color2;}
+.didoColor3{color:$dido-color3;}
+.didoColor4{color:$dido-color4;}
+.didoColor5{color:$dido-color5;}
+.didoColor6{color:$dido-color6;}
+
+
+
+
+
+.home-section1{
+    
+//    background: url(/content/dam/sites/kaousa/www-jergens-com/logos/jergens-background-tile.jpg) 0 0;
+    position: relative;
+
+    .l-Section__inner{
+            max-width: 100%;
+        }
+    
+        .l-Section__inner,.g-Column__cols{
+            padding: 0 !important;
+        }
+    
+    .g-Column__inner{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .home-image-carousal{
+         @media (min-width:1366px){
+       .g-Image__img{
+           img{
+//            min-height: 360px;   
+               width: 100% !important;
+               margin: 0 auto;
+           }
+        }
+            } 
+        max-width: 1600px;
+    }
+    
+    .g-ImageCarouselP{
+        max-width: 1700px;
+    margin: 0 auto;
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image__info{
+        
+       @media (min-width:400px) and (max-width:$breakpoint_sm){
+                top:30%;
+            } 
+    }
+    
+    .g-FullwidthVisualsCarouselP__nav{
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        
+        @media (max-width:$breakpoint_sm){
+                display: none !important;
+            }
+        
+        .g-FullwidthVisualsCarouselP__nav__toggle{
+            display: none;
+        }
+        
+        button:before{
+            color:#e0c7b2;
+        }
+    }
+    
+    .l-ImageCarouselP__list{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    
+    .g-ImageCarouselP__nav{
+        position: absolute;
+        bottom: 0;
+        margin-top: 0;
+        margin-bottom: 5px;
+        
+         @media (max-width:$breakpoint_sm){
+                display: none !important;
+            }
+        
+        button.g-ImageCarouselP__nav__dot{
+            outline: 0;
+        }
+        
+        .g-ImageCarouselP__nav__toggle{
+            display: none;
+        }
+        
+         button:before{
+            color:#e0c7b2;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselP__prevArrow{
+        @include banner-carousal-arrow;     
+        left: 0;
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/carousel-arrow-icons.png) 65px no-repeat;
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            width: 50px;
+            height: 50px;
+            background-position: 20px 0px;
+            top: 30% !important;
+        }
+    }
+    
+    .g-ImageCarouselP__prevArrow{
+       @include banner-carousal-arrow; 
+        left: 0;
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/carousel-arrow-icons.png) 65px no-repeat;
+        
+        &:before{
+            display: none;
+        }
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            width: 50px;
+            height: 50px;
+            background-position: 18px 0;
+            top: 30% !important;
+            left: 10px;
+        }
+    }
+    
+
+       .l-ImageCarouselPUnit{
+      padding: 0;  
+    } 
+   
+    
+    
+    .g-FullwidthVisualsCarouselP__nextArrow{
+        @include banner-carousal-arrow;
+        right: 0;
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/carousel-arrow-icons.png) -27px no-repeat;
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            width: 50px;
+            height: 50px;
+            background-position: -35px 0px;
+            top: 30% !important;
+        }
+    }
+    
+    .g-ImageCarouselP__nextArrow{
+       @include banner-carousal-arrow; 
+        right: 0;
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/carousel-arrow-icons.png) -27px no-repeat;
+        
+        &:before{
+            display: none;
+        }
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            width: 50px;
+            height: 50px;
+            background-position: -30px 0;
+            top: 30% !important;
+            right:10px;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselP__prevArrow:before,.g-FullwidthVisualsCarouselP__nextArrow:before{
+        display: none;
+    }
+    
+     }
+
+.moisturizer-container{
+    
+    //IMAGE CAROUSAL PACK CSS
+    
+    .g-ImageCarouselPUnit__inner {
+        .g-GroupBox.moisturizer-container-groupbox{
+        right: 10%;
+    left: auto;
+    top: 35%;
+            
+            @media (max-width:$breakpoint_sm) {
+           right: 0;
+    left: 0;
+    bottom: 5%;
+    top: auto;
+            }
+    }
+        
+         .learnMore{
+        a{
+           @include banner-button;
+           background-color: #f37e21;
+           border-color: #f37e21;
+            
+        }
+         
+         .cmn-richtext {
+    padding-right: 10px;
+}
+         
+         .cmn-icon {
+        right: 5px;
+    top: 30%;
+    margin-top: 0;
+}
+    }
+    }
+    
+    
+    &.moisturizer-container-ca{
+       .g-FullwidthVisualsCarouselUnit__image{
+        @media (max-width:$breakpoint_sm){
+            background-position: 24% 0;
+        }
+    } 
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image{
+        @media (max-width:$breakpoint_sm){
+            background-position: 35% 0;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image__info.is-middle{
+        @media (max-width:400px){
+               top:30%;
+            }
+    }
+
+        .more-than-moisturizer{
+            font-size:16px;
+            color:$light-orange;
+            font-family: BaskervilleMTPro-SemiboldIt;
+            font-weight: normal;
+            text-align: center !important;
+            
+            &.more-than-moisturizer-ca{
+                font-size: 24px;
+                
+                @media (max-width:$breakpoint_sm){
+                font-size: 14px;
+            }
+            }
+            
+//            @media (min-width:400px) and (max-width:$breakpoint_sm){
+//                font-size: 14px;
+//            }
+            
+            @media (max-width:$breakpoint_sm){
+                font-size: 14px;
+            }
+            
+            
+        }
+    
+        
+        .main-text{
+            line-height: normal;
+            @include banner-main-text;
+            font-family: DidotLTPro-Roman;
+            
+            &.main-text-ca{
+                font-size: 57px;
+                
+                  @media  (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 30px;
+            }
+                
+                @media (max-width:$breakpoint_sm){
+                font-size: 22px;
+            }
+            }
+            
+            sup{
+                    top: -2em;
+                    letter-spacing: normal;
+                    font-size: 16px;
+                    color:#999;
+                
+                @media (max-width:$breakpoint_md){
+                top: -1em;
+            }
+                
+                @media (min-width:400px) and (max-width:$breakpoint_sm){
+                font-size: 10px;
+            }
+                
+                @media (max-width:399px){
+                font-size: 8px;
+            }
+            
+            }
+            
+           @media (max-width:$breakpoint_sm) {
+//                    position: absolute;
+//    bottom: 45%;
+//    left: 0;
+//    right: -35%;
+    font-size: 22px;
+    letter-spacing: -2px;
+            }
+            
+//            @media (min-width:400px) and (max-width:$breakpoint_sm){
+//                position: absolute;
+//                bottom: 20%;
+//                right: 20%;
+//                font-size: 20px;
+//                letter-spacing: -3px;
+//            }
+//            
+//            @media (max-width:399px){
+//                position: absolute;
+//                bottom: 20%;
+//                right: 20%;
+//                font-size: 16px;
+//                letter-spacing: -2px;
+//            }
+            
+        }
+        
+}
+
+.slider1-unit-us{
+    
+    //IMAGE CAROUSAL PACK CSS
+    
+     img{
+        width: 100% !important;
+    }
+    
+    .g-ImageCarouselPUnit__inner {
+        .g-GroupBox.slider1-unit-groupbox-us{
+        right: 19%;
+        left: 30%;
+        top: 25%;
+            
+             @media  (min-width:641px) and (max-width:$breakpoint_md){
+                    right: 18%;
+                left: 35%;
+                top: 35%;
+            }
+            
+            @media (max-width:$breakpoint_sm) {
+           right: 0;
+    left: 0;
+    bottom: 0;
+    top: auto;
+            }
+    }
+    }
+    
+    
+//    &.moisturizer-container-ca{
+//       .g-FullwidthVisualsCarouselUnit__image{
+//        @media (max-width:$breakpoint_sm){
+//            background-position: 24% 0;
+//        }
+//    } 
+//    }
+    
+//    .g-FullwidthVisualsCarouselUnit__image{
+//        @media (max-width:$breakpoint_sm){
+//            background-position: 35% 0;
+//        }
+//    }
+//    
+//    .g-FullwidthVisualsCarouselUnit__image__info.is-middle{
+//        @media (max-width:400px){
+//               top:30%;
+//            }
+//    }
+
+        .more-than-moisturizer{
+            font-size:24px;
+            color:$light-orange;
+            font-family: BaskervilleMTPro-SemiboldIt;
+            font-weight: normal;
+            text-align: center !important;
+            
+             @media (max-width:$breakpoint_md){
+                font-size: 16px;
+            }
+            
+//            &.more-than-moisturizer-ca{
+//                font-size: 24px;
+//                
+//                @media (max-width:$breakpoint_sm){
+//                font-size: 14px;
+//            }
+//            }
+//            
+////            @media (min-width:400px) and (max-width:$breakpoint_sm){
+////                font-size: 14px;
+////            }
+//            
+            @media (max-width:$breakpoint_sm){
+                font-size: 14px;
+            }
+            
+            
+        }
+    
+        
+        .slider1-unit-copy-us{
+            line-height: normal;
+            @include banner-main-text;
+            font-size: 50px;
+            font-family: DidotLTPro-Roman;
+            
+//            &.main-text-ca{
+//                font-size: 57px;
+//                
+                  @media  (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 28px;
+            }
+//                
+//                @media (max-width:$breakpoint_sm){
+//                font-size: 22px;
+//            }
+//            }
+            
+            sup{
+                    top: -2em;
+                    letter-spacing: normal;
+                    font-size: 16px;
+                    color:#999;
+                
+                @media (max-width:$breakpoint_md){
+                top: -1em;
+            }
+                
+                @media (min-width:400px) and (max-width:$breakpoint_sm){
+                font-size: 10px;
+            }
+                
+                @media (max-width:399px){
+                font-size: 8px;
+            }
+            
+            }
+            
+           @media (max-width:$breakpoint_sm) {
+//                    position: absolute;
+//    bottom: 45%;
+//    left: 0;
+//    right: -35%;
+    font-size: 25px;
+    letter-spacing: -3px;
+            }
+            
+//            @media (min-width:400px) and (max-width:$breakpoint_sm){
+//                position: absolute;
+//                bottom: 20%;
+//                right: 20%;
+//                font-size: 20px;
+//                letter-spacing: -3px;
+//            }
+//            
+//            @media (max-width:399px){
+//                position: absolute;
+//                bottom: 20%;
+//                right: 20%;
+//                font-size: 16px;
+//                letter-spacing: -2px;
+//            }
+            
+        }
+        
+}
+
+.slider2-unit-us{
+    
+     img{
+        width: 100% !important;
+    }
+    
+    .g-ImageCarouselPUnit__inner {
+        .g-GroupBox.slider2-unit-groupbox-us{
+            right: 0;
+    left: 0%;
+    top: auto;
+            bottom: 4%;
+            
+            @media (min-width:641px) and (max-width:$breakpoint_md){
+                right: 0;
+                left: 0%;
+                top: auto;
+                bottom: 4%;
+            }
+            
+            @media (max-width:$breakpoint_sm) {
+           right: 0;
+    left: 0;
+    bottom: 2%;
+    top: auto;
+            }
+    }
+        
+        .slider2-unit-copy-us{
+            line-height: normal;
+            @include banner-main-text;
+            font-size: 44px;
+            font-family: DidotLTPro-Roman;
+            
+//                
+                @media (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 24px;
+            }
+//                
+                @media (max-width:$breakpoint_sm){
+                font-size: 23px; 
+                    margin-bottom: 0;
+    letter-spacing: -3px;
+            }
+            
+            
+            sup{
+                    top: -2em;
+                    letter-spacing: normal;
+                    font-size: 16px;
+                    color:#999;
+                
+                @media (max-width:$breakpoint_md){
+                top: -1em;
+            }
+                
+                @media (min-width:400px) and (max-width:$breakpoint_sm){
+                font-size: 10px;
+            }
+                
+                @media (max-width:399px){
+                font-size: 8px;
+            }
+            
+            }
+
+            
+        }
+    
+    .l-ButtonP{
+        
+        @media (max-width:$breakpoint_sm){
+            margin-bottom: 2px;
+            }
+    }
+        
+        .mannpink{
+        font-size: 24px;
+        line-height: normal;
+        color: #e94190;
+        font-family: BaskervilleMTPro-SemiboldIt;
+        font-weight: normal;
+
+            @media (max-width:$breakpoint_md){
+                font-size: 16px;
+            }
+            
+            @media (max-width:$breakpoint_sm){
+                margin-bottom: 0;
+            }
+    }
+        
+    }    
+    
+    
+     .learnMore{
+        a{
+           @include banner-button;
+           background-color: #090956;
+           border-color: #090956;
+            
+        }
+         
+         .cmn-richtext {
+    padding-right: 10px;
+}
+         
+         .cmn-icon {
+        right: 5px;
+    top: 30%;
+    margin-top: 0;
+}
+    }
+}
+
+.slider3-unit-us{
+    
+     img{
+        width: 100% !important;
+    }
+    
+    .g-ImageCarouselPUnit__inner{
+    .g-GroupBox.slider3-unit-groupbox-us{
+        right: 0%;
+    left: 5%;
+    top: auto;
+    bottom: 9%;
+        
+        
+        
+        @media (min-width:641px) and (max-width:$breakpoint_md){
+            
+            bottom: 4%;
+            left: 7%;
+            top: auto;
+            }
+            
+            @media (max-width:$breakpoint_sm) {
+              bottom: 2%;
+                left: 0%;
+                right: 0%;
+                top: auto;
+            }
+    }
+}
+    
+    .slider3-unit-copy-us{
+        font-size: 44px;
+        font-family: DidotLTPro-Roman;
+        line-height: normal;
+            
+             @media (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 30px;
+        }
+            
+             @media (max-width:$breakpoint_sm){
+                font-size: 24px;
+                 margin-bottom: 0;
+        }
+    }
+    
+    .g-Text.ng-dark-brown{
+        font-size: 24px;
+        font-family: BaskervilleMTPro-SemiboldIt;
+        
+        @media (max-width:$breakpoint_sm){
+                font-size: 16px;
+            margin-bottom: 0;
+        }
+    }
+    
+    .l-ButtonP{
+        
+        @media (max-width:$breakpoint_sm){
+            margin-bottom: 2px;
+            }
+    }
+    
+    
+    .learnMore{
+        a{
+           @include banner-button;
+           background-color: #bf6d33;
+           border-color: #bf6d33;
+        }
+        
+        .cmn-richtext{
+            padding-right: 10px;
+        }
+        
+        .cmn-icon{
+                right: 5px;
+    top: 30%;
+    margin-top: 0;
+        }
+        
+        .cmn-icon:before{
+            font-size: 12px;
+        }
+        
+    }
+}
+
+
+.slider1-unit-sa{
+    
+    img{
+        width: 100% !important;
+    }
+    .g-ImageCarouselPUnit__inner{
+    .g-GroupBox.slider1-unit-groupbox-sa{
+        
+            margin: 0 auto;
+    top: 20%;
+        left: 10%;
+        right: 0;
+    text-align: left;
+    max-width: 250px;
+            background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: 0 top;
+    padding-top: 100px;
+
+        
+         @media (min-width:641px) and (max-width:$breakpoint_md){
+                position: static;
+            }
+            
+            @media (max-width:$breakpoint_sm) {
+           position: static;
+            }
+        
+         .learn-more{
+        display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: #e4d6c6;
+    margin-top: 10px;
+    font-weight: bold;
+        
+        &:after{
+                content: '';
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-bottom: transparent;
+        }
+    }
+        
+    }
+    }
+}
+
+.slider2-unit-sa{
+    
+    img{
+        width: 100% !important;
+    }
+    .g-ImageCarouselPUnit__inner{
+    .g-GroupBox.slider2-unit-groupbox-sa{
+        
+    text-align: left;
+    max-width: 500px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: 0px top;
+    padding-top: 90px;
+    left: 10%;
+    top: 10%;
+
+        
+         @media (min-width:641px) and (max-width:$breakpoint_md){
+                    background-size: 300px;
+    background-position: 0px 0px;
+    max-width: 300px;
+    left: 16%;
+    padding-top: 60px;
+    top: 0px;
+            }
+            
+            @media (max-width:$breakpoint_sm) {
+                position: static;
+           background-size: 300px;
+                max-width: 300px;
+                margin: 0 auto;
+                padding-top: 80px;
+            }
+        
+         .learn-more{
+        display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: #e4d6c6;
+    margin-top: 10px;
+    font-weight: bold;
+        
+        &:after{
+                content: '';
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-bottom: transparent;
+        }
+    }
+        
+    }
+    }
+}
+
+.slider3-unit-sa{
+    
+    img{
+        width: 100% !important;
+    }
+    .g-ImageCarouselPUnit__inner{
+    .g-GroupBox.slider3-unit-groupbox-sa{
+        
+        text-align: left;
+    max-width: 400px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 0px top;
+    padding-top: 120px;
+    margin: 0 auto;
+    left: 15%;
+    right: 0;
+    top: 10%;
+        
+         @media (min-width:641px) and (max-width:$breakpoint_md){
+                   left: 20%;
+             top: 0;
+    max-width: 250px;
+    background-size: 250px;
+    padding-top: 75px;
+            }
+            
+            @media (max-width:$breakpoint_sm) {
+           position: static;
+                max-width: 300px;
+                background-size: 300px;
+                padding-top: 100px;
+            }
+        
+         .learn-more{
+        display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: #e4d6c6;
+    margin-top: 10px;
+    font-weight: bold;
+        
+        &:after{
+                content: '';
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-bottom: transparent;
+        }
+    }
+        
+    }
+    }
+}
+
+
+//MX HOMEPAGE SLIDER
+
+.slider-mx-btn-pack{
+    .g-ButtonUnit__link{
+        background-color: #e4d6c6;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 7px;
+    color: #333;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+        .cmn-richtext{
+            padding-right: 10px;
+        }
+        
+        .cmn-icon{
+            color: #333;
+            font-size: 12px;
+            right: 4px;
+        }
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.home-image-carousal{
+    .g-ImageCarouselPUnit{
+
+.g-GroupBox.mx-slider2-groupbox{
+    
+        top: auto;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    
+    @media(min-width:641px)and(max-width:$breakpoint_md){
+        left: 3%;
+    }
+    
+    @media(max-width:$breakpoint_sm){
+            bottom: 1%;
+    }
+}
+
+.g-GroupBox.mx-slider3-groupbox{
+        left: 18%;
+    right: 0;
+    bottom: 3%;
+    top: auto;
+    
+    @media(min-width:641px)and(max-width:$breakpoint_md){
+        left: 20%;
+        bottom: 5%;
+    }
+    
+    @media(max-width:$breakpoint_sm){
+        display: none;
+    }
+}
+
+.g-GroupBox.mx-slider4-groupbox{
+    left: 0;
+    right: 0;
+    bottom: 2%;
+    top: auto;
+    
+    @media(min-width:641px)and(max-width:$breakpoint_md){
+        left: 4%;
+        bottom: 6%;
+    }
+    
+    @media(max-width:$breakpoint_sm){
+        display: none;
+    }
+}
+    }
+}
+
+//ME HOMEPAGE SLIDER
+
+.slider-me-btn-pack{
+    .g-ButtonUnit__link{
+        background-color: #e4d6c6;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 7px;
+    color: #333;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+        .cmn-richtext{
+            padding-right: 10px;
+        }
+        
+        .cmn-icon{
+            color: #333;
+            font-size: 12px;
+            right: 4px;
+        }
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.home-image-carousal{
+    .g-ImageCarouselPUnit{
+
+.g-GroupBox.me-slider1-groupbox{
+    
+    left: 12%;
+    right: 0;
+    top: auto;
+    bottom: 2%;
+    
+    @media(min-width:641px)and(max-width:$breakpoint_md){
+        left: 10%;
+        bottom: 6%;
+    }
+    
+    @media(max-width:$breakpoint_sm){
+        left: 57%;
+        right: 0;
+        top: auto;
+        bottom: 10%;
+    }
+}
+
+.g-GroupBox.me-slider2-groupbox{
+    left: 0;
+    right: 0;
+    bottom: 4%;
+    top: auto;
+    
+    
+    @media(max-width:$breakpoint_sm){
+        left: 57%;
+    right: 7%;
+    bottom: 27%;
+    top: auto;
+    }
+}
+
+.g-GroupBox.me-slider3-groupbox{
+    top: auto;
+    bottom: 13%;
+    left: 0;
+    right: 0;
+    
+    @media(min-width:641px)and(max-width:$breakpoint_md){
+        bottom: 15%;
+    }
+    
+    @media(max-width:$breakpoint_sm){
+    bottom: 25%;
+    left: 55%;
+    right: 7%;
+    }
+}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//en-SA home page
+
+.home-sa-section1{
+    .g-Column__inner{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .g-Column__cols{
+        padding: 0 !important;
+    }
+}
+
+  .g-FullwidthVisualsCarouselP__nav{
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        
+        @media (max-width:$breakpoint_sm){
+                display: none !important;
+            }
+        
+        .g-FullwidthVisualsCarouselP__nav__toggle{
+            display: none;
+        }
+        
+        button:before{
+            color:#e0c7b2;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselP__prevArrow{
+        @include banner-carousal-arrow;     
+        left: 0;
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/carousel-arrow-icons.png) 65px no-repeat;
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            width: 50px;
+            height: 50px;
+            background-position: 20px 0px;
+            top: 30% !important;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselP__nextArrow{
+        @include banner-carousal-arrow;
+        right: 0;
+        background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/carousel-arrow-icons.png) -27px no-repeat;
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            width: 50px;
+            height: 50px;
+            background-position: -35px 0px;
+            top: 30% !important;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselP__prevArrow:before,.g-FullwidthVisualsCarouselP__nextArrow:before{
+        display: none;
+    }
+
+
+.hydralucence-container{
+    
+    .g-FullwidthVisualsCarouselUnit__info__main{
+            width: 250px;
+        
+        @media (min-width:641px) and (max-width:$breakpoint_md){
+            margin-left: 40%;
+            margin-right: auto;
+        }
+        
+        @media(max-width:$breakpoint_sm){
+            width:200px;
+            margin-right: 30px;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image{
+        
+        @media(max-width:$breakpoint_sm){
+            background-image: url(/content/dam/sites/kaousa/www-jergens-com/images/en-sa/mobile/jergens-slider1.jpg) !important;
+        }
+            
+    }
+    
+    .content{
+        font-size: 14px;
+        text-align: left !important;
+        padding-top: 120px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 250px;
+        
+         @media(max-width:$breakpoint_sm){
+            background-size: 200px;
+             padding-top: 75px;
+        }
+    }
+    
+    .learn-more{
+        display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: #e4d6c6;
+    margin-top: 10px;
+    font-weight: bold;
+        
+        &:after{
+                content: '';
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-bottom: transparent;
+        }
+    }
+}
+
+.bb-body-container{
+    
+    .g-FullwidthVisualsCarouselUnit__image{
+        
+        @media(max-width:$breakpoint_sm){
+            background-image: url(/content/dam/sites/kaousa/www-jergens-com/images/en-sa/mobile/jergens-slider2.jpg) !important;
+        }
+            
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__info__main{
+            width: 350px;
+        padding-left: 50px;
+        
+        @media(max-width:$breakpoint_sm){
+            width: 220px;
+            padding-left: 60px;
+            margin-left: auto;
+            margin-right: 30px;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image__info{
+        @media(max-width:$breakpoint_sm){
+            top:25%;
+        }
+        
+        @media (min-width:641px) and (max-width:$breakpoint_md){
+            top:30%;
+        }
+    }
+    
+    .content{
+        font-size: 14px;
+        text-align: left !important;
+        padding-top: 75px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 350px;
+        
+        @media(max-width:$breakpoint_sm){
+                background-size: 220px;
+            padding-top: 50px;
+        }
+    }
+    
+     .learn-more{
+        display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: #e4d6c6;
+    margin-top: 10px;
+    font-weight: bold;
+        
+        &:after{
+                content: '';
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-bottom: transparent;
+        }
+    }
+}
+
+.bb-body-container2{
+    
+    .g-FullwidthVisualsCarouselUnit__image{
+        @media(max-width:$breakpoint_sm){
+            background-image: url(/content/dam/sites/kaousa/www-jergens-com/images/en-sa/mobile/jergens-slider3.jpg)!important;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__info__main{
+            width: 350px;
+        
+        @media(max-width:$breakpoint_sm){
+            width: 220px;
+            margin-right: 30px;
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image__info{
+        padding-right: 0;
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image__info.is-middle{
+        top: 60%;
+    }
+    
+    .content{
+        font-size: 14px;
+        text-align: left !important;
+        padding-top: 110px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 350px;
+        
+        @media(max-width:$breakpoint_sm){
+        padding-top: 90px;
+           background-size: 220px;
+        }
+    }
+    
+    .learn-more{
+        display: inline-block;
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color: #e4d6c6;
+    margin-top: 10px;
+    font-weight: bold;
+        
+        &:after{
+                content: '';
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    transform: rotate(45deg);
+    border-left: transparent;
+    border-bottom: transparent;
+        }
+    }
+}
+
+//MX COUNTRY SLIDER
+
+.mx-btn-pack{
+    ul{
+        text-align: center;
+    }
+}
+
+.mx-learnMore{
+    a{
+        background-color: #e4d6c6 !important;
+        padding: 10px;
+        padding-right: 17px;
+        color: #333 !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        border-color: transparent !important;
+        font-weight: bold;
+        
+        .cmn-richtext{
+          padding-right: 10px !important;  
+        }
+        
+        .cmn-icon{
+            color: #333 !important;
+            font-size: 13px;
+            right: 10px !important;
+        }
+        
+        &:hover{
+            text-decoration: underline;
+        }
+        
+    }
+}
+.mx-slider-container{
+    .g-ImageCarouselPUnit__inner {
+        .g-GroupBox.mx-slider-container-groupbox{
+        right: 0;
+    left: 0;
+    top: 22%;
+            
+            @media (max-width:$breakpoint_sm) {
+           right: 0;
+    left: 0;
+    bottom: 5%;
+    top: auto;
+            }
+            
+            @media (min-width:641px) and (max-width:$breakpoint_md){
+            top:4%;
+        }
+    }
+        .mx-slider-container-main-copy{
+            font-size: 33px;
+            letter-spacing: -3px;
+            font-family: DidotLTPro-Roman;
+            font-weight: bold;
+            
+            @media (min-width:641px) and (max-width:$breakpoint_md){
+        font-size: 24px;
+    }
+            
+             @media (max-width:$breakpoint_sm) {
+            font-size: 24px;
+            }
+        }
+    }
+}
+
+.mx-copy-groupbox{
+    @media(max-width:$breakpoint_sm){
+        position: static !important;
+    }
+    
+    
+}
+
+.instantly-absorbs-container{
+    
+//    @media(max-width:$breakpoint_sm){
+//        .g-FullwidthVisualsCarouselUnit__image{
+//        background-image: url(/content/dam/sites/kaousa/www-jergens-com/images/en-us/mobile/jergens-wet-skin-moisturizers-banner.jpg) !important;
+//    }
+//    }
+    
+    
+    .g-ImageCarouselPUnit__inner {
+        .g-GroupBox.instantly-absorbs-container-groupbox{
+        right: 0;
+    left: 0;
+    top: 35%;
+            
+            @media (max-width:$breakpoint_sm) {
+           right: 0;
+    left: 0;
+    bottom: 5%;
+    top: auto;
+            }
+            
+             @media (min-width:641px) and (max-width:$breakpoint_md){
+                top:10%;
+        }
+    }
+        
+        .bodyCopy{
+         font-family: arial;
+            font-size: 20px;
+            font-style: italic;
+            color:#e94190;
+             @media (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 16px;
+        }
+           
+        }
+    }
+    
+//    .g-FullwidthVisualsCarouselUnit__image__info{
+//            bottom: 10%;
+//    top: auto !important;
+//    transform: translate(0);
+//    }
+    
+    .g-FullwidthVisualsCarouselUnit__image__info.is-middle{
+        @media (max-width:400px){
+               top:30%;
+            }
+    }
+    
+    .instantly-absorbs{
+        line-height: normal;
+        @include banner-main-text;
+        font-family: DidotLTPro-Roman;
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            font-size: 20px;
+            letter-spacing: -3px;
+        }
+        
+        @media (max-width:399px){
+            font-size: 16px;
+            letter-spacing: -2px;
+        }
+        
+        .didotFont{
+            margin: 0;
+        }
+        
+        &.instantly-absorbs-ca{
+            font-size: 50px;
+            
+              @media (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 24px;
+        }
+            
+             @media (max-width:$breakpoint_sm){
+                font-size: 22px;
+        }
+        }
+    }
+    
+    
+    
+    .g-FullwidthVisualsCarouselUnit__info{
+        
+        @media (max-width:$breakpoint_sm){
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+    
+    .mannpink{
+        font-size: 24px;
+        line-height: normal;
+        color: #e94190;
+        font-family: BaskervilleMTPro-SemiboldIt;
+        font-weight: normal;
+        
+        @media (min-width:400px) and (max-width:$breakpoint_sm){
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        @media (max-width:399px){
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    
+    .learnMore{
+        a{
+           @include banner-button;
+           background-color: #090956;
+           border-color: #090956;
+            
+        }
+        
+        .cmn-richtext{
+            padding-right: 10px;
+        }
+        
+        .cmn-icon{
+                right: 5px;
+    top: 30%;
+    margin-top: 0;
+        }
+        
+        .cmn-icon:before{
+            font-size: 12px;
+        }
+    }
+}
+
+.create-your-container{
+    
+//    .g-FullwidthVisualsCarouselUnit__image{
+//        @media(max-width:$breakpoint_sm){
+//            background-image: url(/content/dam/sites/kaousa/www-jergens-com/images/en-us/mobile/jergens-natural-glow-banner.png) !important;
+//        }
+//    }
+    
+    .g-ImageCarouselPUnit__inner {
+        .g-GroupBox.create-your-container-groupbox{
+        right: 0;
+    left: 0;
+    top: 35%;
+            
+            @media (max-width:$breakpoint_sm) {
+           right: 0;
+    left: 0;
+    bottom: 5%;
+    top: auto;
+            }
+    }
+        
+        .g-GroupBox.mx-ng-groupbox{
+            right: 0;
+    left: 0;
+    top: 25%;
+            
+            @media (min-width:641px) and (max-width:$breakpoint_md){
+                top:3%;
+        }
+        }
+        
+        .bodyCopy{
+         font-family: arial;
+            font-size: 20px;
+            font-style: italic;
+            
+             @media (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 16px;
+        }
+        }
+        
+        .smallerText{
+            font-size: 35px;
+            
+            @media (max-width:$breakpoint_sm){
+                font-size: 20px;
+            }
+            
+            @media (min-width:641px) and (max-width:$breakpoint_md){
+               font-size: 20px;
+        }
+        }
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__image__info.is-bottom{
+        bottom: 10%;
+    }
+    
+    .g-FullwidthVisualsCarouselUnit__info{
+        
+        @media (max-width:$breakpoint_sm){
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           right: 0;
+        }
+    }
+    
+    .create-your-text{
+        font-size: 50px;
+        font-family: DidotLTPro-Roman;
+        line-height: normal;
+            
+             @media (min-width:641px) and (max-width:$breakpoint_md){
+                font-size: 24px;
+        }
+            
+             @media (max-width:$breakpoint_sm){
+                font-size: 22px;
+        }
+    }
+    
+    .BaskerVille{
+        font-family: BaskervilleMTPro-SemiboldIt;
+    font-size: 24px;
+    }
+    
+    .learnMore{
+        a{
+           @include banner-button;
+           background-color: #bf6d33;
+           border-color: #bf6d33;
+        }
+        
+        .cmn-richtext{
+            padding-right: 10px;
+        }
+        
+        .cmn-icon{
+                right: 5px;
+    top: 30%;
+    margin-top: 0;
+        }
+        
+        .cmn-icon:before{
+            font-size: 12px;
+        }
+        
+    }
+    
+}
+
+.home-imagepack-au, .home-section2-au{
+    @include section-max-width;
+}
+
+.home-imagepack-au{
+    
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    .g-ImageTextHP__contentsBlock__text{
+        .g-HeadingTitle,.g-Text,.g-ImageTextHP__contentsBlock__text__moreinfo{
+        padding-left: 15%;
+            @media(max-width:$breakpoint_sm){
+                padding-left: 0;
+            }
+    }
+    }
+    
+    .g-HeadingTitle__titleBlock__titleBox__title{
+        margin-bottom: 0;
+    }
+    
+        .g-HeadingTitle__h2{
+            color: #ad8e74 !important;
+    font-weight: bold;
+    font-family: "PT Sans Narrow";
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 1;
+    }
+    
+    img{
+            max-height: 320px;
+    width: auto !important;
+    margin: 0 auto;
+    }
+    
+    .g-TextLinkP{
+        margin-top: 20px;
+    }
+    
+    .g-TextLinkP__list{
+        margin-left: 0 !important;
+    }
+    
+    .g-TextLinkP__list__item{
+        padding: 10px;
+            padding-left: 15px;
+        background-color:#0674a8;
+    background: linear-gradient(to right,#0674a8,#2ab5d3);
+        
+        a{
+            color: #fff !important;
+            
+            .cmn-icon{
+                    color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.home-section1-au{
+    
+    .g-Column__inner{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .tile-text{
+        font-weight: normal;
+    }
+    
+    .tile-learnMore{
+        text-align: center !important;
+    }
+}
+
+.home-section1-au{
+    background-color: #fcf6f0;
+}
+
+.home-section2{
+    
+    @include background-texture;
+    
+    .tile-container{
+        @include section-max-width;
+        
+        
+        img{
+            margin: 0 auto;
+            width: auto !important;
+            max-height: 200px;
+        }
+    }
+    
+    .tile-container-au{
+//        .multiple-product-img img,.celebrate-women-img img{
+//            max-height: 148px;
+//        }
+        
+        a.g-TileLinkVUnit{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        .g-TileLinkVUnit__leadBlock{
+            padding: 0 20px;
+        }
+        
+        img{
+            margin: 0 auto;
+            width: auto !important;
+            max-height: 200px;
+        }
+        .product-tile{
+            height: 95%;
+            background-color: #fff;
+            padding: 2% 0;
+            .g-ImageTextVP__contentsBlock{
+                padding-bottom: 40px;
+                
+                .g-ImageTextVP__contentsBlock__text{
+                    padding: 0 10%;
+
+                    .tile-title{
+                        padding: 0 2%;
+                    }
+
+                    .g-ImageTextVP__contentsBlock__text__moreinfo{
+                        .tile-text{
+                            padding: 0 2%;
+                        }
+                        
+                        .g-TextLinkP__list{
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 10px;
+                            
+                            .g-TextLinkP__list__item{
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    .product-tile{
+        border:none;
+        position: relative;
+        -webkit-box-shadow: 0px 9px 15px -10px rgba(119,119,119,1);
+        -moz-box-shadow: 0px 9px 15px -10px rgba(119,119,119,1);
+        box-shadow: 0px 9px 15px -10px rgba(119,119,119,1);
+    }
+    
+    .centered-image{
+        img{
+            margin: 0 auto;
+        }
+    }
+    
+    .tile-title{
+        @include homepage-tile-title;
+        h3,h4{
+            font-weight: normal;
+        }
+    }
+    
+    .tile3-title{
+        border-bottom: 3px solid #e4e3e3;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    
+    .tile3-title-au{
+        font-size: 12px;
+        font-weight: normal;
+        font-family: Arial,Helvetica,sans-serif;
+        
+        
+    }
+    .tile3-categoryLink{
+        border-bottom: 3px solid #e4e3e3;
+        margin: 0 -12px;
+        .g-TextLinkP__list{
+            position: relative !important;
+            height: 1em;
+            bottom: 20px !important;  
+        }
+    }
+    
+    .product-tile-au{
+                
+        .tile-learnMore{
+            text-align: center;
+        }
+    }
+    
+    .tile-text{
+        @include homepage-tile-text;
+    }
+    
+    .tile3-sub-title{
+        text-align: center;
+        font-size: 12px;
+        font-family: Arial,Helvetica,sans-serif;
+        position: relative;
+        top: 10px;
+        
+        .glowAdvisor{
+            font-size: 24px;
+            letter-spacing: -1px;
+            
+            a{
+                color: unset;
+                text-decoration: none;
+            }
+        }
+        
+        .glow{
+            color: #8a622a;
+        }
+    }
+    
+    .tile-learnMore{
+        
+        text-align: left;
+            margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        
+        &.tile-ng-learnMore{
+            text-align: center;
+        }
+        
+       span.cmn-richtext{
+            color:#333;
+            font-weight: bold;
+            font-size: 12px;
+           padding-right: 17px;
+           letter-spacing: normal;
+           position: relative;
+            font-family: Arial,Helvetica,sans-serif;
+           
+           &:hover{
+               text-decoration: underline;
+               color: #333;
+           }
+            
+            &:after{
+            content: '';
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+    border-bottom: none;
+    border-left: none;
+    transform: rotate(45deg);
+    top: 24%;
+    right: 8px;
+    }
+        }
+    }
+    
+    
+}
+
+.home-section3{
+    background-color: #fff;
+    
+    .section3-column{
+        @include section-max-width;
+    }
+    
+    .youTube-video{
+        padding: 0 50px;
+        
+        iframe{
+            border: 0;
+        }
+        
+        @media (max-width:$breakpoint_sm){
+            padding: 0;
+        }
+        
+        .title{
+            text-transform: uppercase;
+            font-size: 44px;
+            font-family: serif;
+            letter-spacing: -5px;
+            line-height: normal;
+            margin: 0;
+            
+            @media (min-width:400px) and (max-width:$breakpoint_sm){
+            font-size: 25px;
+            letter-spacing: -3px;
+            text-align: center;
+        }
+        
+        @media (max-width:399px){
+            font-size: 20px;
+            letter-spacing: -2px;
+            text-align: center;
+        }
+        }
+        
+        .subtitle{
+            margin: 0;
+            font-family: BaskervilleMTPro-SemiboldIt;
+            color: #7d7d7d;
+            font-size: 18px;
+            font-weight: normal;
+            
+            @media (min-width:400px) and (max-width:$breakpoint_sm){
+            text-align: center;
+        }
+        
+        @media (max-width:399px){
+            font-size: 14px;
+            text-align: center;
+        }
+        }
+    }
+}
+
+.home-section4{
+    
+    //background: url(/content/dam/sites/kaousa/www-jergens-com/logos/jergens-background-tile.jpg) 0 0;
+    
+    .stay-in-the-know{
+        
+        strong{
+            font-size: 20px;
+                font-family: "PT Sans Narrow";
+                letter-spacing: 0;
+            color: #555;
+            font-weight: normal;
+            
+            @media(max-width:$breakpoint_md){
+                display: block;
+            }
+        }
+        
+         @include section-max-width;
+         padding: 10px;
+         font-size: 14px;
+         letter-spacing: 0px;
+         text-align: center;
+         border-top: 2px solid #e7d5c8;
+         border-bottom: 2px solid #e7d5c8;
+        
+        #stay{
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        
+        a{
+            color: inherit;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 10px;
+            @media(max-width:$breakpoint_md){
+               margin-left: 0px;
+            }
+            
+            &:hover{
+                text-decoration:underline;
+            }
+        }
+    }
+    
+    .getNewsLetter{
+        @media(max-width:$breakpoint_md){
+                display: block;
+            }
+    }
+    
+    .getNewsLetter span{
+        position: relative;
+    padding-right: 10px;
+        
+        &:after{
+            content: '';
+                display: block;
+    position: absolute;
+    right: 0px;
+    top: 26%;
+    width: 5px;
+    height: 5px;
+    border: 2px solid #333;
+    transform: rotate(45deg);
+    border-left: 0;
+    border-bottom: 0;
+        }
+    }
+}
+
+//CANADA SPECIFIC CSS
+
+html[lang="en-ca"]{
+
+    .home-section2{
+        
+        
+        .tile3-title{
+            margin-left: 0;
+            margin-right: 0;
+            border: 0;
+        }
+        
+        .g-TileLinkVUnit__leadBlock{
+            padding: 5px;
+        }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

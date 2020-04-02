@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/*  faq_search */
+
+.jf-faq_search {
+  display: none;
+  background-color: #cccccc;
+  padding-top: 2.25em;
+  padding-bottom: 2.25em;
+  padding-left: 10px;
+  padding-right: 10px;
+  .l-HeadingTitle--h2 {
+    margin-bottom: 0;
+    .l-Text {
+      font-weight: 400;
+      font-size: 3rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  .l-HeadingTitle__h2 {
+    font-weight: 400;
+    display: block;
+    font-size: .9rem;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .jf-FaqSearch__wrapper {
+    @include display-flex;
+  }
+  @include bp(lg) {
+    .jf-FaqSearch__form {
+      width: 28em;
+      margin: 0 auto;
+    }
+  }
+  @include bp(md) {
+    .jf-FaqSearch__form {
+      width: 28em;
+      margin: 0 auto;
+    }
+  }
+  .jf-FaqSearch__form {
+    .jf-FaqSearch__inputWrapper {
+      @include display-flex;
+      position: relative;
+      border: 1px solid #818181;
+      .is-ltAndroid4_3 & {
+        display: table;
+        width: 100%;
+      }
+      .jf-FaqSearch__textBox {
+        flex: 2 0 70%;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        line-height: 2.5em;
+        padding-left: .5em;
+        font-family: Georgia, serif !important;
+        .is-ltAndroid4_3 & {
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+      .jf-FaqSearch__button {
+        flex: 1 0 0%;
+        background: $white;
+        border: none;
+        padding: .5em;
+        .is-ltAndroid4_3 & {
+          max-height: 48px;
+          max-width: 40px;
+          display: table-cell;
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 0;
+        }
+        img {
+          width: 22px;
+          height: 100%;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .jf-FaqSearch__checkboxWrapper {
+    @include display-flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0.75em 0 1.75em;
+    position: relative;
+    @include bp(lg) {
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+    label {
+      cursor: pointer;
+      font-family: Georgia, serif;
+    }
+    input.jf-Checkbox {
+      width: auto;
+      position: absolute;
+      left: 0;
+      visibility: hidden;
+    }
+    input.jf-Checkbox + span {
+      @include display-flex($display: inline-flex);
+      position: relative;
+      width: 19px;
+      height: 19px;
+      margin: 0 5px 0 0;
+      border: 1px solid #989898;
+      cursor: pointer;
+      pointer-events: none;
+      .is-ltAndroid4_3 & {
+        display: inline-block;
+      }
+      &:after {
+        content: "";
+        background-image: url(/content/dam/sites/kaousa/www-johnfrieda-com/images/checkmark.png);
+        background-size: 100% 100%;
+        position: absolute;
+        top: 13%;
+        left: 16%;
+        width: 80%;
+        height: 80%;
+        opacity: 0;
+        transition: all .2s cubic-bezier(.645, .045, .355, 1);
+      }
+    }
+  }
+  input.jf-Checkbox:checked + label span:after, input.jf-Checkbox:checked + span:after {
+    opacity: 1;
+  }
+  .l-Text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    a {
+      position: relative;
+      text-decoration: none;
+      font-style: italic;
+      color: #000000;
+      transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+        transition: all .1s cubic-bezier(.645, .045, .355, 1);
+        transform: scaleX(0);
+        @include bp(sm) {
+          display: none;
+        }
+      }
+      @include bp(lg) {
+        &:hover {
+          color: #707070;
+        }
+        &:hover:after {
+          background: #707070;
+          transform: scaleX(1);
+        }
+        &:active {
+          color: #5c2d91;
+          &:after {
+            transform: scaleX(1);
+          }
+        }
+      }
+    }
+  }
+}
+

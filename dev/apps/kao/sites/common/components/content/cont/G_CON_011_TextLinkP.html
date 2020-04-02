@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_011: Text Link Pack</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>G_CON_011: Text Link Pack</h1>
+
+
+<!-- G_CON_011: Text Link Pack -->
+<div class="method">
+  <p class="componentName">TextLinkPack</p>
+  <ul>
+    <li>Unit : 1 - xx</li>
+    <li>Text width: 文字数, 等幅</li>
+    <li>Rows(lg) : 1〜6</li>
+    <li>Rows(md) : 1〜4</li>
+    <li>Rows(sm) : 1〜2</li>
+    <li>テキストの行揃え: default, 左, 中央, 右</li>
+    <li>Specific CSS class : 任意クラス付与</li>
+    <li>Background image : 背景画像スタイル付与</li>
+    <li>ID : 任意ID付与</li>
+  </ul>
+</div>
+
+<h3 class="settingName">[default] Length=1, textLinkWidth: 文字数</h3>
+<div class="g-TextLinkP l-TextLinkP">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数</h3>
+<div class="g-TextLinkP l-TextLinkP">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=6, Rows(md)=4, Rows(sm)=2</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-6 g-TextLinkP__list__item-md-4 g-TextLinkP__list__item-sm-2">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, text-align: default</h3>
+<div class="g-TextLinkP l-TextLinkP">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, text-align: left</h3>
+<div class="g-TextLinkP l-TextLinkP opt-al_l">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, text-align: center</h3>
+<div class="g-TextLinkP l-TextLinkP opt-al_c">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, text-align: right</h3>
+<div class="g-TextLinkP l-TextLinkP opt-al_r">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, text-align: default</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, text-align: left</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth opt-al_l">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, text-align: center</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth opt-al_c">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, text-align: right</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth opt-al_r">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, gutter: xs</h3>
+<div class="g-TextLinkP l-TextLinkP is-gutter--xs">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: xs</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth is-gutter--xs">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, gutter: s</h3>
+<div class="g-TextLinkP l-TextLinkP is-gutter--s">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: s</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth is-gutter--s">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, gutter: m</h3>
+<div class="g-TextLinkP l-TextLinkP is-gutter--m">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: m</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth is-gutter--m">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, gutter: l</h3>
+<div class="g-TextLinkP l-TextLinkP is-gutter--l">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: l</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth is-gutter--l">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, gutter: xl</h3>
+<div class="g-TextLinkP l-TextLinkP is-gutter--xl">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: xl</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth is-gutter--xl">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+<h3 class="settingName">Length=4, textLinkWidth: 文字数, gutter: none</h3>
+<div class="g-TextLinkP l-TextLinkP is-gutter--none">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+  </ul>
+</div>
+
+<h3 class="settingName">Length=8, textLinkWidth: 等幅, Rows(lg)=4, Rows(md)=3, Rows(sm)=1, gutter: none</h3>
+<div class="g-TextLinkP l-TextLinkP is-equalWidth is-gutter--none">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-4 g-TextLinkP__list__item-md-3 g-TextLinkP__list__item-sm-1">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+
+<h3 class="settingName">SpecificCSSclass</h3>
+<div class="g-TextLinkP l-TextLinkP SpecificCSSclass">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">Background image</h3>
+<div class="g-TextLinkP l-TextLinkP is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text1"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text2"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text3"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Text4"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<h3 class="settingName">ID</h3>
+<div id="ID" class="g-TextLinkP l-TextLinkP">
+  <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+    <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+      <!-- TextLinkUnit -->
+      <div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+      <!-- / TextLinkUnit -->
+    </li>
+
+  </ul>
+</div>
+
+
+<!-- TextLinkUnit -->
+<div class="method" id="unit-block">
+  <p class="componentName">TextLink</p>
+  <ul>
+    <li>Target/Link icon : アイコン用ステータスクラス付与</li>
+    <li>Icon position: left, right</li>
+    <li>Text & Icon color: color1, color2</li>
+    <li>Text & Icon fontzise: l, m, s
+    <li>Specific CSS class : 任意クラス付与</li>
+    <li>Background image : 背景画像スタイル付与</li>
+    <li>ID : 任意ID付与</li>
+    <li>parsys : 構成要素を拡張</li>
+  </ul>
+</div>
+
+<h3 class="settingName">Typical (default)</h3>
+<div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+
+<h3 class="settingName">Icon : Left arrow</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--left g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Icon : Up arrow</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--to_top g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Icon : Down arrow</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--to_bottom g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Icon : External</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--external g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Icon : PDF</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--pdf g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Icon : Download</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--download g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Icon : none</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+  </a>
+</div>
+
+<h3 class="settingName">Icon : left (default)</h3>
+<!-- TextLinkUnit -->
+<div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+<!-- / TextLinkUnit -->
+
+<h3 class="settingName">Icon : right</h3>
+<!-- TextLinkUnit -->
+<div class="g-TextLinkUnit l-TextLinkUnit is-rightIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+<!-- / TextLinkUnit -->
+
+<h3 class="settingName">Text&icon color : color1 (default)</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="#color1" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Text&icon color : color2</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--2 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="#color2" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Text&icon size : s</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--s">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>テキストText Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Text&icon size : m (default)</h3>
+<!-- TextLinkUnit -->
+<div class="debug-tmpl" data-tmpl="TextLinkUnit--Typical"></div>
+<!-- / TextLinkUnit -->
+
+<h3 class="settingName">Text&icon size : l</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--l">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>テキストText Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Anchor to TextLinkUnit Block</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="#unit-block" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit anchor to TextLinkUnit Block</span>
+    </span>
+    <span class="cmn-icon cmn-icon--to_top g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Anchor to TextLinkUnit Block (Own URL + "#xxx")</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="/apps/kao/sites/common/components/content/cont/G_CON_011_TextLinkP.html#unit-block" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit anchor to TextLinkUnit Block</span>
+    </span>
+    <span class="cmn-icon cmn-icon--to_top g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Anchor to Top</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="#wrapper" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit anchor to Top</span>
+    </span>
+    <span class="cmn-icon cmn-icon--to_top g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Anchor to Other page</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="/apps/kao/sites/common/templates/template_01_fixed_anchor.html#common_section_wrapper_4" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit anchor to other page</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+
+<h3 class="settingName">SpecificCSSclass</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m SpecificCSSclass">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+<h3 class="settingName">Background image</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+
+</div>
+
+<h3 class="settingName">parsys</h3>
+<div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink" href="" target="">
+    <span class="cmn-richtext">
+      <span>Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+    <!-- ImageItem -->
+    <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+    <!-- / ImageItem -->
+  </a>
+</div>
+
+
+  <h3 class="settingName">.is-iconPosition--m</h3>
+  <div class="g-TextLinkUnit l-TextLinkUnit is-leftIcon is-colorset--1 is-size--m is-iconPosition--m">
+  <a class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+    <span class="cmn-richtext">
+      <span class="opt-fontsize--xxxxl">Text Link Unit Richtext</span>
+    </span>
+    <span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+  </a>
+</div>
+
+
+<!-- / G_CON_011: Text Link Pack -->
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+//color palette
+
+$solid-white: #ffffff;
+$solid-black: #000000;
+$border-color: #333333;
+$light-gray-color: #f1f0f3;
+$medicum-gray-color: #F8F7FA;
+$placeholder-color: #d2d2d2;
+$error-color: #d9534f;
+$correct-color: #5cb85c;
+
+//Font Family 
+$primary-font-BoldItalic: "ConduitITCStd-BoldItalic";
+$primary-font-MediumItalic: "ConduitITCStd-MediumItalic";
+$primary-font-Bold: "ConduitITCStd-Bold";
+$primary-font-LightItalic: "ConduitITCStd-LightItalic";
+$primary-font-Medium: "ConduitITCStd-Medium";
+$primary-font-Light: "ConduitITCStd-Light";
+$secondary-font-karma: "Karma", "Serif";
+
+// Font Weight
+$wt700: 700;
+$wt600: 600;
+$wt500: 500;
+$wt400: 400;
+$wt300: 300;
+ 
+// Media Breakpoints
+$break-sm: 640px;
+$break-md: 1024px;
+$break-lg: 1025px;
+$max-limit: 1800px;
+$phone-only: "(min-width : 320px)and (max-width : 640px)";
+$tablet-only: "(min-width : 641px)and (max-width : 1024px)";
+$desktop-only: "(min-width : 1025px)";
+

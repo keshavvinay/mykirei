@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-jp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 NOT FOUND</title>
+  <meta name="author" content="Copyright © Kao Corporation. All rights reserved." />
+  <!-- AEM CSS -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/lib.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/basic.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/basic.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/component.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/component.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option.css" type="text/css">
+  <link rel="stylesheet" href="/etc/clientlibs/kao/option.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-kao-com/jp/ja/option.css" type="text/css">
+  <link rel="stylesheet" href="/content/dam/sites/kao/www-sofina-co-jp/common/teamsite/sofina404/sofina.css">
+  <!-- /AEM CSS -->
+  <!-- AEM JS -->
+  <script type="text/javascript" src="/etc/clientlibs/common/lib.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/lib.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/basic.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/libs_kao/common/common-utils.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/common/component.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/component.js"></script>
+  <script type="text/javascript" src="/etc/designs/kao/www-kao-com/jp/ja/component.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/kao/option.js"></script>
+  <script type="text/javascript" src="//fontplus.aem.kao.com/accessor/script/fontplus.js?EIr0inqzQsY%3D&amp;pm=1&amp;aa=1"></script>
+  <script type="text/javascript" src="/etc/clientlibs/libs_kao/common/page-component.js"></script>
+  <!-- /AEM JS -->
+
+</head>
+<body>
+<div>
+ <div id="menu">
+  <div class="js-menuHolder">
+   <div class="g-GlMenu">
+    <div class="g-GlMenu__utilityBlock">
+     <div class="g-GlMenuUtilityRegion">
+      <div class="g-GlMenuUtilityRegion__country">
+       <p> <span class="g-GlMenuUtilityRegion__country__lang">Global</span> <span class="g-GlMenuUtilityRegion__country__lang">English</span> </p>
+      </div>
+      <div class="g-GlMenuUtilityRegion__world">
+       <p><a href="//www.kao.com/content/wcm_kao/sites/kao/www-kao-com/global/en/worldwide.html"><span class="kao-icon g-GlMenuUtilityRegion__world__icon"></span>Kao Worldwide</a></p>
+      </div>
+     </div>
+    </div>
+    <div class="g-GlMenu__buttonBlock">
+     <div class="g-GlMenuButtonLink">
+      <a href="#">Close<span class="kao-icon kao-icon--close g-GlMenuButtonLink__icon"></span></a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<div id="wrapper">
+        <noscript>
+            &lt;div class="noscript"&gt;To view this website correctly, please ensure you have &lt;span&gt;JavaScript enabled.&lt;/span&gt;&lt;br /&gt;Some of the website layout and links may not function properly with JavaScript disabled.&lt;/div&gt;
+        </noscript>
+
+<div>
+ <div class="g-Area sofina-brands-BlHeader" id="area-brands-BlHeader">
+  <div class="g-Area__inner">
+   <div class="brands-BlHeader">
+    <div class="sofina-brands-HeaderLogo">
+     <a href="//web.sofina.com/hk/">
+      <div class="sofina-brands-HeaderLogo__img">
+       <div class="g-Image l-Image s7responsiveContainer">
+        <p class="g-Image__img l-Image__img"> <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina@2x.png?fmt=png-alpha" alt="SOFINA" data-fixedimgsrc="header-logo-sofina@2x.png?aaa"> </p>
+       </div>
+      </div>
+      <div class="sofina-brands-HeaderLogo__img--fixed">
+       <div class="g-Image l-Image s7responsiveContainer">
+        <p class="g-Image__img l-Image__img"> <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina@2x.png?fmt=png-alpha" alt="SOFINA" data-fixedimgsrc="header-logo-sofina@2x.png?aaa"> </p>
+       </div>
+      </div> </a>
+    </div>
+   </div>
+  </div>
+ </div>
+
+</div><!-- area-Contents -->
+<div class="g-Area" id="area-Contents">
+  <div class="g-Section l-Section" id="common_section_wrapper_1">
+ <div class="g-Section__inner l-Section__inner">
+  <div class="g-Column l-Column opt-mt80 opt-mb50 js-uniformHeight opt-sm-w100p opt-md-w80p opt-lg-w50p is-paddingReset" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit" style="height: auto;">
+ <div class="g-GroupBox l-GroupBox opt-lg-mb40 opt-sm-mb30 is-paddingReset">
+ <div class="g-HeadingTitle l-HeadingTitle opt-al_c is-paddingReset g-HeadingTitle--p l-HeadingTitle--p">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <p class="g-HeadingTitle__p l-HeadingTitle__p"><span class="cmn-richtext">
+      <span><span class="opt-fontsize--l">Page not found.</span><br>
+
+</span></span></p>
+   </div>
+  </div>
+ </div>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox opt-lg-mb50 opt-sm-mb40 is-paddingReset">
+ <div class="g-Text l-Text">
+ <p class="cmn-richtext">
+  <span>We're sorry. The page you requested cannot be found. Click on the link below to transfer to the new location.
+</span></p>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox sofina-textLink-wrapper is-paddingReset">
+ <div class="opt-al_c sofina-textLink opt-mb0--imp is-gutter--m g-TextLinkP l-TextLinkP is-equalWidth">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//www.sofina.co.jp/" target="_self" id="common_text_link_unit_20171115165156862_imCB" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Japan - 日本語
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//web.sofina.com/cn/" target="_self" id="common_text_link_unit_20171115165156869_KE9x" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>China - 简体中文
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//web.sofina.com/hk/" target="_self" id="common_text_link_unit_20171115165156875_8gRi" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Hong Kong - 繁體中文
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//web.sofina.com/tw/" target="_self" id="common_text_link_unit_20171115165156882_DvcV" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Taiwan - 繁體中文
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item g-TextLinkP__list__item-lg-1 g-TextLinkP__list__item-md-1 g-TextLinkP__list__item-sm-1">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="//web.sofina.com/sg/" target="_self" id="common_text_link_unit_20180228152826397_3Ylr" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Singapore - English
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div>
+
+</div>
+
+</div>
+  </div>
+ </div>
+</div>
+ </div>
+</div>
+</div>
+<!-- / area-Contents -->
+<div>
+ <div class="g-Area sofina-GlFooter" id="area-GlFooter">
+  <div class="sofina-GlFooter__inner">
+   <a class="sofina-GlFooter__logo" href="//web.sofina.com/hk/"><img src="//www.kao.com/content/dam/sites/kao/www-sofina-co-jp/common/global-footer/logo-sofina.png" alt="SOFINA"></a>
+   <p class="sofina-GlFooter__copyright">Copyright © Kao Corporation. All rights reserved.</p>
+  </div>
+ </div>
+
+</div></div>
+    <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+<style>
+    .s7responsiveImage{ width: 100% }
+</style>
+<script>
+  $(document).ready(function() {
+    $(".s7responsiveContainer img").each(function(index) {
+      s7responsiveImage(this);
+    });
+    $(".s7responsiveImage").each(function(index) {
+      s7responsiveImage(this);
+    });
+  });
+</script>
+<!-- area-PageTop -->
+    <div class="g-Area" id="area-PageTop" style="display: none;">
+      <div class="g-PageTop l-PageTop">
+        <a class="g-PageTop__link l-PageTop__link" href="#wrapper">Page Top<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+      </div>
+    </div>
+    <!-- / area-PageTop -->
+
+    <!-- breakpoint -->
+    <div id="js-breakpoint--lg"></div>
+    <div id="js-breakpoint--md"></div>
+    <div id="js-breakpoint--sm"></div>
+
+<div class="g-overlay l-overlay js-overlay">
+  <div class="g-modal l-modal">
+    <div class="g-modal__close l-modal__close">
+      <a href="javascript:void(0);" class="g-modal__close__link l-modal__close__link js-closeModal">
+        <span class="cmn-icon cmn-icon--close g-modal__close__icon l-g-modal__close__icon"></span>
+      </a>
+    </div>
+    <div class="g-modal__inner l-modal__inner js-modalInner">
+    </div>
+  </div>
+</div>
+</body>
+</html>

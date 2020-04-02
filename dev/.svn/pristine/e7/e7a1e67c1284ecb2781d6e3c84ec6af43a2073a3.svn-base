@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/* C260 FOOTER */
+.l-BrFooter {
+  border: none;
+  background-color: #fff;
+}
+.l-BrFooter__inner {
+  padding: 0;
+  max-width: none;
+}
+.l-BrFooter__sitemapBlock {
+  display: none;
+}
+.c260 {
+  padding: 50px 0 0;
+  @include bp(md) {
+    padding-top: 35px;
+  }
+}
+.c260__sns__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.c260__sns__item {
+  margin: 0 10px;
+  @include bp(md) {
+    margin: 0 15px;
+  }
+  @include bp(sm) {
+    margin: 0 20px;
+  }
+}
+.c260__sns__item__link {
+  display: block;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 0;
+  color: #d9d9d6 !important;
+  &:hover {
+    color: #fe5000 !important;
+  }
+  @include bp(md) {
+    width: 20px;
+    height: 20px;
+    font-size: 17px;
+  }
+  @include bp(sm) {
+    width: 25px;
+    height: 25px;
+    font-size: 21px;
+  }
+}
+.c260__links {
+  margin-top: 35px;
+  @include bp(sm) {
+    margin-top: 25px;
+  }
+}
+.c260__links__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  @include display-flex;
+  @include justify-content(center);
+  @include bp(sm) {
+    display: block;
+    width: 100%;
+  }
+}
+.c260__links__item {
+  position: relative;
+  padding: 0 15px;
+  &:after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+    background-color: #d9d9d6;
+  }
+  &:last-child {
+    &:after {
+      display: none;
+    }
+  }
+  @include bp(sm) {
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 0;
+    &:after {
+      display: none;
+    }
+  }
+}
+.c260__links__link {
+  @include kms-fontSize(longcopy);
+  color: #d9d9d6;
+  text-decoration: none;
+  @include kms-fontFamily(body);
+  font-variant: small-caps;
+  .l-Text {
+    display: inline;
+    margin-bottom: 0;
+    @include kms-fontSize(longcopy);
+    letter-spacing: normal;
+    // @include bp(sm) {
+    //   font-size: 20px;
+    //   line-height: 1;
+    // }
+  }
+  &:hover {
+    color: #fe5000;
+  }
+  // @include bp(sm) {
+  //   font-size: 20px;
+  //   line-height: 1;
+  // }
+}
+.c260__logo {
+  width: 50px;
+  margin: 30px auto 20px;
+  @include bp(md) {
+    margin-top: 40px;
+  }
+  @include bp(sm) {
+    width: 70px;
+    margin-top: 50px;
+  }
+}

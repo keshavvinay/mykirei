@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+
+/* Area ============================== */
+.g-Area {
+  //padding: 10px 0; //debug
+}
+
+.g-Area__inner {
+  max-width: $contentsMaxWidth_lg;
+  margin: 0 auto;
+}
+
+.g-Area__separater {
+  display: table;
+  width: 100%;
+  @extend .g-Area__inner;
+}
+
+.g-Area__separater__pane {
+  display: table-cell;
+  padding: 10px; //debug
+  width: 250px;
+  background-color: #cff; //debug
+  @include bp(sm) {
+    display: none; //debug
+  }
+}
+
+.g-Area__separater__main {
+  display: table-cell;
+  padding: 10px; //debug
+  background-color: #dff; //debug
+}

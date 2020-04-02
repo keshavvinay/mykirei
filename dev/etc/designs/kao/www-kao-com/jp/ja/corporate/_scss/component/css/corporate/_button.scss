@@ -1,0 +1,73 @@
+/* Button */
+.corp-button {
+  .l-ButtonUnit .l-ButtonUnit__link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    .l-ButtonUnit__link__icon {
+      color: $accent;
+    }
+  }
+
+  .is-leftIcon .l-ButtonUnit__link {
+    .cmn-richtext {
+      padding-left: 2.2375em;
+      @include bp(sm) {
+        padding-left: 0;
+        padding-right: 1.9375em;
+      }
+    }
+    .l-ButtonUnit__link__icon {
+      @include bp(sm) {
+        left: inherit;
+        right: 20px;
+      };
+    }
+  }
+  .l-ButtonUnit__link:hover {
+    opacity: 1.0;
+    background-color: #f8f8f8;
+    .cmn-richtext span {
+      padding-bottom: 2px;
+      border-bottom: 1px solid #3a3a3a;
+    }
+  }
+}
+
+// link
+.corp-button--link {
+  .l-ButtonUnit .l-ButtonUnit__link {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+// PDFボタン
+.corp-button--pdf {
+  .l-ButtonUnit .l-ButtonUnit__link {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 2px;
+    .l-ButtonUnit__link__icon {
+      font-size: 35px;
+    }
+  }
+  .is-leftIcon .l-ButtonUnit__link {
+    .cmn-richtext {
+      padding-left: 4.35em;
+      @include bp(sm) {
+        padding-left: 0;
+        padding-right: 4.35em;
+      }
+    }
+    .l-ButtonUnit__link__icon {
+      color: #999;
+      left: 30px;
+      @include bp(sm) {
+        left: inherit;
+        right: 30px;
+      };
+    }
+  }
+}

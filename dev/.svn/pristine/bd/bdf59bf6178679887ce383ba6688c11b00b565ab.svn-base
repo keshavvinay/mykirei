@@ -1,0 +1,608 @@
+// COUNTRY-SELECTOR
+@-webkit-keyframes scale {
+    from {
+        -webkit-transform: scale(1.0);
+        opacity: 1;
+    }
+
+    to {
+        -webkit-transform: scale(4.0);
+        opacity: 0;
+    }
+
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1.0);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(4.0);
+        opacity: 0;
+    }
+}
+
+body:not(.is-authorring) {
+    .country-selector {
+        position: relative;
+        top: 0;
+
+        &.link {
+            .countries {
+                border-left: 1px solid #d5d7df;
+                padding-left: 21px;
+                position: relative;
+
+                .g-ListP {
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        padding: 0;
+                        margin: 0 -12px;
+                        text-align: left;
+
+                        li {
+                            box-sizing: border-box;
+                            display: block;
+                            padding: 5px 12px;
+                            text-align: left;
+                            width: 24%;
+                            color: $primary-dark-color;
+                            position: relative;
+
+                            @media (max-width: 640px) {
+                                width: 50%;
+                                padding: 5px;
+                            }
+
+                            // arrow for countries
+                            a {
+
+                                font-weight: bold;
+                                text-decoration: underline;
+                                padding-right: 15px;
+                                position: relative;
+
+
+                                &::after {
+                                    content: '';
+                                    width: 0;
+                                    height: 0;
+                                    border-left: 5px solid $primary-color;
+                                    border-top: 5px solid transparent;
+                                    border-bottom: 5px solid transparent;
+                                    position: absolute;
+                                    right: 5px;
+                                    bottom: 2px;
+                                }
+
+                                &.test::after {
+                                    border-left: 5px solid $solid-white;
+                                    // left: 58px;
+                                }
+
+                            }
+
+                            .sub-countries {
+                                display: inline-block;
+                                top: calc(50% - 12px);
+                                position: absolute;
+
+                                @media (max-width:$break-sm) {
+                                    margin-bottom: 0;
+                                    display: block;
+                                    top: 17px;
+                                    position: absolute;
+                                }
+
+                                ul.g-TextLinkP__list {
+                                    margin-bottom: 0;
+
+                                    li {
+                                        margin-left: 15px;
+
+                                        a {
+
+                                            font-weight: bold;
+                                            text-decoration: underline;
+                                            display: inline-flex;
+
+                                            // arrow for sub-contries
+                                            &:hover {
+                                                text-decoration: none;
+                                            }
+
+                                            &::after {
+                                                content: '';
+                                                width: 0;
+                                                height: 0;
+                                                border-left: 5px solid $primary-color;
+                                                border-top: 5px solid transparent;
+                                                border-bottom: 5px solid transparent;
+                                                position: absolute;
+                                                right: 7px;
+                                                top: calc(50% - 4px);
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+
+                            // hover on sub-countries
+                            &.test {
+                                .sub-countries {
+
+                                    ul.g-TextLinkP__list {
+                                        li {
+                                            &.test {
+                                                background: transparent;
+                                                background-image: none;
+                                            }
+
+                                            a {
+                                                &::after {
+                                                    border-left: 5px solid $solid-white;
+                                                }
+                                            }
+
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        .g-Section__inner {
+            padding: 0;
+
+            .country-selector-map {
+                max-width: 850px;
+                margin: 0 auto;
+
+                .index-map-image {
+                    img {
+                        margin: 0;
+                    }
+                }
+            }
+
+
+            .g-Column__inner {
+                border-bottom: 1px solid #d5d7df;
+                max-width: 850px;
+                margin: 0 auto;
+
+                .continent {
+                    display: table;
+
+                    a {
+                        text-decoration: underline;
+                        position: relative;
+
+                        &::after {
+                            content: '';
+                            width: 0;
+                            height: 0;
+                            border-left: 5px solid $primary-color;
+                            border-top: 5px solid transparent;
+                            border-bottom: 5px solid transparent;
+                            position: absolute;
+                            right: 21px;
+                            top: calc(50% - 8px);
+                        }
+
+                        &:hover {
+                            text-decoration: none;
+                            color: #5281ff;
+
+                            &::after {
+                                border-left: 5px solid #5281ff;
+                            }
+                        }
+
+                        @media (max-width: $break-sm) {
+                            &::after {
+                                top: calc(50% - -1px);
+                                right: 17px;
+                            }
+                        }
+                    }
+
+                    .g-HeadingTitle {
+                        display: table-cell;
+                        vertical-align: middle;
+
+                    }
+                }
+
+                // hover on dots
+                .marker {
+                    ul {
+                        li {
+                            .test {
+                                border-radius: 2px;
+                                padding-right: 25px;
+                                background: #5281ff;
+                                color: $solid-white;
+                                background-image: -webkit-gradient(linear, left top, right top, from(#5281ff), to(#80adff));
+                                background-image: -webkit-linear-gradient(left, #5281ff, #80adff);
+                                // transition: 0.3s;
+                            }
+
+                            a {
+                                background: $primary-color;
+                                border-radius: 6px;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                                width: 12px;
+                                height: 12px;
+                                line-height: normal;
+                                position: absolute;
+
+                                &.test {
+                                    border-radius: 8px;
+                                    padding: 0;
+                                }
+
+                                & .attention {
+                                    background: #5281ff;
+                                    border-radius: 8px;
+                                    width: 12px;
+                                    height: 12px;
+                                    position: absolute;
+                                    top: 0;
+                                    margin: 0;
+                                    -webkit-animation-duration: 1.0s;
+                                    animation-duration: 1.0s;
+                                    -webkit-animation-fill-mode: both;
+                                    animation-fill-mode: both;
+                                    -webkit-animation-iteration-count: infinite;
+                                    animation-iteration-count: infinite;
+                                    -webkit-animation-name: scale;
+                                    animation-name: scale;
+                                    -webkit-transform-origin: center center;
+                                    transform-origin: center center;
+                                    -webkit-animation-timing-function: ease-out;
+                                    animation-timing-function: ease-out;
+                                }
+                            }
+                        }
+                    }
+
+                    @media (max-width: $break-md) {
+                        display: none;
+                    }
+                }
+
+                // hover on countries
+                .g-ListP {
+                    ul li {
+                        &.test.g-ListP__ul__item {
+                            border-radius: 4px;
+                            background: #5281ff;
+                            color: $solid-white;
+                            background-image: -webkit-gradient(linear, left top, right top, from(#5281ff), to(#80adff));
+                            background-image: -webkit-linear-gradient(left, #5281ff, #80adff);
+                            // transition: 0.3s;
+
+                            a {
+                                text-decoration: none;
+                                color: $solid-white;
+
+                                &::after {
+                                    border-left: 5px solid $solid-white;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // dots
+
+                .g-TextLinkP,
+                .g-ListP {
+                    ul li {
+                        #jpn {
+                            bottom: 216px;
+                            left: 360px;
+                        }
+
+                        #tha {
+                            bottom: 165px;
+                            left: 280px;
+                        }
+
+                        #twn {
+                            bottom: 190px;
+                            left: 320px;
+                        }
+
+                        #hkg {
+                            bottom: 185px;
+                            left: 275px;
+                        }
+
+                        #mys {
+                            bottom: 152px;
+                            left: 221px;
+                        }
+
+                        #sgp {
+                            bottom: 152px;
+                            left: 219px;
+                        }
+
+                        #idn {
+                            bottom: 119px;
+                            left: 190px;
+                        }
+
+                        #chn {
+                            bottom: 232px;
+                            left: 226px;
+                        }
+
+                        #aus {
+                            bottom: 60px;
+                            left: 252px;
+                        }
+
+                        #vnm {
+                            bottom: 138px;
+                            left: 142px;
+                        }
+
+                        #gum {
+                            bottom: 160px;
+                            left: 205px;
+                        }
+
+                        #can {
+                            bottom: 265px;
+                            left: 510px
+                        }
+
+                        #mex {
+                            bottom: 180px;
+                            left: 600px;
+                        }
+
+                        #usa {
+                            bottom: 230px;
+                            left: 626px;
+                        }
+
+                        #bra {
+                            bottom: 79px;
+                            left: 667px;
+                        }
+
+                        #chl {
+                            bottom: 67px;
+                            left: 601px;
+                        }
+
+                        #col {
+                            bottom: 140px;
+                            left: 655px;
+                        }
+
+                        #cri {
+                            bottom: 154px;
+                            left: 573px;
+                        }
+
+                        #ecu {
+                            bottom: 129px;
+                            left: 559px;
+                        }
+
+                        #slv {
+                            bottom: 161px;
+                            left: 474px
+                        }
+
+                        #gtm {
+                            bottom: 171px;
+                            left: 605px;
+                        }
+
+                        #hnd {
+                            bottom: 170px;
+                            left: 596px;
+                        }
+
+                        #pan {
+                            bottom: 147px;
+                            left: 553px;
+                        }
+
+                        #nic {
+                            bottom: 162px;
+                            left: 524px;
+                        }
+
+
+                        #ven {
+                            bottom: 154px;
+                            left: 526px;
+                        }
+
+                        #bhs {
+                            bottom: 189px;
+                            left: 675px;
+                        }
+
+                        #dom {
+                            bottom: 179px;
+                            left: 632px;
+                        }
+
+                        #jam {
+                            bottom: 174px;
+                            left: 559px;
+                        }
+
+                        #trb {
+                            bottom: 168px;
+                            left: 564px;
+                        }
+
+                        #gbr {
+                            bottom: 265px;
+                            left: 46px;
+                        }
+
+                        #fra {
+                            bottom: 251px;
+                            left: 17px;
+                        }
+
+                        #ger {
+                            bottom: 257px;
+                            left: 4px;
+                        }
+
+                        #che {
+                            bottom: 243px;
+                            right: 14px;
+                        }
+
+                        #aut {
+                            bottom: 251px;
+                            right: 57px;
+                        }
+
+                        #net {
+                            bottom: 268px;
+                            right: 101px;
+                        }
+
+                        #den {
+                            bottom: 280px;
+                            left: 58px;
+                        }
+
+                        #swe {
+                            bottom: 287px;
+                            left: 53px;
+                        }
+
+                        #nor {
+                            bottom: 291px;
+                            right: 6px;
+                        }
+
+                        #fin {
+                            bottom: 292px;
+                            right: 3px;
+                        }
+
+                        #irl {
+                            bottom: 265px;
+                            right: 105px;
+                        }
+
+                        #isl {
+                            bottom: 306px;
+                            right: 155px;
+                        }
+
+                        #bhr {
+                            bottom: 188px;
+                            left: 128px;
+                        }
+
+                        #dbi {
+                            bottom: 181px;
+                            left: 83px;
+                        }
+
+                        #isr {
+                            bottom: 204px;
+                            left: 3px;
+                        }
+
+                        #jor {
+                            bottom: 210px;
+                            right: 5px;
+                        }
+
+                        #kwt {
+                            bottom: 200px;
+                            left: 115px;
+                        }
+
+                        #lbn {
+                            bottom: 219px;
+                            left: 58px;
+                        }
+
+                        #omn {
+                            bottom: 167px;
+                            left: 48px;
+                        }
+
+                        #qat {
+                            bottom: 197px;
+                            left: 20px;
+                        }
+
+                        #sau {
+                            bottom: 182px;
+                            left: 135px;
+                        }
+
+                        #yem {
+                            bottom: 170px;
+                            left: 87px;
+                        }
+
+                        #rus {
+                            bottom: 276px;
+                            left: 25px;
+                        }
+
+                        #arg {
+                            bottom: 47px;
+                            left: 570px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .logo .g-Column__inner {
+            border-bottom: none;
+
+            .kao-logo.g-Image {
+                position: relative;
+                max-width: 125px;
+                margin-top: 25px;
+
+                img {
+
+                    max-width: 80px;
+                    margin-left: 0;
+                }
+
+                .g-Image__caption {
+                    margin-top: 0;
+                }
+
+                @media(max-width:$break-md) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

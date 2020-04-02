@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+
+/* LocalNav ================================================== */
+//#area-LocalNavTop,#area-LocalNavBottom
+//  g-LocalNav
+//    g-LocalNav__inner
+//      g-LocalNav__categoryBlock
+//        g-LocalNavCategoryLabel
+//      g-LocalNav__listBlock
+//        g-LocalNavList
+//          g-LocalNavList__item
+
+.l-LocalNav {
+  border-top-color: $localNavigation__separateBorder--top;
+  border-bottom-color: $localNavigation__separateBorder--bottom;
+  @include bp(sm) {
+    background: $localNavigation__bg--smmd;
+  }
+  @include bp(md) {
+    background: $localNavigation__bg--smmd;
+  }
+  @include bp(lg) {
+    background: $localNavigation__bg;
+  }
+}
+.l-LocalNavCategoryLabel {
+  @include bp(sm) {
+    border-color: $localNavigation__border;
+    font-size: $fontSize_sm_localNav_categoryLabel;
+    line-height: $lineHeight_sm_localNav_categoryLabel;
+    letter-spacing: $letterSpacing_sm_localNav_categoryLabel;
+    font-family: $fontFamily_localNav_categoryLabel;
+  }
+  @include bp(md) {
+    border-color: $localNavigation__border;
+    font-size: $fontSize_md_localNav_categoryLabel;
+    line-height: $lineHeight_md_localNav_categoryLabel;
+    letter-spacing: $letterSpacing_md_localNav_categoryLabel;
+    font-family: $fontFamily_localNav_categoryLabel;
+  }
+  @include bp(lg) {
+    font-size: $fontSize_lg_localNav_categoryLabel;
+    line-height: $lineHeight_lg_localNav_categoryLabel;
+    letter-spacing: $letterSpacing_lg_localNav_categoryLabel;
+    font-family: $fontFamily_localNav_categoryLabel;
+  }
+  a {
+    color: $localNavigation__linkNormal__text;
+    background-color: $localNavigation__linkNormal__bg;
+    .cmn-icon {
+      color: $localNavigation__linkNormal__icon;
+    }
+    &:hover ,
+    &:focus {
+      color: $localNavigation__linkNormal__text--hover;
+      background-color: $localNavigation__linkNormal__bg--hover;
+      .cmn-icon {
+        color: $localNavigation__linkNormal__icon--hover;
+      }
+    }
+  }
+}
+.l-LocalNavList {
+  font-family: $fontFamily_localNav_label;
+  @include bp(sm) {
+    font-size: $fontSize_sm_localNav_label;
+    line-height: $lineHeight_sm_localNav_label;
+    letter-spacing: $letterSpacing_sm_localNav_label;
+  }
+  @include bp(md) {
+    border-color: $localNavigation__border;
+    font-size: $fontSize_md_localNav_label;
+    line-height: $lineHeight_md_localNav_label;
+    letter-spacing: $letterSpacing_md_localNav_label;
+  }
+  @include bp(lg) {
+    font-size: $fontSize_lg_localNav_label;
+    line-height: $lineHeight_lg_localNav_label;
+    letter-spacing: $letterSpacing_lg_localNav_label;
+  }
+}
+.l-LocalNavList__item {
+  border-color: $localNavigation__border;
+  .l-LocalNavListLink {
+    color: $localNavigation__linkNormal__text;
+    background-color: $localNavigation__linkNormal__bg;
+    .cmn-icon {
+      color: $localNavigation__linkNormal__icon;
+    }
+  }
+  a.l-LocalNavListLink {
+    &:hover ,
+    &:focus {
+      color: $localNavigation__linkNormal__text--hover;
+      background-color: $localNavigation__linkNormal__bg--hover;
+      .cmn-icon {
+        color: $localNavigation__linkNormal__icon--hover;
+      }
+    }
+  }
+  &.is-active a.l-LocalNavListLink {
+    color: $localNavigation__linkCurrent__text;
+    background-color: $localNavigation__linkCurrent__bg;
+    .cmn-icon {
+      color: $localNavigation__linkCurrent__icon;
+    }
+    &:hover ,
+    &:focus {
+      color: $localNavigation__linkCurrent__text--hover;
+      background-color: $localNavigation__linkCurrent__bg--hover;
+      .cmn-icon {
+        color: $localNavigation__linkCurrent__icon--hover;
+      }
+    }
+  }
+}
+
+@include bp(lg) {
+  .l-LocalNavList__item-lg-1,
+  .l-LocalNavList__item-lg-2,
+  .l-LocalNavList__item-lg-3,
+  .l-LocalNavList__item-lg-4,
+  .l-LocalNavList__item-lg-5,
+  .l-LocalNavList__item-lg-6,
+  .l-LocalNavList__item-lg-7,
+  .l-LocalNavList__item-lg-8 {
+    border-color: $localNavigation__border;
+  }
+}

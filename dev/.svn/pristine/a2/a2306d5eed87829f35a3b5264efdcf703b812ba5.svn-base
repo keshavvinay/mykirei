@@ -1,0 +1,26 @@
+/* headingLv1-01 */
+.corp-headingLv1-01--hasLabelTag {
+  .l-Column {
+    &:first-child {
+      @include bp(sm) {
+        .l-Text {
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+      @include bp(md) {
+        .l-Column__cols {
+          &:first-child {
+            width: 60%;
+          }
+          &:last-child {
+            width: 40%;
+          }
+        }
+        .l-Text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

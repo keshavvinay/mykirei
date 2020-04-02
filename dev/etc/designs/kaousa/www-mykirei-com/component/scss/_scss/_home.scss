@@ -1,0 +1,548 @@
+.mykirei-home-section1 img {
+  width: 100% !important;
+}
+
+.mykirei-home-section2-tilepack {
+  .g-TileLinkVP__list__tile {
+    padding: 0 !important;
+  }
+
+  .g-TileLinkVUnit {
+    padding: 0;
+    border: none;
+  }
+
+  img {
+    width: 100% !important;
+  }
+
+  .g-TileLinkVUnit__leadBlock__lead .g-Text {
+    font-family: CeraPro-Regular;
+  }
+
+  .g-TileLinkVUnit__leadBlock__tag .g-LabelTagP {
+    margin: 0;
+    text-align: center;
+
+    .g-LabelTagP__list__item {
+      margin: 0;
+
+      .g-LabelTagUnit {
+        padding: 0;
+        letter-spacing: normal;
+        font-family: CeraPro-Regular;
+      }
+    }
+  }
+}
+
+.mykirei-home-section3 {
+  img {
+    width: 100% !important;
+  }
+
+  .g-Section__inner {
+    display: flex;
+
+    .g-Column:nth-child(1) {
+      background-image: linear-gradient(to top, #f7d7cf, #fffcf7);
+    }
+
+    .g-ButtonUnit__link {
+      padding: 10px 0;
+    }
+  }
+}
+
+.mykirei-home-section4 .kirei-homepage-sustainability-text-column-separator .g-ButtonUnit.is-colorset--2 {
+  border-bottom: solid 0.5px #404144;
+  padding: 0 0 5px;
+
+  .g-ButtonUnit__link {
+    padding: 0;
+  }
+}
+
+.mykirei-home-section5 {
+  .g-Column__inner .mykirei-home-section5-text .g-ButtonUnit.is-colorset--2 {
+    border-bottom: solid 0.5px #404144;
+    padding: 0 0 5px;
+
+    .g-ButtonUnit__link {
+      padding: 0;
+    }
+  }
+
+  img {
+    width: 100% !important;
+  }
+}
+
+.mykirei-home-section1-text .g-ButtonUnit__link, .mykirei-home-section3-ihtb .g-ButtonUnit__link, .mykirei-home-section4 .kirei-homepage-sustainability-text-column-separator a.g-ButtonUnit__link.js-anchorLink, .mykirei-home-section5 a.g-ButtonUnit__link, .mykirei-home-section3 .g-ButtonP__list__item {
+  line-height: normal;
+}
+
+@media (min-width: 641px) {
+  .mykirei-home-section1 {
+    .g-Column__inner {
+      position: relative;
+
+      .g-Column__cols {
+        width: 100%;
+      }
+    }
+
+    .mykirei-home-section1-text {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .g-PageTitle {
+        margin-bottom: 0;
+      }
+
+      .g-ButtonP {
+        width: 54%;
+        margin: 0;
+
+        .g-ButtonP__list__item {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .mykirei-home-section2-text {
+    height: auto !important;
+  }
+
+  .mykirei-home-section2-tilepack {
+    .g-TileLinkVP__list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .g-TileLinkVP__list__tile {
+      width: 31.5%;
+    }
+
+    .g-TileLinkVUnit__leadBlock__tag .g-LabelTagP .g-LabelTagP__list__item .g-LabelTagUnit {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+
+  .mykirei-home-section3 {
+    .g-Section__inner .g-Column {
+      width: 50%;
+
+      .g-Column__inner {
+        height: 100%;
+
+        .g-Column__cols {
+          height: 100%;
+        }
+      }
+    }
+
+    .mykirei-home-section3-ihtb {
+      height: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+
+      .g-HeadingTitle {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .mykirei-home-section5 {
+    .g-Column__inner {
+      position: relative;
+
+      .g-Column__cols {
+        width: 100%;
+      }
+    }
+
+    .mykirei-home-section5-text {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .g-Column__inner .mykirei-home-section5-text {
+      .g-Image {
+        display: flex;
+        justify-content: center;
+      }
+
+      .g-HeadingTitle, .g-HeadingTitle__titleBlock__titleBox__title {
+        margin-bottom: 0;
+      }
+
+      .g-HeadingTitle__h3 {
+        letter-spacing: normal;
+        line-height: 46px;
+      }
+
+      .g-Text {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .mykirei-home-section1 .mykirei-home-section1-text {
+    top: 20.6%;
+    margin-left: 7.8%;
+    position: absolute;
+    height: 372px !important;
+    width: 25.7%;
+  }
+
+  .mykirei-home-section2 {
+    padding: 50px 0 80px;
+  }
+
+  .mykirei-home-section2-tilepack {
+    .g-TileLinkVUnit__leadBlock {
+      height: auto !important;
+    }
+
+    .g-TileLinkVP__list {
+      margin: 0 5.6% !important;
+    }
+
+    .g-TileLinkVUnit__leadBlock__title .g-Text {
+      margin-bottom: 3px;
+    }
+
+    .g-TileLinkVUnit__leadBlock__lead {
+      margin: 0;
+
+      .g-Text {
+        margin-bottom: 6px;
+      }
+    }
+
+    .g-TileLinkVUnit__extraStructural .g-ButtonP .g-ButtonP__list {
+      padding: 4px 12px 0px;
+    }
+  }
+
+  .mykirei-home-section3 {
+    .mykirei-home-section3-ihtb {
+      width: 53%;
+
+      .g-Image {
+        margin-bottom: 2.4%;
+      }
+
+      .g-ButtonP {
+        width: 56.1%;
+      }
+    }
+
+    .g-HeadingTitle__h2 {
+      font-size: 26px;
+      line-height: 1.77;
+    }
+  }
+
+  .mykirei-home-section4 {
+    .kirei-homepage-sustainability-image-column-separator .g-HeadingTitle__titleBlock__titleBox__title {
+      margin: 51px auto 21px;
+    }
+
+    .kirei-homepage-sustainability-text-column-separator {
+      .g-HeadingTitle {
+        margin-bottom: 0px;
+      }
+
+      .g-ButtonP .g-ButtonP__list {
+        padding: 0px;
+      }
+
+      .g-Text {
+        margin-bottom: 0px;
+      }
+
+      .g-Column__inner {
+        margin-left: 21.5% !important;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 14.5% !important;
+        margin-top: 10px;
+        margin-bottom: 67px;
+      }
+
+      .g-Column__cols {
+        &:nth-child(1), &:nth-child(2) {
+          width: 22.1%;
+        }
+
+        &:nth-child(3) {
+          width: 24%;
+        }
+      }
+    }
+  }
+
+  .mykirei-home-section5 .mykirei-home-section5-text {
+    position: absolute;
+    top: 12%;
+    right: 6.1%;
+    width: 21.1%;
+  }
+
+  .mykirei-home-section5-text .g-HeadingTitle__titleBlock__titleBox__title {
+    padding: 10px 0%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .mykirei-home-section1 {
+    .g-Column__inner .g-Column__cols:nth-child(2) {
+      position: absolute;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      width: 36.2%;
+    }
+
+    .mykirei-home-section1-text {
+      margin-left: 3.1%;
+    }
+  }
+
+  .mykirei-home-section2 {
+    padding: 30px 0 35px;
+  }
+
+  .mykirei-home-section2-tilepack {
+    .g-TileLinkVP__list {
+      margin: 0 3.3% !important;
+    }
+
+    .g-TileLinkVUnit__leadBlock__lead .g-Text {
+      margin: 0;
+    }
+  }
+
+  .mykirei-home-section3 .mykirei-home-section3-ihtb {
+    width: 80%;
+
+    .g-Image {
+      margin-bottom: 4.2%;
+    }
+
+    img {
+      height: 54px;
+    }
+
+    .g-ButtonP {
+      width: 38%;
+    }
+  }
+
+  .mykirei-home-section4 {
+    .kirei-homepage-sustainability-image-column-separator .g-HeadingTitle__titleBlock__titleBox__title {
+      margin: 51px 32px 21px;
+    }
+
+    .kirei-homepage-sustainability-text-column-separator {
+      .g-Column__inner {
+        display: flex;
+        justify-content: center;
+        margin: 16px !important;
+      }
+
+      .g-Column__cols {
+        width: 190px;
+        margin-right: 2.3%;
+      }
+
+      .g-HeadingTitle {
+        margin: 0;
+      }
+
+      .g-Text {
+        margin: 0;
+        margin-bottom: -5%;
+      }
+    }
+  }
+
+  .mykirei-home-section5 {
+    .g-Column__inner .g-Column__cols:nth-child(2) {
+      position: absolute;
+      height: 100%;
+      display: flex;
+      margin-top: 4%;
+      width: 29.7%;
+      right: 3.1%;
+    }
+
+    .mykirei-home-section5-text {
+      margin-left: 3.1%;
+
+      img {
+        height: 66px;
+      }
+
+      .g-PageTitle {
+        margin-bottom: 0;
+      }
+
+      .g-ButtonP {
+        width: 54%;
+        margin: 0;
+
+        .g-ButtonP__list__item {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .mykirei-home-section1 .g-Column__inner .g-Column__cols:nth-child(2) .g-ColumnUnit {
+    width: 80%;
+    margin: 24px auto 43px;
+  }
+
+  .kirei-homepage-sustainability-image-column-separator .g-HeadingTitle.l-HeadingTitle.opt-al_c.is-paddingReset.g-HeadingTitle--h3.l-HeadingTitle--h3 {
+    width: 84%;
+    margin: auto;
+  }
+
+  .mykirei-home-section2 {
+    padding: 31px 0 10px;
+  }
+
+  .mykirei-home-section2-tilepack {
+    padding: 0 60px;
+
+    .g-Text {
+      margin-bottom: 0px;
+
+      .cerapro-regular-s {
+        margin-bottom: 0px;
+      }
+    }
+
+    .g-ButtonUnit__link {
+      line-height: 1;
+    }
+
+    .opt-al_c.is-gutter--m.g-ButtonP {
+      margin-bottom: 37px;
+    }
+
+    .g-TileLinkVUnit__leadBlock__tag .g-LabelTagP .g-LabelTagP__list__item .g-LabelTagUnit {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
+
+  .mykirei-home-section3 {
+    .g-Section__inner {
+      flex-direction: column-reverse;
+
+      .g-Column:nth-child(1) {
+        padding: 45px 60px;
+      }
+    }
+
+    .mykirei-home-section3-ihtb {
+      .g-Image {
+        margin-bottom: 20px;
+      }
+
+      img {
+        height: 62px;
+      }
+
+      .g-ButtonP {
+        margin: 0;
+      }
+    }
+  }
+
+  .mykirei-home-section4 {
+    .kirei-homepage-sustainability-image-column-separator {
+      .g-HeadingTitle__titleBlock__titleBox__title .g-HeadingTitle__h3 {
+        padding-top: 38px;
+        padding-bottom: 15px;
+      }
+
+      .g-Image .g-Image__img {
+        padding-bottom: 13px;
+      }
+    }
+
+    .kirei-homepage-sustainability-text-column-separator {
+      .g-ButtonP .g-ButtonP__list {
+        padding: 0px 0 7.4%;
+      }
+
+      .g-ColumnUnit .g-HeadingTitle {
+        margin-bottom: 0px !important;
+        margin-top: 22px;
+      }
+
+      .g-Column__inner {
+        margin-left: 16% !important;
+        margin-right: 16% !important;
+
+        .g-ButtonP__list {
+          border-bottom: 1px solid rgba(64, 65, 68, 0.17);
+          margin: 0 !important;
+        }
+
+        .g-Column__cols:last-child ul {
+          border-bottom: none !important;
+          margin: 0 !important;
+        }
+      }
+
+      .g-ColumnUnit {
+        .g-HeadingTitle {
+          margin-bottom: 0px !important;
+        }
+
+        .g-Text {
+          margin-bottom: 0 !important;
+          height: auto !important;
+        }
+      }
+    }
+  }
+
+  .mykirei-home-section5 .g-Column__inner .mykirei-home-section5-text {
+    padding: 45px 60px;
+
+    .g-Image {
+      margin-bottom: 20px;
+
+      img {
+        height: 75px;
+      }
+    }
+  }
+
+  .mykirei-home-section2-tilepack .g-TileLinkVUnit__imageBlock .g-Image__img {
+    margin: 0 auto;
+    width: 94.1%;
+  }
+}
+
+.mykirei-home-carousel-unit .mykirei-homepage-carousel {
+  position: relative !important;
+}

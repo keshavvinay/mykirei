@@ -1,0 +1,32 @@
+/* imgText-01 */
+.corp-imgText-01 {
+  &.is-layoutL {
+    .l-ImageTextHP__contentsBlock__text {
+      box-sizing: border-box;
+      padding-left: 14px;
+      @include bp(sm) {
+        padding-left: 10px;
+      }
+    }
+  }
+  
+  .l-ImageTextHP__contentsBlock__text {
+    .l-Text {
+      margin-bottom: 30px;
+      @include bp(sm) {
+        margin-bottom: 26px;
+        font-size: 12px;
+      }
+    }
+    .l-ButtonUnit__link {
+      @include bp(sm) {
+        font-size: 12px;
+      }
+    }
+    @include bp(lg) {
+      .l-ButtonP {
+        width: 71%;
+      }
+    }
+  }
+}

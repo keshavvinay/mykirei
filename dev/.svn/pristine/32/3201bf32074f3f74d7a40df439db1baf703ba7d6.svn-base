@@ -1,0 +1,1333 @@
+@charset "utf-8";
+
+/* iP drink ============================== */
+////////////////////////////////////
+//
+// main visual
+//
+////////////////////////////////////
+
+.ip-drink__mainVisual__section {
+  background-color: #00335b;
+  .g-Image {
+    margin-bottom: 0;
+  }
+}
+
+#monitor_block {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+//anchor
+.ip-drink__anchorList__section {
+  .g-Section__inner {
+    padding-top: 28px;
+    @include bp(sm) {
+      padding-top: 15px;
+      padding-bottom: 6px;
+    };
+  }
+}
+
+.ip-drink__anchorList__column {
+  margin-top: 20px;
+  border-top: 1px solid #57b4c8;
+  border-bottom: 1px solid #57b4c8;
+  padding: 30px 10px 18px;
+  @include bp(sm) {
+    padding: 15px 0 3px;
+  };
+  .l-TextLinkP__list {
+    @include bp(lg) {
+      margin-left: -4px;
+      margin-right: -4px;
+    }
+    @include bp(md) {
+      margin-left: -4px;
+      margin-right: -4px;
+    }
+  }
+  .l-TextLinkP__list__item {
+    @include bp(lg) {
+      padding-left: 4px !important;
+      padding-right: 4px !important;
+    }
+    @include bp(md) {
+      padding-left: 4px !important;
+      padding-right: 4px !important;
+    }
+  }
+  .l-TextLinkUnit__link {
+    position: relative;
+    padding-left: 34px;
+    color: $colorLink_ip;
+    &:after {
+      position: absolute;
+      display: block;
+      font-family: 'icomoon-ip';
+      content: "\e609";
+      width: 24px;
+      height: 24px;
+      left: 0;
+      top: 12px;
+      margin-top: -12px;
+      background-color: $colorMain_05;
+      @include border-radius(50%);
+      color: $colorLink_ip;
+      @include fontSizeNum(14);
+      line-height: 24px;
+      text-align: center;
+    }
+    &:link, &:visited {
+      color: $colorLink_ip;
+    }
+  }
+}
+////////////////////////////////////
+//
+// メインビジュアル下テキスト
+//
+////////////////////////////////////
+.ip-drink__lead__section {
+  .g-Section__inner {
+    @include bp(lg) {
+      padding-bottom: 40px;
+    }
+  }
+  .g-Column__cols-lg-2 {
+    &:first-child {
+      @include bp(lg) {
+        width: 30%;
+      }
+      @include bp(md) {
+        width: 35%;
+      }
+    }
+    &:last-child {
+      @include bp(lg) {
+        width: 70%;
+      }
+      @include bp(md) {
+        width: 65%;
+      }
+    }
+  }
+}
+
+.ip-drink__lead__image__columnUnit {
+  .l-Image {
+    max-width: 193px;
+    margin: 36px auto 0;
+    @include bp(sm) {
+      max-width: 115px;
+      margin: 0 auto 10px;
+    }
+  }
+}
+
+.ip-drink__lead__content__columnUnit {
+  position: relative;
+  z-index: 2;
+  .ip-banner__block {
+    @include bp(lg) {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 220px;
+    }
+    @include bp(md) {
+      display: none;
+    }
+    @include bp(sm) {
+      overflow: hidden;
+      width: 100%;
+      margin-top: 16px;
+    }
+    .g-Image:first-child {
+      padding-bottom: 14px;
+      margin: 0 auto;
+      width: 100%;
+      @include bp(sm) {
+        width: 68.3%;
+        padding-bottom: 10px;
+      }
+    }
+    .g-Image:nth-child(n+2) {
+      @include bp(sm) {
+        margin: 0 auto;
+        width: 68.3%;
+      }
+    }
+  }
+  .l-HeadingTitle {
+    margin-bottom: 15px;
+  }
+  .l-HeadingTitle__h2 {
+    @include fontSizeNum(24);
+    line-height: 1.5;
+    font-weight: normal;
+    @include bp(lg) {
+      padding-right: 240px;
+    }
+  }
+  .l-Text {
+    @include fontSizeNum(14);
+    line-height: 1.5;
+  }
+  .g-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h2 {
+      color: $colorLink_ip;
+    }
+  }
+  @include bp(sm) {
+    margin: 0 0 8px;
+    .l-HeadingTitle {
+      margin-bottom: 6px;
+    }
+    .l-HeadingTitle__h2 {
+      @include fontSizeNum(16);
+    }
+    .l-Text {
+      @include fontSizeNum(14);
+    }
+  }
+}
+
+.ip-drink__lead__text {
+  @include bp(lg) {
+    padding-right: 240px;
+  }
+}
+.ip-banner__block--md {
+  display: none;
+  @include bp(md) {
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .g-Image:first-child {
+    padding-bottom: 14px;
+    margin: 0 auto;
+    width: 100%;
+    @include bp(sm) {
+      width: 68.3%;
+      padding-bottom: 10px;
+    }
+  }
+  .g-Image:nth-child(n+2) {
+    @include bp(sm) {
+      float: left;
+      width: 68.3%;
+    }
+  }
+}
+
+.ip-drink__lead__description__wrapper {
+  position: relative;
+  z-index: 1;
+  margin: 0 50px 26px;
+  @include bp(sm) {
+    margin: 0 0 6px;
+  }
+  .g-Column__cols:first-child {
+    @include bp(lg) {
+      display: none;
+    }
+    @include bp(sm) {
+      display: none;
+    }
+  }
+
+
+}
+
+// バナーブロック下、無料お届けサービス他
+.ip-banner__block__linkList {
+  margin-top: 25px;
+  @include bp(sm) {
+    margin-top: 20px;
+  }
+  .l-TextLinkUnit {
+    margin: 0 0 20px;
+  }
+  .l-TextLinkP__list__item {
+    width: 100%;
+    display: block;
+  }
+  .ip-banner__block__delivery {
+    .l-TextLinkUnit__link {
+      & >.cmn-richtext {
+        &:after {
+          content: "";
+          @include img_main("icon_window.png");
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .l-TextLinkUnit__link {
+    display: block;
+    border: 1px solid #57b4c8;
+    b {
+      @include fontSizeNum(18);
+      line-height: 1.5;
+      font-weight: bold;
+      color: #ff268c;
+      text-decoration: underline;
+      span {
+        white-space: nowrap;
+      }
+    }
+    & >.cmn-richtext {
+      padding: 12px 10px 12px 15px;
+      @include fontSizeNum(14);
+      line-height: 1.5;
+      color: #333;
+      text-decoration: none;
+      letter-spacing: normal;
+    }
+    &:hover {
+      opacity: .7;
+    }
+    @include bp(sm) {
+      & >.cmn-richtext {
+        padding: 12px 8px 12px 12px;
+        @include fontSizeNum(12);
+        b {
+          @include fontSizeNum(16);
+        }
+      }
+    }
+  }
+  .l-TextLinkUnit__link__icon {
+    display: none;
+  }
+  .ip-banner__block__shop__link {
+    display: inline-block;
+    position: relative;
+    margin-top: 8px;
+    padding-left: 22px;
+    color: $colorLink_ip;
+    &:before {
+      @include link_arrow_2($colorLink_ip, $colorMain_05);
+      left: 0;
+      right: auto;
+    }
+  }
+}
+.ip-banner__block__delivery {
+  clear: both;
+}
+.ip-banner__block__shop {
+  .l-TextLinkUnit__link {
+    display: block;
+    border: 1px solid #57b4c8;
+  }
+}
+
+.ip-drink__lead__description {
+  padding: 15px 0 4px 0;
+  @include bp(lg) {
+    margin-right: 240px;
+  }
+  @include bp(md) {
+    float: right;
+    width: 45%;
+    margin-top: 20px;
+  }
+  border-top: 1px solid $colorLine_01;
+  border-bottom: 1px solid $colorLine_01;
+  .l-HeadingTitle__h3 {
+    @include fontSizeNum(16);
+    line-height: 1.5;
+    font-weight: normal;
+  }
+  .l-Text {
+    @include fontSizeNum(14);
+    line-height: 1.5;
+  }
+  .is-link {
+    .l-LinkButton__link:link {
+      position: relative;
+      color: $colorLink_ip;
+      padding-left: 22px;
+      @include fontSizeNum(14);
+      line-height: 1.5;
+      text-decoration: none;
+      &:before {
+        @include link_arrow_2($colorLink_ip, $colorMain_05);
+        left: 0;
+        right: auto;
+      }
+      &:after {
+        right: -18px;
+        content: "";
+        position: absolute;
+        @include img_main("icon_window.png");
+        @include vMiddle();
+      }
+    }
+    .l-LinkButton__link:visited {
+      color: $colorLink_ip;
+      text-decoration: none;
+    }
+  }
+  .g-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h3 {
+      color: $colorLink_ip;
+    }
+  }
+  @include bp(sm) {
+    padding: 10px 0 0;
+    .l-HeadingTitle__h3 {
+      @include fontSizeNum(14);
+    }
+    .l-Text {
+      @include fontSizeNum(12);
+    }
+    .l-LinkButton__link:link {
+        @include fontSizeNum(12);
+      }
+  }
+}
+
+////////////////////////////////////
+//
+// 囲み記事
+//
+////////////////////////////////////
+
+.ip-column__bordered {
+  margin-bottom: 30px;
+  .g-Section__inner {
+    border: 1px solid $colorLine_01;
+    padding: 0;
+    max-width: 960px;
+  }
+  @include bp(md) {
+    margin: 0 32px 30px;
+  }
+  @include bp(sm) {
+    margin-bottom: 15px;
+    .g-Section__inner {
+      max-width: none;
+      margin: 0 10px;
+    }
+  }
+}
+.ip-drink__column__title {
+  &.g-HeadingTitle {
+    margin-bottom: 28px;
+    background-color: $colorMain_05;
+    .l-HeadingTitle__titleBlock__titleBox {
+      vertical-align: middle;
+      height: 59px;
+    }
+    .l-HeadingTitle__h2 {
+      @include fontSizeNum(24);
+      font-weight: normal;
+      font-family: $fontFamily_Mincho;
+    }
+    @include bp(sm) {
+      padding: 10px;
+      margin-bottom: 11px;
+      .l-HeadingTitle__titleBlock__titleBox {
+        height: auto;
+      }
+      .l-HeadingTitle__h2 {
+        @include fontSizeNum(16);
+        font-family: $fontFamily_Gothic;
+      }
+    }
+  }
+}
+.ip-drink__column__contents {
+  margin: 0 50px;
+  padding-bottom: 30px;
+  @include bp(sm) {
+    margin: 0 9px;
+    padding-bottom: 13px;
+  }
+}
+/*
+.ip-drink__ingredient {
+  .g-Column {
+    width: auto;
+  }
+}
+.ip-drink__ingredient__text {
+  &.ip-drink__ingredient__textCoffee {
+    padding-right: 30px;
+    @include bp(sm) {
+      padding-right: 0;
+      .l-Image {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  &.ip-drink__ingredient__textDrop {
+    padding-left: 30px;
+    @include bp(sm) {
+      padding-left: 0;
+      .l-Image {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .l-Text {
+    margin-bottom: 20px;
+    @include fontSizeNum(14);
+    line-height: 1.5;
+  }
+  .l-HeadingTitle {
+    .l-Text {
+      margin-bottom: 2px;
+    }
+  }
+  .l-HeadingTitle__h3 {
+    @include fontSizeNum(20);
+    line-height: 1.5;
+    font-weight: normal;
+  }
+  .l-Image {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .g-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h3 {
+      color: $colorLink_ip;
+    }
+  }
+  @include bp(sm) {
+    margin-right: 0;
+    .l-Text {
+      margin-bottom: 12px;
+      @include fontSizeNum(12);
+    }
+    .l-HeadingTitle {
+      margin-bottom: 6px;
+    }
+    .l-HeadingTitle__h3 {
+      @include fontSizeNum(14);
+    }
+    .l-Image {
+      max-width: 230px;
+    }
+  }
+}
+*/
+
+.ip-drink__chlorogenic {
+  .l-ImageTextHP {
+    padding-left: 49px;
+    padding-right: 49px;
+    @include bp(sm) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+.ip-drink__chlorogenic__title:not(.is-link) {
+  margin: 0;
+  .l-HeadingTitle__h3 {
+    @include fontSizeNum(20);
+    line-height: 1.5;
+    font-weight: normal;
+    color: $colorLink_ip;
+    @include bp(sm) {
+      @include fontSizeNum(14);
+    }
+  }
+  .l-Text {
+    @include fontSizeNum(14);
+    margin-bottom: 0;
+    @include bp(sm) {
+      @include fontSizeNum(10);
+    }
+  }
+}
+.ip-drink__chlorogenic__text {
+  @include fontSizeNum(14);
+  line-height: 1.5;
+  padding: 10px 0 30px;
+  @include bp(sm) {
+    @include fontSizeNum(12);
+    padding-bottom: 16px;
+  }
+}
+
+.ip-drink__monitor {
+  .l-Section__inner {
+    max-width: 960px;
+    border: 6px solid #faf063;
+    padding: 0 0 25px;
+    @include bp(md) {
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+    @include bp(sm) {
+      padding-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-width: 3px;
+    }
+  }
+}
+.ip-drink__monitor__application {
+  padding: 10px 44px 18px;
+  @include bp(sm) {
+    padding: 10px 12px 0;
+  }
+  .l-Column__cols {
+    &:first-child {
+      .l-ColumnUnit {
+        padding-right: 20px;
+        @include bp(sm) {
+          padding: 0;
+        }
+      }
+      .l-ButtonUnit__link {
+        background-color: #ecf9fc;
+        border-color: #57b4c8;
+        .cmn-richtext {
+          color: 333;
+          span {
+            &:after {
+              @include img_main("icon_window.png");
+            }
+          }
+        }
+      }
+    }
+    &:last-child {
+      .l-ColumnUnit {
+        padding-left: 20px;
+        @include bp(sm) {
+          padding: 0;
+        }
+      }
+      .l-ButtonUnit__link {
+        background-color: #008cab;
+        border-color: #008cab;
+        .cmn-richtext {
+          span {
+            &:after {
+              @include img_main("icon_window_reverse.png");
+            }
+          }
+        }
+      }
+    }
+    @include bp(sm) {
+      padding-bottom: 16px;
+      .l-ButtonUnit__link {
+        display: block;
+      }
+    }
+  }
+  .l-Text {
+    margin-bottom: 14px;
+    @include fontSizeNum(14);
+    line-height: 1.5;
+    strong {
+      color: #ff268c;
+      font-weight: bold;
+    }
+  }
+  .l-ButtonUnit__link {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid;
+    text-align: center;
+    .cmn-richtext {
+      @include fontSizeNum(20);
+      @include bp(sm) {
+        @include fontSizeNum(18);
+      }
+      span {
+        position: relative;
+        padding-right: 26px;
+        &:after {
+          position: absolute;
+          content: "";
+          display: block;
+          width: 13px;
+          height: 9px;
+          right: 0;
+          top: 50%;
+          margin-top: -4px;
+        }
+      }
+    }
+  }
+}
+.ip-drink__monitor__contact__title {
+  padding: 15px 44px 0;
+  .l-Column__cols {
+    padding-bottom: 0 !important;
+  }
+  .l-HeadingTitle {
+    margin-bottom: 0;
+  }
+  @include bp(sm) {
+    padding: 0 10px;
+  }
+}
+.ip-drink__monitor__contact__title:not(.is-link) {
+  .l-HeadingTitle__h4 {
+    @include fontSizeNum(16);
+    line-height: 1.5;
+    font-weight: normal;
+    color: $colorLink_ip;
+    @include bp(sm) {
+      @include fontSizeNum(14);
+    }
+  }
+}
+.ip-drink__monitor__note {
+  padding: 0 44px;
+  @include bp(sm) {
+    padding: 0 12px;
+  }
+  .l-Text {
+    @include fontSizeNum(12);
+  }
+}
+.ip-drink__monitor__contact {
+  padding: 0 44px;
+  @include bp(sm) {
+    padding: 0 12px;
+  }
+  .l-Column__cols {
+    &:first-child {
+      width: 18.6%;
+      .l-Text {
+        @include fontSizeNum(14);
+      }
+      @include bp(sm) {
+        padding-top: 4px;
+        padding-bottom: 0;
+        width: 100%;
+        .l-HeadingTitle {
+          margin-bottom: 0;
+        }
+        .l-Text {
+          margin-bottom: 0;
+          @include fontSizeNum(12);
+        }
+      }
+    }
+    &:last-child {
+      width: 81.4%;
+      @include bp(sm) {
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+.ip-drink__monitor__contact__info {
+  padding-bottom: 5px;
+  .l-Text {
+    @include fontSizeNum(14);
+    line-height: 1.5;
+    .ip-drink__monitor__contact__info__tel {
+      display: block;
+      @include fontSizeNum(20);
+      line-height: 1.5;
+    }
+    .ip-drink__monitor__contact__info__note {
+      display: block;
+      @include fontSizeNum(12);
+      line-height: 1.5;
+    }
+    @include bp(sm) {
+      margin-bottom: 0;
+      @include fontSizeNum(12);
+      .ip-drink__monitor__contact__info__tel {
+        @include fontSizeNum(16);
+      }
+      .ip-drink__monitor__contact__info__note {
+        @include fontSizeNum(10);
+      }
+    }
+  }
+}
+
+/*
+.ip-drink__bikatsu {
+  .g-Section__inner {
+    position: relative;
+  }
+  @include bp(sm) {
+    margin-bottom: 30px;
+  }
+  .g-Column {
+    width: auto;
+  }
+}
+.ip-drink__bikatsu__title {
+  .ip-drink__column__title {
+    @include bp(sm) {
+      margin-bottom: 18px;
+    }
+  }
+}
+.ip-drink__bikatsu__issue {
+  margin: 0 49px 10px 23%;
+  .g-ColumnUnit {
+    margin-right: 10px;
+    background-color: $colorGray_6;
+    padding: 26px 5px;
+  }
+  .l-Text {
+    margin: 0;
+    @include fontSizeNum(14);
+    line-height: 1.5;
+  }
+  @include bp(sm) {
+    margin: 0 10px 0 28%;
+    .g-ColumnUnit {
+      margin: 0 0 5px;
+      padding: 5px 14px;
+    }
+    .l-Text {
+      text-align: left;
+      @include fontSizeNum(12);
+    }
+  }
+}
+.ip-drink__bikatsu__issue__image {
+  &.g-Column {
+    width: 10%;
+    position: absolute;
+    left: 49px;
+    top: 90px;
+    @include bp(sm) {
+      width: 19%;
+      left: 10px;
+      top: 60px;
+    }
+  }
+}
+.ip-drink__bikatsu__result__title {
+  margin: 45px 0 24px;
+  position: relative;
+  .g-HeadingTitle {
+    margin-bottom: 12px;
+  }
+  .l-HeadingTitle__h2 {
+    .cmn-richtext {
+      @include fontSizeNum(32);
+      line-height: 1.5;
+      color: $colorLink_ip;
+      font-weight: normal;
+      font-family: $fontFamily_Mincho;
+      small {
+        @include fontSizeNum(24);
+        line-height: 1.5;
+        border-bottom: 1px solid $colorLink_ip;
+        sup {
+          top: 0;
+        }
+      }
+    }
+  }
+  .l-Text {
+    position: absolute;
+    right: 49px;
+    bottom: 6px;
+    @include fontSizeNum(12);
+    line-height: 1.5;
+    color: $colorLink_ip;
+  }
+  @include bp(sm) {
+    margin: 11px 0 8px;
+    .l-HeadingTitle {
+      margin-bottom: 0;
+    }
+    .l-HeadingTitle__h2 {
+      .cmn-richtext {
+        @include fontSizeNum(20);
+        font-family: $fontFamily_Gothic;
+        small {
+          @include fontSizeNum(16);
+        }
+      }
+    }
+    .l-Text {
+      position: static;
+      @include fontSizeNum(11);
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+  }
+}
+.ip-drink__bikatsu__result {
+  margin: 0 39px 30px;
+  .g-ColumnUnit {
+    position: relative;
+    background-color: $colorSub_03;
+    margin: 0 10px;
+    padding: 16px 35px 8px;
+    &:after {
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      display: block;
+      content: " ";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 20px 11px 0 11px;
+      border-color: #fffccc transparent transparent transparent;
+      margin-left: -11px;
+    }
+  }
+  @include bp(sm) {
+    margin: 0;
+    .g-ColumnUnit {
+      margin-bottom: 30px;
+      padding: 11px 24px 3px;
+    }
+  }
+}
+.ip-drink__bikatsu__result__text {
+  @include fontSizeNum(16);
+  line-height: 1.5;
+  margin: 0;
+  strong {
+    @include fontSizeNum(24);
+    line-height: 1.5;
+    font-weight: normal;
+  }
+  @include bp(sm) {
+    @include fontSizeNum(12);
+    strong {
+      @include fontSizeNum(16);
+    }
+  }
+}
+.ip-drink__bikatsu__result__age {
+  @include fontSizeNum(14);
+  line-height: 1.5;
+  @include bp(sm) {
+    @include fontSizeNum(12);
+  }
+}
+.ip-drink__bikatsu__result__note {
+  margin: 0 49px 18px;
+  .l-Text {
+    @include fontSizeNum(12);
+    line-height: 1.5;
+  }
+  @include bp(sm) {
+    margin: 0 10px;
+    .l-Text {
+      @include fontSizeNum(11);
+      text-align: left;
+    }
+  }
+}
+*/
+.ip-drink__qa__link.g-Column {
+  width: 66.7%;
+  margin: 0 auto 16px;
+  .l-Image {
+    position: relative;
+    display: block;
+    border: 1px solid $colorLine_01;
+    background-color: $colorMain_05;
+    padding: 20px 0;
+    text-decoration: none;
+    .l-Image__img {
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      &:after {
+        @include link_arrow($colorLink_ip, $colorIcon_light);
+        right: -45px;
+      }
+    }
+    &:hover {
+      @include opacity($linkHoverOpacity);
+    }
+  }
+  @include bp(md) {
+    width: 80%;
+  }
+  @include bp(sm) {
+    width: auto;
+    margin: 6px 0 0;
+    .l-Image {
+      position: relative;
+      display: block;
+      padding: 15px 0 15px 9px;
+      .l-Image__img {
+        position: static;
+        width: 73.3%;
+        margin: 0;
+        &:after {
+          right: 9px;
+        }
+      }
+    }
+  }
+}
+
+//リニューアル
+.ip-drink__element__section {
+  .g-Section__inner {
+    padding-top: 8px;
+    padding-bottom: 40px;
+  }
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(24);
+    font-family: $fontFamily_Mincho;
+  }
+  .ip-drink__element__image {
+    max-width: 520px;
+    margin: 30px auto 20px;
+  }
+  @include bp(sm) {
+    .g-Section__inner {
+      padding-top: 15px;
+      padding-bottom: 40px;
+    }
+    .g-HeadingTitle__h2 {
+      @include fontSizeNum(16);
+      font-family: $fontFamily_Gothic;
+    }
+    .ip-drink__element__image {
+      max-width: 335px;
+      margin: 10px auto 10px;
+    }
+  }
+}
+
+.ip-drink__drinking__section {
+  .g-Section__inner {
+    border: 4px solid #c3e7ef;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    @include bp(lg) {
+      max-width: 960px;
+      padding: 50px 50px 40px;
+    }
+    @include bp(md) {
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+    @include bp(sm) {
+      border: 2px solid #c3e7ef;
+      margin: 30px 10px 30px 10px;
+    }
+  }
+}
+
+.ip-drink_border__section__title {
+  &.g-HeadingTitle {
+    background-color: $colorMain_05;
+    .l-HeadingTitle__titleBlock__titleBox {
+      vertical-align: middle;
+      height: 60px;
+    }
+    .l-HeadingTitle__h2 {
+      @include fontSizeNum(24);
+      font-weight: normal;
+      font-family: $fontFamily_Mincho;
+    }
+    @include bp(sm) {
+      .l-HeadingTitle__titleBlock__titleBox {
+        height: auto;
+        padding: 12px 10px;
+      }
+      .l-HeadingTitle__h2 {
+        @include fontSizeNum(16);
+        font-family: $fontFamily_Gothic;
+      }
+    }
+  }
+}
+
+.ip-drink__drinking-woman__heading {
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(24);
+    color: $colorLink_ip !important;
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      @include fontSizeNum(16);
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.ip-drink__drinking-woman__illust {
+  max-width: 640px;
+  margin: 10px auto 0;
+  position: relative;
+  @include bp(md) {
+    .g-ImageTextHP__contentsBlock__image {
+      width: 35%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  @include bp(sm) {
+    max-width: 355px;
+    margin-top: 20px;
+    .g-ImageTextHP__contentsBlock__image {
+      width: 35%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .g-Image {
+    margin-bottom: 0;
+  }
+  .g-ImageTextHP__contentsBlock__text {
+    position: relative;
+    margin-bottom: 5px;
+    @include bp(md) {
+      width: 65%;
+      min-width: 360px;
+    }
+    @include bp(sm) {
+      width: 65%;
+    }
+    .g-Text {
+      background-color: #fffccc;
+      border-radius: 10px;
+      margin: 25px 0 0 30px;
+      text-align: center;
+      font-family: $fontFamily_Mincho;
+      padding-top: 16px;
+      @include fontSizeNum(23);
+      .opt-fontsize--s {
+        @include fontSizeNum(14);
+        line-height: 3em;
+      }
+      &:after {
+        position: absolute;
+        top: 50%;
+        display: block;
+        content: " ";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 11px 25px 11px 0;
+        border-color: transparent #fffccc transparent transparent;
+        margin-left: -24px;
+      }
+      @include bp(sm) {
+        margin: 0;
+        font-family: $fontFamily_Gothic;
+        padding-top: 4px;
+        padding-bottom: 2px;
+        @include fontSizeNum(15);
+        .opt-fontsize--s {
+          @include fontSizeNum(11);
+          line-height: 1.2em;
+        }
+        &:after {
+          margin-top: -11px;
+        }
+      }
+    }
+  }
+}
+
+.ip-drink__drinking-scene__column {
+  border: 1px solid $colorLine_02;
+  padding-bottom: 20px;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  @include bp(sm) {
+    padding-bottom: 0;
+  }
+  .ip-lp_border__section__title {
+    .g-HeadingTitle__h2 {
+      color: $colorLink_ip !important;
+    }
+  }
+}
+
+.ip-drink__drinkingMovie__headingTitle {
+  margin: 60px 0 0;
+  @include bp(sm) {
+    margin-top: 30px;
+  }
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(24);
+    color: $colorLink_ip !important;
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      @include fontSizeNum(16);
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.ip-drink__drinking_movieTextVP_01,
+.ip-drink__drinking_movieTextVP_02 {
+  .g-Text  {
+    @include fontSizeNum(24);
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      font-family: $fontFamily_Gothic;
+      @include fontSizeNum(17);
+    }
+  }
+}
+
+.ip-drink__drinking_movieTextVP_01 {
+  padding-right: 20px;
+  margin-top: 20px;
+  @include bp(sm) {
+    margin-top: 10px;
+    padding-right: 0;
+  }
+}
+.ip-drink__drinking_movieTextVP_02 {
+  padding-left: 20px;
+  margin-top: 20px;
+  @include bp(sm) {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+}
+
+.ip-drink__scene__groupbox {
+  margin: 25px 40px 0;
+  background-color: #fffccc;
+  position: relative;
+  padding: 10px 20px 10px 60px;
+  @include bp(sm) {
+    margin:10px;
+    padding: 15px;
+  }
+}
+
+.ip-drink__scene__index {
+  position: absolute !important;
+  top: -15px;
+  left: -25px;
+  img {
+    max-width: 80px;
+  }
+  @include bp(sm) {
+    top: -5px;
+    left: -5px;
+    img {
+      max-width: 40px;
+    }
+  }
+}
+
+.ip-drink__scene__title {
+  margin-top: 10px;
+  .g-HeadingTitle__h3 {
+    @include fontSizeNum(24);
+    color: $colorLink_ip !important;
+  }
+  @include bp(sm) {
+    margin-top: 0;
+    text-align: center;
+    padding: 0 20px;
+    .g-HeadingTitle__h3 {
+      @include fontSizeNum(15);
+    }
+  }
+}
+
+.ip-drink__scene__content {
+  .g-Image {
+    margin-bottom: 0;
+    @include bp(sm) {
+      margin-bottom: 8px;
+    }
+  }
+  .g-Text {
+    @include fontSizeNum(14);
+    @include bp(sm) {
+      @include fontSizeNum(13);
+    }
+    .scene-highlight {
+      color: $colorLink_ip;
+    }
+  }
+}
+
+.ip-drink__drinking-person__section {
+  .g-Section__inner {
+    padding-bottom: 0;
+  }
+}
+.ip-drink__drinking-person__memo {
+  @include fontSizeNum(12);
+}
+.ip-drink__drinking-person-top__heading {
+  margin-top: 60px;
+  @include bp(sm) {
+    margin-top: 40px;
+  }
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(24);
+    color: $colorLink_ip !important;
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      @include fontSizeNum(16);
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.ip-drink__drinking-person-bottom__heading {
+  margin-top: 50px;
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(26);
+    color: $colorLink_ip !important;
+    font-family: $fontFamily_Mincho;
+  }
+  @include bp(sm) {
+    margin-top: 30px;
+    .g-HeadingTitle__h2 {
+      @include fontSizeNum(16);
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.ip-drink__drinking-person__content {
+  background-color: #fffccc;
+  margin: 20px auto 0;
+  padding: 24px;
+  box-sizing: border-box;
+  @include bp(sm) {
+    margin-top: 15px;
+  }
+  .g-Image {
+    margin-bottom: 0;
+    @include bp(sm) {
+      margin-bottom: 18px;
+    };
+  }
+  .g-HeadingTitle__h3 {
+      color: $colorLink_ip !important;
+      @include fontSizeNum(16);
+      @include bp(sm) {
+        @include fontSizeNum(15);
+      }
+  }
+  .g-Text {
+    margin-bottom: -4px;
+    @include bp(lg) {
+      margin-right: 120px;
+    }
+  }
+}

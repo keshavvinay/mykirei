@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.corp-reverse-column--lg {
+  @include bp(lg) {
+    .l-Column__cols {
+      &:first-child {
+        float: right;
+      }
+      &:last-child {
+        float: left;
+      }
+    }
+  }
+}

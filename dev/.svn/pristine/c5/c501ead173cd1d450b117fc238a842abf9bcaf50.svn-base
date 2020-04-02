@@ -1,0 +1,43 @@
+$solid-white: #ffffff;
+$solid-black: #000000;
+$text-black: #333333;
+$avenir-regular: "Avenir", sans-serif;
+$avenir-medium: "AvenirMedium",sans-serif;
+$avenir-bold : "AvenirBold",sans-serif;
+$tramcn: "TramCnThin",sans-serif;
+$body-bg-color: #f3f3f3;
+// Header Footer
+$border-primary-color: #e0e0e0;
+$input-field-color: #555;
+$box-shadow: #555;
+$square-color: #707070;
+
+//goldwell theme colors
+$primary: #cc2d30;
+
+// Link color
+$hover-link: #cc2d30;
+
+// Text swiper
+$arrow-bg: #9c1f31;
+
+// Break points
+$header-break-sm : 769px;
+$header-break-md : 770px;
+$break-xs : 640px;
+$break-md : 1024px;
+$break-lg : 1025px;
+
+// Container width
+$max-width-lg: 1136px; 
+
+// Swiper width
+$desktop-swiper: 1231px;
+$mobile-swiper: 1230px;
+
+// Image text swiper
+$slider-color: #62537c;
+
+// Form
+$required-color: #ff0000;
+$error-color: $required-color;

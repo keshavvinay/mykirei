@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+/* LabelTagP ================================================== */
+
+
+/* LabelTagUnit ================================================== */
+.l-LabelTagUnit {
+  @include fontSize(caption);
+  &.is-colorset1 {
+    color: $labelTag__text-01;
+    background-color: $labelTag__bg-01;
+  }
+  &.is-colorset2 {
+    color: $labelTag__text-02;
+    background-color: $labelTag__bg-02;
+  }
+  &.is-colorset3 {
+    color: $labelTag__text-03;
+    background-color: $labelTag__bg-03;
+  }
+  &.is-colorset4 {
+    color: $labelTag__text-04;
+    background-color: $labelTag__bg-04;
+  }
+  &.is-colorset5 {
+    color: $labelTag__text-05;
+    background-color: $labelTag__bg-05;
+  }
+  &.is-colorset6 {
+    color: $labelTag__text-06;
+    background-color: $labelTag__bg-06;
+  }
+  &.is-colorset7 {
+    color: $labelTag__text-07;
+    background-color: $labelTag__bg-07;
+  }
+}

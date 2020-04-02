@@ -1,0 +1,136 @@
+.accordion-menu-section {
+  .g-Column__inner.l-Column__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .g-ColumnUnit.l-ColumnUnit {
+    height: auto !important;
+  }
+
+  .g-AccordionUnit__contentBlock {
+    padding: 18px 0px 10px 0px !important;
+  }
+
+  .g-Hr {
+    margin: 0px auto;
+  }
+
+  .g-HeadingTitle {
+    position: relative;
+    margin-bottom: 0px;
+  }
+
+  .g-AccordionUnit__titleBlock {
+    padding: 0px 1.875em 0 0px;
+  }
+  
+  .g-AccordionUnit__titleBlock__icon {
+    right: 0.1em;
+    font-size: 12px;
+  }
+}
+.accordion-menu-column .l-HeadingTitle__h3 {
+  font-weight: 300;
+}
+.faq-section-wrapper .g-PageTitle.l-PageTitle.opt-al_c {
+  margin-bottom: 0px;
+}
+.accordion-menu-section .l-HeadingTitle__h3, .faq-section-wrapper .l-PageTitle__h1 {
+  line-height: normal;
+}
+
+@media (min-width: 1024px) {
+  .faq-section-wrapper {
+    .g-PageTitle__titleBlock__titleBox__title {
+      margin-bottom: 3.5%;
+    }
+
+    margin: 5.3% 13.1% 0%;
+  }
+
+  .accordion-menu-section {
+    margin: 0% 13.1%;
+
+    .g-AccordionUnit__contentBlock {
+      padding: 13px 0px 10px 0px !important;
+    }
+
+    .g-Column__cols.l-Column__cols.g-Column__cols-lg-6.g-Column__cols-md-1.g-Column__cols-sm-1 {
+      width: 100%;
+    }
+
+    .g-AccordionMenu {
+      margin: 2.5% 0px;
+    }
+  }
+
+  .faq-section-wrapper #common_column_separator_1 .g-Text {
+    margin-bottom: 2.1%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .faq-section-wrapper {
+    margin: 7.1% 3.2% 0%;
+
+    .g-PageTitle__titleBlock__titleBox__title {
+      margin-bottom: 3.9%;
+    }
+  }
+
+  .accordion-menu-section {
+    margin: 0% 3.2% 11.3%;
+
+    .g-AccordionMenu {
+      margin: 2% 0px;
+    }
+
+    .g-AccordionUnit__titleBlock__icon {
+      top: 33%;
+    }
+
+    .g-AccordionUnit__contentBlock {
+      padding: 3% 0px 0px 0px !important;
+    }
+  }
+
+  .faq-section-wrapper #common_column_separator_1 .g-Text {
+    margin-bottom: 2.9%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .faq-section-wrapper {
+    margin: 11.7% 7.2% 0%;
+  }
+
+  .accordion-menu-section {
+    margin: 0% 7.2% 1.3%;
+
+    .g-AccordionMenu {
+      margin: 8% 0px;
+    }
+  }
+
+  .faq-section-wrapper {
+    .g-PageTitle.l-PageTitle.opt-al_c {
+      margin-bottom: 8%;
+    }
+
+    .g-PageTitle__titleBlock__titleBox__title {
+      margin-bottom: 0px;
+    }
+
+    #common_column_separator_1 .g-Text {
+      margin-bottom: 5%;
+    }
+  }
+
+  .accordion-menu-section .g-AccordionUnit__contentBlock {
+    padding: 6% 0px 0px 0px !important;
+  }
+  .mykirei-footer-copyright{
+    margin-top: 10px;
+}
+}

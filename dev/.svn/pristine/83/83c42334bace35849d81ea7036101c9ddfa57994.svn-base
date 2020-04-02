@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA TOP</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/header-footer.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/header-footer.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+
+  <div id="menu">
+    <div class="js-menuHolder">
+    </div>
+  </div>
+
+
+  <div id="wrapper">
+
+
+    <!-- area-BlHeader -->
+    <div class="g-Area sofina-BlHeader" id="area-BlHeader">
+        <div class="g-Area__inner">
+            <div class="BlHeader">
+              <!-- トップページ以外 -->
+              <p class="sofina-HeaderLogo sofina-HeaderLogo--bps"><a href="/bps.html"><img src="../dam/header-logo-sofina-bsp.png" alt="SOFINA Beauty Power Station" data-fixedimgsrc="../dam/header-logo-sofina-bsp_s.png" /></a></p>
+              <!-- トップページ用 -->
+              <!-- <h1 class="sofina-HeaderLogo sofina-HeaderLogo--bps"><img src="../dam/header-logo-sofina-bsp.png" alt="SOFINA Beauty Power Station" data-fixedimgsrc="../dam/header-logo-sofina-bsp_s.png" /></h1> -->
+              <a href="javascript:void(0);" class="sofina-HeaderMenu"></a>
+              <ul class="sofina-HeaderGlobalNav">
+                <li><a href="/bps.html">トップ</a></li>
+                <li><a href="/bps/lesson.html">Beauty Power Lesson</a></li>
+                <li><a href="/bps/workshop.html">Workshop</a></li>
+                <li><a href="/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+                <li><a href="/bps/access.html">店舗情報・アクセス</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <!-- / area-BlHeader -->
+
+    <!-- contentsWrapper -->
+    <div id="contentsWrapper" class="contentsWrapper">
+
+      <!-- area-Contents -->
+      <div class="g-Area" id="area-Contents">
+          <div style="height: 1000px;">Contents Area</div>
+      </div>
+      <!-- / area-Contents -->
+
+    </div>
+    <!-- / contentsWrapper -->
+
+    <!-- area-SbBlFooter -->
+    <div class="g-Area sofina-SbBlFooter" id="area-SbBlFooter">
+      <div class="g-Area__inner">
+        <div class="SbBlFooter">
+
+          <div class="sofina-footerSNS">
+            <div class="sofina-footerSNS__inner">
+              <!-- COMMON SNS BUTTON START -->
+              <table width="965" height="28" border="0" cellspacing="0" cellpadding="0"><tr><td width="761" height="28" nowrap align="right" valign="middle" bgcolor="#ffffff"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="18d43b045a7f3a2aa10f9d69f786175580f5bee5" data-button="button-2">Check</a><script type="text/javascript" src="http://static.mixi.jp/js/share.js"></script>
+              </td><td width="4"></td><td width="200" height="28" nowrap align="left"valign="middle">
+              <!-- AddThis Button BEGIN -->
+              <div class="addthis_toolbox">
+              <div class="custom_images">
+              <a class="addthis_button_facebook"><img src="http://www.sofina.co.jp/common/j/imgs/fb_button.gif" width="69" height="20" border="0" alt="Share to Facebook" /></a>
+              <a class="addthis_button_twitter"><img src="http://www.sofina.co.jp/common/j/imgs/twitter_button.gif" width="55" height="20" border="0" alt="Share to Twitter" /></a>
+              <a class="addthis_button_more"><img src="http://www.sofina.co.jp/common/j/imgs/add_button.gif" width="50" height="20" border="0" alt="More..." /></a>
+              </div>
+              </div>
+              <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+              <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+              <!-- AddThis Button END -->
+              </td></tr></table>
+              <!-- COMMON SNS BUTTON END -->
+            </div>
+          </div>
+
+          <div class="sofina-footerPagetop">
+            <a href="#wrapper"><span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る</a>
+          </div>
+
+          <div class="sofina-footerSitemap">
+            <div class="sofina-footerSitemapColumn">
+              <div class="sofina-footerSitemap__cols">
+                <ul class="sofina-footerSitemapLinks">
+                  <li><a href="/bps.html">トップ</a></li>
+                  <li><a href="/bps/lesson.html">Beauty Power Lesson</a></li>
+                  <li><a href="/bps/workshop.html">Workshop</a></li>
+                  <li><a href="/bps/shop.html">‘Try &amp; Enjoy’ Shop</a></li>
+                  <li><a href="/bps/access.html">店舗情報・アクセス</a></li>
+                  <li><a href="/bps/news.html">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- / area-SbBlFooter -->
+
+    <!-- area-BlFooter -->
+    <div class="g-Area sofina-BlFooter" id="area-BlFooter">
+      <div class="g-Area__inner">
+        <div class="BlFooter">
+
+          <a href="/index.html" class="sofina-footerLogo">
+          <p class="sofina-footerLogo__img"><img src="../dam/footer-logo-sofina.png" alt="SOFINA" /></p>
+          <p class="sofina-footerLogo__txt">ソフィーナトップページ</p>
+          </a>
+          <div class="sofina-footerUtility">
+          <ul class="sofina-footerUtility__links">
+          <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護方針</a></li>
+          <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+          <li><a href="http://www.kao.com/jp/">花王株式会社</a></li>
+          <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+          </ul>
+          <p class="sofina-footerUtility__copyright">Copyright &copy; 1999-2015 Kao Corporation. All rights reserved.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- / area-BlFooter -->
+<span id="breakPoint-small"></span>
+<span id="breakPoint-middle"></span>
+<span id="breakPoint-large"></span>
+
+    <!--/wrapper-->
+  </div>
+
+</body>
+
+</html>

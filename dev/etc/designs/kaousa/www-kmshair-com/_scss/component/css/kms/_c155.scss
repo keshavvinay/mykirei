@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* C155 TEXT IMAGE TEASER */
+.c155__column {
+}
+.c155__title {
+  position: relative;
+  z-index: 2;
+  font-size: 35px;
+  width: 33.33%;
+  margin: 0 0 -.5em 8.33% !important;
+  padding-left: 20px;
+  @include bp(md) {
+    width: auto;
+    margin-left: 16.66% !important;
+  }
+  @include bp(sm) {
+    width: auto;
+    padding-left: 0;
+    margin-left: 0 !important;
+    margin-bottom: -0.7em !important;
+  }
+}
+.c155__imageText {
+  position: relative;
+  z-index: 1;
+  margin-left: 8.33%;
+  padding-left: 20px;
+  @include bp(sm) {
+    padding-left: 10px;
+  }
+  .l-ImageTextHP__contentsBlock {
+    .l-Text {
+      @include kms-fontSize(longcopy);
+      @include kms-fontFamily(body);
+      letter-spacing: normal;
+      color: #000;
+    }
+    @include bp(sm) {
+      display: block;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__text {
+    padding-top: 55px;
+    width: 20%;
+    overflow: visible;
+    @include bp(md) {
+      float: none;
+      width: 70%;
+      margin-left: 10%;
+      padding-top: 25px;
+    }
+    @include bp(sm) {
+      float: none;
+      padding-top: 16px !important;
+    }
+  }
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    width: 200%;
+    @include bp(md) {
+      width: 70%;
+    }
+    @include bp(sm) {
+      width: 100%;
+    }
+  }
+  .l-HeadingTitle__h3 {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(headline3);
+    text-transform: uppercase;
+  }
+  .l-HeadingTitle {
+    margin-bottom: 0;
+    &:not(.is-link) {
+      .l-HeadingTitle__h3 {
+        color: #000;
+      }
+    }
+    .l-Text {
+      @include kms-fontSize(longcopy);
+      @include kms-fontFamily(body);
+      text-transform: uppercase;
+      color: #000;
+      letter-spacing: 0.1em;
+    }
+  }
+  .c122__buttons {
+    margin-top: 22px;
+  }
+  .c122__button {
+    background-color: #FFF;
+    &.is-colorset--1 {
+      .l-ButtonUnit__link {
+        color: #000;
+      }
+    }
+  }
+  .l-ImageTextHP__contentsBlock__image {
+    width: 80%;
+    @include bp(sm) {
+      float: none;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+    }
+    @include bp(md) {
+      float: none;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,530 @@
+@charset "utf-8";
+
+/* iP hokkaido lp============================== */
+.ip-lp__main-visual__section {
+  background-color: #014676;
+}
+
+.ip-lp__main-visual__image {
+  margin-bottom: 0;
+  .g-Image__img {
+    margin-bottom: 0;
+  }
+}
+
+.ip-lp_hide--lg {
+  @include bp(lg) {
+    display: none;
+  }
+  @include bp(md) {
+    display: none;
+  }
+}
+.ip-lp_hide--sm {
+  @include bp(sm) {
+    display: none;
+  }
+}
+////////////////////////////////////
+//
+// 購入section
+//
+////////////////////////////////////
+
+.ip-lp__border__section {
+  margin: 30px 0 50px;
+  @include bp(md) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .g-Section__inner {
+    border: 1px solid $colorLine_02;
+    padding: 0;
+    max-width: 960px;
+  }
+  @include bp(sm) {
+    margin: 15px 0 25px;
+    .g-Section__inner {
+      max-width: none;
+      margin: 0 10px;
+    }
+  }
+}
+.ip-lp_border__section__title {
+  &.g-HeadingTitle {
+    background-color: $colorMain_05;
+    .l-HeadingTitle__titleBlock__titleBox {
+      vertical-align: middle;
+      height: 60px;
+    }
+    .l-HeadingTitle__h2 {
+      @include fontSizeNum(30);
+      font-weight: normal;
+      font-family: $fontFamily_Mincho;
+    }
+    @include bp(sm) {
+      .l-HeadingTitle__titleBlock__titleBox {
+        height: auto;
+        padding: 12px 10px;
+      }
+      .l-HeadingTitle__h2 {
+        @include fontSizeNum(19);
+        font-family: $fontFamily_Gothic;
+      }
+    }
+  }
+}
+
+.ip-lp__buy-product__image {
+  margin-top: 12px;
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.ip-lp__buy-product__title {
+  margin: 36px 0 0;
+  @include bp(sm) {
+    margin: 8px 0;
+  };
+  .g-HeadingTitle__h3 {
+    @include fontSizeNum(26);
+    font-family: $fontFamily_Mincho;
+    margin-right: 10px;
+    @include bp(sm) {
+      @include fontSizeNum(16);
+      font-family: $fontFamily_Gothic;
+      max-width: 260px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.ip-lp__buy-product-price__text {
+  @include fontSizeNum(14);
+  margin-bottom: 0;
+  margin-right: 10px;
+  .price-num {
+    @include fontSizeNum(26);
+  }
+  @include bp(sm) {
+    max-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+    @include fontSizeNum(12);
+    .price-num {
+      @include fontSizeNum(16);
+    }
+  }
+}
+
+.ip-lp__buy-product__button {
+  margin-right: 10px;
+  @include bp(sm) {
+    text-align: center;
+    margin-right: 0;
+  }
+  .g-ButtonUnit__link {
+    background-color: $colorLink_ip;
+    border: none;
+    box-shadow: none;
+    padding: 4px 0 4px 10px;
+    border-radius: 3px;
+    display: table-cell;
+    vertical-align: middle;
+    @include fontSizeNum(14);
+    @include bp(md) {
+      width: 280px;
+      text-align: center;
+      .ip-lp_hide--sm {
+        display: none;
+      }
+      .ip-lp_hide--lg {
+        display: block;
+      }
+    }
+    @include bp(sm) {
+      width: 270px;
+      text-align: center;
+      @include fontSizeNum(12);
+      padding: 6px 0 4px 20px;
+    }
+    .buy-here {
+      position: relative;
+      top: 2px;
+      @include fontSizeNum(20);
+      @include bp(sm) {
+        @include fontSizeNum(16);
+      }
+    }
+  }
+  .cmn-icon {
+    margin-top: -7px;
+    &:before {
+      content: "＞";
+      @include fontSizeNum(14);
+    }
+  }
+}
+
+.ip-lp__ingredient__section {
+  @include gradient-topBottom(#f0fafd, #fff);
+}
+
+.ip-lp__ingredient__heading {
+  .g-HeadingTitle__h2 {
+    font-family: $fontFamily_Mincho;
+    @include fontSizeNum(30);
+    @include bp(sm) {
+      font-family: $fontFamily_Gothic;
+      @include fontSizeNum(19);
+    }
+  }
+}
+
+.ip-lp__ingredient__block {
+  border: 1px solid $colorLine_02;
+  margin: 30px 20px 0;
+  padding: 10px 20px;
+  @include bp(sm) {
+    margin: 10px 0 0;
+    padding: 10px;
+  }
+  .g-HeadingTitle__h3 {
+    font-family: $fontFamily_Mincho;
+    color: $colorLink_ip !important;
+    @include fontSizeNum(26);
+    .opt-fontsize--s {
+      color: $colorFont_dark;
+      font-family: $fontFamily_Gothic;
+      @include fontSizeNum(14);
+    }
+    @include bp(sm) {
+      font-family: $fontFamily_Gothic;
+      @include fontSizeNum(14);
+      .opt-fontsize--s {
+        @include fontSizeNum(12);
+      }
+    }
+  }
+  .g-Text {
+    @include fontSizeNum(14);
+    max-width: 345px;
+    @include bp(sm) {
+      @include fontSizeNum(12);
+      max-width: 295px;
+    }
+  }
+}
+.ip-lp__ingredient-coffee__title {
+  margin-top: 50px;
+  @include bp(md) {
+    margin-top: 25px;
+  }
+  @include bp(sm) {
+    margin-top: 0;
+  }
+}
+
+.ip-lp__ingredient-chlorogen__title {
+  margin-top: 40px;
+  @include bp(md) {
+    margin-top: 20px;
+  }
+  @include bp(sm) {
+    margin-top: 0;
+  }
+}
+
+.ip-lp__ingredient-coffee__image {
+  max-width: 350px;
+  margin: 0 auto;
+  @include bp(sm) {
+    max-width: 90%;
+    .g-Image__caption {
+        @include fontSizeNum(6);
+    }
+  }
+}
+
+.ip-lp__ingredient-chlorogen__image {
+  max-width: 165px;
+  margin: 10px auto;
+  @include bp(sm) {
+    max-width: 60%;
+    .g-Image__caption {
+      @include fontSizeNum(6);
+      text-align: left;
+    }
+  }
+}
+
+.ip-lp__element__section {
+  .g-Section__inner {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(30);
+    font-family: $fontFamily_Mincho;
+  }
+  .ip-lp__element__image {
+    max-width: 545px;
+    margin: 30px auto 20px;
+  }
+  .g-Text {
+    @include fontSizeNum(14);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  @include bp(sm) {
+    .g-Section__inner {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .g-HeadingTitle__h2 {
+      @include fontSizeNum(19);
+      font-family: $fontFamily_Gothic;
+    }
+    .ip-lp__element__image {
+      max-width: 335px;
+      margin: 10px auto 10px;
+    }
+  }
+}
+
+.ip-lp__drinking-woman__section {
+  .g-Section__inner {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.ip-lp__drinking-woman__heading {
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(32);
+    color: $colorLink_ip !important;
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      @include fontSizeNum(19);
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.ip-lp__drinking-woman__illust {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  @include bp(sm) {
+    max-width: 355px;
+    margin-top: 20px;
+    .g-ImageTextHP__contentsBlock__image {
+      width: 35%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .g-Image {
+    margin-bottom: 0;
+  }
+  .g-ImageTextHP__contentsBlock__text {
+    position: relative;
+    margin-bottom: 5px;
+    @include bp(sm) {
+      width: 65%;
+    }
+    .g-Text {
+      background-color: #fffccc;
+      border-radius: 10px;
+      margin: 25px 0 0 30px;
+      text-align: center;
+      font-family: $fontFamily_Mincho;
+      padding-top: 16px;
+      @include fontSizeNum(23);
+      .opt-fontsize--s {
+        @include fontSizeNum(14);
+        line-height: 3em;
+      }
+      &:after {
+        position: absolute;
+        top: 50%;
+        display: block;
+        content: " ";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 11px 20px 11px 0;
+        border-color: transparent #fffccc transparent transparent;
+        margin-left: -20px;
+      }
+      @include bp(sm) {
+        margin: 0;
+        font-family: $fontFamily_Gothic;
+        padding-top: 4px;
+        padding-bottom: 2px;
+        @include fontSizeNum(15);
+        .opt-fontsize--s {
+          @include fontSizeNum(11);
+          line-height: 1.2em;
+        }
+        &:after {
+          margin-top: -11px;
+        }
+      }
+    }
+  }
+}
+
+.ip-lp__drinking-scene__column {
+  border: 1px solid $colorLine_02;
+  padding-bottom: 20px;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  @include bp(sm) {
+    padding-bottom: 0;
+  }
+  .ip-lp_border__section__title {
+    .g-HeadingTitle__h2 {
+      color: $colorLink_ip !important;
+    }
+  }
+}
+
+.ip-lp__drinking-woman__movie {
+  max-width: 640px;
+  margin: 40px auto 18px;
+  @include bp(sm) {
+    max-width: 320px;
+    margin: 20px auto 9px;
+  }
+}
+
+.ip-lp__scene__groupbox {
+  margin: 25px 40px 0;
+  background-color: #fffccc;
+  position: relative;
+  padding: 10px 20px 10px 60px;
+  @include bp(sm) {
+    margin: 25px 30px;
+    padding: 15px;
+  }
+}
+
+.ip-lp__scene__index {
+  position: absolute !important;
+  top: -15px;
+  left: -25px;
+  img {
+    max-width: 80px;
+  }
+  @include bp(sm) {
+    top: -20px;
+    left: -20px;
+    img {
+      max-width: 40px;
+    }
+  }
+}
+
+.ip-lp__scene__title {
+  margin-top: 10px;
+  .g-HeadingTitle__h3 {
+    @include fontSizeNum(24);
+    color: $colorLink_ip !important;
+  }
+  @include bp(sm) {
+    margin-top: 0;
+    text-align: center;
+    .g-HeadingTitle__h3 {
+      @include fontSizeNum(15);
+    }
+  }
+}
+
+.ip-lp__scene__content {
+  .g-Image {
+    margin-bottom: 0;
+    @include bp(sm) {
+      margin-bottom: 8px;
+    }
+  }
+  .g-Text {
+    @include fontSizeNum(14);
+    @include bp(sm) {
+      @include fontSizeNum(13);
+    }
+    .scene-highlight {
+      color: $colorLink_ip;
+    }
+  }
+}
+
+.ip-lp__drinking-person__section {
+  .g-Section__inner {
+    padding-bottom: 0;
+  }
+}
+.ip-lp__drinking-person__memo {
+  @include fontSizeNum(12);
+}
+.ip-lp__drinking-person-top__heading {
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(30);
+    color: $colorLink_ip !important;
+    font-family: $fontFamily_Mincho;
+    @include bp(sm) {
+      @include fontSizeNum(19);
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.ip-lp__drinking-person-bottom__heading {
+  margin-top: 50px;
+  .g-HeadingTitle__h2 {
+    @include fontSizeNum(26);
+    color: $colorLink_ip !important;
+    font-family: $fontFamily_Mincho;
+  }
+  @include bp(sm) {
+    margin-top: 30px;
+    .g-HeadingTitle__h2 {
+      @include fontSizeNum(16);
+      font-family: $fontFamily_Gothic;
+    }
+  }
+}
+
+.ip-lp__drinking-person__content {
+  background-color: #fffccc;
+  max-width: 640px;
+  margin: 20px auto 0;
+  padding: 24px;
+  box-sizing: border-box;
+  @include bp(sm) {
+    margin-top: 15px;
+  }
+  .g-Image {
+    margin-bottom: 0;
+    @include bp(sm) {
+      margin-bottom: 18px;
+    };
+  }
+  .g-HeadingTitle__h3 {
+      color: $colorLink_ip !important;
+      @include fontSizeNum(16);
+      @include bp(sm) {
+        @include fontSizeNum(15);
+      }
+  }
+}
+
+.ip-lp__end__section {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}

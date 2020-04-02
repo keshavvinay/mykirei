@@ -1,0 +1,95 @@
+/* TileLink */
+.corp-tileLink-01 {
+  .l-TileLinkVUnit {
+    padding: 0;
+    border: none;
+    &:hover {
+      opacity: 1;
+      .l-TileLinkVUnit__leadBlock {
+        background-color: $bg-01;
+      }
+      .l-Image {
+        opacity: 1;
+      }
+    }
+  }
+  .l-TileLinkVUnit__imageBlock {
+    margin-bottom: 0;
+    .l-Image {
+      margin-bottom: 0;
+    }
+    @include bp(lg) {
+      background-color: #666;
+      .l-Image {
+        opacity: .8;
+      }
+    }
+  }
+  .l-TileLinkVUnit__leadBlock {
+    box-sizing: border-box;
+    border: 5px solid #eee;
+    border-top: none;
+    padding: 0 30px 0 30px;
+    @include bp(sm) {
+      border-width: 3px;
+    };
+    .l-TileLinkVUnit__leadBlock__title {
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      @include bp(md) {
+        padding-top: 35px;
+        padding-bottom: 35px;
+      };
+      @include bp(sm) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      };
+      .l-Text {
+        position: relative;
+        margin-bottom: 0;
+        padding-right: 60px;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 1.6;
+        &:first-child{
+          font-family: "FP-ヒラギノUD角ゴ StdN W6", FP-HiraginoUDSansStdN-W6, sans-serif;
+        }
+        @include bp(md) {
+          padding-right: 30px;
+          font-size: 20px;
+        };
+        @include bp(sm) {
+          padding-right: 30px;
+          font-size: 20px;
+        };
+        &:after {
+          color: $accent;
+          font-family: 'icomoon';
+          font-size: 28px;
+          @include bp(md) {
+            font-size: 20px;
+          };
+          @include bp(sm) {
+            font-size: 20px;
+          };
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+          content: "\e006";
+        }
+      }
+    }
+    .l-TileLinkVUnit__leadBlock__lead {
+      padding-top: 15px;
+      padding-bottom: 30px;
+      border-top: 1px solid $border;
+      @include bp(md) {
+        .l-Text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import "compass";
+@import "../common/_scss/libs/config";
+@import "../common/_scss/libs/mixin";
+// @import "../common/_scss/libs/icon";
+
+
+/* layout */
+@import "layout/kao/**";
+
+/* design foundation */
+@import "foundation/kao/**";

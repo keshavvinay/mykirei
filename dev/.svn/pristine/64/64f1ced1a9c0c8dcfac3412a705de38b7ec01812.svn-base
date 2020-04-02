@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+/* FullwidthVisualsCarouselP ================================================== */
+
+.g-FullwidthVisualsCarouselP {
+}
+
+.g-FullwidthVisualsCarouselP__nextArrow,
+.g-FullwidthVisualsCarouselP__prevArrow {
+  @include button();
+  background-color: $carousel__arrow__icon__bg;
+  @include bp(sm) {
+    background-color: transparent;
+  }
+  &:before {
+    color: $carousel__arrow__icon;
+    @include bp(sm) {
+      color: $carousel__icon--sm;
+    }
+  }
+}
+.g-FullwidthVisualsCarouselP__nextArrow {
+  @include border-left-radius($borderRadius_xs);
+}
+.g-FullwidthVisualsCarouselP__prevArrow {
+  @include border-right-radius($borderRadius_xs);
+}
+.g-FullwidthVisualsCarouselP__nav__dot,
+.g-FullwidthVisualsCarouselP__nav__toggle {
+  @include button();
+  &:before {
+    color: $carousel__indicator__icon;
+    @include bp(sm) {
+      color: $carousel__icon--sm;
+    }
+  }
+}
+
+/* FullwidthVisualsCarouselUnit ================================================== */
+.g-FullwidthVisualsCarouselUnit {
+  color: $contents__text;
+  &.is-link {
+    @include areaLink();
+  }
+}
+.g-FullwidthVisualsCarouselUnit__info__main {
+  .g-Text {
+    @include fontSize(lv1);
+    color: $carousel__mainText;
+  }
+}
+.g-FullwidthVisualsCarouselUnit__info__sub {
+  .g-Text {
+    @include fontSize(body);
+    color: $carousel__subText;
+    @include bp(sm) {
+      color: $carousel__subText--sm;
+    }
+  }
+}
+.g-FullwidthVisualsCarouselUnit__info__btn {
+  .g-ButtonUnit__link {
+    @include bp(sm) {
+      color: $carousel__button__text--sm;
+      background-color: $carousel__button__bg--sm;
+      border-color: $carousel__button__border--sm;
+      @include btnShadow($carousel__button__shadowVisible--sm);
+      .g-ButtonUnit__link__icon {
+        color: $carousel__button__text--sm;
+      }
+    }
+  }
+}

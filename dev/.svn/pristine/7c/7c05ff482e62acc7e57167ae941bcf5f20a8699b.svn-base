@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA BPS</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/header-footer.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/header-footer.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div class="g-Area sofina-BlHeader" id="area-BlHeader">
+      <div class="g-Area__inner">
+        <div class="BlHeader">
+          <div class="sofina-HeaderLogo sofina-HeaderLogo--bps">
+            <a href="/bps/">
+              <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                <p class="g-Image__img l-Image__img">
+                  <img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-sofina-co-jp/bps/header-logo-sofina-bps@2x.png?fmt=png-alpha" alt="SOFINA Beauty Power Station" data-fixedimgsrc="header-logo-sofina-bps_s@2x.png">
+                </p>
+              </div>
+            </a>
+          </div>
+          <a href="javascript:void(0);" class="sofina-HeaderMenu"></a>
+          <ul class="sofina-HeaderGlobalNav">
+            <li><a href="/bps/">トップ</a></li>
+            <li><a href="/bps/lesson/">Beauty Power Lesson</a></li>
+            <li><a href="/bps/shop/">‘Try &amp; Enjoy’ Shop</a></li>
+            <li><a href="/bps/access/">店舗情報・アクセス</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+
+
+
+
+      <div class="g-Section sofina-reserve-section__mainvisual" id="common_section_wrapper_1">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-PageTitle l-PageTitle opt-al_c is-layoutL sofina-reserve-section__mainvisual__title">
+                    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                            <span class="cmn-richtext">
+                              <span>ご予約方法
+
+                              </span>
+                            </span>
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-Text l-Text opt-al_c sofina-reserve-section__mainvisual__text">
+                    <p class="cmn-richtext">
+                      <span>How to Reserve
+
+                      </span>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section sofina-reserve-section__lead" id="common_section_wrapper_2">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-Text l-Text sofina-reserve-section__lead__text">
+                    <p class="cmn-richtext">
+                      <span>Beauty Power Lessonは、インターネットからご予約いただけます。&#xb;
+                        <br /> ご予約をご希望のお客様は、以下の注意事項をご確認の上、ご予約サイトへお進みください。
+
+                        <br />
+
+
+
+                      </span>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section sofina-reserve-section__contents" id="common_section_wrapper_3">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_3" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle opt-al_c is-layoutL sofina-reserve-section__contents__title">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                            <span class="cmn-richtext">
+                              <span>Beauty Power Lesson
+
+                              </span>
+                            </span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-Text l-Text opt-al_c sofina-reserve-section__contents__text">
+                    <p class="cmn-richtext">
+                      <span>ビューティパワーレッスン
+
+                      </span>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section sofina-lesson-section_fee" id="common_section_wrapper_4">
+        <div class="g-Section__inner">
+          <div class="g-Column js-uniformHeight" id="common_column_separator_4" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner">
+
+              <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit sofina-lesson-2timesfee">
+                  <div class="g-Text l-Text sofina-lesson-2timesfee__txt">
+                    <p class="cmn-richtext">
+                      <span>Beauty Power Lesson
+                        <br />
+
+                        <strong>3,000</strong>
+                        円（税抜）
+
+                      </span>
+                    </p>
+                  </div>
+                  <div class="g-GroupBox">
+                    <div class="g-Text l-Text">
+                      <p class="cmn-richtext">
+                        <span>要予約
+
+                        </span>
+                      </p>
+                    </div>
+                    <div class="g-Text l-Text">
+                      <p class="cmn-richtext">
+                        <span>女性限定
+
+                        </span>
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="g-Text l-Text sofina-lesson-2timesfee__cap">
+                    <ul>
+                      <li>・初回レッスンのご予約は、下記「ご予約」ボタンよりお願いします。
+                        <br> 初回レッスン終了時に、総合解析結果を、「ご来店」して説明をお受けいただくか、パーソナルレッスンシートを「郵送」にてお届けするかをご選択いただきます。「ご来店」をご選択された場合は、初回レッスン終了時に店舗にて、初回レッスンの受講から2週間後～2ヶ月以内でご予約いただきます。「郵送」をご選択された場合、発送は日本国内のみとさせていただきます。</li>
+                      <li>・料金は、「ご来店」・「郵送」どちらを選択されても同額で、初回レッスンとのセットで同一のお客様を対象とした金額です。お支払いは、初回レッスン終了時にお願いします。また、受講の権利の譲渡・換金はできません。</li>
+                      <li>・以下に該当する方へは、サービスを控えさせていただきます。</li>
+                      <li class="sofina-lesson-2timesfee__cap__indent">肌に炎症などトラブルのある方、化粧品の使用で肌トラブル等の経験がある方、</li>
+                      <li class="sofina-lesson-2timesfee__cap__indent">ケガ・疾患をお持ちの方、通院中の方、妊娠中もしくは妊娠の可能性のある方、未成年の方、認知症の方、まつ毛エクステンションをしている方</li>
+                      <li>・レッスンは日本語のみの対応です。</li>
+                      <li>・ご同伴者の入室はご遠慮ください。</li>
+                      <li>・初回レッスンの受講前に承諾書に同意いただいた上でレッスンを受講いただきます。ご同意いただけない場合はレッスンをお受けいただけないことがあります。承諾書はこちらからご確認いただけます。</li>
+                    </ul>
+                  </div>
+                  <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay icon-pdf">
+                    <a href="/content/dam/sites/kao/www-sofina-co-jp/bps/pdf/beautypowerlesson_agreement.pdf" target="_blank" id="common_link_button_item_20150928163541950_uyY7" class="g-LinkButton__link l-LinkButton__link">
+                      <span class="cmn-richtext">
+                        <span>Beauty Power Lesson 承諾書 [PDF: 1MB]
+
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="g-LinkButton l-LinkButton is-btn sofina-lesson-section_fee__button btn-darkblock-bullet-glay icon-linkwindow">
+                    <a href="https://reservation.sofina.com/bps_reservation_jp/reserve/calendar?label_id=2" target="_blank" id="common_link_button_item_20150909112913891_3fAL" class="g-LinkButton__link l-LinkButton__link">
+                      <span class="cmn-richtext">
+                        <span>ご予約
+
+                        </span>
+                      </span>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- / area-Contents -->
+
+
+
+
+    <div class="g-Area sofina-SbBlFooter" id="area-SbBlFooter">
+      <div class="g-Area__inner">
+        <div class="SbBlFooter">
+          <div class="sofina-footerSNS">
+            <div class="sofina-footerSNS__inner">
+              <!-- COMMON SNS BUTTON START -->
+              <table width="965" height="28" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="761" height="28" nowrap align="right" valign="middle" bgcolor="#ffffff"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="18d43b045a7f3a2aa10f9d69f786175580f5bee5" data-button="button-2">Check</a>
+                      <script type="text/javascript" src="https://static.mixi.jp/js/share.js"></script>
+                    </td>
+                    <td width="4"></td>
+                    <td width="200" height="28" nowrap align="left" valign="middle">
+                      <!-- AddThis Button BEGIN -->
+                      <div class="addthis_toolbox">
+                        <div class="custom_images">
+                          <a class="addthis_button_facebook">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/fb_button.gif" width="69" height="20" border="0" alt="Share to Facebook">
+                          </a>
+                          <a class="addthis_button_twitter">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/twitter_button.gif" width="55" height="20" border="0" alt="Share to Twitter">
+                          </a>
+                          <a class="addthis_button_more">
+                            <img src="http://www.sofina.co.jp/common/j/imgs/add_button.gif" width="50" height="20" border="0" alt="More...">
+                          </a>
+                        </div>
+                      </div>
+                      <script type="text/javascript">
+                        var addthis_config = {
+                          "data_track_clickback": true
+                        };
+                      </script>
+                      <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+                      <!-- AddThis Button END -->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- COMMON SNS BUTTON END -->
+            </div>
+          </div>
+          <div class="sofina-footerPagetop">
+            <a href="#wrapper">
+              <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る</a>
+          </div>
+          <div class="sofina-footerSitemap">
+            <div class="sofina-footerSitemapColumn">
+              <div class="sofina-footerSitemap__cols">
+                <ul class="sofina-footerSitemapLinks">
+                  <li><a href="/bps/">トップ</a></li>
+                  <li><a href="/bps/lesson/">Beauty Power Lesson</a></li>
+                  <li><a href="/bps/shop/">‘Try &amp; Enjoy’ Shop</a></li>
+                  <li><a href="/bps/access/">店舗情報・アクセス</a></li>
+                  <li><a href="/bps/news/">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-Area sofina-BlFooter" id="area-BlFooter">
+      <div class="g-Area__inner">
+        <div class="BlFooter">
+          <a href="/" class="sofina-footerLogo">
+            <p class="sofina-footerLogo__img">
+              <img src="/content/dam/sites/kao/www-sofina-co-jp/common/header-logo-sofina.png" alt="SOFINA">
+            </p>
+            <p class="sofina-footerLogo__txt">ソフィーナトップページ</p>
+          </a>
+          <div class="sofina-footerUtility">
+            <ul class="sofina-footerUtility__links">
+              <li><a href="http://www.kao.com/jp/corp/rule/rule2.html">個人情報保護方針</a></li>
+              <li><a href="http://www.kao.com/jp/corp/rule/rule1.html">ご利用条件</a></li>
+              <li><a href="http://www.kao.com/jp/">花王株式会社</a></li>
+              <li><a href="http://www.kao.com/jp/soudan/">お問い合わせ</a></li>
+            </ul>
+            <p class="sofina-footerUtility__copyright">Copyright © 1999-2015 Kao Corporation. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span id="breakPoint-small"></span>
+    <span id="breakPoint-middle"></span>
+    <span id="breakPoint-large"></span>
+
+    <!--/wrapper-->
+  </div>
+
+
+
+
+
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+
+
+  <script type="text/javascript">
+    _satellite.pageBottom();
+  </script>
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

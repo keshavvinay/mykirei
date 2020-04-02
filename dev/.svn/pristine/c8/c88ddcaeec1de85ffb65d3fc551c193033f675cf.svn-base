@@ -1,0 +1,144 @@
+.js-slide-track-nav {
+	text-align: center;
+	padding: 20px;
+}
+
+.js-slide-track-nav .hide {
+	display: none;
+}
+
+.js-slide-track-nav .slider-horizontal {
+	min-width: 60%;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+
+.js-slide-track-nav .slider-track {
+	position: absolute;
+	cursor: pointer;
+	transform: translateY(-50%);
+	top: 50%;
+	border-radius: 0;
+	box-shadow: none;
+	background-color: #cacaca;
+	height: 100%;
+	width: 100%;
+	left: 0;
+}
+
+.js-slide-track-nav .slider-track-low, .js-slide-track-nav .slider-track-high
+	{
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background: transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.js-slide-track-nav .slider-tick-container {
+	white-space: nowrap;
+	position: absolute;
+	left: 7px;
+	top: 50%;
+	width: 97%;
+}
+
+.js-slide-track-nav .slider-tick {
+	position: absolute;
+	cursor: pointer;
+	left: 0%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 5px;
+	height: 5px;
+	background-color: #7e7e7e;
+	margin-left: 0;
+}
+
+.js-slide-track-nav .slider-tick.in-selection {
+	background-color: #62537c;
+}
+
+.js-slide-track-nav .tick-slider-selection {
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%,
+		#62537c 100%);
+}
+
+.js-slide-track-nav .slider-tick.in-selection {
+	opacity: 1;
+}
+
+.js-slide-track-nav .slider-handle {
+	position: absolute;
+	top: -5px;
+	margin-left: -15px;
+	width: 30px;
+	height: 30px;
+	background-color: #62537c;
+}
+
+.js-slide-track-nav .slick-less {
+	border: 2px solid #333;
+	margin-right: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 15px;
+	height: 20px;
+	border-radius: 20px;
+	width: 20px;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+
+.js-slide-track-nav .slick-more {
+	border: 2px solid #333;
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 15px;
+	height: 20px;
+	border-radius: 20px;
+	width: 20px;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+
+@media ( max-width : $break-md) {
+	.js-slide-track-nav .slider-tick-container {
+		width: 95%;
+	}
+}
+
+@media ( max-width : $break-xs) {
+	.js-slide-track-nav .slider-tick-container {
+		width: 100%;
+	}
+	.js-slide-track-nav .slider-tick {
+		display: none;
+	}
+	.js-slide-track-nav {
+		padding: 10px;
+	}
+	.js-slide-track-nav .slider-horizontal {
+		width: 70%;
+		top: 60px;
+		margin-bottom: 63px;
+	}
+	.js-slide-track-nav .slick-less {
+		margin-right: 5px;
+	}
+	.js-slide-track-nav .slick-more {
+		margin-left: 5px;
+	}
+}

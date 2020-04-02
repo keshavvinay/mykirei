@@ -1,0 +1,18 @@
+<style>
+    /*.is-authorring .result-products-shades .g-Image {
+        display: inline-block;
+    }*/
+
+</style>
+<div class="result-one">
+    <div class="result-one-placeholder">
+        <div class="placeholder-row" id='row1'></div>
+        <div class="placeholder-row" id='row2'></div>
+        <div class="placeholder-row" id='row3'></div>
+    </div>
+    <div class="result-two-placeholder"></div>
+
+    <div class="result-products-shades">
+        $PARSYS $PARSYS
+    </div>
+</div>

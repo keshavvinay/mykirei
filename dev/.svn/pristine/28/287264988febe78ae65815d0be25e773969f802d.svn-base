@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+/*  jf-home_page_hero_title */
+
+.jf-home_page_hero_title,
+.jf-home_page_hero_title__tile {
+  overflow: hidden;
+  height: 300px;
+  height: 103vw;
+  .slick-prev {
+    border-left-color: $white;
+    border-bottom-color: $white;
+  }
+  .slick-next {
+    border-top-color: $white;
+    border-right-color: $white;
+  }
+  .slick-dots button {
+    border-bottom-color: $white;
+  }
+  .is-authorring & {
+    height: auto !important;
+    max-height: none !important;
+  }
+  .slick-dots li {
+    width: 30px;
+    button{
+      width: 30px;
+      list-style: none;
+    }
+  }
+}
+.jf-home_page_hero_title__tile {
+  position: relative;
+  width: 100%;
+}
+.jf-home_page_hero_title__tile__image {
+  margin: 0;
+  height: 100%;
+  .l-Image__img {
+    height: 100%;
+    img {
+      width: auto !important;
+      height: 100%;
+      @include centered;
+      .is-authorring & {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translateX(0) translateY(0);
+      }
+    }
+  }
+}
+
+.jf-home_page_hero_title__tile__banner {
+  position: absolute;
+  bottom: 50%;
+  left: (10rem / 16); /* 1 */
+  z-index: 5;
+  width: 55%;
+  width: calc(60% - (10rem / 16)); /* 1 */
+  margin: 0 !important;
+  .is-authorring & {
+    position: relative;
+    top: 0;
+    bottom: auto;
+  }
+}
+.jf-home_page_hero_title__tile__text {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  width: 50%;
+  @include bp(sm) {
+	  width: 55% !important;
+  }
+  padding-left: (10rem / 16); /* 1 */
+  .l-HeadingTitle {
+    margin: 0;
+    .l-HeadingTitle__h3 {
+      font-size: 1rem;
+      body:not(.is-authorring) & {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        max-height: 3.6rem; /** Current line-height value * 3 (number of lines) **/
+        -webkit-line-clamp: 3; /** number of lines **/
+        -webkit-box-orient: vertical;
+        color: #fff;
+      }
+    }
+    .l-Text {
+      margin: .25em 0 0;
+      font-size: (14rem / 16);
+      body:not(.is-authorring) & {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        max-height: 4.2rem; /** Current line-height value * 3 (number of lines) **/
+        -webkit-line-clamp: 3; /** number of lines **/
+        -webkit-box-orient: vertical;
+        color: #fff;
+      }
+    }
+  }
+  .l-TextLinkP {
+    margin: 0;
+  }
+  .l-TextLinkUnit {
+    display: inline-block;
+    margin-top: 1.5em;
+    font-size: (12rem / 16);
+    .l-TextLinkUnit__link {
+      @include heavyUnderlinedLink;
+    }
+  }
+  .is-authorring & {
+    position: relative;
+    top: 0;
+  }
+}
+
+@include bp(sm) {
+  .jf-home_page_hero_title__tile {
+    .video-js {
+      .is-authorring & {
+        padding-top: 0 !important;
+        height: auto !important;
+      }
+    }
+    .video-js .vjs-tech {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform(translate(-50%, -50%));
+      width: 100% !important;
+      height: auto !important;
+      .is-authorring & {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+      }
+    }
+	.jf-home_page_hero_title__tile__text {
+		.l-TextLinkUnit {
+			margin-top: 1em;
+		}
+	}
+  }
+}
+
+@include bp(md) {
+  .jf-home_page_hero_title__tile {
+    .video-js {
+      .is-authorring & {
+        padding-top: 0 !important;
+        height: auto !important;
+      }
+    }
+    .video-js .vjs-tech {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform(translate(-50%, -50%));
+      width: 100% !important;
+      height: auto !important;
+      .is-authorring & {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+      }
+    }
+  }
+  
+  .jf-home_page_hero_title,
+  .jf-home_page_hero_title__tile {
+    height: 70vw;
+  }
+
+  .jf-home_page_hero_title__tile__banner {
+    left: (90rem / 16); /* 1 */
+    width: 55%;
+    width: calc(60% - (90rem / 16)); /* 1 */
+  }
+  .jf-home_page_hero_title__tile__text {
+    padding-left: (90rem / 16); /* 1 */
+    .l-HeadingTitle {
+      .l-HeadingTitle__h3 {
+        font-size: (24rem / 16);
+        body:not(.is-authorring) & {
+          max-height: 5.4rem; /** Current line-height value * 3 (number of lines) **/
+        }
+      }
+      .l-Text {
+        font-size: 1rem;
+      }
+    }
+    .l-TextLinkUnit {
+      margin-top: 2em;
+      font-size: 1rem;
+    }
+  }
+}
+
+@include bp(lg) {
+  .jf-home_page_hero_title,
+  .jf-home_page_hero_title__tile {
+    height: 54vw;
+    max-height: 734.225px;
+  }
+
+  .jf-home_page_hero_title__tile__image {
+    margin: 0;
+    height: 100%;
+    .l-Image__img {
+      img {
+        height: auto;
+        width: 100% !important;
+      }
+    }
+  }
+
+  .jf-home_page_hero_title__tile__banner {
+    left: (90rem / 16); /* 1 */
+    width: 45%;
+    width: calc(50% - (90rem / 16)); /* 1 */
+  }
+  .jf-home_page_hero_title__tile__text {
+    padding-left: (90rem / 16); /* 1 */
+    .l-HeadingTitle {
+      .l-HeadingTitle__h3 {
+        font-size: (24rem / 16);
+        body:not(.is-authorring) & {
+          max-height: 5.4rem; /** Current line-height value * 3 (number of lines) **/
+        }
+      }
+      .l-Text {
+        font-size: 1rem;
+      }
+    }
+    .l-TextLinkUnit {
+      margin-top: 3em;
+      font-size: 1rem;
+    }
+  }
+}
+.text-position-top .jf-home_page_hero_title__tile__text {
+    top: 15%;
+	@include bp(md) {
+	  top: 10%;
+	}
+	@include bp(sm) {
+	  top: 3.625rem;
+	}
+}
+.text-position-middle .jf-home_page_hero_title__tile__text {
+    top: 49%;
+    -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+	.is-authorring & {
+        transform: translateY(0%);
+    }
+}
+.text-position-bottom .jf-home_page_hero_title__tile__text {
+    top: auto;
+    bottom: 15%;
+	@include bp(md) {
+	  bottom: 10% !important;
+	}
+	@include bp(sm) {
+	  bottom: 15% !important;
+	}
+}
+.image-position-top .jf-home_page_hero_title__tile__banner {
+    bottom: 60% !important;
+}
+.image-position-bottom .jf-home_page_hero_title__tile__banner {
+    bottom: 10% !important;
+	@include bp(md) {
+	  bottom: 5% !important;
+	}
+	@include bp(sm) {
+	  bottom: 5% !important;
+	}
+}
+.image-position-middle .jf-home_page_hero_title__tile__banner {
+    bottom: 28% !important;
+	@include bp(sm) {
+	  bottom: 65% !important;
+	}
+}

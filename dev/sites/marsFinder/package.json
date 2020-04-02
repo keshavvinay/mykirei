@@ -1,0 +1,23 @@
+{
+  "name": "kao-marsFinder",
+  "version": "1.0.0",
+  "description": "kao-marsFinder",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "eslint": "^3.12.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "eslint": "^3.12.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-sass-glob": "^1.0.8"
+  },
+  "author": "",
+  "license": "ISC"
+}

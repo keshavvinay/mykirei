@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA BPS</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+
+  <div id="menu">
+    <div class="js-menuHolder">
+      <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+    </div>
+  </div>
+
+
+  <div id="wrapper">
+
+    <!-- ダミー -->
+    <div class="dummyheader">
+      <img src="../dam/dummy-gheader.jpg">
+    </div>
+
+    <!-- area-GlHeader -->
+    <!-- <div class="g-Area" id="area-GlHeader">
+            <div class="g-Area__inner">
+                <div class="g-GlHeader">
+                    Global Header Area
+                </div>
+            </div>
+        </div> -->
+    <!-- / area-GlHeader -->
+
+
+    <!-- contentsWrapper -->
+    <div id="contentsWrapper" class="contentsWrapper">
+      <!-- area-CntHeader -->
+      <!-- <div class="g-Area" id="area-CntHeader">
+                <div class="g-Area__inner">
+                    <div class="CntHeader">
+                        Contents Header Area
+                    </div>
+                </div>
+            </div> -->
+      <!-- / area-CntHeader -->
+
+      <!-- area-Contents -->
+      <div class="g-Area" id="area-Contents">
+
+        <!-- メインビジュアル -->
+        <div id="common_section_wrapper_1" class="g-Section sofina-ginza-section_mainvisual">
+          <div class="g-Section__inner">
+            <div data-uniform-target="g-ColumnUnit" id="common_column_separator_1" class="g-Column js-uniformHeight">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" style="height: auto;">
+                    <div class="g-PageTitle l-PageTitle is-layoutL">
+                      <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                        <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                          <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                            <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                              <span class="cmn-richtext">
+                                <span>SOFINA Beauty Power Station
+
+                                </span>
+                              </span>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-LinkButton l-LinkButton is-btn btn-dark-bullet-glay hide-on-print btn-print">
+                      <a class="g-LinkButton__link l-LinkButton__link" id="common_link_button_item_20150910180648123_S0LQ" target="_self" href="javascript:void(0);">
+                        <span class="cmn-richtext">
+                          <span>印刷
+
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /メインビジュアル -->
+
+        <!-- 店舗情報 -->
+        <div class="g-Section is-marginReset sofina-section_shopinfo_big sofina-ginza-section_shopinfo" id="common_section_wrapper_4">
+          <div class="g-Section__inner">
+
+            <!-- 店舗情報 -->
+            <div class="g-Column js-uniformHeight" id="common_column_separator_7" data-uniform-target="">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+
+
+                  <!-- 店舗情報内容 -->
+                  <div class="g-ColumnUnit">
+
+                    <!-- タイトル -->
+                    <div class="g-HeadingTitle l-HeadingTitle">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                              <span class="cmn-richtext">
+                                <span>SOFINA Beauty Power Station 銀座店</span>
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /タイトル -->
+
+                    <!-- section_shopinfo__contholder -->
+                    <div class="sofina-section_shopinfo_big__contholder">
+
+                      <div class="sofina-section_shopinfo_big__contholder__info">
+
+                        <table>
+                          <tr>
+                            <td>住　　所</td>
+                            <td>〒104-0061&emsp;東京都中央区銀座三丁目4番12号
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>営業時間</td>
+                            <td>11:00〜20:00（不定休）
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>お問合せ</td>
+                            <td class="sofina-section_shopinfo_big__contholder__info_telnum">03-3561-2600
+                            </td>
+                          </tr>
+                          <tr class="sofina-section_shopinfo_big__contholder__info__tel">
+                            <td colspan="2">
+
+                              <!-- リンク -->
+                              <div class="g-LinkButton l-LinkButton is-btn btn-block-bullet-glay icon-phonecall">
+                                <a class="g-LinkButton__link l-LinkButton__link" href="tel:03-3561-2600">
+                                  <span class="cmn-richtext">
+                                    <span>お電話でのお問い合わせ
+                                    </span>
+                                  </span>
+                                </a>
+                              </div>
+                              <!-- /リンク -->
+
+
+                            </td>
+
+                          </tr>
+                          <tr>
+                            <td>交通手段</td>
+                            <td>東京メトロ&emsp;銀座線・丸の内線・日比谷線&emsp;銀座駅A13出口から徒歩1分
+                              <p class="sofina-section_shopinfo_big__contholder__info__cap">※駐車スペースはございません</p>
+                            </td>
+                          </tr>
+                        </table>
+
+
+                      </div>
+                      <div class="sofina-section_shopinfo_big__contholder__map">
+
+                        <!-- グーグルマップ -->
+                        <div class="sofina-section_shopinfo_big__contholder__map__gmap">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1784860131756!2d139.7654405!3d35.6726069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be43240f7a5%3A0xfab463bf056a8099!2z44CSMTA0LTAwNjEg5p2x5Lqs6YO95Lit5aSu5Yy66YqA5bqn77yT5LiB55uu77yU4oiS77yR77ySIOaWh-elpeWggumKgOW6p-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1441786050111" width="100%" height="100%" frameborder="0" style="" allowfullscreen></iframe>
+                        </div>
+                        <!-- /グーグルマップ -->
+
+                        <!-- リンク -->
+                        <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-md btn-map">
+                          <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                            <span class="cmn-richtext">
+                              <span>地図アプリで表示
+                              </span>
+                            </span>
+                          </a>
+                        </div>
+                        <!-- /リンク -->
+
+                        <!-- リンク -->
+                        <div class="g-LinkButton l-LinkButton is-btn btn-bullet-glay opt-only-sm btn-map">
+                          <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                            <span class="cmn-richtext">
+                              <span>地図アプリで表示
+                              </span>
+                            </span>
+                          </a>
+                        </div>
+                        <!-- /リンク -->
+
+                        <!-- リンク -->
+                        <div class="g-LinkButton l-LinkButton is-btn btn-dark-bullet-glay opt-hide-sm sofina-section_shopinfo_big__contholder__map__print hide-on-print btn-print">
+                          <a class="g-LinkButton__link l-LinkButton__link" href="javascript:void(0);">
+                            <span class="cmn-richtext">
+                              <span>印刷
+                              </span>
+                            </span>
+                          </a>
+                        </div>
+                        <!-- /リンク -->
+
+
+                      </div>
+                    </div>
+                    <!-- /section_shopinfo__contholder -->
+
+                    <!-- 閉じる -->
+                    <div class="g-LinkButton l-LinkButton is-btn btn-block-close-white btn-close-window hide-on-print">
+                      <a class="g-LinkButton__link l-LinkButton__link" id="common_link_button_item_20150915130930169_j4iF" target="_self" href="javascript:void(0);">
+                        <span class="cmn-richtext">
+                          <span>閉じる
+
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <!-- /閉じる -->
+
+                    <!-- コピーライト -->
+                    <div class="g-Text l-Text sofina-copyright">
+                      <p class="cmn-richtext">
+                        <span>Copyright © 1999-2015 Kao Corporation. All rights reserved.
+                          <br>
+
+
+                        </span>
+                      </p>
+                    </div>
+                    <!-- /コピーライト -->
+
+                  </div>
+                  <!-- /店舗情報内容 -->
+
+                </div>
+              </div>
+            </div>
+            <!-- /店舗情報 -->
+
+          </div>
+        </div>
+        <!-- /店舗情報 -->
+
+        <!-- / area-Contents -->
+
+
+      </div>
+      <!-- / contentsWrapper -->
+
+      <!-- ダミー -->
+      <div class="dummyfooterlink hide-on-print">
+        <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る
+      </div>
+      <div class="dummyfooter">
+        <img src="../dam/dummy-gfooter.jpg">
+      </div>
+      <div class="dummyfooter2">
+        <img src="../dam/dummy-gfooter2.jpg">
+      </div>
+
+      <!-- area-SbBlFooter -->
+      <!-- <div class="g-Area" id="area-SbBlFooter">
+      <div class="g-Area__inner">
+        <div class="SbBlFooter">
+          Sub Brand Footer Area
+        </div>
+      </div>
+    </div> -->
+      <!-- / area-SbBlFooter -->
+
+      <!-- area-GlFooter -->
+      <!-- <div class="g-Area" id="area-GlFooter">
+      <div class="g-Area__inner">
+        <div class="g-GlFooter">
+          Global Footer Area
+        </div>
+      </div>
+    </div> -->
+      <!-- / area-GlFooter -->
+
+      <!--/wrapper-->
+    </div>
+
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

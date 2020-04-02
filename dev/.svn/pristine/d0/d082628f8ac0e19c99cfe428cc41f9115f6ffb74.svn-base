@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.corp-iconFax-01 {
+  .l-TelephoneCall__item__fax {
+    padding: 0;
+    margin-right: 15px;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    &:before {
+      display: inline-block;
+      font-family: 'corpicon';
+      content: "\e903";
+      font-size: 30px;
+      line-height: 1;
+      font-style: normal;
+      font-weight: normal;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #9b9b9b;
+    }
+  }
+  .l-TelephoneCall__item__fax__text {
+    position: absolute;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -9999px;
+  }
+  .l-TelephoneCall__item__number {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  @include bp(sm) {
+    .l-TelephoneCall__item__fax {
+      margin-right: 13px;
+      &:before {
+        font-size: 26px;
+      }
+    }
+    .l-TelephoneCall__item__number {
+      font-size: 14px;
+    }
+  }
+}

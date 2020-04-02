@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+
+/* FacebookPost--v2 ================================================== */
+.l-FacebookPost--v2 {
+  &.is-colorset--1 {
+    color: $facebookPost__text--01;
+    .cmn-icon {
+      color: $facebookPost__icon--01;
+    }
+    .l-FacebookPostUnit--v2 {
+      border-color: $facebookPost__border--01;
+    }
+    .l-FacebookPost--v2__textBlock__listItem__link,
+    .l-FacebookPost--v2__textBlock__visit__link,
+    .l-FacebookPost--v2__textBlock__message a {
+      color: $facebookPost__link--01;
+      &:link {
+        color: $facebookPost__link--01;
+      }
+      &:visited {
+        color: $facebookPost__link--01--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $facebookPost__link--01--hover;
+      }
+    }
+
+    .l-FacebookPost--v2__imageBlock__inner__carouselWrap{
+      border-color: $facebookPost__carousel__border2--01;
+      background-color: $facebookPost__carousel__bg2--01;
+      color: $facebookPost__carousel__text--01;
+    }
+    .l-FacebookPost--v2__imageBlock__inner__carousel{
+      border-color: $facebookPost__carousel__border1--01;
+      background-color: $facebookPost__carousel__bg1--01;
+    }
+
+    .l-FacebookPost--v2__nextArrow,
+    .l-FacebookPost--v2__prevArrow {
+      @include button();
+      background-color: $facebookPost__carousel__icon__bg--01;
+      &:before {
+        color: $facebookPost__carousel__icon--01;
+      }
+    }
+    .l-FacebookPost--v2__sharedBlock {
+      background-color: $facebookPost__shared__bg--01;
+      .l-FacebookPost--v2__sharedBlock__inner {
+        border-color: $facebookPost__shared__border--01;
+      }
+      .l-FacebookPost--v2__sharedBlock__title,
+      .l-FacebookPost--v2__sharedBlock__text,
+      .l-FacebookPost--v2__sharedBlock__caption {
+        color: $facebookPost__shared__text--01;
+      }
+    }
+  }
+  &.is-colorset--2 {
+    color: $facebookPost__text--02;
+    .cmn-icon {
+      color: $facebookPost__icon--02;
+    }
+    .l-FacebookPostUnit {
+      border-color: $facebookPost__border--02;
+    }
+    .l-FacebookPost--v2__textBlock__listItem__link,
+    .l-FacebookPost--v2__textBlock__visit__link,
+    .l-FacebookPost--v2__textBlock__message a {
+      color: $facebookPost__link--02;
+      &:link {
+        color: $facebookPost__link--02;
+      }
+      &:visited {
+        color: $facebookPost__link--02--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $facebookPost__link--02--hover;
+      }
+    }
+
+    .l-FacebookPost--v2__imageBlock__inner__carouselWrap{
+      border-color: $facebookPost__carousel__border2--02;
+      background-color: $facebookPost__carousel__bg2--02;
+      color: $facebookPost__carousel__text--02;
+    }
+    .l-FacebookPost--v2__imageBlock__inner__carousel{
+      border-color: $facebookPost__carousel__border1--02;
+      background-color: $facebookPost__carousel__bg1--02;
+    }
+
+    .l-FacebookPost--v2__nextArrow,
+    .l-FacebookPost--v2__prevArrow {
+      @include button();
+      background-color: $facebookPost__carousel__icon__bg--02;
+      &:before {
+        color: $facebookPost__carousel__icon--02;
+      }
+    }
+    .l-FacebookPost--v2__sharedBlock {
+      background-color: $facebookPost__shared__bg--02;
+      .l-FacebookPost--v2__sharedBlock__inner {
+        border-color: $facebookPost__shared__border--02;
+      }
+      .l-FacebookPost--v2__sharedBlock__title,
+      .l-FacebookPost--v2__sharedBlock__text,
+      .l-FacebookPost--v2__sharedBlock__caption {
+        color: $facebookPost__shared__text--02;
+      }
+    }
+  }
+}
+
+.l-FacebookPost--v2__nextArrow {
+  @include border-radius($borderRadius_xs);
+}
+.l-FacebookPost--v2__prevArrow {
+  @include border-radius($borderRadius_xs);
+}

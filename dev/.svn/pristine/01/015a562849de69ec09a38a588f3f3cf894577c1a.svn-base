@@ -1,0 +1,247 @@
+//Header search
+.guhl-header-search-block {
+    margin-bottom: 20px;
+    .mf_finder_searchBox{
+        margin:0;
+    }
+}
+.mf_finder_searchBox_items {
+    padding:0 !important;
+}
+.mf_finder_searchBox_suggest_items {
+    background-color: #FFF !important;
+    padding: 0 !important;
+    border-color: #DDD !important;
+    box-shadow: 1px 2px 0px #DDD !important;
+    border-radius : 2px !important;
+    border-top-right-radius: 0 !important;
+}
+.mf_finder_searchBox_suggest_item {
+    border-top: none !important;
+    a {
+        padding: 5px !important;
+        color: #000 !important;
+        text-align:left !important;
+        font-family:"ConduitITCStd-Light" !important;
+        &:first-child {
+            padding-top: 10px !important;
+        }
+    }
+}
+.mf_finder_searchBox_suggest_item_cur {
+    background-color:#f1f0f3 !important;
+    font-weight: 700 !important;
+    transition:none !important;
+}
+.mf_finder_searchBox_submit {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #ddd !important;
+    border-left: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    &:before {
+        margin-left: 0 !important;
+    }
+    span {
+        margin:0 !important;
+    }
+}
+
+//Search results page 
+.guhl-search-box-section {
+    .mf_finder_searchBox {
+        margin:0;
+    }
+    .did-you-mean-content {
+        margin-top:10px;
+        display:none;
+    }
+}
+body:not(.is-authorring) {
+    .did-you-mean-content {
+        display: none !important;
+    }
+    .mf_finder_organic_zerohit {
+        .mf_finder_organic_header_wrapper,
+        .mf_finder_organic_docs_wrapper,
+        .mf_finder_organic_pager_wrapper {
+            display: none !important;
+        }
+    }
+    .mf_finder_msk {
+        margin-left: 0 !important;
+    }
+    .mf_finder_msk_item:before {
+        content: attr(data-before) !important;
+        font-size: inherit;
+    }
+    .mf_finder_msk_item:after {
+        content: attr(data-after) !important;
+        font-size: inherit;
+    }
+    .no-results {
+        display: none;
+    }
+}
+.guhl-search-drilldown-section {
+    .mf_finder_drilldown {
+        .drilldown-heading {
+            p {
+                margin-top:0;
+            }
+        }
+        .mf_finder_drilldown_items {
+            margin:0;
+            .mf_finder_drilldown_item {
+                padding:0.5rem 0; 
+                .mf_finder_drilldown_item_bullet {
+                    display:none;
+                }
+                .mf_finder_drilldown_item_link {
+                    .mf_finder_drilldown_item_title {
+                        color:#000;
+                        font-size: 16px;
+                    }
+                    .mf_finder_drilldown_item_count {
+                        color:#000;
+                        font-size: 16px;
+                        padding-top:6px;
+                        background-color:#fff;
+                        line-height: normal;
+                        margin:0;
+                        &:before {
+                            content:"(";
+                        }
+                        &:after {
+                            content:")";
+                        }
+                    }
+                }
+                &.mf_finder_drilldown_item_selected {
+                    .mf_finder_drilldown_item_link {
+                        width:100%;
+                        .mf_finder_drilldown_item_title {
+                            padding:5px 0 0;
+                        }
+                        .mf_finder_drilldown_item_count {
+                            background-color:transparent;
+                            padding-top:10px;
+                            padding-right:0;
+                        }
+                    }
+                }
+            }
+        }
+        .mf_finder_drilldown_reset {
+            a {
+                color:#000;
+                font-size: 16px;
+            }
+            @media #{$phone-only} {
+                padding-right:0;
+            }
+        }
+    }
+}
+.mf_finder_msk_wrapper {
+    .mf_finder_msk {
+        margin-left:0;
+        .mf_finder_msk_item {
+            a {
+                color:#000;
+                font-weight: 700;
+            }
+            &:before {
+                color:#000;
+                font-family:"ConduitITCStd-Light";
+                font-size: 18px;
+            }
+        }
+    }
+}
+.guhl-search-results-section {
+    .mf_finder_organic_header_wrapper {
+        margin-left:0;
+        .mf_finder_organic_header {
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    .mf_finder_organic_docs_wrapper {
+        .mf_finder_organic_doc {
+            padding:1.5rem 0;
+            @media #{$phone-only} {
+                display:block;
+            }
+            .mf_finder_organic_doc_contents_wrapper {
+                @media #{$phone-only} {
+                    margin-left:0;
+                }
+            }
+        }
+    }
+    .mf_finder_organic_pager_wrapper {
+        .mf_finder_pager_items {
+            .mf_finder_pager_item_before_pages, .mf_finder_pager_item_after_pages{
+                line-height: normal;
+                a {
+                    padding: 6px 8px 4px 8px;
+                    line-height: normal;
+                }
+            }
+            .mf_finder_pager_item_current {
+                padding:0;
+                span {
+                    padding: 6px 8px 4px 8px;
+                    line-height: normal;
+                }
+            }
+            .mf_finder_pager_item_prev,.mf_finder_pager_item_next{
+                a {
+                    padding:6px 6px 4px 6px;
+                    line-height: normal;
+                    span {
+                        padding-left:3px;
+                    }
+                }
+            }
+            .mf_finder_pager_item_first {
+                a {
+                    padding:6px 6px 4px 6px;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
+.mf_finder_organic_doc_zoom {
+    display:none !important;
+}
+.mf_finder_logo {
+    display:none !important;
+}
+
+.mf_finder_organic_doc_img_wrapper {
+    display:block !important;
+    .mf_finder_organic_doc_img {
+        width: 202px;
+        max-width:202px;
+        img {
+            border : none !important;
+        }
+        @media #{$phone-only} {
+            margin: 0 auto 15px auto;
+        }
+    }
+}
+.mf_finder_organic_doc_url_wrapper {
+    display:none !important;
+}
+.mf_finder_organic_doc_img_wrapper .mf_finder_organic_doc_img {
+	border: none !important;
+}
+
+.mf_finder_organic_doc_title_wrapper.mf_finder_link:visited{
+    color: #111111;
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+/* Breadcrumbs ================================================== */
+.l-Breadcrumbs {
+  background-color: $contents__bg;
+  @include font-size-lang('fontSize_breadcrumbs');
+  @include line-height-lang('lineHeight_breadcrumbs');
+  @include letter-spacing-lang('letterSpacing_breadcrumbs');
+  @include font-family-lang('fontFamily_breadcrumbs');
+  @include bp(sm) {
+    border-color: $breadcrumb__separateBorder--bottom;
+  }
+}
+.l-Breadcrumbs__list {
+  li {
+    color: $contents__text;
+    a {
+      color: $breadcrumb__link;
+      &:visited {
+        color: $breadcrumb__link--visited;
+      }
+      &:hover ,
+      &:focus {
+        color: $breadcrumb__link--hover;
+      }
+    }
+    .cmn-icon {
+      color: $breadcrumb__icon;
+    }
+  }
+}
+

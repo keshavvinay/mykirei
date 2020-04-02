@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA BPS</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/bps/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/component.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/bps/component/js/jquery.transit.min.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+
+  <div id="menu">
+    <div class="js-menuHolder">
+      <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+    </div>
+  </div>
+
+
+  <div id="wrapper">
+
+    <!-- ダミー -->
+    <div class="dummyheader">
+      <img src="../dam/dummy-gheader.jpg">
+    </div>
+
+    <!-- area-GlHeader -->
+    <!-- <div class="g-Area" id="area-GlHeader">
+            <div class="g-Area__inner">
+                <div class="g-GlHeader">
+                    Global Header Area
+                </div>
+            </div>
+        </div> -->
+    <!-- / area-GlHeader -->
+
+
+    <!-- contentsWrapper -->
+    <div id="contentsWrapper" class="contentsWrapper">
+      <!-- area-CntHeader -->
+      <!-- <div class="g-Area" id="area-CntHeader">
+                <div class="g-Area__inner">
+                    <div class="CntHeader">
+                        Contents Header Area
+                    </div>
+                </div>
+            </div> -->
+      <!-- / area-CntHeader -->
+
+      <!-- area-Contents -->
+      <div class="g-Area" id="area-Contents">
+
+        <!-- メインビジュアル -->
+        <div class="g-Section is-marginReset sofina-news-section_mainvisual" id="common_section_wrapper_1">
+          <div class="g-Section__inner">
+            <div class="g-Column" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+
+
+                    <div class="g-PageTitle l-PageTitle is-layoutL is-background" style="">
+                      <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                        <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                          <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                            <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                              <span class="cmn-richtext">
+                                <span>News</span>
+                              </span>
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /メインビジュアル -->
+
+        <!-- ニュース（セクション） -->
+        <div class="g-Section is-marginReset sofina-section_news sofina-news-section_news" id="common_section_wrapper_5">
+          <div class="g-Section__inner">
+
+            <!-- ニュース -->
+            <div class="g-Column js-uniformHeight" id="common_column_separator_8" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+
+
+                    <!-- ニュース一覧 freeHTML -->
+                    <div class="sofina-section_news__list">
+
+                      <!-- ニュース一個 -->
+                      <!-- <a class="sofina-whatsnew__line" href="#">
+                        <div class="sofina-section_news__list__head">
+                          2015.06.09
+                          <span class="sofina-section_news__list__head__type">Workshop</span>
+                        </div>
+                        <div class="sofina-section_news__list__body">
+                          2016年1月16日 13:00〜開催「○○○○○○○のワークショップ」ご予約受付中
+                        </div>
+                      </a> -->
+                      <!-- /ニュース一個 -->
+
+                      <!-- ニュース一個 -->
+                      <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/reserve.html#workshop" class="sofina-whatsnew__line">
+                        <div class="sofina-section_news__list__head">
+                          2016.02.03
+                          <span class="sofina-section_news__list__head__type">Workshop</span>
+                        </div>
+                        <div class="sofina-section_news__list__body">
+                          Workshop（2月18日開催） ご予約受付開始
+                        </div>
+                      </a>
+                      <!-- /ニュース一個 -->
+                      <!-- ニュース一個 -->
+                      <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/reserve.html#workshop" class="sofina-whatsnew__line">
+                        <div class="sofina-section_news__list__head">
+                          2016.01.15
+                          <span class="sofina-section_news__list__head__type">Workshop</span>
+                        </div>
+                        <div class="sofina-section_news__list__body">
+                          Workshop（1月28日開催） ご予約受付開始
+                        </div>
+                      </a>
+                      <!-- /ニュース一個 -->
+                      <!-- ニュース一個 -->
+                      <div class="sofina-whatsnew__line">
+                        <div class="sofina-section_news__list__head">
+                          2015.12.18
+                          <span class="sofina-section_news__list__head__type">お知らせ</span>
+                        </div>
+                        <div class="sofina-section_news__list__body">
+                          年末年始の営業のご案内<br>
+                          2015年12月29日（火）は18:00閉店、2015年12月30日（水）～2016年1月4日（月）は休業いたします。2016年1月5日（火）は14:00開店、翌6日（水）から通常営業となります。<br>
+                          みなさまのご来店をお待ちしております。
+                        </div>
+                      </div>
+                      <!-- /ニュース一個 -->
+
+                      <!-- ニュース一個 -->
+                      <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/reserve.html" class="sofina-whatsnew__line">
+                        <div class="sofina-section_news__list__head">
+                          2015.11.02
+                          <span class="sofina-section_news__list__head__type">お知らせ</span>
+                        </div>
+                        <div class="sofina-section_news__list__body">
+                          11月2日&emsp;Beauty Power Lesson ご予約受付開始
+                        </div>
+                      </a>
+                      <!-- /ニュース一個 -->
+
+                      <!-- ニュース一個 -->
+                      <div class="sofina-whatsnew__line">
+                        <div class="sofina-section_news__list__head">
+                          2015.10.13
+                          <span class="sofina-section_news__list__head__type">お知らせ</span>
+                        </div>
+                        <div class="sofina-section_news__list__body">
+                          11月13日&emsp;SOFINA Beauty Power Station 銀座店がOPEN
+                        </div>
+                      </div>
+                      <!-- /ニュース一個 -->
+                      <!-- ニュース一個 -->
+                      <a href="/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/shop.html" class="sofina-whatsnew__line">
+                        <div class="sofina-section_news__list__head">
+                          2015.10.13
+                          <span class="sofina-section_news__list__head__type">お知らせ</span>
+                        </div>
+                        <div class="sofina-section_news__list__body">
+                          11月13日&emsp;新ブランド「SOFINA iP」を先行発売！
+                        </div>
+                      </a>
+                      <!-- /ニュース一個 -->
+
+                    </div>
+                    <!-- /ニュース一覧 freeHTML -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /ニュース -->
+
+          </div>
+        </div>
+        <!-- /ニュース（セクション） -->
+
+
+      </div>
+      <!-- / area-Contents -->
+
+
+    </div>
+    <!-- / contentsWrapper -->
+
+    <!-- ダミー -->
+    <div class="dummyfooterlink">
+      <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る
+    </div>
+    <div class="dummyfooter">
+      <img src="../dam/dummy-gfooter.jpg">
+    </div>
+    <div class="dummyfooter2">
+      <img src="../dam/dummy-gfooter2.jpg">
+    </div>
+
+    <!-- area-SbBlFooter -->
+    <!-- <div class="g-Area" id="area-SbBlFooter">
+      <div class="g-Area__inner">
+        <div class="SbBlFooter">
+          Sub Brand Footer Area
+        </div>
+      </div>
+    </div> -->
+    <!-- / area-SbBlFooter -->
+
+    <!-- area-GlFooter -->
+    <!-- <div class="g-Area" id="area-GlFooter">
+      <div class="g-Area__inner">
+        <div class="g-GlFooter">
+          Global Footer Area
+        </div>
+      </div>
+    </div> -->
+    <!-- / area-GlFooter -->
+
+    <!--/wrapper-->
+  </div>
+
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

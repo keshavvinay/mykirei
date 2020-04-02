@@ -1,0 +1,3431 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Column Layer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="menu">
+  <div class="js-menuHolder">
+    <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+  </div>
+</div>
+
+
+<div id="wrapper">
+
+
+<!-- contentsWrapper -->
+<div id="contentsWrapper" class="contentsWrapper">
+
+  <!-- area-Contents -->
+  <div class="g-Area" id="area-Contents">
+
+    <div class="parsys">
+
+      <!-- Section -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          Section default - ColumnSeparator pattern list
+          <div class="parsys">
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column default (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w90p opt-md-w90p opt-sm-w90p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column width 90% (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w50p opt-md-w50p opt-sm-w50p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column width 50% (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w10p opt-md-w10p opt-sm-w10p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column width 10% (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border solid 1px color1 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--dot is-borderWidth--m is-borderColor--2 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border dot 2px color2 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--l is-borderColor--3 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border solid 4px color3 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--dot is-borderWidth--l is-borderColor--4 is-paddingReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border dot 4px color4 padding reset(Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column no background (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--1 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color1(Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--2 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color2 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--3 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color3 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--4 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color4 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--5 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color5 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--6 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color6 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--7 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color7 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background js-uniformHeight" data-uniform-target="g-ColumnUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background image (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background opt-bg--repeat js-uniformHeight js-bgImageSize" data-bgImageSize="80" data-uniform-target="g-ColumnUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background image repeat (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background opt-bg--repeat-y opt-bg--right js-uniformHeight js-bgImageSize" data-bgImageSize="80" data-uniform-target="g-ColumnUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background image repeat-y right (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background opt-bg--fit js-uniformHeight" data-uniform-target="g-ColumnUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background image fit(background-size:100% 100%) (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--7 is-paddingReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color7 paddingReset (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-paddingReset js-uniformHeight" data-uniform-target="g-ColumnUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background image paddingReset (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--s js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-s (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-m (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--l js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-l (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--xl js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-xl (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column no-gutter (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--s js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-s (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-m (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--l js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-l (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--xl js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-xl (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column default (Unit1 no border)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2)
+                      <br>add text
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--dot is-borderWidth--m is-borderColor--2">
+                    <div class="parsys">
+                      Column default (Unit1 border dot 2px color2)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--dot is-borderWidth--m is-borderColor--2">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--3">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 4px color3)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--3">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--7 is-paddingReset">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 4px color7 paddingReset)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--7 is-paddingReset">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--1">
+                    <div class="parsys">
+                      Column default (Unit1 background color1)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--2">
+                    <div class="parsys">
+                      (Unit2 bacground color2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--3">
+                    <div class="parsys">
+                      Column default (Unit1 background color3)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--4">
+                    <div class="parsys">
+                      (Unit2 background color 4)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--5">
+                    <div class="parsys">
+                      Column default (Unit1 background color5)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--6">
+                    <div class="parsys">
+                      (Unit2 background color 6)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--7">
+                    <div class="parsys">
+                      Column default (Unit1 background color7)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+                    <div class="parsys">
+                      (Unit2 background image)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background opt-bg--repeat js-bgImageSize" data-bgImageSize="80" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+                    <div class="parsys">
+                      Column default (Unit2 background image repeat)
+                    </div>
+                    <div class="parsys">
+                      Column default (Unit2 background image repeat)
+                    </div>
+                    <div class="parsys">
+                      Column default (Unit2 background image repeat)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background opt-bg--repeat-y opt-bg--right js-bgImageSize" data-bgImageSize="80" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+                    <div class="parsys">
+                      (Unit2 background image repeat-y right)
+                    </div>
+                    <div class="parsys">
+                      (Unit2 background image repeat-y right)
+                    </div>
+                    <div class="parsys">
+                      (Unit2 background image repeat-y right)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--1 is-paddingReset">
+                    <div class="parsys">
+                      Column default (Unit1 background color1 reset padding)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-paddingReset" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+                    <div class="parsys">
+                      (Unit2 background image reset padding)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background opt-bg--fit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+                    <div class="parsys">
+                      Column default (Unit2 background image fit(background-size:100% 100%))
+                    </div>
+                    <div class="parsys">
+                      Column default (Unit2 background image fit(background-size:100% 100%))
+                    </div>
+                    <div class="parsys">
+                      Column default (Unit2 background image fit(background-size:100% 100%))
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background opt-bg--fit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg)">
+                    <div class="parsys">
+                      (Unit2 background image fit(background-size:100% 100%))
+                    </div>
+                    <div class="parsys">
+                      (Unit2 background image fit(background-size:100% 100%))
+                    </div>
+                    <div class="parsys">
+                      (Unit2 background image fit(background-size:100% 100%))
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+
+      <!-- Section -->
+      <div class="g-Section is-background is-backgroundColor--7 is-paddingReset--leftRight is-paddingReset--topBottom is-fullWidth">
+        <div class="g-Section__inner">
+          Section (backgroundColor7) paddingLeftRightReset paddingTopBottomReset fullwidth
+          <div class="parsys">
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column default (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w90p opt-md-w90p opt-sm-w90p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column width 90% (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w50p opt-md-w50p opt-sm-w50p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column width 50% (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w10p opt-md-w10p opt-sm-w10p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column width 10% (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border solid 1px color1 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--dot is-borderWidth--m is-borderColor--2 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border dot 2px color2 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--l is-borderColor--3 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border solid 4px color3 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--dot is-borderWidth--l is-borderColor--4 is-paddingReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column border dot 4px color4 padding reset(Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column no background (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--1 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color1(Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--2 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color2 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--3 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color3 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--4 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color4 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--5 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color5 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--6 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color6 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--7 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color7 (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background js-uniformHeight" data-uniform-target="g-ColumnUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background image (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-backgroundColor--7 is-paddingReset js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background color7 paddingReset (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-background is-paddingReset js-uniformHeight" data-uniform-target="g-ColumnUnit" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column background image paddingReset (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--s js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-s (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-m (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--l js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-l (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-marginTopBottom--xl js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column marginTopBottom-xl (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column no-gutter (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--s js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-s (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-m (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--l js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-l (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--xl js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column gutter-xl (Unit1 default)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column default (Unit1 no border)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2)<br>unit2
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--dot is-borderWidth--m is-borderColor--2">
+                    <div class="parsys">
+                      Column default (Unit1 border dot 2px color2)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--dot is-borderWidth--m is-borderColor--2">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--3">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 4px color3)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--3">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--7 is-paddingReset">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 4px color7 paddingReset)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--l is-borderColor--7 is-paddingReset">
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--1">
+                    <div class="parsys">
+                      Column default (Unit1 background color1)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--2">
+                    <div class="parsys">
+                      (Unit2 bacground color2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--3">
+                    <div class="parsys">
+                      Column default (Unit1 background color3)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--4">
+                    <div class="parsys">
+                      (Unit2 background color 4)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--5">
+                    <div class="parsys">
+                      Column default (Unit1 background color5)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--6">
+                    <div class="parsys">
+                      (Unit2 background color 6)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--7">
+                    <div class="parsys">
+                      Column default (Unit1 background color7)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+                    <div class="parsys">
+                      (Unit2 background image)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-backgroundColor--1 is-paddingReset">
+                    <div class="parsys">
+                      Column default (Unit1 background color1 reset padding)
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-background is-paddingReset" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+                    <div class="parsys">
+                      (Unit2 background image reset padding)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+      
+      
+      <!-- 追加角丸 Ver.1_Rev.2 ここから -->
+      <p class="opt-mb0--imp opt-fontcolor--08 opt-fs_h_lv2">ColumnSeparator_Ver.1_Rev.2</p>
+      <!-- Section -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <h2>ColumnSeparator borderradius</h2>
+          <div class="parsys">
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)borderradius none
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--xs" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius-xs
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--s" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius-s
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--m" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--l" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius-l
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--xl" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius-xl
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--tl--m" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius top-left-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--tr--m" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius top-right-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--bl--m" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius bottom-left-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 js-uniformHeight opt-borderradius--br--m" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1) borderradius bottom-right-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+      
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <h2>ColumnSeparator Unit borderradius</h2>
+          <div class="parsys">
+           
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius none
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--xs" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius-xs
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--s" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius-s
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--m" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--l" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius-l
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--xl" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius-xl
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--tl--m" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius top-left-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--tr--m" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius top-right-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--bl--m" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius bottom-left-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--br--m" >
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1) borderradius bottom-right-m
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+      
+      <!-- 追加角丸 Ver.1_Rev.2 ここまで -->
+      
+      <!-- 追加背景 Ver.1_Rev.2 ここから -->
+      <!-- Section -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <h2>ColumnSeparator background-image</h2>
+          <div class="parsys">
+
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background  js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image no-repeat
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--repeat js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image repeat
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--repeat-y js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image repeat y
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--repeat-x js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image repeat x
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--top js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position top
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--bottom js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position bottom
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--left js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position left
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--right js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position right
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--center js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position center
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m  is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--top-left js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position top-left
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--bottom-left js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position bottom-left
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--top-right js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position top-right
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--bottom-right js-uniformHeight" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image position bottom-right
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p js-bgImageSize is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background js-uniformHeight" data-bgimagesize="80" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image size:80px
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size js-uniformHeight" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:no-repeat,no-repeat; background-position: center,center;" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image
+                      <br>(1)position center no-repeat
+                      <br>(2)position center no-repeat
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size js-uniformHeight" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,no-repeat; background-position: center,center;" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>background-image
+                      <br>(1)position center repeat x
+                      <br>(2)position center no-repeat
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size js-uniformHeight" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: center,center;" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position center repeat x
+                      <br>(2)position center repeat x
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size js-uniformHeight" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10%,25%;" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position center repeat x size 10%
+                      <br>(2)position center repeat x size 25%
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size js-uniformHeight" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10% 20%,25%;" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position center repeat x size 10% 20%
+                      <br>(2)position center repeat x size 25%
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size js-uniformHeight" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-y,repeat-x; background-position: bottom,center; background-size: 10px,30px;" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1 ">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      Column (border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position bottom repeat y size 10px
+                      <br>(2)position center repeat x size 30px
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="parsys">
+                      (Unit2 default)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+      
+      <!-- Section -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <h2>ColumnSeparator Unit background-image</h2>
+          <div class="parsys">
+            
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1  is-background" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg); ">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image no-repeat<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--repeat" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image repeat<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--repeat-y" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image repeat y<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--repeat-x" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image repeat x<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--top" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position top<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--bottom" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position bottom<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--left" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position left<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--right" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position right<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--center" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position center<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--top-left" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position top-left<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--bottom-left" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position bottom-left<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--top-right" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position top-right<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background opt-bg--bottom-right" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image position bottom-right<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background  js-bgImageSize" data-bgimagesize="80" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg);">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image size:80px<br><br>
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:no-repeat,no-repeat; background-position: center,center;">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image 
+                      <br>(1)position center no-repeat 
+                      <br>(2)position center no-repeat
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,no-repeat; background-position: center,center;">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>background-image 
+                      <br>(1)position center repeat x 
+                      <br>(2)position center no-repeat
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: center,center;">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position center repeat x
+                      <br>(2)position center repeat x
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10%,25%;">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position center repeat x size 10%
+                      <br>(2)position center repeat x size 25%
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10% 20%,25%;">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position center repeat x size 10% 20%
+                      <br>(2)position center repeat x size 25%
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-y,repeat-x; background-position: bottom,center; background-size: 10px,30px;">
+                    <div class="parsys">
+                      Column default (Unit1 border solid 1px color1)<br>GroupBox background-image
+                      <br>(1)position bottom repeat y size 10px
+                      <br>(2)position center repeat x size 30px
+                    </div>
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols-lg-2 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit" >
+                    <div class="parsys">
+                      (Unit2)
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+            
+          </div>
+        </div>
+      </div>
+      <!-- / Section -->
+
+      <!-- 追加背景 Ver.1_Rev.2 ここまで -->
+
+      <!-- 追加背景 Ver.1_Rev.3 ここから -->
+      <div class="g-Section">
+        <div class="g-Section__inner">
+          <h2>Unequally ColumnSeparator</h2>
+          <h4>Size Large g-Column__cols--lg-w(number of width)p</h4>
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w50p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>default Width 50%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w50p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 Unit2 border solid 1px color1)<br>Width 50%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 Unit1 border solid 1px color1)<br>Width 100%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 100%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w20p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 20%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w80p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 80%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w10p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 10%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w90p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit2 border solid 1px color1)<br>Width 90%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->
+
+            <!-- Column6  -->
+            <section style="background:#1e8ece;">
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w10p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 10%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w15p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column2 (Unit1 border solid 1px color1)<br>Width 15%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w30p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column3 (Unit1 border solid 1px color1)<br>Width 30%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w50p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column4 (Unit1 border solid 1px color1)<br>Width 50%
+                  </div>
+                </div>                
+                <div class="g-Column__cols g-Column__cols--lg-w70p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column5 (Unit1 border solid 1px color1)<br>Width 70%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w95p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column6 (Unit1 border solid 1px color1)<br>Width 95%
+                  </div>
+                </div>      
+
+              </div>
+            </div>
+          </section>
+            <!-- /Column  -->
+
+            <h4>Size Medium g-Column__cols--md-w(number of width)p</h4>
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w50p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>default Width 50%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w50p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 50%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  --> 
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 100%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 100%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->           
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w20p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 20%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w80p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 80%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  --> 
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w10p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 10%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w90p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 90%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->   
+
+              <!-- Column6  -->
+            <section style="background:#1e8ece;">
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w10p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 10%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w15p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column2 (Unit1 border solid 1px color1)<br>Width 15%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w30p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column3 (Unit1 border solid 1px color1)<br>Width 30%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w50p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column4 (Unit1 border solid 1px color1)<br>Width 50%
+                  </div>
+                </div>                
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w70p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column5 (Unit1 border solid 1px color1)<br>Width 70%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w95p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column6 (Unit1 border solid 1px color1)<br>Width 95%
+                  </div>
+                </div>      
+
+              </div>
+            </div>
+          </section>
+            <!-- /Column  -->          
+
+            <h4>Size Small g-Column__cols--sm-w(number of width)p</h4>  
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w50p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>default Width 50%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w50p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 50%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  --> 
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 100%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w100p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 100%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  -->            
+
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w20p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 20%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w80p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 (Unit2 border solid 1px color1)<br>Width 80%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  --> 
+            <!-- Column  -->
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w10p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 10%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w90p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-background is-bg--ignore-size">
+                      Column2 Unit2 border solid 1px color1)<br>Width 90%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /Column  --> 
+
+            <!-- Column6  -->
+            <section style="background:#1e8ece;">
+            <div class="g-Column opt-w100p opt-md-w100p opt-sm-w100p is-gutter--m js-uniformHeight" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w10p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column1 (Unit1 border solid 1px color1)<br>Width 10%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w15p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column2 (Unit1 border solid 1px color1)<br>Width 15%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w30p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column3 (Unit1 border solid 1px color1)<br>Width 30%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w50p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column4 (Unit1 border solid 1px color1)<br>Width 50%
+                  </div>
+                </div>                
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w70p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column5 (Unit1 border solid 1px color1)<br>Width 70%
+                  </div>
+                </div>
+                <div class="g-Column__cols g-Column__cols--lg-w100p g-Column__cols--md-w100p g-Column__cols--sm-w95p">
+                  <div class="g-ColumnUnit is-border is-border--solid is-borderWidth--s is-borderColor--1 is-backgroundColor--1 is-bg--ignore-size">
+                      Column6 (Unit1 border solid 1px color1)<br>Width 95%
+                  </div>
+                </div>      
+
+              </div>
+            </div>
+          </section>
+            <!-- /Column  -->                                    
+
+        </div>
+      </div>
+
+      <!-- 追加背景 Ver.1_Rev.3 ここまで -->
+
+            
+
+
+
+    </div>
+
+  </div>
+  <!-- / area-Contents -->
+
+</div>
+<!-- / contentsWrapper -->
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

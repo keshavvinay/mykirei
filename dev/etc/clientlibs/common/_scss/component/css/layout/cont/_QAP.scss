@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* QAP ================================================== */
+.g-QAP {
+  &.is-background {
+    padding: $cmn_paddingInner $cmn_paddingInner 8px;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-border{
+    padding: $cmn_paddingInner $cmn_paddingInner 8px;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.opt-bg--no-repeat{
+    background-repeat: no-repeat;
+  }
+  &.opt-bg--repeat-y{
+    background-repeat: repeat-y;
+  }
+  &.opt-bg--repeat-x{
+    background-repeat: repeat-x;
+  }
+  &.opt-bg--top{
+    background-position: top;
+  }
+  &.opt-bg--bottom{
+    background-position: bottom;
+  }
+  &.opt-bg--left{
+    background-position: left;
+  }
+  &.opt-bg--right{
+    background-position: right;
+  }
+  &.opt-bg--center{
+    background-position: center;
+  }
+  &.opt-bg--bottom-left{
+    background-position: bottom left;
+  }
+  &.opt-bg--top-right{
+    background-position: top right;
+  }
+  &.opt-bg--bottom-right{
+    background-position: bottom right;
+  }
+
+}
+.g-QAP__titleBlock {
+}
+.g-QAP__contentBlock {
+}
+.g-QAP__pagetopBlock {
+}
+
+.g-AccordionMenu--qa {
+}
+.g-AccordionMenu--qa__item {
+}
+.g-AccordionUnit--qa {
+}
+
+.g-AccordionUnit--qa__titleBlock {
+
+  &[tabindex] {
+    cursor: pointer;
+  }
+  .is-abbr & {
+  }
+  .is-num & {
+  }
+  .is-none & {
+  }
+}
+.g-AccordionUnit--qa__titleBlock__icon {
+}
+.g-AccordionUnit--qa__titleBlock__abbr ,
+.g-AccordionUnit--qa__titleBlock__num {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 6px;
+  font-weight: bold;
+  & + .g-HeadingTitle {
+    display:table-cell;
+    padding-left:8px;
+    padding-bottom:12px;
+  }
+}
+.g-AccordionUnit--qa__titleBlock__abbr {
+  .is-abbr & {
+  }
+}
+.g-AccordionUnit--qa__titleBlock__num {
+  .is-num & {
+  }
+}
+.g-AccordionUnit--qa__contentBlock {
+  .is-abbr & {
+    padding-left: 50px;
+  }
+  .is-num & {
+    padding-left: 80px;
+  }
+  .is-none & {
+  }
+}
+
+.g-AccordionUnit--qa__contentBlock__abbr ,
+.g-AccordionUnit--qa__contentBlock__num {
+  display: block;
+  width: 0;
+  position: absolute;
+  font-weight: bold;
+  //@include fontSize(lv3);
+}
+.g-AccordionUnit--qa__contentBlock__abbr {
+  .is-abbr & {
+    left: 19px;
+  }
+}
+.g-AccordionUnit--qa__contentBlock__num {
+  .is-num & {
+    left: 19px;
+  }
+}
+
+
+// Q&A PackのBrushup分が適用されるまで、表示崩れが起きないように追記（3/4）
+// 2016/3/17 Brushup分がリリースされたら削除
+
+.g-AccordionUnit__titleBlock__abbr ,
+.g-AccordionUnit__titleBlock__num {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 6px;
+  font-weight: bold;
+  & + .g-HeadingTitle {
+    display:table-cell;
+    padding-left:8px;
+    padding-bottom:12px;
+  }
+}
+.g-AccordionUnit__contentBlock {
+  .is-abbr & {
+    padding-left: 50px;
+  }
+  .is-num & {
+    padding-left: 80px;
+  }
+  .is-none & {
+  }
+}
+
+.g-AccordionUnit__contentBlock__abbr ,
+.g-AccordionUnit__contentBlock__num {
+  display: block;
+  width: 0;
+  position: absolute;
+  font-weight: bold;
+  //@include fontSize(lv3);
+}
+.g-AccordionUnit__contentBlock__abbr {
+  .is-abbr & {
+    left: 19px;
+  }
+}
+.g-AccordionUnit__contentBlock__num {
+  .is-num & {
+    left: 19px;
+  }
+}

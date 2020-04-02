@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+/* DefinitionListP ================================================== */
+.g-DefListP {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 12px;
+  &.is-vertical--sm {
+    @include bp(sm) {
+      display: block;
+    }
+  }
+  &.is-background {
+    padding: $cmn_paddingInner;
+    padding-bottom: 5px;
+  }
+  &.is-horizontal.is-background {
+    @include bp(sm) {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+/* DefinitionListUnit ================================================== */
+
+.g-DefListUnit {
+  margin: 0;
+  padding-bottom: 15px;
+  .is-border & {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 1px;
+  }
+  .is-horizontal & {
+    padding-bottom: 8px;
+  }
+  .is-horizontal.is-border & {
+    padding-top: 8px;
+  }
+  .is-border--solid & {
+    border-bottom-style: solid;
+  }
+  .is-border--dot & {
+    border-bottom-style: dotted;
+  }
+  .is-border &:first-child {
+    border-top-width: 1px;
+  }
+  .is-border--solid &:first-child {
+    border-top-style: solid;;
+  }
+  .is-border--dot &:first-child {
+    border-top-style: dotted;
+  }
+  .is-horizontal & {
+    @include pie-clearfix;
+  }
+}
+
+.g-DefListUnit__label {
+  .is-horizontal & {
+    white-space: nowrap;
+    float: left;
+  }
+  .is-vertical--sm & {
+    @include bp(sm) {
+      float: none;
+    }
+  }
+}
+
+.g-DefListUnit__label__inner {
+  .is-labelColor & {
+    display: inline-block;
+    padding: 5px 30px;
+    text-align: center;
+  }
+}
+
+.g-DefListUnit__item {
+  overflow: hidden;
+  margin: 0;
+  .is-horizontal & {
+    padding-left: 20px;
+  }
+  .is-vertical--sm & {
+    @include bp(sm) {
+      float: none;
+      padding-left: 0;
+    }
+  }
+  .is-labelColor & {
+    padding-top: 5px;
+  }
+  .is-link {
+    @include link();
+    text-decoration: none;
+  }
+  .is-telLink {
+    cursor: default;
+    text-decoration: none;
+    color: $contents__text;
+  }
+  &.is-tel--md {
+    .is-telLink {
+      @include bp(md) {
+        cursor: pointer;
+        @include link();
+      }
+    }
+  }
+  &.is-tel--sm {
+    .is-telLink {
+      @include bp(sm) {
+        cursor: pointer;
+        @include link();
+      }
+    }
+  }
+}
+
+.g-DefListUnit__icon {
+  vertical-align: middle;
+  margin-left: 0.5em;
+}
+
+.g-DefListUnit__icon--phone {
+  vertical-align: middle;
+  font-size: 32px;
+  line-height: 1;
+}

@@ -1,0 +1,361 @@
+//header search 
+.cjp-pannelNavLinks {
+    position: relative;
+}
+.header-search {
+    background: white;
+    display:none;
+    height:150px;
+    padding-top:50px;
+}
+.search-open {
+    display:block;
+}
+.curel-header-search-block {
+    .mf_finder_header {
+        width:95%;
+        display:inline-block;
+        @media #{$phone-only} {
+            width:90%;
+        }
+    }
+    .mf_finder_searchBox_items_wrapper {
+        position: relative;
+        .mf_finder_searchBox_query_wrap {
+            input {
+                background: $text-color-white 0% 0% no-repeat padding-box;
+                border: 1px solid $btn-blue-color;
+                border-radius: 20px;
+                opacity: 1;
+                color: #9D9D9C;
+                height:40px;
+                padding:8px 20px;
+                &:focus {
+                    outline:none;
+                }
+            }
+        }
+        .mf_finder_searchBox_submit {
+            background: $btn-blue-color 0% 0% no-repeat padding-box;
+            border-radius: 20px;
+            width: 40px;
+            height: 40px;
+            padding: 4px;
+            position: absolute;
+            right:0;
+            &:before {
+                font-size: 24px;
+                margin-left:0;
+            }
+        }
+    } 
+    .mf_finder_searchBox_suggest_items {
+        display:block !important;
+        background: $text-color-white 0% 0% no-repeat padding-box;
+        border: 1px solid $text-color-hover;
+        border-radius: 20px;
+        width: 384px;
+        min-height: 100px;
+        color: $text-color-hover;
+        @media #{$tablet-only} {
+            width:319px;
+        }
+        @media #{$phone-only} {
+            width:297px;
+        }
+    } 
+    .mf_finder_searchBox_suggest_item {
+        border-top: none !important;
+        a {
+            color: $text-color-hover;
+            padding: 0 20px !important;
+            text-align: left;
+            font: Regular 16px/20px Avenir Next;
+            letter-spacing: 0;
+            margin:0;
+            &:first-child {
+                padding-top: 10px !important;
+            }
+            &:last-child {
+                padding-bottom: 10px !important;
+            }
+        }
+    }
+    .mf_finder_searchBox_suggest_item_cur {
+        background-color:transparent !important;
+        font-weight: 700 !important;
+        transition:none !important;
+    }
+    .did-you-mean-content {
+        display:none !important;
+    }
+    .mf_finder_msk_wrapper {
+        .mf_finder_msk {
+            margin-left:0;
+            .mf_finder_msk_item {
+                font-family:'Gotham Book';
+                font-size: 24px;
+                line-height: 28px;
+                color: #2A363B;
+                letter-spacing: 0;
+                font-weight: normal;
+                a {
+                    color:$text-color-hover;
+                }
+            }
+        }
+    }
+    .close-btn {
+        &:hover {
+            cursor:pointer;
+        }
+        &:before {
+            content: "\F00D";
+            font-family: FontAwesome;
+            font-size:24px;
+            margin-left:15px;
+            color:$icon-color;  
+            @media #{$phone-only},#{$tablet-only} {
+                margin-left:0;
+            }
+        }
+    }
+}
+
+// search results page
+.curel-search-box-section {
+    .mf_finder_searchBox_items_wrapper {
+        position: relative;
+        .mf_finder_searchBox_query_wrap {
+            input {
+                background: $text-color-white 0% 0% no-repeat padding-box;
+                border: 1px solid $btn-blue-color;
+                border-radius: 20px;
+                opacity: 1;
+                color: #9D9D9C;
+                height:40px;
+                padding:8px 20px;
+            }
+        }
+        .mf_finder_searchBox_submit {
+            background: $btn-blue-color 0% 0% no-repeat padding-box;
+            border-radius: 20px;
+            width: 40px;
+            height: 40px;
+            padding: 0 4px;
+            position: absolute;
+            right:0;
+            &:before {
+                font-size: 24px;
+                margin-left:0;
+            }
+        }
+    } 
+    .mf_finder_searchBox_suggest_items {
+        display:block !important;
+        background: $text-color-white 0% 0% no-repeat padding-box;
+        border: 1px solid $text-color-hover;
+        border-radius: 20px;
+        width: 384px;
+        min-height: 100px;
+        color: $text-color-hover;
+        @media #{$tablet-only} {
+            width:319px;
+        }
+        @media #{$phone-only} {
+            width:297px;
+        }
+    } 
+    .mf_finder_searchBox_suggest_item {
+        border-top: none !important;
+        a {
+            color: $text-color-hover;
+            padding: 0 20px !important;
+            text-align: left;
+            font: Regular 16px/20px Avenir Next;
+            letter-spacing: 0;
+            margin:0;
+            &:first-child {
+                padding-top: 10px !important;
+            }
+            &:last-child {
+                padding-bottom: 10px !important;
+            }
+        }
+    }
+    .mf_finder_searchBox_suggest_item_cur {
+        background-color:transparent !important;
+        font-weight: 700 !important;
+        transition:none !important;
+    }
+    .did-you-mean-content {
+        display:none !important;
+    }
+    .mf_finder_msk_wrapper {
+        .mf_finder_msk {
+            margin-left:0;
+            .mf_finder_msk_item {
+                font-family:'Gotham Book';
+                font-size: 24px;
+                line-height: 28px;
+                color: #2A363B;
+                letter-spacing: 0;
+                font-weight: normal;
+                a {
+                    color:$text-color-hover;
+                }
+            }
+        }
+    }
+}
+.curel-search-results-section {
+    .curel-search-drilldown-section {
+        .drilldown-heading {
+            display:none;
+        }
+        .mf_finder_drilldown_items {
+            text-align:center;
+            display:inline-block;
+            width:85%;
+            @media #{$phone-only} {
+                width:100%;
+            }
+            .mf_finder_drilldown_item {
+                display:inline-block;
+                .mf_finder_drilldown_item_bullet {
+                    display:none;
+                }
+                .mf_finder_drilldown_item_link {
+                    background:transparent;
+                    position: relative;
+                    z-index: 1; 
+                    margin-left:-70%;
+                    @media #{$phone-only} {
+                        margin-left:0;
+                    }
+                    .mf_finder_drilldown_item_title {
+                        background: #FFFFFF 0% 0% no-repeat padding-box;
+                        border: 1px solid #00A4B7;
+                        border-radius: 20px;
+                        color:#00A4B7;
+                        font-size: 16px;
+                        line-height: 22px;
+                        width: 180px;
+                        padding: 10px;
+                        height: 40px;
+                        font-weight: normal;
+                        @media #{$tablet-only} {
+                            padding:5px;
+                            height:33px;
+                            width:150px;
+                        }
+                        @media #{$phone-only} {
+                            padding:5px;
+                            height:33px;
+                            width:130px;
+                        }
+                    }
+                    .mf_finder_drilldown_item_count {
+                        display:none;
+                    }
+                    &.router-link-exact-active {
+                        .mf_finder_drilldown_item_title {
+                            background:#00A4B7;
+                            color:#FFF;
+                        }
+                    }
+                }
+                &:first-child {
+                    .mf_finder_drilldown_item_link {
+                        margin-left:0 ;
+                        z-index:2;
+                    }
+                }
+            }
+        }
+        .mf_finder_drilldown_reset {
+            display:inline-block;
+            padding-right:0;
+            @media #{$phone-only} {
+                display:block;
+                text-align:center;
+                margin-top:10px;
+            }
+            .router-link-active {
+                background: #00a4b7;
+                border-radius: 24px;
+                color: #fff;
+                text-align: center;
+                font-size: 16px;
+                border-color: #00a4b7;
+                padding: 10px 15px;
+            }
+        }
+    }
+    .mf_finder_organic_header_wrapper {
+        .mf_finder_organic_header {
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    .mf_finder_organic_doc_zoom {
+        display:none !important;
+    }
+    .mf_finder_logo {
+        display:none !important;
+    }
+    .mf_finder_organic_doc_url_wrapper {
+        display:none !important;
+    }
+    .mf_finder_organic_doc {
+        @media #{$phone-only} {
+            display:block;
+        }
+    }
+    .mf_finder_organic_doc_contents {
+        .mf_finder_organic_doc_title_wrapper {
+            &:hover {
+                text-decoration: none;
+            }
+            .mf_finder_organic_doc_title {
+                font-family:'Gotham Book';
+                font-size: 24px;
+                line-height: 28px;
+                color: #2A363B;
+                letter-spacing: 0;
+                font-weight: normal;
+            }
+        }
+        .mf_finder_organic_doc_body {
+            font-family:'AvenirNextLTPro-Regular';
+            font-size: 16px;
+            line-height: 20px;
+            color: #9D9D9C;;
+            letter-spacing: 0;
+            font-weight: normal;
+        }
+    }
+}
+.no-results {
+    .g-Text {
+        font-family:'Gotham Book';
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: 0;
+        color: #2A363B;
+    }
+    .sub-txt {
+        letter-spacing: 0;
+        color: #9D9D9C;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'AvenirNextLTPro-Regular';
+        font-weight: normal;
+        a {
+            color: #00A4B7;
+            text-decoration: underline;
+            font-style: italic;
+        }
+    }
+}

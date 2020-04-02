@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+/* Area ============================== */
+.g-Area {
+}
+
+.g-Area__inner {
+  max-width: $maxWidth_lg;
+}
+
+.g-Area__separater {
+  @extend .g-Area__inner;
+}
+
+.g-Area__separater__pane {
+}
+
+.g-Area__separater__main {
+}

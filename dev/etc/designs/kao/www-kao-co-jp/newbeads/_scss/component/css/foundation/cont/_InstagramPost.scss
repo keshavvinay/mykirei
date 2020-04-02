@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+
+/* InstagramPost ================================================== */
+.l-InstagramPost {
+  &.is-colorset--1 {
+    color: $instagramPost__text--01;
+    .cmn-icon {
+      color: $instagramPost__icon--01;
+    }
+    .l-InstagramPostUnit {
+      border-color: $instagramPost__border--01;
+    }
+    .l-InstagramPost__contentsBlock__links__item__link,
+    .l-InstagramPost__contentsBlock__visit__link,
+    .l-InstagramPost__contentsBlock__postText a {
+      color: $instagramPost__link--01;
+      &:link {
+        color: $instagramPost__link--01;
+      }
+      &:visited {
+        color: $instagramPost__link--01--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $instagramPost__link--01--hover;
+      }
+    }
+  }
+  &.is-colorset--2 {
+    color: $instagramPost__text--02;
+    .cmn-icon {
+      color: $instagramPost__icon--02;
+    }
+    .l-InstagramPostUnit {
+      border-color: $instagramPost__border--02;
+    }
+    .l-InstagramPost__contentsBlock__links__item__link,
+    .l-InstagramPost__contentsBlock__visit__link,
+    .l-InstagramPost__contentsBlock__postText a {
+      color: $instagramPost__link--02;
+      &:link {
+        color: $instagramPost__link--02;
+      }
+      &:visited {
+        color: $instagramPost__link--02--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $instagramPost__link--02--hover;
+      }
+    }
+  }
+}
+.l-InstagramPost__contentsBlock {
+}
+.l-InstagramPost__contentsBlock__image {
+}
+.l-InstagramPost__contentsBlock__date {
+}
+.l-InstagramPost__contentsBlock__tweet {
+}
+.l-InstagramPost__contentsBlock__links {
+}
+.l-InstagramPost__contentsBlock__links__item {
+}

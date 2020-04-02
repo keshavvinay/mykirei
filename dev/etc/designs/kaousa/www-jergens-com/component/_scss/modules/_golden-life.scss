@@ -1,0 +1,519 @@
+.golden-life-section{
+    
+    .g-Column__inner{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+        .g-Column__cols{
+            padding: 0 !important;
+        }
+   
+        
+        .golden-life-banner-groupox{
+            position: relative;
+            background-color: #ECD086;
+            
+            img{
+                margin: 0 auto;
+            }
+        }
+    
+    .bg-banner{
+        margin-bottom: 0;
+    }
+    
+    .golden-life-title{
+        position: absolute !important;
+        top: 25%;
+        left: 0;
+    right: 0;
+        
+        @media (max-width:$breakpoint_sm){
+                top: 13%;
+            }
+    }
+    
+    .live-without-limits-pack{
+            background: #00a7c1;
+            background: linear-gradient(#00a7c1, #00b7d7, #00a7c1);
+        
+        .g-ImageTextHP__contentsBlock{
+            @include section-max-width;
+        }
+        
+        img{
+            max-height: 220px;
+            width:auto !important;
+        }
+        
+        h1{
+            color: #fff;
+            font-size: 26px;
+        }
+        
+        .g-Text{
+            color: #fff;
+        }
+    }
+    
+    
+    
+    .golden-life-header-groupox{
+        
+        background-color: #fefcef;
+        padding: 15px;
+        
+        .g-ImageTextHP__contentsBlock{
+            @include section-max-width;
+            
+            h2{
+                color: #b98f73 !important;
+                font-weight: bold;
+            }
+            
+            .g-Text{
+                    font-size: 16px;
+                line-height: 1.4;
+            }
+            
+            
+        .g-ButtonP{
+            a{
+                background: #0674a8;
+                background: linear-gradient(to right,#0674a8,#2ab5d3);
+                border: none;
+                border-radius: 0;
+                box-shadow: none;
+                font-size: 28px;
+                font-weight: bold;
+            }
+        }
+        }
+        
+        h2{
+            color: #ad8e74 !important;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        
+        .g-HeadingTitle{
+            @include section-max-width;
+        }
+        
+        .tile-card-pack{
+            @include section-max-width;
+            
+            .g-TileLinkTextUnit__leadBlock__title{
+                color: #3391bd;
+                
+                .g-Text{
+                    font-size: 16px;
+                }
+            }
+            
+                       
+            .tile-card1,.tile-card2,.tile-card3{
+                border: none;
+            }
+            
+            .tile-card1{
+                background-color: #f3eecf;
+            }
+            
+            .tile-card2{
+                color: #fff;
+                background:#9a7a60;
+                background:linear-gradient(to right,#d5b69c,#9a7a60);
+            }
+            
+            .tile-card3{
+                background:#d9c074;
+                background:linear-gradient(to right,#f9eda7,#d9c074);
+            }
+            
+        }
+        
+        .achieve-tan{
+            padding: 30px 0;
+                
+            h2{
+                &>span{
+                    position: relative;
+                    &:before{
+                        content: '';
+    display: block;
+    position: absolute;
+    width: 23px;
+    right: -34px;
+    bottom: 0;
+    height: 23px;
+    border: 3px solid #1792bc;
+    border-radius: 50%;                    
+                    }
+            
+             &:after{
+                 content: '';
+    width: 0;
+    display: block;
+    position: absolute;
+    top: auto;
+    bottom: 7px;
+    right: -24px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #1792bc;
+            }
+                }
+            }
+        }
+        
+    }
+    
+    .golden-life-sub-header{
+        background-color: #ffffff;
+        margin-bottom: 100px;
+            margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+        
+        li{
+            vertical-align: middle;
+            padding: 0 12px !important; 
+            
+            @media (max-width:$breakpoint_md){
+                padding: 0 5px !important; 
+            }
+            
+            div{
+                margin: 0 !important;
+            }
+            
+            a{
+                color: #636363 !important;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            
+            .li-with-logo a{
+                    padding: 0;
+                min-width: 100px;
+                height: 90px;
+                background-size: cover;
+                    background-position: 0;
+            }
+            
+            #fb{
+                    background-position: 0 0px;
+    padding: 0;
+    height: 30px;
+    width: 40px;
+            }
+            
+            #pin{
+                    background-position: 0 -29px;
+    padding: 0;
+    height: 30px;
+    width: 40px;
+            }
+            
+            #youtube{
+                background-position: 0 -58px;
+    padding: 0;
+    height: 30px;
+    width: 40px;
+            }
+        }
+    }
+    
+    .carousal-section{
+        background-color: #fff;
+    }
+    
+    .carousal-heading{
+            padding-top: 50px !important;
+    background-position: center 10px;
+    }
+    
+    
+        .product-carousal-column{
+            position: relative;
+        }
+    
+    .product-carousal-groupbox{
+        @include section-max-width;
+        
+        @media(min-width:$breakpoint_sm) and (max-width:$breakpoint_md){
+            max-width: 550px;
+        }
+        
+        @media(max-width:$breakpoint_sm){
+             max-width: 250px;
+        }
+        
+        text-align: center;
+        overflow: hidden;
+        padding-top: 50px;
+        
+        .blue-background{
+            position: absolute;
+    height: 270px;
+    display: block;
+    width: 270px;
+    border-radius: 50%;
+    top: 25%;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    background: radial-gradient(#0082b4,#00accf);
+            
+             @media(max-width:$breakpoint_sm){
+             height: 220px;
+             width: 220px;
+                 top: 33%;
+                 
+        }
+            
+            @media(min-width:$breakpoint_sm) and (max-width:$breakpoint_md){
+            top: 25%;
+        }
+            
+        }
+        
+        .g-Image {
+            display: inline-block;
+            width: 19%;
+            z-index: 1;
+            
+            @media(min-width:$breakpoint_sm) and (max-width:$breakpoint_md){
+            width: 33%;
+        }
+            
+             @media(max-width:$breakpoint_sm){
+            width: auto;
+        }
+            
+            img{
+                margin: 0 auto;
+                max-height: 220px;
+                width:auto !important;
+            }
+        }
+        
+        &:after{
+           content: ''; 
+            cursor: pointer;
+            display: block;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: rotate(45deg);
+    border-right: 5px solid #b5956e;
+    border-top: 5px solid #b5956e;
+    width: 30px;
+    height: 30px;
+            
+            @media(max-width:$breakpoint_sm){
+              top: 50%;
+    right: 5%;
+                 
+        }
+            
+            @media(min-width:$breakpoint_sm) and (max-width:$breakpoint_md){
+            top: 50%;
+                right:5%
+        }
+            
+        }
+        
+        &:before{
+                content: '';
+            cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: rotate(-45deg);
+    border-left: 5px solid #b5956e;
+    border-top: 5px solid #b5956e;
+    width: 30px;
+    height: 30px;
+            
+            @media(max-width:$breakpoint_sm){
+              top: 50%;
+    left: 5%;
+                 
+        }
+            
+            @media(min-width:$breakpoint_sm) and (max-width:$breakpoint_md){
+            top: 50%;
+                left:5%
+        }
+            
+       
+            
+        }
+    }
+    
+    .golden-product-active{
+         transform: scale(1.2);
+  text-align: center;
+  transition: transform 0.3s linear;
+    }
+  
+    .buy-now-btn{
+        a{
+    background-color: #cd9934;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+    box-shadow: none;
+            cursor: pointer;
+        }
+    }
+    
+    .live-golden-seperator{
+        padding: 15px;
+        img{
+        margin: 0 auto;
+        }
+        
+        background-color: #cd9934;
+        color: #fff;
+        
+        .g-Text{
+            font-size: 16px;
+        }
+        
+        .live-golden-carousal{
+            @include section-max-width;
+             overflow: visible;
+        
+            
+            button.slick-arrow{
+                background: none !important;
+                outline: none !important;
+                
+                &.l-ImageCarouselP__prevArrow{
+                    left: -50px !important;
+                    
+                    
+                    @media (max-width:$breakpoint_md){
+                        left: 0 !important;
+                        bottom: -10%;
+                        
+                    &:before{
+                        color: #fff
+                    }
+                    }
+                }
+                
+                &.l-ImageCarouselP__nextArrow{
+                    right: -50px !important;
+                    
+                    @media (max-width:$breakpoint_md){
+                        right: 0 !important;
+                        bottom: -10%;
+                        
+                        
+                    &:before{
+                        color: #fff
+                    }
+                    }
+                }
+                                
+                &:after,&:before{
+                    font-size: 50px;
+                }
+            }
+            
+            
+            .g-GroupBox{
+                position: static;
+                color: #fff;
+            }
+            
+            .g-ImageCarouselP__nav{
+                display: none !important;
+            }
+           
+        }
+        
+        .tip-number .cmn-richtext{
+                    display: inline-block;
+    background-color: #ffffce;
+    color: #333;
+    padding: 2px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+            }
+    }
+    
+    .share-golden-seperator{
+        padding: 15px;
+        background-color: #fff;
+        img{
+            margin: 0 auto;
+        }
+        
+        .g-TileLinkVP{
+           @include section-max-width;
+            
+            a.g-TileLinkVUnit{
+                height: auto !important;
+                border: none;
+                padding: 0;
+            }
+            
+            .g-TileLinkVUnit__imageBlock{
+                margin-bottom: 0;
+            }
+            
+            .g-TileLinkVUnit__leadBlock{
+                height: auto !important;
+                text-align:center;
+                
+                .g-TileLinkVUnit__leadBlock__title, .g-TileLinkVUnit__leadBlock__lead{
+                    display: inline-block;
+                    width: auto !important;
+                }
+            }
+            
+            .socialFacebook{
+                    text-indent: -9999px;
+    white-space: nowrap;
+    padding: 3px 15px;
+    background: url(/content/dam/sites/kaousa/www-jergens-com/logos/social-icon-footer.png) 0 0;
+    display: inline-block;
+            }
+            
+            .socialPinterest{
+                    text-indent: -9999px;
+    white-space: nowrap;
+    padding: 3px 15px;
+    background: url(/content/dam/sites/kaousa/www-jergens-com/logos/social-icon-footer.png) 0 -25px;
+    display: inline-block;
+            }
+        }
+    }
+    
+    .golden-life-footer{
+        background-color: #cd9934;
+            color: #fff;
+    padding: 20px 20px 80px 20px;
+        
+        .g-TextLinkP__list {
+            li.g-TextLinkP__list__item{
+                a{
+                    color: #fff;
+                }
+                
+                &:not(:last-child){
+                        border-right: 2px solid #fff;
+                }
+                padding: 2px 10px;
+            }
+        }
+    }
+    
+}

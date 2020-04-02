@@ -1,0 +1,30 @@
+.g-IconListPack{
+    .g-IconList{
+        margin-top: 0;
+    }
+    .g-IconList__item {
+        margin-bottom: 5px;
+    }
+    .g-IconList__item__image{
+        max-width: 30px;
+    }
+    .g-IconList__item__content{
+        padding: 0 10px;
+        word-break: break-word;
+    }
+    .g-IconList__item__inner{
+        padding: 0;
+        margin-bottom: 0px;
+        align-items: initial;
+    }
+
+    .g-IconList__item__label{
+        font-family: $avenir-bold;
+    }
+
+    .g-IconList__item__title h2{
+        font-size: 14px;
+        font-family: $avenir-regular;
+        text-align: left;
+    }
+}

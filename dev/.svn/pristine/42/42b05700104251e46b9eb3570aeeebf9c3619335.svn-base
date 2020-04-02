@@ -1,0 +1,7 @@
+/* imgItem-01 */
+.corp-imgItem-01 {
+  .l-Image__caption {
+    font-family: "FP-ヒラギノUD角ゴ StdN W3", FP-HiraginoUDSansStdN-W3, sans-serif;
+    color: $subText;
+  }
+}

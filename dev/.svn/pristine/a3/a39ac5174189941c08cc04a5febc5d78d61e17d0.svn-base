@@ -1,0 +1,6 @@
+#base=js
+modernizr.custom.js
+jquery.min.js
+jsrender.min.js
+moment.min.js
+video.min.js

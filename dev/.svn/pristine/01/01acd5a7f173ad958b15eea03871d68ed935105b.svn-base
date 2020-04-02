@@ -1,0 +1,171 @@
+@mixin banner-main-text{
+    font-size: 44px;
+    letter-spacing: -8px;
+    text-align: center !important;
+    text-transform: uppercase;
+    
+    @media (min-width:843px) and (max-width:$breakpoint_md){
+                font-size: 34px;
+                letter-spacing: -5px;
+            }
+    
+    @media (min-width:$breakpoint_sm) and (max-width:842px){
+                font-size: 24px;
+                letter-spacing: -4px;
+            }
+}
+
+@mixin banner-carousal-arrow{
+    
+ top:40%;
+ width: 100px;
+ outline:none;
+ height: 100px;
+    
+    @media (max-width:399px){
+            display: none !important;
+        }
+    
+}
+
+@mixin banner-button{
+    
+font-size: 10px;
+line-height: normal;
+padding: 8px;
+font-weight: bold;
+text-transform: uppercase;
+border-radius: 0; 
+    box-shadow: none;
+   
+//    @media (min-width:400px) and (max-width:$breakpoint_sm){
+//            font-size: 8px;
+//        }
+    
+}
+
+@mixin background-texture{
+    background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/jergens-background-texture.jpg) 0 0;
+}
+
+@mixin section-max-width{
+    max-width: 985px;
+    margin: 0 auto;
+}
+
+@mixin product-tile{
+    border:none;
+    position: relative;
+}
+
+@mixin homepage-tile-title{
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+@mixin homepage-tile-text{
+    text-align: center;
+    font-size: 12px;
+    font-family: arial;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+@mixin footer-social-icons{
+    display: block;
+    background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/social-icons.png) no-repeat;
+    padding-left: 30px;
+    height: 20px;
+}
+
+//pass on radiance 
+
+@mixin circle-tile{
+    display: inline-block;
+        background: url("/is/image/content/dam/sites/kaousa/www-jergens-com/images/master/campaign/pass-on-the-radiance/circle-sprite.png?fmt=png-alpha&wid=900");
+        height: 184px;
+        padding: 20px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        width: 20%;
+    
+        @media (min-width:641px) and (max-width:$breakpoint_md){
+            background-image: url("/is/image/content/dam/sites/kaousa/www-jergens-com/images/master/campaign/pass-on-the-radiance/circle-sprite.png?fmt=png-alpha&wid=570");
+            width: 120px;
+            height: 122px;
+            padding: 10px;
+            left: 0;
+        }
+    
+    @media (max-width:$breakpoint_sm){
+            width: 180px;
+            left: 0;
+        }
+}
+
+@mixin header-light{
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+@mixin jergens-btn{
+        padding: 10px 25px 10px 10px;
+    border: 1px solid #b99c79;
+    text-decoration: none;
+    color: #333 !important;
+    font-weight: bold;
+    position: relative;
+    
+    &:after{
+            content: '';
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+    top: 15px;
+    right: 15px;
+    }
+}
+
+@mixin back-to-btn{
+        padding: 10px 10px 10px 25px;
+    text-decoration: none;
+    position: relative;
+    background-color: #e9ded1 !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    color: #333 !important;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+    
+    &:before{
+            content: '';
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+    top: 40%;
+    left: 10px;
+    }
+}

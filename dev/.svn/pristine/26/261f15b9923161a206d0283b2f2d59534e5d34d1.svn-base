@@ -1,0 +1,81 @@
+.icon-list-alt:before {
+    content: "\e908";
+    font-family: 'icomoon';
+}
+
+.icon-search:before {
+    content: "\e900";
+    font-family: 'icomoon';
+}
+
+.icon-sphere:before {
+    content: "\e9c9";
+    font-family: 'icomoon';
+    color: #00a4b7;
+}
+
+.icon-menu:before {
+    content: "\e9bd";
+    font-family: 'icomoon';
+}
+
+.icon-close:before {
+    content: "\e906";
+    font-family: 'icomoon';
+}
+
+.icon-facebook:before {
+    content: "\e903";
+    font-family: 'icomoon';
+}
+
+.icon-instagram:before {
+    content: "\e904";
+    font-family: 'icomoon';
+}
+
+.icon-pinterest-p:before {
+    content: "\e905";
+    font-family: 'icomoon';
+}
+
+.icon-cart:before {
+  content: "\e93a";
+  font-family: 'icomoon';
+}
+
+
+.icon-search:before {
+    content: "\e900";
+    font-family: 'icomoon';
+}
+
+.icon-sphere:before {
+    content: "\e9c9";
+    font-family: 'icomoon';
+   
+}
+
+.icon-close:before {
+    content: "\e906";
+    font-family: 'icomoon';
+}
+
+.icon-menu:before {
+    content: "\e9bd";
+    font-family: 'icomoon';
+}
+
+.icon-question-circle:before {
+    content: "\e907";
+    font-family: 'icomoon';
+  }
+
+  .icon-minus:before {
+    content: "\ea0b";
+    font-family: 'icomoon';
+  }
+  .icon-dot-single:before {
+    content: "\e909";
+    font-family: 'icomoon';
+  }

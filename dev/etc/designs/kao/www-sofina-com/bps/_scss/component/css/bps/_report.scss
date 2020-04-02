@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+/* bps 体験レポート ============================== */
+
+//
+// ページタイトル
+//
+.sofina-report-section__mainvisual {
+  background-color: #f8f8f8;
+  .g-Section__inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .l-PageTitle {
+    padding: 0;
+  }
+  .l-PageTitle__h1 {
+    color: $colorGray_2;
+    @include fontSize(lv1_2);
+    font-weight: normal;
+    font-family: $fontFamily;
+    @include bp(lg) {
+      letter-spacing: 0.05em;
+    }
+    @include bp(md) {
+      letter-spacing: 0.05em;
+    }
+    @include bp(sm) {
+      letter-spacing: 0.05em;
+    }
+  }
+  .l-PageTitle__titleBlock {
+    margin-bottom: 0;
+  }
+  .sofina-report-section__mainvisual__text {
+    @include fontSize(lv5);
+    color: #888;
+    font-weight: normal;
+    font-family: $fontFamily_Title;
+    margin-bottom: 0;
+    @include bp(lg) {
+      letter-spacing: 0.05em;
+    }
+    @include bp(md) {
+      letter-spacing: 0.05em;
+    }
+    @include bp(sm) {
+      letter-spacing: 0.05em;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .g-Section__inner {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    .sofina-reserve-section__mainvisual__text {
+      @include fontSize(caption);
+    }
+  }
+}
+
+//
+// コンテンツ
+//
+.sofina-report-section__contents {
+  background-color: #f8f8f8;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  .l-Section__inner {
+    max-width: 960px;
+    background-color: #fff;
+    padding: 30px 40px 12px;
+  }
+  @include bp(md) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @include bp(sm) {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    .l-Section__inner {
+      padding: 8px 10px 0;
+    }
+  }
+}
+.sofina-report-section__logo {
+  width: 29.54%;
+  margin: 0 auto 30px;
+  @include bp(sm) {
+    width: 64.29%;
+    margin-bottom: 20px;
+  }
+}
+.sofina-report-section__contents__title {
+  &.l-HeadingTitle--h2 {
+    border-top: 1px solid #6e8bba;
+    border-bottom: 1px solid #6e8bba;
+    padding: 30px 0 20px;
+  }
+  .l-Text {
+    @include fontSize(lv4);
+  }
+  .l-HeadingTitle__h2 {
+    @include fontSize(lv1_1);
+    font-family: $fontFamily;
+  }
+  @include bp(sm) {
+    &.l-HeadingTitle--h2 {
+      padding: 18px 0 8px;
+    }
+    .l-Text {
+      @include fontSize(lv5);
+    }
+    .l-HeadingTitle__h2 {
+      @include fontSize(lv4);
+    }
+  }
+}
+.sofina-report-section__contents__lead {
+  margin: 26px 0 13px;
+  @include bp(sm) {
+    margin-bottom: 0;
+    &.opt-al_c {
+      text-align: left;
+    }
+  }
+}
+
+//
+// レポート
+//
+.sofina-report-section__contents__ca {
+  position: relative;
+  width: 91.36%;
+  padding-top: 23px;
+  margin-bottom: 0;
+  .l-Text {
+    position: relative;
+    background-color: #ebf2fd;
+    padding: 30px 30px 10px;
+    &:after {
+      display: block;
+      position: absolute;
+      content: " ";
+      width: 0;
+      height: 0;
+      top: 50%;
+      margin-top: -10px;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__image {
+    width: 29.89%;
+    position: absolute;
+    bottom: 0;
+  }
+  .l-ImageTextHP__contentsBlock__text {
+    width: 70.11%;
+  }
+  @include bp(md) {
+    .l-ImageTextHP__contentsBlock {
+      position: relative;
+    }
+    .l-ImageTextHP__contentsBlock__image {
+      width: 36%;
+      position: absolute;
+      bottom: auto;
+      top: 50%;
+      img {
+        margin-top: -50%;
+      }
+    }
+    .l-ImageTextHP__contentsBlock__text {
+      width: 64%;
+    }
+  }
+  @include bp(sm) {
+    width: 100%;
+    padding-top: 20px;
+    .l-Text {
+      padding: 20px 22px 1px;
+      margin-bottom: 30px;
+      &:after {
+        top: auto;
+        bottom: -20px;
+        margin-top: 0;
+        margin-left: -10px;
+      }
+    }
+    .l-ImageTextHP__contentsBlock__image {
+      position: relative;
+      width: 70.71%;
+      margin: 0 auto;
+    }
+  }
+}
+.sofina-report-section__contents__voice {
+  margin-bottom: 20px;
+  line-height: 1.75;
+  strong {
+    @include fontSize(lv3);
+    line-height: 1.27;
+    text-decoration: underline;
+  }
+  @include bp(sm) {
+    @include fontSize(caption);
+    line-height: 1.5;
+    strong {
+      @include fontSize(lv7);
+      line-height: 1.29;
+    }
+  }
+}
+.sofina-report-section__contents__ca--ca01 {
+  margin-left: 1.14%;
+  .l-Text {
+    margin-left: 19px;
+    &:after {
+      border-style: solid;
+      border-width: 10px 19px 10px 0;
+      border-color: transparent #ebf2fd transparent transparent;
+      left: -19px;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__image {
+    left: 0;
+  }
+  @include bp(md) {
+    margin-left: 0;
+  }
+  @include bp(sm) {
+    margin-left: 0;
+    .l-Text {
+      margin-left: 0;
+      &:after {
+        border-width: 20px 10px 0 10px;
+        border-color: #ebf2fd transparent transparent transparent;
+        left: 50%;
+      }
+    }
+  }
+}
+.sofina-report-section__contents__ca--ca02 {
+  margin-left: 8.41%;
+  .l-Text {
+    margin-right: 19px;
+    &:after {
+      border-style: solid;
+      border-width: 10px 0 10px 19px;
+      border-color: transparent transparent transparent #ebf2fd;
+      right: -19px;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__image {
+    right: 0;
+  }
+  @include bp(md) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  @include bp(sm) {
+    margin-left: 0;
+    .l-Text {
+      margin-right: 0;
+      &:after {
+        border-width: 20px 10px 0 10px;
+        border-color: #ebf2fd transparent transparent transparent;
+        left: 50%;
+      }
+    }
+  }
+}
+
+//
+// ボタン
+//
+.sofina-report-section__buttons {
+  margin-top: 30px;
+  @include bp(sm) {
+    margin-top: 10px;
+  }
+}
+.sofina-report-section__buttons__unit {
+  .l-ButtonUnit__link {
+    @include box-shadow(none);
+    @include border-radius(0);
+    background-color: $colorGray_8;
+    color: $colorFont_dark;
+    border: 1px solid $colorGray_5;
+    padding: 10px;
+    @include fontSize(lv7);
+  }
+  &.is-colorset--1 {
+    .l-ButtonUnit__link__icon {
+      color: $colorFont_dark;
+    }
+  }
+  &.is-leftIcon {
+    .l-ButtonUnit__link {
+      .cmn-richtext {
+        padding-left: 1em;
+      }
+    }
+    .l-ButtonUnit__link__icon {
+      left: 10px;
+    }
+  }
+  @include bp(sm) {
+    .l-ButtonUnit__link {
+      padding: 8px 10px;
+    }
+  }
+}

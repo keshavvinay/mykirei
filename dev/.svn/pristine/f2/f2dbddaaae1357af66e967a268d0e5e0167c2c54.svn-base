@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* C100 Long Copy */
+.c100 {
+  @include kms-fontSize(longcopy);
+  @include kms-fontFamily(body);
+  color: #000 !important;
+  letter-spacing: normal !important;
+}
+
+.c100.wide-lineHeight {
+  .cmn-richtext {
+    line-height: 26px !important;
+  }
+}

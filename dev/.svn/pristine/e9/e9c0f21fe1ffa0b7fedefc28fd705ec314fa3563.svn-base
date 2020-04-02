@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+
+    font-family: "ProximaNova-Regular", Arial, sans-serif;
+
+    .g-Area#area-BrHeader {
+        padding-top: 66px;
+
+        @media(max-width:$break-sm) {
+            padding-top: 50px;
+        }
+    }
+}
+
+button {
+    outline: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: $anchor-color;
+}
+
+a:hover {
+    transition: 0.2s;
+}
+
+h1 sup {
+    top: -30px;
+
+    @media(max-width: 641px) {
+        top: -25px;
+    }
+}
+
+.is-rightIcon {
+    .cmn-richtext {
+        padding-right: 0 !important;
+    }
+}
+
+.is-leftIcon {
+    .cmn-richtext {
+        padding-left: 0 !important;
+    }
+}
+
+.cmn-icon {
+    display: none !important;
+
+    &::before {
+        display: none !important;
+    }
+}
+
+.utility-wrapper {
+    a {
+        font-family: $text-anchor-font;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.full-width {
+    width: 100% !important;
+}

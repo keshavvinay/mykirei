@@ -1,0 +1,4 @@
+RewriteCond %{HTTP_HOST} www.kaosalondivision.com
+RewriteRule ^/index.html$ https://www.kaosalondivision.com/ [R=301]
+RewriteCond %{HTTP_HOST} www.kaosalondivision.com
+RewriteRule ^/country.html$ https://www.kaosalondivision.com/ [R=301]

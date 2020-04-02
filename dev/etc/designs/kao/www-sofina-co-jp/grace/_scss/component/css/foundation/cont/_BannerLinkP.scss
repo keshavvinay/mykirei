@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+
+/* BannerLinkP ================================================== */
+.l-BannerLinkP {
+}
+.l-BannerLinkP__list__item {
+  @include fontSize(body);
+}

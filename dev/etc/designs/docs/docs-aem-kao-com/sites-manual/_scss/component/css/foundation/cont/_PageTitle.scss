@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+
+/* PageTitle
+ ================================================== */
+.l-PageTitle {
+  @if $PageTitle__bordered == true {
+    border-bottom: 2px solid $contents__heading__border;
+    margin-bottom: 18px;
+  } @else {
+    border-bottom: none;
+    margin-bottom: 12px;    
+  }
+}
+.l-PageTitle__h1 {
+  color: $contents__heading__text;
+}
+.l-PageTitle__h1 {
+  @include fontSize(lv1);
+}

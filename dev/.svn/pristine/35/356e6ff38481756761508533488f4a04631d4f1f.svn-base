@@ -1,0 +1,2853 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_002: Heading Title Item</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>G_CON_002: Heading Title Item</h1>
+
+
+<!-- G_CON_002: Heading Title Item -->
+  <div class="method">
+    <p class="componentName">G_CON_002 Heading Title Item</p>
+    <!--<a href="samples/I010_HeadingTitle.html">⇒ design sample</a>-->
+    <ul>
+      <li>Type : タグ要素 h2-h6,p</li>
+      <li>Element : Sub Title(Top), Sub Title(Bottom), Sub Title(Right), Main Image（DOM出力変更）, Sub Image（DOM出力変更）</li>
+      <li>Link : div → aタグ変更</li>
+      <li>Link icon : 保留</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Layout : 画像左、画像右(DOM出力順変更、制御クラス付与)</li>
+      <li>Main Image-Width : 100%〜10%（bpごとにoptionクラス付与）</li>
+      <li>Sub Image-Width : 50%〜5%（bpごとにoptionクラス付与）</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+  <h3 class="settingName">Sample : Long Title</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="g-Text l-Text">
+          <p class="cmn-richtext">
+            <span>Text Richtext Text <a href>Richtext</a> Text Richtext Text Richtext</span>
+          </p>
+        </div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Page Title Page Title <a href>Page Title Page Title</a> Page Title Page Title Page Title Page Title Page Title Page Title Page Title Page Title Page Title TITLETITLETITLETITLETITLETITLETITLETITLETITLETITLETITLE</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h2</h3>
+  <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+
+  <h3 class="settingName">Type : h3</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h4</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h4 l-HeadingTitle--h4 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h4>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h5</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h5 l-HeadingTitle--h5 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h5 class="g-HeadingTitle__h5 l-HeadingTitle__h5">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h5>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h6</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h6 l-HeadingTitle--h6 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h6 class="g-HeadingTitle__h6 l-HeadingTitle__h6">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h6>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : p</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--p l-HeadingTitle--p is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <p class="g-HeadingTitle__p l-HeadingTitle__p">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </p>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Link : active (LinkIcon : None)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </a>
+
+
+  <h3 class="settingName">Link : active (LinkIcon : Standard)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">LinkIcon : External</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--external g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">LinkIcon : PDF</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--pdf g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">LinkIcon : Download</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--download g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">IconColor : reverse</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet cmn-icon--reverse  g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">Element : none</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Element : text</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Element : image</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Top)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-subTitleTop">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Bottom)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-subTitleBottom">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Right)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-subTitleRight">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Link : subTitle(Right)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-subTitleRight" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">Element : Main image（Type : h2）</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : Main image（Type : p）</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <div class="g-HeadingTitle__p l-HeadingTitle__p">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </div>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Main image(align left)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_l">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Link : Main image(align left)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_l is-link" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+  <h3 class="settingName">Element : Main image(align center)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_c">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Main image(align right)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_r">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Link : Main image(align right)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_r is-link" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_c">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_r">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Layout : image-left</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Layout : image-right</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutR">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Width : image-10p</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Width : image-20p</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w20p opt-md-w20p opt-lg-w20p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL SpecificCSSclass">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Background image</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </a>
+
+
+  <h3 class="settingName">Type : h2 / titleBorder: none</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-titleBorder--none">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Type : h3 / titleBorder: visible</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-titleBorder--visible">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h2 / titleBorder: none / margin-bottom: 0(option class)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-titleBorder--none opt-mb0--imp">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h2 / titleBorder: none / margin-bottom: 0(option class)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-titleBorder--none opt-mb0--imp is-innerMarginNone">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image opt-mb0--imp">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h3 / titleBorder: visible </h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-titleBorder--visible">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image opt-mb0--imp">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!--  HeadingTitleItem Ver.1_Rev.1ここから  -->
+  <!--  HeadingTitleItem Ver.1_Rev.1ここから  -->
+  <!--  HeadingTitleItem Ver.1_Rev.1ここから  -->
+  <!--  HeadingTitleItem Ver.1_Rev.1ここから  -->
+  <!--  HeadingTitleItem Ver.1_Rev.1ここから  -->
+  <!--  HeadingTitleItem Ver.1_Rev.1ここから  -->
+  <br>
+  <p class="opt-mb0--imp opt-fontcolor--08 opt-fs_h_lv2">HeadingTitleItem Ver.1_Rev.1</p>
+
+  <!-- HeadingTitleItem Frame border ここから-->
+  <h2>HeadingTitleItem Frame border</h2>
+  <h3 class="settingName">(h2)Frame border solid</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h3)Frame border solid</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border dotted</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--dot is-borderWidth--s is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h3)Frame border dotted</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-border is-border--dot is-borderWidth--s is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <!-- HeadingTitleItem Frame border ここまで-->
+
+  <!-- HeadingTitleItem Frame border-width ここから-->
+  <h2>HeadingTitleItem Frame border-width</h2>
+  <h3 class="settingName">(h2)Frame border width s</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h3)Frame border width s</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border width m</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--m is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h3)Frame border width m</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-border is-border--solid is-borderWidth--m is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border width l</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h3)Frame border width l</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-border is-border--solid is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h2 / titleBorder: default / (h2)Frame border doted width:l color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h2 / titleBorder: is-titleBorder--none / (h2)Frame border doted width:l color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-titleBorder--none is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h3 / titleBorder: default /(h3)Frame border doted width:l color1  </h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h3 / titleBorder: is-titleBorder--visible /(h3)Frame border doted width:l color1  </h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-titleBorder--visible is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h2 /  titleBorder:  default / (h2)Frame border doted width:l color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_c is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h2 /  titleBorder: is-titleBorder--none / (h2)Frame border doted width:l color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_c  is-titleBorder--none is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h3 / titleBorder: default /(h3)Frame border doted width:l color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL opt-al_c is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img">
+                <img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h3 / titleBorder: is-titleBorder--visible /(h3)Frame border doted width:l color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL opt-al_c is-titleBorder--visible is-border is-border--dot is-borderWidth--l is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img">
+                <img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  <!-- HeadingTitleItem Frame border-width ここまで-->
+
+  <!-- HeadingTitleItem Frame border-color ここから-->
+  <h2>HeadingTitleItem Frame border-color</h2>
+  <h3 class="settingName">(h2)Frame border color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border color3</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--3">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border color4</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--4">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border color5</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--5">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border color6</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--6">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)Frame border color7</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--7">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  <!-- HeadingTitleItem Frame border-colo ここまで-->
+
+  <!-- HeadingTitleItem Frame borderradiu ここから-->
+  <h2>HeadingTitleItem Frame borderradius</h2>
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius-xs</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--xs">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius-s</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--s">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius-m</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--m">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius-l</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--l">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius-xl</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--xl">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius top-left-m</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--tl--m">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius top-right-m</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--tr--m">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius bottom-left-m</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--bl--m">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)(Frame border solid 1px color1) borderradius bottom-right-m</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--1 opt-borderradius--br--m">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  <!-- HeadingTitleItem Frame borderradiu ここまで-->
+
+  <!-- HeadingTitleItem background-color ここから-->
+  <h2>HeadingTitleItem background-color</h2>
+  <h3 class="settingName">(h2)background color1</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-backgroundColor--1">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background color3</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-backgroundColor--3">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background color4</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-backgroundColor--4">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background color5</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-backgroundColor--5">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background color6</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-backgroundColor--6">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background color7</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-backgroundColor--7">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h2 / titleBorder: default / (h2)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h2 / titleBorder: is-titleBorder--none / (h2)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-titleBorder--none is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h3 /titleBorder: default /(h3)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : none / Type : h3 /titleBorder: is-titleBorder--visible / (h3)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL is-titleBorder--visible is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h2 / titleBorder: default / (h2)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_c is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h2 / titleBorder: is-titleBorder--none / (h2)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_c is-titleBorder--none is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h3 /titleBorder: default / (h3)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL opt-al_c is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img">
+                <img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">Element : Main image / Caption : ある / Type : h3 /titleBorder: is-titleBorder--visible / (h3)background color2</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL opt-al_c is-titleBorder--visible is-background is-backgroundColor--2">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <!-- G_CON_004: Image Item -->
+            <div class="g-Image l-Image ">
+              <p class="g-Image__img l-Image__img">
+                <img src="/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg" width="100%" alt="dummy"></p>
+              <div class="g-Image__caption l-Image__caption">
+                <p class="cmn-richtext">
+                  <span>Caption Richtext Caption Richtext Caption Richtext</span>
+                </p>
+              </div>
+            </div>
+            <!-- / G_CON_004: Image Item -->
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  <!-- HeadingTitleItem background-color ここまで-->
+
+  <!-- HeadingTitleItem background-image ここから-->
+  <h2>HeadingTitleItem background-image</h2>
+  <h3 class="settingName">(h2)background-image no-repeat</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image repeat</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--repeat" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image repeat y</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--repeat-y" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image repeat x</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--repeat-x" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position top</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--top" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position bottom</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--bottom" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position left</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--left" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position right</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--right" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position center</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--center" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position top-left</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--top-left" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position bottom-left</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--bottom-left" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position top-right</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--top-right" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image position bottom-right</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background opt-bg--bottom-right" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image size:80px</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background js-bgImageSize" data-bgImageSize="80" style="background-image: url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg);">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image (1)position center no-repeat (2)position center no-repeat</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:no-repeat,no-repeat; background-position: center,center;">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image (1)position center repeat x (2)position center no-repeat</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,no-repeat; background-position: center,center;">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image (1)position center repeat x (2)position center repeat x</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,repeat-x; background-position: center,center;">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image (1)position bottom repeat x size 10% (2)position center repeat x size 25%</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png);  background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10%,25%;">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image (1)position bottom repeat x size 10% 20% (2)position center repeat x size 25%</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-x,repeat-x; background-position: bottom,center; background-size: 10% 20%,25%;">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+  <h3 class="settingName">(h2)background-image (1)position bottom repeat y size 10px (2)position center repeat x size 30px</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-background is-bg--ignore-size" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy2-green.jpg),url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png); background-repeat:repeat-y,repeat-x; background-position: bottom,center; background-size: 10px,30px;">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  <!-- HeadingTitleItem background-image ここまで-->
+
+  <!-- HeadingTitleItem padding reset ここから-->
+  <h2>HeadingTitleItem padding reset</h2>
+  <h3 class="settingName">(h2)(border solid 1px color7)padding reset</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l is-border is-border--solid is-borderWidth--s is-borderColor--7 is-paddingReset">
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+  <!-- HeadingTitleItem padding reset ここまで-->
+
+  <h3 class="settingName">(Background image) padding reset</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-background is-paddingReset" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!--  HeadingTitleItem Ver.1_Rev.1ここまで  -->
+
+<!-- / G_CON_002: Heading Title Item -->
+
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

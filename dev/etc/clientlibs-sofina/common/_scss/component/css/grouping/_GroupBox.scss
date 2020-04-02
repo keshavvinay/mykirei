@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+
+/* GroupBox ============================== */
+.g-GroupBox {
+  &.is-background {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-border {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-marginTop--s {
+    @include marginBoxTop(s);
+  }
+  &.is-marginTop--m {
+    @include marginBoxTop(m);
+  }
+  &.is-marginTop--l {
+    @include marginBoxTop(l);
+  }
+  &.is-marginTop--xl {
+    @include marginBoxTop(xl);
+  }
+  &.is-marginBottom--s {
+    @include marginBoxBottom(s);
+  }
+  &.is-marginBottom--m {
+    @include marginBoxBottom(m);
+  }
+  &.is-marginBottom--l {
+    @include marginBoxBottom(l);
+  }
+  &.is-marginBottom--xl {
+    @include marginBoxBottom(xl);
+  }
+  &.is-marginLeft--s {
+    @include marginBoxLeft(s);
+  }
+  &.is-marginLeft--m {
+    @include marginBoxLeft(m);
+  }
+  &.is-marginLeft--l {
+    @include marginBoxLeft(l);
+  }
+  &.is-marginLeft--xl {
+    @include marginBoxLeft(xl);
+  }
+  &.is-marginRight--s {
+    @include marginBoxRight(s);
+  }
+  &.is-marginRight--m {
+    @include marginBoxRight(m);
+  }
+  &.is-marginRight--l {
+    @include marginBoxRight(l);
+  }
+  &.is-marginRight--xl {
+    @include marginBoxRight(xl);
+  }
+}

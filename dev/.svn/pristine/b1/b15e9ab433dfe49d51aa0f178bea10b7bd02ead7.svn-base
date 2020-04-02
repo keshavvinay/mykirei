@@ -1,0 +1,199 @@
+.YourLookQuestionResponse__wrapper {
+  margin-top: 2em;
+}
+
+@media (min-width: 40.0625em) {
+  .YourLookQuestionResponse__wrapper {
+    margin-bottom: 63px;
+  }
+}
+
+@media (min-width: 64.0625em) {
+  .YourLookQuestionResponse__wrapper {
+    max-width: 1005px;
+    margin-bottom: 63px;
+  }
+}
+
+.YourLookQuestionResponse__headerWrap {
+  text-align: center;
+}
+.YourLookQuestionResponse__headerWrap h2 {
+  font-family: "FuturaLTW05-Book", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+.YourLookQuestionResponse__headerWrap p {
+  color: #989898;
+  margin: .25em auto 1.5em;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.YourLookQuestionResponse__carouselWrap {
+  position: relative;
+}
+/*
+.YourLookQuestionResponse__carouselWrap:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: solid 1px #989898;
+}
+*/
+.YourLookQuestionResponse__carousel .slick-prev:after {
+  border-left-color: #000000;
+  border-bottom-color: #000000;
+}
+.YourLookQuestionResponse__carousel .slick-next:after {
+  border-top-color: #000000;
+  border-right-color: #000000;
+}
+.YourLookQuestionResponse__carousel .slick-dots {
+  position: relative;
+  text-align: center;
+}
+.YourLookQuestionResponse__carousel .slick-dots button:after {
+  background: #000000;
+}
+
+@media (min-width: 40.0625em) {
+  .YourLookQuestionResponse__carouselProduct {
+    width: 33.33333333%;
+    float: left;
+  }
+}
+
+.YourLookQuestionResponse__carouselProductInside {
+  display: block;
+  cursor: default;
+}
+.YourLookQuestionResponse__carouselProductInside img {
+  max-width: 33.33333333%;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width: 40.0625em) {
+  .YourLookQuestionResponse__carouselProductInside {
+    cursor: pointer;
+    border-radius: .0625rem;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .YourLookQuestionResponse__carouselProductInside:hover {
+    box-shadow: 0px 10px 20px 2px rgba(152, 152, 152, 0.35);
+    -ms-transform: translateY(-1px);
+        transform: translateY(-1px);
+  }
+  .YourLookQuestionResponse__carouselProductInside:hover .YourLookQuestionResponse__stars {
+    opacity: 1;
+  }
+  .YourLookQuestionResponse__carouselProductInside img {
+    max-width: 100%;
+  }
+}
+
+.YourLookQuestionResponse__productInfo {
+  margin-top: 1em;
+  text-align: center;
+}
+.YourLookQuestionResponse__productInfo h3 {
+  font-family: "FuturaLTW05-Bold", sans-serif;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+.YourLookQuestionResponse__productInfo p {
+  font-family: "FuturaLTW05-Book", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media (min-width: 40.0625em) {
+  .YourLookQuestionResponse__productInfo {
+    padding: 0 1em 1em;
+  }
+}
+
+.YourLookQuestionResponse__stars {
+  opacity: 0;
+  transition: 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.YourLookQuestionResponse__stars .YourLookQuestionResponse__starPositive, .YourLookQuestionResponse__stars .YourLookQuestionResponse__starNegative {
+  display: inline-block;
+}
+.YourLookQuestionResponse__stars .YourLookQuestionResponse__starNegative {
+  opacity: .3;
+}
+.center { position: relative; display: inline-block; margin: 0px auto; }
+
+.YourLookQuestionResponse__headerWrap h2 div div div div h2 span span {
+	font-size: 27px;
+    display: block;
+    letter-spacing: 2.7px;
+    line-height: 37.8px;
+}
+
+.slick-dots li button:before {
+	content: "" !important;
+}
+
+.slick-dots li {
+    width: 30px;
+}
+
+.slick-dots li button {
+    width: 1.999rem;
+}
+
+.slick-arrow:focus, slick-next:focus, slick-prev:focus {
+  border : 1px solid #EAAA30 !important;
+}
+
+.YourLookQuestionResponse__carouselProductInside img {
+    width : 100px;
+}
+
+@media (min-width: 40.0625em) {
+    .YourLookQuestionResponse__carouselProductInside img {
+        width : 175px;
+    }
+    
+    .YourLookQuestionResponse__carouselProductInside {
+        width : 200px;
+    }
+}
+
+@media (min-width: 64.0625em) {
+    .YourLookQuestionResponse__carouselProductInside img {
+        width : 175px;
+    }
+    
+    .YourLookQuestionResponse__carouselProductInside {
+        width : 328.328px;
+    }
+}
+
+.jf-carousel .s7responsiveContainer p {
+    width: 105px;
+}
+
+@media (min-width: 40.0625em) {   
+    .jf-carousel .s7responsiveContainer p {
+        width: 145px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 64.0625em) {    
+    .jf-carousel .s7responsiveContainer p {
+        width: 151px;
+        margin: 0 auto;
+    }
+}

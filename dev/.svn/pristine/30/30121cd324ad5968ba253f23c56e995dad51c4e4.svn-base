@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>01_Home_Global_Template</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <script src="/etc/designs/kaousa/www-kmshair-com/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <!--script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script-->
+  <!-- debug script -->
+
+</head>
+
+<body>
+  <div></div>
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <div>
+      <div class="g-Section l-Section c450__cookieBar js-c450 is-visible" id="common_section_wrapper_1">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit c450__cookieBar__inner">
+                  <div class="g-HeadingTitle l-HeadingTitle c093__title c450__title g-HeadingTitle--h3 l-HeadingTitle--h3">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                            <span class="cmn-richtext">
+                              <span>use of cookies </span>
+                            </span>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-Text l-Text c450__text">
+                    <p class="cmn-richtext">
+                      <span>We use cookies to optimise the user experience of our website. By Continuing your visit on this website, you consent to the use of cookies.Further informations in out <a title="terms-of-use" href="#" target="_blank">terms-of-use</a>.
+                        </span>
+                    </p>
+                  </div>
+                  <div class="c122__buttons c450__buttons is-gutter--none g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+                    <ul class="g-ButtonP__list l-ButtonP__list">
+                      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+                        <div class="g-ButtonUnit l-ButtonUnit c122__button c450__button is-colorset--1 is-size--m">
+                          <a class="g-ButtonUnit__link l-ButtonUnit__link" id="js-didAcceptCookie">
+                            <span class="cmn-richtext">
+                              <span>lorem ipsum dolor sit amet </span>
+                            </span>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- area-BrHeader -->
+    <div class="g-Area" id="area-BrHeader">
+      <div class="kmsHeader">
+        <div class="kmsHeader__inner">
+          <a href="javascript:void(0);" class="kmsHeader__menu-trigger is-deactive js-mainmenu-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+          <div class="kmsHeader__logo">
+            <!-- <div class="g-Image l-Image">
+ <div class="cq-dd-image"></div>
+</div>
+ -->
+            <div class="g-Image l-Image" style="position : relative;">
+              <p class="g-Image__img l-Image__img">
+                <img src="/content/dam/sites/kaousa/www-kmshair-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;">
+              </p>
+            </div>
+
+            <!-- /
+ -->
+          </div>
+          <div class="kmsHeader__search">
+            <!--
+ -->
+            <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+              <p class="g-Image__img l-Image__img">
+                <img src="/content/dam/sites/kaousa/www-kmshair-com/en/icon-search.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+              </p>
+            </div>
+
+            <!-- /
+ -->
+          </div>
+        </div>
+        <!-- toggle menu -->
+        <div class="kmsHeader__mainmenu">
+          <!-- desktop and mobile -->
+          <ul class="kmsHeader__mainmenu__list opt-hide-md">
+            <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">MAGAZINE</a> </li>
+            <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">BLOG</a> </li>
+            <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link js-submenu">PRODUCTS</a>
+              <!-- toggle submenu -->
+              <div class="kmsHeader__submenu">
+                <ul class="kmsHeader__submenu__list">
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">product overview</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">TameFrizz</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">HAIRPLAY</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">FreeShape</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">AddVolume</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">CurlUp</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">HAIRSTAY</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">ColorVitality</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">HeadRemedy</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">MoistRepair</a></li>
+                  <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">SilkSheen</a></li>
+                </ul>
+              </div>
+              <!-- /toggle submenu -->
+            </li>
+            <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">LOOKS</a> </li>
+            <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">STYLIST AREA</a> </li>
+            <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">ABOUT US</a> </li>
+            <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">CONTACT</a> </li>
+          </ul>
+          <!-- /desktop and mobile -->
+          <!-- tablet -->
+          <div class="kmsHeader__mainmenu--md opt-hide-lg opt-hide-sm">
+            <ul class="kmsHeader__mainmenu__list">
+              <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">MAGAZINE</a> </li>
+              <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">BLOG</a> </li>
+              <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link js-submenu">PRODUCTS</a>
+                <!-- toggle submenu -->
+                <div class="kmsHeader__submenu">
+                  <ul class="kmsHeader__submenu__list">
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">product overview</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">TameFrizz</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">HAIRPLAY</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">FreeShape</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">AddVolume</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">CurlUp</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">HAIRSTAY</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">ColorVitality</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">HeadRemedy</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">MoistRepair</a></li>
+                    <li class="kmsHeader__submenu__item"><a href="#" class="kmsHeader__submenu__link">SilkSheen</a></li>
+                  </ul>
+                </div>
+                <!-- /toggle submenu -->
+              </li>
+              <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">LOOKS</a> </li>
+            </ul>
+            <ul class="kmsHeader__mainmenu__list">
+              <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">STYLIST AREA</a> </li>
+              <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">ABOUT US</a> </li>
+              <li class="kmsHeader__mainmenu__item"> <a href="javascript:void(0);" class="kmsHeader__mainmenu__link">CONTACT</a> </li>
+            </ul>
+          </div>
+          <!-- /tablet -->
+          <div class="kmsHeader__mainmenu__sns">
+            <ul class="kmsHeader__mainmenu__sns__list">
+              <li class="kmsHeader__mainmenu__sns__item">
+                <a href="#" class="kmsHeader__mainmenu__sns__link">
+                  <span class="kms-icon kms-icon--fb"></span>
+                </a>
+              </li>
+              <li class="kmsHeader__mainmenu__sns__item">
+                <a href="#" class="kmsHeader__mainmenu__sns__link">
+                  <span class="kms-icon kms-icon--yt"></span>
+                </a>
+              </li>
+              <li class="kmsHeader__mainmenu__sns__item">
+                <a href="#" class="kmsHeader__mainmenu__sns__link">
+                  <span class="kms-icon kms-icon--tw"></span>
+                </a>
+              </li>
+              <li class="kmsHeader__mainmenu__sns__item">
+                <a href="#" class="kmsHeader__mainmenu__sns__link">
+                  <span class="kms-icon kms-icon--inst"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /toggle menu -->
+        <!-- C420 SOCIAL MEDIA BAR -->
+        <div class="c420">
+          <a href="javascript:void(0);" class="c420__trigger js-c420"></a>
+          <!-- toggle block -->
+          <div class="c420__sns">
+            <ul class="c420__sns__list">
+              <li class="c420__sns__item">
+                <a href="#" class="c420__sns__link">
+                  <span class="kms-icon kms-icon--mail"></span>
+                </a>
+              </li>
+              <li class="c420__sns__item">
+                <a href="#" class="c420__sns__link">
+                  <span class="kms-icon kms-icon--print"></span>
+                </a>
+              </li>
+              <li class="c420__sns__item">
+                <a href="#" class="c420__sns__link">
+                  <span class="kms-icon kms-icon--dots"></span>
+                </a>
+              </li>
+              <li class="c420__sns__item">
+                <a href="#" class="c420__sns__link">
+                  <span class="kms-icon kms-icon--fb"></span>
+                </a>
+              </li>
+              <li class="c420__sns__item">
+                <a href="#" class="c420__sns__link">
+                  <span class="kms-icon kms-icon--tw"></span>
+                </a>
+              </li>
+              <li class="c420__sns__item">
+                <a href="#" class="c420__sns__link">
+                  <span class="kms-icon kms-icon--inst"></span>
+                </a>
+              </li>
+              <li class="c420__sns__item">
+                <a href="#" class="c420__sns__link">
+                  <span class="kms-icon kms-icon--pinterest"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /toggle block -->
+        </div>
+        <!-- /C420 SOCIAL MEDIA BAR -->
+      </div>
+    </div>
+    <!-- / area-BrHeader -->
+    <!-- area-Contents -->
+    <div class="g-Area" id="area-Contents">
+      <div class="g-Section l-Section c270__section is-paddingReset--topBottom is-paddingReset--leftRight is-fullWidth" id="common_section_wrapper_1">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div>
+                    <div class="C270__carousel g-SlideImageP l-SlideImageP js-SlideImageP js-C270Carousel" data-autoplay="true" data-autoplaySpeed="7" data-fade="false">
+                      <div class="g-SlideImageP__list l-SlideImageP__list">
+                        <div class="g-SlideImagePUnit l-SlideImagePUnit">
+                          <!--
+(image item) -->
+                          <div class="g-Image l-Image is-changeBreak s7responsiveContainer" style="position : relative;">
+                            <p class="g-Image__img l-Image__img g-Image__img--lg l-Image__img--lg">
+                              <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c270-vi02-lg.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                            </p>
+                            <p class="g-Image__img l-Image__img g-Image__img--md l-Image__img--md">
+                              <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c270-vi02-md.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                            </p>
+                            <p class="g-Image__img l-Image__img g-Image__img--sm l-Image__img--sm">
+                              <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c270-vi02-sm.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                            </p>
+                          </div>
+
+                          <!-- /
+(image item) -->
+                          <a href="javascript:void(0);" class="c270__navi c270__navi--prev js-c270__prev">
+                            <span class="c270__navi__arrow c270__navi__arrow--prev"></span>
+                          </a>
+                          <a href="javascript:void(0);" class="c270__navi c270__navi--next js-c270__next">
+                            <span class="c270__navi__arrow c270__navi__arrow--next"></span>
+                          </a>
+                          <div class="c270__textblock">
+                            <!--
+(headingTitle) -->
+                            <div class="g-HeadingTitle l-HeadingTitle c270__title c090__title is-titleBorder--none g-HeadingTitle--h2 l-HeadingTitle--h2">
+                              <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                                <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                  <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                                      <span class="cmn-richtext">
+                                        <span>moistrepair shampoo
+                                          <br />
+
+                                        </span>
+                                      </span>
+                                    </h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- /
+(headingTitle) -->
+                            <!--
+(headingTitle) -->
+                            <div class="g-HeadingTitle l-HeadingTitle c270__subtitle c270__subtitle--reverse g-HeadingTitle--h3 l-HeadingTitle--h3">
+                              <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                                <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                  <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                    <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                      <span class="cmn-richtext">
+                                        <span>one product for gentle conditioning &amp; cleansing (perfect for damaged, coarse, curly or color-treated hair)
+                                          <br />
+
+                                        </span>
+                                      </span>
+                                    </h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- /
+(headingTitle) -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section c165__section opt-lg-pt100 opt-md-pt100 opt-sm-pt100 productDetailTemplate__section__first is-background js-dm-bgimage is-bg--ignore-size is-paddingReset--topBottom is-fullWidth" data-src="/content/dam/sites/kaousa/www-kmshair-com/en/bg01.png?fmt=png-alpha,/content/dam/sites/kaousa/www-kmshair-com/en/bg02.png?fmt=png-alpha"
+        data-bgimg-org="/content/dam/sites/kaousa/www-kmshair-com/en/bg01.png,/content/dam/sites/kaousa/www-kmshair-com/en/bg02.png" data-width-org="1530,1701" data-height-org="1695,1701" style="background-repeat : no-repeat,no-repeat; background-position : top,top; background-size : auto,auto; background-image: url(/content/dam/sites/kaousa/www-kmshair-com/en/bg01.png), url(/content/dam/sites/kaousa/www-kmshair-com/en/bg02.png);"
+        data-background-size="auto,auto" id="common_section_wrapper_2">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column c165__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-ImageTextHP l-ImageTextHP is-layoutL c165__imageText is-smallViewVertical">
+                    <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                      <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-lg-w50p opt-md-w50p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c165-vi02.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w0p">
+                        <div class="g-HeadingTitle l-HeadingTitle c165__subtitle g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>MOISTREPAIR shampoo
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                          </p>
+                          <div class="g-HeadingTitle l-HeadingTitle c165__innerTitle g-HeadingTitle--h4 l-HeadingTitle--h4">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+                                    <span class="cmn-richtext">
+                                      <span>WHAT‘S SO SPECIAL ABOUT IT?
+                                      </span>
+                                    </span>
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="c165__list g-ListP l-ListP is-none">
+                            <ul class="g-ListP__ul l-ListP__ul">
+                              <li class="g-ListP__ul__item l-ListP__ul__item">
+                                <span class="c165__list__item g-ListUnit l-ListUnit">
+                                  <span class="cmn-richtext">
+                                    <span>
+                                      <span class="c165__list__marker">•</span>
+                                      <span class="c165__list__text">It‘s a more gentle way to wash your hair: it‘s a caring cleanser so there‘s less stress on your hair than with typical shampoo.</span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                              <li class="g-ListP__ul__item l-ListP__ul__item">
+                                <span class="c165__list__item g-ListUnit l-ListUnit">
+                                  <span class="cmn-richtext">
+                                    <span>
+                                      <span class="c165__list__marker">•</span>
+                                      <span class="c165__list__text">How is it different from a 2-in-1 shampoo?Instead of using a shampoo base, Cleansing Conditioner isbased on conditioning agents. Mild cleansing agents areadded, to clean your hair without stripping it dry (like a
+                                        2-in-1 shampoo can do).</span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                              <li class="g-ListP__ul__item l-ListP__ul__item">
+                                <span class="c165__list__item g-ListUnit l-ListUnit">
+                                  <span class="cmn-richtext">
+                                    <span>
+                                      <span class="c165__list__marker">•</span>
+                                      <span class="c165__list__text">It‘s perfect for hair that could use a little TLC: damaged,curly. coarse or color-treated hair.</span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="g-HeadingTitle l-HeadingTitle c165__innerTitle g-HeadingTitle--h4 l-HeadingTitle--h4">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+                                    <span class="cmn-richtext">
+                                      <span>HOW DO I USE IT?
+                                      </span>
+                                    </span>
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-Text l-Text c165__text">
+                            <p class="cmn-richtext">
+                              <span>It‘s an alternative to your conditioner--plus you skip the shampoo.Pump 2-3 pumps into palm (use more for longer hair), massage into wet hair and rinse. Nothing complicated here! Cleanses with less lather.
+                              </span>
+                            </p>
+                          </div>
+                          <div class="g-HeadingTitle l-HeadingTitle c165__innerTitle g-HeadingTitle--h4 l-HeadingTitle--h4">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+                                    <span class="cmn-richtext">
+                                      <span>WHAT‘S IN IT?
+                                      </span>
+                                    </span>
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-Text l-Text c165__text">
+                            <p class="cmn-richtext">
+                              <span>18-MEA, an essential water-repelling lipid found on the surface of healthy, strong hair. It‘s used in Cleansing Conditioner to help restore your hair‘s natural protective coating &amp; reduce breakage from styling.
+                              </span>
+                            </p>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section opt-pt70--imp productDetailTemplate__section__second is-background js-dm-bgimage is-bg--ignore-size" data-src="/content/dam/sites/kaousa/www-kmshair-com/en/bg01.png?fmt=png-alpha" data-bgimg-org="/content/dam/sites/kaousa/www-kmshair-com/en/bg01.png"
+        data-width-org="1530" data-height-org="1695" style="background-repeat : no-repeat; background-position : top; background-size : auto; background-image: url(/content/dam/sites/kaousa/www-kmshair-com/en/bg01.png);" data-background-size="auto" id="common_section_wrapper_3">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_3" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-3 g-Column__cols-md-3 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT c190__imageTextVP">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c190-bg01.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>C190 - 33% Lorem ipsumdolor sit amet
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text opt-al_c">
+                          <p class="cmn-richtext">
+                            <span>Jumpstart your look with style-prepping shampoos, conditioners and treat-ments.
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-ImageTextVP__contentsBlock__text__moreinfo l-ImageTextVP__contentsBlock__text__moreinfo">
+                          <div class="opt-al_c is-gutter--none g-ButtonP l-ButtonP js-uniformHeight is-equalWidth" data-uniform-target="g-ButtonP__list__item">
+                            <ul class="g-ButtonP__list l-ButtonP__list">
+
+                              <li class="g-ButtonP__list__item l-ButtonP__list__item g-ButtonP__list__item-lg-1 g-ButtonP__list__item-md-1 g-ButtonP__list__item-sm-1">
+                                <div class="g-ButtonUnit l-ButtonUnit is-colorset--1 is-size--m">
+                                  <a class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+                                    <span class="cmn-richtext">
+                                      <span>LOREM IPSUM
+                                      </span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-3 g-Column__cols-md-3 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT c190__imageTextVP">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c190-bg02.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>C190 - 33% Lorem ipsumdolor sit amet
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text opt-al_c">
+                          <p class="cmn-richtext">
+                            <span>Jumpstart your look with style-prepping shampoos, conditioners and treat-ments.
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-ImageTextVP__contentsBlock__text__moreinfo l-ImageTextVP__contentsBlock__text__moreinfo">
+                          <div class="opt-al_c is-gutter--none g-ButtonP l-ButtonP js-uniformHeight is-equalWidth" data-uniform-target="g-ButtonP__list__item">
+                            <ul class="g-ButtonP__list l-ButtonP__list">
+
+                              <li class="g-ButtonP__list__item l-ButtonP__list__item g-ButtonP__list__item-lg-1 g-ButtonP__list__item-md-1 g-ButtonP__list__item-sm-1">
+                                <div class="g-ButtonUnit l-ButtonUnit is-colorset--1 is-size--m">
+                                  <a class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+                                    <span class="cmn-richtext">
+                                      <span>LOREM IPSUM
+                                      </span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-3 g-Column__cols-md-3 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT c190__imageTextVP">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c190-bg02.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>C190 - 33% Lorem ipsumdolor sit amet
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text opt-al_c">
+                          <p class="cmn-richtext">
+                            <span>Jumpstart your look with style-prepping shampoos, conditioners and treat-ments.
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-ImageTextVP__contentsBlock__text__moreinfo l-ImageTextVP__contentsBlock__text__moreinfo">
+                          <div class="opt-al_c is-gutter--none g-ButtonP l-ButtonP js-uniformHeight is-equalWidth" data-uniform-target="g-ButtonP__list__item">
+                            <ul class="g-ButtonP__list l-ButtonP__list">
+
+                              <li class="g-ButtonP__list__item l-ButtonP__list__item g-ButtonP__list__item-lg-1 g-ButtonP__list__item-md-1 g-ButtonP__list__item-sm-1">
+                                <div class="g-ButtonUnit l-ButtonUnit is-colorset--1 is-size--m">
+                                  <a class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+                                    <span class="cmn-richtext">
+                                      <span>LOREM IPSUM
+                                      </span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="g-Column l-Column c155__column opt-lg-pt100--imp opt-md-pt100--imp opt-sm-pt0--imp js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_4" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle c155__title c090__title is-titleBorder--none g-HeadingTitle--h2 l-HeadingTitle--h2">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                            <span class="cmn-richtext">
+                              <span>salon finder
+                                <br />
+
+                              </span>
+                            </span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-ImageTextHP l-ImageTextHP is-layoutR c155__imageText is-middleViewVertical is-smallViewVertical">
+                    <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                      <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-lg-w50p opt-md-w50p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c155-vi01.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w0p">
+                        <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-subTitleBottom">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>C155 - Lorem ipsumFreedom of Style
+                                      <br />
+
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>For customer - oriented stylists who stand like the challenge to give the future their own ...
+                                    <br />
+
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>At vero eos et accusam et justo duo dolores et ea rebum.At vero eos et accusam et justo duo dolores et ea rebum.
+                              <br />
+
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-ImageTextHP__contentsBlock__text__moreinfo l-ImageTextHP__contentsBlock__text__moreinfo">
+                          <div class="c122__buttons is-gutter--none g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+                            <ul class="g-ButtonP__list l-ButtonP__list">
+
+                              <li class="g-ButtonP__list__item l-ButtonP__list__item">
+                                <div class="g-ButtonUnit l-ButtonUnit c122__button is-colorset--1 is-size--m">
+                                  <a href="#" target="_self" id="common_button_unit_20161130205033026_jh11" class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+                                    <span class="cmn-richtext">
+                                      <span>salon finder
+                                        <br />
+
+                                      </span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_5" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section opt-pt40--imp" id="common_section_wrapper_4">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column c150__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_6" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-HeadingTitle l-HeadingTitle c150__title c090__title is-titleBorder--none opt-hide-sm g-HeadingTitle--h2 l-HeadingTitle--h2">
+                    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                            <span class="cmn-richtext">
+                              <span>Lorem ipsum
+                              </span>
+                            </span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="g-ImageTextHP l-ImageTextHP is-layoutR c150__imageText is-smallViewVertical opt-lg-al_r opt-md-al_r">
+                    <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                      <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w0p">
+                        <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-subTitleBottom">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>C150 - 100% Lorem ipsum dolor sit amet
+                                      <br />
+
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">
+                                  <span>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet stet clita kasd gubergren.
+                                    <br />
+
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                              invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                              dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                              no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                              et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet consetetur sadipscing elitr.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-ImageTextHP__contentsBlock__text__moreinfo l-ImageTextHP__contentsBlock__text__moreinfo">
+                          <div class="c122__buttons is-gutter--none g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+                            <ul class="g-ButtonP__list l-ButtonP__list">
+
+                              <li class="g-ButtonP__list__item l-ButtonP__list__item">
+                                <div class="g-ButtonUnit l-ButtonUnit c122__button is-colorset--1 is-size--m">
+                                  <a href="#" target="_self" id="common_button_unit_20161130205239757_sbYB" class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+                                    <span class="cmn-richtext">
+                                      <span>Lorem ipsum
+                                      </span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="g-HeadingTitle l-HeadingTitle c150__title--sm c090__title is-titleBorder--none opt-hide-lg opt-hide-md g-HeadingTitle--h2 l-HeadingTitle--h2">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                                    <span class="cmn-richtext">
+                                      <span>Lorem ipsum
+                                      </span>
+                                    </span>
+                                  </h2>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-lg-w50p opt-md-w50p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c150-vi01.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section c165__section opt-lg-mt80 opt-md-mt80 opt-sm-mt80 is-paddingReset--topBottom" id="common_section_wrapper_5">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column c165__column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_7" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-ImageTextHP l-ImageTextHP is-layoutL c165__imageText is-smallViewVertical">
+                    <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                      <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-lg-w50p opt-md-w50p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c165-vi02.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-lg-w50p opt-md-w50p opt-sm-w0p">
+                        <div class="g-HeadingTitle l-HeadingTitle c165__subtitle g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>MOISTREPAIR shampoo
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                          </p>
+                          <div class="g-HeadingTitle l-HeadingTitle c165__innerTitle g-HeadingTitle--h4 l-HeadingTitle--h4">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+                                    <span class="cmn-richtext">
+                                      <span>WHAT‘S SO SPECIAL ABOUT IT?
+                                      </span>
+                                    </span>
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="c165__list g-ListP l-ListP is-none">
+                            <ul class="g-ListP__ul l-ListP__ul">
+                              <li class="g-ListP__ul__item l-ListP__ul__item">
+                                <span class="c165__list__item g-ListUnit l-ListUnit">
+                                  <span class="cmn-richtext">
+                                    <span>
+                                      <span class="c165__list__marker">•</span>
+                                      <span class="c165__list__text">It‘s a more gentle way to wash your hair: it‘s a caring cleanser so there‘s less stress on your hair than with typical shampoo.</span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                              <li class="g-ListP__ul__item l-ListP__ul__item">
+                                <span class="c165__list__item g-ListUnit l-ListUnit">
+                                  <span class="cmn-richtext">
+                                    <span>
+                                      <span class="c165__list__marker">•</span>
+                                      <span class="c165__list__text">How is it different from a 2-in-1 shampoo?Instead of using a shampoo base, Cleansing Conditioner isbased on conditioning agents. Mild cleansing agents areadded, to clean your hair without stripping it dry (like a
+                                        2-in-1 shampoo can do).</span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                              <li class="g-ListP__ul__item l-ListP__ul__item">
+                                <span class="c165__list__item g-ListUnit l-ListUnit">
+                                  <span class="cmn-richtext">
+                                    <span>
+                                      <span class="c165__list__marker">•</span>
+                                      <span class="c165__list__text">It‘s perfect for hair that could use a little TLC: damaged,curly. coarse or color-treated hair.</span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="g-HeadingTitle l-HeadingTitle c165__innerTitle g-HeadingTitle--h4 l-HeadingTitle--h4">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+                                    <span class="cmn-richtext">
+                                      <span>HOW DO I USE IT?
+                                      </span>
+                                    </span>
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-Text l-Text c165__text">
+                            <p class="cmn-richtext">
+                              <span>It‘s an alternative to your conditioner--plus you skip the shampoo.Pump 2-3 pumps into palm (use more for longer hair), massage into wet hair and rinse. Nothing complicated here! Cleanses with less lather.
+                              </span>
+                            </p>
+                          </div>
+                          <div class="g-HeadingTitle l-HeadingTitle c165__innerTitle g-HeadingTitle--h4 l-HeadingTitle--h4">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+                                    <span class="cmn-richtext">
+                                      <span>WHAT‘S IN IT?
+                                      </span>
+                                    </span>
+                                  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-Text l-Text c165__text">
+                            <p class="cmn-richtext">
+                              <span>18-MEA, an essential water-repelling lipid found on the surface of healthy, strong hair. It‘s used in Cleansing Conditioner to help restore your hair‘s natural protective coating &amp; reduce breakage from styling.
+                              </span>
+                            </p>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section opt-pt40--imp" id="common_section_wrapper_6">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_8" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+                  <div class="g-ImageTextVP l-ImageTextVP is-layoutT c190__imageTextVP is-singleColumn">
+                    <div class="g-ImageTextVP__contentsBlock l-ImageTextVP__contentsBlock">
+                      <div class="g-ImageTextVP__contentsBlock__image l-ImageTextVP__contentsBlock__image opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="/content/dam/sites/kaousa/www-kmshair-com/en/c190-bg03.png?fmt=png-alpha" class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+                          </p>
+                        </div>
+                      </div>
+                      <div class="g-ImageTextVP__contentsBlock__text l-ImageTextVP__contentsBlock__text">
+                        <div class="g-HeadingTitle l-HeadingTitle opt-al_c g-HeadingTitle--h3 l-HeadingTitle--h3">
+                          <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                            <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                              <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                  <span class="cmn-richtext">
+                                    <span>C190 - 33% Lorem ipsumdolor sit amet
+                                    </span>
+                                  </span>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-Text l-Text opt-al_c">
+                          <p class="cmn-richtext">
+                            <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+                              kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                              <br />
+
+                            </span>
+                          </p>
+                        </div>
+                        <div class="g-ImageTextVP__contentsBlock__text__moreinfo l-ImageTextVP__contentsBlock__text__moreinfo">
+                          <div class="opt-al_c is-gutter--none g-ButtonP l-ButtonP js-uniformHeight is-equalWidth" data-uniform-target="g-ButtonP__list__item">
+                            <ul class="g-ButtonP__list l-ButtonP__list">
+
+                              <li class="g-ButtonP__list__item l-ButtonP__list__item g-ButtonP__list__item-lg-1 g-ButtonP__list__item-md-1 g-ButtonP__list__item-sm-1">
+                                <div class="g-ButtonUnit l-ButtonUnit is-colorset--1 is-size--m">
+                                  <a class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+                                    <span class="cmn-richtext">
+                                      <span>LOREM IPSUM
+                                      </span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="g-Section l-Section" id="common_section_wrapper_7">
+        <div class="g-Section__inner l-Section__inner">
+          <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_9" data-uniform-target="g-ColumnUnit">
+            <div class="g-Column__inner l-Column__inner">
+
+              <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                <div class="g-ColumnUnit l-ColumnUnit">
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-Contents -->
+    <!-- area-BrFooter -->
+    <div class="g-Area" id="area-BrFooter">
+      <div class="g-BrFooter l-BrFooter">
+        <div class="g-BrFooter__inner l-BrFooter__inner">
+          <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+            <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+              <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+                <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                  <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+                    <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                      <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="g-BrFooter__infoBlock l-BrFooter__infoBlock">
+            <div>
+              <div class="c260">
+                <div class="c260__sns">
+                  <ul class="c260__sns__list">
+                    <li class="c260__sns__item">
+                      <a href="#" class="c260__sns__item__link">
+                        <span class="kms-icon kms-icon--fb"></span>
+                      </a>
+                    </li>
+                    <li class="c260__sns__item">
+                      <a href="#" class="c260__sns__item__link">
+                        <span class="kms-icon kms-icon--yt"></span>
+                      </a>
+                    </li>
+                    <li class="c260__sns__item">
+                      <a href="#" class="c260__sns__item__link">
+                        <span class="kms-icon kms-icon--tw"></span>
+                      </a>
+                    </li>
+                    <li class="c260__sns__item">
+                      <a href="#" class="c260__sns__item__link">
+                        <span class="kms-icon kms-icon--inst"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="c260__links">
+                  <ul class="c260__links__list">
+                    <li class="c260__links__item"><a href="#" class="c260__links__link">Imprint</a></li>
+                    <li class="c260__links__item"><a href="#" class="c260__links__link">Privacy Policy</a></li>
+                    <li class="c260__links__item"><a href="#" class="c260__links__link">Terms of use</a></li>
+                    <li class="c260__links__item"><a href="#" class="c260__links__link">Cookie Policy</a></li>
+                    <li class="c260__links__item"><a href="#" class="c260__links__link">FAQ</a></li>
+                  </ul>
+                </div>
+                <!-- <div class="g-Image l-Image c260__logo" style="position : relative;">
+ <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmshair-com/en/kao-logo.svg" class="cq-dd-image" style="width : 100%;"></p>
+</div>
+(image item) -->
+                <div class="g-Image l-Image c260__logo" style="position : relative;">
+                  <p class="g-Image__img l-Image__img">
+                    <img src="/content/dam/sites/kaousa/www-kmshair-com/en/kao-logo.svg" class="cq-dd-image" style="width : 100%;">
+                  </p>
+                </div>
+
+                <!-- /
+(image item) -->
+                <!-- C290 COUNTRY SELECTOR (Footer) -->
+                <div class="c290">
+                  <div class="c290__trigger">
+                    <div class="c290__trigger__inner">
+                      <a href="javascript:void(0);" class="c290__trigger__link js-c290">COUNTRY SELECTOR</a>
+                    </div>
+                  </div>
+                  <!-- toggle block -->
+                  <div class="c290__selector">
+                    <div class="c290__international__wrapper">
+                      <div class="c290__international">
+                        <a href="#" class="c290__international__link" target="_blank">INTERNATIONAL</a>
+                      </div>
+                    </div>
+                    <div class="c290__selector__wrapper">
+                      <div class="c290__selector__colgroup--md">
+                        <div class="c290__selector__colgroup--lg">
+                          <!-- AUSTRALIA -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">AUSTRALIA</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /AUSTRALIA -->
+                          <!-- BELGIUM -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="javascript:void(0);" class="js-langopen">BELGIUM</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                              <ul class="c290__selector__country__lang__list">
+                                <li class="c290__selector__country__lang__item"><a href="#" target="_blank">FR</a></li>
+                                <li class="c290__selector__country__lang__item"><a href="#" target="_blank">NL</a></li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <!-- /BELGIUM -->
+                          <!-- CANADA -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="javascript:void(0);" class="js-langopen">CANADA</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                              <ul class="c290__selector__country__lang__list">
+                                <li class="c290__selector__country__lang__item"><a href="#" target="_blank">EN</a></li>
+                                <li class="c290__selector__country__lang__item"><a href="#" target="_blank">FR</a></li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <!-- /CANADA -->
+                          <!-- DANMARK -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">DANMARK</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /DANMARK -->
+                          <!-- DEUTSCHLAND -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">DEUTSCHLAND</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /DEUTSCHLAND -->
+                        </div>
+                        <div class="c290__selector__colgroup--lg">
+                          <!-- FRANCE -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">FRANCE</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /FRANCE -->
+                          <!-- ITALIA -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">ITALIA</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /ITALIA -->
+                          <!-- NEDERLAND -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">NEDERLAND</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /NEDERLAND -->
+                          <!-- NEW ZEALAND -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">NEW ZEALAND</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /NEW ZEALAND -->
+                          <!-- NORGE -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">NORGE</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /NORGE -->
+                        </div>
+                      </div>
+                      <div class="c290__selector__colgroup--md">
+                        <div class="c290__selector__colgroup--lg">
+                          <!-- ÖSTERREICH -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">ÖSTERREICH</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /ÖSTERREICH -->
+                          <!-- POLSKA -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">POLSKA</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /POLSKA -->
+                          <!-- SOUTH AFRICA -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">SOUTH AFRICA</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /SOUTH AFRICA -->
+                          <!-- SUOMI -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">SUOMI</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /SUOMI -->
+                          <!-- SVERIGE -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">SVERIGE</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /SVERIGE -->
+                        </div>
+                        <div class="c290__selector__colgroup--lg">
+                          <!-- SWITZERLAND -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="javascript:void(0);" class="js-langopen">SWITZERLAND</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                              <ul class="c290__selector__country__lang__list">
+                                <li class="c290__selector__country__lang__item"><a href="#" target="_blank">DE</a></li>
+                                <li class="c290__selector__country__lang__item"><a href="#" target="_blank">FR</a></li>
+                                <li class="c290__selector__country__lang__item"><a href="#" target="_blank">IT</a></li>
+                              </ul>
+                            </dd>
+                          </dl>
+                          <!-- /SWITZERLAND -->
+                          <!-- UNITED KINGDOM -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">UNITED KINGDOM</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /UNITED KINGDOM -->
+                          <!-- UNITED STATES -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">UNITED STATES</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /UNITED STATES -->
+                          <!-- 台灣 -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">台灣</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /台灣 -->
+                          <!-- 香港特別行政區 -->
+                          <dl class="c290__selector__country">
+                            <dt class="c290__selector__country__name">
+                              <a href="#" target="_blank">香港特別行政區</a>
+                            </dt>
+                            <dd class="c290__selector__country__lang">
+                            </dd>
+                          </dl>
+                          <!-- /香港特別行政區 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /toggle block -->
+                </div>
+                <!-- /C290 COUNTRY SELECTOR (Footer) -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / area-BrFooter -->
+  </div>
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+  <!-- area-PageTop -->
+  <div class="g-Area" id="area-PageTop">
+    <div class="g-PageTop l-PageTop">
+      <a class="g-PageTop__link l-PageTop__link" href="#wrapper">ページ先頭へ戻る<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+    </div>
+  </div>
+  <!-- / area-PageTop -->
+
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

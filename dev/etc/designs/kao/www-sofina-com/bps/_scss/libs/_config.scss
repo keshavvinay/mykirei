@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*****************************
+  SOFINA config
+ *****************************/
+
+/*
+ setting（上書き禁止）
+ */
+$maxWidth_sm:  640px;
+$maxWidth_md: 1024px;
+$maxWidth_lg: 1336px;
+
+
+/*
+ variable
+ サイト、ページ別に上書きを許可する値
+ */
+
+//font
+// $fontFamily: Times New Roman, '游明朝', 'YuMincho', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'ＭＳ 明朝', serif;
+$fontFamily:  Times New Roman, '游明朝', 'YuMincho', 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', 'ＭＳ 明朝', serif;
+$fontFamily_Gothic: Helvetica, Arial, Verdana, '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+$fontFamily_Title: 'EB Garamond', serif;
+
+$fontSize_lv1:        36px;
+$fontSize_lv1_1:        32px;
+$fontSize_lv1_2:        30px;
+$fontSize_lv2:        28px;
+$fontSize_lv2_1:        24px;
+$fontSize_lv3:        22px;
+$fontSize_lv4:        20px;
+$fontSize_lv5:        18px;
+$fontSize_lv6:        16px;
+$fontSize_lv7:        14px;
+$fontSize_lv8:        12px;
+$fontSize_lv9:        9px;
+$fontSize_body:       16px;
+$fontSize_caption:    12px;
+
+$fontSize_sm_lv1:     24px;
+$fontSize_sm_lv1_1:     24px;
+$fontSize_sm_lv1_2:     20px;
+$fontSize_sm_lv2:     22px;
+$fontSize_sm_lv2_1:     20px;
+$fontSize_sm_lv3:     18px;
+$fontSize_sm_lv4:     20px;
+$fontSize_sm_lv5:     16px;
+$fontSize_sm_lv6:     16px;
+$fontSize_sm_lv7:     14px;
+$fontSize_sm_body:    14px;
+$fontSize_sm_caption: 12px;
+
+$lineHeight_lv1:     1.2;
+$lineHeight_lv1_1:     1.2;
+$lineHeight_lv1_2:     1.2;
+$lineHeight_lv2:     1.2;
+$lineHeight_lv2_1:   1.2;
+$lineHeight_lv3:     1.2;
+$lineHeight_lv4:     1.2;
+$lineHeight_lv5:     1.2;
+$lineHeight_lv6:     1.2;
+$lineHeight_lv7:     1.2;
+$lineHeight_body:    1.6;
+$lineHeight_caption: 1.4;
+
+
+//color
+$colorGray_1: #000;
+$colorGray_2: #333;
+$colorGray_3: #666;
+$colorGray_4: #999;
+$colorGray_5: #ccc;
+$colorGray_6: #eee;
+$colorGray_7: #f2f2f2;
+$colorGray_8: #fff;
+$colorGray_9: #dedede;
+
+$colorLink: #e50d53;
+$colorLink_hover: #e50d53;
+$colorLink_visited: #e50d53;
+$colorDisabled: #999;
+$colorNotice: #f5cc00;
+$colorWarning: #ea0000;
+$colorAction_1: #e50d53;
+$colorAction_2: #e50d53;
+$colorAction_3: #e50d53;
+
+$colorFont_dark:  #333;
+$colorFont_dark2: #e50d53; //追加
+$colorFont_light: #fff;
+$colorLine_dark:  #ccc;
+$colorLine_light: #fff;
+$colorIcon_dark:  #007caa;
+$colorIcon_dark2: #cca029; //追加
+$colorIcon_light: #fff;
+
+$colorMain_01: #cca029; //追加
+$colorMain_02: #e50d53; //追加
+$colorMain_03: #5e170e; //追加
+$colorSub_01:  #f5eabc; //追加
+$colorSub_02:  #fff8da; //追加
+
+
+//link
+$linkHoverOpacity: .7;
+
+
+//margin
+$marginSectionButtom_lg: 0px;
+$marginSectionButtom_md: 0px;
+$marginSectionButtom_sm: 0px;
+

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+/* Image ================================================== */
+.g-Map {
+  display: block;
+  margin-bottom: 8px;
+}
+.g-Map__inner {
+  text-align: left;
+}
+
+.g-Map__appLink {
+  display: inline-block;
+  position: relative;
+  padding-left: 1.5em;
+  margin-top: 6px;
+  .cmn-richtext {
+    display: inline-block;
+  }
+  
+}
+.g-Map__appLink__icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: -0.1em;
+}
+
+.g-Map__infoWindow {
+  //padding: 12px 28px 11px 9px;
+  padding: 12px 10px 11px 9px;
+}
+.g-Map__infoWindow__title {
+  margin: 0 0 5px;
+}
+.g-Map__infoWindow__text {
+  margin: 0;
+}

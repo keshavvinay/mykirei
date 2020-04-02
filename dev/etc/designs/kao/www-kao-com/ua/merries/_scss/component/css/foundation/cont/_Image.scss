@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+/* Image ================================================== */
+.l-Image {
+  &.is-link {
+    @include link();
+    @include areaLink();
+  }
+}
+.l-Image__caption {
+  @include fontSize(caption);
+}
+
+.l-Image__link {
+  @include link();
+}

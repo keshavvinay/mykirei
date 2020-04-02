@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+@import "compass";
+@import "libs/config";
+@import "libs/mixin";
+@import "libs/icon";
+@import "layer/Area";
+@import "section/Section";
+@import "layoutcolumn/Column";
+@import "grouping/GroupBox";
+@import "grouping/AccordionMenu";
+@import "items/PageTitle";
+@import "items/HeadingTitle";
+@import "items/Text";
+@import "items/Image";
+@import "items/Movie";
+@import "items/TelephoneCallItem";
+@import "items/LinkButton";
+@import "items/Hr";
+@import "items/SocialSharing";
+@import "packs/ImageTextVP";
+@import "packs/ImageTextHP";
+@import "packs/MovieTextVP";
+@import "packs/MovieTextHP";
+@import "packs/ListP";
+@import "packs/QAP";
+@import "packs/AnnotationListP";
+@import "packs/LabelTagP";
+@import "packs/TileLinkVP";
+@import "packs/TileLinkHP";
+@import "packs/TileLinkTextP";
+@import "packs/BannerLinkP";
+@import "packs/LinksButtonsP";
+@import "packs/NewsIndexP";
+@import "packs/FullwidthVisualsCarouselP";
+
+
+/* ブレークポイント判定用 */
+#js-breakpoint--lg {
+  display: none;
+  @include bp(lg) {
+    display: block;
+  }
+}
+#js-breakpoint--md {
+  display: none;
+  @include bp(md) {
+    display: block;
+  }
+}
+#js-breakpoint--sm {
+  display: none;
+  @include bp(sm) {
+    display: block;
+  }
+}
+
+
+/* common */
+.cmn-richtext {
+  margin: 0;
+  word-wrap: break-word;
+  p, ul, ol {
+    margin: 0;
+  }
+  a {
+    @include link();
+  }
+}
+
+.g-Section,
+.g-Column,
+.g-ColumnUnit,
+.g-GroupBox {
+  // &.is-border {
+  // }
+  &.is-border--solid {
+    border-style: solid;
+  }
+  &.is-border--dot {
+    border-style: dotted;
+  }
+  &.is-border--top {
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &.is-border--bottom {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  &.is-border--topBottom {
+    border-left: none;
+    border-right: none;
+  }
+
+  &.is-borderWidth--s {
+    border-width: $borderWidthBox_s;
+  }
+  &.is-borderWidth--m {
+    border-width: $borderWidthBox_m;
+  }
+  &.is-borderWidth--l {
+    border-width: $borderWidthBox_l;
+  }
+
+  &.is-borderColor--1 {
+    border-color: $colorBorderBox_1;
+  }
+  &.is-borderColor--2 {
+    border-color: $colorBorderBox_2;
+  }
+  &.is-borderColor--3 {
+    border-color: $colorBorderBox_3;
+  }
+  &.is-borderColor--4 {
+    border-color: $colorBorderBox_4;
+  }
+  &.is-borderColor--5 {
+    border-color: $colorBorderBox_5;
+  }
+  &.is-borderColor--6 {
+    border-color: $colorBorderBox_6;
+  }
+  &.is-borderColor--7 {
+    border-color: $colorBorderBox_7;
+  }
+  // &.is-background {
+  // }
+  &.is-backgroundColor--1 {
+    background-color: $colorBackgroundBox_1;
+  }
+  &.is-backgroundColor--2 {
+    background-color: $colorBackgroundBox_2;
+  }
+  &.is-backgroundColor--3 {
+    background-color: $colorBackgroundBox_3;
+  }
+  &.is-backgroundColor--4 {
+    background-color: $colorBackgroundBox_4;
+  }
+  &.is-backgroundColor--5 {
+    background-color: $colorBackgroundBox_5;
+  }
+  &.is-backgroundColor--6 {
+    background-color: $colorBackgroundBox_6;
+  }
+  &.is-backgroundColor--7 {
+    background-color: $colorBackgroundBox_7;
+  }
+}

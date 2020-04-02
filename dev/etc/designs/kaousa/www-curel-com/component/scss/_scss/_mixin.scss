@@ -1,0 +1,22 @@
+@mixin curel-product-detail($theme-color){
+    .g-ProductDetailTemplate {
+        .g-ProductDetailUnit{
+            h1.g-PageTitle__h1{
+                color:$theme-color;
+            }
+            .g-PageTitle .g-Text{
+                color:$theme-color;   
+            }
+        }
+    }
+}
+
+@mixin curel-product-landing($theme-color){
+    
+    .g-ProductListingTitle a{
+        color:$theme-color;
+    }
+    .g-ProductListingSubTitle .g-Text{
+        color:$theme-color;
+    }
+}

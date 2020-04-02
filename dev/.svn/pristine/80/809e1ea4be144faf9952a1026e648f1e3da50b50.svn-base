@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* C450 COOKIE BAR */
+.c450__cookieBar {
+  display: none;
+  width: 100%;
+  background-color: #FFF;
+  .l-Section__inner {
+    padding: 30px 15px;
+  }
+  &.is-visible {
+    display: block;
+  }
+}
+
+.c450__cookieBar__inner {
+  .c450__text {
+    color: #000;
+    @include kms-fontFamily(body);
+    letter-spacing: normal;
+    @include kms-fontSize(longcopy);
+    a {
+      color: #7a7b75;
+      &:hover {
+        color: #fe5000;
+      }
+    }
+  }
+}
+
+.c450__buttons {
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+.c450__button {
+  background-color: #fff;
+  &.is-colorset--1 {
+    .l-ButtonUnit__link {
+      border: 1px solid #000;
+    }
+  }
+}
+
+.c450__title {
+  color: #FE5000;
+  margin-bottom: 30px;
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }
+}
+
+
+/* c450x Overlay Type */
+
+.c450x__cookieBar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.25);
+  z-index: 9999999;
+  .is-authorring & {
+    display: block;
+    position: relative;
+  }
+}
+.c450x__cookieBar__box--confirm,
+.c450x__cookieBar__box--nopage {
+  display: none;
+  position: relative;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  top: 50%;
+  @include translateY(-50%);
+  width: 100%;
+  border: solid 1px #352e1b;
+  background-color: #fff;
+  @include bp(sm) {
+    padding: 50px 20px;
+  }
+  .is-authorring & {
+    display: block;
+    top: 0;
+    transform: translateY(0);
+  }
+
+  .c450x__cookieBar__box__logo {
+    margin: 0 auto 15px;
+    width: 70px;
+  }
+  .l-HeadingTitle {
+    margin-bottom: 25px;
+  }
+  .l-HeadingTitle .l-HeadingTitle__h3 {
+    @include kms-fontSize(headline3);
+    text-align: center;
+  }
+  .c450x__text {
+    margin-bottom: 25px;
+    text-align: center;
+    a {
+      color: #7a7b75;
+      &:hover {
+        color: #fe5000;
+      }
+    }
+  }
+  .l-ButtonP {
+    text-align: center;
+    .l-ButtonP__list__item:not(:first-child) {
+      margin-left: 10px;
+    }
+    .l-ButtonUnit__link {
+      width: 95px;
+    }
+  }
+}
+.c450x__cookieBar__box--confirm {
+  // max-width: 940px;
+  max-width: 840px;
+}
+.c450x__cookieBar__box--nopage {
+  // max-width: 1100px;
+  max-width: 940px;
+  .c450x__text {
+    margin: 0 auto;
+    max-width: 750px;
+  }
+}
+
+.c450x__cookieButtons {
+  display: none;
+  .is-authorring & {
+    display: block;
+  }
+}

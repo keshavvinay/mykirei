@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+/* Text ================================================== */
+.l-Text {
+  @include fontSize(body);
+  margin-bottom: 8px;
+  &.is-background {
+    padding: 20px;
+  }
+}
+
+
+/* modifer sample ==================================================*/
+.l-Text--sample1 {
+  color: #ccc;
+  @include fontSize(caption);
+}
+
+.l-Text--sample2 {
+  padding: 10px;
+  @include lineFrame(solid, m);
+}
+
+.l-Text--sample3 {
+  position: relative;
+  padding: 20px;
+  background-color: #eee;
+  @include borderRadius(l);
+  @include shadow(downward, s);
+  &:before {
+    content: '';
+    position: absolute;
+    border-bottom: 12px solid #eee;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    top: -11px;
+    left: 25px;
+  }
+}

@@ -1,0 +1,43 @@
+.g-ButtonP {
+    margin-bottom: 15px;
+  .g-ButtonP__list {
+      margin: 0; 
+      .g-ButtonP__list__item {
+          padding: 0 5px;
+      }
+    .g-ButtonP__list__item .g-ButtonUnit__link {
+      font-family: $avenir-medium;
+      padding: 10px 30px 10px 30px;
+      font-size: 14px;
+      text-decoration: none;
+      border-collapse: collapse;
+      border-width: 2px;
+      text-transform: uppercase;
+      position: relative;
+      margin: 5px 0;
+      border-radius: 0;
+      cursor: pointer;
+      display: inline-block;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      background: transparent;
+      border-color: $solid-black;
+      color: $solid-black;
+      &:hover, &:active {
+        color: $solid-white;
+        background-color: $solid-black;
+        border-color: $solid-black;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        transition: all .5s ease;
+        outline: 0;
+        outline-offset: 0;
+      }
+    }
+  }
+}

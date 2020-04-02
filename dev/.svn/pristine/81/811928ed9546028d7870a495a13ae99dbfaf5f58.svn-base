@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/*****************************
+  SOFINA config
+ *****************************/
+
+/*
+ setting（上書き禁止）
+ */
+$maxWidth_sm:  640px;
+$maxWidth_md: 1024px;
+$maxWidth_lg: 1336px;
+
+
+/*
+ variable
+ サイト、ページ別に上書きを許可する値
+ */
+//font
+$fontFamily: Helvetica, Arial, Verdana, '宋体', SimSun, '华文细黑', STXihei, sans-serif;
+
+
+$fontSize_lv1:        36px;
+$fontSize_lv2:        28px;
+$fontSize_lv3:        22px;
+$fontSize_lv4:        20px;
+$fontSize_lv5:        18px;
+$fontSize_lv6:        16px;
+$fontSize_lv7:        14px;
+$fontSize_lv8:        12px;
+$fontSize_lv9:        9px;
+$fontSize_body:       16px;
+$fontSize_caption:    12px;
+
+$fontSize_sm_lv1:     24px;
+$fontSize_sm_lv2:     22px;
+$fontSize_sm_lv3:     18px;
+$fontSize_sm_lv4:     20px;
+$fontSize_sm_lv5:     16px;
+$fontSize_sm_lv6:     16px;
+$fontSize_sm_lv7:     14px;
+$fontSize_sm_body:    14px;
+$fontSize_sm_caption: 12px;
+
+$lineHeight_lv1:     1.2;
+$lineHeight_lv2:     1.2;
+$lineHeight_lv3:     1.2;
+$lineHeight_lv4:     1.2;
+$lineHeight_lv5:     1.2;
+$lineHeight_lv6:     1.2;
+$lineHeight_lv7:     1.2;
+$lineHeight_body:    1.6;
+$lineHeight_caption: 1.4;
+
+
+//color
+$colorGray_1: #000;
+$colorGray_2: #333;
+$colorGray_3: #666;
+$colorGray_4: #999;
+$colorGray_5: #ccc;
+$colorGray_6: #eee;
+$colorGray_7: #f2f2f2;
+$colorGray_8: #fff;
+$colorGray_9: #dedede;
+
+$colorLink: #333;
+$colorLink_hover: #a9a9a9;
+$colorLink_visited: #333;
+$colorDisabled: #999;
+$colorNotice: #f5cc00;
+$colorWarning: #ea0000;
+$colorAction_1: #fff;
+$colorAction_1_hover: #f9f9f9; //追加
+$colorAction_2: #eefbfb;
+$colorAction_2_hover: #dbf1f8; //追加
+$colorAction_3: #e50d53;
+$colorIcon: #777;
+
+$colorFont_dark:  #333;
+$colorFont_light: #fff;
+$colorLine_dark:  #ccc;
+$colorLine_light: #fff;
+$colorIcon_dark:  #007caa;
+$colorIcon_light: #fff;
+
+$colorBody: #fff; //追加
+$colorBody_2: #eefbfb; //追加
+
+
+//link
+$linkHoverOpacity: 1;
+
+
+//margin
+$marginSectionButtom_lg: 0px;
+$marginSectionButtom_md: 0px;
+$marginSectionButtom_sm: 0px;
+
+
+//imagePath

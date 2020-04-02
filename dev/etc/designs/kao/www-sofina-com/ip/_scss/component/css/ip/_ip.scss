@@ -1,0 +1,579 @@
+@charset "utf-8";
+
+/* iP ============================== */
+body {
+  background-color: $colorGray_8;
+}
+
+////////////////////////////////////
+//
+// メインビジュアル
+//
+////////////////////////////////////
+
+.ip-mainVisual__section {
+  background-color: $colorMain_07;
+  .g-Section__inner {
+    position: relative;
+    max-width: 1280px;
+    padding: 0;
+    .ip-mainVisual__shop-button {
+      display: none;
+    }
+  }
+  // バナー
+  .ip-banner__block {
+    @include bp(lg) {
+      position: absolute;
+      top: 47%;
+      right: 10%;
+      width: 18%;
+    }
+    @include bp(md) {
+      display: none;
+    }
+    @include bp(sm) {
+      display: none;
+    }
+    .g-Image:first-child {
+      padding-bottom: 20px;
+      margin: 0 auto;
+      width: 128px;
+    }
+    .g-Image:nth-child(2) {
+      margin-bottom: 10px;
+      @include bp(md) {
+        padding-right: 20px;
+      }
+    }
+  }
+  // sp版バナー
+  .ip-banner__block--sp {
+    @include bp(lg) {
+      display: none;
+    }
+    overflow: hidden;
+    margin-bottom: 18px;
+    padding: 0 3%;
+    width: 94%;
+    @include bp(md) {
+      margin: 0 auto;
+      width: 470px;
+      margin-bottom: 10px;
+    }
+    .g-Image:first-child {
+      padding-top: 15px;
+      padding-bottom: 10px;
+      margin: 0 auto;
+      width: 40%;
+      @include bp(sm) {
+        width: 118px;
+        height: 13px;
+      }
+    }
+    .g-Image:nth-child(n+2) {
+      float: left;
+      width: 47%;
+    }
+    .g-Image:nth-child(2) {
+      margin-right: 6%;
+    }
+  }
+}
+.ip-mainVisual__shop-button {
+  .l-LinkButton__link {
+    display: block;
+    height: 46px;
+    line-height: 26px;
+    color: #fff;
+    position: relative;
+    background-color: #3885b1;
+    .cmn-richtext {
+      padding: 0;
+      @media all and (-ms-high-contrast:none) {
+        line-height: 30px;
+      }
+    }
+    .l-LinkButton__link__icon {
+      right: 10px;
+      margin-top: 0;
+      &:before {
+        @include link_arrow($colorLink_ip, #ecf9fc, 20);
+      }
+    }
+  }
+}
+.ip-mainVisual {
+  display: none;
+  margin: 0;
+  &.ip-mainVisual--sp {
+    display: block;
+  }
+  @include bp(md) {
+    display: block;
+    &.ip-mainVisual--sp {
+      display: none;
+    }
+  }
+  @include bp(lg) {
+    display: block;
+    &.ip-mainVisual--sp {
+      display: none;
+    }
+  }
+}
+
+
+.ip-drink__lead__message {
+  margin-right: 30px;
+  .is-link {
+    .l-LinkButton__link:link, .l-LinkButton__link:visited {
+      color: $colorFont_dark;
+    }
+  }
+  .l-LinkButton__link:link, .l-LinkButton__link:visited {
+    display: block;
+    position: relative;
+    padding: 14px 30px 14px 20px;
+    background-color: $colorMain_06;
+    @include fontSizeNum(16);
+    line-height: 1.5;
+    color: $colorFont_dark;
+    text-decoration: none;
+    &:after {
+      @include link_arrow_2($colorLink_ip, $colorGray_8);
+      right: 10px;
+    }
+  }
+  @include bp(lg) {
+    display: none;
+  }
+  @include bp(sm) {
+    margin-right: 0;
+    .l-LinkButton__link:link, .l-LinkButton__link:visited {
+      @include fontSizeNum(14);
+      padding: 11px 26px 11px 10px;
+    }
+  }
+}
+.ip-drink__lead__message__link-text {
+  @include fontSizeNum(16);
+  display: block;
+  small {
+    @include fontSizeNum(14);
+  }
+  @include bp(sm) {
+    @include fontSizeNum(14);
+    small {
+      @include fontSizeNum(12);
+    }
+  }
+}
+.ip-drink__lead__message__link-text__strong {
+  @include fontSizeNum(18);
+  color: $colorLink_ip;
+  border-bottom: 1px solid $colorLink_ip;
+  @include bp(sm) {
+    @include fontSizeNum(16);
+  }
+}
+
+
+
+////////////////////////////////////
+//
+// bpsへのリンク
+//
+////////////////////////////////////
+
+.ip-top__shop__section {
+  background-color: $colorMain_06;
+  .g-Section__inner {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    @include bp(sm) {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+  }
+  @include bp(lg) {
+    display: none;
+  }
+}
+.ip-top__shop-link {
+  display: block;
+  position: relative;
+  color: $colorFont_dark;
+  text-decoration: none;
+  text-align: left;
+  .ip-top__shop-link__est {
+    width: 53px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 4px 0 0;
+  }
+  .ip-top__shop-link__bps {
+    width: 320px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 0 10px;
+  }
+  &:after {
+    @include link_arrow($colorLink_ip, #fff);
+  }
+  @include bp(lg) {
+    font-family: $fontFamily_Mincho;
+    &:hover {
+      @include opacity($linkHoverOpacity);
+    }
+  }
+  @include bp(md) {
+    font-family: $fontFamily_Mincho;
+  }
+  @include bp(sm) {
+    .ip-top__shop-link__est {
+      width: 34px;
+      margin-top: 2px;
+    }
+    .ip-top__shop-link__bps {
+      display: block;
+      width: 180px;
+      margin-bottom: 8px;
+    }
+    .ip-top__text__shop-link {
+      display: block;
+      margin-bottom: 6px;
+    }
+  }
+}
+.ip-top__text__shop-link {
+  @include fontSizeNum(20);
+  line-height: 1.2;
+  margin: 0 10px;
+  small {
+    @include fontSizeNum(16);
+    vertical-align: baseline;
+  }
+  @include bp(md) {
+    margin-left: 0;
+  }
+  @include bp(sm) {
+    margin-left: 0;
+    @include fontSizeNum(14);
+    small {
+      @include fontSizeNum(11);
+    }
+  }
+}
+.ip-top__text__shop-link__strong {
+  display: inline-block;
+  @include fontSizeNum(28);
+  line-height: 1.2;
+  color: $colorLink_ip;
+  border-bottom: 1px solid $colorLink_ip;
+  @include bp(sm) {
+    @include fontSizeNum(18);
+  }
+}
+
+
+////////////////////////////////////
+//
+// lineup
+//
+////////////////////////////////////
+.ip-top__lineup__tileLink {
+  .l-TileLinkHP__list__tile {
+    padding: 12px 10px;
+  }
+}
+.ip-top__lineup__link__item {
+  @extend %tileLinkReset;
+  position: relative;
+  border: 1px solid;
+  padding: 40px 20px 0 0;
+  &:after {
+    display: block;
+    position: absolute;
+    width: 80px;
+    line-height: 30px;
+    left: 10px;
+    top: 10px;
+    background-color: #ecf9fc;
+    text-align: center;
+    @include fontSizeNum(14);
+    color: $colorLink_ip;
+  }
+  .l-TileLinkHUnit__leadBlock__title {
+    display: block;
+    .l-Text {
+      padding: 0;
+      p {
+        @include clearfix;
+        height: 0;
+      }
+      white-space: nowrap;
+      overflow: hidden;
+      text-indent: -9999px;
+      background-size: 100% 100%;
+    }
+  }
+  &.ip-top__lineup__link__mousse {
+    .l-TileLinkHUnit__leadBlock__title {
+      .l-Text {
+        width: 243px;
+        height: 123px;
+        margin: 0 0 25px;
+      }
+    }
+    &:after {
+      content: "化粧品";
+    }
+  }
+  &.ip-top__lineup__link__drink {
+    .l-TileLinkHUnit__leadBlock__title {
+      .l-Text {
+        width: 351px;
+        height: 104px;
+        margin: 0 0 25px;
+      }
+    }
+    .l-TileLinkHUnit__imageBlock {
+      margin-top: 124px;
+    }
+    &:after {
+      content: "飲料";
+    }
+  }
+  .l-TileLinkHUnit__imageBlock {
+    display: block;
+    position: relative;
+    z-index: 1;
+    float: right;
+    padding-right: 0;
+    width: 158px;
+    vertical-align: bottom;
+  }
+  .l-TileLinkHUnit__leadBlock {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    float: left;
+    padding-right: 0;
+    vertical-align: top;
+    margin-top: 14px;
+    margin-right: -80px;
+  }
+  .l-TileLinkHUnit__leadBlock__lead {
+    display: inline-block;
+    padding-right: 44px;
+    position: relative;
+    margin-left: 45px;
+    line-height: 1.5;
+    font-family: $fontFamily_Gothic;
+    .l-Text {
+      @include fontSizeNum(20);
+      margin: 0;
+    }
+    &:after {
+      @include link_arrow($colorLink_ip, $colorMain_05);
+    }
+  }
+  &.is-colorset--1 {
+    border-color: #54b4c8;
+  }
+  @include bp(md) {
+    width: 470px;
+    margin: 0 auto;
+    &.ip-top__lineup__link__drink {
+      .l-TileLinkHUnit__leadBlock__title {
+        .l-Text {
+          margin: 0 -65px 35px 0;
+        }
+      }
+    }
+  }
+  @include bp(sm) {
+    width: 300px;
+    margin: 0 auto;
+    padding-right: 5px;
+    .l-TileLinkHUnit__leadBlock {
+      margin-top: 0;
+    }
+    .l-TileLinkHUnit__imageBlock {
+      width: 83px;
+    }
+    &.ip-top__lineup__link__mousse {
+      .l-TileLinkHUnit__leadBlock__title {
+        .l-Text {
+          width: 151px;
+          height: 77px;
+          margin: 0 0 16px;
+        }
+      }
+    }
+    &.ip-top__lineup__link__drink {
+      .l-TileLinkHUnit__imageBlock {
+        margin-top: 20px;
+      }
+      .l-TileLinkHUnit__leadBlock {
+        margin-right: -80px;
+      }
+      .l-TileLinkHUnit__leadBlock__title {
+        .l-Text {
+          width: 217px;
+          height: 65px;
+          margin: 0 -0 16px;
+        }
+      }
+    }
+    .l-TileLinkHUnit__leadBlock__lead {
+      display: inline-block;
+      padding-right: 26px;
+      position: relative;
+      margin-left: 30px;
+      .l-Text {
+        @include fontSizeNum(14);
+      }
+    }
+    &:after {
+      left: 5px;
+      top: 5px;
+      width: 60px;
+      line-height: 25px;
+      @include fontSizeNum(12);
+    }
+  }
+}
+
+
+////////////////////////////////////
+//
+// sofina iPに込めた想い
+//
+////////////////////////////////////
+
+.ip-top__passion__section {
+  background-color: $colorMain_05;
+}
+.ip-top__passion__title {
+  &.l-HeadingTitle {
+    border-bottom: 1px solid $colorLine_01;
+    margin-bottom: 12px;
+    .l-HeadingTitle__h2 {
+      @include fontSizeNum(24);
+      line-height: 1.58;
+      font-weight: normal;
+      font-family: $fontFamily_Mincho;
+      margin-bottom: 2px;
+      @include bp(sm) {
+        @include fontSizeNum(18);
+        font-family: $fontFamily;
+        margin-bottom: 5px;
+      }
+      .cmn-richtext {
+        small {
+          @include fontSizeNum(14);
+          vertical-align: baseline;
+          font-family: $fontFamily_Gothic;
+          margin-left: 15px;
+          @include bp(sm) {
+            margin-left: 0;
+            display: block;
+            @include fontSizeNum(14);
+          }
+        }
+      }
+    }
+  }
+}
+.ip-top__passion__tileLink {
+  .l-TileLinkHP__list__tile {
+    padding-bottom: 0;
+  }
+}
+.ip-top__passion__link__item {
+  @extend %tileLinkReset;
+  font-family: $fontFamily_Gothic;
+  border: none;
+  background-color: transparent;
+  .l-TileLinkHUnit__leadBlock {
+    position: relative;
+    &:after {
+      @include link_arrow($colorLink_ip, #fff);
+      right: auto;
+      left: 253px;
+    }
+  }
+  .l-TileLinkHUnit__leadBlock__title {
+    width: 253px;
+    @include fontSizeNum(16);
+    color: $colorLink_ip;
+    font-weight: normal;
+    br {
+      display: none;
+    }
+  }
+  .l-TileLinkHUnit__leadBlock__lead {
+    width: 253px;
+    .l-Text {
+      @include fontSizeNum(14);
+      line-height: 1.5;
+    }
+  }
+  &.is-colorset--1 {
+    background-color: transparent;
+  }
+
+  @include bp(md) {
+    .l-TileLinkHUnit__imageBlock {
+      width: 18%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .l-TileLinkHUnit__leadBlock {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 40px;
+      &:after {
+        left: auto;
+        right: 0;
+      }
+    }
+    .l-TileLinkHUnit__leadBlock__title {
+      width: auto;
+      br {
+        display: none;
+      }
+    }
+    .l-TileLinkHUnit__leadBlock__lead {
+      width: auto;
+    }
+  }
+
+  @include bp(sm) {
+    .l-TileLinkHUnit__imageBlock {
+      width: 26%;
+    }
+    .l-TileLinkHUnit__leadBlock {
+      &:after {
+        left: auto;
+        right: 0;
+      }
+    }
+    .l-TileLinkHUnit__leadBlock__title {
+      width: auto;
+      @include fontSizeNum(14);
+      br {
+        display: inline;
+      }
+    }
+    .l-TileLinkHUnit__leadBlock__lead {
+      width: auto;
+      .l-Text {
+        @include fontSizeNum(12);
+      }
+    }
+  }
+}

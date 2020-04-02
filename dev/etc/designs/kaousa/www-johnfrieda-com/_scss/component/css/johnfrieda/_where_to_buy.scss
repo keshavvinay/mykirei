@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+/*where_to_buy*/
+
+.jf-where_to_buy {
+	background: #b7b7b7;
+	padding-bottom: 3.125rem;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	.l-HeadingTitle__h2 {
+		@include bp(lg) {
+			font-size: 1.875rem;
+			padding: 36px 10px 15px 10px;
+		}
+		@include bp(md) {
+			padding: 28px 10px 12px 10px;
+		}
+		@include bp(sm) {
+			padding: 42px 10px 12px 10px;
+		}
+		font-weight: 400;
+		letter-spacing: 0;
+		font-size: 1.5rem;
+		text-align: center;
+		margin: 0;
+	}
+	.l-HeadingTitle.l-HeadingTitle--h2 {
+		margin-bottom: 0;
+	}
+	.l-BannerLinkP {
+		overflow: hidden;
+		max-width: 1140px;
+		margin: 0 auto;
+		max-height: 120px;
+		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+		.is-authorring & {
+			overflow: visible;
+			max-height: 100%;
+		}
+	}
+	.l-TextLinkP__list {
+		bottom: 30px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.l-TextLinkUnit__link {
+		display: inline-block;
+		font-size: 0.875rem;
+		letter-spacing: 0.100em;
+		position: relative;
+		cursor: pointer;
+	}
+	.l-BannerLinkP__list {
+		@include bp(md) {
+			width: 600px;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-align: center;
+			margin: 0 auto !important;
+		}
+		.l-BannerLinkP__list__item {
+			@include bp(lg) {
+				padding: 7% 0;
+				display: inline-block;
+				-ms-flex: 1;
+				flex: 1;
+				-ms-flex-preferred-size: 50%;
+				flex-basis: 25%;
+				width: 25%;
+				max-width: 25%;
+				-ms-flex-pack: center;
+				justify-content: center;
+				position: relative;
+				.l-Image {
+					cursor: pointer;
+					height: 100%;
+				}
+				.l-Image__img {
+					margin: 0;
+					position: absolute;
+					display: block;
+					width: 55%;
+					top: 50%;
+					left: 50%;
+					-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+					-webkit-transform: translate(-50%, -50%);
+					.is-authorring & {
+						position: relative;
+					}
+				}
+			}
+			@include bp(md) {
+				padding: 55px 0;
+				display: inline-block;
+				-ms-flex: 1;
+				flex: 1;
+				-ms-flex-preferred-size: 50%;
+				flex-basis: 25%;
+				width: 25%;
+				max-width: 25%;
+				-ms-flex-pack: center;
+				justify-content: center;
+				position: relative;
+				.l-Image {
+					cursor: pointer;
+					height: 100%;
+				}
+				.l-Image__img {
+					margin: 0;
+					position: absolute;
+					display: block;
+					width: 70%;
+					top: 50%;
+					left: 50%;
+					-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+					-webkit-transform: translate(-50%, -50%);
+					.is-authorring & {
+						position: relative;
+					}
+				}
+			}
+			@include bp(sm) {
+				display: inline-block;
+				-ms-flex: 1;
+				flex: 1;
+				-ms-flex-preferred-size: 50%;
+				flex-basis: 50%;
+				width: 50%;
+				max-width: 50%;
+				-ms-flex-pack: center;
+				justify-content: center;
+				position: relative;
+				height: 7.5rem !important;
+				.l-Image {
+					cursor: pointer;
+					height: 100%;
+				}
+				.l-Image__img {
+					margin: 0;
+					position: relative;
+					display: block;
+					width: 65%;
+					top: 50%;
+					left: 50%;
+					-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
+					-webkit-transform: translate(-50%, -50%);
+					.is-authorring & {
+						position: relative;
+					}
+				}
+			}
+		}
+	}
+	.l-TextLinkUnit__link {
+		display: inline-block;
+		font-size: (14rem / 16);
+		letter-spacing: 0.100em;
+		position: relative;
+		&:after {
+			content: "";
+			position: absolute;
+			bottom: -2px;
+			left: 0;
+			width: 100%;
+			height: 3px;
+			background-color: #000000;
+			transition: all .1s cubic-bezier(.645, .045, .355, 1);
+			transform: scaleX(1);
+		}
+		@include bp(lg) {
+			transition: color .2s cubic-bezier(.645, .045, .355, 1);
+			&:hover {
+				color: #545152;
+			}
+			&:hover:after {
+				background: #4b4a4b;
+				transform: scaleX(0);
+			}
+			&:active {
+				color: #5c2d91;
+				&:after {
+					transform: scaleX(0);
+				}
+			}
+		}
+		@include bp(lg) {
+			font-size: (16rem / 16);
+		}
+	}
+	.l-Image {
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.cmn-icon {
+		display: none;
+	}
+	.js-where_to_buy__lesslocations {
+		display: none;
+		.is-authorring & {
+			display: block;
+		}
+	}
+	.l-BannerLinkP__list {
+		display: -webkit-box;
+		/* before Android4.3 iOS6:Safari */
+		display: -ms-flexbox;
+		/* IE10 */
+		display: -webkit-flex;
+		/* Pc-safari */
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.l-TextLinkP__list__item {
+		display: inline-block;
+		width: 100%;
+		span {
+			padding-left: 0 !important;
+		}
+	}
+	.l-Image__img img {
+		width: 100% !important;
+	}
+}
+
+.where-to-buy-listing-section1 {
+	@include section-max-width;
+	background-color: #fff;
+	.where-to-buy-listing-mexico {
+		padding: 10px 20px 0 20px;
+		h2.l-HeadingTitle__h2 {
+			color: #000000 !important;
+			padding-left: 0px;
+			border-bottom: 3px solid #000000;
+			text-transform: uppercase;
+			font-family: "Georgia bold", serif;
+			font-size: 30px;
+		}
+		.l-TextLinkP {
+			.g-TextLinkP.is-gutter--m .g-TextLinkP__list__item {
+				padding: 10px 20px;
+			}
+			li .l-TextLinkUnit__link,
+			li .l-TextLinkUnit__link:visited,
+			li .l-TextLinkUnit__link:link,
+			li .l-TextLinkUnit__link:hover {
+				color: #000000;
+			}
+			li .l-TextLinkUnit__link {
+				color: #000;
+				padding-right: 35px;
+				padding-top: 3px;
+				padding-left: 0;
+				background-image: url(/content/dam/sites/kaousa/www-johnfrieda-com/master/global/external-link-icon.png);
+				background-position: 100% 0;
+				background-repeat: no-repeat;
+				background-size: 30px;
+			}
+			li .noLink .l-TextLinkUnit__link {
+				color: #000;
+				padding-right: 35px;
+				padding-top: 3px;
+				padding-left: 0;
+				background-image: none;
+				background-position: 100% 0;
+				background-repeat: no-repeat;
+				background-size: 30px;
+			}
+			li .l-TextLinkUnit__link span span {
+				font-family: "Georgia bold italic", serif;
+				font-size: 18px;
+				border-bottom: 1px solid #000000;
+			}
+			li .l-TextLinkUnit.noLink span span {
+				border-bottom: none;
+			}
+		}
+		.wtb-country-title {
+			font-size: 24px;
+			border-bottom: 2px solid #000000;
+			text-align: left;
+			text-transform: uppercase;
+			color: #000000 !important;
+			font-family: "Georgia bold", serif;
+			@media (max-width: $breakpoint_sm) {
+				font-size: 20px;
+			}
+		}
+	}
+}

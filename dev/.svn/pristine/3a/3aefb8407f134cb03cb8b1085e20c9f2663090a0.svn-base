@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* subcategory_intro */
+.jf-subcategory_intro{
+  box-sizing: border-box;
+  position: relative;
+  .l-PageTitle__h1 {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.75;
+  }
+  @include bp(lg) {
+    .l-PageTitle__h1 {
+      font-size: 21.6px;
+      line-height: 37.8px;
+      width: 45%;
+    }
+  }
+  @include bp(md) {
+    .l-PageTitle__h1 {
+      width: 75%;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  @include bp(sm) {
+    position: relative;
+    background: #000000;
+    padding: 2em 0;
+    .l-Section__inner{
+      padding: 0;
+    }
+    .l-PageTitle__h1 {
+      color: #ffffff;
+      width: 75%;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  .l-HeadingTitle {
+    margin-bottom: 0;
+  }
+}

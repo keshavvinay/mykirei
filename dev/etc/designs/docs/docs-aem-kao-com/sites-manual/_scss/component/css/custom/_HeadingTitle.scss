@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+
+/* HeadingTitle
+ ================================================== */
+//centerやbackgroundには非対応
+.l-HeadingTitle {
+  margin-bottom: 0;
+}
+.l-HeadingTitle.l-HeadingTitle--h2 {
+  position: relative;
+  border-bottom: none;
+  margin-bottom: 12px;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: $contents__heading__text;
+  }
+  .l-HeadingTitle__titleBlock {
+    padding-left: 20px;
+  }
+}

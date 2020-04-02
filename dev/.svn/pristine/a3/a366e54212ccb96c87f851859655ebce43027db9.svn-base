@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <title>ASIENCE TOP</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+    <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+    <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+    <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+    <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/jp/sofina/basic/css/basic.css">
+    <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/jp/sofina/component/css/component.css">
+    <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/jp/sofina/option/css/option.css">
+    <!-- / css -->
+
+    <!-- script -->
+    <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+    <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+    <script src="/etc/clientlibs/common/component/js/component.js"></script>
+    <!-- / script -->
+    <!-- debug script -->
+    <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+    <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+    <!-- debug script -->
+
+</head>
+
+<body>
+
+    <div id="menu">
+        <div class="js-menuHolder">
+            <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+        </div>
+    </div>
+
+
+    <div id="wrapper">
+
+        <!-- area-GlHeader -->
+        <div class="g-Area" id="area-GlHeader">
+            <div class="g-Area__inner">
+                <div class="g-GlHeader">
+                    Global Header Area
+                </div>
+            </div>
+        </div>
+        <!-- / area-GlHeader -->
+
+
+        <!-- contentsWrapper -->
+        <div id="contentsWrapper" class="contentsWrapper">
+            <!-- area-CntHeader -->
+            <div class="g-Area" id="area-CntHeader">
+                <div class="g-Area__inner">
+                    <div class="CntHeader">
+                        Contents Header Area
+                    </div>
+                </div>
+            </div>
+            <!-- / area-CntHeader -->
+
+
+            <!-- area-Contents -->
+            <div id="area-Contents" class="g-Area">
+
+
+                <div id="common_section_wrapper_1" class="g-Section">
+                    <div class="g-Section__inner">
+                        <div data-uniform-target="g-ColumnUnit" id="common_column_separator_1" class="g-Column js-uniformHeight">
+                            <div class="g-Column__inner">
+
+                                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                                    <div class="g-ColumnUnit" style="height: 852px;">
+                                        <div style="position : relative;" class="g-Image l-Image mainvisual s7responsiveContainer">
+                                            <p class="g-Image__img l-Image__img"><img data-breakpoints="128,320,640,768,1024,1366" id="mn_separa_1932494080_common_column_unit_colpar_common_image_item" style="width : 100%;" class="cq-dd-image" src="http://elb-aem61-cnt-auth-601437783.ap-northeast-1.elb.amazonaws.com/is/image//content/dam/sites/kao/www-sofina-com/jp/corp/10161002846.jpg?wid=1366"></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="common_section_wrapper_2" class="g-Section">
+                    <div class="g-Section__inner">
+                        <div data-uniform-target="g-ColumnUnit" id="common_column_separator_2" class="g-Column js-uniformHeight">
+                            <div class="g-Column__inner">
+
+                                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                                    <div class="g-ColumnUnit" style="height: 323px;">
+                                        <div class="g-PageTitle l-PageTitle">
+                                            <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                                                <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                                                    <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                                                        <h1 class="g-PageTitle__h1 l-PageTitle__h1"><span class="cmn-richtext"><span>SOFINA
+
+</span></span></h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="g-HeadingTitle l-HeadingTitle">
+                                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                                                <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                                    <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                                        <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext"><span>Beauty Power Station<br>
+ソフィーナビューティパワーステーション
+
+</span></span></h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="g-ImageTextHP l-ImageTextHP">
+                                            <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                                                <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-w50p">
+                                                    <div style="position : relative;" class="g-Image l-Image s7responsiveContainer">
+                                                        <p class="g-Image__img l-Image__img"><img data-breakpoints="128,320,640,768,1024,1366" id="lumn_separa_common_column_unit_colpar_common_image_text_pa_image" style="width: 110px;" class="cq-dd-image" src="http://elb-aem61-cnt-auth-601437783.ap-northeast-1.elb.amazonaws.com/is/image//content/dam/sites/kao/www-sofina-com/jp/corp/img_feature_pika_mama.jpg?wid=110"></p>
+                                                    </div>
+                                                </div>
+                                                <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-w50p">
+                                                    <div class="g-Text l-Text">
+                                                        <p class="cmn-richtext"><span>肌を深く、正しく知るための特別な空間が銀座にオープン<br>
+&nbsp;<br>
+&nbsp;
+
+</span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="common_section_wrapper_3" class="g-Section">
+                    <div class="g-Section__inner">
+                        <div data-uniform-target="g-ColumnUnit" id="common_column_separator_3" class="g-Column js-uniformHeight">
+                            <div class="g-Column__inner">
+
+                                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                                    <div class="g-ColumnUnit" style="height: 282px;">
+                                        <div class="g-HeadingTitle l-HeadingTitle">
+                                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                                                <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                                    <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                                        <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext"><span>Beauth Information&#12288;美容情報
+
+</span></span></h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="g-GroupBox">
+                                            <div data-uniform-target="g-TileLinkHUnit" class="g-TileLinkHP l-TileLinkHP js-uniformHeight">
+                                                <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+                                                    <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-4 g-TileLinkHP__list__tile-md-3 g-TileLinkHP__list__tile-sm-1">
+                                                        <a class="g-TileLinkHUnit l-TileLinkHUnit" style="height: 88px;">
+                                                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w50p">
+                                                                <div class="g-Image l-Image">
+                                                                    <div data-emptytext="Image" class="cq-placeholder cq-dd-image"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                                                    <div class="g-Text l-Text">
+                                                                        <p class="cmn-richtext"></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                                                    <div class="g-Text l-Text">
+                                                                        <p class="cmn-richtext"></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-4 g-TileLinkHP__list__tile-md-3 g-TileLinkHP__list__tile-sm-1">
+                                                        <a class="g-TileLinkHUnit l-TileLinkHUnit" style="height: 88px;">
+                                                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w50p">
+                                                                <div class="g-Image l-Image">
+                                                                    <div data-emptytext="Image" class="cq-placeholder cq-dd-image"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                                                    <div class="g-Text l-Text">
+                                                                        <p class="cmn-richtext"></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                                                    <div class="g-Text l-Text">
+                                                                        <p class="cmn-richtext"></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div data-uniform-target="g-TileLinkVUnit" class="g-TileLinkVP l-TileLinkVP js-uniformHeight">
+                                            <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+                                                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                                                    <a class="g-TileLinkVUnit l-TileLinkVUnit" style="height: 100px;">
+                                                        <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                                            <div class="g-Image l-Image">
+                                                                <div data-emptytext="Image" class="cq-placeholder cq-dd-image"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                                                <div class="g-Text l-Text">
+                                                                    <p class="cmn-richtext"></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                                                <div class="g-Text l-Text">
+                                                                    <p class="cmn-richtext"></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                                                    <a class="g-TileLinkVUnit l-TileLinkVUnit" style="height: 100px;">
+                                                        <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                                            <div class="g-Image l-Image">
+                                                                <div data-emptytext="Image" class="cq-placeholder cq-dd-image"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                                                <div class="g-Text l-Text">
+                                                                    <p class="cmn-richtext"></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                                                <div class="g-Text l-Text">
+                                                                    <p class="cmn-richtext"></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                                                    <a class="g-TileLinkVUnit l-TileLinkVUnit" style="height: 100px;">
+                                                        <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                                                            <div class="g-Image l-Image">
+                                                                <div data-emptytext="Image" class="cq-placeholder cq-dd-image"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                                                            <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                                                <div class="g-Text l-Text">
+                                                                    <p class="cmn-richtext"></p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                                                <div class="g-Text l-Text">
+                                                                    <p class="cmn-richtext"></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- / area-Contents -->
+
+        </div>
+        <!-- / contentsWrapper -->
+
+
+        <!-- area-SbBlFooter -->
+        <div class="g-Area" id="area-SbBlFooter">
+            <div class="g-Area__inner">
+                <div class="SbBlFooter">
+                    Sub Brand Footer Area
+                </div>
+            </div>
+        </div>
+        <!-- / area-SbBlFooter -->
+
+        <!-- area-GlFooter -->
+        <div class="g-Area" id="area-GlFooter">
+            <div class="g-Area__inner">
+                <div class="g-GlFooter">
+                    Global Footer Area
+                </div>
+            </div>
+        </div>
+        <!-- / area-GlFooter -->
+
+        <!--/wrapper-->
+    </div>
+
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

@@ -1,0 +1,2620 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_019: Fullwidth Visuals & Carousel Pack</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+
+<!-- G_CON_019: Fullwidth Visuals & Carousel Pack -->
+<div id="" class="method">
+  <p class="componentName">G_CON_019: Fullwidth Visuals & Carousel Pack</p>
+</div>
+
+<h3 class="settingName">Test</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="2" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlignn="top" data-lg-main-w="60" data-lg-sub-w="70" data-md-main-w="40" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Color7"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="center" data-verticalAlign="middle" data-lg-main-w="60" data-lg-sub-w="70" data-md-main-w="40" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="right" data-verticalAlign="bottom" data-lg-main-w="60" data-lg-sub-w="70" data-md-main-w="40" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_c.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Color7"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <a class="g-FullwidthVisualsCarouselUnit is-link" data-align="left" data-verticalAlign="top" data-lg-main-w="60" data-lg-sub-w="70" data-md-main-w="40" data-md-sub-w="50" data-sm-main-w="70" href="#">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_d.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+                <ul class="g-ButtonP__list l-ButtonP__list">
+
+                  <li class="g-ButtonP__list__item l-ButtonP__list__item">
+                    <!-- ButtonItem -->
+                    <div class="g-ButtonUnit l-ButtonUnit is-size--m is-rightIcon is-colorset--1">
+                      <span class="g-ButtonUnit__link l-ButtonUnit__link" href="" target="">
+                        <span class="cmn-richtext">
+                          <span>Button Richtext</span>
+                        </span>
+                        <span class="cmn-icon cmn-icon--bullet g-ButtonUnit__link__icon l-ButtonUnit__link__icon"></span>
+                      </span>
+                    </div>
+                    <!-- / ButtonItem -->
+                  </li>
+
+                </ul>
+              </div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </a>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">Default</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">ビジュアルの総数 : 1（最小）</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">ビジュアルの総数 : 7（最大）</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_c.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_d.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_c.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">背景画像を指定</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel is-background" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_vertical.png)">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">特定の CSS class を指定 : SpecificCSSclass</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel SpecificCSSclass" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">マージン調整 : true</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel is-marginReset" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">ID を指定 : xxx</h3>
+<div id="xxx" class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">各スクリーン毎の背景画像領域の高さ : lg→300、md→200、sm→100</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="300"  data-height-md="200" data-height-sm="100">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">カルーセルの切替方法 : 自動</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">カルーセルの切替方法 : 手動</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="false" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">カルーセルの切替時間（秒）: 3（最小）</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="3" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">カルーセルの切替時間（秒）: 10（最大）</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="10" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">カルーセル切替時のエフェクト : 左右スライド</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">カルーセル切替時のエフェクト : クロスフェード</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5" data-fade="true" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_b.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+<!-- / G_CON_019: Fullwidth Visuals & Carousel Pack Text -->
+
+
+<!-- Fullwidth Visuals Carousel Unit -->
+<div id="" class="method">
+  <p class="componentName">Fullwidth Visuals Carousel Unit</p>
+</div>
+
+
+<h3 class="settingName">画像を指定（Default）</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">画像の代替テキスト（alt属性）</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <span class="g-FullwidthVisualsCarouselUnit__image__alt">alt代わり</span>
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">リンク</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <a class="g-FullwidthVisualsCarouselUnit is-link" href="" target="" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+                <ul class="g-ButtonP__list l-ButtonP__list">
+
+                  <li class="g-ButtonP__list__item l-ButtonP__list__item">
+                    <!-- ButtonItem -->
+                    <div class="g-ButtonUnit l-ButtonUnit is-size--m is-rightIcon is-colorset--1">
+                      <span class="g-ButtonUnit__link l-ButtonUnit__link" href="" target="">
+                        <span class="cmn-richtext">
+                          <span>Button Richtext</span>
+                        </span>
+                        <span class="cmn-icon cmn-icon--bullet g-ButtonUnit__link__icon l-ButtonUnit__link__icon"></span>
+                      </span>
+                    </div>
+                    <!-- / ButtonItem -->
+                  </li>
+
+                </ul>
+              </div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </a>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">メインコピーの表示方法 : テキスト</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">メインコピーの表示方法 : 画像</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_004: Image Item -->
+              <div class="g-Image l-Image">
+                <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy4.jpg" width="100%" alt="dummy"></p>
+              </div>
+              <!-- / G_CON_004: Image Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">メインコピーの表示方法 : なし</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">オプションアイテム : なし</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">オプションアイテム : Sub Copy</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">オプションアイテム : Button Item</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">オプションアイテム : Button Item（複数）</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP4--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">前景要素の水平位置揃え : 左</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">前景要素の水平位置揃え : 中央</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="center" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">前景要素の水平位置揃え : 右</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="right" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">前景要素の垂直位置揃え : 上</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="top" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">前景要素の垂直位置揃え : 中央</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">前景要素の垂直位置揃え : 下</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="bottom" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">
+  ラージスクリーン時の調整 : メインコピーの表示幅→10%（最小）、サブコピーの表示幅→10%（最小）<br>
+  ミディアムスクリーン時の調整 : メインコピーの表示幅→10%（最小）、サブコピーの表示幅→10%（最小）<br>
+  スモールスクリーン時の調整 : メインコピーの表示幅→10%（最小）<br>
+</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="10" data-lg-sub-w="10" data-md-main-w="10" data-md-sub-w="10" data-sm-main-w="10">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">
+  ラージスクリーン時の調整 : メインコピーの表示幅→80%（最大）、サブコピーの表示幅→80%（最大）<br>
+  ミディアムスクリーン時の調整 : メインコピーの表示幅→80%（最大）、サブコピーの表示幅→80%（最大）<br>
+  スモールスクリーン時の調整 : メインコピーの表示幅→80%（最大）<br>
+</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="80" data-lg-sub-w="80" data-md-main-w="80" data-md-sub-w="80" data-sm-main-w="80">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキストメインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">特定の CSS class を指定 : SpecificCSSclass</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit SpecificCSSclass" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">背景画像を指定</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_vertical.png)" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">マージン調整 : true</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit is-marginReset" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">ID を指定 : xxx</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div id="xxx" class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+
+
+<h3 class="settingName">構成要素を拡張 : true</h3>
+<div class="g-FullwidthVisualsCarouselP js-fullwidthVisualsCarousel" data-autoplay="true" data-autoplaySpeed="5000" data-fade="false" data-height-lg="400"  data-height-md="360" data-height-sm="160">
+  <div class="g-FullwidthVisualsCarouselP__list">
+    <div class="g-FullwidthVisualsCarouselP__list__item">
+
+      <!-- FullwidthVisualsCarouselUnit -->
+      <div class="g-FullwidthVisualsCarouselUnit" data-align="left" data-verticalAlign="middle" data-lg-main-w="50" data-lg-sub-w="50" data-md-main-w="50" data-md-sub-w="50" data-sm-main-w="70">
+        <div class="g-FullwidthVisualsCarouselUnit__image" style="background-image:url('/apps/kao/sites/common/components/clientlibs/img/dummy_1360_400_a.png')">
+          <div class="g-FullwidthVisualsCarouselUnit__image__info">
+            <div class="g-FullwidthVisualsCarouselUnit__info__main">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>メインコピーテキストメインコピーテキスト</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__sub">
+              <!-- G_CON_003: Text Item -->
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>サブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピーサブコピー</span>
+                </p>
+              </div>
+              <!-- / G_CON_003: Text Item -->
+            </div>
+            <div class="g-FullwidthVisualsCarouselUnit__info__btn">
+              <!-- G_CON_012: Button Pack -->
+              <div class="debug-tmpl" data-tmpl="ButtonP--Typical"></div>
+              <!-- / G_CON_012: Button Pack -->
+            </div>
+          </div>
+        </div>
+        <div class="g-FullwidthVisualsCarouselUnit__info">
+          <!-- jsでsubとbtnを移動 -->
+        </div>
+        <!-- parsys -->
+      </div>
+      <!-- / FullwidthVisualsCarouselUnit -->
+
+    </div>
+  </div>
+</div>
+<!-- / Fullwidth Visuals Carousel Unit -->
+
+
+
+
+</div>
+</div>
+
+
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

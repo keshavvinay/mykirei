@@ -1,0 +1,167 @@
+  /** Avenir
+   * @license
+   * MyFonts Webfont Build ID 3774511, 2019-06-17T08:10:14-0400
+   * 
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are 
+   * explicitly restricted from using the Licensed Webfonts(s).
+   * 
+   * You may obtain a valid license at the URLs below.
+   * 
+   * Webfont: AvenirNextLTPro-It by Linotype
+   * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-italic/
+   * 
+   * Webfont: AvenirNextLTPro-Regular by Linotype
+   * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-regular/
+   * 
+   * 
+   * License: https://www.myfonts.com/viewlicense?type=web&buildid=3774511
+   * Licensed pageviews: 500,000
+   * Webfonts copyright: Copyright &#x00A9; 2004 - 2017 Monotype GmbH. All rights reserved.
+   * 
+   * © 2019 MyFonts Inc
+  */
+
+
+  /* @import must be at top of file, otherwise CSS will not work */
+  @import url("//hello.myfonts.net/count/39982f");
+
+
+  @font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('../fonts/avenir/avenirnextltproiregular.eot');
+    src: url('../fonts/avenir/avenirnextltproiregular.eot?#iefix') format('embedded-opentype'), url('../fonts/avenir/avenirnextltproiregular.woff2') format('woff2'), url('../fonts/avenir/avenirnextltproiregular.woff') format('woff'), url('../fonts/avenir/avenirnextltproiregular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'AvenirNextLTPro-It';
+    src: url('../fonts/avenir/avenirnextltproitalic.eot');
+    src: url('../fonts/avenir/avenirnextltproitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/avenir/avenirnextltproitalic.woff2') format('woff2'), url('../fonts/avenir/avenirnextltproitalic.woff') format('woff'), url('../fonts/avenir/avenirnextltproitalic.ttf') format('truetype');
+  }
+
+
+  /* Webfont: AvenirBold */
+  @font-face {
+    font-family: 'AvenirBold';
+    src: url('../fonts/avenir/avenirBold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/avenir/avenirBold.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/avenir/avenirBold.woff') format('woff'),
+      /* Modern Browsers */
+      url('../fonts/avenir/avenirBold.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('../fonts/avenir/avenirBold.svg#tramCnBold') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+  }
+
+    /* Webfont: AvenirRegular */
+    @font-face {
+      font-family: 'Avenir';
+      src: url('../fonts/avenir/avenirRegular.eot');
+      /* IE9 Compat Modes */
+      src: url('../fonts/avenir/avenirRegular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/avenir/avenirRegular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/avenir/avenirRegular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/avenir/avenirRegular.svg#avenirRegular') format('svg');
+      /* Legacy iOS */
+      font-style: normal;
+      font-weight: normal;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* Webfont: AvenirMedium */
+    @font-face {
+      font-family: 'AvenirMedium';
+      src: url('../fonts/avenir/avenirMedium.eot');
+      /* IE9 Compat Modes */
+      src: url('../fonts/avenir/avenirMedium.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/avenir/avenirMedium.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/avenir/avenirMedium.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/avenir/avenirMedium.svg#avenirMedium') format('svg');
+      /* Legacy iOS */
+      font-style: normal;
+      font-weight: normal;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* Webfont: AvenirUltraLite */
+    @font-face {
+      font-family: 'AvenirUltraLite';
+      src: url('../fonts/avenir/avenirUltraLite.eot');
+      /* IE9 Compat Modes */
+      src: url('../fonts/avenir/avenirUltraLite.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/avenir/avenirUltraLite.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/avenir/avenirUltraLite.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/avenir/avenirUltraLite.svg#avenirUltraLite') format('svg');
+      /* Legacy iOS */
+      font-style: normal;
+      font-weight: normal;
+      text-rendering: optimizeLegibility;
+    }
+
+  /* Webfont: TramCn-Bold */
+  @font-face {
+    font-family: 'TramCnBold';
+    src: url('../fonts/tramcn/tramCnBold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/tramcn/tramCnBold.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/tramcn/tramCnBold.woff') format('woff'),
+      /* Modern Browsers */
+      url('../fonts/tramcn/tramCnBold.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('../fonts/tramcn/tramCnBold.svg#tramCnBold') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Webfont: TramCn-Thin */
+  @font-face {
+    font-family: 'TramCnThin';
+    src: url('../fonts/tramcn/tramCnThin.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/tramcn/tramCnThin.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/tramcn/tramCnThin.woff') format('woff'),
+      /* Modern Browsers */
+      url('../fonts/tramcn/tramCnThin.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('../fonts/tramcn/tramCnThin.svg#TramCn-Thin') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Webfont: TramCn-Book */
+  @font-face {
+    font-family: 'TramCnBook';
+    src: url('../fonts/tramcn/tramCnBook.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/tramcn/tramCnBook.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/tramcn/tramCnBook.woff') format('woff'),
+      /* Modern Browsers */
+      url('../fonts/tramcn/tramCnBook.ttf') format('truetype'),
+      /* Safari, Android, iOS */
+      url('../fonts/tramcn/tramCnBook.svg#TramCn-Book') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+  }

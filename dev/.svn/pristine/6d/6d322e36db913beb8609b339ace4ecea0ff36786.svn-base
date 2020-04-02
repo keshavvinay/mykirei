@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+/* shops ============================== */
+
+////////////////////////////////////
+//
+// shops
+//
+////////////////////////////////////
+.ip-shops__intro__column {
+  .g-Column__inner {
+    .g-Column__cols {
+      @include bp(lg) {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      @include bp(md) {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.ip-shops__intro__column__unit {
+  margin: 0 30px 0 0;
+  box-sizing: border-box;
+  @include bp(sm) {
+    margin: 0;
+  }
+  .l-HeadingTitle.l-HeadingTitle--h2 {
+    margin-bottom: 12px;
+  }
+  .l-HeadingTitle__h2 {
+    font-weight: normal;
+    @include fontSize(lv2_1); //24px;
+    margin-bottom: 12px;
+    @include bp(sm) {
+      @include fontSize(lv7); //14px;
+      margin: 0;
+    }
+  }
+  .l-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h2 {
+      color: $colorLink_ip;
+    }
+  }
+  .l-Text {
+    @include fontSize(lv7);
+    line-height: $lineHeight_body;
+    @include bp(sm) {
+      @include fontSize(caption); //12px;
+    }
+  }
+  .l-LinkButton {
+    a {
+      text-decoration: none;
+    }
+    .cmn-icon {
+      display: none;
+    }
+    .cmn-richtext {
+      padding-left: 20px;
+      color: $colorLink_ip;
+      position: relative;
+      display: block;
+      @include fontSize(lv7);
+      @include bp(sm) {
+        @include fontSize(caption); //12px;
+      }
+      &:after {
+        @include link_arrow_2($colorLink_ip, $colorMain_05);
+        left: 0;
+      }
+    }
+  }
+  
+}
+
+.ip-shops__photo__column__unit {
+  margin: 10px 0 20px 0;
+}
+
+.ip-shops__est-logo {
+  position: relative;
+  display: inline-block;
+  margin-top: 8px;
+  @include bp(sm) {
+    margin-top: 4px;
+  }
+  .l-Image {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 53px;
+    @include bp(sm) {
+      width: 36px;
+    }
+  }
+  span {
+    padding-left: 63px;
+    @include bp(sm) {
+      padding-left: 43px;
+    }
+  }
+}
+
+.ip-shops__est-link {
+  a {
+    display: inline-block;
+    padding: 6px 28px 6px 10px;
+    border: 1px solid #ccc;
+    .cmn-richtext {
+      &:before {
+        right: -18px;
+        content: "";
+        position: absolute;
+        @include img_main("icon_window.png");
+        @include vMiddle();
+      }
+    }
+    .l-LinkButton__link__icon {
+      left: 10px;
+    }
+  }
+}
+
+// 2017/1公開
+.ip-shops__column {
+  @include bp(lg) {
+    .l-Column__cols {
+      &:first-child {
+        width: 33%;
+      }
+      &:last-child {
+        width: 67%;
+      }
+    }
+    &--sofina, &--bps {
+      margin-top: 28px;
+    }
+  }
+  @include bp(md) {
+    .l-Column__cols {
+      &:first-child {
+        width: 33%;
+      }
+      &:last-child {
+        width: 67%;
+      }
+    }
+    &--sofina, &--bps {
+      margin-top: 28px;
+    }
+  }
+  @include bp(sm) {
+    margin: 0;
+  }
+  .l-HeadingTitle.l-HeadingTitle--h2 {
+    margin-bottom: 12px;
+  }
+  .l-HeadingTitle__h2 {
+    font-weight: normal;
+    @include fontSize(lv2_1); //24px;
+    margin-bottom: 12px;
+    @include bp(sm) {
+      @include fontSize(lv7); //14px;
+      margin: 0;
+    }
+  }
+  .l-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h2 {
+      color: $colorLink_ip;
+    }
+  }
+  .l-Text {
+    @include fontSize(lv7);
+    line-height: $lineHeight_body;
+    @include bp(sm) {
+      @include fontSize(caption); //12px;
+    }
+  }
+  .l-LinkButton {
+    margin-top: 20px;
+    a {
+      text-decoration: none;
+      &:hover {
+        background-color: #ECF9FC;
+      }
+    }
+    .cmn-icon {
+      //display: none;
+    }
+    .cmn-richtext {
+      padding-left: 14px;
+      color: $colorLink_ip;
+      position: relative;
+      display: block;
+      @include fontSize(lv7);
+      @include bp(sm) {
+        @include fontSize(caption); //12px;
+      }
+      &:after {
+        //@include link_arrow_2($colorLink_ip, $colorMain_05);
+        //left: 0;
+      }
+    }
+    @include bp(sm) {
+      margin-top: 12px;
+    }
+  }
+}
+.ip-shops__column {
+  @include bp(sm) {
+    margin-bottom: 12px;
+    .l-Column__cols {
+      &:first-child {
+        padding-top: 0;
+        padding-bottom: 0;
+        .l-Image {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+.ip-shops__column__text--bps {
+  .l-LinkButton {
+    a {
+      display: inline-block;
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      .l-LinkButton__link__icon {
+        left: 10px;
+      }
+    }
+  }
+}
+.ip-shops__column__text--sofina {
+  .l-HeadingTitle.l-HeadingTitle--h2 {
+    margin-bottom: 0;
+  }
+  .ip-shops__column__text__note {
+    @include fontSize(caption);
+    margin-bottom: 28px;
+  }
+}
+.ip-shops__column__text__tel {
+  .l-TelephoneCall__item {
+    padding: 18px 108px 18px 20px;
+    background-color: #ecf9fc;
+  }
+  .l-TelephoneCall__item__icon__phone {
+    font-family: 'icomoon';
+    font-size: 22px;
+  }
+  .l-TelephoneCall__item__number {
+    font-size: 24px;
+  }
+  @include bp(md) {
+    .l-TelephoneCall__item {
+      .l-TelephoneCall__item__number {
+        text-decoration: none;
+        color: #333;
+      }
+    }
+  }
+  @include bp(sm) {
+    .l-TelephoneCall__item {
+      border: none;
+      @include border-radius(0);
+      padding: 0;
+      text-align: center;
+    }
+    .l-TelephoneCall__item__inner {
+      display: inline-block;
+      padding-left: 16px;
+      position: relative;
+    }
+    .l-TelephoneCall__item__number {
+      font-size: 18px;
+      font-weight: normal;
+      color: #333;
+    }
+    .l-TelephoneCall__item__icon__phone {
+      width: 16px;
+      left: 0;
+      font-size: 16px;
+      margin-top: -8px;
+    }
+  }
+}

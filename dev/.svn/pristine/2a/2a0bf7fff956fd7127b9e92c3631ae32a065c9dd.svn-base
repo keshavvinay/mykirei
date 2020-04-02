@@ -1,0 +1,147 @@
+//Gotham Font Variables
+$gothamLight : 'Gotham Light', sans-serif;
+$gothamLightItalic :'Gotham Light Italic', sans-serif;
+
+$gothamBook :  'Gotham Book', sans-serif;
+$gothamBookItalic : 'Gotham Book Italic', sans-serif;
+
+$gothamMedium :'Gotham Medium', sans-serif;
+$gothamMediumItalic : 'Gotham Medium Italic', sans-serif;
+
+$gothamBold : 'Gotham Bold', sans-serif;
+$gothamBoldItalic : 'Gotham Bold Italic', sans-serif;
+
+
+
+//Avenir Font Variables
+$avenirItalic :  'AvenirNextLTPro-It';
+$avenirRegular : 'AvenirNextLTPro-Regular';
+
+
+//Raleway Font Variables
+$ralewayRegular : $gothamBook; // "RalewayRegular", sans-serif;
+
+$ralewayBlack: $gothamBold; // "RalewayBlack", sans-serif;
+$ralewayBlackItalic: $gothamBookItalic; //"RalewayBlackItalic", sans-serif;
+
+$ralewayBold : $gothamBold;  //"RalewayBold", sans-serif;
+$ralewaySemiBold :  $gothamBold; //"RalewaySemiBold", sans-serif;
+$ralewayExtraBold : $gothamBold; // "RalewayExtraBold", sans-serif;
+
+$ralewayBoldItalic : $gothamBoldItalic ; //"RalewayBoldItalic", sans-serif;
+$ralewaySemiBoldItalic : $gothamBoldItalic ; //"RalewaySemiBoldItalic", sans-serif;
+$ralewayExtraBoldItalic : $gothamBoldItalic ; //"RalewayExtraBoldItalic", sans-serif;
+
+
+$ralewayLight: $gothamLight; //"RalewayLight", sans-serif;
+$ralewayExtraLight: $gothamLight; // "RalewayExtraLight", sans-serif;
+
+$ralewayItalic: $gothamBookItalic; //"RalewayItalic", sans-serif;
+$ralewayLightItalic: $gothamBookItalic; // "RalewayLightItalic", sans-serif;
+$ralewayExtraLightItalic: $gothamBookItalic; //"RalewayExtraLightItalic", sans-serif;
+
+$ralewayMedium: $gothamBook; // "RalewayMedium", sans-serif;
+$ralewayMediumItalic: $gothamBookItalic; // "RalewayMediumItalic", sans-serif;
+
+$ralewayThin: "RalewayThin", sans-serif;
+$ralewayThinItalic: "RalewayThinItalic", sans-serif;
+
+
+
+
+
+$primary-font: $ralewayRegular;
+
+// Font Weight 
+$wt100: 100;
+$wt100i: 100i;
+$wt200: 200;
+$wt200i: 200i;
+$wt300: 300;
+$wt300i: 300i;
+$wt400: 400;
+$wt400i: 400i;
+$wt500: 500;
+$wt500i: 500i;
+$wt600: 600;
+$wt600i: 600i;
+$wt700: 700;
+$wt700i: 700i;
+$wt800: 800;
+$wt800i: 800i;
+$wt900: 900;
+$wt900i: 900i; 
+
+$primary-color: #555555;
+$primary-hover-color: #0098B1;
+$primary-bg-color: #CACACA;
+$solid-white: #ffffff;
+$solid-black: #000000;
+$modal-blackfade: rgba(0, 0, 0, 0.7);
+$dropdown-hover-color: #006C81;
+$mobile-light-white: #fefefe;
+$submenu-background-color: #007F96;
+// Mobile Header
+$header-background: #e7f5f6;
+// Header Variables
+
+// Footer variable
+$footer-sec-color: $submenu-background-color;
+$footer-anchor-hover : #eb2d97;
+
+// Carousel Variables
+$nav-bullet-color: $primary-bg-color;
+$nav-bullet-active: $primary-hover-color;
+$carousel-head-font: $gothamBold;
+$carousel-text-font: $avenirRegular;
+
+// Button variables
+$btn-bg-hover-1:  $footer-anchor-hover;
+
+// Headting Title Variables
+$heading-font-color: #008398;
+
+// Privacy Policy Variables
+$privacy-link-clr: #00859b;
+$privacy-link-hvrclr: $footer-anchor-hover;
+
+// Contact Us
+$contact-us-label-color: #363636;
+$cu-border-color: #d3d3d3;
+$cu-font-family: $carousel-text-font;
+$cu-drop-toggle: #555555;
+$cu-placeholder-clr: $cu-drop-toggle;
+$cu-submit-btn: $primary-hover-color;
+$cu-submit-btnp-hover: $footer-anchor-hover;
+$curel-popup-bg: #949494;
+$error-clr: #bd0000;
+$fixed-field-bg: #d3d3d3;
+$fixed-field-clr: #9c9c9c;
+//Responsive media screen sizes
+$break-sm: 640px;
+$break-md: 641px;
+$break-lg: 1024px;
+$break-xl: 1025px;
+
+//Product landing page  and product details page
+$image-border  : #909094;
+
+$hydra-therapy-itch-defense:#800080;
+$hydra-therapy: #0098b1;
+$rough-skin-rescue: #009b94;
+$ultra-healing: #d21141;
+$itch-defense: #909094;
+$daily-healing:#007cc2;
+$fragrance-free:#47a841;
+$foot-therapy:#941941;
+$dry-skin-therapy:#909094;	
+$dry-skin-therapy-itch-defense:#9370DB;
+
+// Breadcrumb
+$bc-font-color: #707070;
+$font_color_three: #6b6b6b;
+
+
+// Float variables
+
+$float_left: left;

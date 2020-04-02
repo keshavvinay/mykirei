@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/*****************************
+  principles font-family (sofina)
+ *****************************/
+
+// font-family PageTitle/HeadingTitle用
+$fontFamily_title: "Ryumin Regular KL", serif;
+
+// font-family
+$fontFamily: "TsukuGoPr5-R", sans-serif;
+$fontFamily_01: "TsukuGoPr5-M", sans-serif;
+$fontFamily_02: "TsukuAOldMinPr6-L", serif;
+$fontFamily_03: UDMinchoPro-DB, serif;
+$fontFamily_04: UDMinchoPro-L, serif;
+$fontFamily_05: UDMarugo_LargePro-DB, sans-serif;
+$fontFamily_06: UDMarugo_LargePro-L, sans-serif;
+$fontFamily_sm_brandHeader: UDKakugo_LargePro-R, sans-serif;
+$fontFamily_md_brandHeader: UDKakugo_LargePro-R, sans-serif;
+$fontFamily_lg_brandHeader: UDKakugo_LargePro-DB, sans-serif;
+$fontFamily_localNav_categoryLabel: UDKakugo_LargePro-DB, sans-serif;
+$fontFamily_localNav_label: UDKakugo_LargePro-R, sans-serif;
+$fontFamily_breadcrumbs: UDKakugo_LargePro-R, sans-serif;
+$fontFamily_sm_brandFooter_categoryLabel: "TsukuGoPr5-R", sans-serif;
+$fontFamily_md_brandFooter_categoryLabel: "TsukuGoPr5-D", sans-serif;
+$fontFamily_lg_brandFooter_categoryLabel: "TsukuGoPr5-D", sans-serif;
+$fontFamily_brandFooter_label: "TsukuGoPr5-R", sans-serif;
+
+// H1
+$fontSize_sm_lv1: 18px;
+$lineHeight_sm_lv1: 1.2;
+$letterSpacing_sm_lv1: normal;
+
+$fontSize_md_lv1: 22px;
+$lineHeight_md_lv1: 1.2;
+$letterSpacing_md_lv1: normal;
+
+$fontSize_lg_lv1: 22px;
+$lineHeight_lg_lv1: 1.2;
+$letterSpacing_lg_lv1: normal;
+
+// H2
+$fontSize_sm_lv2: 20px;
+$lineHeight_sm_lv2: 1.2;
+$letterSpacing_sm_lv2: normal;
+
+$fontSize_md_lv2: 28px;
+$lineHeight_md_lv2: 1.2;
+$letterSpacing_md_lv2: normal;
+
+$fontSize_lg_lv2: 28px;
+$lineHeight_lg_lv2: 1.2;
+$letterSpacing_lg_lv2: normal;
+
+// H3
+$fontSize_sm_lv3: 16px;
+$lineHeight_sm_lv3: 1.2;
+$letterSpacing_sm_lv3: normal;
+
+$fontSize_md_lv3: 22px;
+$lineHeight_md_lv3: 1.2;
+$letterSpacing_md_lv3: normal;
+
+$fontSize_lg_lv3: 22px;
+$lineHeight_lg_lv3: 1.2;
+$letterSpacing_lg_lv3: normal;
+
+// H4
+$fontSize_sm_lv4: 14px;
+$lineHeight_sm_lv4: 1.2;
+$letterSpacing_sm_lv4: normal;
+
+$fontSize_md_lv4: 18px;
+$lineHeight_md_lv4: 1.2;
+$letterSpacing_md_lv4: normal;
+
+$fontSize_lg_lv4: 18px;
+$lineHeight_lg_lv4: 1.2;
+$letterSpacing_lg_lv4: normal;
+
+// H5
+$fontSize_sm_lv5: 16px;
+$lineHeight_sm_lv5: 1.2;
+$letterSpacing_sm_lv5: normal;
+
+$fontSize_md_lv5: 18px;
+$lineHeight_md_lv5: 1.2;
+$letterSpacing_md_lv5: normal;
+
+$fontSize_lg_lv5: 18px;
+$lineHeight_lg_lv5: 1.2;
+$letterSpacing_lg_lv5: normal;
+
+// H6
+$fontSize_sm_lv6: 14px;
+$lineHeight_sm_lv6: 1.2;
+$letterSpacing_sm_lv6: normal;
+
+$fontSize_md_lv6: 16px;
+$lineHeight_md_lv6: 1.2;
+$letterSpacing_md_lv6: normal;
+
+$fontSize_lg_lv6: 16px;
+$lineHeight_lg_lv6: 1.2;
+$letterSpacing_lg_lv6: normal;
+
+// p(heading)
+$fontSize_sm_p: 14px;
+$lineHeight_sm_p: 1.2;
+$letterSpacing_sm_p: normal;
+
+$fontSize_md_p: 20px;
+$lineHeight_md_p: 1.2;
+$letterSpacing_md_p: normal;
+
+$fontSize_lg_p: 20px;
+$lineHeight_lg_p: 1.2;
+$letterSpacing_lg_p: normal;
+
+// body
+$fontSize_sm_body: 14px;
+$lineHeight_sm_body: 1.5;
+$letterSpacing_sm_body: normal;
+
+$fontSize_md_body: 16px;
+$lineHeight_md_body: 1.5;
+$letterSpacing_md_body: normal;
+
+$fontSize_lg_body: 16px;
+$lineHeight_lg_body: 1.5;
+$letterSpacing_lg_body: normal;
+
+// caption
+$fontSize_sm_caption: 11px;
+$lineHeight_sm_caption: 1.5;
+$letterSpacing_sm_caption: normal;
+
+$fontSize_md_caption: 14px;
+$lineHeight_md_caption: 1.5;
+$letterSpacing_md_caption: normal;
+
+$fontSize_lg_caption: 14px;
+$lineHeight_lg_caption: 1.5;
+$letterSpacing_lg_caption: normal;
+
+// brandHeader
+$fontSize_sm_brandHeader: 14px;
+$lineHeight_sm_brandHeader: 1.4;
+$letterSpacing_sm_brandHeader: normal;
+
+$fontSize_md_brandHeader: 14px;
+$lineHeight_md_brandHeader: 1.4;
+$letterSpacing_md_brandHeader: normal;
+
+$fontSize_lg_brandHeader: 14px;
+$lineHeight_lg_brandHeader: 1.6;
+$letterSpacing_lg_brandHeader: normal;
+
+// localNav・categoryLabel
+$fontSize_sm_localNav_categoryLabel: 14px;
+$lineHeight_sm_localNav_categoryLabel: 1.4;
+$letterSpacing_sm_localNav_categoryLabel: normal;
+
+$fontSize_md_localNav_categoryLabel: 14px;
+$lineHeight_md_localNav_categoryLabel: 1.4;
+$letterSpacing_md_localNav_categoryLabel: normal;
+
+$fontSize_lg_localNav_categoryLabel: 14px;
+$lineHeight_lg_localNav_categoryLabel: 1.6;
+$letterSpacing_lg_localNav_categoryLabel: normal;
+
+// localNav label
+$fontSize_sm_localNav_label: 14px;
+$lineHeight_sm_localNav_label: 1.4;
+$letterSpacing_sm_localNav_label: normal;
+
+$fontSize_md_localNav_label: 14px;
+$lineHeight_md_localNav_label: 1.4;
+$letterSpacing_md_localNav_label: normal;
+
+$fontSize_lg_localNav_label: 14px;
+$lineHeight_lg_localNav_label: 1.6;
+$letterSpacing_lg_localNav_label: normal;
+
+// breadcrumbs
+$fontSize_breadcrumbs: 12px;
+$lineHeight_breadcrumbs: 1.4;
+$letterSpacing_breadcrumbs: normal;
+
+// brandFooter categoryLabel
+$fontSize_sm_brandFooter_categoryLabel: 14px;
+$lineHeight_sm_brandFooter_categoryLabel: 1.4;
+$letterSpacing_sm_brandFooter_categoryLabel: normal;
+
+$fontSize_md_brandFooter_categoryLabel: 14px;
+$lineHeight_md_brandFooter_categoryLabel: 1.4;
+$letterSpacing_md_brandFooter_categoryLabel: normal;
+
+$fontSize_lg_brandFooter_categoryLabel: 14px;
+$lineHeight_lg_brandFooter_categoryLabel: 1.4;
+$letterSpacing_lg_brandFooter_categoryLabel: normal;
+
+// brandFooter_label
+$fontSize_brandFooter_label: 14px;
+$lineHeight_brandFooter_label: 1.4;
+$letterSpacing_brandFooter_label: normal;

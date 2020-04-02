@@ -1,0 +1,55 @@
+.Jf-Newsletter_footer .form {
+    display:flex;
+    margin-right:25%;
+} 
+.Jf-Newsletter_footer .form_leftcol {
+    display:none
+}
+
+.Jf-Newsletter_footer .SiteFooter__signupEmail {
+    line-height:45.2px !important;
+}
+.SiteFooter__signupLabel  {
+    font-size: 1rem;
+}
+/*@media only screen and (min-width: 1025px) {
+    **.jf-Footer .g-TileLinkTextP.is-gutter--none .g-TileLinkTextP__list {
+      **  margin-left: 25%;
+      **  margin-right: -25%;
+    }
+}*/
+.error_msg {
+    display:none;
+}
+
+.is-authorring .error_msg {
+    display:block !important;
+}
+
+.Jf-Newsletter_footer .SiteFooter__signupEmail {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 .5em;
+    border: 1px solid #818181;
+    background-color: transparent;
+    font-size: 0.875rem;
+    border-radius: 0;
+    outline: 0;
+    width:210%;
+}
+.Jf-Newsletter_footer .SiteFooter__signupSubmit {
+    padding: .6em 1em;
+    border: 0;
+    background-color: #818181;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 0;
+    outline: 0;
+    margin-left: 153px;
+}
+@media only screen and (min-width: 1025px)
+    .Jf-Newsletter_footer .l-GroupBox.is-marginLeft--s {
+        margin-left: 16px;
+        margin-right: 12%;
+        width: 32em;
+}

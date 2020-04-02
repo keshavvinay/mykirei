@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/*  subcategory_hero */
+
+.jf-subcategory_hero {
+  position: relative;
+  height: 525px !important;
+  background-color: #000;
+  background-position: center top;
+  @include bp(md) {
+    max-height: 525px;
+  }
+  @include bp(sm) {
+    height: auto !important;
+    background-image: none !important;
+  }
+  .l-PageTitle__titleBlock {
+    width: auto;
+    @include bp(sm) {
+      width: 100%;
+    }
+  }
+  .l-PageTitle {
+    position: absolute;
+    left: 8%;
+    margin: 0;
+    width: auto;
+    text-align: center;
+    @include bp(lg) {
+      top: 45%;  
+    }
+    @include bp(md) {
+      top: 25%;
+    }
+    @include bp(sm) {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      margin: 48px 0 0 0;
+      text-align: center;
+    }
+  }
+  .l-PageTitle__h1 {
+    font-size: 64px;
+    text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+    line-height: 1.4;
+    letter-spacing: 0;
+    @include bp(lg) {
+      font-size: 64px;
+      text-align: left;
+    }
+    @include bp(md) {
+      font-size: 64px;
+      text-align: left;
+    }
+    @include bp(sm) {
+      font-size: (60rem / 16);
+    }
+  }
+  .l-Text {
+    letter-spacing: 0;
+    @include bp(lg) {
+      margin: 0;
+      position: relative;
+      text-align: left;
+      left: 50%;
+      @include translateX(-50%);
+      text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+      font-size: 22px;
+    }
+    @include bp(md) {
+      margin: 0;
+      position: relative;
+      text-align: left;
+      left: 50%;
+      @include translateX(-50%);
+      text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+      font-size: 21px;
+      white-space: nowrap;
+      &:nth-of-type(2){
+        display: none;
+      }
+    }
+    @include bp(sm) {
+      font-size: 18px;
+      margin-bottom: 0;
+      &:nth-of-type(1){
+        font-size: 18.8px;
+        text-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.5);
+        margin: 0px auto;
+      }
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+  .l-PageTitle__titleBlock__titleBox__title {
+    @include bp(sm) {
+      margin-bottom: 0;
+      &:after{
+        position: absolute;
+        left: 50%;
+        content: "";
+        width: 5%;
+        bottom: 0;
+        left: 50%;
+        margin-left: -5%;
+        height: 1px;
+        background: #ffffff;
+        display: block;
+      }
+    }
+  }
+}

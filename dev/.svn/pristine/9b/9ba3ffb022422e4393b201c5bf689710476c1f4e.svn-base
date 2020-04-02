@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+/*****************************
+  Content Color set (merit)
+ *****************************/
+
+/* Body */
+$body__bg: #FFFFFF;
+
+/* Brand Header */
+$brandHeader__bg: #D2ECEB;
+$brandHeader__border: #FFFFFF;
+$brandHeader__button__bg: #FFFFFF;
+$brandHeader__button__icontext: #007383;
+
+$brandHeader__linkNormal__bg: transparent;
+$brandHeader__linkNormal__text: #007383;
+$brandHeader__linkNormal__icon: #007383;
+$brandHeader__linkNormal__bg--hover: #FFFFFF;
+$brandHeader__linkNormal__text--hover: #007383;
+$brandHeader__linkNormal__icon--hover: #007383;
+
+$brandHeader__linkCurrent__bg: #007383;
+$brandHeader__linkCurrent__text: #FFFFFF;
+$brandHeader__linkCurrent__icon: #FFFFFF;
+$brandHeader__linkCurrent__bg--hover: #FFFFFF;
+$brandHeader__linkCurrent__text--hover: #007383;
+$brandHeader__linkCurrent__icon--hover: #007383;
+
+$brandHeader__separateBorder--top: #D2ECEB;
+$brandHeader__separateBorder--bottom: #D2ECEB;
+
+/* Local Navigation */
+$localNavigation__bg: #78D7D2;
+$localNavigation__bg--smmd: #78D7D2;
+$localNavigation__border: #FFFFFF;
+
+$localNavigation__linkNormal__bg: transparent;
+$localNavigation__linkNormal__text: #007383;
+$localNavigation__linkNormal__icon: #007383;
+$localNavigation__linkNormal__bg--hover: #61C1BE;
+$localNavigation__linkNormal__text--hover: #FFFFFF;
+$localNavigation__linkNormal__icon--hover: #007383;
+
+$localNavigation__linkCurrent__bg: #61C1BE;
+$localNavigation__linkCurrent__text: #FFFFFF;
+$localNavigation__linkCurrent__icon: #666666;
+$localNavigation__linkCurrent__bg--hover: #61C1BE;
+$localNavigation__linkCurrent__text--hover: #FFFFFF;
+$localNavigation__linkCurrent__icon--hover: #666666;
+
+$localNavigation__separateBorder--top: #FFFFFF;
+$localNavigation__separateBorder--bottom: #FFFFFF;
+
+/* Breadcrumbs */
+$breadcrumb__link: #666666;
+$breadcrumb__link--hover: #999999;
+$breadcrumb__link--visited: #666666;
+$breadcrumb__separateBorder--bottom: #CCCCCC;
+$breadcrumb__icon: #999999;
+
+/* Contents Area */
+$contents__bg: #FFFFFF;
+$contents__text: #333333;
+$contents__icon: #007383;
+$contents__icon--reverse: #F74984;
+$contents__heading__text: #333333;
+$contents__heading__border: transparent;
+
+/* Link */
+$text__link--01: #007383;
+$text__link--01--hover: #61C1BE;
+$text__link--01--visited: #007383;
+
+$text__link--02: #66C2FF;
+$text__link--02--hover: #CCEBFF;
+$text__link--02--visited: #EBCCFF;
+
+/* Button */
+$button__bg--01: #8FC31F;
+$button__text--01: #FFFFFF;
+$button__border--01: #8FC31F;
+$button__shadowVisible--01: false;
+
+$button__bg--02: #2FAEAE;
+$button__text--02: #FFFFFF;
+$button__border--02: #2FAEAE;
+$button__shadowVisible--02: false;
+
+$button__bg--03: #666666;
+$button__text--03: #FFFFFF;
+$button__border--03: #666666;
+$button__shadowVisible--03: true;
+
+$button__bg--04: #F1F1F1;
+$button__text--04: #333333;
+$button__border--04: #F1F1F1;
+$button__shadowVisible--04: true;
+
+$button__bg--05: transparent;
+$button__text--05: #0066AA;
+$button__border--05: #0066AA;
+$button__shadowVisible--05: false;
+
+$button__bg--06: transparent;
+$button__text--06: #E02D00;
+$button__border--06: #E02D00;
+$button__shadowVisible--06: false;
+
+$button__bg--07: transparent;
+$button__text--07: #333333;
+$button__border--07: #333333;
+$button__shadowVisible--07: false;
+
+/* Accordion */
+$accordion__title__bg: #F1F1F1;
+$accordion__title__text: #333333;
+$accordion__title__border: #CCCCCC;
+
+$accordion__content__bg: #FFFFFF;
+$accordion__content__text: #333333;
+$accordion__content__border: #CCCCCC;
+
+/* TileLink */
+$tileLink__bg: #ECF6F5;
+$tileLink__border: #D2ECEB;
+$tileLink__text: #2FAEAE;
+
+$tileLink__bg--reverse: transparent;
+$tileLink__border--reverse: transparent;
+$tileLink__text--reverse: #333333;
+
+/* NewsIndex */
+$newsIndex__text: #333333;
+$newsIndex__border: #EEEEEE;
+
+/* TelephoneCallItem */
+$telCall__border--sm: #999999;
+
+/* FullwidthVisuals&Carousel */
+$carousel__mainText: #333333;
+$carousel__subText: #333333;
+$carousel__subText--sm: #333333;
+$carousel__arrow__icon: #FFFFFF;
+$carousel__indicator__icon: #CBCBCB;
+$carousel__icon--sm: #CBCBCB;
+$carousel__arrow__icon__bg: rgba(#000, .5);
+
+$carousel__button__bg--sm: #8FC31F;
+$carousel__button__text--sm: #FFFFFF;
+$carousel__button__border--sm: #8FC31F;
+$carousel__button__shadowVisible--sm: false;
+
+/* Label/Tag */
+$labelTag__bg-01: #8FC31F;
+$labelTag__text-01: #FFFFFF;
+
+$labelTag__bg-02: #9C27B0;
+$labelTag__text-02: #FFFFFF;
+
+$labelTag__bg-03: #3F51B5;
+$labelTag__text-03: #FFFFFF;
+
+$labelTag__bg-04: #039BE5;
+$labelTag__text-04: #FFFFFF;
+
+$labelTag__bg-05: #43A047;
+$labelTag__text-05: #FFFFFF;
+
+$labelTag__bg-06: #FFEB3B;
+$labelTag__text-06: #333333;
+
+$labelTag__bg-07: #F44336;
+$labelTag__text-07: #FFFFFF;
+
+/* DefinitionList */
+$definitionList__label__bg-01: #999999;
+$definitionList__label__text-01: #FFFFFF;
+
+$definitionList__label__bg-02: #FFFFFF;
+$definitionList__label__text-02: #444444;
+
+/* YouTubeVideo */
+$youTubeVideo__text--01: #333333;
+$youTubeVideo__icon--01: #999999;
+$youTubeVideo__link--01: #0066AA;
+$youTubeVideo__link--01--hover: #007BCD;
+$youTubeVideo__link--01--visited: #552277;
+$youTubeVideo__text--02: #FFFFFF;
+$youTubeVideo__icon--02: #CCCCCC;
+$youTubeVideo__link--02: #66C2FF;
+$youTubeVideo__link--02--hover: #CCEBFF;
+$youTubeVideo__link--02--visited: #EBCCFF;
+
+/* FacebookPost */
+$facebookPost__text--01: #333333;
+$facebookPost__icon--01: #999999;
+$facebookPost__border--01: #CCCCCC;
+$facebookPost__link--01: #0066AA;
+$facebookPost__link--01--hover: #007BCD;
+$facebookPost__link--01--visited: #552277;
+$facebookPost__shared__text--01: #333333;
+$facebookPost__shared__border--01: #CCCCCC;
+$facebookPost__shared__bg--01: #FFFFFF;
+$facebookPost__text--02: #FFFFFF;
+$facebookPost__icon--02: #CCCCCC;
+$facebookPost__border--02: #999999;
+$facebookPost__link--02: #66C2FF;
+$facebookPost__link--02--hover: #CCEBFF;
+$facebookPost__link--02--visited: #EBCCFF;
+$facebookPost__shared__text--02: #FFFFFF;
+$facebookPost__shared__border--02: #999999;
+$facebookPost__shared__bg--02: #000000;
+
+/* TwitterPost */
+$twitterPost__text--01: #333333;
+$twitterPost__icon--01: #999999;
+$twitterPost__border--01: #CCCCCC;
+$twitterPost__link--01: #0066AA;
+$twitterPost__link--01--hover: #007BCD;
+$twitterPost__link--01--visited: #552277;
+$twitterPost__text--02: #FFFFFF;
+$twitterPost__icon--02: #CCCCCC;
+$twitterPost__border--02: #999999;
+$twitterPost__link--02: #66C2FF;
+$twitterPost__link--02--hover: #CCEBFF;
+$twitterPost__link--02--visited: #EBCCFF;
+
+/* InstagramPost */
+$instagramPost__text--01: #333333;
+$instagramPost__icon--01: #999999;
+$instagramPost__border--01: #CCCCCC;
+$instagramPost__link--01: #0066AA;
+$instagramPost__link--01--hover: #007BCD;
+$instagramPost__link--01--visited: #552277;
+$instagramPost__text--02: #FFFFFF;
+$instagramPost__icon--02: #CCCCCC;
+$instagramPost__border--02: #999999;
+$instagramPost__link--02: #66C2FF;
+$instagramPost__link--02--hover: #CCEBFF;
+$instagramPost__link--02--visited: #EBCCFF;
+
+/* Overlay */
+$overlay__bg: rgba(#000, 0.5);
+$modal__text: #333333;
+$modal__icon: #999999;
+$modal__bg: #FFFFFF;
+$modal__button__bg: #0066AA;
+$modal__button__text: #FFFFFF;
+$modal__button__border: #0066AA;
+$modal__button__shadowVisible: true;
+
+/* Brand Footer */
+$brandFooter__bg-01: #D2ECEB;
+$brandFooter__bg-02: #6EDEF1;
+$brandFooter__bg--open: #D2ECEB;
+$brandFooter__text-01: #007383;
+$brandFooter__text-02: #007383;
+$brandFooter__icon-01: #007383;
+$brandFooter__icon-02: #007383;
+$brandFooter__border-01: #FFFFFF;
+$brandFooter__border-02: #FFFFFF;
+$brandFooter__separateBorder--top: #D2ECEB;
+
+/* Page Top */
+$pageTop__bg: rgba(102,102,102,.5);
+$pageTop__icon: #FFFFFF;
+
+/* Option */
+$option__bg--01: #FFFFFF;
+$option__bg--02: #F1F1F1;
+$option__bg--03: #EEEEEE;
+$option__bg--04: #ECF6F5;
+$option__bg--05: #D2ECEB;
+$option__bg--06: #2FAEAE;
+$option__bg--07: #8FC31F;
+
+$option__border--01: #CCCCCC;
+$option__border--02: #FFFFFF;
+$option__border--03: #D2ECEB;
+$option__border--04: #F74984;
+$option__border--05: #999999;
+$option__border--06: #666666;
+$option__border--07: #007383;
+
+$option__inPlaceEditor--01: #FFFFFF;
+$option__inPlaceEditor--02: #D2D2D2;
+$option__inPlaceEditor--03: #999999;
+$option__inPlaceEditor--04: #666666;
+$option__inPlaceEditor--05: #333333;
+$option__inPlaceEditor--06: #000000;
+$option__inPlaceEditor--07: #2FAEAE;
+$option__inPlaceEditor--08: #8FC31F;
+$option__inPlaceEditor--09: #007383;
+$option__inPlaceEditor--10: #F74984;
+$option__inPlaceEditor--11: #039BE5;
+$option__inPlaceEditor--12: #FF6700;

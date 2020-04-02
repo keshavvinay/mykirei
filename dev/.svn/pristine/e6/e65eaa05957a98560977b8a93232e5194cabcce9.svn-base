@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import "compass";
+@import "libs/config";
+@import "libs/mixin";
+@import "libs/icon";
+@import "layer/Area";
+@import "section/Section";
+@import "layoutcolumn/Column";
+@import "grouping/GroupBox";
+@import "items/PageTitle";
+@import "items/HeadingTitle";
+@import "items/Text";
+@import "items/Image";
+@import "items/LinkButton";
+@import "items/List";
+@import "packs/TextP";
+@import "packs/ImageTextVP";
+@import "packs/ImageTextHP";
+@import "packs/TileLinkVP";
+@import "packs/TileLinkHP";
+// @import "include/gl_header";
+// @import "include/gl_footer";
+
+/*
+ * 上書き
+ */
+.g-Section {
+  //background-color: #efe;
+  padding: 0;
+  margin: 0;
+}
+
+.g-Section__inner {
+  //max-width: 1048px; //表示幅が960pxになるよう調整
+  max-width: 1024px; //表示幅が960pxになるよう調整
+}
+
+.g-Column {
+  //background-color: #ffd;
+  padding: 0;
+  margin: 0;
+}
+
+.g-Column__cols {
+  padding: 0;
+  margin: 0;
+}
+
+.g-GroupBox {
+  //background-color: #fee;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*
+ * sofina iP
+ */
+
+@import "ip/common";
+@import "ip/ip";
+@import "ip/qa";
+@import "ip/shops";
+@import "ip/mousse";
+@import "ip/drink";
+@import "ip/lp";
+@import "ip/voice01";

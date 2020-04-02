@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*  your_look_header */
+
+.jf-your_look_header {
+  position: relative;
+  height: 525px !important;
+  background-color: #000;
+  background-position: center top;
+  @include bp(md) {
+    height: 525px !important;
+  }
+  @include bp(sm) {
+    height: auto !important;
+    background-image: none !important;
+    display: inline-block;
+  }
+  .l-PageTitle__titleBlock__titleBox__title{
+    @include bp(sm) {
+      margin-bottom: 0;
+    }
+  }
+  .l-PageTitle__titleBlock {
+    width: auto;
+    @include bp(md) {
+      position: relative;
+    }
+    @include bp(sm) {
+      width: 100%;
+    }
+  }
+  .l-PageTitle {
+    position: absolute;
+    text-align: left;
+    left: 10%;
+    top: 35%;
+    margin: 0;
+    @include bp(lg) {
+      top: 30%;
+    }
+    @include bp(sm) {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      margin: 48px 0 0 0;
+      text-align: center;
+    }
+  }
+  .l-PageTitle__h1 {
+    position: relative;
+    top: 35%;
+    font-size: (72rem / 16);
+    text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+    line-height: 1.19;
+    letter-spacing: 0;
+    @include bp(lg) {
+      margin-bottom: 8%;
+      text-align: left;
+    }
+    @include bp(md) {
+      font-size: (48rem / 16);
+      margin-bottom: 30px;
+      text-align: left;
+    }
+    @include bp(sm) {
+      font-size: (60rem / 16);
+      line-height: 1.2;
+    }
+  }
+  .l-Text {
+    letter-spacing: 0;
+    bottom: 100%;
+    @include bp(lg) {
+      margin-bottom: -8px;
+      text-align: left;
+      @include translateX(0%);
+      text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+      font-size: 24px;
+      letter-spacing: 1.2px;
+      &:nth-of-type(2) {
+        line-height: 1.2;
+        font-size: 20px;
+        margin-bottom: 0;
+        left: 0;
+        position: absolute;
+        top: 100%;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        letter-spacing: 0;
+      }
+    }
+    @include bp(md) { 
+      margin: 0;
+      position: absolute;
+      margin-bottom: -6px;
+      left: 0;
+      text-align: left;
+      @include translateX(0%);
+      text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+      font-size: 14px;
+      letter-spacing: 1.2px;
+      &:nth-of-type(2) {
+        position: relative;
+        max-width: 32%;
+        line-height: 1.2;
+        font-size: 16px;
+        margin-bottom: 0;
+        left: 0;
+      }
+    }
+    @include bp(sm) {
+      font-size: 14px;
+      letter-spacing: 0.7px;
+      margin-bottom: 0;
+      &:nth-of-type(2) {
+        font-size: 1rem;  
+        text-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.5);
+        margin: -0.4em auto 3em auto;
+        max-width: 80%;
+        padding-top: 1em;
+        position: relative;
+        &:before{
+          position: absolute;
+          content: "";
+          width: 5%;
+          top: 0;
+          left: 50%;
+          margin-left: -5%;
+          height: 1px;
+          background: #ffffff;
+          display: block;
+        }
+      }
+    }
+  }
+}
+.jf-your_look_header.is-background{
+  background-position: 0 0;
+}

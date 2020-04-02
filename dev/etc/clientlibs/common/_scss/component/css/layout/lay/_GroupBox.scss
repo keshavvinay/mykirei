@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+/* GroupBox ============================== */
+.g-GroupBox {
+  &.is-background {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-border {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-bg--ignore-size {
+    background-size:auto;
+  }
+}

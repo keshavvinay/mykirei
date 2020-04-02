@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+/*****************************
+  Clientlibs config
+ *****************************/
+
+/*
+ setting
+ （上書き禁止）
+ */
+$breakpoint_sm:  640px;
+$breakpoint_md: 1024px;
+$breakpoint_lg: 1366px;
+$contentsMaxWidth_sm: $breakpoint_sm;
+$contentsMaxWidth_md: $breakpoint_md;
+$contentsMaxWidth_lg: $breakpoint_lg;
+
+
+/*
+ common veriable
+ （共通変数・任意）
+ */
+$paddingInner: 20px; //（廃止予定）
+$cmn_paddingInner: 20px;
+$cmn_colorGray_0: #fff;
+$cmn_colorGray_1: #000;
+$cmn_colorGray_2: #333;
+$cmn_colorGray_3: #666;
+$cmn_colorGray_4: #999;
+$cmn_colorGray_5: #ccc;
+$cmn_colorGray_6: #eee;
+$cmn_colorGray_7: #f2f2f2;
+$cmn_marginItemGutter_lg: 24px;
+$cmn_marginItemGutter_md: 24px;
+$cmn_marginItemGutter_sm: 16px;
+$cmn_colsWidth_1: 100%;
+$cmn_colsWidth_2: 50%;
+$cmn_colsWidth_3: 33.3%;
+$cmn_colsWidth_4: 25%;
+$cmn_colsWidth_5: 20%;
+$cmn_colsWidth_6: 16.66%;
+
+
+
+/*
+ design principles
+ （サイト、ページ別に上書きを許可）
+ */
+$marginGutterColumn_lg_s:  16px;
+$marginGutterColumn_lg_m:  24px;
+$marginGutterColumn_lg_l:  32px;
+$marginGutterColumn_lg_xl: 48px;
+
+$marginGutterColumn_md_s:  16px;
+$marginGutterColumn_md_m:  24px;
+$marginGutterColumn_md_l:  32px;
+$marginGutterColumn_md_xl: 48px;
+
+$marginGutterColumn_sm_s:  16px;
+$marginGutterColumn_sm_m:  24px;
+$marginGutterColumn_sm_l:  32px;
+$marginGutterColumn_sm_xl: 48px;
+
+// box margin
+$marginBox_lg_s:  16px;
+$marginBox_lg_m:  24px;
+$marginBox_lg_l:  32px;
+$marginBox_lg_xl: 48px;
+
+$marginBox_md_s:  16px;
+$marginBox_md_m:  24px;
+$marginBox_md_l:  32px;
+$marginBox_md_xl: 48px;
+
+$marginBox_sm_s:  16px;
+$marginBox_sm_m:  24px;
+$marginBox_sm_l:  32px;
+$marginBox_sm_xl: 48px;
+
+// section margin
+$marginSectionLeftRight_lg: 32px;
+$marginSectionLeftRight_md: 32px;
+$marginSectionLeftRight_sm: 24px;
+$marginSectionTopBottom_lg: 32px;
+$marginSectionTopBottom_md: 32px;
+$marginSectionTopBottom_sm: 24px;
+
+// hr border-width:
+$borderWidthHr_s: 1px;
+$borderWidthHr_m: 2px;
+$borderWidthHr_l: 4px;
+
+// box border-width
+$borderWidthBox_s: 1px;
+$borderWidthBox_m: 2px;
+$borderWidthBox_l: 4px;
+
+// アイコンは"_icon.scss"に記載
+
+// link-hover
+$linkBlockHoverOpacity: .7;
+
+// radius
+$borderRadius_xs: 4px;
+$borderRadius_s:  8px;
+$borderRadius_m:  12px;
+$borderRadius_l:  16px;
+$borderRadius_xl: 20px;
+
+// font-family
+$fontFamily: sans-serif;
+
+// font-size
+$fontSize_lg_lv1:     36px;
+$fontSize_lg_lv2:     28px;
+$fontSize_lg_lv3:     24px;
+$fontSize_lg_lv4:     20px;
+$fontSize_lg_lv5:     18px;
+$fontSize_lg_lv6:     16px;
+$fontSize_lg_body:    16px;
+$fontSize_lg_caption: 12px;
+
+$fontSize_md_lv1:     36px;
+$fontSize_md_lv2:     28px;
+$fontSize_md_lv3:     24px;
+$fontSize_md_lv4:     20px;
+$fontSize_md_lv5:     18px;
+$fontSize_md_lv6:     16px;
+$fontSize_md_body:    16px;
+$fontSize_md_caption: 12px;
+
+$fontSize_sm_lv1:     24px;
+$fontSize_sm_lv2:     22px;
+$fontSize_sm_lv3:     20px;
+$fontSize_sm_lv4:     18px;
+$fontSize_sm_lv5:     16px;
+$fontSize_sm_lv6:     14px;
+$fontSize_sm_body:    14px;
+$fontSize_sm_caption: 12px;
+
+//line-height
+$lineHeight_lg_lv1:     1.2;
+$lineHeight_lg_lv2:     1.2;
+$lineHeight_lg_lv3:     1.2;
+$lineHeight_lg_lv4:     1.2;
+$lineHeight_lg_lv5:     1.2;
+$lineHeight_lg_lv6:     1.2;
+$lineHeight_lg_body:    1.6;
+$lineHeight_lg_caption: 1.4;
+
+$lineHeight_md_lv1:     1.2;
+$lineHeight_md_lv2:     1.2;
+$lineHeight_md_lv3:     1.2;
+$lineHeight_md_lv4:     1.2;
+$lineHeight_md_lv5:     1.2;
+$lineHeight_md_lv6:     1.2;
+$lineHeight_md_body:    1.6;
+$lineHeight_md_caption: 1.4;
+
+$lineHeight_sm_lv1:     1.2;
+$lineHeight_sm_lv2:     1.2;
+$lineHeight_sm_lv3:     1.2;
+$lineHeight_sm_lv4:     1.2;
+$lineHeight_sm_lv5:     1.2;
+$lineHeight_sm_lv6:     1.2;
+$lineHeight_sm_body:    1.6;
+$lineHeight_sm_caption: 1.4;
+
+// font-scale
+$fontScale_xs:    0.5em;
+$fontScale_s:     0.75em;
+$fontScale_l:     1.25em;
+$fontScale_xl:    1.5em;
+$fontScale_xxl:   1.75em;
+$fontScale_xxxl:  2em;
+$fontScale_xxxxl: 2.5em;
+
+// color-font
+$colorFontBody: #333;
+$colorFont_01:  #f00;
+$colorFont_02:  #f90;
+$colorFont_03:  #cf0;
+$colorFont_04:  #3f0;
+$colorFont_05:  #0f6;
+$colorFont_06:  #0ff;
+$colorFont_07:  #06f;
+$colorFont_08:  #30f;
+$colorFont_09:  #c0f;
+$colorFont_10:  #f09;
+$colorFont_11:  #000;
+$colorFont_12:  #fff;
+
+// color-link
+$colorLink: #06a;
+$colorLink_hover: #007bcd;
+$colorLink_visited: #527;
+
+// color-button
+$colorButton_bg: #06a;
+$colorButton_text: $cmn_colorGray_0;
+
+// color-icon
+$colorIcon_dark:  $cmn_colorGray_4;
+$colorIcon_light: $cmn_colorGray_0;
+
+// HR color-border
+$colorHr_1: $cmn_colorGray_1;
+$colorHr_2: $cmn_colorGray_2;
+$colorHr_3: $cmn_colorGray_3;
+$colorHr_4: $cmn_colorGray_4;
+$colorHr_5: $cmn_colorGray_5;
+$colorHr_6: $cmn_colorGray_6;
+$colorHr_7: $cmn_colorGray_7;
+
+// color-border
+$colorBorderBox_1: $cmn_colorGray_1;
+$colorBorderBox_2: $cmn_colorGray_2;
+$colorBorderBox_3: $cmn_colorGray_3;
+$colorBorderBox_4: $cmn_colorGray_4;
+$colorBorderBox_5: $cmn_colorGray_5;
+$colorBorderBox_6: $cmn_colorGray_6;
+$colorBorderBox_7: $cmn_colorGray_7;
+
+// color-background
+$colorBackgroundBox_1: #f1f1f1;
+$colorBackgroundBox_2: #feeceb;
+$colorBackgroundBox_3: #f5e9f7;
+$colorBackgroundBox_4: #ebedf7;
+$colorBackgroundBox_5: #e5f5fc;
+$colorBackgroundBox_6: #ecf5ec;
+$colorBackgroundBox_7: #fffdeb;
+
+// body color-background
+$colorBackgroundBody: $cmn_colorGray_0;
+
+// label/tag color
+$colorLabelTag_bg_1:    #757575;
+$colorLabelTag_label_1: $cmn_colorGray_0;
+$colorLabelTag_bg_2:    #f44336;
+$colorLabelTag_label_2: $cmn_colorGray_0;
+$colorLabelTag_bg_3:    #9c27b0;
+$colorLabelTag_label_3: $cmn_colorGray_0;
+$colorLabelTag_bg_4:    #3f51b5;
+$colorLabelTag_label_4: $cmn_colorGray_0;
+$colorLabelTag_bg_5:    #039be5;
+$colorLabelTag_label_5: $cmn_colorGray_0;
+$colorLabelTag_bg_6:    #43a047;
+$colorLabelTag_label_6: $cmn_colorGray_0;
+$colorLabelTag_bg_7:    #ffeb3b;
+$colorLabelTag_label_7: $cmn_colorGray_1;
+
+// shadow (x,y,blur,spread,rgba)
+$shadowA_setting: 2px 2px 0 0 rgba(0, 0, 0, .1);
+$shadowB_setting: 2px 2px 2px 2px rgba(0, 0, 0, .1);

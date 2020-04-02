@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* C030 FAQ */
+.c030 {
+  width: 80%;
+  margin: 120px auto;
+  @include bp(md) {
+    width: 83.33%;
+    margin: 75px auto 0;
+  }
+  @include bp(sm) {
+    width: 83.33%;
+    margin: 80px auto 0;
+  }
+  .l-AccordionUnit {
+    position: relative;
+    padding: 50px 0 17px 20px;
+    border-bottom: 1px solid #d9d9d9;
+    &:before {
+      display: block;
+      content: "";
+      position: absolute;
+      right: 20px;
+      top: 46px;
+      box-sizing: border-box;
+      width: 15px;
+      height: 15px;
+      border-left: 1px solid #000;
+      border-bottom: 1px solid #000;
+      @include transform(rotate(-45deg));
+      @include transition(all .5s);
+    }
+    &.is-open {
+      &:before {
+        top: 56px;
+        @include transform(rotate(135deg));
+        border-color: #fe5000;
+      }
+      .l-AccordionUnit__titleBlock {
+        .l-HeadingTitle__titleBlock {
+          .l-HeadingTitle__h3 {
+            color: #fe5000;
+          }
+        }
+      }
+      .l-AccordionUnit__contentBlock {
+        .l-Text {
+          .cmn-richtext {
+            height: auto;
+            white-space: normal;
+          }
+        }
+      }
+      @include bp(md) {
+        &:before {
+          top: 35px;
+        }
+      }
+      @include bp(sm) {
+        &:before {
+          top: 35px;
+        }
+      }
+    }
+    &.is-disable {
+      &:before {
+        display: none;
+      }
+      .l-HeadingTitle__titleBlock {
+        pointer-events: none;
+        cursor: default;
+      }
+      &.is-open {
+        .l-AccordionUnit__titleBlock {
+          .l-HeadingTitle__titleBlock {
+            .l-HeadingTitle__h3 {
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+    @include bp(md) {
+      padding: 30px 0 6px 10px;
+      &:before {
+        right: 10px;
+        top: 28px;
+        width: 11px;
+        height: 11px;
+      }
+    }
+    @include bp(sm) {
+      padding: 30px 0 11px 10px;
+      &:before {
+        right: 10px;
+        top: 28px;
+        width: 11px;
+        height: 11px;
+      }
+    }
+  }
+  .l-AccordionUnit__titleBlock {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    overflow: visible;
+    .l-HeadingTitle {
+      margin-bottom: 15px;
+      @include bp(md) {
+        margin-bottom: 16px;
+      }
+      @include bp(sm) {
+        margin-bottom: 16px;
+      }
+    }
+    .l-HeadingTitle__titleBlock {
+      display: block;
+      width: auto;
+      padding-right: 180px;
+      cursor: pointer;
+      .l-HeadingTitle__h3 {
+        color: #000;
+      }
+      &:hover {
+        .l-HeadingTitle__h3 {
+          color: #fe5000;
+        }
+      }
+      @include bp(md) {
+        padding-right: 50px;
+        &:hover {
+          .l-HeadingTitle__h3 {
+            color: #000;
+          }
+        }
+      }
+      @include bp(sm) {
+        padding-right: 40px;
+        &:hover {
+          .l-HeadingTitle__h3 {
+            color: #000;
+          }
+        }
+      }
+    }
+    .l-HeadingTitle__h3 {
+      @include kms-fontSize(headline3);
+      @include kms-fontFamily(subTitle);
+      @include transition(all .5s);
+    }
+  }
+  .l-AccordionUnit__contentBlock {
+    border: none;
+    padding: 0;
+    padding-right: 180px;
+    overflow: hidden;
+    font-size: 14px;
+    height: 1.5em;
+    @include transition(all .5s);
+    @include bp(md) {
+      padding-right: 50px;
+      font-size: 16px;
+    }
+    @include bp(sm) {
+      padding-right: 40px;
+      font-size: 16px;
+    }
+    .l-Text {
+      margin: 0;
+      .cmn-richtext {
+        display: inline-block;
+        width: 100%;
+        height: 1.5em;
+        padding-right: .5em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+/* LabelTagP ================================================== */
+.g-LabelTagP {
+  margin-bottom: 12px;
+  &.is-background {
+    padding: $cmn_paddingInner;
+    
+  }
+}
+
+.g-LabelTagP__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.g-LabelTagP__list__item {
+  display: inline-block;
+  margin: 0 4px 4px 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* LabelTagUnit ================================================== */
+.g-LabelTagUnit {
+  display: block;
+  padding: 4px 8px;
+  @include fontSize(caption);
+  &.is-background {
+    
+  }
+  &.is-colorset1 {
+    color: $colorLabelTag_label_1;
+    background-color: $colorLabelTag_bg_1;
+  }
+  &.is-colorset2 {
+    color: $colorLabelTag_label_2;
+    background-color: $colorLabelTag_bg_2;
+  }
+  &.is-colorset3 {
+    color: $colorLabelTag_label_3;
+    background-color: $colorLabelTag_bg_3;
+  }
+  &.is-colorset4 {
+    color: $colorLabelTag_label_4;
+    background-color: $colorLabelTag_bg_5;
+  }
+  &.is-colorset5 {
+    color: $colorLabelTag_label_5;
+    background-color: $colorLabelTag_bg_5;
+  }
+  &.is-colorset6 {
+    color: $colorLabelTag_label_6;
+    background-color: $colorLabelTag_bg_6;
+  }
+  &.is-colorset7 {
+    color: $colorLabelTag_label_7;
+    background-color: $colorLabelTag_bg_7;
+  }
+}

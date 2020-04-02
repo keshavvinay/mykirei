@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+.c375__section {
+  .l-Section__inner {
+    @include bp(sm) {
+      padding-left: 0;
+      padding-right: 0;
+    };
+  }
+}
+
+.c375 {
+  position: relative;
+  .l-TwitterPostUnit {
+    border-style: none;
+    @include bp(lg) {
+      margin-left: auto;
+    };
+    @include bp(md) {
+      margin: 0 auto;
+    };
+    @include bp(sm) {
+      padding-left: 15px;
+      padding-right: 15px;
+    };
+  }
+
+  .l-TwitterPost__contentsBlock {
+    position: relative;
+  }
+
+  // imageBlock
+  .l-TwitterPost__contentsBlock__image {
+    @include bp(lg) {
+      width: 60% !important;
+      margin-left: auto !important;
+      margin-bottom: 18px;
+    };
+    @include bp(md) {
+      margin-left: auto !important;
+      margin-bottom: 26px;
+    };
+    @include bp(sm) {
+      width: 100% !important;
+      margin-bottom: 30px;
+    };
+  }
+
+  // textBlock
+  .l-TwitterPost__contentsBlock__text {
+    position: relative;
+    color: #000 !important;
+  }
+  .l-TwitterPostUnit:not(.is-none-media) {
+    .l-TwitterPost__contentsBlock__text {
+      @include bp(lg) {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background: #fff;
+        width: 36%;
+        padding: 30px;
+      };
+      @include bp(md) {
+        width: 40%;
+      };
+    }
+  }
+  .l-TwitterPost__contentsBlock__text {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(longcopy);
+  }
+  .l-TwitterPost__contentsBlock__tweet__text {
+    margin-bottom: 27px;
+    @include bp(md) {
+      width: 70%;
+      margin-bottom: 20px;
+    };
+    @include bp(sm) {
+      margin-bottom: 18px;
+    };
+    a {
+      color: #fe5000 !important;
+      text-decoration: none;
+      &:hover, &:visited {
+        color: #fe5000 !important;
+      }
+    }
+  }
+
+  // visit
+  .l-TwitterPost__contentsBlock__text {
+    .l-TwitterPost__contentsBlock__visit {
+      @include bp(sm) {
+        display: block !important;
+        right: 0;
+        top: -7px;
+      };
+    }
+  }
+  .l-TwitterPost__contentsBlock__visit {
+    position: absolute;
+    @include kms-fontFamily(body);
+    line-height: 1;
+    @include bp(lg) {
+      top: 20px;
+      right: 50px;
+    };
+    @include bp(md) {
+	  top: -9px;
+      right: 5%;
+    };
+    @include bp(sm) {
+      display: none;
+    };
+  }
+  .l-TwitterPost__contentsBlock__visit__link {
+    position: relative;
+    padding: 0 25px 0 0;
+    @include kms-fontFamily(subTitle);
+    font-size: 18px;
+    line-height: 20px;
+    top: 6px;
+    @include bp(sm) {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 5px !important;
+        top: 5px;
+      };
+    text-transform: uppercase;
+    color: #d9d9d9 !important;
+    &:after {
+      font-family: 'kms';
+      font-size: 20px;
+      @include bp(sm) {
+        font-size: 15px;
+      };
+      content: "\e907";
+      display: block;
+      position: absolute;
+      right: -5px;
+      top: 50%;
+      transform: translateY(-60%);
+    }
+      &:hover:after{
+          color: #fe5000;
+      }
+  }
+  .l-TwitterPost__contentsBlock__visit__icon {
+    display: none;
+  }
+
+  // date
+  .l-TwitterPost__contentsBlock__date {
+    @include kms-fontFamily(body);
+    font-size: 18px;
+      line-height: 20px;
+    @include bp(sm) {
+        font-size: 16px;
+        line-height: 18px;
+      };
+    color: #d9d9d9 !important;
+    line-height: 1;
+  }
+
+  // links
+  .visited__media .l-TwitterPost__contentsBlock__links__item__icon:before,
+  .visited__media .l-TwitterPost__contentsBlock__links__item__label {
+      color: #fe5000 !important;
+  }
+    
+  .l-TwitterPost__contentsBlock__links {
+    margin-top: 20px;
+    margin-bottom: 0;
+    a {
+      color: #d9d9d9 !important;
+    }
+  }
+  .l-TwitterPost__contentsBlock__links__item {
+    margin-right: 20px;
+  }
+  .l-TwitterPost__contentsBlock__links__item:first-child {
+    .l-TwitterPost__contentsBlock__links__item__label {
+      display: none;
+    }
+  }
+  .l-TwitterPost__contentsBlock__links__item__label {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(longcopy);
+  }
+  .l-TwitterPost__contentsBlock__links__item__link {
+    color: #d9d9d9;
+    padding-left: 27px;
+  }
+  .l-TwitterPost__contentsBlock__links__item__icon {
+    @extend .kms-icon;
+    color: #d9d9d9 !important;
+    @include bp(lg) {
+      padding-bottom: 6px;
+      font-size: 16px !important;
+    };
+    @include bp(md) {
+      padding-bottom: 6px;
+      font-size: 20px !important;
+    };
+    @include bp(sm) {
+      padding-bottom: 6px;
+      font-size: 20px !important;
+    };
+  }
+  .l-TwitterPost__contentsBlock__links__item__icon:hover{
+    color: #fe5000 !important;
+  }
+  .cmn-icon--reply.l-TwitterPost__contentsBlock__links__item__icon {
+    @extend .kms-icon--reply;
+  }
+  .cmn-icon--retweet.l-TwitterPost__contentsBlock__links__item__icon {
+    @extend .kms-icon--retweet;
+  }
+  .cmn-icon--heart.l-TwitterPost__contentsBlock__links__item__icon {
+    @extend .kms-icon--heart1;
+  }
+
+  // no media post
+  .l-TwitterPostUnit.is-none-media {
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #e4e2db;
+    @include bp(lg) {
+      width: 46.6%;
+      margin-left: inherit;
+    };
+    .l-TwitterPost__contentsBlock__text {
+      @include bp(lg) {
+        padding-right: 0 !important;
+      };
+    }
+    .l-TwitterPost__contentsBlock__tweet__text {
+      @include bp(md) {
+        width: 100%;
+      };
+      @include bp(sm) {
+        width: 100%;
+      };
+    }
+
+    .l-TwitterPost__contentsBlock__visit {
+      top: -7px;
+      right: 0;
+    }
+
+    .l-TwitterPost__contentsBlock__date {
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 20px;
+      @include bp(sm){
+        font-size: 16px;
+        line-height: 18px;
+      }
+      color: #fff !important;
+    }
+    .l-TwitterPost__contentsBlock__visit__link,
+    .l-TwitterPost__contentsBlock__visit__icon {
+      color: #fff !important;
+    }
+
+    .l-TwitterPost__contentsBlock__links__item__icon,
+    .l-TwitterPost__contentsBlock__links a {
+      color: #fff !important;
+
+    }
+    .l-TwitterPost__contentsBlock__links__item__icon:hover {
+        color: #fe5000 !important;
+      }
+  }
+}
+.c375.is-layoutR {
+	.l-TwitterPost__contentsBlock__text {
+        left: 0 !important;
+		right: auto !important;
+    }
+}
+.c375.is-layoutL {
+    .l-TwitterPost__contentsBlock__text {
+        right: 0 !important;
+		left: auto !important;
+    }
+}

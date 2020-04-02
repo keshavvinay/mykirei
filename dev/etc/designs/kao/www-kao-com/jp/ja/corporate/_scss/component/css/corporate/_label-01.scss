@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.corp-label-01 {
+  .l-LabelTagUnit {
+    font-size: 12px;
+    border: 1px solid;
+    &.is-colorset1 {
+      border-color: $labelTag__border-01;
+    }
+    &.is-colorset2 {
+      border-color: $labelTag__border-02;
+    }
+    &.is-colorset3 {
+      border-color: $labelTag__border-03;
+    }
+    &.is-colorset4 {
+      border-color: $labelTag__border-04;
+    }
+    &.is-colorset5 {
+      border-color: $labelTag__border-05;
+    }
+    &.is-colorset6 {
+      border-color: $labelTag__border-06;
+    }
+    &.is-colorset7 {
+      border-color: $labelTag__border-07;
+    }
+    @include bp(md) {
+      font-size: 11px;
+    }
+    @include bp(sm) {
+      font-size: 11px;
+    }
+  }
+  .l-LabelTagP__list__item {
+    margin: 0 10px 10px 0;
+    @include bp(sm) {
+      margin: 0 8px 8px 0;
+    }
+  }
+}

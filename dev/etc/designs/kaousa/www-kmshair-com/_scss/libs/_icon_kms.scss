@@ -1,0 +1,85 @@
+// kms用 icon
+@font-face {
+  font-family: 'kms';
+  src:  url('../fonts/kms.eot?6vheq9');
+  src:  url('../fonts/kms.eot?6vheq9#iefix') format('embedded-opentype'),
+    url('../fonts/kms.ttf?6vheq9') format('truetype'),
+    url('../fonts/kms.woff?6vheq9') format('woff'),
+    url('../fonts/kms.svg?6vheq9#kms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.kms-icon {
+  display: inline-block;
+  font-family: 'kms';
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.kms-icon--dots:before {
+  content: "\e900";
+}
+.kms-icon--fb:before {
+  content: "\e901";
+}
+.kms-icon--globe:before {
+  content: "\e902";
+}
+.kms-icon--inst:before {
+  content: "\e903";
+}
+.kms-icon--mail:before {
+  content: "\e904";
+}
+.kms-icon--pinterest:before {
+  content: "\e905";
+}
+.kms-icon--print:before {
+  content: "\e906";
+}
+.kms-icon--tw:before {
+  content: "\e907";
+}
+.kms-icon--yt:before {
+  content: "\e908";
+}
+.kms-icon--share:before {
+  content: "\e909";
+}
+.kms-icon--comment1:before {
+  content: "\e910";
+}
+.kms-icon--comment2:before {
+  content: "\e911";
+}
+.kms-icon--thumbs_up:before {
+  content: "\e912";
+}
+.kms-icon--reply:before {
+  content: "\e913";
+}
+.kms-icon--retweet:before {
+  content: "\e914";
+}
+.kms-icon--heart1:before {
+  content: "\e915";
+}
+.kms-icon--heart2:before {
+  content: "\e916";
+}
+.kms-icon--mappin:before {
+  content: "\e917";
+}
+.kms-icon--whatsapp:before {
+  content: "\e918";
+}
+.kms-icon--googleplus:before {
+  content: "\e919";
+}
+.kms-icon--search:before {
+  content: "\e920";
+}

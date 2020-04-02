@@ -1,0 +1,753 @@
+## Redirection for Biore AU
+
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/biore-skincare/$ https://www.biore.com/en-au/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/biore-facial-cleansing-products/$ https://www.biore.com/en-au/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/deep-porefection-oily-skin/deep-pore-charcoal-cleanser$ https://www.biore.com/en-au/products/charcoal-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/about-us/$ https://www.biore.com/en-au/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/deep-porefection-oily-skin/pore-penetrating-charcoal-bar$ https://www.biore.com/en-au/products/charcoal-bar/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/deep-porefection-oily-skin/pore-unclogging-scrub$ https://www.biore.com/en-au/products/pore-unclogging-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/deep-porefection-oily-skin/self-heating-one-minute-mask$ https://www.biore.com/en-au/products/self-heating-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/deep-porefection-oily-skin/daily-deep-pore-cleansing-wipes$ https://www.biore.com/en-au/products/cleansing-wipes/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/deep-porefection-combination-skin/baking-soda-pore-cleanser$ https://www.biore.com/en-au/products/blue-agave-pore-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/take-it-all-off/baking-soda-cleansing-micellar-water$ https://www.biore.com/en-au/products/baking-soda-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/take-it-all-off/charcoal-cleansing-micellar-water$ https://www.biore.com/en-au/products/charcoal-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/acnes-outta-here/charcoal-acne-clearing-cleanser$ https://www.biore.com/en-au/products/charcoal-acne-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/acnes-outta-here/charcoal-acne-scrub$ https://www.biore.com/en-au/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/acnes-outta-here/baking-soda-acne-scrub$ https://www.biore.com/en-au/products/baking-soda-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/acnes-outta-here/triple-action-toner$ https://www.biore.com/en-au/products/triple-action-toner/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/breakup-with-blackheads/warming-anti-blackhead-cleanser$ https://www.biore.com/en-au/products/warming-blackhead-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/breakup-with-blackheads/deep-cleansing-pore-strips$ https://www.biore.com/en-au/products/deep-cleansing-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/breakup-with-blackheads/charcoal-pore-strips$ https://www.biore.com/en-au/products/charcoal-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/breakup-with-blackheads/deep-cleansing-pore-strips-ultra$ https://www.biore.com/en-au/products/ultra-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/breakup-with-blackheads/deep-cleansing-pore-strips-combo$ https://www.biore.com/en-au/products/combo-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/breakup-with-blackheads/deep-cleansing-pore-strips-ultra-combo$ https://www.biore.com/en-au/products/ultra-combo-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/pore-care/$ https://www.biore.com/en-au/pore-care/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/contact-us$ https://www.biore.com/en-au/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/privacy/$ https://www.biore.com/en-au/privacy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/where-to-buy/$ https://www.biore.com/en-au/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/legal/$ https://www.biore.com/en-au/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/sitemap/$ https://www.biore.com/en-au/sitemap/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.au
+RewriteRule ^/complexion-clearing-products/warming-anti-blackhead-cleanser$ https://www.biore.com/en-au/products/warming-blackhead-cleanser/ [R=301]
+
+## Redirection for Biore CA
+
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/acnes-outta-here/baking-soda-acne-cleansing-foam$ https://www.biore.com/en-ca/products/blue-agave-baking-soda-acne-cleansing-foam/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/acnes-outta-here/baking-soda-acne-scrub$ https://www.biore.com/en-ca/products/blue-agave-baking-soda-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/acnes-outta-here/blemish-fighting-astringent-toner$ https://www.biore.com/en-ca/products/pore-clarifying-toner/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/acnes-outta-here/blemish-fighting-ice-cleanser$ https://www.biore.com/en-ca/products/pore-clarifying-cooling-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/acnes-outta-here/charcoal-acne-clearing-cleanser$ https://www.biore.com/en-ca/products/charcoal-acne-clearing-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/acnes-outta-here/charcoal-acne-scrub$ https://www.biore.com/en-ca/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/biore-facial-cleansing-products/$ https://www.biore.com/en-ca/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/biore-skincare$ https://www.biore.com/en-ca/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/breakup-with-blackheads/charcoal-pore-strips$ https://www.biore.com/en-ca/products/charcoal-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/breakup-with-blackheads/deep-cleansing-pore-strips$ https://www.biore.com/en-ca/products/deep-cleansing-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/breakup-with-blackheads/deep-cleansing-pore-strips-combo$ https://www.biore.com/en-ca/products/deep-cleansing-pore-strips-combo/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/breakup-with-blackheads/deep-cleansing-pore-strips-face$ https://www.biore.com/en-ca/products/deep-cleansing-pore-strips-face/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/breakup-with-blackheads/deep-cleansing-pore-strips-ultra$ https://www.biore.com/en-ca/products/deep-cleansing-pore-strips-ultra/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/contact-us$ https://www.biore.com/en-ca/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/baking-soda-pore-cleanser$ https://www.biore.com/en-ca/products/blue-agave-baking-soda-balancing-pore-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/blue-agave-baking-soda-instant-warming-clay-mask$ https://www.biore.com/en-ca/products/blue-agave-baking-soda-instant-warming-clay-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/blue-agave-baking-soda-whipped-mask$ https://www.biore.com/en-ca/products/blue-agave-baking-soda-whipped-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/charcoal-bar$ https://www.biore.com/en-ca/products/charcoal-bar/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/charcoal-whipped-mask$ https://www.biore.com/en-ca/products/charcoal-whipped-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/deep-pore-charcoal-cleanser$ https://www.biore.com/en-ca/products/deep-pore-charcoal-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/pore-unclogging-scrub$ https://www.biore.com/en-ca/products/pore-unclogging-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/self-heating-one-minute-mask$ https://www.biore.com/en-ca/products/charcoal-instant-warming-clay-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/two-step-charcoal-pore-kit$ https://www.biore.com/en-ca/products/two-step-charcoal-pore-kit/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/email-newsletter-sign-up$ https://www.biore.com/en-ca/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/legal/$ https://www.biore.com/en-ca/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/privacy/$ https://www.biore.com/en-ca/privacy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/ratings-and-reviews/$ https://www.biore.com/en-ca/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/sitemap/$ https://www.biore.com/en-ca/sitemap/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/take-it-all-off/baking-soda-cleansing-micellar-water$ https://www.biore.com/en-ca/products/blue-agave-baking-soda-cleansing-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/take-it-all-off/charcoal-cleansing-micellar-water$ https://www.biore.com/en-ca/products/charcoal-cleansing-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/where-to-buy/$ https://www.biore.com/en-ca/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/your-skin-type/$ https://www.biore.com/en-ca/your-skin-type/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.ca
+RewriteRule ^/en-CA/dont-be-dirty/blue-agave-baking-soda-balancing-pore-cleanser$ https://www.biore.com/en-ca/products/blue-agave-baking-soda-balancing-pore-cleanser/ [R=301]
+
+
+## Redirection for Biore ES-MX
+
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/biore-skincare$ https://www.biore.com/es-mx/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/take-it-all-off/baking-soda-cleansing-micellar-water$ https://www.biore.com/es-mx/productos/baking-soda-agua-micelar-limpiadora/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/biore-facial-cleansing-products$ https://www.biore.com/es-mx/productos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/take-it-all-off/charcoal-cleansing-micellar-water$ https://www.biore.com/es-mx/productos/carbon-agua-micelar-limpiadora/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/baking-soda-pore-cleanser$ https://www.biore.com/es-mx/productos/baking-soda-limpiador-de-poros/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/baking-soda-cleansing-scrub$ https://www.biore.com/es-mx/productos/baking-soda-limpiador-en-polvo/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/deep-pore-charcoal-cleanser$ https://www.biore.com/es-mx/productos/limpiador-profundo-de-poros-carbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/self-heating-one-minute-mask$ https://www.biore.com/es-mx/productos/mascarilla-termica-con-carbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/pore-unclogging-scrub$ https://www.biore.com/es-mx/productos/exfoliador-desincrustante-de-poros/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/make-up-removing-towelettes$ https://www.biore.com/es-mx/productos/toallitas-desmaquillantes/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/charcoal-bar$ https://www.biore.com/es-mx/productos/barra-limpiadora-de-poros-con-carbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/back-off-big-pores/charcoal-pore-minimizer$ https://www.biore.com/es-mx/productos/minimizador-de-poros-con-carbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/acnes-outta-here/baking-soda-acne-cleansing-foam$ https://www.biore.com/es-mx/productos/espuma-limpiadora-con-baking-soda-para-granos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/acnes-outta-here/baking-soda-acne-scrub$ https://www.biore.com/es-mx/productos/exfoliador-con-baking-soda-para-granos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/acnes-outta-here/charcoal-acne-scrub$ https://www.biore.com/es-mx/productos/exfoliador-con-carbon-para-granos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/acnes-outta-here/blemish-fighting-astringent-toner$ https://www.biore.com/es-mx/productos/astringente-para-granos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/acnes-outta-here/charcoal-acne-clearing-cleanser$ https://www.biore.com/es-mx/productos/limpiador-con-carbon-para-granos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/acnes-outta-here/blemish-fighting-ice-cleanser$ https://www.biore.com/es-mx/productos/gel-limpiador-refrescante-para-granos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/breakup-with-blackheads/pore-strips$ https://www.biore.com/es-mx/productos/bandas/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/breakup-with-blackheads/warming-anti-blackhead-cleanser$ https://www.biore.com/es-mx/productos/limpiador-termico-para-puntos-negros/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/breakup-with-blackheads/charcoal-pore-strips$ https://www.biore.com/es-mx/productos/bandas-de-limpieza-profunda-carbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/legal$ https://www.biore.com/es-mx/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/contact-us$ https://www.biore.com/es-mx/contactanos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/privacy$ https://www.biore.com/es-mx/politica-de-privacidad/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/charcoal-pore-strips$ https://www.biore.com/es-mx/productos/bandas-de-limpieza-profunda-carbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/charcoal-acne-scrub$ https://www.biore.com/es-mx/productos/limpiador-con-carbon-para-granos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/about-us$ https://www.biore.com/es-mx/sobre-nosotros/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/pore-care$ https://www.biore.com/es-mx/cuidado-de-los-poros/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/sitemap$ https://www.biore.com/es-mx/mapa-del-sitio/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/make-up-removing-products/make-up-removing-towelettes$ https://www.biore.com/es-mx/productos/toallitas-desmaquillantes/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/breakup-with-blackheads/pore-strips$ https://www.biore.com/es-mx/productos/bandas-de-limpieza-profunda-originales/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/complexion-clearing-products/warming-anti-blackhead-cleanser$ https://www.biore.com/es-mx/productos/limpiador-termico-para-puntos-negros/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Mexico$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Costa%20Rica$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/El%20Salvador$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Dominican%20Republic$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Guatemala$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Honduras$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Panama$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Nicaragua$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Brazil$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Chile$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Colombia$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Paraguay$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Ecuador$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Peru$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Venezuela$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/where-to-buy-biore/Uruguay$ https://www.biore.com/es-mx/en-donde-comprar-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/biore-facial-cleansing-products/charcoal.aspx$ https://www.biore.com/es-mx/productos/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/blue-agave-baking-soda-whipped-mask$ https://www.biore.com/es-mx/productos/mascarilla-detox-agave-azul-bicarbonato-de-sodio/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com.mx
+RewriteRule ^/dont-be-dirty/charcoal-whipped-mask$ https://www.biore.com/es-mx/productos/mascarilla-detox-carbon/ [R=301]
+
+## Redirection for Biore NL
+
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/biore-skincare$ https://www.biore.com/nl-nl/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/biore-facial-cleansing-products$ https://www.biore.com/nl-nl/producten/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/charcoal-for-oily-skin/deep-pore-charcoal-cleanser$ https://www.biore.com/nl-nl/producten/diepe-porie-cleanser-houtskool/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/charcoal-for-oily-skin/self-heating-one-minute-mask$ https://www.biore.com/nl-nl/producten/zelfverwarmend-een-minuut-masker/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/charcoal-for-oily-skin/charcoal-pore-minimizer$ https://www.biore.com/nl-nl/producten/porieverkleinende-scrub-houtskool/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/baking-soda-for-combination-skin/baking-soda-pore-cleanser$ https://www.biore.com/nl-nl/producten/porie-cleanser-blauwe-agave-baking-soda/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/baking-soda-for-combination-skin/baking-soda-cleansing-scrub$ https://www.biore.com/nl-nl/producten/cleansing-poeder-scrub-baking-soda/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/take-it-all-off/baking-soda-cleansing-micellar-water$ https://www.biore.com/nl-nl/producten/micellair-reinigingswater-blauwe-agave-baking-soda/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/take-it-all-off/charcoal-cleansing-micellar-water$ https://www.biore.com/nl-nl/producten/micellair-reinigingswater-houtskool/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/klaar-met-puistjes/charcoal-anti-pimple-clearing-cleanser$ https://www.biore.com/nl-nl/producten/anti-puistjes-cleanser-houtskool/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/klaar-met-puistjes/charcoal-anti-pimple-scrub$ https://www.biore.com/nl-nl/producten/anti-puistjes-scrub-houtskool/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/pore-strips/charcoal-pore-strips$ https://www.biore.com/nl-nl/producten/porie-strips-houtskool/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/pore-strips/pore-strips-combo$ https://www.biore.com/nl-nl/producten/porie-strips-combi-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/pore-strips/deep-cleansing-pore-strips-ultra$ https://www.biore.com/nl-nl/producten/ultra-diep-reinigende-porie-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/biore-facial-cleansing-products/Baking-Soda.aspx$ https://www.biore.com/nl-nl/producten/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/contact-us$ https://www.biore.com/nl-nl/contact/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/legal$ https://www.biore.com/nl-nl/disclaimer/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/privacy$ https://www.biore.com/nl-nl/privacybeleid/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/cookies$ https://www.biore.com/nl-nl/cookies/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/about-us$ https://www.biore.com/nl-nl/over-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/charcoal-for-oily-skin/baking-soda-pore-cleanser$ https://www.biore.com/nl-nl/producten/porie-cleanser-blauwe-agave-baking-soda/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/where-to-buy-biore$ https://www.biore.com/nl-nl/verkrijgbaarheid/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/sitemap$ https://www.biore.com/nl-nl/sitemap/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/colofon$ https://www.biore.com/nl-nl/colofon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.nl
+RewriteRule ^/error/default.aspx$ https://www.biore.com/nl-nl/ [R=301]
+
+## Redirection for Biore UK
+
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/biore-skincare$ https://www.biore.com/en-gb/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/about-us$ https://www.biore.com/en-gb/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/biore-facial-cleansing-products$ https://www.biore.com/en-gb/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/charcoal-cleansing-micellar-water$ https://www.biore.com/en-gb/products/charcoal-cleansing-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/deep-pore-charcoal-cleanser$ https://www.biore.com/en-gb/products/deep-pore-charcoal-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/charcoal-anti-blemish-cleanser$ https://www.biore.com/en-gb/products/charcoal-anti-blemish-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/pore-penetrating-charcoal-bar$ https://www.biore.com/en-gb/products/pore-penetrating-charcoal-bar/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/charcoal-pore-minimizer$ https://www.biore.com/en-gb/products/charcoal-pore-minimizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/charcoal-anti-blemish-scrub$ https://www.biore.com/en-gb/products/charcoal-anti-blemish-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/self-heating-one-minute-mask$ https://www.biore.com/en-gb/products/self-heating-one-minute-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/baking-soda-for-dry-oily-combination-skin/baking-soda-cleansing-micellar-water$ https://www.biore.com/en-gb/products/baking-soda-cleansing-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/baking-soda-for-dry-oily-combination-skin/baking-soda-anti-blemish-cleansing-foam$ https://www.biore.com/en-gb/products/baking-soda-anti-blemish-cleansing-foam/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/baking-soda-for-dry-oily-combination-skin/baking-soda-pore-cleanser$ https://www.biore.com/en-gb/products/baking-soda-pore-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/baking-soda-for-dry-oily-combination-skin/baking-soda-cleansing-scrub$ https://www.biore.com/en-gb/products/baking-soda-cleansing-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/pore-strips-for-blackhead-removal/deep-cleansing-pore-strips$ https://www.biore.com/en-gb/products/deep-cleansing-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/pore-strips-for-blackhead-removal/deep-cleansing-pore-strips-ultra$ https://www.biore.com/en-gb/products/deep-cleansing-pore-strips-ultra/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/pore-strips-for-blackhead-removal/deep-cleansing-pore-strips-combo$ https://www.biore.com/en-gb/products/deep-cleansing-pore-strips-combo/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/pore-strips-for-blackhead-removal/charcoal-pore-strips$ https://www.biore.com/en-gb/products/charcoal-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/pore-care$ https://www.biore.com/en-gb/pore-care/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/contact-us$ https://www.biore.com/en-gb/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/imprint$ https://www.biore.com/en-gb/imprint/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/privacy$ https://www.biore.com/en-gb/privacy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/baking-soda-for-dry-oily-combination-skin/charcoal-pore-minimizer$ https://www.biore.com/en-gb/products/charcoal-pore-minimizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/blemishes-are-out-of-here/charcoal-anti-blemish-scrub$ https://www.biore.com/en-gb/products/charcoal-anti-blemish-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/baking-soda-pore-cleanser$ https://www.biore.com/en-gb/products/baking-soda-pore-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/charcoal-for-oily-to-normal-skin/baking-soda-cleansing-scrub$ https://www.biore.com/en-gb/products/baking-soda-cleansing-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/blemishes-are-out-of-here/acne-clearing-scrub$ https://www.biore.com/en-gb/products/acne-clearing-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/where-to-buy$ https://www.biore.com/en-gb/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/ratings-and-reviews$ https://www.biore.com/en-gb/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/legal$ https://www.biore.com/en-gb/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/sitemap$ https://www.biore.com/en-gb/sitemap/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/biore-facial-cleansing-products/Baking-Soda.aspx$ https://www.biore.com/en-gb/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/email-newsletter-sign-up$ https://www.biore.com/en-gb/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.co.uk
+RewriteRule ^/biore-videos$ https://www.biore.com/en-gb/ [R=301]
+
+## Redirection for Biore US
+
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/$ https://www.biore.com/en-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/acne-clearing-scrub/?$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/baking-soda-acne-cleansing-foam/?$ https://www.biore.com/en-us/products/baking-soda-acne-cleansing-foam/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/baking-soda-acne-scrub$ https://www.biore.com/en-us/products/baking-soda-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/blemish-fighting-astringent-toner/?$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/blemish-fighting-ice-cleanser$ https://www.biore.com/en-us/products/blemish-fighting-ice-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/charcoal-acne-clearing-cleanser$ https://www.biore.com/en-us/products/charcoal-acne-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/charcoal-acne-scrub/?$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/witch-hazel-pore-clarifying-toner$ https://www.biore.com/en-us/products/witch-hazel-toner/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/biore-facial-cleansing-products/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/biore-skincare$ https://www.biore.com/en-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/biore-skincare/?$ https://www.biore.com/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/breakup-with-blackheads/charcoal-pore-strips$ https://www.biore.com/en-us/products/charcoal-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/breakup-with-blackheads/pore-strips$ https://www.biore.com/en-us/products/pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/breakup-with-blackheads/pore-strips-combo$ https://www.biore.com/en-us/products/pore-strips-combo/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/breakup-with-blackheads/pore-strips-ultra/?$ https://www.biore.com/en-us/products/witch-hazel-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/breakup-with-blackheads/warming-anti-blackhead-cleanser/?$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/contact-us$ https://www.biore.com/en-us/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/4-in-1-detoxifying-cleanser$ https://www.biore.com/en-us/products/foaming-facial-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/baking-soda-cleansing-scrub/?$ https://www.biore.com/en-us/products/baking-soda-cleansing-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/baking-soda-pore-cleanser$ https://www.biore.com/en-us/products/balancing-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/blue-agave-baking-soda-whipped-nourishing-detox-mask$ https://www.biore.com/en-us/products/blue-agave-face-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/charcoal-acne-scrub$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/charcoal-bar$ https://www.biore.com/en-us/products/charcoal-bar/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/charcoal-pore-minimizer/?$ https://www.biore.com/en-us/products/charcoal-pore-minimizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/charcoal-whipped-purifying-detox-mask$ https://www.biore.com/en-us/products/charcoal-whipped-face-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/combination-skin-balancing-cleanser/?$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/daily-cleansing-cloths$ https://www.biore.com/en-us/products/daily-cleansing-cloths/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/deep-pore-charcoal-cleanser$ https://www.biore.com/en-us/products/deep-pore-charcoal-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/pore-unclogging-scrub/?$ https://www.biore.com/en-us/products/pore-unclogging-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/self-heating-one-minute-mask$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/steam-activated-cleanser$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/take-it-all-off/baking-soda-cleansing-micellar-water/?$ https://www.biore.com/en-us/products/baking-soda-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/take-it-all-off/charcoal-cleansing-micellar-water/?$ https://www.biore.com/en-us/products/charcoal-cleansing-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/two-step-pore-kits/two-step-charcoal-pore-kit$ https://www.biore.com/en-us/products/charcoal-pore-kit/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/two-step-pore-kits/two-step-pore-kit$ https://www.biore.com/en-us/products/pore-minimizing-kit/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/where-to-buy-biore/$ https://www.biore.com/en-us/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/promotions/rules/A-Story-to-Pore-Over-Rules.aspx$ https://www.biore.com/en-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/special-offers-and-skincare-tips/$ https://blog.biore.com/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/balancing-cleanser/?$ https://www.biore.com/en-us/products/balancing-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/charcoal-pore-strips/?$ https://www.biore.com/en-us/products/charcoal-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/charcoal-clay-face-mask/?$ https://www.biore.com/en-us/products/warming-clay-charcoal-face-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/blemish-treating-astringent-toner/?$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/acnes-outta-here/witch-hazel-pore-clarifying-cleanser/?$ https://www.biore.com/en-us/products/witch-hazel-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/dont-be-dirty/warming-clay-mask/?$ https://www.biore.com/en-us/products/warming-clay-charcoal-face-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/products/baking-soda-pore-cleanser/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/products/combination-skin-cleanser/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/products/self-heating-one-minute-face-mask/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/products/warming-blackhead-cleanser/$ https://www.biore.com/en-us/products/ [R=301]
+
+## US - Rediretion based upon query params
+RewriteCond %{QUERY_STRING} ^RefName=daily-cleansing-cloths$
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/buynow/BuyNow.aspx$ https://www.biore.com/en-us/products/daily-cleansing-cloths/ [R=301]
+RewriteCond %{QUERY_STRING} ^RefName=pore-penetrating-charcoal-bar$
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-US/buynow/BuyNow.aspx$ https://www.biore.com/en-us/products/charcoal-bar/ [R=301]
+
+## Redirection for Biore DE
+
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/biore-skincare$ https://www.biore.com/de-de/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/biore-facial-cleansing-products/$ https://www.biore.com/de-de/produkte/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/charcoal-for-oily-skin/deep-pore-charcoal-cleanser$ https://www.biore.com/de-de/produkte/porentiefes-waschgel-mit-aktivkohle/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/charcoal-for-oily-skin/charcoal-pore-minimizer$ https://www.biore.com/de-de/produkte/poren-verkleinerndes-peeling-mit-aktivkohle/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/baking-soda-for-combination-skin/baking-soda-pore-cleanser$ https://www.biore.com/de-de/produkte/ausgleichendes-waschgel-mit-blaue-agave-und-backpulver/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/baking-soda-for-combination-skin/baking-soda-cleansing-scrub$ https://www.biore.com/de-de/produkte/puderpeeling-mit-backpulver/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/bye-bye-pickel/charcoal-anti-pimple-clearing-cleanser$ https://www.biore.com/de-de/produkte/anti-pickel-waschgel-mit-aktivkohle/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/bye-bye-pickel/baking-soda-anti-pimple-cleansing-foam$ https://www.biore.com/de-de/produkte/anti-pickel-reinigungsschaum-mit-blaue-agave-und-backpulver/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/charcoal-for-oily-skin/charcoal-pore-strips$ https://www.biore.com/de-de/produkte/tiefenreinigende-clear-up-strips-mit-aktivkohle/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/pore-strips/pore-strips-combo$ https://www.biore.com/de-de/produkte/duo-gegen-mitesser-für-gesicht-und-nase/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/pore-strips/pore-strips$ https://www.biore.com/de-de/produkte/clear-up-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/legal/$ https://www.biore.com/de-de/rechtliche-hinweise/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/contact-us$ https://www.biore.com/de-de/kontakt/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/pore-strips/pore-strips-ultra$ https://www.biore.com/de-de/produkte/ultra-tiefenreinigende-clear-up-strips-mit-zaubernuss/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/about-us/$ https://www.biore.com/de-de/ueber-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/privacy/$ https://www.biore.com/de-de/datenschutzrichtlinien/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/sitemap/$ https://www.biore.com/de-de/sitemap/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/impressum/$ https://www.biore.com/de-de/impressum/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/biore-facial-cleansing-products/charcoal.aspx$ https://www.biore.com/de-de/produkte/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/pore-care/$ https://www.biore.com/de-de/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/biore-videos/$ https://www.biore.com/de-de/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/where-to-buy-biore/$ https://www.biore.com/de-de/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/charcoal-for-oily-skin/2-step-deep-cleansing-charcoal-pore-kit$ https://www.biore.com/de-de/produkte/2-step-aktivkohle-set/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/charcoal-for-oily-skin/charcoal-whipped-purifying-detox-mask$ https://www.biore.com/de-de/produkte/reinigende-detox-creme-maske-mit-aktivkohle/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/baking-soda-for-combination-skin/blue-agave-baking-soda-whipped-nourishing-detox-mask$ https://www.biore.com/de-de/produkte/nahrende-detox-creme-maske-mit-blauer-agave-und-backpulver/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/baking-soda-for-combination-skin/blue-agave-baking-soda-warming-clay-mask$ https://www.biore.com/de-de/produkte/tonerde-warme-maske-mit-blauer-agave-und-backpulver/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/bye-bye-pickel/witch-hazel-pore-clarifying-toner$ https://www.biore.com/de-de/produkte/porenklarendes-gesichtswasser-mit-zaubernuss/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/take-it-all-off/baking-soda-cleansing-miscellar-water$ https://www.biore.com/de-de/produkte/mizellen-reinigungswasser-mit-blauer-agave-und-backpulver/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.de
+RewriteRule ^/take-it-all-off/charcoal-cleansing-miscellar-water$ https://www.biore.com/de-de/produkte/mizellen-reinigungswasser-mit-aktivkohle/ [R=301]
+
+## Redirection for Biore FR
+
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/biore-skincare$ https://www.biore.com/fr-fr/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/biore-facial-cleansing-products$ https://www.biore.com/fr-fr/produits/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/charcoal-for-oily-skin/deep-pore-charcoal-cleanser$ https://www.biore.com/fr-fr/produits/gel-nettoyant-en-profondeur-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/charcoal-for-oily-skin/charcoal-pore-minimizer$ https://www.biore.com/fr-fr/produits/gel-exfoliant-reducteur-de-pores-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/charcoal-for-oily-skin/self-heating-one-minute-mask$ https://www.biore.com/fr-fr/produits/masque-auto-chauffant-1-minute-chrono-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/baking-soda-for-combination-skin/baking-soda-pore-cleanser$ https://www.biore.com/fr-fr/produits/gel-nettoyant-exfoliant-doux-au-bicarbonate/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/baking-soda-for-combination-skin/baking-soda-cleansing-scrub$ https://www.biore.com/fr-fr/produits/poudre-exfoliante-en-profondeur-au-bicarbonate/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/halte-aux-spots/charcoal-anti-pimple-scrub$ https://www.biore.com/fr-fr/produits/exfoliant-anti-imperfections-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/take-it-all-off/charcoal-cleansing-micellar-water$ https://www.biore.com/fr-fr/produits/eau-micellaire-matifiante-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/pore-strips/deep-cleansing-pore-strips-ultra$ https://www.biore.com/fr-fr/produits/patchs-ultra-purifiants-hamamelis/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/halte-aux-spots/charcoal-anti-pimple-clearing-cleanser$ https://www.biore.com/fr-fr/produits/gel-nettoyant-anti-imperfections-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/charcoal-for-oily-skin/charcoal-pore-strips$ https://www.biore.com/fr-fr/produits/patchs-purifiants-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/legal$ https://www.biore.com/fr-fr/mentions-legales/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/pore-strips/pore-strips-combo$ https://www.biore.com/fr-fr/produits/assortiment-de-14-patchs-purifiants/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/privacy$ https://www.biore.com/fr-fr/politique-de-confidentialite/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/contact-us$ https://www.biore.com/fr-fr/nous-contacter/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/about-us$ https://www.biore.com/fr-fr/a-propos-de-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/pore-strips/charcoal-pore-strips$ https://www.biore.com/fr-fr/produits/patchs-purifiants-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/where-to-buy-biore$ https://www.biore.com/fr-fr/ou-acheter-les-produits-biore/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/sitemap$ https://www.biore.com/fr-fr/plan-du-site/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/biore-facial-cleansing-products/charcoal.aspx$ https://www.biore.com/fr-fr/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/pore-care$ https://www.biore.com/fr-fr/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/email-newsletter-sign-up$ https://www.biore.com/fr-fr/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/baking-soda-for-combination-skin/charcoal-pore-minimizer$ https://www.biore.com/fr-fr/produits/gel-exfoliant-reducteur-de-pores-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/charcoal-for-oily-skin/charcoal-bar$ https://www.biore.com/fr-fr/produits/savon-purifiant-visage-au-charbon/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/biore-videos$ https://www.biore.com/fr-fr/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/pore-strips/pore-strips$ https://www.biore.com/fr-fr/produits/patchs-purifiants/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/acnes-outta-here/blemish-fighting-astringent-toner$ https://www.biore.com/fr-fr/produits/blemish-fighting-astringent-toner/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/charcoal-for-oily-skin/combination-skin-balancing-cleanser$ https://www.biore.com/fr-fr/produits/combination-skin-balancing-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/pore-strips/pore-strips-ultra$ https://www.biore.com/fr-fr/produits/patchs-ultra-purifiants-hamamélis/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/charcoal-for-oily-skin/pore-unclogging-scrub$ https://www.biore.com/fr-fr/produits/pore-unclogging-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/acnes-outta-here/blemish-fighting-ice-cleanser$ https://www.biore.com/fr-fr/produits/blemish-fighting-ice-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.fr
+RewriteRule ^/acnes-outta-here/blemish-treating-astringent-toner$ https://www.biore.com/fr-fr/produits/blemish-treating-astringent-toner/ [R=301]
+
+## Redirection for Biore EN-SA
+
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/biore-skincare$ https://www.biore.com/en-sa/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/about-us$ https://www.biore.com/en-sa/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/biore-facial-cleansing-products$ https://www.biore.com/en-sa/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/charcoal-for-normal-or-oily-skin/deep-pore-charcoal-cleanser$ https://www.biore.com/en-sa/products/deep-pore-charcoal-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/charcoal-for-normal-or-oily-skin/pore-penetrating-charcoal-bar$ https://www.biore.com/en-sa/products/pore-penetrating-charcoal-bar/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/charcoal-for-normal-or-oily-skin/self-heating-one-minute-mask$ https://www.biore.com/en-sa/products/self-heating-one-minute-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/baking-soda-for-combination-skin/baking-soda-pore-cleanser$ https://www.biore.com/en-sa/products/baking-soda-pore-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/pore-strips/pore-strips$ https://www.biore.com/en-sa/products/pore-strips-regular/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/pore-strips/pore-strips$ https://www.biore.com/en-sa/products/pores-strips-ultra/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/pore-strips/pore-strips$ https://www.biore.com/en-sa/products/pore-strips-combo/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/pore-strips/charcoal-pore-strips$ https://www.biore.com/en-sa/products/charcoal-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/contact-us$ https://www.biore.com/en-sa/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/where-to-buy$ https://www.biore.com/en-sa/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/sitemap$ https://www.biore.com/en-sa/sitemap/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/legal$ https://www.biore.com/en-sa/legal/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/en-GB/privacy$ https://www.biore.com/en-sa/privacy/ [R=301]
+
+## Redirection for Biore AR-SA
+
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/biore-skincare$ https://www.biore.com/ar-sa/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/about-us$ https://www.biore.com/ar-sa/about-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/biore-facial-cleansing-products$ https://www.biore.com/ar-sa/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/charcoal-for-normal-or-oily-skin/self-heating-one-minute-mask$ https://www.biore.com/ar-sa/products/self-heating-one-minute-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/charcoal-for-normal-or-oily-skin/pore-penetrating-charcoal-bar$ https://www.biore.com/ar-sa/products/pore-penetrating-charcoal-bar/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/charcoal-for-normal-or-oily-skin/deep-pore-charcoal-cleanser$ https://www.biore.com/ar-sa/products/deep-pore-charcoal-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/baking-soda-for-combination-skin/baking-soda-pore-cleanser$ https://www.biore.com/ar-sa/products/baking-soda-pore-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/pore-strips/pore-strips$ https://www.biore.com/ar-sa/products/pore-strips-regular/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/pore-strips/charcoal-pore-strips$ https://www.biore.com/ar-sa/products/products/pore-strips-charcoal/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/contact-us$ https://www.biore.com/ar-sa/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/where-to-buy$ https://www.biore.com/ar-sa/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biorearabia.com
+RewriteRule ^/ar-SA/sitemap$ https://www.biore.com/ar-sa/sitemap/ [R=301]
+
+## Redirection for DM-1258
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/patents/$ http://www.kaocareers.com/patents/ [R=301]
+
+## Redirection for Biore Blogs
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/$ https://www.biore.com/en-us/blog/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/blackheads/?$ https://www.biore.com/en-us/blog/blackheads/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/pore-strips/?$ https://www.biore.com/en-us/blog/blackheads/pore-strips-101/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/pore-strips-101/?$ https://www.biore.com/en-us/blog/blackheads/pore-strips-101/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/how-to-get-rid-of-blackheads/?$ https://www.biore.com/en-us/blog/blackheads/how-to-get-rid-of-blackheads/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/what-causes-blackheads/?$ https://www.biore.com/en-us/blog/blackheads/what-causes-blackheads/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/causes-of-blackheads-on-cheeks/?$ https://www.biore.com/en-us/blog/blackheads/causes-of-blackheads-on-cheeks/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/how-to-get-rid-of-nose-blackheads/?$ https://www.biore.com/en-us/blog/blackheads/how-to-get-rid-of-nose-blackheads/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/what-are-blackheads/?$ https://www.biore.com/en-us/blog/blackheads/what-are-blackheads/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/blackheads-in-ear/?$ https://www.biore.com/en-us/blog/blackheads/blackheads-in-ear/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/blackheads-on-forehead/?$ https://www.biore.com/en-us/blog/blackheads/blackheads-on-forehead/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/tag/blackheads/?$ https://www.biore.com/en-us/blog/blackheads/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/tag/pore-strips/?$ https://www.biore.com/en-us/blog/blackheads/pore-strips-101/ [R=301]
+RewriteCond %{HTTP_HOST} blog.biore.com
+RewriteRule ^/tag/acne-treatments/?$ https://www.biore.com/en-us/blog/blackheads/ [R=301]
+
+## Redirection for DM-1355
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/where-to-buy-biore/$ https://www.biore.com/en-us/where-to-buy/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/biore-facial-cleansing-products/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/balancing-cleanser/$ https://www.biore.com/en-us/products/balancing-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/special-offers-and-skincare-tips/$ https://blog.biore.com/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/acne-clearing-scrub/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/charcoal-pore-minimizer/$ https://www.biore.com/en-us/products/charcoal-pore-minimizer/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/charcoal-acne-scrub/$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/breakup-with-blackheads/pore-strips-ultra/$ https://www.biore.com/en-us/products/pore-strips-combo/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/charcoal-pore-strips/$ https://www.biore.com/en-us/products/charcoal-pore-strips/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/pore-unclogging-scrub/$ https://www.biore.com/en-us/products/pore-unclogging-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/breakup-with-blackheads/warming-anti-blackhead-cleanser/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/blemish-fighting-astringent-toner/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/charcoal-clay-face-mask/$ https://www.biore.com/en-us/products/warming-clay-charcoal-face-mask/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/blemish-treating-astringent-toner/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/take-it-all-off/charcoal-cleansing-micellar-water/$ https://www.biore.com/en-us/products/charcoal-cleansing-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/witch-hazel-pore-clarifying-cleanser/$ https://www.biore.com/en-us/products/witch-hazel-cleanser/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/take-it-all-off/baking-soda-cleansing-micellar-water/$ https://www.biore.com/en-us/products/baking-soda-micellar-water/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/charcoal-acne-scrub/$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/warming-clay-mask/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/charcoal-acne-scrub/$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/baking-soda-cleansing-scrub/$ /en-us/products/baking-soda-cleansing-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/combination-skin-balancing-cleanser/$ https://www.biore.com/en-us/products/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/charcoal-acne-scrub/$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/baking-soda-cleansing-scrub/$ https://www.biore.com/en-us/products/baking-soda-cleansing-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/charcoal-acne-scrub/$ https://www.biore.com/en-us/products/charcoal-acne-scrub/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/acnes-outta-here/baking-soda-acne-cleansing-foam/$ https://www.biore.com/en-us/products/baking-soda-acne-cleansing-foam/ [R=301]
+RewriteCond %{HTTP_HOST} www.biore.com
+RewriteRule ^/en-us/dont-be-dirty/baking-soda-cleansing-scrub/$ https://www.biore.com/en-us/products/baking-soda-cleansing-scrub/ [R=301]
+
+
+

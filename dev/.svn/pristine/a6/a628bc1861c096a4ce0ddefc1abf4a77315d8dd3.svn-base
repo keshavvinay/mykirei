@@ -1,0 +1,4 @@
+#base=js
+component.min.js
+componentscripts.js
+vendor.js

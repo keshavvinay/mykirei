@@ -1,0 +1,149 @@
+.curel-products-landing {
+    margin-top: 37px;
+    max-width: 1060px !important;
+    p {
+        letter-spacing: 0px !important;
+    }
+    @media (min-width: $break-sm) and (max-width: $break-lg) {
+        margin-top: 0;
+    }
+
+    .g-ProductListingCategoryTitle {
+        .g-HeadingTitle {
+            .g-HeadingTitle__titleBlock__titleBox__title {
+                margin-bottom: 30px;
+
+                .g-HeadingTitle__h2 {
+                    color: $heading-font-color;
+                }
+            }
+        }
+    }
+
+    .g-ProductListingList {
+        .g-ProductListingList--inner {
+            margin-top: 35px;
+            margin-left: -20px;
+            margin-right: -20px;
+
+            @media (min-width: $break-md) and (max-width: $break-lg) {
+                margin-top: 10px;
+            }
+
+            @media (max-width: $break-sm) {
+                margin-top: 0;
+                margin: 0;
+            }
+
+            .g-ProductListingListUnit.g-Column__cols {
+                margin-bottom: 12px;
+                padding: 20px;
+
+                @media (max-width: $break-sm) {
+                    padding: 0;
+                    margin-bottom: 30px;
+                }
+
+                .g-ProductListingListUnit--inner {
+
+                    .g-ProductListingImage {
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        .g-ProductListingImage--unit img {
+                            max-width: 100%;
+                            transform: scale(1);
+                            transition: 0.4s;
+                        }
+                        .g-ProductListingImage--unit p.g-Image__img {
+                            width: 100% !important;
+                        }
+                    }
+                    .g-ProducOverviewProductLine p {
+                        display: none;
+                    }
+
+                    .g-ProductListingTitle {
+                        a {
+                            display: block;
+                            text-decoration: none;
+
+                            .g-ProductOverview__h2 {
+                                font-family: $ralewayBold;
+                                margin-bottom: 5px;
+                                p{
+                                    line-height: 1;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .g-ProductListingSubTitle {
+                        .g-Text {
+                            font-family: $ralewayRegular;
+                            font-size: 18px;
+                            letter-spacing: 0;
+                            p{
+                                line-height: 1;
+                            }
+                        }
+                    }
+
+                    .g-ProductListingButtonP {
+                        .g-ProductListingButtonP__item {
+                            .g-ProductListingButtonP__item--link {
+                                border: none;
+                                text-decoration: none;
+                                background-color: transparent !important;
+                                padding: 0;
+                                box-shadow: none;
+                                color: $footer-anchor-hover;
+                                font-family: $ralewaySemiBold;
+                                transition: 0.2s;
+                                margin-top: 0;
+                                span {
+                                    padding-right: 15px;
+                                    position: relative;
+                                    letter-spacing: 0;
+                                    &::after {
+                                        content: '\f0da';
+                                        font-family: icomoon;
+                                        position: absolute;
+                                        right: 0;
+                                        top: 0;
+                                        height: 100%;
+                                        line-height: 21px;
+                                        width: 15px;
+                                        text-align: center;
+
+                                    }
+                                }
+                                @media (max-width: $break-sm) {
+                                    text-decoration: underline;
+                                }
+                                &:hover {
+                                    color: $primary-hover-color;
+                                    top: 0;
+                                    transition: 0.2s;
+
+                                    span::before {
+                                        color: $primary-hover-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .g-ProductListingImage {
+                            .g-ProductListingImage--unit img {
+                                transform: scale(1.1);
+                                transition: 0.4s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

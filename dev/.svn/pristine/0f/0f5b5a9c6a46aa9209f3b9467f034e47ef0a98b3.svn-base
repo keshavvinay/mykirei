@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+/* shop ============================== */
+
+
+////////////////////////////////////
+//
+// セクション（メインビジュアル）
+//
+////////////////////////////////////
+.sofina-studio-section_mainvisual{
+  @include bg_main("bps-mainvisual-studio-new.jpg");
+  background-size: contain;
+  //最初は非表示とする
+  background-position: -200% 0;
+
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    @include bg_main("tb_bps-studio-mainvisual-new@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    @include bg_main("bps-mainvisual-studio-new@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+}
+
+
+
+//
+// コンテンツ ビューティパワーレッスン
+//
+.sofina-studio-section__bps {
+  padding: 16px 50px 90px 50px;
+  background-color: $colorGray_8;
+  //タイトル
+  .l-HeadingTitle {
+    .l-Text {
+      color: $colorGray_2;
+      @include fontSize(lv2);
+    }
+  }
+  .l-HeadingTitle__h2 {
+    color: #888;
+    @include fontSize(lv7);
+    font-weight: normal;
+  }
+  // .g-ColumnUnit{
+  //   display: table-cell;
+  //   vertical-align: middle;
+  // }
+  .l-Image {
+    margin-bottom: 0;
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*-----------------------*/
+  // .sofina-section_cont__bps
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding: 15px;
+    font-family: $fontFamily_Gothic;
+    .g-Column__cols {
+      display: block;
+    }
+  }
+}
+
+.sofina-studio-section__bps__txtholder {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 40px;
+  .g-GroupBox {
+    margin-top: 20px;
+  }
+  .l-HeadingTitle__titleBlock__titleBox {
+    .l-Text {
+      font-family: $fontFamily_Title;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding-left: 0;
+    padding-top: 15px;
+    .l-HeadingTitle {
+      font-family: $fontFamily;
+    }
+  }
+}
+
+.sofina-studio-section__bps__txtholder__txt1 {
+  color: $colorGray_2;
+  @include fontSize(lv5);
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    // padding-top: 0;
+  }
+}
+
+.sofina-studio-section__bps__txtholder__txt2 {
+  color: $colorGray_2;
+  @include fontSize(lv7);
+  line-height: 1.5;
+  padding-bottom: 5px;
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    // padding-top: 0;
+  }
+}
+
+.sofina-studio-section__bps__txtholder__link1 {
+  display: block;
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    display: block;
+  }
+}
+
+.sofina-studio-section__bps__txtholder__link2 {
+  display: inline-block;
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+
+////////////////////////////////////
+//
+// コンテンツ ワークショップ
+//
+////////////////////////////////////
+.sofina-studio-section_cont__workshop {
+  padding: 16px 50px 30px 50px;
+  background-color: $colorGray_8;
+
+  .g-Column__cols {
+    &:first-child {
+      float: right;
+    }
+    &:last-child {
+      float: left;
+    }
+  }
+  //タイトル
+  .l-HeadingTitle {
+    position: relative;
+    margin-bottom: 20px;
+    .l-Text {
+      color: $colorGray_2;
+      @include fontSize(lv2);
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .l-HeadingTitle__titleBlock {
+      margin-right: 20px;
+      .l-Text {
+        font-family: $fontFamily_Title;
+      }
+    }
+    .l-HeadingTitle__titleBlock__titleBox__title {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+  .l-HeadingTitle__h2 {
+    color: #888;
+    @include fontSize(lv7);
+    font-weight: normal;
+  }
+  .l-HeadingTitle__titleBlock {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  //コンテンツ
+  .sofina-studio__workshop__txtholder {
+    padding-right: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    @include bp(sm) {
+      padding-right: 0;
+    };
+  }
+  .sofina-studio__workshop__txtholder__content__title {
+    color: $colorGray_2;
+    @include fontSize(lv5);
+    line-height: 1.5;
+    padding-bottom: 5px;
+  }
+  .sofina-studio__workshop__txtholder__content__text {
+    color: $colorGray_2;
+    @include fontSize(lv7);
+    line-height: 1.5;
+    padding-bottom: 5px;
+  }
+  .sofina-studio__workshop__txtholder__buttons {
+    margin-top: 20px;
+    @include clearfix;
+    .g-LinkButton {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+  /*-----------------------*/
+  // lg
+  /*-----------------------*/
+  @include bp(lg) {
+    .sofina-studio__workshop__txtholder {
+      margin-top: 30px;
+    }
+  }
+
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    padding-left: 20px;
+    padding-right: 20px;
+    .l-HeadingTitle {
+      &:after{
+        margin-left: 0px;
+      }
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding: 15px;
+    font-family: $fontFamily_Gothic;
+    .g-Column__cols {
+      display: block;
+    }
+    //タイトル
+    .l-HeadingTitle {
+      margin-bottom: 10px;
+      font-family: $fontFamily;
+      &:after{
+        position: absolute;
+        @include topRight(0, 0);
+      }
+      .l-HeadingTitle__titleBlock__titleBox__title {
+        display: block;
+        margin-left: 0;
+      }
+    }
+    //コンテンツ
+    .sofina-studio__workshop__txtholder {
+      padding-left: 0;
+      padding-top: 15px;
+      .l-HeadingTitle {
+        font-family: $fontFamily;
+      }
+    }
+  }
+}
+
+/* 見出し */
+
+.sofina-studio-section__contents__title {
+  .l-HeadingTitle__titleBlock {
+    margin-bottom: 5px;
+  }
+  .l-HeadingTitle__h2 {
+    color: $colorGray_2;
+    @include fontSize(lv2);
+    font-weight: normal;
+    font-family: $fontFamily_Title;
+    @include bp(lg) {
+      letter-spacing: 0.06em;
+    }
+    @include bp(md) {
+      letter-spacing: 0.06em;
+    }
+    @include bp(sm) {
+      letter-spacing: 0.06em;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .l-HeadingTitle__h2 {
+      @include fontSize(lv4);
+    }
+  }
+}
+.sofina-studio-section__contents__text {
+  @include fontSize(lv7);
+  color: #888;
+  font-weight: normal;
+  @include bp(sm) {
+    @include fontSize(caption);
+  }
+}

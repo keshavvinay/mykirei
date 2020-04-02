@@ -1,0 +1,82 @@
+/*
+.section {
+	background-color:#EEE;
+}
+
+*/
+
+.new {
+	margin:0px!important;
+}
+
+/** �^�C�g���o�[ */
+.is-titlebar {
+	padding-left:1em;
+	text-align:left;
+	border-bottom:dotted 1px #4178cd;
+	background-color:#eef;
+	font-size:.5rem;
+	color:#4178cd;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+/** �Z�N�V�������b�p�[�̃^�C�g���o�[ */
+.is-titlebar.common_section_wrapper-titlebar {
+	background-color:#ddd;
+	border-bottom:dotted 1px #333;
+	color:#333;
+	margin:0px;
+}
+.common_section_wrapper-title {
+	display:inline-block;
+}
+
+.common_section_wrapper-options {
+	display:inline-block;
+}
+/** �J�����Z�p���[�^�̃^�C�g���o�[ */
+.is-titlebar.common_column_separator-titlebar,
+.is-titlebar.common_column_unit-titlebar {
+	background-color:#efe;
+	border-bottom:dotted 1px #9c9;
+	color:#393;
+}
+.common_column_separator-title {
+	display:inline-block;
+}
+
+.common_column_separator-options {
+	display:inline-block;
+}
+
+.is-titlebar.common_group_box-titlebar {
+	background-color:#fee;
+	border-bottom:dotted 1px #c99;
+	color:#933;
+}
+
+/** add buttons **/
+.common_add_section {
+	font-size:.5em;
+}
+.common_add_column {
+	font-size:.5em;
+}
+
+/** inplace editor **/
+.common_inplace_editor[contenteditable="true"]{
+	border:dotted 1px #ccc;
+}
+
+/** label/tag pack **/
+.common_label_tag_element {
+	display: inline-block;
+}
+
+/** component styles **/
+/** accordion menu **/
+.g-AccordionUnit__contentBlock{
+	display: block !important;
+	height: auto !important;
+}

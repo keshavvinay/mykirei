@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+
+/* Global Footer ================================================== */
+.g-GlFooter {
+  border-style: solid;
+  border-width: 1px 0 0;
+}
+
+// FooterTop
+// (Footer Links Gruop)
+.g-GlFooterTop {
+  width: 100%;
+  max-width: 1336px;
+  margin: 0 auto;
+}
+
+.g-GlFooterColumn {
+  box-sizing: border-box;
+  margin: 0 auto;
+  &.is-border {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-background {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+}
+.g-GlFooterColumn__inner {
+  @include pie-clearfix;
+  @include bp(sm) {}
+  @include bp(md) {}
+  @include bp(lg) {
+    padding: 25px 20px 28px;
+  }
+}
+
+.g-footerLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  // 開閉ステータス
+  &.is-open {
+    display: block;
+  }
+  &.is-close {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    &:hover ,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  // media query
+  @include bp(sm) {
+    li {
+      margin-bottom: -1px;
+      border-style: solid;
+      border-width: 1px 0;
+      padding: 11px 25px;
+    }
+    a {
+      display: block;
+      margin: -11px -25px;
+      padding: 11px 25px;
+    }
+  }
+  @include bp(md) {
+    @include pie-clearfix;
+    li {
+      margin-bottom: -1px;
+      border-style: solid;
+      border-width: 1px 0;
+      float: left;
+      width: 50%;
+      padding: 11px 25px;
+      box-sizing: border-box;
+      &:nth-child(odd) {
+        border-right-style: solid;
+        border-right-width: 1px;
+      }
+    }
+    a {
+      display: block;
+      margin: -11px -25px;
+      padding: 11px 25px;
+    }
+  }
+  @include bp(lg) {
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0 13px;
+    }
+    &.is-open ,
+    &.is-close {
+      display: inline-block;
+    }
+  }
+}
+
+
+// FooterBottom
+// (copyright, logo)
+.g-GlFooterBottom {
+  padding: 20px 0;
+  border-style: solid;
+  border-width: 1px 0 0;
+  text-align: center;
+  @include bp(sm) {
+  }
+  @include bp(md) {
+  }
+  @include bp(lg) {
+    border-top-width: 2px;
+  }
+}
+
+.g-GlFooterBottom__copyright {
+  margin: 0 0 20px;
+}
+
+.g-GlFooterBottom__logo {
+  margin: 0 auto;
+  width: 62px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  @include bp(sm) {
+  }
+  @include bp(md) {
+  }
+  @include bp(lg) {
+  }
+}

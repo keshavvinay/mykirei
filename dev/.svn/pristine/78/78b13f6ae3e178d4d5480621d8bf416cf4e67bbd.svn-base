@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+$black: #000000;
+$white: #ffffff;
+$txtgreylight: #989898;
+$txtgreymdlight: #818181;
+$txtgreymd: #707070;
+$pink: #C53391;
+$shopTheLookProductGrey: #e1e1e1;
+$moreLinkHover: #4b4a4b;
+$moreLinkActive: #5c2d91;
+$moreLinkHoverWhite: #c2c2c2;
+$formAlert: #ffe5e5;
+$invalidInput: #ff0000;
+$backgroundlightgrey: #ededed;
+$contactUsgreylight: #f0f0f0;
+
+// Product line colors
+$beachBlonde: #87D1D4;
+$brilliantBrunette: #693920;
+$combinedColor: #4D4D4F;
+$frizzEase: #5C2D91;
+$fullRepair: #761E27;
+$hiImpact: #F3E5C3;
+$jfHairspray: #00A69E;
+$luxuriousVolume: #007476;
+$radiantRed: #D7182A;
+$sheerBlonde: #FFDD00;
+
+// Product line colors (50% opacity)
+$beachBlondeFifty: rgba(135,209,212,0.8);
+$brilliantBrunetteFifty: rgba(105,57,32,0.8);
+$combinedColorFifty: rgba(77,77,79,0.8);
+$frizzEaseFifty: rgba(92,45,145,0.8);
+$fullRepairFifty: rgba(118,30,39,0.8);
+$hiImpactFifty: rgba(243,229,195,0.8);
+$jfHairsprayFifty: rgba(0,166,158,0.8);
+$luxuriousVolumeFifty: rgba(0,116,118,0.8);
+$radiantRedFifty: rgba(215,24,42,0.8);
+$sheerBlondeFifty: rgba(255,221,0,0.8);
+
+
+
+/* This will only ever show if an image fails to load, so light text is still
+   legible within the container. */
+$fallbackDarkBackground: #000;

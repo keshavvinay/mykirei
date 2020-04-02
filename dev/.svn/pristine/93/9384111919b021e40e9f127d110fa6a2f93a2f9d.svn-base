@@ -1,0 +1,47 @@
+/*
+ * ASIENCE-ICON
+ */
+@font-face {
+  font-family: 'icomoon';
+  src:url('../../component/fonts/icomoon.eot?-v64cg2');
+  src:url('../../component/fonts/icomoon.eot?#iefix-v64cg2') format('embedded-opentype'),
+    url('../../component/fonts/icomoon.ttf?-v64cg2') format('truetype'),
+    url('../../component/fonts/icomoon.woff?-v64cg2') format('woff'),
+    url('../../component/fonts/icomoon.svg?-v64cg2#icomoon') format('svg');
+}
+
+.cmn-icon {
+  font-family: 'icomoon';
+  color: $colorIcon_dark;
+  &.cmn-icon--reverse {
+    color: $colorIcon_light;
+  }
+}
+
+
+/*
+  icon-list
+ */
+.cmn-icon--left:before {
+  content: "\e600";
+}
+.cmn-icon--right_simple:before {
+  content: "\e601";
+}
+.cmn-icon--right:before {
+  content: "\e602";
+}
+.cmn-icon--to_bottom:before {
+  content: "\e603";
+}
+.cmn-icon--to_top:before {
+  content: "\e604";
+}
+
+
+/*
+  icon-list(リンク用カスタムクラス名)
+ */
+.cmn-icon--bullet:before {
+  @extend .cmn-icon--right:before;
+}

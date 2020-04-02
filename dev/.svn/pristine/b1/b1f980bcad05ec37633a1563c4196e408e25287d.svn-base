@@ -1,0 +1,725 @@
+@charset "UTF-8";
+/*****************************
+  SOFINA config
+ *****************************/
+/*
+ setting（上書き禁止）
+ */
+/*
+ variable
+ サイト、ページ別に上書きを許可する値
+ */
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+/*
+ Font-Size num
+ */
+/*
+ Line-Frame
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+/*
+ Corner Radius
+ @param $size (ss, s, m, l, ll)
+ */
+/*
+ Shadow
+ @param $angle (center, downward, rightUpward, rightDownward)
+ @param $size (s, m)
+ */
+/*
+ Link
+ */
+/*
+ AreaLink
+ */
+/*
+  gutterWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+/* Global Header ================================================== */
+.sofina-BlHeader {
+  padding: 0;
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.sofina-BlHeader .g-Area__inner {
+  max-width: 100%;
+}
+
+/* BlHeader
+---------- ---------- ---------- */
+.BlHeader {
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+@media only screen and (min-width: 1025px) {
+  .BlHeader {
+    position: static;
+    min-width: 960px;
+  }
+  .BlHeader.is-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* heaer placeholder
+---------- */
+/* Logo
+---------- ---------- */
+.sofina-HeaderLogo {
+  margin: 0 auto;
+  padding: 0;
+  width: 80px;
+  height: 42px;
+}
+.sofina-HeaderLogo img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.sofina-HeaderLogo a {
+  display: block;
+  position: relative;
+  width: inherit;
+  height: inherit;
+}
+.sofina-HeaderLogo a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  content: '';
+}
+.sofina-HeaderLogo a:hover:after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media only screen and (max-width: 640px) {
+  .sofina-HeaderLogo {
+    background-image: none;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-HeaderLogo {
+    width: 120px;
+    height: 63px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-HeaderLogo {
+    margin: 10px auto 20px;
+    width: 152px;
+    height: 80px;
+  }
+  .is-fixed .sofina-HeaderLogo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 149px;
+    height: 22px;
+    overflow: hidden;
+  }
+  .sofina-HeaderLogo a:focus:after {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Header Menu
+---------- ---------- */
+.sofina-HeaderMenu {
+  padding: 0 10px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  box-sizing: content-box;
+  text-decoration: none;
+}
+.sofina-HeaderMenu:after {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  line-height: 1;
+  height: 1em;
+  content: '\e606';
+  color: #777;
+  font-family: 'icomoon-ip';
+  font-size: 1.7em;
+  text-align: center;
+}
+.sofina-HeaderMenu:focus, .sofina-HeaderMenu.is-open {
+  background-color: #777;
+}
+.sofina-HeaderMenu:focus:after, .sofina-HeaderMenu.is-open:after {
+  color: #fff;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-HeaderMenu {
+    display: none;
+  }
+}
+
+/* sbps GlobalNav
+---------- ---------- */
+.sofina-HeaderGlobalNav {
+  margin: 0;
+  padding: 0 10px;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  overflow-y: scroll;
+  width: 100%;
+  list-style: none;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.sofina-HeaderGlobalNav.is-open {
+  display: block;
+}
+.sofina-HeaderGlobalNav li {
+  margin: 0;
+  padding: 0;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  display: block;
+  line-height: 1.3;
+  font-size: 18px;
+}
+.sofina-HeaderGlobalNav li:first-child {
+  border-top-width: 0;
+}
+.sofina-HeaderGlobalNav a {
+  padding: 11px 20px 11px 0;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  background: url(../img/arrow_glay_right.png) 100% 50% no-repeat;
+}
+.sofina-HeaderGlobalNav a:hover, .sofina-HeaderGlobalNav a:focus {
+  color: #9a9a9a;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-HeaderGlobalNav {
+    margin: 0 auto;
+    padding: 0;
+    display: table;
+    position: static;
+    width: 960px;
+    border-width: 0;
+  }
+  .sofina-HeaderGlobalNav li {
+    border-color: #ddd;
+    border-width: 0 1px 0 0;
+    display: table-cell;
+    width: 16.67%;
+    line-height: 1.3;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  .sofina-HeaderGlobalNav li:first-child {
+    border-left-width: 1px;
+  }
+  .sofina-HeaderGlobalNav a {
+    padding: 0 10px;
+    text-align: center;
+    background-image: none;
+  }
+}
+
+/* Sub Bland Footer ================================================== */
+.sofina-SbBlFooter {
+  position: relative;
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+.sofina-SbBlFooter .g-Area__inner {
+  max-width: 100%;
+}
+
+/* SbBlFooter SNS
+---------- ---------- */
+.sofina-footerSNS {
+  padding-bottom: 20px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sofina-footerSNS__inner {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.sofina-footerSNS table {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+.sofina-footerSNS td {
+  width: auto;
+  height: auto;
+  line-height: 1;
+  vertical-align: top;
+  background-color: transparent;
+}
+.sofina-footerSNS td img,
+.sofina-footerSNS td iframe {
+  vertical-align: top;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerSNS table {
+    margin: 0 0 0 auto;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerSNS {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .sofina-footerSNS table {
+    margin: 0 0 0 auto;
+  }
+}
+
+/* SbBlFooter Pagetop
+---------- ---------- */
+.sofina-footerPagetop {
+  padding: 15px 0 11px;
+  border-top: solid 1px #ccc;
+  background-color: #fff;
+  text-align: center;
+}
+.sofina-footerPagetop a {
+  color: #333;
+  display: inline-block;
+  text-decoration: none;
+}
+.sofina-footerPagetop a:hover, .sofina-footerPagetop a:focus, .sofina-footerPagetop a:active {
+  color: #a9a9a9;
+}
+.sofina-footerPagetop a .cmn-icon {
+  color: #333;
+  font-size: 1em;
+}
+
+/* SbBlFooter Links
+---------- ---------- */
+.sofina-footerSitemap {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: solid 1px #ccc;
+}
+
+.sofina-footerSitemapColumn {
+  margin: 0 auto;
+  max-width: 960px;
+  font-size: 0;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-footerSitemapColumn {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #ccc;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerSitemapColumn {
+    padding: 30px 10px 20px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerSitemapColumn {
+    padding: 30px 10px 20px;
+  }
+}
+
+.sofina-footerSitemapLinks {
+  padding: 0 10px;
+  list-style: none;
+}
+.sofina-footerSitemapLinks li {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  display: block;
+  line-height: 1.43;
+  font-size: 14px;
+}
+.sofina-footerSitemapLinks li:first-child {
+  border-top-width: 0;
+}
+.sofina-footerSitemapLinks li a {
+  padding: 10px 20px 9px 0;
+  display: block;
+  position: relative;
+  color: #333;
+  text-decoration: none;
+}
+.sofina-footerSitemapLinks li a:hover, .sofina-footerSitemapLinks li a:focus, .sofina-footerSitemapLinks li a:active {
+  color: #a9a9a9;
+}
+.sofina-footerSitemapLinks li a:before {
+  position: absolute;
+  right: 0;
+  content: '\e603';
+  color: #777;
+  font-family: 'icomoon-ip';
+  font-size: 1em;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-footerSitemapLinks ul {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sofina-footerSitemapColumn__cols:first-child .sofina-footerSitemapLinks li:first-child {
+    border-top-width: 0;
+  }
+  .sofina-footerSitemapLinks li li:first-child {
+    border-top-width: 1px;
+  }
+  .sofina-footerSitemapLinks li a.sofina-footerSitemapLinks__PseudoLabel.is-open:before {
+    content: '\e601';
+  }
+  .sofina-footerSitemapLinks li ul.is-open {
+    display: none;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerSitemapLinks {
+    margin-left: -40px;
+    padding: 0 0 10px;
+    text-align: center;
+  }
+  .sofina-footerSitemapLinks li {
+    margin: 0 0 10px 40px;
+    border-width: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+  .sofina-footerSitemapLinks li a {
+    padding: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+    /*&.sofina-footerSitemapLinks__PseudoLabel {
+      padding: 0;
+      background: none;
+      &:before {
+        content: none;
+      }
+    }*/
+  }
+  .sofina-footerSitemapLinks li a:before {
+    top: .7em;
+    right: auto;
+    left: 0;
+    content: '\e605';
+    font-size: .5em;
+    content: url(../../../component/img/bullet_glay_right.png);
+  }
+  .sofina-footerSitemapLinks li ul {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .sofina-footerSitemapLinks li li {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerSitemapLinks {
+    margin-left: -40px;
+    padding: 0 0 10px;
+    text-align: center;
+  }
+  .sofina-footerSitemapLinks li {
+    margin: 0 0 10px 40px;
+    border-width: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+  .sofina-footerSitemapLinks li a {
+    padding: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+    /*&.sofina-footerSitemapLinks__PseudoLabel {
+      padding: 0;
+      background: none;
+      &:before {
+        content: none;
+      }
+    }*/
+  }
+  .sofina-footerSitemapLinks li a:before {
+    top: .7em;
+    right: auto;
+    left: 0;
+    content: url(../../../component/img/bullet_glay_right.png);
+    font-size: .5em;
+  }
+  .sofina-footerSitemapLinks li ul {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .sofina-footerSitemapLinks li li {
+    margin: 0;
+  }
+}
+
+/* Bl Footer ================================================== */
+.sofina-BlFooter {
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+/* BlFooter
+---------- ---------- ---------- */
+.BlFooter {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 960px;
+  text-align: center;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .BlFooter {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .BlFooter {
+    text-align: left;
+  }
+}
+
+/* sbps FooterLogo
+---------- ---------- */
+.sofina-footerLogo {
+  margin: 5px 0 0;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+.sofina-footerLogo:hover, .sofina-footerLogo:focus
+.sofina-footerLogo:active {
+  color: #a9a9a9;
+}
+.sofina-footerLogo:hover img, .sofina-footerLogo:focus
+.sofina-footerLogo:active img {
+  opacity: .5;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerLogo {
+    margin: 10px 0 0;
+  }
+}
+
+.sofina-footerLogo__img {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sofina-footerLogo__img img {
+  width: 90px;
+  height: 18px;
+  vertical-align: top;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerLogo__img img {
+    width: 120px;
+    height: 24px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerLogo__img img {
+    width: 120px;
+    height: 24px;
+  }
+}
+
+.sofina-footerLogo__txt {
+  margin: 0 0 0 10px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerLogo__txt {
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerLogo__txt {
+    margin-left: 20px;
+  }
+}
+
+/* sofina-footerUtility
+---------- ---------- */
+.sofina-footerUtility {
+  margin: 3px 0 0;
+  text-align: center;
+}
+.sofina-footerUtility:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerUtility {
+    margin: 15px 0 10px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerUtility {
+    margin: 20px 0 10px;
+  }
+}
+
+/* sofina-footerUtility Links
+---------- */
+.sofina-footerUtility__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sofina-footerUtility__links li {
+  margin: 12px -1px 0 0;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0 1px;
+  line-height: 1.1;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.sofina-footerUtility__links li a {
+  padding: 0 12px;
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+.sofina-footerUtility__links li a:hover, .sofina-footerUtility__links li a:focus
+.sofina-footerUtility__links li a:active {
+  color: #a9a9a9;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-footerUtility__links {
+    font-size: 0;
+  }
+  .sofina-footerUtility__links li {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerUtility__links {
+    float: left;
+  }
+  .sofina-footerUtility__links li {
+    margin: 0;
+    border-width: 0 1px 0 0;
+    float: left;
+  }
+  .sofina-footerUtility__links li:first-child {
+    border-left-width: 1px;
+  }
+  .sofina-footerUtility__links li a {
+    padding: 0 16px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerUtility__links {
+    float: left;
+  }
+  .sofina-footerUtility__links li {
+    margin: 0;
+    border-width: 0 1px 0 0;
+    float: left;
+  }
+  .sofina-footerUtility__links li:first-child {
+    border-left-width: 1px;
+  }
+  .sofina-footerUtility__links li a {
+    padding: 0 16px;
+  }
+}
+
+/* sofina-footerUtility Copyright
+---------- */
+.sofina-footerUtility__copyright {
+  margin: 15px 0 0;
+  padding: 0;
+  display: inline-block;
+  color: #333;
+  font-size: 9px;
+  text-align: left;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-footerUtility__copyright {
+    margin: 0;
+    float: right;
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-footerUtility__copyright {
+    margin: 0;
+    float: right;
+    font-size: 10px;
+  }
+}
+
+/* Break Point ================================================== */
+@media only screen and (max-width: 640px) {
+  #breakPoint-small {
+    display: block;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  #breakPoint-middle {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  #breakPoint-large {
+    display: block;
+  }
+}

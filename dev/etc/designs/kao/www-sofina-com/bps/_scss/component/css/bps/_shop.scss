@@ -1,0 +1,463 @@
+@charset "utf-8";
+
+/* shop ============================== */
+
+
+////////////////////////////////////
+//
+// セクション（メインビジュアル）
+//
+////////////////////////////////////
+.sofina-shop-section_mainvisual{
+  @include bg_main("bps-shop-mainvisual.jpg");
+  background-size: contain;
+  //最初は非表示とする
+  background-position: -200% 0;
+
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    @include bg_main("tb_bps-shop-mainvisual@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    @include bg_main("bps-shop-mainvisual@2x.jpg", 2);
+    background-size: contain;
+    background-position: top left;
+  }
+
+  //日本語なので通常フォント指定
+  // .sofina-section_mainvisual_visualleft__txtholder__subtitle{
+  //   font-family: $fontFamily;
+  // }
+}
+
+
+////////////////////////////////////
+//
+// セクション（おすすめ）
+//
+// SOFINA iPは、11/13発売開始のため、
+// それまで非表示としてくださいとのこと
+//
+////////////////////////////////////
+.sofina-shop-section_recommend {
+  margin-top: 40px;
+  margin-bottom: 96px;
+  .g-Section__inner {
+    max-width: 860px;
+    border: 1px solid $colorGray_5;
+  }
+  .g-Column__inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sofina-shop-section_recommend__delivery-link {
+    margin-top: 20px;
+    margin-bottom: 0;
+    .l-LinkButton__link {
+      display: block;
+      margin: 0px auto 0px auto;
+      padding: 20px 0px 20px 0px;
+      width: 624px;
+      text-align: center;
+      border: none;
+      @include fontSize(lv5); //18px
+      color: $colorFont_dark;
+    }
+    /*-----------------------*/
+    // md
+    /*-----------------------*/
+    @include bp(md) {
+      .l-LinkButton__link {
+        width: 100%;
+      }
+    }
+    /*-----------------------*/
+    // sm
+    /*-----------------------*/
+    @include bp(sm) {
+      &.icon-linkwindow {
+        .l-LinkButton__link {
+          width: 100%;
+          text-align: left;
+          line-height: 1.5;
+          padding: 10px 0;
+          .cmn-richtext {
+            display: block;
+            &:after {
+              display: none;
+            }
+            span {
+              &:after {
+                content: "";
+                position: relative;
+                display: inline-block;
+                background-image: url("../../../component/img/icon_window.png");
+                background-repeat: no-repeat;
+                background-size: 13px 9px;
+                width: 13px;
+                height: 9px;
+                top: 3px;
+                white-space: nowrap;
+                text-align: left;
+                overflow: hidden;
+                -moz-transform: translate(0, -50%);
+                -ms-transform: translate(0, -50%);
+                -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .g-Section__inner {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    margin-top: 20px;
+    font-family: $fontFamily_Gothic;
+    .g-Section__inner {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .g-Column__inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.sofina-shop-section_recommend__contholder {}
+
+//おすすめ情報
+.sofina-shop-section_recommend__contholder__txtholder {
+  padding-right: 30px;
+  .l-HeadingTitle {
+    margin-bottom: 0;
+  }
+  //タイトル
+  .l-HeadingTitle__h2 {
+    @include fontSize(lv4); //20px
+    color: $colorGray_2;
+    font-weight: normal;
+  }
+  //説明
+  .l-Text {
+    margin-top: 20px;
+    @include fontSize(lv7); //14px
+    color: $colorGray_2;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  .g-GroupBox {
+    margin-top: 20px;
+  }
+  @include bp(sm) {
+    padding-right: 0;
+  }
+}
+
+//おすすめイメージ
+.sofina-shop-section_recommend__contholder__img {
+  padding-left: 12%;
+  padding-right: 7%;
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+  }
+}
+
+
+/**/
+
+////////////////////////////////////
+//
+// セクション（ショッピングエリア）
+//
+////////////////////////////////////
+.sofina-shop-section_shoppingareas {
+  margin-top: 64px;
+  .g-Section__inner {
+    padding-bottom: 100px;
+  }
+  .l-HeadingTitle{
+    margin-bottom: 20px;
+  }
+  .g-Column__inner {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  //タイトル内小さい文字
+  .sofina-sectionTitle_small {
+    vertical-align: top;
+    margin-right: 4px;
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    margin-top: 22px;
+    font-family: $fontFamily_Gothic;
+    .g-Section__inner {
+      padding-bottom: 50px;
+    }
+    .g-Column__inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.sofina-shop-section_shoppingareas__des {
+  @include fontSize(lv7); //14px
+  color: $colorGray_2;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: center;
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    line-height: 1.5;
+    .cmn-richtext {
+      text-align: left;
+    }
+  }
+}
+
+.sofina-shop-section_shoppingareas__contholder {
+  .g-Column__cols {
+    padding-left: 12px;
+    padding-right: 12px;
+    // &:first-child{
+    //   padding-left:0;
+    // }
+    .sofina-shop-section_shoppingareas__contholder__item__title {
+      background-repeat: no-repeat;
+      background-size: 27px auto;
+      background-position: left center;
+      &.is-background {
+        padding: 0 0 0 40px;
+      }
+    }
+  }
+  .sofina-shop-section_shoppingareas__contholder__item__cap{
+    padding-top: 8px;
+    .cmn-richtext{
+      @include fontSize(caption); //12px
+
+    }
+  }
+  .g-ColumnUnit {
+    border-top: solid 1px $colorGray_5;
+    border-bottom: solid 1px $colorGray_5;
+    .l-Image__img {
+      // width: 180px;
+      margin: 0px auto 0px auto;
+    }
+  }
+  .l-Text {
+    color: $colorGray_2;
+    @include fontSize(lv7); //14px
+    line-height: 1.5;
+  }
+  .g-GroupBox {
+    overflow: hidden;
+  }
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .g-ColumnUnit {
+      border-top: none;
+    }
+    .g-Column__cols {
+      &:nth-child(1) {
+        .g-ColumnUnit {
+          border-top: solid 1px $colorGray_5;
+        }
+      }
+      &:nth-child(2) {
+        .g-ColumnUnit {
+          border-top: solid 1px $colorGray_5;
+        }
+      }
+
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    .g-Column__cols {
+      &:first-child {
+        border-top: solid 1px $colorGray_5;
+      }
+    }
+    .g-ColumnUnit {
+      border-top: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .g-Column__cols {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .g-GroupBox {
+      .l-Image {
+        float: left;
+        width: 50%;
+        padding-right: 15px;
+      }
+      .l-Text {
+        float: left;
+        width: 50%;
+      }
+    }
+  }
+}
+
+.sofina-shop-section_shoppingareas__contholder__item__title {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 80px;
+  background-position: 0 50%;
+  // padding: 20px 0px 20px 40px;
+  padding-left: 40px;
+  .cmn-richtext {
+    color: $colorGray_1;
+    @include fontSize(lv5); //18px
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    padding-left: 30px;
+    height: 45px;
+    .cmn-richtext {
+      @include fontSize(lv7); //14px
+    }
+  }
+}
+
+
+/**/
+
+////////////////////////////////////
+//
+// セクション（マップ）
+//
+// 10/13には公開せず、差し替えになるので、削除としてください
+// とのこと
+//
+////////////////////////////////////
+.sofina-shop-section_map {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  /*-----------------------*/
+  // md
+  /*-----------------------*/
+  @include bp(md) {
+    .l-Image {
+      width: 80%;
+    }
+  }
+  /*-----------------------*/
+  // sm
+  /*-----------------------*/
+  @include bp(sm) {
+    margin-bottom: 20px;
+    .l-Image {
+      width: 100%;
+    }
+  }
+}
+
+
+////////////////////////////////////
+//
+// セクション（クイックチェック）
+//
+////////////////////////////////////
+.shop_quickcheck__column {
+  background: image-url('component/img/quickcheck-bg-lg.png') no-repeat left top #EAF3F5;
+  background-size: 100%;
+  @include bp(sm) {
+    background-image: image-url('component/img/quickcheck-bg-sm.png');
+  }
+}
+.shop_quickcheck__column__link {
+  margin-left: 40px;
+  margin-right: 40px;
+  @include bp(sm) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.shop_quickcheck__column__link__unit {
+  box-shadow: none;
+  &.is-colorset--1 {
+    background-color: transparent;
+    .l-TileLinkVUnit__icon {
+      color: #fff;
+    }
+  }
+  .l-TileLinkVUnit__imageBlock, .l-Image {
+    margin-bottom: 0;
+  }
+  .l-TileLinkVUnit__leadBlock {
+    background-color: #008cab;
+  }
+  .l-Text {
+    margin-bottom: 0;
+    @include fontSize(lv4);
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    @include bp(sm) {
+      text-align: left;
+      padding: 10px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  .l-TileLinkVUnit__icon {
+    font-family: 'icomoon-common';
+    font-size: 16px;
+    right: 18px;
+    @include bp(sm) {
+      right: 10px;
+    }
+    &:before {
+      content: "\e006";
+    }
+  }
+}

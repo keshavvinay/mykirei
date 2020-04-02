@@ -1,0 +1,795 @@
+.skin_advisor_section > .g-Section__inner{
+    padding-top:0;
+    padding-bottom:0;
+}
+.skin_advisor_section .skin_advisor_ques_seperator{
+    position:relative;
+    background-position: right top;
+}
+.skin_advisor_section .skin_advisor_sub_heading{
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #555555;
+    font-family: arial;
+}
+.skin_advisor_section .grp_ques{
+    padding:10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.skin_advisor_section .questions{
+    font-size: 16px;
+    color: #5d5d5d !important;
+}
+.skin_advisor_btn-pack ul{
+    margin-right:0 !important;
+    margin-left:0 !important;
+}
+.skin_advisor_btn-pack ul li{
+    padding:10px 0 !important;
+    margin-right: 10px;
+}
+.skin_advisor_section .skin_advisor_what_dry{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    padding: 10px;
+    background-color: #fff;
+}
+.skin_advisor_section .what_is_dry_text a{
+    cursor: pointer;
+}
+.skin_advisor_section .skin_allergen_guide_text a{
+    cursor: pointer;
+}
+.skin_advisor_section .skin_advisor_allergen_guide {
+    position: absolute;
+    background-color: #fff;
+    display: inline-block;
+    top: 30%;
+    padding: 10px;
+    right: 5%;
+    max-width: 260px;
+}
+.skin_advisor_section .skin_advisor_allergen_guide img{
+    margin: 0 auto;
+}
+.curel_skin_advisor_res_banner{
+    background-position: top center;
+    background-size: auto;
+    background-repeat-y: no-repeat;
+    background-attachment: scroll;
+    background-origin: initial;
+    width: auto;
+    overflow: hidden;
+    height: auto;
+}
+.curel_skin_advisor_res_text{
+    display: block;
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0;
+}
+.curel_skin_advisor_res_text >h2{
+    margin-top: -56px;
+    padding: 0 20px;
+    margin-bottom: 0;
+}
+.curel_skin_advisor_res_text >span{
+    padding: 10px;
+    font-size: 14px;
+    width: 584px;
+    height: 100%;
+    line-height: 22px;
+    margin: 0;
+    display: block;
+}
+.curel_skin_advisor_res_text_section{
+    background-color: white;
+    width: auto;
+    padding: 20px;
+}
+.curel_skin_advisor_res_text_section_txt p{
+    font-size: 14px;
+    display: block;
+    line-height: 22px;
+    color: $font_color_three !important;
+}
+.g-TextLinkP{
+    span.cmn-richtext{
+        font-family: $ralewayBold !important;
+    }
+    .g-TextLinkUnit__link__icon{
+        right: 7px;
+    }
+}
+
+.curel_skin_advisor_res_text_section_two .g-ImageTextHP__contentsBlock__image{
+    width: 30% !important;
+}
+.curel_skin_advisor_res_text_section_two .g-ImageTextHP__contentsBlock__text{
+    width: 70%;
+    float: right !important;
+}
+
+.skin_advisor_section .sub-heading2{
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.skin_advisor_section .question4{
+    border: none !important;
+}
+.skin_advisor_section .content-group-box .g-Text h2{
+    color: #6b6b6b !important;
+    font-size: 36px !important;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.skin_advisor_section .content-group-box .g-Text h2 u{
+    text-decoration: none !important;
+    font-family: $ralewayBold;
+}
+.skin_advisor_section .main_heading_image_result h3 {
+    font-size: 16px !important;
+    color: #5d5d5d !important;
+    border-bottom: 1px solid #ccc;
+    //padding-bottom: 10px;
+}
+.skin_advisor_section .sub_heading_image_result h2 {
+    margin-top: 0;
+    font-size: 18px !important;
+    color: #5d5d5d !important;
+}
+.skin_advisor_section .main_heading_image_result_alsotry h3 {
+    font-size : 16px !important;
+    color : #5d5d5d !important;
+    border-bottom : 1px solid #ccc;
+}
+.skin_advisor_section .heading-color h2 {
+    font-size: 35px !important;
+    font-weight: normal;
+    color: $heading-font-color !important;
+}
+.skin_advisor_section .where-to-container{
+    margin-right: 30px;
+    display:inline-block;
+    position: relative;
+    background-image: url(/content/dam/sites/kaousa/www-curel-com/images/master/en-us/articleimages/radio.gif);
+    background-size: contain;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: -10px -10px;
+    background-repeat:no-repeat;
+}
+.skin_advisor_section .where-to-container-page2{
+    margin-right: 30px;
+   /*display:inline-block;
+   */
+    position: relative;
+    background-image: url(/content/dam/sites/kaousa/www-curel-com/images/master/en-us/articleimages/radio.gif);
+   /* background-image: url(/content/dam/sites/kaousa/www-curel-com/skin-advisor/radio_on.gif);
+    */
+    background-size: contain;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position: -10px -10px;
+    background-repeat:no-repeat;
+}
+.skin_advisor_section input{
+    position:absolute;
+    visibility:hidden;
+}
+.skin_advisor_section .buttonChecked{
+    background-repeat:no-repeat;
+    background-image: url(/content/dam/sites/kaousa/www-curel-com/images/master/en-us/articleimages/radio-on.gif);
+    font-weight:bold;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    background-position: -10px -10px;
+}
+.skin_advisor_section .where-to-value, .skin_advisor_section .targeted-area, .skin_advisor_section .skin-type {
+    display: inline-block;
+    color: #5d5d5d !important;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*for round checkbox*/
+.skin_advisor_section .round{
+    position: relative;
+}
+.skin_advisor_section .span {
+    font:italic normal 14px Arial;
+}
+.skin_advisor_section .dry-skin, .skin_advisor_section .skin-sensitivities {
+    display:inline-block;
+    color: #5d5d5d !important;
+    font-size: 16px;
+    cursor: pointer;
+}
+.skin_advisor_section .row {
+    display:inline-block;
+    width: 100%;
+}
+.skin_advisor_section .column {
+    float: left;
+    width: 50%;
+}
+.skin_advisor_section .row .l-Text{
+    display:inline-block;
+    color: #5d5d5d !important;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*pointer on button*/
+.skin_advisor_section .glow-buttons a {
+    background-color: #0098B1 !important;
+    cursor:pointer;
+    border: none;
+    text-decoration: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+    max-width: 300px;
+    min-width: 200px;
+    height: 50px;
+}
+.skin_advisor_section .glow-buttons a:hover {
+    background-color: #eb2d97 !important;
+}
+
+.skin_advisor_section{
+    .skin_advisor_btn-pack {
+        margin-top:20px;
+        .g-ButtonUnit{
+            span{
+                color:#ffffff !important;
+                font-display: $ralewayBold ;
+            }
+        }
+    }
+}
+
+.curel_skin_advisor_res_text_section{
+    .g-ImageTextHP__contentsBlock__text{
+        .g-HeadingTitle__h3{
+            text-transform: none !important;
+        }
+    }
+}
+
+.skin_advisor_section{
+    .start-over{ 
+        @media (max-width: $break-lg) {
+            text-align: center;
+        }
+        span{
+            color:#ffffff !important;
+            font-family: ralewayExtraBold;
+        }
+    }
+}
+
+.curel_skin_advisor_res_text > span{
+    width: 100%;
+    margin: 0 auto;
+}
+.curel_skin_advisor_res_text > h2{
+    padding: 0;
+}
+.skin_advisor_section #grp_ques {
+    text-indent: 10px;
+    display:none;
+    background-size: contain;
+}
+.skin_advisor_section .alignblock {
+    display: block;
+    width: 71%;
+    margin-left: auto;
+}
+#what_is_dry_container{
+    position: fixed;
+    background: rgba(1,1,1,0.6);
+    top: 0;
+    width: 100% !important;
+    height: 100%;
+    left: 0;
+    z-index: 101;
+    right: 0;
+    display:none; 
+    bottom: 0;
+}
+
+#what_is_dry_popup {
+    left: 0;
+   top: 50%;
+   z-index: 999999999999;
+   background-color: #FFFFFF;
+   padding: 20px;
+   position: absolute;
+   border: solid 1px #9b9b9b;
+   text-align: left;
+   width: 60%;
+   margin:0 auto;
+   height: auto;
+   display:none;
+   right:0;
+
+    .close-btn{
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        background-position: 0 -18px;
+        position: absolute;
+        top: -14px;
+        right: -21px;
+        &:hover{
+            background-position: 0 1px;
+       }
+   }
+    .l-Image__caption {
+        margin: 0;
+        background: #6f9197;
+        color: #fff;
+        padding: 5px;
+   }
+}
+#skin_allergen_guide_container {
+    position: fixed;
+    background: rgba(1,1,1,0.6);
+    top: 0;
+    width: 100% !important;
+    height: 100%;
+    left: 0;
+    z-index: 101;
+    right: 0;
+    display:none;
+    bottom: 0;
+    img{
+        width: 100% !important;
+   }
+}
+#skin_allergen_guide_popup {
+   left: 0;
+   top: 50%;
+   z-index: 999999999999;
+   background-color: #FFFFFF;
+   padding: 10px;
+   position: absolute;
+   border: solid 1px #9b9b9b;
+   text-align: left;
+   width: 76%;
+   margin:0 auto;
+   height: auto;
+   display:none;
+   right:0;
+}
+
+#skin_allergen_guide_popup .g-ImageTextHP__contentsBlock__image img{
+   width:100% !important;
+}
+#skin_allergen_guide_popup .close-btn2{
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        background-position: 0 -18px;
+        position: absolute;
+        top: -14px;
+        right: -21px;
+        &:hover{
+            background-position: 0 1px;
+       }
+
+   }
+  #skin_allergen_guide_popup .l-Image__caption {
+        margin: 0;
+        background: #6f9197;
+        color: #fff;
+        padding: 5px;
+   }
+
+
+.skin_allergen_banner {
+   width: 428px;
+   height: 74px;
+   float: left;
+   margin: 0;
+   text-indent: -9999px;
+   background-position-x: 0px;
+   background-position-y: 0px;
+   background-size: initial;
+   background-repeat-x: no-repeat;
+   background-repeat-y: no-repeat;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: transparent;
+   border: 1px solid #ccc;
+   margin-bottom:5px;
+}
+.skin_allergen_banner:hover{
+   background-position: 0 -114px;
+}
+.skin_advisor_section .skin_advisor_result_seperator, .skin_advisor_section .hydra_therapy, .skin_advisor_section .hydra_therapy_small, .skin_advisor_section .dry_skin_therapy, .skin_advisor_section .dry_skin_therapy_small, .skin_advisor_section .hydra_therapy_itch_defense, .skin_advisor_section .hydra_therapy_itch_defense_small, .skin_advisor_section .dry_skin_itch_defense, .skin_advisor_section .itch_defense_small, .skin_advisor_section .dry_skin_itch_defense_small,.skin_advisor_section .content-group-box .g-Text,.skin_advisor_section #prodchild,.skin_advisor_section #prodadult, .skin_advisor_section .itch_defense, .skin_advisor_section .daily_moisturizer_fragrence_free, .skin_advisor_section .daily_moisturizer_fragrence_free_small, .skin_advisor_section .ultra_healing, .skin_advisor_section .daily_moisturizer, .skin_advisor_section .daily_moisturizer_small, .skin_advisor_section .foot_cream, .skin_advisor_section .rough-skin-rescue, .skin_advisor_section .rough-skin-rescue-small, .skin_advisor_section .itch_defense, .skin_advisor_section .foot_cream_small, .skin_advisor_section .ultra_healing_small, .skin_advisor_section .alignblock, .skin_advisor_section .question4, .skin_advisor_section .submit, .skin_advisor_section .back, .skin_advisor_section .start-over, .skin_advisor_section .prodadult, .skin_advisor_section .prodchild, .skin_advisor_section .skin_advisor_allergen_guide, .skin_advisor_section .what_is_dry_container, .skin_advisor_section #skin_allergen_guide_container {
+    display:none;
+}
+
+
+
+.skin_advisor_section .mainprod_title {
+    color:#5d5d5d !important;
+    text-decoration:underline;
+}
+.skin_advisor_section .learn_more {
+    //background: transparent url(/content/dam/sites/kaousa/www-curel-com/images/master/en-us/global/arrow.gif) no-repeat scroll -12px -14px;
+    //color: #8f8d8d !important;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 0;
+    text-decoration: none;
+    position: relative;
+}
+.skin_advisor_section .learn_more:hover {
+    //background: transparent url(/content/dam/sites/kaousa/www-curel-com/images/master/en-us/global/arrow.gif) no-repeat scroll -12px -63px;
+    //color: #8f8d8d !important;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 0;
+    text-decoration: none;
+    position: relative;
+}
+.main_heading_image_result {
+    margin-bottom:5px;
+}
+.learn_more a{
+    text-decoration:none;
+}
+#what_is_dry_popup .g-ImageTextHP__contentsBlock__image img{
+    width:100% !important;
+}
+.curel_skin_advisor_pop_up_text{
+    font-size: 12px;
+    line-height: 20px;
+}
+.curel_skin_advisor_pop_up_title{
+    font-size:22px;
+}
+.what_is_dry_text p{
+   font-size:13px;
+   padding-left:2px;
+}
+.skin_allergen_guide_text p{
+   font-size:13px;
+}
+#skin_advisor_error_msg{
+   display:none;
+}
+#skin_advisor_error_msg p{
+   font-size: 16px;
+   color: red;
+}
+
+.skin_advisor_section{
+    margin-top:40px;
+    .curel_skin_advisor_res_col{
+        .g-ButtonP{
+            margin-top:10px;
+        }
+    }
+}
+
+.skin_advisor_section{
+    .skin_advisor_result_seperator{
+        .g-Column__cols{
+            width: 100%;
+            .curel_skin_advisor_res_col{
+              .g-ImageTextHP{
+                width: 80%;
+                margin: 20px auto;
+                .g-ImageTextHP__contentsBlock{
+                    margin-bottom: 0;
+                    .g-ImageTextHP__contentsBlock__text{
+                        margin-top: 5%;
+                    }
+                }    
+              }  
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 1025px) {
+    .skin_advisor_section h1 {
+        font-size: 30px !important;
+   }
+    .skin_advisor_section h2 {
+        font-size: 32px !important;
+   }
+    .skin_advisor_section h3 {
+        font-size: 32px !important;
+   }
+    .skin_advisor_section .g-Text {
+        font-size: 15px !important;
+   }
+    .skin_advisor_section .what_is_dry_text {
+        font-size: 11px !important;
+   }
+    
+    .curel_skin_advisor_res_text h2{
+        margin-top: -10%;
+        width: 90%;
+        padding: 0 20px;
+   }
+    
+    .curel_skin_advisor_res_text_section_two{
+        display: block;
+        margin-top: 0%;
+        margin-left: 2%;
+        width: 90%;
+   }
+    .skin_advisor_ques_seperator{
+        background-image:none !important;
+   }
+
+    #what_is_dry_popup .g-ImageTextHP__contentsBlock__image{
+        padding:0 !important;
+   
+   }
+    #what_is_dry_popup .g-ImageTextHP__contentsBlock__text{
+        width:45% !important;
+   }
+   #what_is_dry_popup{
+       width:90%;
+   }
+   .skin_allergen_banner{
+       width: 299px;
+       height: 42px;
+       background-size: cover;
+   }
+   .skin_allergen_banner:hover{
+       background-position:0 -83px;
+   }
+   #skin_allergen_guide_popup{
+       width:74%;
+   }
+   .skin_advisor_section .skin_advisor_what_dry{
+       position: initial;
+       box-shadow: 0px 2px 20px 10px #F8F8F8;
+        margin-top: 20px;
+        display:inline-block;
+   }
+   .skin_advisor_allergen_guide{
+        box-shadow: 0px 2px 20px 10px #F8F8F8;
+        display:inline-block;
+        position:initial !important;
+        max-width: 100%;
+        margin: 0 auto;
+   }
+   .skin_advisor_btn-pack{
+       margin-top:15px;
+   }
+
+
+}
+@media (min-width:641px) and (max-width:1024px){
+    .skin_advisor_section .skin_advisor_what_dry{
+         display:block;
+    }
+    .skin_advisor_section .skin_advisor_ques_seperator {
+        position: relative;
+        background-position: right top;
+        background-size: contain;
+    }
+   .curel_skin_advisor_res_text h2{
+        padding: 0;
+    }
+    .skin_advisor_btn-pack{
+        text-align: center;
+    }
+    .skin_advisor_section .error_msg {
+        text-align: center;
+    }
+    .skin_advisor_what_dry{
+        max-width: 300px;
+        margin: 20px auto;
+    }
+}
+
+
+@media only screen and (max-width: 640px) {
+    .curel_skin_advisor_res_text_section_two .g-ImageTextHP__contentsBlock__image{
+        width: 100% !important;
+        float: none;
+    }
+    .curel_skin_advisor_res_text_section .g-ImageTextHP__contentsBlock__image{
+        width: 100% !important;
+    }
+    .skin_advisor_section .content-group-box .g-Text h2{
+        margin-bottom: 0;
+    }
+    .curel_skin_advisor_res_text h2{
+        margin-top: -10%;
+        width: auto;
+        padding: 0;
+   }
+    .curel_skin_advisor_res_text{
+        margin: 0;
+    }
+    .curel_skin_advisor_res_banner{
+        margin-bottom: 30px;
+    }
+    .curel_skin_advisor_res_text_section{
+        padding: 0;
+    }
+    .skin_advisor_btn-pack{
+        text-align: center;
+        .l-ButtonP__list__item{
+            margin-top: 16px;
+        }
+    }
+    .skin_advisor_section .error_msg {
+        text-align: center;
+   }
+    .skin_advisor_btn-pack ul li{
+        padding:0 !important;
+        margin-right: 0;
+    }
+    .skin_advisor_section h1 {
+        font-size: 28px !important;
+   }
+    .skin_advisor_section h2 {
+        font-size: 22px !important;
+   }
+    .skin_advisor_section h3 {
+        font-size: 22px !important;
+   }
+    .skin_advisor_section .opt-sm-w70p {
+        width: 100%;
+   }
+    .skin_advisor_section .learn_more {
+        width: 120%;
+   }
+    .skin_advisor_section > .g-Section__inner{
+       padding:0 25px;
+   }
+    
+    .curel_skin_advisor_res_text > span{
+        width: auto;
+        margin: 0 auto;
+   }
+    .curel_skin_advisor_res_text > h2{
+        margin: 0;
+   }
+    .curel_skin_advisor_res_text_section{
+        display: block;
+        margin-left: 0;
+        margin-top: 0;
+        width: initial;
+   }
+    .curel_skin_advisor_res_text_section_two{
+        display: block;
+        margin-top: 5%;
+        margin-left: 0;
+        width: initial;
+   }
+    .curel_skin_advisor_res_text_section_two .g-ImageTextHP__contentsBlock__image{
+        width:100%;
+   }
+    .curel_skin_advisor_res_text_section .g-ImageTextHP__contentsBlock__image img{
+        margin:0 auto;
+   }
+    .curel_skin_advisor_res_text_section_two .g-ImageTextHP__contentsBlock__text{
+        width:100%;
+   }
+    #skin_allergen_guide_popup{
+        width:85%;
+        margin:0 auto;
+   }
+   #skin_allergen_guide_popup .close-btn2{
+       top: -16px;
+       right: -13px;
+   }
+    #skin_allergen_guide_popup .g-ImageTextHP__contentsBlock__image{
+        float:float_none;
+        width:100%;
+        padding-right:0;
+   }
+   
+    #skin_allergen_guide_popup .g-ImageTextHP__contentsBlock__text{
+        float:float_none;
+        width:100% !important;
+   }
+    #what_is_dry_popup .g-ImageTextHP__contentsBlock__image{
+        width:100%;
+   }
+    #what_is_dry_popzup .g-ImageTextHP__contentsBlock__image img{
+        width:100% !important;
+   }
+    #what_is_dry_popup .g-ImageTextHP__contentsBlock__text{
+        width:100% !important;
+   }
+    #what_is_dry_popup{
+       width:70%;
+   }
+   .skin_allergen_banner{
+       width: 235px;
+       height: 26px;
+   }
+   .skin_allergen_banner:hover{
+       background-position:0 -68px;
+   }
+   .skin_advisor_what_dry{
+       width:auto;
+   }
+   .skin_advisor_what_dry img{
+       width:100% !Important;
+   }
+}
+@media (min-width:320px) and (max-width:640px) {
+    .skin_advisor_section .where-to-container {
+        display:block;
+   }
+    .skin_advisor_section .skin_advisor_ques_seperator {
+        background-size: contain;
+        background-position: right top;
+   }
+   /* .skin_advisor_section .skin_advisor_what_dry img {
+        width: 200px !important;
+        height: auto;
+   }*/
+    .skin_advisor_section .what_is_dry_text {
+        font-size: 11px !important;
+        letter-spacing:none 
+   }
+    .skin_advisor_section .alignblock {
+        width:100% !important;
+        margin-left: auto !important;
+   }
+}
+@media (min-width:500px) and (max-width:750px) {
+    .skin_advisor_section .skin_advisor_what_dry img {
+        background-size: contain;
+        background-position: right top;
+   }
+}
+
+
+
+
+.is-authorring .skin_advisor_section .skin_advisor_result_seperator,.is-authorring .skin_advisor_section .hidden, .is-authorring .skin_advisor_section .content-group-box .g-Text, .is-authorring #prodchild, .is-authorring #prodadult, .is-authorring .skin_advisor_section .itch_defense, .is-authorring .skin_advisor_section .daily_moisturizer_fragrence_free, .is-authorring .skin_advisor_section .ultra_healing, .is-authorring .skin_advisor_section .daily_moisturizer,  .is-authorring .skin_advisor_section .foot_cream, .is-authorring .skin_advisor_section .rough-skin-rescue, .is-authorring .skin_advisor_section .rough-skin-rescue-small, .is-authorring .skin_advisor_section .foot_cream_small, .is-authorring .skin_advisor_section .ultra_healing_small, .is-authorring .skin_advisor_section .question4, .is-authorring .skin_advisor_section .submit, .is-authorring .skin_advisor_section .back, .is-authorring .skin_advisor_section .start-over, .is-authorring .skin_advisor_section .question3a, .is-authorring .skin_advisor_section .prodadult, .is-authorring .skin_advisor_section .prodchild, .is-authorring .skin_advisor_section .skin_advisor_allergen_guide, .is-authorring .skin_advisor_section #what_is_dry_popup, .is-authorring .skin_advisor_section #skin_allergen_guide_popup, .is-authorring .skin_advisor_section .what_is_dry_container, .is-authorring .skin_advisor_section #skin_allergen_guide_container{
+    display:block !important;
+}
+.is-authorring #what_is_dry_container{
+    position: static;
+    background: none;
+    top: 0;
+    width: auto;
+    height: auto;
+    left: 0;
+    z-index: 15;
+    right: 0;
+    padding-top: 0;
+}
+.is-authorring #skin_allergen_guide_container{
+    position: static;
+    background: none;
+    top: 0;
+    width: auto;
+    height: auto;
+    left: 0;
+    z-index: 15;
+    right: 0;
+    padding-top: 0;
+}
+.is-authorring .skin_advisor_section .skin_advisor_what_dry{
+    position:static;
+}
+.is-authorring .skin_advisor_section .skin_advisor_allergen_guide{
+    position:static;
+}

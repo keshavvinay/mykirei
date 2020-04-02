@@ -1,0 +1,123 @@
+body {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: $avenir-regular;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+
+    @media (max-width: $header-break-sm) {
+        // padding-top: 60px;
+    }
+}
+
+//Overriding basic.css
+html {
+    height: auto
+}
+
+body {
+    -webkit-text-size-adjust: auto;
+    height: auto;
+}
+
+a {
+    outline: 0;
+    color: $solid-black;
+    text-decoration: none;
+    &:link{
+        color: $solid-black;
+    }
+    &:visited{
+        color: $solid-black;
+    }
+    &:hover {
+        color: $hover-link;
+        transition: all .5s ease
+    }
+}
+
+.cmn-richtext a {
+    color: $solid-black;
+    &:link{
+        color: $solid-black;
+    }
+    &:hover{
+        color: $hover-link;
+    }
+    &:visited{
+        color: $solid-black;
+    }
+}
+
+b,
+strong {
+    font-family: $avenir-bold;
+}
+
+//.g-HeadingTitle__h2,.g-HeadingTitle__h3,.g-HeadingTitle__h4,.g-HeadingTitle__h5,.g-HeadingTitle__h6,.g-HeadingTitle__p{
+//    b,strong {
+//    font-family: inherit;
+//}
+//}
+
+h1{
+    font-size: 44px;
+    text-transform: uppercase; 
+}
+
+h1,h2,h3{
+    font-family: $tramcn;
+    font-weight: normal;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+h4,
+h5,
+h6 {
+    font-family: $avenir-bold;
+    letter-spacing: normal;
+}
+
+input,button{
+    outline: 0;
+}
+
+#area-Contents {
+    max-width: $max-width-lg; 
+    padding: 0;
+    margin: 0 auto; 
+    @media(min-width: 769px){
+        max-width: 720px;
+    }
+
+    @media(min-width: 992px){
+        max-width: 970px;
+    }
+
+    @media(min-width: 1230px){
+        max-width: 1136px;
+    }
+}
+
+.g-Text {
+    margin-bottom: 15px;
+
+    b,
+    strong {
+        font-family: $avenir-bold;
+    }
+}
+
+.g-ColumnUnit:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,18 @@
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/frequently-asked-questions/$ https://www.feelbanfresh.com/faq/ [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/invisible-solids/powder-fresh/$ https://www.feelbanfresh.com/sticks/powder-fresh [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/invisible-solids/shower-fresh/$ https://www.feelbanfresh.com/sticks/shower-fresh [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/invisible-solids/sweet-simplicity/$ https://www.feelbanfresh.com/sticks/sweet-simplicity/ [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/invisible-solids/unscented/$ https://www.feelbanfresh.com/sticks/unscented/ [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/invisible-solids/$ https://www.feelbanfresh.com/sticks/ [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/default.asp$ https://www.feelbanfresh.com/ [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/contactUs/default.asp$ https://www.feelbanfresh.com/contact-us/ [R=301]
+RewriteCond %{HTTP_HOST} www.feelbanfresh.com
+RewriteRule ^/products/default.asp$ https://www.feelbanfresh.com/roll-ons/ [R=301]

@@ -1,0 +1,474 @@
+.faq-product-section{
+    
+    @include section-max-width;
+    background-color: #fff;
+    
+    -webkit-box-shadow: 0px 9px 15px -10px #777777;
+    -moz-box-shadow: 0px 9px 15px -10px #777777;
+    box-shadow: 0px 9px 15px -10px #777777;
+    
+    .l-Section__inner{
+        padding: 20px 16px;
+    }
+    
+     .g-Column__inner{
+            
+            @media (max-width:$breakpoint_md){
+                
+                display: flex;
+             display: -webkit-flex;
+    flex-direction: column-reverse;
+            -webkit-flex-direction: column-reverse;
+                
+                .g-Column__cols:nth-child(1){
+             order: 1;
+         }
+         
+         .g-Column__cols:nth-last-child(1){
+             order: 2;
+         }
+            }
+        }
+    
+    .heading-column-unit{
+        position: relative;
+        
+        @media(max-width:$breakpoint_sm){
+            margin-bottom: 50px;
+        }
+        
+        .g-Text{
+            font-size: 18px;
+            margin-bottom: 0;
+            text-transform: inherit;
+             line-height: 1;
+            font-family: 'PT Sans Narrow';
+        }
+        
+         .facebook-like{
+        position: absolute;
+        bottom: 4px;
+        right: 218px;
+            
+            iframe{
+                height: 25px;
+
+            }
+            
+            @media(max-width:$breakpoint_md){
+                 
+                 bottom: 3px;
+                 right: 189px;
+            }
+            
+            @media(max-width:$breakpoint_sm){
+                    bottom: -39px;
+            }
+        }
+        
+        .print{
+        position: absolute;
+    bottom: 16px;
+    right: 158px;
+    font-weight: bold;
+    padding-right: 22px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PT Sans';
+    cursor: pointer;
+    background: url(/content/dam/sites/kaousa/www-jergens-com/images/master/global/print-icon.png) 100% 0px no-repeat;
+    background-size: contain;       
+            &:hover{
+                text-decoration: underline;
+            }
+            
+            @media(max-width:$breakpoint_md){
+                     right: 130px;
+            }
+            
+            @media(max-width:$breakpoint_sm){
+                    bottom: -26px;
+            }
+            
+        }
+        
+        .social-share-div{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            min-width: 149px;
+    text-align: center;
+            
+            @media(max-width:$breakpoint_sm){
+                    bottom: -50px;
+            }
+            
+             @media(max-width:$breakpoint_md){
+                 
+                 min-width: 120px;
+                 
+            
+            .shariff-button{
+                    margin-right: 5px;
+                    width: 26px;
+                
+                a{
+                    height: 26px;
+                    
+                    .fab,.fas{
+                        font-size: 14px;
+                        width: 26px;
+                        line-height: 26px;
+                    }
+                }
+            }
+                 
+            }
+            
+            @media(min-width:641px) and (max-width:$breakpoint_md){
+                bottom: -9px;
+            }
+            
+ }
+    }
+    
+
+    img{
+        max-height: 450px;
+        width: auto !important;
+        margin: 0 auto;
+        
+        @media (max-width:$breakpoint_md){
+                width: auto !important;
+                max-height: 350px;
+            }
+    }
+    
+    .product-title{
+        border-bottom: 2px solid #ebebeb !important;
+         h1{
+             max-width: 55%;
+             line-height: 1;
+      
+                font-family: 'PT Sans Narrow';
+            @media (max-width:$breakpoint_sm){
+                max-width: 100%;
+            font-size: 24px !important;
+        }
+        }
+    }
+    
+    
+    .action-buttons-pack-wsm{
+      
+                border-bottom: 2px solid #b7b7b7;
+    max-width: 60%;
+    padding-bottom: 40px;
+        @media (max-width:$breakpoint_md){
+            max-width: 100%;
+        }
+    }
+    
+    .action-buttons-pack{
+        ul.g-ButtonP__list{
+            margin-left: 0;
+            margin-right: 0;
+        }
+        
+        .expand-btn,.collapse-btn{
+            min-width: 110px;
+            a{
+                padding: 7px;
+                padding-left: 20px;
+                border: 1px solid #b99c79;
+                position: relative;
+                background-color: #fff;
+                color: #333;
+                border-radius: 0;
+                box-shadow: none;
+                font-weight: bold;
+                font-size: 12px;
+                text-transform: uppercase;
+                //height: auto !important;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+       
+        .expand-btn a:before{
+            content: '+';
+            font-size: 20px;
+            display: inline-block;
+            position: absolute;
+            left: 13px;
+            top: 9%;
+        }
+        
+        .collapse-btn a:before{
+            content: '-';
+            font-size: 33px;
+            position: absolute;
+            left: 5%;
+            top: -20%;
+            line-height: normal;
+            font-weight: normal;
+        }
+        
+    }
+    
+    
+    .faq-tab-menu{
+        min-height: 450px;
+         
+        @media(min-width:641px) and (max-width:$breakpoint_md){
+            min-height: 400px;
+        }
+        
+        @media(max-width:$breakpoint_sm){
+            min-height: auto;
+            //for Tabbed Menu to Accordion
+            box-shadow: 0 -5px 0 0 #818689;
+            border: #818689 solid 1px;
+            border-top-style: none;
+            padding: 15px;
+
+            .g-TabMenu__item{
+            display:block;
+            
+            
+            .g-TabMenuUnit{
+                max-height: 0px;
+                overflow: hidden;
+                padding: 0 10px;
+            }
+            
+            .accordion-style{
+                background-color: #fff;
+                font-size: 16px;
+                font-weight: bold;
+                color:#000;
+                padding: 5px;
+                padding-bottom: 10px;
+                cursor: pointer;
+            }
+            
+            .accordion-style:after{
+                content:".";
+                display: block;
+                position: absolute;
+                top: 1em;
+                right: 1em;
+                z-index: 5;
+                width: 9px;
+                height: 9px;
+                padding: 0;
+                overflow: hidden;
+                background-color: transparent;
+                text-indent: 150%;
+                transform: translateY(-50%) rotateZ(45deg);
+                transition: all .15s cubic-bezier(.645,.045,.355,1);
+                border: 3px solid #d81990 !important;
+                border-left-color: transparent !important;
+                border-bottom-color: transparent !important;
+	       }
+        }
+        .g-TabMenu__item.is-active {
+            
+            .g-TabMenuUnit{
+                display:block;
+                max-height: 10000px;
+                transition: max-height .3s;
+                transition-timing-function: ease;
+            }
+            
+            .accordion-style{
+                background-color: #fff;
+                color: #000;
+            }
+            
+            .accordion-style:after{
+                transform: translateY(-80%) rotateZ(135deg);
+            }
+            
+        }
+        //end
+        }
+        .accordion-style{
+            @media (max-width:$breakpoint_sm){
+                display: block;
+            }
+            @media (min-width:641px){
+                display: none;
+            }
+        }
+        
+        .g-TabMenu__nav{
+            z-index: 0;
+            //for Tabbed Menu to Accordion
+            @media (max-width:$breakpoint_sm){
+                display: none;
+            }
+            @media (min-width:641px){
+                display: block;
+            }
+            //end
+        }
+        
+        .g-TabMenu__nav__link{
+            margin-right: 10px;
+            margin-right: 10px;
+            position: relative;
+            top: 2px;
+            background-color: #b7b7b7;
+            color: #fff;
+            
+            @media (max-width:$breakpoint_sm){
+                        margin-right: 2px;
+                }
+            
+        }
+        
+        .tab-heading{
+            .g-HeadingTitle__p{
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 12px;
+                
+                @media (max-width:$breakpoint_sm){
+                        font-size: 9px;
+                }
+            }
+        }
+//        
+//        .last-heading{
+//            position: relative;
+//            left: -10px;
+//        }
+        
+        .slick-track{
+            width: auto !important;
+            transform: none !important;
+            border-bottom: 2px solid #b7b7b7;
+            padding: 0 10px;
+            
+            a{
+                width: 30% !important;
+                height: 40px !important;
+                padding: 5px 10px;
+                text-align: left;
+                font-weight: bold;
+                
+                @media (max-width:$breakpoint_sm){
+                        width: 32% !important;
+                }
+            }
+        }
+        
+        a.g-TabMenu__nav__link{
+            border: 2px solid #b7b7b7 !important;
+        }
+        
+        a.g-TabMenu__nav__link:hover{
+            border: 2px solid #b7b7b7 !important;
+            background-color: #fff !important;
+            color: #333 !important;
+            border-bottom: 2px solid #fff !important;
+        }
+        
+        
+        
+        a.is-active{
+            border: 2px solid #b7b7b7 !important;
+            background-color: #fff !important;
+            color: #333 !important;
+            border-bottom: 2px solid #fff !important;
+        }
+        
+        .g-TabMenuUnit__ColumnUnit {
+                ul{
+                    li{
+                        margin-bottom: 10px;
+                    }
+                }
+        }
+    }
+    
+    .faq-question{
+            margin-bottom: 0 !important;
+            .cmn-icon{
+                display: none;
+            }
+            
+            .g-AccordionUnit__titleBlock{
+                outline: none;
+                position: relative;
+                padding-left: 20px;
+                font-weight: bold;
+                font-family: Arial,Helvetica,sans-serif;
+                
+                .g-HeadingTitle__p{
+                    font-family: inherit !important;
+                    color: #555;
+                    font-size: 13px !important;
+                }
+                
+                &:before{
+                    content: '';
+                    display: block;
+                    width: 10px;
+                    height: 2px;
+                    position: absolute;
+                    background-color: #333;
+                    left: 0;
+                    z-index: 1;
+                    top: 17px;
+                }
+                
+                &:after{
+                    content: '';
+                    display: block;
+                    height: 10px;
+                    width: 2px;
+                    position: absolute;
+                    background-color: #333;
+                    left: 4px;
+                    top: 13px;
+                }
+            }
+        .g-AccordionUnit__contentBlock{
+            padding-top: 0;
+            padding-left: 42px;
+            .l-Text {
+                font-family: Arial,Helvetica,sans-serif;
+                font-size: 13px;
+            }
+
+        }
+            &.is-radius--open{
+                    
+                    .g-AccordionUnit__titleBlock:after{
+                        
+    background-color: #fff;
+                        
+                    }
+                }
+        }
+    
+    
+    .faq-product-image img{
+        margin: 0 auto;
+    }
+    
+}
+html[lang="es-mx"]{
+    .faq-product-section{
+        .action-buttons-pack{
+            .expand-btn a:before{
+                left: 5%;
+                //top: 0;
+            }
+            
+    }    
+    }
+    
+}

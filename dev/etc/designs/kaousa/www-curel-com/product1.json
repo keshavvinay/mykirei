@@ -1,0 +1,355 @@
+[
+    {
+      "Products": [
+        {
+            "Ultra Healing": [
+                {
+                    "Bumpy":"0"
+                    
+                },
+                {
+                    "Keratosis":"0"
+                },
+                {
+                    "Redness":"0"
+                },
+                {
+                    "Rough Patches":"0"
+                },
+                {
+                    "Roughness":"0"
+                },
+                {
+                    "Dry Patches":"0"
+                },
+                {
+                    "Dry Cracked":"0"
+                },
+                {
+                    "Chapped Skin":"0"
+                },
+                {
+                    "Psoriasis":"0"
+                },
+                {
+                    "Sensitive Skin":"0"
+                },
+                {
+                    "Sensitive Skin":"0"
+                },
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Eczema":"0"
+                },
+                {
+                    "Hives":"0"
+                },
+                {
+                    "Rashes":"0"
+                },
+                {
+                    "Shaving Irritation":"0"
+                },
+                {
+                    "None":"0"
+                },
+                {
+                    "Uneven Skin Tone":"0"
+                },
+                {
+                    "Flaky":"0"
+                }
+            ]
+        },
+        {
+            "Itch Defense": [
+                {
+                    "Hives":"0"
+                },
+                {
+                    "Roughness":"0"
+                },
+                {
+                    "Keratosis":"0"
+                },
+                {
+                    "Irritated Skin":"0"
+                },
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Psoriasis":"0"
+                },
+                {
+                    "Flaky":"0"
+                },
+                {
+                    "Eczema":"0"
+                }
+            ]
+        },
+        {
+            "Hydra Therapy Itch Defense": [
+                {
+                    "Keratosis":"0"
+                },
+                {
+                    "Irritated Skin":"0"
+                },
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Psoriasis":"0"
+                },
+                {
+                    "Flaky":"0"
+                },
+                {
+                    "Eczema":"0"
+                },
+                {
+                    "Rashes":"0"
+                }
+            ]
+        },
+        {
+            "Hydra Therapy": [
+                {
+                    "Bumpy":"0"
+                },
+                {
+                    "Chapped Skin":"0"
+                },
+                {
+                    "Dry Patches":"0"
+                },
+                {
+                    "Dry Cracked":"0"
+                },
+                {
+                    "Eczema":"0"
+                },                
+                {
+                    "Irritated Skin":"0"
+                },
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Keratosis":"0"
+                },
+                {
+                    "None":"0"
+                },
+                {
+                    "Psoriasis":"0"
+                },
+                {
+                    "Shaving Irritation":"0"
+                },
+                {
+                    "Uneven Skin Tone":"0"
+                }  
+            ]
+        },
+        {
+            "Fragrance Free": [               
+                {
+                    "Irritated Skin":"0"
+                },
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Rashes":"0"
+                },
+                {
+                    "Redness":"0"
+                },
+                {
+                    "Rough Patches":"0"
+                },
+                {
+                    "Roughness":"0"
+                },
+                {
+                    "Sensitive Skin":"0"
+                },
+                {
+                    "Shaving Irritation":"0"
+                },
+                {
+                    "Stinging":"0"
+                }     
+            ]
+        },
+        {
+            "Foot Therapy": [
+                {
+                    "Bumpy":"0"
+                },
+                {
+                    "Chapped Skin":"0"
+                },
+                {
+                    "Dry Patches":"0"
+                },
+                {
+                    "Dry Cracked":"0"
+                },
+                {
+                    "Eczema":"0"
+                },   
+                {
+                    "Flaky":"0"
+                }, 
+                {
+                    "Hives":"0"
+                },           
+                {
+                    "Irritated Skin":"0"
+                },
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Keratosis":"0"
+                },
+                {
+                    "None":"0"
+                },
+                {
+                    "Psoriasis":"0"
+                },
+                {
+                    "Rashes":"0"
+                },
+                {
+                    "Redness":"0"
+                },
+                {
+                    "Rough Patches":"0"
+                },
+                {
+                    "Roughness":"0"
+                },
+                {
+                    "Sensitive Skin":"0"
+                },
+                {
+                    "Shaving Irritation":"0"
+                },
+                {
+                    "Stinging":"0"
+                },
+                {
+                    "Uneven Skin Tone":"0"
+                } 
+            ]
+        },
+        {
+            "Dry Skin Therapy Itch Defense ": [
+                {
+                    "Eczema":"0"
+                },   
+                {
+                    "Flaky":"0"
+                }, 
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Keratosis":"0"
+                },
+                {
+                    "Psoriasis":"0"
+                },
+                {
+                    "Rashes":"0"
+                }
+            ]
+        },
+        {
+            "Dry Skin Therapy": [
+                {
+                    "Bumpy":"0"
+                },
+                {
+                    "Chapped Skin":"0"
+                },
+                {
+                    "Dry Patches":"0"
+                },
+                {
+                    "Dry Cracked":"0"
+                },
+                {
+                    "Eczema":"0"
+                },   
+                {
+                    "Flaky":"0"
+                }, 
+                {
+                    "Hives":"0"
+                },           
+                {
+                    "Irritated Skin":"0"
+                },
+                {
+                    "Itchy Skin":"0"
+                },
+                {
+                    "Keratosis":"0"
+                },
+                {
+                    "None":"0"
+                },
+                {
+                    "Psoriasis":"0"
+                },
+                {
+                    "Rashes":"0"
+                },
+                {
+                    "Redness":"0"
+                },
+                {
+                    "Sensitive Skin":"0"
+                },
+                {
+                    "Shaving Irritation":"0"
+                },
+                {
+                    "Stinging":"0"
+                },
+                {
+                    "Uneven Skin Tone":"0"
+                } 
+            ]
+        },
+        {
+            "Daily Healing": [
+                {
+                    "Bumpy":"0"
+                },
+                {
+                    "Chapped Skin":"0"
+                },          
+                {
+                    "Irritated Skin":"0"
+                },
+                {
+                    "Rough Patches":"0"
+                },
+                {
+                    "Roughness":"0"
+                }
+            ]
+        }
+      ]    
+    }
+]

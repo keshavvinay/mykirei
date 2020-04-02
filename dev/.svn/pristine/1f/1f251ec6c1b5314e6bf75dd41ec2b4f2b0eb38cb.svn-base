@@ -1,0 +1,89 @@
+//ACCORDION CSS
+.g-AccordionMenu {
+
+    .g-AccordionUnit__titleBlock {
+        padding: 5px 7px;
+        border: 0;
+        outline: 0;
+    }
+
+    .g-AccordionUnit__titleBlock {
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            &:after {
+                @extend .arrow-down-bg-icon;
+                float: right;
+            }
+        }
+    }
+
+    .is-radius--open {
+        .g-AccordionUnit__titleBlock {
+
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p {
+                &:after {
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+
+    .g-HeadingTitle {
+        margin-bottom: 0;
+    }
+
+    .g-AccordionUnit__contentBlock {
+        padding: 0.9375rem;
+    }
+}
+
+//ACCORDIAN ARABIC
+html:lang(ar-sa) {
+    .g-AccordionMenu {
+
+        .g-AccordionUnit__titleBlock {
+
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p {
+                &:after {
+                    @extend .arrow-down-bg-icon;
+                    float: right;
+                    padding-left: 10px;
+                }
+            }
+        }
+
+        .is-radius--open {
+            .g-AccordionUnit__titleBlock {
+
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                p {
+                    &:after {
+                        transform: rotate(90deg);
+                        padding-bottom: 10px;
+                        padding-right: 10px;
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

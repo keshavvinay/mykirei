@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+/* QAP ================================================== */
+.l-AccordionUnit--qa__titleBlock__abbr ,
+.l-AccordionUnit--qa__titleBlock__num {
+  color: $accordion__title__text;
+}
+
+.l-AccordionUnit--qa__contentBlock__abbr ,
+.l-AccordionUnit--qa__contentBlock__num {
+  @include fontSize(lv3);
+}
+
+
+// Q&A PackのBrushup分が適用されるまで、表示崩れが起きないように追記（3/4）
+// 2016/3/17 Brushup分がリリースされたら削除
+
+.l-AccordionUnit__contentBlock__abbr ,
+.l-AccordionUnit__contentBlock__num {
+  @include fontSize(lv3);
+}

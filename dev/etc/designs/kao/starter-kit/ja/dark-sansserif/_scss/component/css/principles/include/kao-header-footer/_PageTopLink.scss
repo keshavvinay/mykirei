@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+/* Page Top ================================================== */
+#area-PageTop {
+  background: $pageTop__bg;
+}
+
+.l-PageTop {
+  a {
+    .cmn-icon {
+      color: $pageTop__icon;
+      font-size: $fontSize_pageTop;
+      line-height: $lineHeight_pageTop;
+      letter-spacing: $letterSpacing_pageTop;
+    }
+  }
+}
+

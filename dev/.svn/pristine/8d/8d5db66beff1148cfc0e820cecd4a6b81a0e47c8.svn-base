@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+/* MapAccessHP ================================================== */
+.g-MapAccessHP {
+  .g-MapAccessHP__contentsBlock__map {
+    display: table-cell;
+    vertical-align: top;
+    box-sizing: border-box;
+    @include bp(sm) {
+      display: block;
+      padding: 0;
+      margin: 0 auto;
+    }
+  }
+  .g-MapAccessHP__contentsBlock__text {
+    display: table-cell;
+    vertical-align: top;
+    @include bp(sm) {
+      display: block;
+      padding: 0;
+      width: 100%;
+    }
+  }
+  //クラス名が入れ子になる可能性があるため
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+  &.is-layoutL {
+    .g-MapAccessHP__contentsBlock__map {
+      padding-right: $cmn_MapAccessPack__separator / 2;
+      @include bp(sm) {
+        padding-right: 0;
+      }
+    }
+    .g-MapAccessHP__contentsBlock__text {
+      padding-left: $cmn_MapAccessPack__separator / 2;
+      @include bp(sm) {
+        padding-left: 0;
+      }
+    }
+  }
+  &.is-layoutR {
+    .g-MapAccessHP__contentsBlock__map {
+      padding-left: $cmn_MapAccessPack__separator / 2;
+      @include bp(sm) {
+        padding-left: 0;
+      }
+    }
+    .g-MapAccessHP__contentsBlock__text {
+      padding-right: $cmn_MapAccessPack__separator / 2;
+      @include bp(sm) {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.g-MapAccessHP__titleBlock {
+}
+
+.g-MapAccessHP__contentsBlock {
+  display: table;
+  width: 100%;
+}
+
+.g-MapAccessHP__contentsBlock__map {
+}
+
+.g-MapAccessHP__contentsBlock__text {
+}
+
+.g-MapAccessHP__contentsBlock__text__moreinfo {
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+
+/* PageTitle
+ ================================================== */
+//centerやbackgroundには非対応
+.l-PageTitle {
+  position: relative;
+  border-bottom: none;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: $contents__heading__text;
+  }
+}
+.l-PageTitle__titleBlock {
+  padding-left: 20px;
+}
+
+
+//以下、Specific CSS Class
+@mixin colorPageTitle($color) {
+  &:before {
+    background-color: $color;
+  }
+  .l-PageTitle__h1 {
+    color: $color;
+  }
+}
+
+.docs-PageTitle--color1 {
+  @include colorPageTitle($option__inPlaceEditor--11);
+}
+
+.docs-PageTitle--color2 {
+  @include colorPageTitle($option__inPlaceEditor--12);
+}
+
+.docs-PageTitle--color3 {
+  @include colorPageTitle($option__inPlaceEditor--06);
+}
+
+.docs-PageTitle--color4 {
+  @include colorPageTitle($option__inPlaceEditor--07);
+}
+
+.docs-PageTitle--color5 {
+  @include colorPageTitle($option__inPlaceEditor--08);
+}
+
+.docs-PageTitle--color6 {
+  @include colorPageTitle($option__inPlaceEditor--10);
+}

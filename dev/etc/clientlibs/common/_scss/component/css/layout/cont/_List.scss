@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+
+/* List ================================================== */
+.g-List {
+  margin-bottom: 12px;
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+}
+
+.g-List__ol,
+.g-List__ul {
+  margin: 0;
+  .is-dot & {
+    list-style-type: disc;
+  }
+  .is-num & {
+    list-style-type: decimal;
+  }
+  .is-none & {
+    list-style-type: none;
+  }
+}
+
+.g-List__ol__item,
+.g-List__ul__item {
+  margin: 0;
+}
+
+.g-List__ol__item__link,
+.g-List__ul__item__link {
+  @include link();
+}

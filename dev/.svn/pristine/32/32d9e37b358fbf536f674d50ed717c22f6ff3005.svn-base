@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+/* Text ================================================== */
+.g-Text {
+  @include fontSize(body);
+  margin-bottom: 8px;
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+}

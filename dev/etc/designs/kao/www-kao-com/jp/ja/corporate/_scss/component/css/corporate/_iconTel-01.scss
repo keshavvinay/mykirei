@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.corp-iconTel-01 {
+  .l-TelephoneCall__item__icon__phone {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #9b9b9b;
+  }
+  .l-TelephoneCall__item__number {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  @include bp(sm) {
+    .l-TelephoneCall__item__icon__phone {
+      margin-right: 13px;
+      font-size: 26px;
+    }
+    .l-TelephoneCall__item__number {
+      font-size: 14px;
+    }
+  }
+}

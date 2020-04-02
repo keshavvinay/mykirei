@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+/* Global Header ================================================== */
+.sofina-brands-BlHeader {
+  padding: 0;
+  background-color: #fff;
+}
+.sofina-brands-BlHeader .g-Area__inner {
+  max-width: 100%;
+}
+
+/* brands-BlHeader
+---------- ---------- ---------- */
+.brands-BlHeader {
+  margin: 0 auto;
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-bottom: solid 1px #ccc;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .brands-BlHeader {
+    padding: 15px 0;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .brands-BlHeader {
+    position: static;
+    padding-right: 32px;
+    padding-left: 32px;
+    min-width: 960px;
+  }
+  .brands-BlHeader.is-fixed {
+    position: fixed;
+  }
+}
+
+/* heaer placeholder
+---------- */
+/* Logo
+---------- ---------- */
+.sofina-brands-HeaderLogo {
+  width: 100px;
+  height: 19px;
+  margin: 0 auto;
+  padding: 0;
+}
+.sofina-brands-HeaderLogo img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.sofina-brands-HeaderLogo a {
+  display: block;
+  position: relative;
+  width: inherit;
+  height: inherit;
+}
+.sofina-brands-HeaderLogo a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+}
+.sofina-brands-HeaderLogo a:focus:after, .sofina-brands-HeaderLogo a:hover:after, .sofina-brands-HeaderLogo a:active:after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-brands-HeaderLogo {
+    width: 160px;
+    height: 31px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-brands-HeaderLogo {
+    margin: 30px auto 40px;
+    width: 240px;
+    height: 46px;
+  }
+  .is-fixed .sofina-brands-HeaderLogo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 23px;
+  }
+  .is-fixed .sofina-brands-HeaderLogo .sofina-brands-HeaderLogo__img {
+    display: none;
+  }
+  .is-fixed .sofina-brands-HeaderLogo .sofina-brands-HeaderLogo__img--fixed {
+    display: block;
+  }
+}
+
+.sofina-brands-HeaderLogo__img--fixed {
+  display: none;
+}
+
+/* Header Menu
+---------- ---------- */
+.sofina-brands-HeaderMenu {
+  padding: 0 10px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  text-decoration: none;
+}
+.sofina-brands-HeaderMenu:after {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  line-height: 1;
+  height: 1em;
+  content: '\e606';
+  color: #777;
+  font-family: 'icomoon-header';
+  font-size: 1.7em;
+  text-align: center;
+}
+.sofina-brands-HeaderMenu:focus, .sofina-brands-HeaderMenu.is-open {
+  background-color: #777;
+}
+.sofina-brands-HeaderMenu:focus:after, .sofina-brands-HeaderMenu.is-open:after {
+  color: #fff;
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-brands-HeaderMenu {
+    display: none;
+  }
+}
+
+/* sbps GlobalNav
+---------- ---------- */
+.sofina-brands-HeaderGlobalNav {
+  margin: 0;
+  padding: 0 10px;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  overflow-y: scroll;
+  width: 100%;
+  list-style: none;
+  font-family: Helvetica, Arial, Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.sofina-brands-HeaderGlobalNav.is-open {
+  display: block;
+}
+.sofina-brands-HeaderGlobalNav li {
+  margin: 0;
+  padding: 0;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  display: block;
+  line-height: 1.3;
+  font-size: 18px;
+}
+.sofina-brands-HeaderGlobalNav li:first-child {
+  border-top-width: 0;
+}
+.sofina-brands-HeaderGlobalNav a {
+  padding: 11px 20px 11px 0;
+  display: block;
+  text-decoration: none;
+  background: url(../img/arrow_glay_right.png) 100% 50% no-repeat;
+}
+.sofina-brands-HeaderGlobalNav a:link {
+  color: #000;
+}
+.sofina-brands-HeaderGlobalNav a:visited {
+  color: #000;
+}
+.sofina-brands-HeaderGlobalNav a:hover, .sofina-brands-HeaderGlobalNav a:focus, .sofina-brands-HeaderGlobalNav a:active {
+  color: #a9a9a9;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-brands-HeaderGlobalNav li br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .sofina-brands-HeaderGlobalNav li br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sofina-brands-HeaderGlobalNav {
+    margin: 0 auto;
+    padding: 0;
+    display: table;
+    position: static;
+    width: 100%;
+    max-width: 1302px;
+    border-width: 0;
+  }
+  .sofina-brands-HeaderGlobalNav li {
+    border-color: #ddd;
+    border-width: 0 1px 0 0;
+    display: table-cell;
+    width: 16.67%;
+    line-height: 1.3;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+  .sofina-brands-HeaderGlobalNav li:first-child {
+    border-left-width: 1px;
+  }
+  .sofina-brands-HeaderGlobalNav a {
+    padding: 0 10px;
+    text-align: center;
+    background-image: none;
+  }
+}
+
+.opt-fixed-adjust {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .opt-fixed-adjust {
+    padding-top: 62px;
+    margin-top: -62px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .opt-fixed-adjust {
+    padding-top: 114px;
+    margin-top: -114px;
+  }
+}
+
+/* GlobalFooter
+---------- ---------- */
+.sofina-GlFooter {
+  background-color: #fff;
+  font-family: Helvetica, Arial, Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+.sofina-GlFooter p, .sofina-GlFooter ul, .sofina-GlFooter ol, .sofina-GlFooter li, .sofina-GlFooter a, .sofina-GlFooter img {
+  margin: 0;
+  padding: 0;
+}
+.sofina-GlFooter .sofina-GlFooter__inner {
+  margin: 0 auto;
+  padding: 10px 32px;
+  max-width: 1366px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-GlFooter .sofina-GlFooter__inner {
+    padding: 10px 24px;
+  }
+}
+.sofina-GlFooter .sofina-GlFooter__logo {
+  display: inline-block;
+}
+.sofina-GlFooter .sofina-GlFooter__logo img {
+  width: 120px;
+  height: 23px;
+  vertical-align: bottom;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-GlFooter .sofina-GlFooter__logo {
+    display: block;
+  }
+}
+.sofina-GlFooter .sofina-GlFooter__copyright {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 10px;
+  color: #333;
+}
+@media only screen and (max-width: 640px) {
+  .sofina-GlFooter .sofina-GlFooter__copyright {
+    display: block;
+    margin-top: 12px;
+    margin-left: 0;
+  }
+}
+
+
+.l-HeadingTitle__p {
+    font-family: "LinotypeUnivers630-BasicBold", sans-serif;
+}
+.l-Column__cols {
+    font-family: "LinotypeUnivers330-BasicLight", sans-serif;
+}
+.sofina-textLink-wrapper .sofina-textLink .l-TextLinkUnit__link .cmn-richtext span {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #3a3a3a;
+}
+.is-colorset--1 .l-TextLinkUnit__link:link {
+    color: #333333;
+}
+.is-colorset--1 .l-TextLinkUnit__link:visited {
+    color: #333333;
+}
+.sofina-textLink-wrapper .sofina-textLink .l-TextLinkUnit__link .cmn-richtext span {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #3a3a3a; }
+
+.sofina-textLink-wrapper .sofina-textLink .l-TextLinkUnit__link:hover {
+  opacity: 0.7;
+ }
+.TextLinkP__list__item {
+    padding: 15px;
+}

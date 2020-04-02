@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+
+@mixin bp($point) {
+  @if $point==sm {
+    @media only screen and (max-width: $maxWidth_sm) {
+      @content;
+    }
+  }
+  @else if $point==md {
+    @media only screen and (min-width: $maxWidth_sm + 1px) and (max-width: $maxWidth_md) {
+      @content;
+    }
+  }
+  @else if $point==lg {
+    @media only screen and (min-width: $maxWidth_md + 1px) {
+      @content;
+    }
+  }
+}
+
+
+/*
+ Line-Bottom
+ @param $style (solid, dotted)
+ @param $size (s, m, l)
+ */
+
+@mixin lineBottom($style, $size) {
+  //ピクセル値
+  $pixel: 0;
+  @if $size==s {
+    $pixel: 1px;
+  }
+  @else if $size==m {
+    $pixel: 2px;
+  }
+  @else if $size==l {
+    $pixel: 4px;
+  }
+  box-sizing: border-box;
+  border-bottom: $style $pixel $colorLine_dark;
+}
+
+
+/*
+ Link
+ */
+
+@mixin link() {
+  &:link {
+    color: $colorLink;
+  }
+  &:visited {
+    color: $colorLink_visited;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $colorLink_hover;
+  }
+}

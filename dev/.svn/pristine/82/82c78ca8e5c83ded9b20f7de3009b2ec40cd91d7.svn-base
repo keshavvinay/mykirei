@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>List Pack</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+
+<!-- G_CON_008: List Item -->
+<div id="ListBlock">
+  <div class="method">
+    <p class="componentName">G_CON_008: List Pack</p>
+    <!--<a href="samples/P140_List.html">⇒ design sample</a>-->
+    <ul>
+      <li>List Style
+        <ul>
+          <li>dot ⇒ ulタグ / class="is-dot"</li>
+          <li>number ⇒ olタグ / class="is-num"</li>
+          <li>none ⇒ ulタグ / class="is-none"</li>
+        </ul>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : [任意クラス付与]</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+  <h3 class="settingName">Style : dot</h3>
+  <!-- G_CON_008: List Pack -->
+  <div class="debug-tmpl" data-tmpl="ListP--Style_dot"></div>
+  <!-- / G_CON_008: List Pack -->
+
+  <h3 class="settingName">Style : num</h3>
+  <div class="g-ListP l-ListP is-num">
+    <ol class="g-ListP__ol l-ListP__ol">
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ol>
+  </div>
+
+  <h3 class="settingName">Style : none</h3>
+  <div class="g-ListP l-ListP is-none">
+    <ul class="g-ListP__ul l-ListP__ul">
+
+      <li class="g-ListP__ul__item l-ListP__ul__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ul__item l-ListP__ul__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-ListP l-ListP List-typeStyle_num opt-al_l">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ol>
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-ListP l-ListP List-typeStyle_num opt-al_c">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ol>
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-ListP l-ListP List-typeStyle_num opt-al_r">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ol>
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-ListP l-ListP SpecificCSSclass">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ol>
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-ListP l-ListP is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ol>
+  </div>
+
+
+
+  <div class="method">
+    <p class="componentName">List Unit</p>
+    <!--<a href="samples/P140_List.html">⇒ design sample</a>-->
+    <ul>
+      <li>Link : span → a</li>
+      <li>Target/Link icon : アイコン用クラス付与</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : [任意クラス付与]</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Link : active (None/Standard/External/PDF/Download + reverse)</h3>
+  <div class="g-ListP l-ListP List-listStyle_num">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <a class="g-ListUnit l-ListUnit is-link" href="" target="">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </a>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <a class="g-ListUnit l-ListUnit is-link" href="" target="">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </a>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <a class="g-ListUnit l-ListUnit is-link" href="" target="">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+          <span class="cmn-icon cmn-icon--external g-ListUnit__icon l-ListUnit__icon"></span>
+        </a>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <a class="g-ListUnit l-ListUnit is-link" href="" target="">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+          <span class="cmn-icon cmn-icon--pdf g-ListUnit__icon l-ListUnit__icon"></span>
+        </a>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <a class="g-ListUnit l-ListUnit is-link" href="" target="">
+          <span class="cmn-richtext">
+            <span>List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext List items Richtext</span>
+          </span>
+          <span class="cmn-icon cmn-icon--download g-ListUnit__icon l-ListUnit__icon"></span>
+        </a>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <a class="g-ListUnit l-ListUnit is-link" href="" target="">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+          <span class="cmn-icon cmn-icon--download cmn-icon--reverse g-ListUnit__icon l-ListUnit__icon"></span>
+        </a>
+      </li>
+
+    </ol>
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-ListP l-ListP">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit SpecificCSSclass">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit SpecificCSSclass">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+    </ol>
+  </div>
+
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-ListP l-ListP">
+    <ol class="g-ListP__ol l-ListP__ol">
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <span class="g-ListUnit l-ListUnit is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+        </span>
+      </li>
+
+      <li class="g-ListP__ol__item l-ListP__ol__item">
+        <a class="g-ListUnit l-ListUnit is-link is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+          <span class="cmn-richtext">
+            <span>List items Richtext</span>
+          </span>
+          <span class="cmn-icon cmn-icon--external g-ListUnit__icon l-ListUnit__icon"></span>
+        </a>
+      </li>
+
+    </ol>
+  </div>
+
+</div>
+<!-- / G_CON_008: List Item -->
+
+
+
+
+</div>
+</div>
+
+
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

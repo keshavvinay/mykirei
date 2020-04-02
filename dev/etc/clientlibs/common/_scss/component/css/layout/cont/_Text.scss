@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+/* Text ================================================== */
+.g-Text {
+  //@include fontSize(body);
+  margin-bottom: 8px;
+
+  &.is-border {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-background {
+    padding: $cmn_paddingInner;
+    &.is-paddingReset {
+      padding: 0;
+    }
+  }
+  &.is-bg--ignore-size {
+    background-size:auto;
+  }
+
+}

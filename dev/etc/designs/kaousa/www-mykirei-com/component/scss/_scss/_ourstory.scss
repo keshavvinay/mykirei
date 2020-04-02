@@ -1,0 +1,624 @@
+.kirei-our-story-content-section-wrapper .g-Image__caption {
+    font-family: CeraPro-LightItalic;
+}
+
+.g-Movie {
+    margin-bottom: 0;
+}
+
+.kirei-our-story-kirei-lifestyle-button .g-ButtonUnit__link,
+.mykirei-our-story-flower-separator .mykirei-our-story-flower-unit .g-HeadingTitle__h5 {
+    line-height: normal;
+}
+
+.kirei-our-story-content-section-wrapper {
+    .kirei-our-story-text-column .g-HeadingTitle__h5 {
+        line-height: normal;
+    }
+    .kirei-our-story-image-column .g-TextLinkUnit__link {
+        /*replace*/
+        line-height: normal;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+    .mykirei-our-story-flower-separator .g-TextLinkUnit__link {
+        /*replace*/
+        letter-spacing: 2px;
+        line-height: normal;
+        font-size: 12px;
+        border-bottom: solid 0.5px rgba(64, 65, 68, 0.5);
+        padding-bottom: 5px;
+    }
+    .g-Image__caption {
+        /*replace*/
+        line-height: 2.17;
+        letter-spacing: normal;
+    }
+    .kirei-our-story-three-images .g-HeadingTitle {
+        margin: 15px 0 10px;
+    }
+}
+
+.kirei-our-story-banner-section-wrapper {
+    .g-Text:hover {
+        opacity: 65%;
+    }
+    img {
+        width: 100% !important;
+    }
+}
+
+.kirei-our-story-content-section-wrapper {
+    img {
+        width: 100% !important;
+    }
+    .g-TileLinkVP__list .g-TileLinkVUnit__leadBlock {
+        display: none;
+    }
+    .g-TileLinkVUnit__extraStructural .g-TextLinkUnit {
+        border-bottom: solid 1px rgba(64, 65, 68, 0.6);
+    }
+    .kirei-our-story-quote-by {
+        font-family: CeraPro-Medium;
+    }
+    .kirei-our-story-quote-designation {
+        font-family: CeraPro-LightItalic;
+    }
+}
+
+.kirei-our-story-kirei-lifestyle-button .g-ButtonUnit__link {
+    font-size: 12px;
+}
+
+.kirei-homepage-kao-banner .g-GroupBox .g-TextLinkUnit {
+    border-bottom: 1px solid #404144;
+}
+
+.kirei-our-story-quote-designation .cmn-richtext {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1025px) {
+    .kirei-our-story-content-section-wrapper {
+        .kirei-our-story-text-column {
+            .kirei-our-story-quote-by {
+                line-height: normal;
+            }
+            .kirei-our-story-quote-designation {
+                line-height: 2.17;
+            }
+        }
+        .mykirei-our-story-flower-separator .g-HeadingTitle__h5 {
+            line-height: normal;
+        }
+        &.page-final-section {
+            padding: 59px 0 0;
+        }
+    }
+    .kirei-our-story-banner-section-wrapper {
+        .kirei-homepage-banner-image .g-Image__img {
+            height: 459px;
+            img {
+                height: 100%;
+            }
+        }
+        .g-GroupBox {
+            margin: 44px 62.8% 0 5.9%;
+            height: 372px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .g-PageTitle {
+                margin: 0;
+            }
+            .g-Text {
+                width: 90%;
+            }
+        }
+    }
+    .kirei-our-story-illustration img {
+        height: 60px;
+    }
+    .kirei-our-story-content-section-wrapper {
+        padding: 59px 0px 75px;
+        .kirei-our-story-text-column {
+            padding: 0px 25%;
+        }
+        .kirei-our-story-image-column {
+            padding: 0px 13.5%;
+        }
+        .g-PageTitle {
+            margin-bottom: 25px;
+        }
+        .g-PageTitle__titleBlock__titleBox__title,
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin: 0px;
+        }
+        .text-m-45 {
+            margin-bottom: 45px;
+        }
+        .text-m-30 {
+            margin-bottom: 30px;
+        }
+        .text-m-65 {
+            margin-bottom: 65px;
+        }
+        .kirei-our-story-content-image-1 {
+            margin-bottom: 36px !important;
+        }
+        .kirei-our-story-illustration {
+            margin-bottom: 31px;
+        }
+        .g-Hr {
+            width: 55.7%;
+        }
+        .kirei-our-story-quote-by {
+            font-size: 14px;
+        }
+        .kirei-our-story-quote-designation {
+            font-size: 12px;
+        }
+        .kirei-our-story-hr-2 {
+            margin-bottom: 69px;
+        }
+        .g-TileLinkVP {
+            margin-bottom: 16px;
+        }
+        .g-TileLinkVP__list__tile {
+            &:nth-child(1) .g-TileLinkVUnit {
+                padding: 0 3.8% 0 0;
+            }
+            &:nth-child(2) .g-TileLinkVUnit {
+                padding: 0 0 0 3.8%;
+            }
+        }
+        .g-TileLinkVP__list .g-TextLinkP {
+            margin-bottom: 0;
+        }
+        .kirei-our-story-kirei-lifestyle-image {
+            margin-bottom: 37px !important;
+        }
+        .kirei-our-story-three-images {
+            margin-bottom: 63px;
+            .g-Column__cols {
+                &:nth-child(1) {
+                    margin-right: 3.7%;
+                    width: 27.4%;
+                    height: auto;
+                }
+                &:nth-child(2) {
+                    margin-right: 3.7%;
+                    width: 37.8%;
+                    height: auto;
+                }
+                &:nth-child(3) {
+                    width: 27.4%;
+                    height: auto;
+                }
+            }
+        }
+        .kirei-our-story-kirei-lifestyle-button {
+            margin-bottom: 68px !important;
+            .g-ButtonP__list__item {
+                width: 26%;
+            }
+        }
+        .kirei-homepage-kao-banner-image .g-Image__img {
+            height: 547px;
+            img {
+                height: 100%;
+            }
+        }
+        .kirei-homepage-kao-banner {
+            .g-GroupBox {
+                margin: 82px 54% 0 5.1%;
+                height: 384px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .g-Image {
+                    width: 18.2%;
+                }
+                .g-Text {
+                    padding: 0 7.2%;
+                    margin: 13px 0;
+                }
+            }
+            .g-TextLinkP {
+                margin: 0;
+            }
+        }
+    }
+    .kirei-our-story-three-images {
+        padding: 0px 13.5%;
+    }
+    .mykirei-our-story-line1 {
+        width: 401px;
+        margin-bottom: 16px !important;
+    }
+    .mykirei-our-story-line2 {
+        width: 401px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .kirei-our-story-content-section-wrapper {
+        .kirei-our-story-text-column {
+            .kirei-our-story-quote-by {
+                line-height: normal;
+            }
+            .kirei-our-story-quote-designation {
+                line-height: 2.17;
+            }
+            .g-HeadingTitle__h5,
+            .g-ButtonUnit,
+            .g-ButtonUnit__link {
+                line-height: normal;
+            }
+        }
+        .kirei-homepage-kao-banner .g-GroupBox .g-Image {
+            height: 6%;
+        }
+        .kirei-our-story-image-column .g-TextLinkUnit__link {
+            line-height: normal;
+            letter-spacing: 2px;
+        }
+        &.page-final-section {
+            padding: 40px 0 0;
+        }
+    }
+    .kirei-our-story-banner-section-wrapper {
+        .kirei-homepage-banner-image .g-Image__img {
+            height: 327px;
+            img {
+                height: 100%;
+            }
+        }
+        .g-GroupBox {
+            margin: 17px 62.3% 0 3.1%;
+            height: 293px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .g-PageTitle {
+                margin: 0;
+            }
+            .g-Text {
+                width: 98%;
+            }
+        }
+    }
+    .kirei-our-story-illustration img {
+        height: 42px;
+    }
+    .kirei-our-story-content-section-wrapper {
+        padding: 49px 0 64px;
+        .kirei-our-story-text-column {
+            padding: 0px 17%;
+        }
+        .kirei-our-story-image-column {
+            padding: 0px 3%;
+        }
+        .g-PageTitle {
+            margin-bottom: 25px;
+        }
+        .g-PageTitle__titleBlock__titleBox__title,
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin: 0px;
+        }
+        .text-m-45 {
+            margin-bottom: 45px;
+        }
+        .text-m-30 {
+            margin-bottom: 28px;
+        }
+        .text-m-65 {
+            margin-bottom: 50px;
+        }
+        .kirei-our-story-content-image-1 {
+            margin-bottom: 39px !important;
+        }
+        .kirei-our-story-illustration {
+            margin-bottom: 30px;
+            img {
+                height: 60px;
+            }
+        }
+        .g-Hr {
+            width: 65.3%;
+        }
+        .kirei-our-story-quote-by {
+            font-size: 14px;
+        }
+        .kirei-our-story-quote-designation {
+            font-size: 12px;
+        }
+        .kirei-our-story-hr-1 {
+            margin-bottom: 12px;
+        }
+        .kirei-our-story-hr-2 {
+            margin-bottom: 75px;
+        }
+        .g-TileLinkVP {
+            margin-bottom: 18px;
+        }
+        .g-TileLinkVP__list__tile {
+            &:nth-child(1) .g-TileLinkVUnit {
+                padding: 0 3.2% 0 0;
+            }
+            &:nth-child(2) .g-TileLinkVUnit {
+                padding: 0 0 0 3.2%;
+            }
+        }
+        .g-TileLinkVP__list .g-TextLinkP {
+            margin-bottom: 0;
+        }
+        .kirei-our-story-kirei-lifestyle-image {
+            margin-bottom: 33px !important;
+        }
+        .kirei-our-story-three-images {
+            margin-bottom: 56px;
+            .g-Column__cols {
+                &:nth-child(1) {
+                    margin-right: 3.7%;
+                    width: 27.4%;
+                    height: auto;
+                }
+                &:nth-child(2) {
+                    margin-right: 3.7%;
+                    width: 37.8%;
+                    height: auto;
+                }
+                &:nth-child(3) {
+                    width: 27.4%;
+                    height: auto;
+                }
+            }
+        }
+        .kirei-our-story-kirei-lifestyle-button {
+            margin-bottom: 66px !important;
+            .g-ButtonP__list__item {
+                width: 26%;
+            }
+        }
+        .kirei-homepage-kao-banner-image .g-Image__img {
+            height: 495px;
+            img {
+                height: 100%;
+            }
+        }
+        .kirei-homepage-kao-banner {
+            .g-GroupBox {
+                margin: 55px 54% 0 5.1%;
+                height: 384px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .g-Image {
+                    width: 20.1%;
+                }
+                .g-Text {
+                    padding: 0 7.2%;
+                    margin: 13px 0;
+                }
+            }
+            .g-TextLinkP {
+                margin: 0;
+            }
+        }
+    }
+    .kirei-our-story-three-images {
+        padding: 0px 3%;
+    }
+    .mykirei-our-story-line1 {
+        width: 408px;
+        margin-bottom: 17px !important;
+    }
+    .mykirei-our-story-line2 {
+        width: 408px;
+    }
+}
+
+@media (max-width: 640px) {
+    .kirei-our-story-content-section-wrapper {
+        .kirei-our-story-image-column .g-Image__caption {
+            line-height: normal;
+        }
+        .kirei-our-story-text-column {
+            .kirei-our-story-quote-designation {
+                line-height: normal;
+            }
+            .kirei-our-story-quote-by {
+                line-height: normal;
+                margin-top: 11px;
+            }
+        }
+    }
+    .kirei-our-story-kirei-lifestyle-button {
+        line-height: 1;
+    }
+    .kirei-our-story-content-section-wrapper {
+        /*replace*/
+        padding: 22px 6.9% 27px;
+        &.page-final-section {
+            padding: 21px 6% 0;
+        }
+        .kirei-our-story-image-column .g-TextLinkUnit__link {
+            line-height: 1;
+        }
+        .g-Image__caption {
+            /*replace*/
+            line-height: normal;
+            letter-spacing: normal;
+        }
+        .mykirei-our-story-flower-separator .g-TextLinkUnit__link {
+            /*replace*/
+            line-height: 1;
+        }
+        .g-PageTitle {
+            margin-bottom: 20px;
+        }
+        .g-PageTitle__titleBlock__titleBox__title,
+        .g-HeadingTitle,
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin: 0px;
+        }
+        .text-m-45 {
+            margin-bottom: 26px;
+        }
+        .kirei-our-story-content-image-1 {
+            margin-bottom: 27px !important;
+        }
+        .kirei-our-story-illustration,
+        .g-Hr {
+            margin-bottom: 27px;
+        }
+        .kirei-our-story-quote-by {
+            font-size: 12px;
+        }
+        .kirei-our-story-quote-designation {
+            font-size: 10px;
+        }
+        .g-TileLinkVP {
+            margin-bottom: 19px;
+        }
+        .g-TileLinkVP__list__tile {
+            .g-TileLinkVUnit {
+                padding: 0;
+            }
+            &:nth-child(1) .g-TextLinkP {
+                margin-bottom: 29px;
+            }
+            &:nth-child(2) .g-TextLinkP {
+                margin-bottom: 0;
+            }
+        }
+        .kirei-our-story-kirei-lifestyle-image {
+            margin-bottom: 11px !important;
+        }
+        .kirei-our-story-three-images {
+            margin-bottom: 10px;
+        }
+        .kirei-our-story-kirei-lifestyle-button {
+            margin-bottom: 37px !important;
+            .g-ButtonP__list__item {
+                width: 46%;
+            }
+        }
+        .kirei-homepage-kao-banner-image {
+            margin-bottom: 28px !important;
+        }
+        .kirei-homepage-kao-banner .g-GroupBox {
+            position: relative !important;
+            background: none;
+            .g-Text {
+                text-align: left;
+            }
+        }
+        .kirei-our-story-kao-logo {
+            width: 21%;
+            margin-bottom: 10px;
+        }
+    }
+    .kirei-our-story-illustration img {
+        height: 50px;
+    }
+    .text-m-30,
+    .text-m-65 {
+        margin-bottom: 26px;
+    }
+    .mykirei-our-story-line1 {
+        width: 100%;
+        margin-bottom: 19px !important;
+    }
+    .mykirei-our-story-line2 {
+        width: 100%;
+    }
+    .kirei-our-story-content-section-wrapper .kirei-our-story-three-images .g-HeadingTitle {
+        margin: 15px 0 10px;
+    }
+    .kirei-our-story-three-images {
+        .g-HeadingTitle__h4 {
+            text-align: left;
+        }
+        .g-Text {
+            margin-bottom: 25px;
+            .cmn-richtext {
+                text-align: left;
+            }
+        }
+    }
+}
+
+
+/*-------------------------------------*/
+
+.mykirei-our-story-flower-separator {
+    img {
+        width: 100% !important;
+    }
+    .g-Column__inner {
+        display: flex;
+        justify-content: center;
+    }
+    .mykirei-our-story-flower-unit .g-HeadingTitle {
+        margin: 10px 0px;
+    }
+}
+
+.kirei-our-story-content-section-wrapper .g-Image__caption {
+    margin: 0px;
+}
+
+.granville-lightitallic .g-HeadingTitle__h2 {
+    font-family: granville-lightitalic;
+}
+
+@media (min-width: 641px) {
+    .mykirei-our-story-flower-separator .g-Column__cols:nth-child(1) {
+        padding-right: 2.7%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .mykirei-our-story-flower-separator .g-Column__cols {
+        width: 35.5%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .mykirei-our-story-flower-separator .g-Column__cols {
+        width: 45.6%;
+    }
+    .mykirei-our-story-flower-unit .g-Text {
+        margin-bottom: 2.43%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .mykirei-our-story-flower-separator {
+        .g-Column__inner {
+            flex-direction: column;
+        }
+        .g-Column__cols:nth-child(2) {
+            margin-top: 29px;
+        }
+        .mykirei-our-story-flower-unit {
+            height: auto !important;
+            .g-Text {
+                margin-bottom: 0px;
+                margin-top: 4px;
+            }
+            .g-Image__caption {
+                margin: 7px 0px 11px;
+            }
+        }
+    }
+    .kirei-our-story-content-section-wrapper .g-Image__caption {
+        margin: 7px 0 0;
+    }
+}

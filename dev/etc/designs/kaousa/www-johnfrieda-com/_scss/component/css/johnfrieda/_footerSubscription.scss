@@ -1,0 +1,58 @@
+$color_1: #000;
+$background_color_1: transparent;
+$background_color_2: #818181;
+
+.Jf-Newsletter_footer {
+	.form {
+		display: flex;
+		margin-right: 25%;
+	}
+	.form_leftcol {
+		display: none;
+	}
+	.SiteFooter__signupEmail {
+		line-height: 45.2px !important;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		padding: 0 .5em;
+		border: 1px solid #818181;
+		background-color: $background_color_1;
+		font-size: 0.875rem;
+		border-radius: 0;
+		outline: 0;
+		width: 220%;
+	}
+	.SiteFooter__signupLabel {
+		font-size: 1rem;
+	}
+	.error_msg {
+		display: none;
+	}
+	.SiteFooter__signupSubmit {
+		padding: .6em 1em;
+		border: 0;
+		background-color: $background_color_2;
+		color: $color_1;
+		text-transform: uppercase;
+		border-radius: 0;
+		outline: 0;
+		margin-left: 153px;
+	}
+}
+.is-authorring {
+	.Jf-Newsletter_footer {
+		.error_msg {
+			display: block !important;
+		}
+	}
+}
+@media only screen and (min-width: 1025px) {
+	.jf-Footer {
+		.g-TileLinkTextP.is-gutter--none {
+			.g-TileLinkTextP__list {
+				margin-left: 0%;
+				margin-right: -10%;
+			}
+		}
+	}
+}

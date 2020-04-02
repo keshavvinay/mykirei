@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+// Fonts
+@import "_fonts/_fonts.scss";
+
+//SASS VARIABLES
+@import "_scss/_variables.scss";
+
+//MIXINS
+@import "_scss/_mixin.scss";
+
+// COMPONENT STYLING
+@import "_scss/_buttonPack.scss"; 
+@import "_scss/_headings.scss";
+@import "_scss/_iconStyles.scss";
+@import "_scss/_accordionStyle.scss";
+@import "_scss/_pageTitle.scss";
+@import "_scss/_imageTextPackHorizontal.scss";
+@import "_scss/_imageTextPackVertical.scss";
+@import "_scss/_g-TextLinkP.scss";
+// HEADER FOOTER
+@import "_scss/_header.scss";
+@import "_scss/_footer.scss";
+
+//CUREL WEBSITE STYLES
+@import "_scss/_normalize.scss";
+@import "_scss/_common.scss";
+@import "_scss/_productDetailTemplate.scss";
+@import "_scss/_contactUs.scss";
+@import "_scss/_productsLanding.scss";
+@import "_scss/_sign-up.scss";
+@import "_scss/_unsubscribe.scss";
+@import "_scss/_breadCrumbs.scss";
+@import "_scss/_articlesLanding.scss";
+@import "_scss/_skin_care_advisor_section.scss";
+@import "_scss/_searchResult.scss";
+@import "_scss/_skin-allergin-guide.scss";
+
+
+//AUTHORRING MODE STYLES
+@import "_scss/_authorring.scss";
+

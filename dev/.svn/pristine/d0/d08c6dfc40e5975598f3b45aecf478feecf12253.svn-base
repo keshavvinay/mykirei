@@ -1,0 +1,377 @@
+@charset "utf-8";
+
+
+/* Brand Header ================================================== */
+// "g-BrHeader内主要レイアウト"
+// "g-BrHeaderCommon" では全体を "ロゴ領域" と "ナビゲーション領域" に分ける
+// .g-BrHeader
+//   .g-BrHeaderCommon
+//     .g-BrHeaderCommon__logoBlock (任意表示)
+//     .g-BrHeaderCommon__navBlock
+.g-BrHeader {
+  margin-top: -1px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px 0;
+  @include bp(sm) {
+    &.is-sm-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  }
+  @include bp(md) {
+    &.is-md-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  }
+  @include bp(lg) {
+    &.is-lg-fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  }
+  &.is-sm-fixed,
+  &.is-md-fixed,
+  &.is-lg-fixed {
+    margin-top: 0;
+    &.is-fixed-cancel {
+      position: static;
+    }
+  }
+}
+.g-BrHeaderCommon {
+  display: table;
+  width: 100%;
+  max-width: 1336px;
+  padding: 11px;
+  box-sizing: border-box;
+  @include bp(sm) {
+    position: relative;
+  }
+  @include bp(md) {
+    position: relative;
+  }
+  @include bp(lg) {
+    margin: 0 auto;
+    padding: 18px 12px;
+  }
+}
+.g-BrHeaderCommon__logoBlock {
+  padding-right: 12px;
+  display: table-cell;
+  width: 160px;
+  text-align: left;
+  vertical-align: middle;
+  @include bp(lg) {
+    &.is-lg-left {
+      text-align: left;
+      .g-BrHeaderLogo {
+        margin-right: auto;
+        margin-left: 0;
+      }
+    }
+    &.is-lg-center {
+      text-align: center;
+      .g-BrHeaderLogo {
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    &.is-lg-right {
+      text-align: right;
+      .g-BrHeaderLogo {
+        margin-right: 0;
+        margin-left: auto;
+      }
+    }
+    &.is-lg-top {
+      vertical-align: top;
+    }
+    &.is-lg-middle {
+      vertical-align: middle;
+    }
+    &.is-lg-bottom {
+      vertical-align: bottom;
+    }
+  }
+}
+.g-BrHeaderCommon__navBlock {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+// "g-BrHeaderCommon__logoBlock"
+// "ロゴ領域" の中のカラム構造。イメージコンポーネントを内包
+// .g-BrHeaderCommon__logoBlock
+//   .g-Image
+.g-BrHeaderCommon__logoBlock {}
+.g-BrHeaderLogo {
+  margin: 0;
+  .g-Image {
+    margin: 0;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  .g-Image__img {
+    max-width: 160px;
+    max-height: 90px;
+    img {
+      max-width: 100%;
+      max-height: 90px;
+      width: auto;
+    }
+  }
+}
+
+
+// "g-BrHeaderCommon__navBlock"
+// "ナビゲーション領域" の中のカラム構造。
+// .g-BrHeaderCommon__navBlock
+//   .g-BrHeaderNav__buttonBlock
+//   .g-BrHeaderNav__listBlock
+.g-BrHeaderCommon__navBlock {
+  box-sizing: border-box;
+}
+.g-BrHeaderNav__buttonBlock {
+  text-align: right;
+  a {
+    display: inline-block;
+    padding: 6px 50px 6px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+    .cmn-icon {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      margin-top: -.7em;
+    }
+  }
+  @include bp(sm) {}
+  @include bp(md) {}
+  @include bp(lg) {
+    display: none;
+  }
+}
+.g-BrHeaderNav__listBlock {
+  border-style: solid;
+  border-width: 1px 0;
+  &.is-scroll {
+    overflow: auto;
+  }
+  @include bp(sm) {
+    display: none;
+    &.is-open {
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 10;
+    }
+  }
+  @include bp(md) {
+    display: none;
+    &.is-open {
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 10;
+    }
+  }
+  @include bp(lg) {
+    border: none;
+  }
+}
+.g-BrHeaderNavList {
+  margin: 0;
+  margin-top: -1px;
+  padding: 0;
+  list-style-type: none;
+  @include pie-clearfix;
+}
+.g-BrHeaderNavList__item {
+  float: left;
+  margin-bottom: -1px;
+  padding: 14px 24px;
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  box-sizing: border-box;
+  @include bp(sm) {}
+  @include bp(md) {}
+  @include bp(lg) {
+    margin: 4px 0;
+    padding: 0 8px;
+    text-align: center;
+    border: none;
+  }
+  .g-BrHeaderNavListLink {
+    position: relative;
+    display: block;
+    margin: -14px -24px;
+    padding: 14px 48px 14px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    @include bp(sm) {}
+    @include bp(md) {}
+    @include bp(lg) {
+      display: table;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      .g-BrHeaderNavListLink__inner {
+        display: table-cell;
+        padding: 0 12px;
+        text-align: center;
+        vertical-align: middle;
+      }
+    }
+    .cmn-icon {
+      @include bp(sm) {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        margin-top: -.7em;
+        vertical-align: middle;
+      }
+      @include bp(md) {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        margin-top: -.7em;
+        vertical-align: middle;
+      }
+      @include bp(lg) {
+        vertical-align: middle;
+        &.cmn-icon--bullet {
+          display: none;
+        }
+      }
+    }
+  }
+  a.g-BrHeaderNavListLink {
+    @include bp(lg) {
+      border-radius: 4px;
+    }
+  }
+}
+
+@include bp(sm) {
+  .g-BrHeaderNavList__item-sm-1 {
+    width: 100%;
+    border-right: none;
+  }
+  .g-BrHeaderNavList__item-sm-2 {
+    width: 50%;
+    &:nth-child(even) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-sm-3 {
+    width: 33.3%;
+    &:nth-child(3n+3) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-sm-4 {
+    width: 25%;
+    &:nth-child(4n+4) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-sm-5 {
+    width: 20%;
+    &:nth-child(5n+5) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-sm-6 {
+    width: 16.66%;
+    &:nth-child(6n+6) {
+      border-right: none;
+    }
+  }
+}
+@include bp(md) {
+  .g-BrHeaderNavList__item-md-1 {
+    width: 100%;
+    border-right: none;
+  }
+  .g-BrHeaderNavList__item-md-2 {
+    width: 50%;
+    &:nth-child(even) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-md-3 {
+    width: 33.3%;
+    &:nth-child(3n+3) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-md-4 {
+    width: 25%;
+    &:nth-child(4n+4) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-md-5 {
+    width: 20%;
+    &:nth-child(5n+5) {
+      border-right: none;
+    }
+  }
+  .g-BrHeaderNavList__item-md-6 {
+    width: 16.66%;
+    &:nth-child(6n+6) {
+      border-right: none;
+    }
+  }
+}
+@include bp(lg) {
+  .g-BrHeaderNavList__item-lg-1,
+  .g-BrHeaderNavList__item-lg-2,
+  .g-BrHeaderNavList__item-lg-3,
+  .g-BrHeaderNavList__item-lg-4,
+  .g-BrHeaderNavList__item-lg-5,
+  .g-BrHeaderNavList__item-lg-6,
+  .g-BrHeaderNavList__item-lg-7,
+  .g-BrHeaderNavList__item-lg-8 {
+    border-style: solid;
+    border-width: 0 1px;
+    margin-right: -1px;
+  }
+  .g-BrHeaderNavList__item-lg-1 {
+    width: 100%;
+  }
+  .g-BrHeaderNavList__item-lg-2 {
+    width: 50%;
+  }
+  .g-BrHeaderNavList__item-lg-3 {
+    width: 33.3%;
+  }
+  .g-BrHeaderNavList__item-lg-4 {
+    width: 25%;
+  }
+  .g-BrHeaderNavList__item-lg-5 {
+    width: 20%;
+  }
+  .g-BrHeaderNavList__item-lg-6 {
+    width: 16.66%;
+  }
+  .g-BrHeaderNavList__item-lg-7 {
+    width: 14.28%;
+  }
+  .g-BrHeaderNavList__item-lg-8 {
+    width: 12.5%;
+  }
+}

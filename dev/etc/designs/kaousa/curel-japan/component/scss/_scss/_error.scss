@@ -1,0 +1,36 @@
+
+.error-redirect-section {
+    >.l-Section__inner {
+        padding:0;
+    }
+}
+
+.error-heading-section {
+    .cjp-sub-description {
+        p {
+            font-size: 24px;
+            line-height: 28px;
+
+            @media #{$tablet-only} {
+                font-size: 22px;
+                line-height: 26px;
+            }
+
+            @media #{$phone-only} {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    }
+
+   .cjp-title{
+       @media #{$phone-only} {
+           min-height: unset;
+       }
+    .g-Text.l-Text.cjp-sub-description {
+        @media #{$phone-only} {
+            min-height: 50px;
+        }
+    }
+   } 
+}

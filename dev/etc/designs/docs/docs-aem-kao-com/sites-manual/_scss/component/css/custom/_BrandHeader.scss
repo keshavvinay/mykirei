@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+/* Brand Header ================================================== */
+.l-BrHeader {
+  margin-top: -1px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+
+.l-BrHeaderCommon {
+  @include bp(lg) {
+    padding: 0 12px 0;
+  }
+}
+
+.l-BrHeaderCommon__logoBlock {
+  @include bp(lg) {
+    padding-bottom: 22px;
+  }
+}
+
+.g-BrHeaderNavList__item-md-2:nth-child(even) {
+  @include bp(md) {
+    border-right: 1px solid #ccc;
+  }
+}

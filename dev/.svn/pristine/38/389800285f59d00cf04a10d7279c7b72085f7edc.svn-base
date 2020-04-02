@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+/* Page Top ================================================== */
+$fontSize_pageTop: 20px;
+$lineHeight_pageTop: 1.0;
+$letterSpacing_pageTop: normal;
+
+#area-PageTop {
+  background: $pageTop__bg;
+}
+
+.g-PageTop {
+  a {
+    .cmn-icon {
+      color: $pageTop__icon;
+      font-size: $fontSize_pageTop;
+      line-height: $lineHeight_pageTop;
+      letter-spacing: $letterSpacing_pageTop;
+    }
+  }
+}
+

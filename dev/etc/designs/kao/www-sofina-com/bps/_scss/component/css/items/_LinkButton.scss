@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+/* LinkButton ================================================== */
+.l-LinkButton {
+}
+
+.l-LinkButton__link {
+  @include fontSize(body);
+  .is-link & {
+    @include link();
+  }
+  .is-btn & {
+    @include box-shadow(none);
+    @include border-radius(0);
+    background-color: $colorAction_1;
+    color: $colorFont_light;
+    @include areaLink();
+  }
+}
+
+.l-LinkButton__link__bullet {
+}
+
+.l-LinkButton__link__icon {
+}

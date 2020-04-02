@@ -1,0 +1,325 @@
+.mykirei-search-section1 .js-uniformHeight .mf_finder_organic_doc_title {
+    text-transform: uppercase;
+}
+
+.mykireiMarsSearchResults .mf_finder_organic_pager_wrapper span {
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.mf_finder_organic_pager_wrapper a.router-link-active {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mykirei-search-section1 {
+    .mf_finder_organic_doc {
+        padding: 1.5rem 0px !important;
+    }
+    .mf_finder_organic_doc_contents_wrapper {
+        margin-left: 0px !important;
+    }
+}
+
+.mykireiMarsSearchResultsSection .mf_finder_searchBox {
+    width: 46.1%;
+    margin: auto;
+}
+
+.mykireiMarsSearchResults {
+    width: 73.7%;
+    margin: auto;
+    .mf_finder_organic_header_wrapper {
+        width: 62.6%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+.mykireiMarsSearchResultsSection {
+    .mf_finder_searchBox_query_input {
+        border: solid 1px #979797;
+        background: none;
+        outline: none;
+        font-size: 14px;
+        font-family: cerapro-regular;
+        padding: 14px 13px 14px 17px;
+        letter-spacing: 1.4px;
+    }
+    .mf_finder_searchBox_submit {
+        background: none;
+        border-left: none;
+        border-radius: 0;
+        background: url('/content/dam/sites/kaousa/www-mykirei-com/us/icons/Search%20Icon.svg');
+        background-repeat: no-repeat;
+        padding: 0;
+        position: absolute;
+        right: 9px;
+        top: 33px;
+        &::before {
+            content: none;
+        }
+    }
+}
+
+.mf_finder_organic_doc_contents {
+    .mf_finder_organic_doc_title {
+        font-size: 22px;
+        color: #a8483d;
+        font-family: granville-light;
+    }
+    .mf_finder_organic_doc_body {
+        font-size: 16px;
+        height: 100%;
+    }
+    .mf_finder_organic_doc_url {
+        font-size: 16px;
+        text-decoration: underline;
+        color: #404144;
+        &::before {
+            content: none;
+        }
+    }
+}
+
+.mf_finder_organic_pager_wrapper .mf_finder_pager_items li a {
+    background-color: #a8483d;
+    border-radius: unset;
+}
+
+.mf_finder_logo {
+    display: none;
+}
+
+.mykireiMarsSearchResults .g-Hr {
+    opacity: 0.2;
+    padding-bottom: 35px;
+}
+
+.mykieri-search-products .g-HeadingTitle__h3 {
+    margin-bottom: 20px;
+    padding-top: 5.2%;
+}
+
+.mykirei-search-section1 .g-Section__inner {
+    padding: 80px 0 0;
+}
+
+.mykireiMarsSearchResultsSection .mf_finder_searchBox_items {
+    padding-bottom: 8px;
+}
+
+.mykireiMarsSearchResults {
+    .mf_finder_msk {
+        margin: 4px 0 6px 18.7%;
+    }
+    .mf_finder_msk_item {
+        border-bottom: solid 1px #401444;
+        line-height: 1.25;
+    }
+}
+
+.no-results {
+    .g-Column__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .g-Column__cols {
+        width: 100%;
+    }
+}
+
+.mykireiMarsSearchResults .mf_finder_msk .mf_finder_msk_item a {
+    text-decoration: none;
+}
+
+@media (min-width: 1025px) {
+    .mf_finder_organic_doc_contents .mf_finder_organic_doc_body {
+        line-height: 1.5;
+    }
+    .mykireiMarsSearchResultsSection .mf_finder_searchBox_query_input {
+        letter-spacing: 1.2px;
+    }
+    .mykirei-search-section1 {
+        .l-PageTitle__h1 {
+            line-height: normal;
+            letter-spacing: 0.5px;
+        }
+        .no-results .mykireiMarsSearchResults .l-HeadingTitle__h3 {
+            line-height: normal;
+        }
+        .js-uniformHeight {
+            .mf_finder_organic_header_wrapper {
+                line-height: 1.25;
+            }
+            .mf_finder_organic_doc_title {
+                line-height: normal;
+                font-size: 26px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .mykireiMarsSearchResults .mf_finder_organic_header_wrapper {
+        line-height: 1.25;
+    }
+    .no-results .mykieri-search-products .l-HeadingTitle__h3 {
+        line-height: 2.18;
+    }
+    .mykirei-search-section1 .js-uniformHeight .mf_finder_organic_doc_title {
+        font-size: 22px;
+        line-height: normal;
+    }
+    .mf_finder_organic_doc_contents .mf_finder_organic_doc_body {
+        line-height: 1.5;
+    }
+    .mykirei-search-section1 .l-PageTitle__h1 {
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .no-results .l-HeadingTitle__h3 {
+        font-size: 22px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .mykireiMarsSearchResults {
+        .g-Hr {
+            padding-bottom: 15px;
+        }
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin-bottom: 2px;
+        }
+    }
+    .mykieri-search-products .g-HeadingTitle__h3 {
+        padding-top: 7.2%;
+        margin-bottom: 0;
+    }
+    .mykirei-search-section1 {
+        .g-Section__inner {
+            padding: 70px 0 60px;
+        }
+        .g-PageTitle__h1 {
+            width: 93.8%;
+            margin: auto;
+        }
+    }
+    .mykireiMarsSearchResultsSection .mf_finder_searchBox {
+        width: 64.8%;
+        margin: auto;
+    }
+    .mykireiMarsSearchResults {
+        width: 93.8%;
+        margin: auto;
+        .mf_finder_organic_header_wrapper {
+            width: 64.8%;
+            margin-bottom: 0;
+            margin-left: 15.4%;
+        }
+    }
+    .mykirei-search-section1 .g-PageTitle {
+        margin-bottom: 3px;
+    }
+}
+
+@media (max-width: 640px) {
+    .mykirei-search-section1 .mf_finder_organic_doc_url_wrapper,
+    .mf_finder_organic_wrapper.mf_available_resultframe .mf_finder_organic_doc_zoom {
+        display: none;
+        display: block !important;
+        word-break: break-all;
+    }
+    .mykireiMarsSearchResults .mf_finder_organic_header_wrapper {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .mf_finder_organic_doc_contents .mf_finder_organic_doc_title {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .mykirei-search-section1 .js-uniformHeight {
+        .mf_finder_organic_doc_title {
+            line-height: 1.3;
+            font-size: 20px;
+        }
+        .mf_finder_organic_doc_body {
+            line-height: 1.57;
+            font-size: 14px;
+        }
+    }
+    .mf_finder_organic_doc_contents .mf_finder_organic_doc_url {
+        font-size: 14px;
+    }
+    .mykirei-search-section1 {
+        .no-results .mykirei-home-section2-tilepack .g-TileLinkVUnit__leadBlock__title .cerapro-regular-s {
+            line-height: 1.22;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+        .l-PageTitle__h1 {
+            line-height: normal;
+            letter-spacing: normal;
+        }
+        .mykirei-home-section2-tilepack .g-TileLinkVUnit__leadBlock__title .cerapro-regular-s {
+            line-height: 1.57;
+        }
+    }
+    .mykireiMarsSearchResultsSection .mf_finder_searchBox_submit span {
+        display: inline-block;
+        margin-right: 0.75em;
+    }
+    .mykirei-search-section1 {
+        .g-Section__inner {
+            padding: 28px 0 0;
+        }
+        .g-PageTitle,
+        .g-PageTitle__titleBlock__titleBox__title {
+            margin-bottom: 0;
+        }
+    }
+    .mykireiMarsSearchResultsSection .mf_finder_searchBox {
+        width: 86.1%;
+    }
+    .mykireiMarsSearchResults {
+        width: 86.1%;
+        .g-Hr {
+            padding-bottom: 20px;
+        }
+    }
+    .mykireiMarsSearchResultsSection .mf_finder_searchBox_query_input {
+        font-size: 16px;
+    }
+    .mykireiMarsSearchResults .g-Text {
+        line-height: 1.57;
+    }
+    .mykieri-search-products {
+        margin-bottom: 0;
+        .g-HeadingTitle__h3 {
+            padding-top: 16.2%;
+        }
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin-bottom: 0;
+        }
+    }
+    .mykireiMarsSearchResults {
+        .mf_finder_msk {
+            width: 86.1%;
+            margin: auto;
+            text-align: center;
+        }
+        .mf_finder_organic_header_wrapper {
+            width: 86.1%;
+            margin: auto;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+    .mykirei-search-results-tilepack .g-TileLinkVP__list__tile:not(:last-child) {
+        margin-bottom: 22px;
+    }
+}

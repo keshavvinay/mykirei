@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+.l-AccordionUnit{
+  
+  $size_vlues: xs, s, m, l, xl;
+  @function get-radius-value($size) {
+    @if $size == xs {
+      @return $borderRadius_xs;
+    }
+    @if $size == s {
+      @return $borderRadius_s;
+    }
+    @if $size == m {
+      @return $borderRadius_m;
+    }
+    @if $size == l {
+      @return $borderRadius_l;
+    }
+    @if $size == xl {
+      @return $borderRadius_xl;
+    }
+  }
+
+  &.is-radius--open{
+    @each $value in $size_vlues {
+      &.opt-borderradius--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-radius(get-radius-value($value));
+          @include border-bottom-right-radius(0);
+          @include border-bottom-left-radius(0);
+        }
+        .l-AccordionUnit__contentBlock{
+          @include border-radius(get-radius-value($value));
+          @include border-top-left-radius(0);
+          @include border-top-right-radius(0);
+        }
+      }
+
+      &.opt-borderradius--tl--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-top-left-radius(get-radius-value($value));
+        }
+        .l-AccordionUnit__contentBlock{
+          @include border-top-left-radius(get-radius-value($value));
+          @include border-top-left-radius(0);
+          @include border-top-right-radius(0);
+        }
+      }
+
+      &.opt-borderradius--tr--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-top-right-radius(get-radius-value($value));
+        }
+        .l-AccordionUnit__contentBlock{
+          @include border-top-right-radius(get-radius-value($value));
+          @include border-top-left-radius(0);
+          @include border-top-right-radius(0);
+        }
+      }
+
+      &.opt-borderradius--br--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-bottom-right-radius(get-radius-value($value));
+          @include border-bottom-right-radius(0);
+          @include border-bottom-left-radius(0);
+        }
+        .l-AccordionUnit__contentBlock{
+          @include border-bottom-right-radius(get-radius-value($value));
+          @include border-top-left-radius(0);
+          @include border-top-right-radius(0);
+        }
+      }
+
+      &.opt-borderradius--bl--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-bottom-left-radius(get-radius-value($value));
+          @include border-bottom-right-radius(0);
+          @include border-bottom-left-radius(0);
+        }
+        .l-AccordionUnit__contentBlock{
+          @include border-bottom-left-radius(get-radius-value($value));
+          @include border-top-left-radius(0);
+          @include border-top-right-radius(0);
+        }
+      }
+
+    }
+  }//open
+ 
+  &.is-radius--close{
+    @each $value in $size_vlues {
+      &.opt-borderradius--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-radius(get-radius-value($value));
+        }
+        .l-AccordionUnit__contentBlock{}
+      }
+      &.opt-borderradius--tl--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-top-left-radius(get-radius-value($value));
+        }
+        .l-AccordionUnit__contentBlock{}
+      }
+      &.opt-borderradius--tr--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-top-right-radius(get-radius-value($value));
+        }
+        .l-AccordionUnit__contentBlock{}
+      }
+      &.opt-borderradius--br--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-bottom-right-radius(get-radius-value($value));
+        }
+        .l-AccordionUnit__contentBlock{}
+      }
+      &.opt-borderradius--bl--#{$value} {
+        .l-AccordionUnit__titleBlock{
+          @include border-bottom-left-radius(get-radius-value($value));
+        }
+        .l-AccordionUnit__contentBlock{}
+      }
+    }
+
+  }//close
+}//g-AccordionUnit
+
+
+.l-AccordionUnit__titleBlock {
+  border-color: $accordion__title__border;
+  background-color: $accordion__title__bg;
+  @include fontSize(lv3);
+  .l-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h2, .l-HeadingTitle__h3, .l-HeadingTitle__h4, .l-HeadingTitle__h5, .l-HeadingTitle__h6, .l-HeadingTitle__p {
+      color: $accordion__title__text;
+    }
+  }
+  
+  &.is-borderWidth--s {
+    border-width: $borderWidthBox_s;
+  }
+  &.is-borderWidth--m {
+    border-width: $borderWidthBox_m;
+  }
+  &.is-borderWidth--l {
+    border-width: $borderWidthBox_l;
+  }
+  
+  &.is-borderColor--none {
+    border-color: transparent;
+  }
+  &.is-borderColor--1 {
+    border-color: $option__border--01;
+  }
+  &.is-borderColor--2 {
+    border-color: $option__border--02;
+  }
+  &.is-borderColor--3 {
+    border-color: $option__border--03;
+  }
+  &.is-borderColor--4 {
+    border-color: $option__border--04;
+  }
+  &.is-borderColor--5 {
+    border-color: $option__border--05;
+  }
+  &.is-borderColor--6 {
+    border-color: $option__border--06;
+  }
+  &.is-borderColor--7 {
+    border-color: $option__border--07;
+  }
+
+  &.is-backgroundColor--none {
+    background-color: transparent;
+  }
+  &.is-backgroundColor--1 {
+    background-color: $option__bg--01;
+  }
+  &.is-backgroundColor--2 {
+    background-color: $option__bg--02;
+  }
+  &.is-backgroundColor--3 {
+    background-color: $option__bg--03;
+  }
+  &.is-backgroundColor--4 {
+    background-color: $option__bg--04;
+  }
+  &.is-backgroundColor--5 {
+    background-color: $option__bg--05;
+  }
+  &.is-backgroundColor--6 {
+    background-color: $option__bg--06;
+  }
+  &.is-backgroundColor--7 {
+    background-color: $option__bg--07;
+  }
+  
+  }
+
+
+
+.l-AccordionUnit__titleBlock__icon {
+  color: $accordion__title__text;
+  @include bp(lg) {
+    font-size: $fontSize_lg_lv4;
+  }
+  @include bp(md) {
+    font-size: $fontSize_md_lv4;
+  }
+  @include bp(sm) {
+    font-size: $fontSize_sm_lv4;
+  }
+}
+
+.l-AccordionUnit__contentBlock {
+  border-color: $accordion__content__border;
+  background-color: $accordion__content__bg;
+  color: $accordion__content__text;
+  
+  &.is-borderWidth--s {
+    border-width: $borderWidthBox_s;
+    border-top: none;
+  }
+  &.is-borderWidth--m {
+    border-width: $borderWidthBox_m;
+    border-top: none;
+  }
+  &.is-borderWidth--l {
+    border-width: $borderWidthBox_l;
+    border-top: none;
+  }
+
+  &.is-borderColor--none {
+    border-color: transparent;
+  }
+  &.is-borderColor--1 {
+    border-color: $option__border--01;
+  }
+  &.is-borderColor--2 {
+    border-color: $option__border--02;
+  }
+  &.is-borderColor--3 {
+    border-color: $option__border--03;
+  }
+  &.is-borderColor--4 {
+    border-color: $option__border--04;
+  }
+  &.is-borderColor--5 {
+    border-color: $option__border--05;
+  }
+  &.is-borderColor--6 {
+    border-color: $option__border--06;
+  }
+  &.is-borderColor--7 {
+    border-color: $option__border--07;
+  }
+  
+  &.is-backgroundColor--none {
+    background-color: transparent;
+  }
+  &.is-backgroundColor--1 {
+    background-color: $option__bg--01;
+  }
+  &.is-backgroundColor--2 {
+    background-color: $option__bg--02;
+  }
+  &.is-backgroundColor--3 {
+    background-color: $option__bg--03;
+  }
+  &.is-backgroundColor--4 {
+    background-color: $option__bg--04;
+  }
+  &.is-backgroundColor--5 {
+    background-color: $option__bg--05;
+  }
+  &.is-backgroundColor--6 {
+    background-color: $option__bg--06;
+  }
+  &.is-backgroundColor--7 {
+    background-color: $option__bg--07;
+  }
+}
+
+
+.l-AccordionMenu {
+  &.is-borderWidth--s {
+    border-width: $borderWidthBox_s;
+  }
+  &.is-borderWidth--m {
+    border-width: $borderWidthBox_m;
+  }
+  &.is-borderWidth--l {
+    border-width: $borderWidthBox_l;
+  }
+
+  &.is-borderColor--1 {
+    border-color: $option__border--01;
+  }
+  &.is-borderColor--2 {
+    border-color: $option__border--02;
+  }
+  &.is-borderColor--3 {
+    border-color: $option__border--03;
+  }
+  &.is-borderColor--4 {
+    border-color: $option__border--04;
+  }
+  &.is-borderColor--5 {
+    border-color: $option__border--05;
+  }
+  &.is-borderColor--6 {
+    border-color: $option__border--06;
+  }
+  &.is-borderColor--7 {
+    border-color: $option__border--07;
+  }
+  &.is-backgroundColor--1 {
+    background-color: $option__bg--01;
+  }
+  &.is-backgroundColor--2 {
+    background-color: $option__bg--02;
+  }
+  &.is-backgroundColor--3 {
+    background-color: $option__bg--03;
+  }
+  &.is-backgroundColor--4 {
+    background-color: $option__bg--04;
+  }
+  &.is-backgroundColor--5 {
+    background-color: $option__bg--05;
+  }
+  &.is-backgroundColor--6 {
+    background-color: $option__bg--06;
+  }
+  &.is-backgroundColor--7 {
+    background-color: $option__bg--07;
+  }
+  
+}

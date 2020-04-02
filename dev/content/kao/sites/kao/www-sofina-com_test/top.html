@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SOFINA TOP</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs-sofina/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kao/www-sofina-com/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs-sofina/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs-sofina/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs-sofina/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/component/js/component.js"></script>
+  <!-- <script src="/etc/designs/kao/www-sofina-com/component/js/jquery.slides.js"></script> -->
+  <script src="/etc/designs/kao/www-sofina-com/component/js/jquery.transit.min.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/component/js/slider.js"></script>
+  <script src="/etc/designs/kao/www-sofina-com/component/js/top.js"></script>
+  <!-- debug script -->
+
+</head>
+
+<body>
+
+  <div id="menu">
+    <div class="js-menuHolder">
+      <!--
+      【横スライド用メニューホルダー（仮）】
+      どのエリアのメニューが横スライドを実装するかは変動するため、
+      各エリア内のナビゲーション用DOMをメニュー用にクローンし、貼付けるためのエリア。
+      ナビゲーション側ではbpでそれぞれのレイアウトを定義しておき、js側でステータスクラス（is-menu）を付与し表示/非表示の制御を行う。
+    -->
+    </div>
+  </div>
+
+
+  <div id="wrapper">
+
+    <!-- ダミー -->
+    <div class="dummyheader">
+      <img src="dam/dummy-gheader.jpg">
+    </div>
+
+    <!-- area-GlHeader -->
+    <!-- <div class="g-Area" id="area-GlHeader">
+            <div class="g-Area__inner">
+                <div class="g-GlHeader">
+                    Global Header Area
+                </div>
+            </div>
+        </div> -->
+    <!-- / area-GlHeader -->
+
+
+    <!-- contentsWrapper -->
+    <div id="contentsWrapper" class="contentsWrapper">
+      <!-- area-CntHeader -->
+      <!-- <div class="g-Area" id="area-CntHeader">
+                <div class="g-Area__inner">
+                    <div class="CntHeader">
+                        Contents Header Area
+                    </div>
+                </div>
+            </div> -->
+      <!-- / area-CntHeader -->
+
+
+      <!-- area-Contents -->
+      <div class="g-Area" id="area-Contents">
+
+        <!-- セクション（メインビジュアル） -->
+        <div class="g-Section sofina-section_mainvisual js-topMainvisual" id="common_section_wrapper_1">
+          <div class="g-Section__inner">
+            <div class="g-Column" id="common_column_separator_1" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+
+                    <div class="g-Image l-Image">
+
+
+                        <!-- スライダ -->
+                        <div class="cq-dd-image">
+                        <div class="slider">
+
+                          <!-- イメージ -->
+                          <div class="imgholder">
+                            <a href="https://www.google.co.jp/" class="imgitem" myurl="dam/top-mainvisual01.jpg" target="_blank">
+                              <img src="dam/top-mainvisual01.jpg">
+                            </a>
+                            <a href="https://www.google.co.jp/" class="imgitem" myurl="dam/top-mainvisual02.jpg" target="_blank">
+                              <img src="dam/top-mainvisual02.jpg">
+                            </a>
+                            <a href="https://www.google.co.jp/" class="imgitem" myurl="dam/top-mainvisual03.jpg" target="_blank">
+                              <img src="dam/top-mainvisual03.jpg">
+                            </a>
+                            <a href="https://www.google.co.jp/" class="imgitem" myurl="dam/top-mainvisual04.jpg" target="_blank">
+                              <img src="dam/top-mainvisual04.jpg">
+                            </a>
+                            <!-- <a href="https://www.google.co.jp/" class="imgitem" myurl="dam/top-mainvisual05.jpg" target="_blank">
+                              <img src="dam/top-mainvisual05.jpg">
+                            </a> -->
+                          </div>
+                          <!-- /イメージ -->
+
+
+                        </div>
+                        <!-- /slider -->
+
+                      </div>
+                      <!-- /スライダ -->
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /セクション（メインビジュアル） -->
+
+        <!-- セクション（bps） -->
+        <div class="g-Section sofina-section_bps" id="common_section_wrapper_2">
+          <div class="g-Section__inner">
+            <div class="g-Column" id="common_column_separator_2" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+
+                    <div class="g-PageTitle l-PageTitle">
+                      <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                        <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                          <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                            <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+                              <img src="dam/top-bps_title.png" style="width:100%;max-width:320px;">
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="g-HeadingTitle l-HeadingTitle">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                              <span class="cmn-richtext">
+                                <span>ソフィーナビューティパワーステーション
+
+                                </span>
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-ImageTextHP l-ImageTextHP is-layoutL">
+                      <div class="g-ImageTextHP__contentsBlock l-ImageTextHP__contentsBlock">
+                        <div class="g-ImageTextHP__contentsBlock__image l-ImageTextHP__contentsBlock__image opt-w50p">
+                          <!-- Dynamic Media client libs -->
+                          <div class="g-Image l-Image">
+                            <div class="cq-dd-image">
+                              <img src="dam/top-bps_img.png" style="width:100%;">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="g-ImageTextHP__contentsBlock__text l-ImageTextHP__contentsBlock__text opt-w50p">
+                          <div class="g-HeadingTitle l-HeadingTitle">
+                            <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                              <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                                <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                                  <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+                                    <span class="cmn-richtext">
+                                      <span>肌を深く、正しく知るための
+                                        <br>特別な空間が銀座にオープン
+
+                                      </span>
+                                    </span>
+                                  </h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>最新の肌解析機器による測定とスキンケアレッスンにより、お客さま一人ひとりの肌に合ったお手入れをご提案します。
+
+                              </span>
+                            </p>
+                          </div>
+                          <div class="g-ImageTextHP__contentsBlock__text__moreinfo l-ImageTextHP__contentsBlock__text__moreinfo">
+
+                            <!-- ボタン -->
+                            <div class="g-LinkButton l-LinkButton is-btn sofina-bps__link_top sofina-LinkButton--btnA">
+
+                              <a href="#" class="g-LinkButton__link l-LinkButton__link">
+                                <span class="cmn-richtext">
+                                  <span>
+                                    トップ
+                                  </span>
+                                </span>
+                              </a>
+
+                            </div>
+                            <!-- /ボタン -->
+
+                            <!-- ボタン -->
+                            <div class="g-LinkButton l-LinkButton is-btn sofina-bps__link_reservation sofina-LinkButton--btnB">
+
+
+                              <a href="#" class="g-LinkButton__link l-LinkButton__link">
+                                <span class="cmn-icon g-LinkButton__link__bullet l-LinkButton__link__bullet"></span>
+                                <span class="cmn-richtext">
+                                  <span>
+                                    ご予約
+                                  </span>
+                                </span>
+                              </a>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /セクション（bps） -->
+
+        <!-- セクション　美容情報 -->
+        <div class="g-Section sofina-section_information" id="common_section_wrapper_3">
+          <div class="g-Section__inner">
+            <div class="g-Column" id="common_column_separator_3" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+
+
+                    <div class="g-HeadingTitle l-HeadingTitle is-layoutL sofina-blocktitle_blue">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>Beauty Information
+
+                              </span>
+                            </p>
+                          </div>
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                              <span class="cmn-richtext">
+                                <span>美容情報
+
+                                </span>
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- 美容情報上段（PC） -->
+                    <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight" data-uniform-target="g-TileLinkHUnit">
+                      <ul class="g-TileLinkHP__list l-TileLinkHP__list opt-only-lg">
+
+                        <!-- お肌の相談室（PC） -->
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+
+                          <a class="g-TileLinkHUnit l-TileLinkHUnit">
+                            <div class="g-TileLinkHUnit_body">
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock">
+                                <!-- Dynamic Media client libs -->
+                                <div class="g-Image l-Image">
+                                  <div class="cq-dd-image">
+                                    <img src="dam/top-information_01_img.png">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">花王ソフィーナお肌の相談室</p>
+                                  </div>
+                                </div>
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">お肌の悩みや美容に関するご質問、商品の選び方・使い方など、ご気軽にお問い合わせください。</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                            <!-- 電話番号 -->
+                            <div class="g-TileLinkHUnit__bottom">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Text l-Text">
+                                <p class="cmn-richtext">0120-165-691
+                                  <span>9:00～17:00 （土・日・祝日を除く）</span>
+                                </p>
+                              </div>
+                            </div>
+                            <!-- /電話番号 -->
+                          </a>
+                        </li>
+                        <!-- /お肌の相談室（PC） -->
+
+                        <!-- 100%活用術（PC） -->
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                          <a class="g-TileLinkHUnit l-TileLinkHUnit sofina-section_information__img2">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w40p">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-information_02_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">ソフィーナコーナー
+                                    <br> 100%活用術
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">お近くのソフィーナカウンターも検索できます。</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- /100%活用術（PC） -->
+
+                      </ul>
+                    </div>
+                    <!-- /美容情報上段（PC） -->
+
+                    <!-- 美容情報上段（TB） -->
+                    <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight" data-uniform-target="g-TileLinkHUnit">
+                      <ul class="g-TileLinkHP__list l-TileLinkHP__list opt-only-md">
+
+
+                        <!-- お肌の相談室（TB） -->
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1 sofina-information__counseling">
+
+                          <div class="g-TileLinkHUnit l-TileLinkHUnit">
+
+                            <div class="g-TileLinkHUnit_body">
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock ">
+                                <!-- Dynamic Media client libs -->
+                                <div class="g-Image l-Image">
+                                  <div class="cq-dd-image">
+                                    <img src="dam/top-information_01_img.png">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">花王ソフィーナお肌の相談室（TB）</p>
+                                  </div>
+                                </div>
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">お肌の悩みや美容に関するご質問、商品の選び方・使い方など、ご気軽にお問い合わせください。</p>
+                                  </div>
+
+                                </div>
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead sofina-information__counseling__tel">
+
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">0120-165-691
+                                      <span>9:00～17:00 （土・日・祝日を除く）</span>
+                                    </p>
+                                  </div>
+
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </li>
+                        <!-- /お肌の相談室（TB） -->
+
+                        <!-- 100%活用術（TB） -->
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                          <a class="g-TileLinkHUnit l-TileLinkHUnit">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-information_02_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">ソフィーナコーナー
+                                    <br> 100%活用術（TB）
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">お近くのソフィーナカウンターも検索できます。</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- /100%活用術（TB） -->
+
+
+                      </ul>
+                    </div>
+                    <!-- /美容情報上段（TB） -->
+
+                    <!-- 美容情報上段（PC） -->
+                    <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight" data-uniform-target="g-TileLinkHUnit">
+                      <ul class="g-TileLinkHP__list l-TileLinkHP__list opt-only-sm">
+
+
+                        <!-- お肌の相談室（SP） -->
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1 sofina-information__counseling">
+
+                          <div class="g-TileLinkHUnit l-TileLinkHUnit">
+
+                            <div class="g-TileLinkHUnit_body">
+
+                              <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock">
+                                <!-- Dynamic Media client libs -->
+                                <div class="g-Image l-Image">
+                                  <div class="cq-dd-image">
+                                    <img src="dam/top-information_01_img.png">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                                <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">花王ソフィーナお肌の相談室（SP）</p>
+                                  </div>
+                                </div>
+                                <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                  <div class="g-Text l-Text">
+                                    <p class="cmn-richtext">お肌の悩みや美容に関するご質問、商品の選び方・使い方など、ご気軽にお問い合わせください。</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <!-- 花王ソフィーナお肌の相談室 -->
+                            <div class="g-LinkButton l-LinkButton is-btn">
+                              <a href="#" class="g-LinkButton__link l-LinkButton__link">
+                                <span class="cmn-icon cmn-icon--bullet"></span>
+                                <span class="cmn-richtext">
+                                  <span>
+                                    花王ソフィーナお肌の相談室
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                            <!-- /花王ソフィーナお肌の相談室 -->
+
+                            <!-- お電話でのお問い合わせ -->
+                            <div class="g-LinkButton l-LinkButton is-btn sofina-information__counseling__telsp">
+                              <a href="#" class="g-LinkButton__link l-LinkButton__link">
+                                <span class="cmn-icon cmn-icon--bullet"></span>
+                                <span class="cmn-richtext">
+                                  <span>
+                                    お電話でのお問い合わせ
+                                  </span>
+                                </span>
+                                <span class="cmn-icon cmn-icon--phonecall"></span>
+
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">0120-165-691
+                                    <span>9:00～17:00 （土・日・祝日を除く）</span>
+                                  </p>
+                                </div>
+
+                              </a>
+
+
+                            </div>
+                            <!-- /お電話でのお問い合わせ -->
+                          </div>
+
+                        </li>
+                        <!-- /お肌の相談室（SP） -->
+
+                        <!-- 100%活用術（SP） -->
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1 sofina-information__howto">
+                          <a class="g-TileLinkHUnit l-TileLinkHUnit">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock opt-w30p">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-information_02_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock opt-w90p">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">ソフィーナコーナー100%活用術（SP）
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">お近くのソフィーナカウンターも検索できます。</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- /100%活用術（SP） -->
+
+
+                      </ul>
+                    </div>
+                    <!-- /美容情報上段（SP） -->
+
+
+                    <!-- 美容情報下段 -->
+                    <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight" data-uniform-target="g-TileLinkVUnit">
+                      <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-information_03_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">新50代のためのキレイ相談室</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-information_04_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">スキンケアアドバイス</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-3 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-1">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-information_05_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">メイクアップレッスン</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- /美容情報下段 -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- セクション　こだわり -->
+        <div class="g-Section sofina-section_quality" id="common_section_wrapper_4">
+          <div class="g-Section__inner">
+            <div class="g-Column" id="common_column_separator_4" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+
+                    <div class="g-HeadingTitle l-HeadingTitle is-layoutL sofina-blocktitle_blue">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>Quality
+
+                              </span>
+                            </p>
+                          </div>
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                              <span class="cmn-richtext">
+                                <span>ソフィーナのこだわり
+
+                                </span>
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="g-TileLinkHP l-TileLinkHP js-uniformHeight" data-uniform-target="g-TileLinkHUnit">
+                      <ul class="g-TileLinkHP__list l-TileLinkHP__list">
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                          <a class="g-TileLinkHUnit l-TileLinkHUnit">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-quality_01_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">ソフィーナの「モノづくり」</p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">ソフィーナの「モノづくり」の基本は、まず肌をよく知ることから始まります。</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="g-TileLinkHP__list__tile l-TileLinkHP__list__tile g-TileLinkHP__list__tile-lg-2 g-TileLinkHP__list__tile-md-1 g-TileLinkHP__list__tile-sm-1">
+                          <a class="g-TileLinkHUnit l-TileLinkHUnit">
+                            <div class="g-TileLinkHUnit__imageBlock l-TileLinkHUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-quality_02_img.png" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkHUnit__leadBlock l-TileLinkHUnit__leadBlock">
+                              <div class="g-TileLinkHUnit__leadBlock__title l-TileLinkHUnit__leadBlock__title">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">お客さまとの対話</p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkHUnit__leadBlock__lead l-TileLinkHUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">ソフィーナが何より大切にしている、お客さま一人ひとりとの対話について。</p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /セクション　こだわり -->
+
+        <!-- セクション　お知らせ -->
+        <div class="g-Section sofina-section_whatsnew" id="common_section_wrapper_5">
+          <div class="g-Section__inner">
+            <div class="g-Column" id="common_column_separator_5" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+
+                    <div class="g-HeadingTitle l-HeadingTitle is-layoutL sofina-blocktitle_blue">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>What's New
+
+                              </span>
+                            </p>
+                          </div>
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                              <span class="cmn-richtext">
+                                <span>おしらせ
+                                  <br />
+
+
+                                </span>
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="text-align:center; color:#dddddd; font-size:0.875rem; line-height:2.875rem; padding-top:5px;">
+
+                      <!-- お知らせ一個 -->
+                      <a class="sofina-whatsnew__line" href="#">
+                        <div class="sofina-whatsnew__line__head opt-w25p">
+                          2015.06.09
+                          <img src="dam/top-whatsnew-logo01.png">
+                        </div>
+                        <div class="sofina-whatsnew__line__body">
+                          「キレイを引き出す具体策」のオーブクチュールから、口紅の新色とアイシャドウの限定色が登場！
+                        </div>
+                      </a>
+                      <!-- /お知らせ一個 -->
+                      <!-- お知らせ一個 -->
+                      <a class="sofina-whatsnew__line" href="#">
+                        <div class="sofina-whatsnew__line__head opt-w25p">
+                          2015.06.09
+                          <img src="dam/top-whatsnew-logo02.png">
+                        </div>
+                        <div class="sofina-whatsnew__line__body">
+                          ソフィーナ　アルブランから、洗顔もできる「新美白マッサージパック」誕生！
+                        </div>
+                      </a>
+                      <!-- /お知らせ一個 -->
+                      <!-- お知らせ一個 -->
+                      <a class="sofina-whatsnew__line" href="#">
+                        <div class="sofina-whatsnew__line__head opt-w25p">
+                          2015.06.09
+                          <img src="dam/top-whatsnew-logo03.png">
+                        </div>
+                        <div class="sofina-whatsnew__line__body">
+                          「朝キレイ、夕方まだキレイ。」プリマヴィスタから「くずれにくい化粧のり実感リキッドファンデーションUV」が新発売！
+                        </div>
+                      </a>
+                      <!-- /お知らせ一個 -->
+
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /セクション　お知らせ -->
+
+        <!-- セクション　ブランド -->
+        <div class="g-Section sofina-section_brands" id="common_section_wrapper_6">
+          <div class="g-Section__inner">
+            <div class="g-Column" id="common_column_separator_6" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="g-HeadingTitle l-HeadingTitle is-layoutL sofina-blocktitle_blue">
+                      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>Brands
+
+                              </span>
+                            </p>
+                          </div>
+                          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                            <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+                              <span class="cmn-richtext">
+                                <span>ブランド情報
+
+                                </span>
+                              </span>
+                            </h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="g-Column" id="common_column_separator_7" data-uniform-target="g-ColumnUnit">
+              <div class="g-Column__inner">
+
+                <div class="g-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+                  <div class="g-ColumnUnit">
+                    <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight" data-uniform-target="g-TileLinkVUnit">
+
+
+                      <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_01_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_02_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_03_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_04_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_05_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_06_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                    <span class="sofina-typepanel">ファンデーション</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_07_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_08_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                    <span class="sofina-typepanel">ファンデーション</span>
+                                    <span class="sofina-typepanel">ファンデーション</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_09_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                    <span class="sofina-typepanel">ファンデーション</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_10_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <!-- ブランドパネル -->
+                        <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-4 g-TileLinkVP__list__tile-md-3 g-TileLinkVP__list__tile-sm-2">
+                          <a class="g-TileLinkVUnit l-TileLinkVUnit">
+                            <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock">
+                              <!-- Dynamic Media client libs -->
+                              <div class="g-Image l-Image">
+                                <div class="cq-dd-image">
+                                  <img src="dam/top-brands_11_img.jpg" style="width:100%;">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                              <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                                <div class="g-Image l-Image">
+                                  <img src="dam/top-brands_01_logo.png" style="width:100%;">
+                                </div>
+                              </div>
+                              <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                                <div class="g-Text l-Text">
+                                  <p class="cmn-richtext">
+                                    <span class="sofina-typepanel">スキンケア</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /セクション　ブランド -->
+
+      </div>
+      <!-- / area-Contents -->
+
+    </div>
+    <!-- / contentsWrapper -->
+
+    <!-- ダミー -->
+    <div class="dummyfooterlink">
+      <span class="cmn-icon cmn-icon--pagetop"></span> ページの先頭へ戻る
+    </div>
+    <div class="dummyfooter">
+      <img src="dam/dummy-gfooter.jpg">
+    </div>
+    <div class="dummyfooter2">
+      <img src="dam/dummy-gfooter2.jpg">
+    </div>
+
+    <!-- area-SbBlFooter -->
+    <!-- <div class="g-Area" id="area-SbBlFooter">
+      <div class="g-Area__inner">
+        <div class="SbBlFooter">
+          Sub Brand Footer Area
+        </div>
+      </div>
+    </div> -->
+    <!-- / area-SbBlFooter -->
+
+    <!-- area-GlFooter -->
+    <!-- <div class="g-Area" id="area-GlFooter">
+      <div class="g-Area__inner">
+        <div class="g-GlFooter">
+          Global Footer Area
+        </div>
+      </div>
+    </div> -->
+    <!-- / area-GlFooter -->
+
+    <!--/wrapper-->
+  </div>
+
+</body>
+
+<!-- ライブリロード -->
+<script src="//localhost:35729/livereload.js"></script>
+
+</html>

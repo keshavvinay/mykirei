@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+
+// debug.css の初期化
+// #area-GlHeader.g-Area {
+//   padding: 0;
+//   background-color: transparent;
+//   color: inherit;
+// }
+
+
+/* Global Header ================================================== */
+.g-GlHeader {
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+.g-GlHeader__inner {
+  position: relative;
+  max-width: 1336px;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+// Common
+.g-GlHeader__logoBlock {}
+
+// (Common Logo)
+.g-GlHeaderLogo {
+  width: 70px;
+  margin: 0 auto;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+// Utility
+.g-GlHeader__utilityBlock {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.g-GlMenu__utilityBlock {
+  padding: 20px 14px;
+}
+
+// (Utility Region)
+.g-GlHeaderUtilityRegion {
+  text-align: right;
+  @include pie-clearfix;
+}
+.g-GlHeaderUtilityRegion__country,
+.g-GlHeaderUtilityRegion__world {
+  display: inline-block;
+  p {
+    margin: 0;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.g-GlMenuUtilityRegion__country,
+.g-GlMenuUtilityRegion__world {
+  p {
+    margin: 10px 0 0;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.g-GlHeaderUtilityRegion__world {
+  position: relative;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.g-GlMenuUtilityRegion__world {
+  position: relative;
+  padding-left: 20px;
+}
+.g-GlHeaderUtilityRegion__world__icon,
+.g-GlMenuUtilityRegion__world__icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 12px;
+  margin-top: -6px;
+  content: url('/content/dam/sites/kao/www-kao-com/inc-common/kr/ko/gl_header_utility_region_world.png');
+}
+
+// (Utility Search)
+.g-GlHeaderUtilitySearch,
+.g-GlMenuUtilitySearch {
+  position: relative;
+  input[type=text] {
+    width: 186px;
+    height: 32px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+  }
+  button[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 32px;
+    overflow: hidden;
+    padding: 32px 0 0;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    .kao-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -10px;
+      margin-left: -10px;
+    }
+  }
+}
+.g-GlHeaderUtilitySearch {
+  margin-top: 10px;
+  input[type=text] {
+    width: 140px;
+    margin-right: 40px;
+  }
+}
+
+
+// Navigation
+@include bp(sm) {
+  .g-GlHeader__utilityBlock,
+  .g-GlHeader__navBlock {
+    display: none;
+  }
+  .g-GlHeader__buttonBlock {
+    .is-open & {
+      display: none;
+    }
+  }
+}
+@include bp(md) {
+  .g-GlHeader__utilityBlock,
+  .g-GlHeader__navBlock {
+    display: none;
+  }
+  .g-GlHeader__buttonBlock {
+    .is-open & {
+      display: none;
+    }
+  }
+}
+@include bp(lg) {
+  .g-GlHeader__buttonBlock {
+    display: none;
+  }
+}
+#menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 320px;
+  bottom: 0;
+  width: 0;
+  background-position: 144px 144px;
+  z-index: 1;
+  &.is-open {
+    display: block;
+    right: 0;
+    width: auto;
+  }
+  &.is-close {
+    display: none;
+  }
+}
+#wrapper {
+  &.is-open {
+    position: fixed;
+    width: 100%;
+    left: -276px;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+  }
+}
+.g-GlMenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 44px;
+  width: 274px;
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  z-index: 2;
+}
+
+// (Navigation Button)
+.g-GlHeader__buttonBlock,
+.g-GlMenu__buttonBlock {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.g-GlHeaderButtonLink--os,
+.g-GlMenuButtonLink--os {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  z-index: 4;
+  a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding-top: 44px;
+    overflow: hidden;
+    box-sizing: border-box;
+    .kao-icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -10px;
+      margin-left: -10px;
+    }
+  }
+}
+.g-GlHeaderButtonLink--os {
+  top: 5px;
+  right: 0;
+}
+.g-GlMenuButtonLink--os {
+  top: 5px;
+  right: 276px;
+  .is-open & {
+    position: fixed;
+  }
+}
+
+// (Navigation List)
+.g-GlHeaderNavList,
+.g-GlMenuNavList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    display: block;
+    padding: 15px;
+    border-style: solid;
+    border-width: 0 0 1px;
+    a {
+      display: block;
+      margin: -15px;
+      padding: 15px;
+      text-decoration: none;
+    }
+  }
+}
+.g-GlHeaderNavList {
+  margin-top: 15px;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding: 0 10px;
+    border: none;
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

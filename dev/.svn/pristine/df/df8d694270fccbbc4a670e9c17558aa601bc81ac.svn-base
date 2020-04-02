@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="ja-jp" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Brand Header & Footer Master</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Copyright © Kao Corporation. All rights reserved." />
+  <meta name="description" content="" />
+  <meta property="og:title" content="Brand Header & Footer Master" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/inc-common/brand-header-footer-master.html"
+  />
+  <meta property="og:site_name" content="" />
+  <meta property="og:country-name" content="jp" />
+  <meta property="og:image" content="/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png" />
+  <link rel="canonical" href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/inc-common/brand-header-footer-master.html"
+  />
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/docs/docs-aem-kao-com/sites-manual/img/favicon.ico"
+  />
+  <link rel="apple-touch-icon" href="/etc/designs/docs/docs-aem-kao-com/sites-manual/img/apple-touch-icon.png" />
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/docs/docs-aem-kao-com/sites-manual/basic/css/basic.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/docs/docs-aem-kao-com/sites-manual/component/css/component.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/docs/docs-aem-kao-com/sites-manual/component/css/custom.css" type="text/css">
+  <link rel="stylesheet" href="/etc/designs/docs/docs-aem-kao-com/sites-manual/option/css/option.css" type="text/css">
+  <!-- / css -->
+
+  <!--script-->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <script type="text/javascript" src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!--/script-->
+
+
+
+  <!--<script type="text/javascript" src="//ec2-52-192-94-144.ap-northeast-1.compute.amazonaws.com/accessor/script/fontplus.js?EIr0inqzQsY%3D&pm=1&aa=1"></script>-->
+  <script type="text/javascript" src="http://docs.aem.kao.com/etc/clientlibs/libs_kao/common/page-component.js"></script>
+</head>
+
+
+<body>
+
+  <!-- area-BrHeader -->
+  <div class="g-Area" id="area-BrHeader">
+    <!--Mars Finder-->
+    <div class="l-BrHeaderSearch lg">
+      <div class="l-BrHeaderSearch__inner lg">
+        <form action="http://s.marsfinder.jp/kao__kao_aem_jp__kao_aem_jp/search.x" class="l-BrHeaderSearch__form">
+          <div class="l-BrHeaderSearch__input"><input type="text" name="q" id="MF_form_phrase" autocomplete="off" /></div>
+          <div class="l-BrHeaderSearch__submit"><input type="submit" value="SEARCH" /></div>
+          <span class="cmn-icon--search cmn-icon l-BrHeaderSearch__icon"></span>
+          <input type="hidden" name="ie" value="utf8" />
+        </form>
+      </div>
+    </div>
+    <!--/Mars Finder-->
+    <div class="g-BrHeaderPlaceholder l-BrHeaderPlaceholder">
+      <div class="g-BrHeader l-BrHeader" data-fixed-lg="false" data-fixed-md="false" data-fixed-sm="false">
+        <div class="g-BrHeaderCommon l-BrHeaderCommon">
+          <div class="g-BrHeaderCommon__logoBlock l-BrHeaderCommon__logoBlock is-lg-center is-lg-middle">
+            <div class="g-BrHeaderLogo l-BrHeaderLogo opt-lg-w100p opt-md-w100p opt-sm-w100p">
+              <a class="g-Image l-Image is-link s7responsiveContainer" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/index.html"
+                target="_self" id="common_image_item_20160401223434094_t0FU">
+                <p class="g-Image__img l-Image__img">
+                  <img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/common/kao_logo_header.png?fmt=png-alpha&wid=320"
+                    class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                </a>
+            </div>
+          </div>
+          <div class="g-BrHeaderCommon__navBlock l-BrHeaderCommon__navBlock">
+            <div class="g-BrHeaderNav__buttonBlock l-BrHeaderNav__buttonBlock">
+              <a href="#">MENU<span class="cmn-icon cmn-icon--down g-BrHeaderNavButton__icon l-BrHeaderNavButton__icon"></span></a>
+            </div>
+            <div class="g-BrHeaderNav__listBlock l-BrHeaderNav__listBlock">
+              <ul class="g-BrHeaderNavList l-BrHeaderNavList js-uniformHeight" data-uniform-target="g-BrHeaderNavListLink">
+                <!--Mars Finder-->
+                <div class="l-BrHeaderSearch sm">
+                  <div class="l-BrHeaderSearch__inner sm">
+                    <form action="http://s.marsfinder.jp/kao__kao_aem_jp__kao_aem_jp/search.x" class="l-BrHeaderSearch__form">
+                      <div class="l-BrHeaderSearch__input"><input type="text" name="q" id="MF_form_phrase" autocomplete="off" /></div>
+                      <div class="l-BrHeaderSearch__submit"><input type="submit" value="SEARCH" /></div>
+                      <span class="cmn-icon--search cmn-icon l-BrHeaderSearch__icon"></span>
+                      <input type="hidden" name="ie" value="utf8" />
+                    </form>
+                  </div>
+                </div>
+                <!--/Mars Finder-->
+                <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/about_aem.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">AEM Sitesについて<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/flow.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">制作フロー<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/setup.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">基本設定<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/templates.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Page Templates<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1"><a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Components<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span></a></li>
+                <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1">
+                  <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Design Foundation<span class="cmn-icon--bullet cmn-icon g-BrHeaderNavList__item__icon l-BrHeaderNavList__item__icon"></span></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / area-BrHeader -->
+
+
+  <!-- area-SocialFunction -->
+
+  <div class="g-Area" id="SocialFunction">
+    <div class="g-SocialFunction l-SocialFunction">
+      <div class="g-SocialFunction__inner l-SocialFunction__inner">
+        <div class="g-SocialSharing l-SocialSharing opt-al_r">
+          <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+            <span>[AddThisボタン挿入箇所]</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /area-SocialFunction -->
+
+<!-- area-Contents -->
+<div class="g-Area" id="area-Contents">
+  <div class="g-Section l-Section" id="common_section_wrapper_1">
+    <div class="g-Section__inner l-Section__inner">
+      <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_1"
+        data-uniform-target="g-ColumnUnit">
+        <div class="g-Column__inner l-Column__inner">
+
+          <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+            <div class="g-ColumnUnit l-ColumnUnit">
+              <div class="g-PageTitle l-PageTitle is-subTitleTop is-layoutL">
+                <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+                  <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+                    <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+                      <h1 class="g-PageTitle__h1 l-PageTitle__h1"><span class="cmn-richtext">
+      <span>花王 AEM Sites マニュアルWebサイト
+</span></span>
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="g-Text l-Text">
+                <p class="cmn-richtext">
+                  <span>AEM Sites の基本的な使いかたからWebサイト制作フロー、AEM Sitesで用意しているテンプレート類の活用方法まで、 AEM Sitesを利用するためのサポート情報を掲載しています。サイト制作の具体的な手順や操作方法の理解、不明点の解消などに活用してください。<br />
+
+</span></p>
+              </div>
+              <div class="g-HeadingTitle l-HeadingTitle opt-mt30 g-HeadingTitle--h4 l-HeadingTitle--h4">
+                <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                    <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                      <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4"><span class="cmn-richtext">
+      <span>Webサイトの制作を始める前にこちらを確認ください。
+</span></span>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="g-TextLinkP l-TextLinkP">
+                <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+                  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+                    <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m is-leftIcon">
+                      <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/notes.html" target="_self" id="common_text_link_unit_20160929221628070_wWnR"
+                        class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>AEM Sitesを利用する際の注意事項
+</span></span><span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+                        </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--Mars Finder-->
+    <div class="l-Search-TopPage">
+      <div class="l-Search-TopPage__inner">
+        <form action="http://s.marsfinder.jp/kao__kao_aem_jp__kao_aem_jp/search.x" class="l-Search-TopPage__form">
+          <div class="l-Search-TopPage__input"><input type="text" name="q" id="MF_form_phrase" autocomplete="off"/></div>
+          <div class="l-Search-TopPage__submit"><input type="submit" value="SEARCH"/></div>
+          <span class="cmn-icon--search cmn-icon l-Search-TopPage__icon"></span>
+          <input type="hidden" name="ie" value="utf8" />
+        </form>
+      </div>
+    </div>
+    <!--/Mars Finder-->
+
+    <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_2"
+      data-uniform-target="g-ColumnUnit">
+      <div class="g-Column__inner l-Column__inner">
+
+        <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+          <div class="g-ColumnUnit l-ColumnUnit">
+            <div class="g-TileLinkVP l-TileLinkVP js-uniformHeight is-gutter--none" data-uniform-target="g-TileLinkVUnit__leadBlock,g-TileLinkVUnit">
+              <ul class="g-TileLinkVP__list l-TileLinkVP__list">
+                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-2 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                  <a class="g-TileLinkVUnit l-TileLinkVUnit is-colorset--2 is-layoutT" id="common_tile_link_unit_20160323154714359_pDK9" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components.html"
+                    target="_self">
+                    <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                      <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_components.png?fmt=png-alpha"
+                              class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span><span class="opt-fontcolor--11"><span class="opt-fontsize--l">Components</span></span><br
+                              />
+
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>AEM Sitesに用意されているさまざまなパーツ類（Components）の使い方や種類、各種設定方法などを掲載しています。<br />
+
+</span></p>
+                          </div>
+                        </div>
+                        <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-2 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                  <a class="g-TileLinkVUnit l-TileLinkVUnit is-colorset--2 is-layoutT" id="common_tile_link_unit_20160323154719663_kcWP" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/templates.html"
+                    target="_self">
+                    <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                      <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_template.png?fmt=png-alpha"
+                              class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span><span class="opt-fontcolor--08"><span class="opt-fontsize--l">Page Templates</span></span>
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>AEM Sitesに用意されているページのひな形（Page Templates）の種類や構成内容、ページプロパティの設定方法などについて紹介しています。<br />
+
+</span></p>
+                          </div>
+                        </div>
+                        <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-2 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                  <a class="g-TileLinkVUnit l-TileLinkVUnit is-colorset--2 is-layoutT" id="common_tile_link_unit_20160422204932041_NASa" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation.html"
+                    target="_self">
+                    <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                      <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_designfoundation.png?fmt=png-alpha"
+                              class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span><span class="opt-fontcolor--07"><span class="opt-fontsize--l">Design Foundation</span></span><br
+                              />
+
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>AEM Sitesで提供するデザインの基盤（配色やフォント、文字サイズ、アイコン、余白など）とその設定内容について掲載しています。<br />
+
+</span></p>
+                          </div>
+                        </div>
+                        <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-2 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                  <a class="g-TileLinkVUnit l-TileLinkVUnit is-colorset--2 is-layoutT" id="common_tile_link_unit_20160422204943418_gvCI" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/setup.html"
+                    target="_self">
+                    <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                      <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_setup.png?fmt=png-alpha"
+                              class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span><span class="opt-fontcolor--12"><span class="opt-fontsize--l">基本設定</span></span><br />
+
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>Webサイト制作を行う際、まず最初に行う基本設定の流れと、Page Templatesの詰め合わせ（Starter Kit）の使い方について掲載しています。<br />
+
+</span></p>
+                          </div>
+                        </div>
+                        <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-2 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                  <a class="g-TileLinkVUnit l-TileLinkVUnit is-colorset--2 is-layoutT" id="common_tile_link_unit_20160422204958849_WJTG" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/flow.html"
+                    target="_self">
+                    <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                      <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_flow.png?fmt=png-alpha"
+                              class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span><span class="opt-fontcolor--06"><span class="opt-fontsize--l">制作フロー</span></span><br
+                              />
+
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>Webサイトの制作手順や公開申請フローなど、AEM Sitesの新規利用から公開までに必要な情報を掲載しています。<br />
+
+</span></p>
+                          </div>
+                        </div>
+                        <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkVP__list__tile l-TileLinkVP__list__tile g-TileLinkVP__list__tile-lg-2 g-TileLinkVP__list__tile-md-2 g-TileLinkVP__list__tile-sm-1">
+                  <a class="g-TileLinkVUnit l-TileLinkVUnit is-colorset--2 is-layoutT" id="common_tile_link_unit_20160422205010945_qUWu" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/about_aem.html"
+                    target="_self">
+                    <div class="g-TileLinkVUnit__inner l-TileLinkVUnit__inner">
+                      <div class="g-TileLinkVUnit__imageBlock l-TileLinkVUnit__imageBlock opt-lg-w100p opt-md-w100p opt-sm-w100p">
+                        <div class="g-Image l-Image s7responsiveContainer" style="position : relative;">
+                          <p class="g-Image__img l-Image__img">
+                            <img src="//kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_about.png?fmt=png-alpha"
+                              class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                        </div>
+                      </div>
+                      <div class="g-TileLinkVUnit__leadBlock l-TileLinkVUnit__leadBlock">
+                        <div class="g-TileLinkVUnit__leadBlock__title l-TileLinkVUnit__leadBlock__title">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span><span class="opt-fontcolor--10"><span class="opt-fontsize--l">AEM Sitesについて</span></span><br
+                              />
+
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-TileLinkVUnit__leadBlock__lead l-TileLinkVUnit__leadBlock__lead">
+                          <div class="g-Text l-Text">
+                            <p class="cmn-richtext">
+                              <span>AEM Sitesの導入目的から基本操作まで、 AEM Sitesを利用するために必要な基本情報を掲載しています。<br />
+
+</span></p>
+                          </div>
+                        </div>
+                        <span class="cmn-icon cmn-icon--bullet g-TileLinkVUnit__icon l-TileLinkVUnit__icon"></span>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="g-Section l-Section" id="common_section_wrapper_2">
+  <div class="g-Section__inner l-Section__inner">
+    <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_3"
+      data-uniform-target="g-ColumnUnit">
+      <div class="g-Column__inner l-Column__inner">
+
+        <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+          <div class="g-ColumnUnit l-ColumnUnit">
+            <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2">
+              <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                  <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+      <span>サポートメニュー
+</span></span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="g-Text l-Text">
+              <p class="cmn-richtext">
+                <span>AEM Sitesの操作やWebサイト制作に関するサポート情報は以下に掲載しています。各ページのフッターエリアにもリンクが配置されていますので必要に応じて利用してください。
+</span></p>
+            </div>
+            <div class="g-TileLinkTextP l-TileLinkTextP js-uniformHeight" data-uniform-target="g-TileLinkTextUnit__leadBlock,g-TileLinkTextUnit">
+              <ul class="g-TileLinkTextP__list l-TileLinkTextP__list">
+                <li class="g-TileLinkTextP__list__tile l-TileLinkTextP__list__tile g-TileLinkTextP__list__tile-lg-4 g-TileLinkTextP__list__tile-md-2 g-TileLinkTextP__list__tile-sm-1">
+                  <a class="g-TileLinkTextUnit l-TileLinkTextUnit is-colorset--1" id="common_tile_link_unit_20160323154901459_Ucys" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/manual_index.html"
+                    target="_self">
+                    <div class="g-TileLinkTextUnit__leadBlock l-TileLinkTextUnit__leadBlock">
+                      <div class="g-TileLinkTextUnit__leadBlock__title l-TileLinkTextUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>マニュアルWebサイトについて<br />
+
+</span></p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkTextUnit__icon l-TileLinkTextUnit__icon"></span>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkTextP__list__tile l-TileLinkTextP__list__tile g-TileLinkTextP__list__tile-lg-4 g-TileLinkTextP__list__tile-md-2 g-TileLinkTextP__list__tile-sm-1">
+                  <a class="g-TileLinkTextUnit l-TileLinkTextUnit is-colorset--1" id="common_tile_link_unit_20161014195339489_8Y3k" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/notes.html"
+                    target="_self">
+                    <div class="g-TileLinkTextUnit__leadBlock l-TileLinkTextUnit__leadBlock">
+                      <div class="g-TileLinkTextUnit__leadBlock__title l-TileLinkTextUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>AEM Sitesを利用する際の注意事項
+</span></p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkTextUnit__icon l-TileLinkTextUnit__icon"></span>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkTextP__list__tile l-TileLinkTextP__list__tile g-TileLinkTextP__list__tile-lg-4 g-TileLinkTextP__list__tile-md-2 g-TileLinkTextP__list__tile-sm-1">
+                  <a class="g-TileLinkTextUnit l-TileLinkTextUnit is-colorset--1" id="common_tile_link_unit_20160323154940219_yVcq" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/support_movie.html"
+                    target="_self">
+                    <div class="g-TileLinkTextUnit__leadBlock l-TileLinkTextUnit__leadBlock">
+                      <div class="g-TileLinkTextUnit__leadBlock__title l-TileLinkTextUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>動画でみるAEM Sites<br />
+
+</span></p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkTextUnit__icon l-TileLinkTextUnit__icon"></span>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkTextP__list__tile l-TileLinkTextP__list__tile g-TileLinkTextP__list__tile-lg-4 g-TileLinkTextP__list__tile-md-2 g-TileLinkTextP__list__tile-sm-1">
+                  <a class="g-TileLinkTextUnit l-TileLinkTextUnit is-colorset--1" id="common_tile_link_unit_20160323154945137_PWJB" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/glossary.html"
+                    target="_self">
+                    <div class="g-TileLinkTextUnit__leadBlock l-TileLinkTextUnit__leadBlock">
+                      <div class="g-TileLinkTextUnit__leadBlock__title l-TileLinkTextUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>用語集<br />
+
+</span></p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkTextUnit__icon l-TileLinkTextUnit__icon"></span>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkTextP__list__tile l-TileLinkTextP__list__tile g-TileLinkTextP__list__tile-lg-4 g-TileLinkTextP__list__tile-md-2 g-TileLinkTextP__list__tile-sm-1">
+                  <a class="g-TileLinkTextUnit l-TileLinkTextUnit is-colorset--1" id="common_tile_link_unit_20160323154950020_ULP6" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/faq.html"
+                    target="_self">
+                    <div class="g-TileLinkTextUnit__leadBlock l-TileLinkTextUnit__leadBlock">
+                      <div class="g-TileLinkTextUnit__leadBlock__title l-TileLinkTextUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>よくあるご質問<br />
+
+</span></p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkTextUnit__icon l-TileLinkTextUnit__icon"></span>
+                    </div>
+                    </a>
+                </li>
+                <li class="g-TileLinkTextP__list__tile l-TileLinkTextP__list__tile g-TileLinkTextP__list__tile-lg-4 g-TileLinkTextP__list__tile-md-2 g-TileLinkTextP__list__tile-sm-1">
+                  <a class="g-TileLinkTextUnit l-TileLinkTextUnit is-colorset--1" id="common_tile_link_unit_20160622195447762_1mgN" href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/inquiries.html"
+                    target="_self">
+                    <div class="g-TileLinkTextUnit__leadBlock l-TileLinkTextUnit__leadBlock">
+                      <div class="g-TileLinkTextUnit__leadBlock__title l-TileLinkTextUnit__leadBlock__title">
+                        <div class="g-Text l-Text">
+                          <p class="cmn-richtext">
+                            <span>お問い合わせ<br />
+
+</span></p>
+                        </div>
+                      </div>
+                      <span class="cmn-icon cmn-icon--bullet g-TileLinkTextUnit__icon l-TileLinkTextUnit__icon"></span>
+                    </div>
+                    </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="g-Section l-Section" id="common_section_wrapper_3">
+  <div class="g-Section__inner l-Section__inner">
+    <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" id="common_column_separator_4"
+      data-uniform-target="g-ColumnUnit">
+      <div class="g-Column__inner l-Column__inner">
+
+        <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+          <div class="g-ColumnUnit l-ColumnUnit">
+            <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2">
+              <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+                <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+                  <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+                    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+      <span>更新情報
+</span></span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="opt-al_r g-TextLinkP l-TextLinkP">
+              <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+                <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+                  <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m is-leftIcon">
+                    <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/update.html" target="_self" id="common_text_link_unit_20160418225813549_DJgV"
+                      class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>更新情報一覧はこちら<br />
+
+</span></span><span class="cmn-icon cmn-icon--bullet g-TextLinkUnit__link__icon l-TextLinkUnit__link__icon"></span>
+                      </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="g-Text l-Text">
+              <p class="cmn-richtext">
+                <span>2017/02/03　<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview/define_font.html">フォントの定義</a> のページに <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview/define_font.html#define_font_06">行間の設定</a>を追加しました。また、左記追加に伴い <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview/define_font.html#define_font_03">font-sizeの定義</a> に関する内容を一部変更しました。<br />
+2017/02/03　<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/components_class.html#components_class_h2_03">特定のComponentsで使用可能なCSS Class</a> を追加しました。また、左記追加に伴い <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/components_class.html">Componentsで使用可能なCSS Class</a> に関する内容を一部変更しました。<br />
+2017/02/03　<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/templates/page_property/page_property_setting/basic_tab.html">BASICタブの設定方法</a> のページに <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/templates/page_property/page_property_setting/basic_tab.html#property_basic_01">ページタイトルのルール</a> を追加しました。また、左記追加に伴い <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/about_aem/basic_operation/create_page.html">ページの作成</a> ページに記載した <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/about_aem/basic_operation/create_page.html#create_page_p_03">ページプロパティを設定する</a> に関する内容を一部変更しました。<br />
+2017/02/03　<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview/design_foundation_gui.html">Design Foundationの設定</a> のページを追加しました。また、左記ページの追加に伴い、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview.html">Design Foundationについて</a> のページに記載した <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview.html#design_foundation_overview_h2_02">Design Foundationの適用</a> に関する内容を一部変更しました。<br />
+2017/01/17　Componentsの <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/accordion_menu.html#accordion_menu_h2_03">Accordion Menu</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/label_tag.html#label_tag_h2_03">Label/Tag Pack</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/annotation.html#annotation_h2_03">Annotation List Pack</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/text_link.html#text_link_h2_03">Text Link Pack</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/tile_link_vertical.html#tile_link_vertical_h2_03">Tile Link Pack (Vertical)</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/tile_link_horizontal.html#tile_link_horizontal_h2_03">Tile Link Pack (Horizontal)</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/tile_link_text.html#tile_link_text_h2_03">Tile Link Pack (Text)</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/list/main_visual.html#main_visual_h2_03">Fullwidth Visuals &amp; Carousel Pack</a>、<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/components/components_operation/components_change.html#components_change_p_01">コンポーネントの移動・コピー・削除</a> のページにUnitのコピーについての記載を追加、変更しました。<br />
+2017/01/17　説明文の言い回しや誤字、レイアウトや画像などを変更し、全体的な調整を行いました。<br />
+2016/12/16　<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/flow/approval.html">Webサイトの公開申請フロー</a> のページに <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/flow/approval.html#approval_h2_02">非公開（公開の取り下げ）申請</a> と <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/flow/approval.html#approval_h2_03">申請の取り下げ</a> <span
+    style="letter-spacing: 0.1em;">を追加しました。</span><br /> 2016/12/16
+                <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/notes.html">AEM Sitesを利用する際の注意事項</a>                のページに <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/notes.html#manual_index_h2_08">花王株式会社以外の制作について</a>                の項目を追加しました。また、それに伴い<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/flow/production_flow.html#production_flow_h3_04">Webサイト制作フロー</a>、<a
+                  href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/flow/production_rule.html#production_rule_h2_02">Webサイト制作の基本ルール</a>、<a
+                  href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/templates/overview/page_area_fixed.html">ヘッダー・フッターエリア（固定エリア）</a>、<a
+                  href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/S_Support/inquiries.html#contact_h2_01">お問い合わせ</a>のページに[Kanebo
+                独自規定あり]のラベルを追加しました。<br /> 2016/12/01　基本設定の
+                <a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/setup/initialization.html">初期設定</a>、<a
+                  href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/setup/navigation.html">サイトナビゲーションについて</a>、<a
+                  href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/setup/navigation/breadcrumbs.html">パンくずナビゲーションの設定</a>                と Design Foundationの<a href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview/define_color.html">色の定義</a>、<a
+                  href="/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/ja/design_foundation/overview/define_styles.html">角丸・ドロップシャドウの定義</a>                に関する内容を一部変更しました。<br />
+
+                </span>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- / area-Contents -->
+
+
+  <!-- area-BrFooter -->
+  <div class="g-Area" id="area-BrFooter">
+    <div class="g-BrFooter l-BrFooter">
+      <div class="g-BrFooter__inner l-BrFooter__inner">
+        <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+          <div class="g-BrFooter__sitemapBlock__logo l-BrFooter__sitemapBlock__logo is-lg-center is-lg-top">
+            <div class="g-BrFooterLogo l-BrFooterLogo opt-w100p">
+              <a class="g-Image l-Image is-link s7responsiveContainer" href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja.html"
+                target="_self" id="common_image_item_20160401223419409_hGHu">
+                <p class="g-Image__img l-Image__img">
+                  <img src="http://preview.aem.kao.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/common/kao_logo_footer.png?fmt=png-alpha&wid=320"
+                    <img src="http://preview.aem.kao.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/common/kao_logo_footer.png?fmt=png-alpha&wid=320"
+                    class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+                </a>
+            </div>
+          </div>
+          <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+            <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+              <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+                <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+                  <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title"
+                    data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                    <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title">
+                      <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/about_aem.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">AEM Sitesについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a>
+                    </p>
+                    <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                      <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                        <li>
+                          <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/about_aem/basic_operation.html" target="_self">AEM Sitesの基本操作<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                        </li>
+                        <li>
+                          <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/about_aem/environment.html" target="_self">AEM Sitesの利用環境<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                        </li>
+                        <li>
+                          <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/about_aem/purpose.html" target="_self">AEM Sitesの導入目的<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                        </li>
+                        <li>
+                          <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/about_aem/interface.html" target="_self">AEM Sitesのオーサリング画面<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                        </li>
+                      </ul>
+                      <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md">
+                        <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/about_aem.html" target="_self">AEM Sitesについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a>
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+                <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title"
+                  data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                  <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title">
+                    <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/flow.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">制作フロー<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a>
+                  </p>
+                  <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                    <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                      <li>
+                        <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/flow/production_flow.html" target="_self">Webサイト制作フロー<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                      </li>
+                      <li>
+                        <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/flow/approval.html" target="_self">Webサイトの公開申請フロー<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                      </li>
+                      <li>
+                        <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/flow/production_rule.html" target="_self">Webサイト制作の基本ルール<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                      </li>
+                    </ul>
+                    <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/flow.html" target="_self">制作フロー<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+                  </div>
+              </div>
+            </div>
+            <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+              <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title"
+                data-accordion-panel="g-BrFooterSitemapUnit__panel">
+                <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title">
+                  <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/setup.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">基本設定<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a>
+                </p>
+                <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                  <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                    <li>
+                      <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/setup/initialization.html" target="_self">初期設定<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                    </li>
+                    <li>
+                      <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/setup/starter_kit.html" target="_self">Starter Kitについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                    </li>
+                    <li>
+                      <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/setup/navigation.html" target="_self">サイトナビゲーションについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                    </li>
+                  </ul>
+                  <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/setup.html" target="_self">基本設定<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+                </div>
+            </div>
+          </div>
+          <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+            <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title"
+              data-accordion-panel="g-BrFooterSitemapUnit__panel">
+              <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title">
+                <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/templates.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">Page Templates<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a>
+              </p>
+              <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+                <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                  <li>
+                    <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/templates/overview.html" target="_self">Page Templatesについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                  </li>
+                  <li>
+                    <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/templates/list.html" target="_self">Page Templates一覧<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                  </li>
+                  <li>
+                    <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/templates/page_property.html" target="_self">ページプロパティの設定<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                  </li>
+                </ul>
+                <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/templates.html" target="_self">Page Templates<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+              </div>
+          </div>
+        </div>
+        <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+          <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title"
+            data-accordion-panel="g-BrFooterSitemapUnit__panel">
+            <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title">
+              <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/components.html" target="_self" class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">Components<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a>
+            </p>
+            <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+              <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+                <li>
+                  <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/components/components_overview.html"
+                    target="_self">Componentsについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                </li>
+                <li>
+                  <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/components/list.html" target="_self">Components一覧<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                </li>
+                <li>
+                  <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/components/components_operation.html"
+                    target="_self">Componentsの基本操作<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+                </li>
+              </ul>
+              <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md"><a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/components.html" target="_self">Components<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a></p>
+            </div>
+        </div>
+      </div>
+      <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title"
+          data-accordion-panel="g-BrFooterSitemapUnit__panel">
+          <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title">
+            <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/design_foundation.html" target="_self"
+              class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link is-link">Design Foundation<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></a>
+          </p>
+          <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+            <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+              <li>
+                <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/design_foundation/overview.html" target="_self">Design Foundationについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+              </li>
+            </ul>
+            <p class="g-BrFooterSitemapUnit__moreinfo l-BrFooterSitemapUnit__moreinfo opt-hide-lg opt-hide-md">
+              <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/design_foundation.html" target="_self">Design Foundation<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__moreinfo__icon l-BrFooterSitemapUnit__moreinfo__icon"></span></a>
+            </p>
+          </div>
+      </div>
+    </div>
+    <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-4 g-BrFooterSitemap__list__tile-sm-1">
+      <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title"
+        data-accordion-panel="g-BrFooterSitemapUnit__panel">
+        <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"><span class="g-BrFooterSitemapUnit__title__link l-BrFooterSitemapUnit__title__link">サポートメニュー<span class="cmn-icon g-BrFooterSitemapUnit__title__icon l-BrFooterSitemapUnit__title__icon"></span></span>
+        </p>
+        <div class="g-BrFooterSitemapUnit__panel l-BrFooterSitemapUnit__panel">
+          <ul class="g-BrFooterSitemapUnit__links l-BrFooterSitemapUnit__links">
+            <li>
+              <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/S_Support/manual_index.html" target="_self">マニュアルWebサイトについて<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+            </li>
+            <li>
+              <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/S_Support/support_movie.html" target="_self">動画でみるAEM Sites<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+            </li>
+            <li>
+              <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/S_Support/glossary.html" target="_self">用語集<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+            </li>
+            <li><a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/S_Support/faq.html" target="_self">よくあるご質問<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+            <li><a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/S_Support/update.html" target="_self">更新情報<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a></li>
+            <li>
+              <a href="/content/wcm_kao/sites/docs/master/docs-aem-kao-com/working/sites-manual/ja/S_Support/inquiries.html" target="_self">お問い合わせ<span class="cmn-icon--bullet cmn-icon g-BrFooterSitemapUnit__links__icon l-BrFooterSitemapUnit__links__icon"></span></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="g-BrFooter__infoBlock l-BrFooter__infoBlock">
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- / area-BrFooter -->
+
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+
+
+</body>
+
+</html>

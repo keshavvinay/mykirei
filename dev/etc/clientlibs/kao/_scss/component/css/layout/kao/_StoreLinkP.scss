@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+
+/* StoreLinkP ================================================== */
+.g-StoreLinkP {
+  box-sizing: border-box;
+  &.is-background {
+    padding: $cmn_paddingInner;
+  }
+  &.is-border--solid {
+    .g-StoreLinkP__list__item__link {
+      border-style: solid;
+    }
+  }
+  &.is-border--dot {
+    .g-StoreLinkP__list__item__link {
+      border-style: dotted;
+    }
+  }
+  &.is-gutter--none {
+    .g-StoreLinkP__list {
+      @include gutterItemWrapper(true);
+    }
+    .g-StoreLinkP__list__item {
+      @include gutterItemInner(true);
+    }
+  }
+}
+
+.g-StoreLinkP__list {
+  @include gutterItemWrapper();
+  padding: 0;
+  list-style-type: none;
+  @include pie-clearfix;
+}
+
+.g-StoreLinkP__list__item {
+  float: left;
+  @include gutterItemInner();
+  vertical-align: top;
+}
+@include bp(sm) {
+  .g-StoreLinkP__list__item-sm-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-StoreLinkP__list__item-sm-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-StoreLinkP__list__item-sm-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-StoreLinkP__list__item-sm-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-StoreLinkP__list__item-sm-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-StoreLinkP__list__item-sm-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(md) {
+  .g-StoreLinkP__list__item-md-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-StoreLinkP__list__item-md-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-StoreLinkP__list__item-md-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-StoreLinkP__list__item-md-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-StoreLinkP__list__item-md-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-StoreLinkP__list__item-md-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+@include bp(lg) {
+  .g-StoreLinkP__list__item-lg-1 {
+    width: $cmn_colsWidth_1;
+  }
+  .g-StoreLinkP__list__item-lg-2 {
+    width: $cmn_colsWidth_2;
+  }
+  .g-StoreLinkP__list__item-lg-3 {
+    width: $cmn_colsWidth_3;
+  }
+  .g-StoreLinkP__list__item-lg-4 {
+    width: $cmn_colsWidth_4;
+  }
+  .g-StoreLinkP__list__item-lg-5 {
+    width: $cmn_colsWidth_5;
+  }
+  .g-StoreLinkP__list__item-lg-6 {
+    width: $cmn_colsWidth_6;
+  }
+}
+
+.g-StoreLinkP__list__item__link {
+  display: block;
+  position: relative;
+  img {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+  }
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.g-StoreLinkP__list__item__link__icon {
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  margin-top: -.7em;
+}

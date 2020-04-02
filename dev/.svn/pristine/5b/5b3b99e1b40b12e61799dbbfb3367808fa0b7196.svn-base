@@ -1,0 +1,221 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+
+        -webkit-transform: translateY(20px);
+
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+        transform: translateY(0);
+    }
+}
+
+@keyframes example {
+    from {
+        opacity: 0;
+        visibility: visible;
+
+        -webkit-transform: translate3d(100%, 0, 0);
+
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+
+        -webkit-transform: translate3d(0, 0, 0);
+
+        transform: translate3d(0, 0, 0);
+
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#area-Contents {
+    .g-Section__inner {
+        max-width: 100%;
+    }
+}
+
+#landingpage-title {
+    margin-bottom: 56px;
+    // height: 70px;
+
+    h1 {
+        font-weight: $light;
+        text-transform: uppercase;
+    }
+}
+
+.scrolltop-sample {
+    width: 1276px;
+    opacity: 1;
+    height: 200px;
+}
+
+.g-ImageCarouselPUnit__inner {
+
+    #goldwell,
+    #kms,
+    #orbie {
+        margin: 0;
+
+        p img {
+            opacity: 1;
+            position: relative;
+            left: -10px;
+
+            // -webkit-width: -webkit-calc(100% + 60px) !important;
+            -webkit-transform: translate3d(-10px, 0, 0) scale(1, 1);
+            -webkit-backface-visibility: hidden;
+            -webkit-transition: all 0.35s ease;
+
+            // width: calc(100% + 60px) !important;
+            transition: all 0.35s ease;
+            transform: translate3d(-10px, 0, 0) scale(1.05, 1.05);
+            // backface-visibility: hidden;
+
+            &:hover,
+            &:active {
+                left: 0;
+
+                -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
+                -webkit-transition: all 0.35s ease;
+
+                transform: translate3d(0, 0, 0) scale(1, 1);
+                transition: all 0.35s ease;
+            }
+        }
+    }
+
+    .color-image {
+        position: absolute !important;
+        left: 0px;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        opacity: 0;
+
+        -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
+        -webkit-transition: all 0.35s ease;
+
+        transition: all 0.35s ease;
+        transform: translate3d(0, 0, 0) scale(1, 1);
+
+        img {
+            width: calc(100% + 60px);
+            -webkit-transition: all 0.35s ease;
+
+            transition: all 0.35s ease;
+        }
+    }
+
+
+    &:hover {
+
+        .color-image {
+            visibility: visible;
+            opacity: 1;
+
+            -webkit-transition: all 0.35s ease;
+
+            transition: all 0.35s ease;
+
+            img {
+                -webkit-transition: all 0.35s ease;
+
+                transition: all 0.35s ease;
+            }
+        }
+    }
+}
+
+.slick-cloned {
+    .carousel-groupbox .g-Image {
+        display: none;
+    }
+}
+
+#goldwell {
+    -webkit-animation: example 1s ease-out .1s 1 normal backwards;
+    animation: example 1s ease-out .1s 1 normal backwards;
+}
+
+#kms {
+    -webkit-animation: example 1s ease-out 1s 1 normal backwards;
+    animation: example 1s ease-out 1s 1 normal backwards;
+}
+
+#orbie {
+    -webkit-animation: example 1s ease-out 2s 1 normal backwards;
+    animation: example 1s ease-out 2s 1 normal backwards;
+}
+
+.carousel-groupbox {
+    position: relative !important;
+    bottom: 60px;
+    cursor:pointer;
+    
+    #orbie-logo,
+    #kms-logo,
+    #goldwell-logo {
+        opacity: 0;
+        position: absolute !important;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 70%;
+        bottom: 55px;
+        -webkit-animation: fadein 2s ease forwards;
+
+        animation: fadein 2s ease forwards;
+
+        animation-delay: 4s;
+    }
+}
+
+.grouped {
+    -webkit-animation: fadeInUp 2s ease 0s 1 normal forwards;
+    animation: fadeInUp 2s ease 0s 1 normal forwards;
+}
+
+.g-ButtonUnit__link {
+    width: auto;
+
+    &:hover {
+        background-color: $hover-green !important;
+        border: 1px solid $hover-green !important;
+        color: white !important;
+        cursor: pointer;
+    }
+}
+
+#enriching-clients {
+    margin-top: 32px;
+    height: 70px;
+}
+
+#shop-online {
+    // height: 46px !important;
+    vertical-align: middle;
+    font-weight: $roman;
+    line-height: 13px;
+    text-transform: uppercase;
+}

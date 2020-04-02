@@ -1,0 +1,54 @@
+.curel-article-wrapper{
+    .g-PageTitle{
+        .g-PageTitle__titleBlock{
+            @media(min-width: $break-md) and (max-width: $break-lg){
+                width: 85%;
+            }   
+        }
+    }
+    .skin-allergin-guide{
+        .g-ColumnUnit{
+            background-color: #6f9197;
+            .g-ImageTextHP{
+                background-color: #a1a29c!important;
+                .g-ImageTextHP__contentsBlock{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0;
+                    .g-ImageTextHP__contentsBlock__image{
+                        .g-Image{
+                            margin-bottom: 0;
+                        }
+                    }
+                    .g-ImageTextHP__contentsBlock__text{
+                        .g-Text{
+                            color: #fff;
+                            margin-bottom: 0;
+                            @media (min-width: $break-sm) and (max-width:$break-lg){
+                                padding: 0;
+                                line-height: 1 !important;
+                            }
+                        }
+                    }
+                }   
+            }
+            .g-ImageTextVP{
+                border-top: 3px solid #fff;
+                .g-ImageTextVP__contentsBlock{
+                    background-color: #6f9197;
+                    .g-Image__img img {
+                        width: 100% !important;
+                    }
+                    .g-ImageTextVP__contentsBlock__text{
+                        padding: 0 17px;
+                        .g-Text{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+
+/* TileLinkTextP ================================================== */
+.l-TileLinkTextP {
+  &.is-borderWidth--s {
+    .l-TileLinkTextUnit {
+      border-width: $borderWidthBox_s;
+    }
+  }
+  &.is-borderWidth--m {
+    .l-TileLinkTextUnit {
+      border-width: $borderWidthBox_m;
+    }
+  }
+  &.is-borderWidth--l {
+    .l-TileLinkTextUnit {
+      border-width: $borderWidthBox_l;
+    }
+  }
+  &.is-background {
+    &.is-gutter--xs {
+      @include gutterItemBgAjust('xs');
+    }
+    &.is-gutter--s {
+      @include gutterItemBgAjust('s');
+    }
+    &.is-gutter--m {
+      @include gutterItemBgAjust('m');
+    }
+    &.is-gutter--l {
+      @include gutterItemBgAjust('l');
+    }
+    &.is-gutter--xl {
+      @include gutterItemBgAjust('xl');
+    }
+  }
+  &.is-gutter--xs {
+    .l-TileLinkTextP__list {
+      @include gutterItemWrapper(false, 'xs');
+    }
+    .l-TileLinkTextP__list__tile {
+      @include gutterItemInner(false, 'xs');
+    }
+  }
+  &.is-gutter--s {
+    .l-TileLinkTextP__list {
+      @include gutterItemWrapper(false, 's');
+    }
+    .l-TileLinkTextP__list__tile {
+      @include gutterItemInner(false, 's');
+    }
+  }
+  &.is-gutter--m {
+    .l-TileLinkTextP__list {
+      @include gutterItemWrapper(false, 'm');
+    }
+    .l-TileLinkTextP__list__tile {
+      @include gutterItemInner(false, 'm');
+    }
+  }
+  &.is-gutter--l {
+    .l-TileLinkTextP__list {
+      @include gutterItemWrapper(false, 'l');
+    }
+    .l-TileLinkTextP__list__tile {
+      @include gutterItemInner(false, 'l');
+    }
+  }
+  &.is-gutter--xl {
+    .l-TileLinkTextP__list {
+      @include gutterItemWrapper(false, 'xl');
+    }
+    .l-TileLinkTextP__list__tile {
+      @include gutterItemInner(false, 'xl');
+    }
+  }
+}
+
+
+/* TileLinkTextUnit ================================================== */
+.l-TileLinkTextUnit {
+  &[href] {
+    @include areaLink();
+  }
+  padding: $cmn_paddingInner;
+  border: 2px solid;
+  &.is-colorset--1 {
+    background-color: $tileLink__bg;
+    border-color: $tileLink__border;
+    color: $tileLink__text;
+    .l-TileLinkTextUnit__icon {
+      color: $tileLink__text;
+    }
+  }
+  &.is-colorset--2 {
+    background-color: $tileLink__bg--reverse;
+    border-color: $tileLink__border--reverse;
+    color: $tileLink__text--reverse;
+    .l-TileLinkTextUnit__icon {
+      color: $tileLink__text--reverse;
+    }
+  }
+}

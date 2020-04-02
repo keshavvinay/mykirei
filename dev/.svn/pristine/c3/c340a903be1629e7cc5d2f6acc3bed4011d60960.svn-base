@@ -1,0 +1,3151 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Item List</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+<h1>アイテム一覧</h1>
+
+
+<div class="menuBox">
+  <ul>
+    <li><a href="#PageTitleBlock">I000: Page Title Item</a></li>
+    <li><a href="#HeadingTitleBlock">G_CON_002: Heading Title Item</a></li>
+    <li><a href="#TextItemBlock">G_CON_003: Text Item</a></li>
+    <li><a href="#ImageItemBlock">G_CON_004: Image Item</a></li>
+    <li><a href="#MovieItemBlock">I040: Movie Item</a></li>
+    <li><a href="#TelephoneCallBlock">I045: Telephone Call Item</a></li>
+    <li><a href="#LinkButtonBlock">I050: Link/Button Item</a></li>
+    <li><a href="#MapBlock">I060: Map Item</a></li>
+    <li><a href="#HRBlock">I090: HR Item</a></li>
+    <li><a href="#SocialSharingBlock">I100: Social Sharing Item</a></li>
+  </ul>
+</div>
+
+
+<!-- I000: Page Title Item -->
+<div id="PageTitleBlock">
+  <div class="method">
+    <p class="componentName">I000 Page Title Item</p>
+    <!--<a href="samples/I000_PageTitle.html">⇒ design sample</a>-->
+    <ul>
+      <li>Element : Sub Title(Top), Sub Title(Bottom), Sub Title(Right), Main Image（DOM出力変更）, Sub Image（DOM出力変更）</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Layout : 画像左、画像右(DOM出力順変更、制御クラス付与)</li>
+      <li>Main Image-Width : 100%〜10%（bpごとにoptionクラス付与）</li>
+      <li>Sub Image-Width : 50%〜5%（bpごとにoptionクラス付与）</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+  <h3 class="settingName">Sample : Long Title</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="g-Text l-Text">
+          <p class="cmn-richtext">
+            <span>Text Richtext Text <a href>Richtext</a> Text Richtext Text Richtext</span>
+          </p>
+        </div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Page Title <a href>Page Title Page Title</a> Page Title Page Title Page Title Page Title Page Title Page Title Page Title Page Title Page Title Page Title TITLETITLETITLETITLETITLETITLETITLETITLETITLETITLETITLE</span>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : all</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : none</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : image</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Top)</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL is-subTitleTop">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <p>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Bottom)</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL is-subTitleBottom">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <p>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Right)</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL is-subTitleRight">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <p>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : Main image</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Main image(align left)</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL opt-al_l">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Main image(align center)</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL opt-al_c">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Main image(align right)</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL opt-al_r">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : Sub image</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL opt-al_l">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL opt-al_c">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL opt-al_r">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Layout : image-left</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Layout : image-right</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutR">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Width : image-10p</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Width : image-5p</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w5p opt-md-w5p opt-lg-w5p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Width : image-50p</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w50p opt-md-w50p opt-lg-w50p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL SpecificCSSclass">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-PageTitle l-PageTitle is-layoutL is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+
+    <div class="g-PageTitle__titleBlock l-PageTitle__titleBlock">
+      <div class="g-PageTitle__titleBlock__imageBox l-PageTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-PageTitle__titleBlock__titleBox l-PageTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-PageTitle__titleBlock__titleBox__title l-PageTitle__titleBlock__titleBox__title">
+          <h1 class="g-PageTitle__h1 l-PageTitle__h1">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h1>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<!-- / I010 Page Title Item -->
+
+
+<!-- G_CON_002: Heading Title Item -->
+<div id="HeadingTitleBlock">
+  <div class="method">
+    <p class="componentName">G_CON_002 Heading Title Item</p>
+    <!--<a href="samples/I010_HeadingTitle.html">⇒ design sample</a>-->
+    <ul>
+      <li>Type : タグ要素 h2-h6,p</li>
+      <li>Element : Sub Title(Top), Sub Title(Bottom), Sub Title(Right), Main Image（DOM出力変更）, Sub Image（DOM出力変更）</li>
+      <li>Link : div → aタグ変更</li>
+      <li>Link icon : 保留</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Layout : 画像左、画像右(DOM出力順変更、制御クラス付与)</li>
+      <li>Main Image-Width : 100%〜10%（bpごとにoptionクラス付与）</li>
+      <li>Sub Image-Width : 50%〜5%（bpごとにoptionクラス付与）</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+  <h3 class="settingName">Sample : Long Title</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="g-Text l-Text">
+          <p class="cmn-richtext">
+            <span>Text Richtext Text <a href>Richtext</a> Text Richtext Text Richtext</span>
+          </p>
+        </div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Page Title Page Title <a href>Page Title Page Title</a> Page Title Page Title Page Title Page Title Page Title Page Title Page Title Page Title Page Title TITLETITLETITLETITLETITLETITLETITLETITLETITLETITLETITLE</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h2</h3>
+  <div class="debug-tmpl" data-tmpl="HeadingTitle--Typical"></div>
+
+  <h3 class="settingName">Type : h3</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h3 l-HeadingTitle--h3 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h3>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h4</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h4 l-HeadingTitle--h4 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h4 class="g-HeadingTitle__h4 l-HeadingTitle__h4">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h4>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h5</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h5 l-HeadingTitle--h5 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h5 class="g-HeadingTitle__h5 l-HeadingTitle__h5">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h5>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : h6</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h6 l-HeadingTitle--h6 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h6 class="g-HeadingTitle__h6 l-HeadingTitle__h6">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h6>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Type : p</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--p l-HeadingTitle--p is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <p class="g-HeadingTitle__p l-HeadingTitle__p">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </p>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Link : active (LinkIcon : None)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </a>
+
+
+  <h3 class="settingName">Link : active (LinkIcon : Standard)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">LinkIcon : External</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--external g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">LinkIcon : PDF</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--pdf g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">LinkIcon : Download</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--download g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">IconColor : reverse</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-rightIcon" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet cmn-icon--reverse  g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">Element : none</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Element : text</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Element : image</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Top)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-subTitleTop">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <p>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Bottom)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-subTitleBottom">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <p>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Element : subTitle(Right)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-subTitleRight">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <p>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+  </div>
+
+
+  <h3 class="settingName">Link : subTitle(Right)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-subTitleRight" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <p>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">Element : Main image</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Main image(align left)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_l">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Link : Main image(align left)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_l is-link" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+  <h3 class="settingName">Element : Main image(align center)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_c">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w100p opt-md-w100p opt-lg-w100p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Main image(align right)</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_r">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Link : Main image(align right)</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 opt-al_r is-link" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title opt-sm-w80p opt-md-w60p opt-lg-w50p">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <!-- G_CON_004: Image Item -->
+            <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+            <!-- / G_CON_004: Image Item -->
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+
+    <span class="cmn-icon cmn-icon--bullet g-HeadingTitle__icon l-HeadingTitle__icon"></span>
+  </a>
+
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_l">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_c">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL opt-al_r">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Layout : image-left</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Layout : image-right</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutR">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Width : image-10p</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Width : image-20p</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w20p opt-md-w20p opt-lg-w20p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL SpecificCSSclass">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="settingName">Background image</h3>
+  <a class="g-HeadingTitle l-HeadingTitle g-HeadingTitle--h2 l-HeadingTitle--h2 is-layoutL is-link is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+
+    <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+      <div class="g-HeadingTitle__titleBlock__imageBox l-HeadingTitle__titleBlock__imageBox opt-sm-w10p opt-md-w10p opt-lg-w10p">
+        <!-- G_CON_004: Image Item -->
+        <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+        <!-- G_CON_003: Text Item -->
+        <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+        <!-- / G_CON_003: Text Item -->
+        <!-- title -->
+        <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+          <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2">
+            <span class="cmn-richtext">
+              <span>Title Richtext</span>
+            </span>
+          </h2>
+        </div>
+        <!-- / title -->
+      </div>
+    </div>
+  </a>
+
+</div>
+<!-- / G_CON_002 Heading Title Item -->
+
+
+<!-- G_CON_003: Text Item -->
+<div id="TextItemBlock">
+  <div class="method">
+    <p class="componentName">G_CON_003: Text Item</p>
+    <!--<a href="samples/I020_Text.html">⇒ design sample</a>-->
+    <ul>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+
+  <div class="tmpl" data-tmpl="tmpl-Text" data-textalign="l" data-SpecificCSSclass=""></div>
+
+  <h3 class="settingName">Typical</h3>
+  <div class="debug-tmpl" data-tmpl="Text--Typical"></div>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-Text l-Text opt-al_l">
+    <p class="cmn-richtext">
+      <span>Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext</span>
+    </p>
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-Text l-Text opt-al_c">
+    <p class="cmn-richtext">
+      <span>Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext</span>
+    </p>
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-Text l-Text opt-al_r">
+    <p class="cmn-richtext">
+      <span>Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext</span>
+    </p>
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-Text l-Text SpecificCSSclass">
+    <p class="cmn-richtext">
+      <span>Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext</span>
+    </p>
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-Text l-Text is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <p class="cmn-richtext">
+      <span>Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext Text Richtext</span>
+    </p>
+  </div>
+
+</div>
+<!-- / G_CON_003: Text Item -->
+
+
+<!-- G_CON_004: Image Item -->
+<div id="ImageItemBlock">
+  <div class="method">
+    <p class="componentName">G_CON_004: Image Item</p>
+    <!--<a href="samples/I030_Image.html">⇒ design sample</a>-->
+    <ul>
+      <li>Link : div → aタグ変更</li>
+      <li>Link icon : 保留</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Typical</h3>
+  <div class="debug-tmpl" data-tmpl="Image--Typical"></div>
+
+  <h3 class="settingName">Change Image each BreakPoint</h3>
+  <div class="g-Image l-Image is-changeBreak">
+    <p class="g-Image__img g-Image__img--lg l-Image__img l-Image__img--lg"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+    <p class="g-Image__img g-Image__img--md l-Image__img l-Image__img--md"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy4.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+    <p class="g-Image__img g-Image__img--sm l-Image__img l-Image__img--sm"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy3.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Link : active (LinkIcon : none)</h3>
+  <a class="g-Image l-Image is-link">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Link Icon : Standard</h3>
+  <div class="debug-tmpl" data-tmpl="Image--LinkStandard"></div>
+
+  <h3 class="settingName">Link Icon : External</h3>
+  <a class="g-Image l-Image is-link">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--external g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Link Icon : PDF</h3>
+  <a class="g-Image l-Image is-link">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--pdf g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Link Icon : Download</h3>
+  <a class="g-Image l-Image is-link">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--download g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">IconColor : reverse</h3>
+  <a class="g-Image l-Image is-link">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"><span class="cmn-icon cmn-icon--bullet cmn-icon--reverse g-Image__img__icon l-Image__img__icon"></span></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-Image l-Image opt-al_l">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-Image l-Image opt-al_c">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-Image l-Image opt-al_r">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-Image l-Image SpecificCSSclass">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <a class="g-Image l-Image is-link is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+    <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+    <div class="g-Image__caption l-Image__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </a>
+
+</div>
+<!-- / G_CON_004: Image Item -->
+
+
+<!-- I040: Movie Item -->
+<div id="MovieItemBlock">
+  <div class="method">
+    <p class="componentName">I040: Movie Item</p>
+    <!--<a href="samples/I040_Movie.html">⇒ design sample</a>-->
+    <ul>
+      <!-- <li>Link : div → aタグ変更</li> -->
+      <!-- <li>Link icon : 保留</li> -->
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+  <h3 class="settingName">Typical</h3>
+  <div class="debug-tmpl" data-tmpl="Movie--Typical"></div>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-Movie l-Movie opt-al_l">
+    <div class="g-Movie__iframe l-Movie__iframe">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1_7Q1wE9nck" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="g-Movie__caption l-Movie__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-Movie l-Movie opt-al_c">
+    <div class="g-Movie__iframe l-Movie__iframe">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1_7Q1wE9nck" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="g-Movie__caption l-Movie__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-Movie l-Movie opt-al_r">
+    <div class="g-Movie__iframe l-Movie__iframe">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1_7Q1wE9nck" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="g-Movie__caption l-Movie__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-Movie l-Movie SpecificCSSclass">
+    <div class="g-Movie__iframe l-Movie__iframe">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1_7Q1wE9nck" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="g-Movie__caption l-Movie__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-Movie l-Movie is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+    <div class="g-Movie__iframe l-Movie__iframe">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1_7Q1wE9nck" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="g-Movie__caption l-Movie__caption">
+      <p class="cmn-richtext">
+        <span>Caption Richtext Caption Richtext Caption Richtext</span>
+      </p>
+    </div>
+  </div>
+
+</div>
+<!-- / I040: Movie Item -->
+
+
+<!-- I045: Telephone Call Item -->
+<div id="TelephoneCallBlock">
+  <div class="method">
+    <p class="componentName">I045: Telephone Call Item</p>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--l is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信あり<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    ダイヤル発信機能の使用有無（ミディアム） : 発信なし<br>
+    ダイヤル発信機能の使用有無（スモール） : 発信なし</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 左<br>
+    ボタンの幅 : 配置領域の幅全体</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_l is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 中央<br>
+    ボタンの幅 : 配置領域の幅全体</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_c is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 右<br>
+    ボタンの幅 : 配置領域の幅全体</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_r is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 左<br>
+    ボタンの幅 : 文字数に依存</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_l js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 中央<br>
+    ボタンの幅 : 文字数に依存</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_c is-autowidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    行揃え : 右<br>
+    ボタンの幅 : 文字数に依存</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm opt-al_r is-autowidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 小</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--s is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+        <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+      </div>
+      <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+        <!-- G_CON_004: Image Item -->
+        <div class="g-Image l-Image">
+          <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+        </div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+        <span class="cmn-richtext">
+          <span>03-0000-0000</span>
+        </span>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 中</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+        <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+      </div>
+      <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+        <!-- G_CON_004: Image Item -->
+        <div class="g-Image l-Image">
+          <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+        </div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+        <span class="cmn-richtext">
+          <span>03-0000-0000</span>
+        </span>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 大</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--l is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+        <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+      </div>
+      <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+        <!-- G_CON_004: Image Item -->
+        <div class="g-Image l-Image">
+          <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+        </div>
+        <!-- / G_CON_004: Image Item -->
+      </div>
+      <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+        <span class="cmn-richtext">
+          <span>03-0000-0000</span>
+        </span>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    背景画像 : 指定あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" href="tel:0300000000" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : 電話<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    背景画像 : 指定あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-freeimg is-freeimg--m is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" href="tel:0300000000" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像</span></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    行揃え : 左</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m opt-al_l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    行揃え : 中央</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m opt-al_c is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    行揃え : 右</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m opt-al_r is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 小</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--s is-align--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 中</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--m is-align--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    画像の幅 : 大</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--l is-align--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">番号種別 : FAX<br><span class="sup">
+    オプションアイテムの表示 : 画像<br>
+    背景画像 : 指定あり</h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-fax is-freeimg is-freeimg--l is-fullwidth--sm js-telephoneCall">
+    <span id="" class="g-TelephoneCall__item l-TelephoneCall__item is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__fax l-TelephoneCall__item__fax"><span class="g-TelephoneCall__item__fax__text l-TelephoneCall__item__fax__text">FAX</span></span>
+        </div>
+        <div class="g-TelephoneCall__item__img l-TelephoneCall__item__img">
+          <!-- G_CON_004: Image Item -->
+          <div class="g-Image l-Image">
+            <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy2.jpg" width="100%" alt="dummy"></p>
+          </div>
+          <!-- / G_CON_004: Image Item -->
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </span>
+  </div>
+
+
+  <h3 class="settingName">SpecificCSSclass<span class="sup"></h3>
+  <div class="g-TelephoneCall l-TelephoneCall is-phone is-tel--md is-tel--sm is-fullwidth--sm js-telephoneCall SpecificCSSclass">
+    <a id="" class="g-TelephoneCall__item l-TelephoneCall__item" href="tel:0300000000">
+      <div class="g-TelephoneCall__item__inner l-TelephoneCall__item__inner">
+        <div class="g-TelephoneCall__item__icon l-TelephoneCall__item__icon">
+          <span class="g-TelephoneCall__item__icon__phone l-TelephoneCall__item__icon__phone cmn-icon cmn-icon--phone"></span>
+        </div>
+        <div class="g-TelephoneCall__item__number l-TelephoneCall__item__number">
+          <span class="cmn-richtext">
+            <span>03-0000-0000</span>
+          </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+</div>
+<!-- / I045: Telephone Call Item -->
+
+
+<!-- I050: Link/Button Item -->
+<div id="LinkButtonBlock">
+  <div class="method">
+    <p class="componentName">I050: Link/Button Item</p>
+    <!--<a href="samples/I050_LinkButton.html">⇒ design sample</a>-->
+    <ul>
+      <li>Target/Link icon : アイコン用ステータスクラス付与</li>
+      <li>Link type : link, btn（ステータスクラス付与）</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+  <h3 class="settingName">Typical(Link Icon: Standard)</h3>
+  <div class="debug-tmpl" data-tmpl="LinkButton--Typical"></div>
+
+  <h3 class="settingName">Icon : Left arrow</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--left g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Icon : Up arrow</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--to_top g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Icon : Down arrow</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--to_bottom g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Icon : External</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--external g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Icon : PDF</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--pdf g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Icon : Download</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--download g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Icon : none</h3>
+  <div class="g-LinkButton l-LinkButton is-link">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+    </a>
+  </div>
+
+  <h3 class="settingName">IconColor : reverse</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--download cmn-icon--reverse g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">LinkType : link</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">LinkType : btn</h3>
+  <div class="g-LinkButton l-LinkButton is-btn is-rightIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Anchor to LinkButtonBlock</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="#LinkButtonBlock" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button anchor to LinkButtonBlock</span>
+      </span>
+      <span class="cmn-icon cmn-icon--to_top g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Anchor to Top</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="#wrapper" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button anchor to Top</span>
+      </span>
+      <span class="cmn-icon cmn-icon--to_top g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Anchor to Other page</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="/apps/kao/sites/common/components/content/area/template_01_fixed_anchor.html#common_section_wrapper_4" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button anchor to other page</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon opt-al_l">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon opt-al_c">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon opt-al_r">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon SpecificCSSclass">
+    <a class="g-LinkButton__link l-LinkButton__link js-anchorLink" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-LinkButton l-LinkButton is-link is-leftIcon">
+    <a class="g-LinkButton__link l-LinkButton__link is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)" href="" target="">
+      <span class="cmn-richtext">
+        <span>Link/Button Richtext</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-LinkButton__link__icon l-LinkButton__link__icon"></span>
+    </a>
+
+  </div>
+
+</div>
+<!-- / I050: Link/Button Item -->
+<!-- I060: Map Item -->
+<div id="MapBlock">
+  <div class="method">
+    <p class="componentName">I060: Map Item</p>
+    <ul>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : 任意クラス付与</li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Typical</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">タイトル : なし<br>郵便番号 : なし<br>マーカー : なし</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="" data-map-zip="" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">情報パネル : デフォルトoff</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="false" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">ミディアムスクリーンでの「地図アプリで開く」リンク : なし</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg opt-hide-md">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-Map l-Map js-map opt-al_l" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-Map l-Map js-map opt-al_c" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-Map l-Map js-map opt-al_r" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">地図領域の高さ<br>lg : 600<br>md : 500<br>sm : 400</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="600" data-map-height-md="500" data-map-height-sm="400" data-map-hue="#f44336" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Color : #673ab7</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#673ab7" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">Color : none</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="" data-map-saturation="0">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+  <h3 class="settingName">彩度 : -100</h3>
+  <div class="g-Map l-Map js-map" data-map-marker="/apps/kao/sites/common/components/clientlibs/img/dummy_marker.png" data-map-zoom-lg="17" data-map-zoom-sm="15" data-map-title="ピボット" data-map-zip="〒107-0061" data-map-address="東京都港区北青山2-12-31 第三イノセビル3階" data-map-info="true" data-map-height-lg="440" data-map-height-md="360" data-map-height-sm="300" data-map-hue="#f44336" data-map-saturation="-100">
+    <div class="g-Map__inner l-Map__inner"></div>
+    <a href="javascript:void(0);" class="g-Map__appLink l-Map__appLink opt-hide-lg">
+      <span class="cmn-richtext">
+        <span>地図アプリで開く</span>
+      </span>
+      <span class="cmn-icon cmn-icon--bullet g-Map__appLink__icon l-Map__appLink__icon"></span>
+    </a>
+  </div>
+
+
+</div>
+
+<!-- I090: HR Item -->
+<div id="HRBlock">
+  <div class="method">
+    <p class="componentName">I090: HR Item</p>
+    <!--<a href="samples/I090_HR.html">⇒ design sample</a>
+    <ul>-->
+      <li>Line Style
+        <ul>
+          <li>solid ⇒ class="is-style--solid"</li>
+          <li>dot ⇒ class="is-style--dot"</li>
+        </ul>
+      </li>
+      <li>Line Width
+        <ul>
+          <li>1px ⇒ class="is-width--s"</li>
+          <li>2px ⇒ class="is-width--m"</li>
+          <li>4px ⇒ class="is-width--l"</li>
+        </ul>
+      </li>
+      <li>Line Color
+        <ul>
+          <li>color1 ⇒ class="is-color--1"</li>
+          <li>color2 ⇒ class="is-color--2"</li>
+          ...
+        </ul>
+      </li>
+      <li>Width : Width制御クラス付与</li>
+      <li>Specific CSS class : [任意クラス付与]</li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Typical</h3>
+  <div class="debug-tmpl" data-tmpl="Hr--Typical"></div>
+
+  <h3 class="settingName">Line Style : solid</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Line Style : dotted</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--dot is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Line Width : 1px</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Line Width : 2px</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--m is-color--1" />
+  </div>
+
+  <h3 class="settingName">Line Width : 4px</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--l is-color--1" />
+  </div>
+
+  <h3 class="settingName">Line Color : color1</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Line Color : color2</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--2" />
+  </div>
+
+  <h3 class="settingName">Line Color : color3</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--3" />
+  </div>
+
+  <h3 class="settingName">Line Color : color4</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--4" />
+  </div>
+
+  <h3 class="settingName">Line Color : color5</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--5" />
+  </div>
+
+  <h3 class="settingName">Line Color : color6</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--6" />
+  </div>
+
+  <h3 class="settingName">Line Color : color7</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--7" />
+  </div>
+
+  <h3 class="settingName">Width : 100%</h3>
+  <div class="g-Hr l-Hr opt-w100p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Width : 90%</h3>
+  <div class="g-Hr l-Hr opt-w90p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Width : 80%</h3>
+  <div class="g-Hr l-Hr opt-w80p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Width : 70%</h3>
+  <div class="g-Hr l-Hr opt-w70p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Width : 60%</h3>
+  <div class="g-Hr l-Hr opt-w60p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">Width : 50%</h3>
+  <div class="g-Hr l-Hr opt-w50p">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-Hr l-Hr opt-w100p SpecificCSSclass">
+    <hr class="g-Hr__hr l-Hr__hr is-style--solid is-width--s is-color--1" />
+  </div>
+
+</div>
+<!-- / I090: HR Item -->
+
+
+<!-- I100: Social Sharing Item -->
+<div id="SocialSharingBlock">
+  <div class="method">
+    <p class="componentName">I100: Social Sharing Item</p>
+    <!--<a href="samples/I100_SocialSharing.html">⇒ design sample</a>-->
+    <ul>
+      <li>Element : Heading Title Item (DOM出力変更)</li>
+      <li>Text align : Text-align制御クラス付与</li>
+      <li>Specific CSS class : [任意クラス付与]</li>
+      <li>Background image : 背景画像スタイル付与</li>
+    </ul>
+  </div>
+
+
+  <h3 class="settingName">Typical</h3>
+  <!-- <div class="debug-tmpl" data-tmpl="SocialSharing--Typical"></div> -->
+  <div class="g-SocialSharing l-SocialSharing">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+      <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4dae47645d13c7e7"></script>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Element : Heading Title Item</h3>
+  <div class="g-SocialSharing l-SocialSharing">
+
+    <div class="g-SocialSharing__titleBlock l-SocialSharing__titleBlock">
+      <!-- G_CON_002: Heading Title Item -->
+      <div class="debug-tmpl" data-tmpl="HeadingTitle--H3"></div>
+      <!-- /G_CON_002: Heading Title Item -->
+    </div>
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Text-align : left</h3>
+  <div class="g-SocialSharing l-SocialSharing opt-al_l">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Text-align : center</h3>
+  <div class="g-SocialSharing l-SocialSharing opt-al_c">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Text-align : right</h3>
+  <div class="g-SocialSharing l-SocialSharing opt-al_r">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">SpecificCSSclass</h3>
+  <div class="g-SocialSharing l-SocialSharing SpecificCSSclass">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+  <h3 class="settingName">Background image</h3>
+  <div class="g-SocialSharing l-SocialSharing is-background" style="background-image:url(/apps/kao/sites/common/components/clientlibs/img/dummy_bg_horizon.png)">
+
+    <div class="g-SocialSharing__buttonBlock l-SocialSharing__buttonBlock">
+      <!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox">
+      <div class="custom_images">
+      <a class="addthis_button_facebook"><img src="/etc/clientlibs/common/component/img/fb_button.gif" alt="Share to Facebook" /></a>
+      <a class="addthis_button_twitter"><img src="/etc/clientlibs/common/component/img/twitter_button.gif" alt="Share to Twitter" /></a>
+      <a class="addthis_button_more"><img src="/etc/clientlibs/common/component/img/add_button.gif" alt="More..." /></a>
+      </div>
+      </div>
+      <!-- AddThis Button END -->
+    </div>
+
+  </div>
+
+</div>
+<!-- / I100: Social Sharing Item -->
+
+</div>
+</div>
+
+<div class="pageTop">
+  <a href="#contents">▲トップへ</a>
+</div>
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*****************************
+  Clientlibs config
+ *****************************/
+
+/*
+ setting
+ （上書き禁止）
+ */
+$breakpoint_sm:  640px;
+$breakpoint_md: 1024px;
+$breakpoint_lg: 1366px;
+$contentsMaxWidth_sm: $breakpoint_sm;
+$contentsMaxWidth_md: $breakpoint_md;
+$contentsMaxWidth_lg: $breakpoint_lg;
+
+
+/*
+ common veriable
+ （共通変数・任意）
+ */
+$cmn_paddingInner: 20px;
+$cmn_marginItemGutter_lg: 24px;
+$cmn_marginItemGutter_md: 24px;
+$cmn_marginItemGutter_sm: 16px;
+$cmn_colsWidth_1: 100%;
+$cmn_colsWidth_2: 50%;
+$cmn_colsWidth_3: 33.3%;
+$cmn_colsWidth_4: 25%;
+$cmn_colsWidth_5: 20%;
+$cmn_colsWidth_6: 16.66%;
+$cmn_ImageTextPack__separator: 16px;
+$cmn_ImageTextPack__separator--sm: 12px;
+$cmn_MovieTextPack__separator: 16px;
+$cmn_MovieTextPack__separator--sm: 12px;
+$cmn_MapAccessPack__separator: 36px;
+$cmn_TileLinkPack__separator: 16px;
+$cmn_TileLinkPack__separator--sm: 12px;
+$cmn_TwitterPost__separator: 20px;
+$cmn_InstagramPost__separator: 20px;
+$cmn_FacebookPost__separator: 20px;
+$cmn_YouTubeVideo__separator: 20px;
+
+// font-scale
+$cmn_fontScale_xs:    0.5em;
+$cmn_fontScale_s:     0.75em;
+$cmn_fontScale_l:     1.25em;
+$cmn_fontScale_xl:    1.5em;
+$cmn_fontScale_xxl:   1.75em;
+$cmn_fontScale_xxxl:  2em;
+$cmn_fontScale_xxxxl: 2.5em;
+
+// line-height
+$cmn_lineHeight_l:     2;
+$cmn_lineHeight_xl:    2.4;
+$cmn_lineHeight_xxl:   2.8;
+$cmn_lineHeight_xxxl:  3.2;
+$cmn_lineHeight_xxxxl: 4;
+
+/* design foundation */
+//base
+@import "config_foundation";
+
+//color-content
+@import "config_foundation_color";
+// @import "pattern/config_foundation_color_light";
+// @import "pattern/config_foundation_color_dark";
+
+//font
+@import "config_foundation_font";
+// @import "pattern/config_foundation_font_sans-serif";
+// @import "pattern/config_foundation_font_serif";

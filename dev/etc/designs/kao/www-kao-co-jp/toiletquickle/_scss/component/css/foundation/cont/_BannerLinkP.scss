@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+/* BannerLinkP ================================================== */
+.l-BannerLinkP {
+  &.is-gutter--xs {
+    .l-BannerLinkP__list {
+      @include gutterItemWrapper(false, 'xs');
+    }
+    .l-BannerLinkP__list__item {
+      @include gutterItemInner(false, 'xs');
+    }
+  }
+  &.is-gutter--s {
+    .l-BannerLinkP__list {
+      @include gutterItemWrapper(false, 's');
+    }
+    .l-BannerLinkP__list__item {
+      @include gutterItemInner(false, 's');
+    }
+  }
+  &.is-gutter--m {
+    .l-BannerLinkP__list {
+      @include gutterItemWrapper(false, 'm');
+    }
+    .l-BannerLinkP__list__item {
+      @include gutterItemInner(false, 'm');
+    }
+  }
+  &.is-gutter--l {
+    .l-BannerLinkP__list {
+      @include gutterItemWrapper(false, 'l');
+    }
+    .l-BannerLinkP__list__item {
+      @include gutterItemInner(false, 'l');
+    }
+  }
+  &.is-gutter--xl {
+    .l-BannerLinkP__list {
+      @include gutterItemWrapper(false, 'xl');
+    }
+    .l-BannerLinkP__list__item {
+      @include gutterItemInner(false, 'xl');
+    }
+  }
+}
+.l-BannerLinkP__list__item {
+  @include fontSize(body);
+}

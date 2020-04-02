@@ -1,0 +1,4 @@
+#base=css
+
+component.css
+kao-header-footer.css

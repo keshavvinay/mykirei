@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <script type="text/javascript" src="http://s.marsfinder.jp/mf2file/js/css_browser_selector.js"></script>
+  <script type="text/javascript" src="http://s.marsfinder.jp/mf2file/js/jquery-1.8.3g.min.js"></script>
+  <script type="text/javascript" src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/js/mf_top.js"></script>
+  <script type="text/javascript" src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/js/mf_menu.js"></script>
+  <script type="text/javascript" src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/js/mf_popup.js"></script>
+  <script src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/js/jquery-ui-1.10.3.custom.js"></script>
+  <script src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/js/jquery.skOuterClick.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_base_white.css" media="all">
+  <link href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+
+  <!--[if lte IE 8]>
+<script type="text/javascript" src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/js/selectivizr.js"></script>
+<link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_300.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_500.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_750.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_850.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_1000.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_ie78.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/jquery-ui-1.10.3.custom_pc.css" media="all">
+<style type="text/css">
+	.frame-view div.mf_popup,
+	.frame-view div.mf_popup * {
+		display: none !important;
+	}
+	.frame-view img.mf_cap{
+		position: absolute;
+		z-index: 2;
+	}
+<![endif]-->
+  </style>
+  <!--[if gte IE 9]><!-->
+  <link rel="stylesheet" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_300.css" media="all">
+  <link rel="stylesheet" media="screen and (min-width: 300px)" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_300.css"
+    media="all">
+  <link rel="stylesheet" media="screen and (min-width: 500px)" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_500.css"
+    media="all">
+  <link rel="stylesheet" media="screen and (min-width: 750px)" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_750.css"
+    media="all">
+  <link rel="stylesheet" media="screen and (min-width: 850px)" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_850.css"
+    media="all">
+  <link rel="stylesheet" media="screen and (min-width: 1000px)" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/mf_resp_white_min_1000.css"
+    media="all">
+  <link rel="stylesheet" media="screen and (max-width: 750px)" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/jquery-ui-1.10.3.custom_sp.css"
+    media="all">
+  <link rel="stylesheet" media="screen and (min-width: 751px)" type="text/css" href="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/css/jquery-ui-1.10.3.custom_pc.css"
+    media="all">
+  <script type="text/javascript" src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/js/jquery.bpopup.min.js"></script>
+  <style type="text/css">
+    @media screen and (min-width: 600px) {
+      .frame-view div.mf_popup,
+      .frame-view div.mf_popup * {
+        display: none !important;
+      }
+      .frame-view img.mf_cap {
+        z-index: 2;
+      }
+    }
+  </style>
+  <!--<![endif]-->
+  <script type="text/javascript">
+    <!--//
+      (function ($) {
+        $(function () {
+          $('#mf_results,#mf_zubaken').find('li.mf_pdf a').each(function (n, a) {
+            $(a).attr('is_pdf', true);
+          });
+        });
+      })(GALFSRAM.jQuery);
+//-->
+  </script>
+  <script type="text/javascript">
+    onerror = function () { return true };
+  </script>
+  <script type="text/javascript">
+    var env = { "docs": [], "zdocs": [], "muv_ext": false, "misc": {}, "link_target": "_top", "link_invert": "_blank", "zoomSrcPCS": "http://s.marsfinder.jp/mf2file/site/img/pcs320.gif", "iconSrcPCS": "http://s.marsfinder.jp/mf2file/site/img/pcs96.gif", "iconSrcPDF": "http://s.marsfinder.jp/mf2file/site/img/result96_72_pdf.gif", "iconSrcXDW": "http://s.marsfinder.jp/mf2file/site/img/result96_72_xdw.gif", "iconSrcMap": { "pdf": "http://s.marsfinder.jp/mf2file/site/img/result96_72_pdf.gif", "ms-word": "http://s.marsfinder.jp/mf2file/site/img/result96_72_doc.gif", "ms-excel": "http://s.marsfinder.jp/mf2file/site/img/result96_72_xls.gif", "ms-powerpoint": "http://s.marsfinder.jp/mf2file/site/img/result96_72_ppt.gif" }, "iconWidth": 96, "snippetLenMax": 258, "fileurl": "http://s.marsfinder.jp/mf2file", "nullSrc": "http://s.marsfinder.jp/mf2file/img/_.gif", "zoomSrcPDF": "http://s.marsfinder.jp/mf2file/site/img/result320_240_pdf.gif", "zoomSrcXDW": "http://s.marsfinder.jp/mf2file/site/img/result320_240_xdw.gif", "zoomSrcMap": { "pdf": "http://s.marsfinder.jp/mf2file/site/img/result320_240_pdf.gif", "ms-word": "http://s.marsfinder.jp/mf2file/site/img/result320_240_doc.gif", "ms-excel": "http://s.marsfinder.jp/mf2file/site/img/result320_240_xls.gif", "ms-powerpoint": "http://s.marsfinder.jp/mf2file/site/img/result320_240_ppt.gif" }, "zoomWidth": 320, "searchIcon": "http://s.marsfinder.jp/mf2file/img/icon_search.gif", "imgsize": 1, "phrase": "", "zoom": "1" };
+    env.msg = { "websearch_title": "Search", "category": "Categories", "all_category": "All", "change_languages": "Preferred Language", "all_languages": "None", "preferences": "Display Options", "pagemax": "Results per Page/10/20/30", "imgsize": "Thumbnail /Off/S/M/L/On", "zoom": "Thumbnail Zoom/On/Off", "pdf": "PDF/Include/Exclude/Only PDF", "doctype": "Document Type/All", "sort": "Sort order /Relevant/Latest", "select_terms": "Period", "date_starts": "Beginning date", "date_ends": "End date", "select_date_starts": "Select beginning date", "select_date_ends": "Select end date", "close_preferences": "Close", "recommend_title": "Recommendations", "related_title": "Related keywords", "result_header": "${numStart} - ${numEnd} of ${numHits} for ${phrase}", "result_header_no_phrase": "${numStart} - ${numEnd} of ${numHits}", "drilldown": "Drill Down", "cancel_drilldown": "All", "ranking": "Keyword Ranking", "pager_prev": "Previous", "pager_next": "Next", "jump_to_pagetop": "Back To Top", "msk": "Did you mean \"${msk_phrase}\" ?", "result_nohit_header": "", "no_results": "Sorry, your search did not return any results.<br/>Try different keywords.", "no_results_short": "Sorry, no results found.<br/>Try different keywords.", "over_1000": "Sorry, we does not serve more than 1000 results for any query.<br/>(You asked for results starting from 1000.)", "out_of_range": "Page out of range.", "too_long": "It is too long a word. Try using a shorter word.", "do_search": "Search", "logo_alt": "Powered by MARSFLAG", "title": "MARS FLAG Search Results", "do_print": "Print" };
+
+  </script>
+  <script type="text/javascript" language="javascript" src="http://s.marsfinder.jp/mf2file/site/js/Clicklog3.js"></script>
+  <script type="text/javascript" language="javascript" src="http://s.marsfinder.jp/mf2file/site/js/initLog.js"></script>
+  <script type="text/javascript">
+    <!--//
+      cl.baseurl = ".";
+    cl.mode = encodeURIComponent("__ALL__");
+//-->
+  </script>
+
+  <style type="text/css">
+    img.mf_cap {
+      position: relative;
+    }
+
+    ul#mf_zubaken img.mf_zubacap,
+    div.mf_popup,
+    div.mf_popupR,
+    div.mf_popup img,
+    div.mf_popupR img {
+      height: auto;
+    }
+  </style>
+  <title>MARS FLAG Search Results - </title>
+
+  <script type="text/javascript">
+    <!--[if (!IE) | (gte IE 9) ]>-->
+      GALFSRAM.jQuery(function () {
+        GALFSRAM.jQuery("#MF_form_phrase").focus(function () {
+          if (GALFSRAM.jQuery(window).width() < 750 && !GALFSRAM.jQuery("body").hasClass("search")) {
+          }
+        });
+
+        GALFSRAM.jQuery("#mf_searcharea").prepend('<div id="mf_focusback"><img src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/img/common/mf_modoru.png" width="20" height="20"><p></p></div>');
+        GALFSRAM.jQuery("#mf_focusback").click(function () { GALFSRAM.jQuery("body").removeClass("search") });
+      });
+
+  </script>
+  <!--<![endif]-->
+  <script type="text/javascript">
+    GALFSRAM.jQuery(function () {
+      var widget = GALFSRAM.jQuery("#MF_form_phrase").autocomplete({
+        source: function (request, response) {
+          GALFSRAM.jQuery.ajax({
+            url: "suggest.x",
+            dataType: "jsonp",
+            data: {
+              q: request.term,
+              ie: "utf8",
+              max: 10
+            },
+            success: function (data) {
+              if (data.length > 0) {
+                response(GALFSRAM.jQuery.each(data, function (index, e) {
+                  e.label = e.word;
+                  return e;
+                }));
+              }
+            }
+          });
+        },
+        appendTo: "#mf_searchbox",
+        response: function (event, ui) {
+        }
+      }).data("ui-autocomplete");
+
+      widget._renderItem = function (ul, item) {
+        var li = GALFSRAM.jQuery("<li>");
+        li.append(GALFSRAM.jQuery("<a>").attr("href", "search.x?q=" + encodeURI(item.word)).text(item.word));
+        li.append(GALFSRAM.jQuery("<img src='http://s.marsfinder.jp/mf2file/custom/common.rs/0006/img/common/mf_addkeyword.png' width='16' height='16' onClick='clusterCheck(this);return false;' />"));
+        return li.appendTo(ul);
+      };
+
+      widget._resizeMenu = function () {
+        var ul = this.menu.element;
+        ul.outerWidth(GALFSRAM.jQuery("#mf_searchbox").width());
+      };
+
+    });
+
+    function clusterCheck(target) {
+      GALFSRAM.jQuery("#MF_form_phrase").val("");
+      GALFSRAM.jQuery("#MF_form_phrase").val(GALFSRAM.jQuery(target).prev().text() + " ");
+      GALFSRAM.jQuery("#MF_form_phrase").trigger("keydown");
+    }
+
+  </script>
+
+  <link rel="stylesheet" href="//c.marsflag.com/lib/fonts/font-awesome/4.6.3/css/font-awesome.min.css" media="all">
+
+<!--カスタムCSS-->
+<!-- AEM -->
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/clientlibs/common/lib/css/normalize.css">
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/clientlibs/common/basic/css/basic.css">
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/clientlibs/common/component/css/component.css">
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/clientlibs/common/option/css/option.css">
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/designs/docs/docs-aem-kao-com/sites-manual/basic/css/basic.css"
+  type="text/css">
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/designs/docs/docs-aem-kao-com/sites-manual/component/css/component.css"
+  type="text/css">
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/designs/docs/docs-aem-kao-com/sites-manual/component/css/custom.css"
+  type="text/css">
+<link rel="stylesheet" href="http://docs.aem.kao.com/etc/designs/docs/docs-aem-kao-com/sites-manual/option/css/option.css"
+  type="text/css">
+<!-- /AEM -->
+
+<link rel="stylesheet" href="../marsfinder-custom.css">
+<!-- /カスタムCSS -->
+<!--AEM Script-->
+<script src="http://docs.aem.kao.com/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+<script src="http://docs.aem.kao.com/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+<script src="http://docs.aem.kao.com/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+<script src="http://docs.aem.kao.com/etc/clientlibs/common/component/js/slick.js"></script>
+<script src="http://docs.aem.kao.com/etc/clientlibs/common/component/js/carousel.js"></script>
+<script src="http://docs.aem.kao.com/etc/clientlibs/common/component/js/component.js"></script>
+<script src="http://docs.aem.kao.com/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+<script type="text/javascript" src="http://docs.aem.kao.com/etc/clientlibs/common/component/js/component.js"></script>
+<!-- /AEM Script-->
+<!--カスタムJS-->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let categoryTitle = document.getElementsByClassName('mf_cate_title');
+    categoryTitle[0].textContent = "Search range";
+  }, false);
+</script>
+<!-- /カスタムJS-->
+</head>
+
+<body class="mode_imgsize1 sp_no_capture en">
+
+<!-- area-BrHeader -->
+<div class="g-Area" id="area-BrHeader">
+  <div class="g-BrHeaderPlaceholder l-BrHeaderPlaceholder">
+    <div class="g-BrHeader l-BrHeader" data-fixed-lg="false" data-fixed-md="false" data-fixed-sm="false">
+      <div class="g-BrHeaderCommon l-BrHeaderCommon">
+        <div class="g-BrHeaderCommon__logoBlock l-BrHeaderCommon__logoBlock is-lg-center is-lg-middle">
+          <div class="g-BrHeaderLogo l-BrHeaderLogo opt-lg-w100p opt-md-w100p opt-sm-w100p">
+            <a class="g-Image l-Image is-link s7responsiveContainer" href="http://docs.aem.kao.com/sites-manual/en.html"
+              target="_self" id="common_image_item_20160401223434094_t0FU">
+              <p class="g-Image__img l-Image__img"><img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_en/kao_logo_header_en.png?fmt=png-alpha&amp;wid=320"
+                  class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400"></p>
+            </a>
+          </div>
+        </div>
+        <div class="g-BrHeaderCommon__navBlock l-BrHeaderCommon__navBlock">
+          <div class="g-BrHeaderNav__buttonBlock l-BrHeaderNav__buttonBlock">
+            <a href="#">MENU</a>
+          </div>
+          <div class="g-BrHeaderNav__listBlock l-BrHeaderNav__listBlock">
+            <ul class="g-BrHeaderNavList l-BrHeaderNavList js-uniformHeight" data-uniform-target="g-BrHeaderNavListLink">
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1">
+                <a href="http://docs.aem.kao.com/sites-manual/en/about_aem.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">About AEM Sites</span></a>
+              </li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1">
+                <a href="http://docs.aem.kao.com/sites-manual/en/flow.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Creation Flow</span></a>
+              </li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1">
+                <a href="http://docs.aem.kao.com/sites-manual/en/setup.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Basic Configuration</span></a>
+              </li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1">
+                <a href="http://docs.aem.kao.com/sites-manual/en/templates.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Page Templates</span></a>
+              </li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1">
+                <a href="http://docs.aem.kao.com/sites-manual/en/components.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Components</span></a>
+              </li>
+              <li class="g-BrHeaderNavList__item l-BrHeaderNavList__item g-BrHeaderNavList__item-md-2 g-BrHeaderNavList__item-sm-1">
+                <a href="http://docs.aem.kao.com/sites-manual/en/design_foundation.html" target="_self" class="g-BrHeaderNavListLink l-BrHeaderNavListLink"><span class="g-BrHeaderNavListLink__inner l-BrHeaderNavListLink__inner">Design Foundation</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- / area-BrHeader -->
+</header>
+
+  <!-- MARS FINDER UI -->
+  <div id="mf_marsfinder">
+    <div id="mf_header">
+      <div id="mf_title">
+        <h1 id="mf_h1">Search</h1>
+        <p id="mf_number"><span class="mf_now">1</span> - <span class="mf_now">10</span> of <span class="mf_all">108</span></p>
+      </div>
+
+
+      <div id="mf_dropdown">
+        <div id="mf_menu">
+          <p id="mf_menubtn_s"></p>
+          <p id="mf_menubtn_l">Display Options</p>
+        </div>
+        <!-- Toggle Menu -->
+        <div id="mf_menubox">
+          <!-- Narrow Down for mobile -->
+          <!-- Narrow Down for mobile -->
+          <!-- Settings -->
+          <div id="mf_settingsbg">
+            <h4>Display Options</h4>
+            <ul id="mf_settings">
+              <style type="text/css">
+                #mf_stg_per_50,
+                #mf_stg_per_100 {
+                  display: none;
+                }
+
+                .pagemax_all #mf_stg_per_50,
+                .pagemax_all #mf_stg_per_100 {
+                  display: inline;
+                }
+              </style>
+              <li id="mf_stg_per" class="mf_stgli">
+                <p>Results per Page</p>
+                <ul class="mf_stg2">
+                  <li id="mf_stg_per_10" class="mf_stg2li mf_stg_valid">10</li>
+
+                  <li id="mf_stg_per_20" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&pagemax=20&page=1"><span class="set_sup">20</span></a>
+                  </li>
+
+                  <li id="mf_stg_per_30" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&pagemax=30&page=1"><span class="set_sup">30</span></a>
+                  </li>
+
+                  <li id="mf_stg_per_50" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&pagemax=50&page=1"><span class="set_sup">50</span></a>
+                  </li>
+
+                  <li id="mf_stg_per_100" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&pagemax=100&page=1"><span class="set_sup">100</span></a>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li id="mf_stg_size" class="mf_stgli">
+                <p>Thumbnail </p>
+                <ul class="mf_stg2">
+                  <li id="mf_stg_size_disp" class="mf_stg2li mf_stg_valid">On</li>
+
+                  <li id="mf_stg_size_none" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&pagemax=10&pdf=ok&zoom=1&page=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&imgsize=0"><span class="set_sup">Off</span></a>
+                  </li>
+
+                  <li id="mf_stg_size_s" class="mf_stg2li mf_stg_valid">S</li>
+
+                  <li id="mf_stg_size_m" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&pagemax=10&pdf=ok&zoom=1&page=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&imgsize=2"><span class="set_sup">M</span></a>
+                  </li>
+
+                  <li id="mf_stg_size_l" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&pagemax=10&pdf=ok&zoom=1&page=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&imgsize=3"><span class="set_sup">L</span></a>
+                  </li>
+
+                </ul>
+              </li>
+              <li id="mf_stg_zoom" class="mf_stgli">
+                <p>Thumbnail Zoom</p>
+                <ul class="mf_stg2">
+                  <li id="mf_stg_zoom_on" class="mf_stg2li mf_stg_valid">On</li>
+
+                  <li id="mf_stg_zoom_off" class="mf_stg2li">
+                    <a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&page=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&zoom=0"><span class="set_sup">Off</span></a>
+                  </li>
+
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- Settings for mobile -->
+        </div>
+        <!-- Toggle Menu -->
+      </div>
+
+
+<div id="mf_searcharea">
+  <div id="mf_focusback"><img src="/mf2file/custom/common.rs/0006/img/common/mf_modoru.png" width="20" height="20">
+    <p></p>
+  </div>
+
+
+
+  <div id="mf_searchbox">
+    <form id="form0" method="get" action="search.x" target="_self">
+      <div class="mf_doctype mf_results_control">
+        <label class="mf_results_control_label">
+				<select id="mf_doctype_select" name="doctype" class="mf_results_sort_select_style">
+					<optgroup label="対象ファイル">
+					<option value="" selected="">すべて</option>
+					<option value="html">HTML</option>
+					<option value="pdf">PDF</option>
+				</optgroup></select>
+				</label>
+      </div>
+      <div class="mf_searchbox_inner">
+        <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" id="MF_form_phrase"
+          value="制作" maxlength="1000" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" class="ui-autocomplete-input">
+        <img src="http://s.marsfinder.jp/mf2file/site/mf2file/custom/common.rs/0006/img/common/mf_delete_24.png" width="24" height="24" id="clearText" style="display:block">
+        <input type="image" id="MF_form_button" src="http://s.marsfinder.jp/mf2file/site/mf2file/custom/common.rs/0006/img/common/mf_glass.png" alt="検索" title="検索">
+        <input type="hidden" name="ie" value="utf8">
+        <input type="hidden" name="page" value="1">
+        <input type="hidden" name="pagemax" value="10">
+        <input type="hidden" name="imgsize" value="1">
+        <input type="hidden" name="pdf" value="ok">
+        <input type="hidden" name="zoom" value="1">
+        <input type="hidden" name="page" value="1">
+        <input type="hidden" name="sort" value="0">
+        <input type="hidden" name="ctor" value="0">
+        <input type="hidden" name="lfor" value="0">
+        <input type="hidden" name="utfrom" value="-1">
+        <input type="hidden" name="utto" value="-1">
+        <input type="hidden" name="ref" value="localhost">
+        <input type="hidden" name="pid" value="bG0Jj82HZXXJSCNeSlW3VA..">
+        <input type="hidden" name="qid" value="aqcBqaJyC3TLNgOmbR-aDRC7j2s5IqGL">
+      </div>
+      <!-- /.mf_searchbox_inner -->
+    </form>
+    <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul>
+  </div>
+
+
+  <script type="text/javascript">
+    GALFSRAM.jQuery(function () {
+      GALFSRAM.jQuery("#clearText").click(function () {
+        GALFSRAM.jQuery("#MF_form_phrase").val("");
+        GALFSRAM.jQuery("#clearText").css("display", "none");
+      });
+      GALFSRAM.jQuery("#MF_form_phrase").change(function () {
+        var mojiLength = GALFSRAM.jQuery("#MF_form_phrase").val().length;
+        if (mojiLength > 0) {
+          GALFSRAM.jQuery("#clearText").css("display", "block");
+        } else {
+          GALFSRAM.jQuery("#clearText").css("display", "none");
+        }
+      });
+    });
+
+  </script>
+
+  <!-- Toggle Menu -->
+
+
+
+  <div class="mf_category">
+    <p class="mf_cate_title">カテゴリ</p>
+    <ul>
+      <li><input type="radio" id="ctall" name="ct" value="" class="mf_ct_mode_" checked="checked" onclick="location.href=&quot;search.x?q=%E5%88%B6%E4%BD%9C&amp;ie=utf8&amp;cat=0&amp;pagemax=10&amp;imgsize=1&amp;pdf=ok&amp;zoom=1&amp;sort=0&amp;ctor=0&amp;lfor=0&amp;utfrom=-1&amp;utto=-1&amp;ref=localhost&amp;pid=bG0Jj82HZXXJSCNeSlW3VA..&amp;qid=aqcBqaJyC3TLNgOmbR-aDRC7j2s5IqGL&amp;ct=&quot;">
+        <label
+          for="ctall">すべて</label>
+      </li>
+      <li><input type="radio" id="ct0" name="ct" value="よくあるご質問" onclick="location.href=&quot;search.x?q=%E5%88%B6%E4%BD%9C&amp;ie=utf8&amp;cat=0&amp;pagemax=10&amp;imgsize=1&amp;pdf=ok&amp;zoom=1&amp;sort=0&amp;ctor=0&amp;lfor=0&amp;utfrom=-1&amp;utto=-1&amp;ref=localhost&amp;pid=bG0Jj82HZXXJSCNeSlW3VA..&amp;qid=aqcBqaJyC3TLNgOmbR-aDRC7j2s5IqGL&amp;ct=%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%81%94%E8%B3%AA%E5%95%8F&quot;">
+        <label
+          for="ct0">よくあるご質問</label>
+      </li>
+    </ul>
+  </div>
+  <!-- /.mf_category -->
+
+
+
+</div>
+      <!-- mf_searcharea -->
+    </div>
+    <!-- header -->
+
+    <!-- MARS FINDER Recommend Pages -->
+
+    <!-- MARS FINDER Contents -->
+    <div id="mf_contentsbg">
+      <div id="mf_contents">
+
+
+        <!-- Narrow Down -->
+
+
+        <!-- Search Results -->
+        <div class="mf_result_wide">
+          <ul id="mf_results">
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html" target="_top" onclick="return cl.web(this,'bzmz_K49HpPyVefLs0QFld-N9BWjndIci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TRbTXL82P2-Eq0zKyS7jmUZOzPT0-g8Nzw06mR9-RB09_V7MlBlAUBvFnqQ8XD8LJNTnoYlq3yas0VIjmcSDB7i_X3xtqfoeo.');">
+                  <font class="titb">Kao AEM Sites Manual Website</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Sites, sites.This...creation. page, required.About...added. (Store Link List)added list.</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html" onclick="return cl.web(this,'bzmz_K49HpPyVefLs0QFld-N9BWjndIci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TRbTXL82P2-Eq0zKyS7jmUZOzPT0-g8Nzw06mR9-RB09_V7MlBlAUBvFnqQ8XD8LJNTnoYlq3yas0VIjmcSDB7i_X3xtqfoeo.');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf1">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html" onclick="return cl.web(this,'bzmz_K49HpPyVefLs0QFld-N9BWjndIci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TRbTXL82P2-Eq0zKyS7jmUZOzPT0-g8Nzw06mR9-RB09_V7MlBlAUBvFnqQ8XD8LJNTnoYlq3yas0VIjmcSDB7i_X3xtqfoeo.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0tgGKr0EjmhwIVy-KJ_irI."
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'bzmz_K49HpPyVefLs0QFld-N9BWjndIci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TRbTXL82P2-Eq0zKyS7jmUZOzPT0-g8Nzw06mR9-RB09_V7MlBlAUBvFnqQ8XD8LJNTnoYlq3yas0VIjmcSDB7i_X3xtqfoeo.','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0tgGKr0EjmhwIVy-KJ_irI."
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf1">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html" onclick="return cl.web(this,'bzmz_K49HpPyVefLs0QFld-N9BWjndIci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TRbTXL82P2-Eq0zKyS7jmUZOzPT0-g8Nzw06mR9-RB09_V7MlBlAUBvFnqQ8XD8LJNTnoYlq3yas0VIjmcSDB7i_X3xtqfoeo.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0tgGKr0EjmhwIVy-KJ_irI."
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html" onclick="return cl.web(this,'bzmz_K49HpPyVefLs0QFld-N9BWjndIci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TRbTXL82P2-Eq0zKyS7jmUZOzPT0-g8Nzw06mR9-RB09_V7MlBlAUBvFnqQ8XD8LJNTnoYlq3yas0VIjmcSDB7i_X3xtqfoeo.');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Kao AEM Sites Manual Website</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                                                                                                                                      <!--//
+                                                                                                                                        env.docs.push({ "opts": {}, "title": "Kao AEM Sites Manual Website", "count": 1, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "18.430405", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Kao AEM Sites Manual Website", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html", "startbody": "Kao\nAEM\nSites\nManual\nWebsite\nIt\ngives\nthe\nsupport\ninformation\nfor\nusing\nAEM\nSites,\nright\nfrom\nthe\nbasic\nmethod\nfor\nusing\nAEM\nSites\ntill\nthe\nusage\nof\ntemplates\nduring\nwebsite\ncreation\nflow\nin\nAEM\nsites.This\nis\nuseful\nfor\nunderstanding\nthe\nspecific\nprocedure", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.25" }, "seq": "bzmz_K49HpPyVefLs0QFld-N9BWjndIci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TRbTXL82P2-Eq0zKyS7jmUZOzPT0-g8Nzw06mR9-RB09_V7MlBlAUBvFnqQ8XD8LJNTnoYlq3yas0VIjmcSDB7i_X3xtqfoeo.", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhWyfv_dYquQKyHL5N9Ocdi9WJJC4wAg8mk.", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0tgGKr0EjmhwIVy-KJ_irI.", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0tgGKr0EjmhwIVy-KJ_irI.", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0tgGKr0EjmhwIVy-KJ_irI." }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Sites, sites.This", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "creation. page, required.About", "type": "h2_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "added. (Store Link List)added list.", "type": "h2_neigh_2" }], "highlight": { "title": [{ "id": 0, "text": "Kao AEM Sites Manual Website", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "index.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/index.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html"
+                  target="_top" onclick="return cl.web(this,'ujqBX3po_h9UEsa0NowjyVrJwhN_DNQni4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyGFV7NVWp01BNq2pW9JH_0b1S9UHjD1r0pyPJjOnbCyJ8EXKMoYLLnBLA_nRByr3tLNvRDloiTnEqrU0VJdwDFj_t7fIDC1cbcSPy_3BOYty8Ab_D37KKQQ.');">
+                  <font class="titb">About Manual Website | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Website.Kao...Website....Sites.This (assortment of page templates)...Sites.Beginning Sites, procedures,...Sites....section,
+                videos. Sites.</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html"
+                  onclick="return cl.web(this,'ujqBX3po_h9UEsa0NowjyVrJwhN_DNQni4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyGFV7NVWp01BNq2pW9JH_0b1S9UHjD1r0pyPJjOnbCyJ8EXKMoYLLnBLA_nRByr3tLNvRDloiTnEqrU0VJdwDFj_t7fIDC1cbcSPy_3BOYty8Ab_D37KKQQ.');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf2">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html"
+                  onclick="return cl.web(this,'ujqBX3po_h9UEsa0NowjyVrJwhN_DNQni4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyGFV7NVWp01BNq2pW9JH_0b1S9UHjD1r0pyPJjOnbCyJ8EXKMoYLLnBLA_nRByr3tLNvRDloiTnEqrU0VJdwDFj_t7fIDC1cbcSPy_3BOYty8Ab_D37KKQQ.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfiObuKgV-yGJK0SiYXuFXqF_-JCyjh_ix"
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'ujqBX3po_h9UEsa0NowjyVrJwhN_DNQni4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyGFV7NVWp01BNq2pW9JH_0b1S9UHjD1r0pyPJjOnbCyJ8EXKMoYLLnBLA_nRByr3tLNvRDloiTnEqrU0VJdwDFj_t7fIDC1cbcSPy_3BOYty8Ab_D37KKQQ.','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfiObuKgV-yGJK0SiYXuFXqF_-JCyjh_ix"
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf2">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html"
+                    onclick="return cl.web(this,'ujqBX3po_h9UEsa0NowjyVrJwhN_DNQni4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyGFV7NVWp01BNq2pW9JH_0b1S9UHjD1r0pyPJjOnbCyJ8EXKMoYLLnBLA_nRByr3tLNvRDloiTnEqrU0VJdwDFj_t7fIDC1cbcSPy_3BOYty8Ab_D37KKQQ.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfiObuKgV-yGJK0SiYXuFXqF_-JCyjh_ix"
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html"
+                      onclick="return cl.web(this,'ujqBX3po_h9UEsa0NowjyVrJwhN_DNQni4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyGFV7NVWp01BNq2pW9JH_0b1S9UHjD1r0pyPJjOnbCyJ8EXKMoYLLnBLA_nRByr3tLNvRDloiTnEqrU0VJdwDFj_t7fIDC1cbcSPy_3BOYty8Ab_D37KKQQ.');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">About Manual Website | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                               <!--//
+                                 env.docs.push({ "opts": {}, "title": "About Manual Website | AEM Sites Manual Websites", "count": 2, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "17.587074", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "About Manual Website | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html", "startbody": "About\nManual\nWebsite\nThis\npage\ngives\nmajor\ncategory\nwise\nintroduction\nof\ninformation\nprovided\nin\nKao\nAEM\nSites\nManual\nWebsite.\nKao\nAEM\nSites\nManual\nWebsite\nBasic\nInformation\nfor\nusing\nAEM\nSites\nUsage\nMethod\nof\nProvided\nTemplates\nType\nOther\nSupporting\nInfor", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.25" }, "seq": "ujqBX3po_h9UEsa0NowjyVrJwhN_DNQni4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyGFV7NVWp01BNq2pW9JH_0b1S9UHjD1r0pyPJjOnbCyJ8EXKMoYLLnBLA_nRByr3tLNvRDloiTnEqrU0VJdwDFj_t7fIDC1cbcSPy_3BOYty8Ab_D37KKQQ.", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhVdi4G-g58NuqPgaJ4I743ss6mH5JjoDFNLYBiq9BI5ocCFcviif4qy", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfiObuKgV-yGJK0SiYXuFXqF_-JCyjh_ix", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfiObuKgV-yGJK0SiYXuFXqF_-JCyjh_ix", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfiObuKgV-yGJK0SiYXuFXqF_-JCyjh_ix" }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Website.Kao", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Website.", "type": "startbody" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites.This (assortment of page templates)", "type": "h2_neigh_3" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites.Beginning Sites, procedures,", "type": "h2_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites.", "type": "h2_neigh_2" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "section, videos. Sites.", "type": "h2_neigh_4" }], "highlight": { "title": [{ "id": 0, "text": "About Manual Website | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "manual_index.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/manual_index.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html" target="_top"
+                  onclick="return cl.web(this,'9Qbwg6yZBBbXWoW38L1jtbZJthCtMI7ai4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyPM4WPmIADUg-g612UXSA3Oqpj5U2DGSmSyenN2MEeNyK3ZNr3BiP1rDMxKIyBkC9zxzQNtX2AsYui6ZtMIyyea8WiQphqR1tK5frdqx4wv6');">
+                  <font class="titb">Contact Us | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Sites, address....entered. aem_sites_support@kao.co.jpContent (Please use copy&amp;paste).Company/Full</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html"
+                  onclick="return cl.web(this,'9Qbwg6yZBBbXWoW38L1jtbZJthCtMI7ai4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyPM4WPmIADUg-g612UXSA3Oqpj5U2DGSmSyenN2MEeNyK3ZNr3BiP1rDMxKIyBkC9zxzQNtX2AsYui6ZtMIyyea8WiQphqR1tK5frdqx4wv6');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf3">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html" onclick="return cl.web(this,'9Qbwg6yZBBbXWoW38L1jtbZJthCtMI7ai4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyPM4WPmIADUg-g612UXSA3Oqpj5U2DGSmSyenN2MEeNyK3ZNr3BiP1rDMxKIyBkC9zxzQNtX2AsYui6ZtMIyyea8WiQphqR1tK5frdqx4wv6');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfPkQGo8zLzx1KVupt3SdEOI1_vSHFepcx"
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'9Qbwg6yZBBbXWoW38L1jtbZJthCtMI7ai4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyPM4WPmIADUg-g612UXSA3Oqpj5U2DGSmSyenN2MEeNyK3ZNr3BiP1rDMxKIyBkC9zxzQNtX2AsYui6ZtMIyyea8WiQphqR1tK5frdqx4wv6','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfPkQGo8zLzx1KVupt3SdEOI1_vSHFepcx"
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf3">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html" onclick="return cl.web(this,'9Qbwg6yZBBbXWoW38L1jtbZJthCtMI7ai4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyPM4WPmIADUg-g612UXSA3Oqpj5U2DGSmSyenN2MEeNyK3ZNr3BiP1rDMxKIyBkC9zxzQNtX2AsYui6ZtMIyyea8WiQphqR1tK5frdqx4wv6');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfPkQGo8zLzx1KVupt3SdEOI1_vSHFepcx"
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html" onclick="return cl.web(this,'9Qbwg6yZBBbXWoW38L1jtbZJthCtMI7ai4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyPM4WPmIADUg-g612UXSA3Oqpj5U2DGSmSyenN2MEeNyK3ZNr3BiP1rDMxKIyBkC9zxzQNtX2AsYui6ZtMIyyea8WiQphqR1tK5frdqx4wv6');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Contact Us | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                                                                                                                                                    <!--//
+                                                                                                                                                      env.docs.push({ "opts": {}, "title": "Contact Us | AEM Sites Manual Websites", "count": 3, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "14.06966", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Contact Us | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html", "startbody": "Contact\nUs\nIf\nyou\nhave\nany\nquestions\nrelated\nto\nthis\nmanual\nwebsite\nand\nAEM\nSites,\nplease\ncontact\nus\non\nbelow\naddress.\nBefore\nyou\ncontact\nus\nGiven\nbelow\nare\nthe\nFrequently\nasked\nquestion\nwhile\nusing\nAEM\nSites.Please\nuse\nit\nwhile\nsolving\ndoubts\nand\nquestion", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "9Qbwg6yZBBbXWoW38L1jtbZJthCtMI7ai4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyPM4WPmIADUg-g612UXSA3Oqpj5U2DGSmSyenN2MEeNyK3ZNr3BiP1rDMxKIyBkC9zxzQNtX2AsYui6ZtMIyyea8WiQphqR1tK5frdqx4wv6", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhVdi4G-g58NuqPgaJ4I743s_N_0i_Rl-Wi6EziAl1tOqQ..", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfPkQGo8zLzx1KVupt3SdEOI1_vSHFepcx", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfPkQGo8zLzx1KVupt3SdEOI1_vSHFepcx", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfPkQGo8zLzx1KVupt3SdEOI1_vSHFepcx" }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Sites, address.", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "entered. aem_sites_support@kao.co.jpContent (Please use copy&paste).Company/Full", "type": "h2_neigh_1" }], "highlight": { "title": [{ "id": 0, "text": "Contact Us | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "inquiries.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/inquiries.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html" target="_top"
+                  onclick="return cl.web(this,'zOEp1nxc8VYKXSsWBCdbyz9cc4kGZVSGi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_RpDjVl2vQwEqp6-gEreh6r8pO-FnMCrIV8qSUYoiFTRFdo5CtwcA7acIr_hAEWOM-mUhuVnGQksoFpYzM3_zicykk7xSym4wXahJXYGDosvKLGswjWocKf');">
+                  <font class="titb">Select Language | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet"></p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html"
+                  onclick="return cl.web(this,'zOEp1nxc8VYKXSsWBCdbyz9cc4kGZVSGi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_RpDjVl2vQwEqp6-gEreh6r8pO-FnMCrIV8qSUYoiFTRFdo5CtwcA7acIr_hAEWOM-mUhuVnGQksoFpYzM3_zicykk7xSym4wXahJXYGDosvKLGswjWocKf');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf4">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html" onclick="return cl.web(this,'zOEp1nxc8VYKXSsWBCdbyz9cc4kGZVSGi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_RpDjVl2vQwEqp6-gEreh6r8pO-FnMCrIV8qSUYoiFTRFdo5CtwcA7acIr_hAEWOM-mUhuVnGQksoFpYzM3_zicykk7xSym4wXahJXYGDosvKLGswjWocKf');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0COh3vgZfdRkgfVVTlBJRJv80klOkaNfg.."
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'zOEp1nxc8VYKXSsWBCdbyz9cc4kGZVSGi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_RpDjVl2vQwEqp6-gEreh6r8pO-FnMCrIV8qSUYoiFTRFdo5CtwcA7acIr_hAEWOM-mUhuVnGQksoFpYzM3_zicykk7xSym4wXahJXYGDosvKLGswjWocKf','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0COh3vgZfdRkgfVVTlBJRJv80klOkaNfg.."
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf4">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html" onclick="return cl.web(this,'zOEp1nxc8VYKXSsWBCdbyz9cc4kGZVSGi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_RpDjVl2vQwEqp6-gEreh6r8pO-FnMCrIV8qSUYoiFTRFdo5CtwcA7acIr_hAEWOM-mUhuVnGQksoFpYzM3_zicykk7xSym4wXahJXYGDosvKLGswjWocKf');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0COh3vgZfdRkgfVVTlBJRJv80klOkaNfg.."
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html" onclick="return cl.web(this,'zOEp1nxc8VYKXSsWBCdbyz9cc4kGZVSGi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_RpDjVl2vQwEqp6-gEreh6r8pO-FnMCrIV8qSUYoiFTRFdo5CtwcA7acIr_hAEWOM-mUhuVnGQksoFpYzM3_zicykk7xSym4wXahJXYGDosvKLGswjWocKf');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Select Language | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                                                                                                                                                <!--//
+                                                                                                                                                  env.docs.push({ "opts": {}, "title": "Select Language | AEM Sites Manual Websites", "count": 4, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "14.744324", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Select Language | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html", "startbody": "Select\nLanguage\n日本語\nEnglish\nAbout\nAEM\nSites\nPurpose\nof\nAEM\nSites\nImplementation\nUsage\nEnvironment\nof\nAEM\nSites\nAuthoring\nScreen\nof\nAEM\nSites\nBasic\nOperations\nof\nAEM\nSites\nCreation\nFlow\nWebsite\nCreation\nFlow\nWebsite\nPublish\nRequest\nFlow\nBasic\nRules\nof\nWebsi", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "zOEp1nxc8VYKXSsWBCdbyz9cc4kGZVSGi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_RpDjVl2vQwEqp6-gEreh6r8pO-FnMCrIV8qSUYoiFTRFdo5CtwcA7acIr_hAEWOM-mUhuVnGQksoFpYzM3_zicykk7xSym4wXahJXYGDosvKLGswjWocKf", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhUe_tMttsO1ut3aL1RyUte558r2bYJz5K1f_iQso4f4sQ..", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0COh3vgZfdRkgfVVTlBJRJv80klOkaNfg..", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0COh3vgZfdRkgfVVTlBJRJv80klOkaNfg..", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC0COh3vgZfdRkgfVVTlBJRJv80klOkaNfg.." }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [], "highlight": { "title": [{ "id": 0, "text": "Select Language | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "select_language.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/select_language.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html"
+                  target="_top" onclick="return cl.web(this,'spOQVi2PfMkNR9w50IGT62qW1F_oUGbDi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TcKDyCZl47RVcXHLf6MW4P8YLM7qsZKbiplqhooSet8WTsz09PoPDc8NOpkffkQdPf1ezJQZQFAbxZ6kPFw_CyTU56GJat8mrNFSI5nEgwe4v198ban6Hq');">
+                  <font class="titb">Usage Environment of AEM Sites | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Sites, flow.During creation, area....Sites, environments, i.e. Area, Area....Sites.Purpose...used.Website</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html"
+                  onclick="return cl.web(this,'spOQVi2PfMkNR9w50IGT62qW1F_oUGbDi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TcKDyCZl47RVcXHLf6MW4P8YLM7qsZKbiplqhooSet8WTsz09PoPDc8NOpkffkQdPf1ezJQZQFAbxZ6kPFw_CyTU56GJat8mrNFSI5nEgwe4v198ban6Hq');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf5">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html"
+                  onclick="return cl.web(this,'spOQVi2PfMkNR9w50IGT62qW1F_oUGbDi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TcKDyCZl47RVcXHLf6MW4P8YLM7qsZKbiplqhooSet8WTsz09PoPDc8NOpkffkQdPf1ezJQZQFAbxZ6kPFw_CyTU56GJat8mrNFSI5nEgwe4v198ban6Hq');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC43Z7WDT3O7MM0KjH0gWXGXYP8sR93gzScCFcviif4qy"
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'spOQVi2PfMkNR9w50IGT62qW1F_oUGbDi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TcKDyCZl47RVcXHLf6MW4P8YLM7qsZKbiplqhooSet8WTsz09PoPDc8NOpkffkQdPf1ezJQZQFAbxZ6kPFw_CyTU56GJat8mrNFSI5nEgwe4v198ban6Hq','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC43Z7WDT3O7MM0KjH0gWXGXYP8sR93gzScCFcviif4qy"
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf5">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html"
+                    onclick="return cl.web(this,'spOQVi2PfMkNR9w50IGT62qW1F_oUGbDi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TcKDyCZl47RVcXHLf6MW4P8YLM7qsZKbiplqhooSet8WTsz09PoPDc8NOpkffkQdPf1ezJQZQFAbxZ6kPFw_CyTU56GJat8mrNFSI5nEgwe4v198ban6Hq');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC43Z7WDT3O7MM0KjH0gWXGXYP8sR93gzScCFcviif4qy"
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html"
+                      onclick="return cl.web(this,'spOQVi2PfMkNR9w50IGT62qW1F_oUGbDi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TcKDyCZl47RVcXHLf6MW4P8YLM7qsZKbiplqhooSet8WTsz09PoPDc8NOpkffkQdPf1ezJQZQFAbxZ6kPFw_CyTU56GJat8mrNFSI5nEgwe4v198ban6Hq');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Usage Environment of AEM Sites | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                               <!--//
+                                 env.docs.push({ "opts": {}, "title": "Usage Environment of AEM Sites | AEM Sites Manual Websites", "count": 5, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "14.06966", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Usage Environment of AEM Sites | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html", "startbody": "About\nAEM\nSites\nUsage\nEnvironment\nof\nAEM\nSites\nUsage\nEnvironment\nof\nAEM\nSites\nIn\nAEM\nSites,\nthere\nare\ntask\nareas\nassociated\nwith\nwebsite\ncreation/\npublishing\nflow.During\nwebsite\ncreation,\nplease\nexecute\nthe\ntask\nafter\nclearly\nunderstanding\nthe\nroles\nand\npo", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "spOQVi2PfMkNR9w50IGT62qW1F_oUGbDi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TcKDyCZl47RVcXHLf6MW4P8YLM7qsZKbiplqhooSet8WTsz09PoPDc8NOpkffkQdPf1ezJQZQFAbxZ6kPFw_CyTU56GJat8mrNFSI5nEgwe4v198ban6Hq", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhXE2xraSHmCKhzwI-hqfMwpS36pkK-nG7BWKv5x33CXYViSQuMAIPJp", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC43Z7WDT3O7MM0KjH0gWXGXYP8sR93gzScCFcviif4qy", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC43Z7WDT3O7MM0KjH0gWXGXYP8sR93gzScCFcviif4qy", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC43Z7WDT3O7MM0KjH0gWXGXYP8sR93gzScCFcviif4qy" }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Sites, flow.During creation, area.", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites, environments, i.e. Area, Area.", "type": "h2_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites.Purpose", "type": "h2_neigh_2" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "used.Website", "type": "h2_neigh_3" }], "highlight": { "title": [{ "id": 0, "text": "Usage Environment of AEM Sites | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "environment.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/about_aem/environment.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html" target="_top"
+                  onclick="return cl.web(this,'Kq4i5-cupUlWIhyVczRu8IaoE0mCFAuci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TuLzFep4ub9vVqRyzQlL7BcyHWPhSm7eOqN96BD1IVGYJ2OFXjbcthBso6aKHAIjd2RKRk0i8kg4mt7H6-XmHMpD6FF75s38IJ6ExeZZDqj8DE9B4CV7ja');">
+                  <font class="titb">Initial Settings | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Sites.Pre-requisites (Planning / Designing)...Sites. (Planning / Designing)...(assortment of page templates)
+                efficiently. Sites,...requirement. preparation, copy, page, customization.Please...Sites, templates, page.Authoring...Sites,
+                configuration. Kit, state,...Sites, website, possible. used,...website. image.Creation...r</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html"
+                  onclick="return cl.web(this,'Kq4i5-cupUlWIhyVczRu8IaoE0mCFAuci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TuLzFep4ub9vVqRyzQlL7BcyHWPhSm7eOqN96BD1IVGYJ2OFXjbcthBso6aKHAIjd2RKRk0i8kg4mt7H6-XmHMpD6FF75s38IJ6ExeZZDqj8DE9B4CV7ja');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf6">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html" onclick="return cl.web(this,'Kq4i5-cupUlWIhyVczRu8IaoE0mCFAuci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TuLzFep4ub9vVqRyzQlL7BcyHWPhSm7eOqN96BD1IVGYJ2OFXjbcthBso6aKHAIjd2RKRk0i8kg4mt7H6-XmHMpD6FF75s38IJ6ExeZZDqj8DE9B4CV7ja');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC74fafUlo_HFmaH9qg7SsPOQBx3GawWKGliSQuMAIPJp"
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'Kq4i5-cupUlWIhyVczRu8IaoE0mCFAuci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TuLzFep4ub9vVqRyzQlL7BcyHWPhSm7eOqN96BD1IVGYJ2OFXjbcthBso6aKHAIjd2RKRk0i8kg4mt7H6-XmHMpD6FF75s38IJ6ExeZZDqj8DE9B4CV7ja','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC74fafUlo_HFmaH9qg7SsPOQBx3GawWKGliSQuMAIPJp"
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf6">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html" onclick="return cl.web(this,'Kq4i5-cupUlWIhyVczRu8IaoE0mCFAuci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TuLzFep4ub9vVqRyzQlL7BcyHWPhSm7eOqN96BD1IVGYJ2OFXjbcthBso6aKHAIjd2RKRk0i8kg4mt7H6-XmHMpD6FF75s38IJ6ExeZZDqj8DE9B4CV7ja');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC74fafUlo_HFmaH9qg7SsPOQBx3GawWKGliSQuMAIPJp"
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html" onclick="return cl.web(this,'Kq4i5-cupUlWIhyVczRu8IaoE0mCFAuci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TuLzFep4ub9vVqRyzQlL7BcyHWPhSm7eOqN96BD1IVGYJ2OFXjbcthBso6aKHAIjd2RKRk0i8kg4mt7H6-XmHMpD6FF75s38IJ6ExeZZDqj8DE9B4CV7ja');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Initial Settings | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                                                                                                                                                     <!--//
+                                                                                                                                                       env.docs.push({ "opts": {}, "title": "Initial Settings | AEM Sites Manual Websites", "count": 6, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "14.06966", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Initial Settings | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html", "startbody": "Basic\nConfiguration\nInitial\nSettings\nInitial\nSettings\nThis\nsection\ndescribes\nthe\ninitial\nsteps\nto\nbe\nperformed\nby\nthe\nauthor\nwhile\nstarting\nwith\nthe\nwebsite\ncreation\nusing\nAEM\nSites.\nPre-requisites\n(Planning\n/\nDesigning)\nSelection\nof\nthe\nStarter\nKit\nCustom", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "Kq4i5-cupUlWIhyVczRu8IaoE0mCFAuci4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TuLzFep4ub9vVqRyzQlL7BcyHWPhSm7eOqN96BD1IVGYJ2OFXjbcthBso6aKHAIjd2RKRk0i8kg4mt7H6-XmHMpD6FF75s38IJ6ExeZZDqj8DE9B4CV7ja", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhUe_tMttsO1us_kwAMXjPvq1chr63ouZMyqB37uUAd4OY1_vSHFepcx", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC74fafUlo_HFmaH9qg7SsPOQBx3GawWKGliSQuMAIPJp", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC74fafUlo_HFmaH9qg7SsPOQBx3GawWKGliSQuMAIPJp", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC74fafUlo_HFmaH9qg7SsPOQBx3GawWKGliSQuMAIPJp" }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Sites.Pre-requisites (Planning / Designing)", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites. (Planning / Designing)", "type": "startbody" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "(assortment of page templates) efficiently. Sites,", "type": "h2_neigh_2" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "requirement. preparation, copy, page, customization.Please", "type": "h2_neigh_3" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites, templates, page.Authoring", "type": "h2_neigh_8" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites, configuration. Kit, state,", "type": "h2_neigh_5" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites, website, possible. used,", "type": "h2_neigh_6" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "website. image.Creation", "type": "h2_neigh_4" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "r", "type": "h2_neigh_7" }], "highlight": { "title": [{ "id": 0, "text": "Initial Settings | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "initialization.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/setup/initialization.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html" target="_top"
+                  onclick="return cl.web(this,'QBYt7uUIlYUzzYSDgD8KT2bTu16Vp2zFi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TfIAZgMf3LsSYYIpc4_hhTvVIpJVU1eKliGQZ7kRbWHW7FwEZmUHDZyfC-yw4bwzRRnnQOqKpIthud0nO1jKKonRbFxBxaB0ugF5m7e1Xwog..');">
+                  <font class="titb">Page Templates | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Sites, used, page. Sites, configuration, etc....use, convey.Please templates.About</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html"
+                  onclick="return cl.web(this,'QBYt7uUIlYUzzYSDgD8KT2bTu16Vp2zFi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TfIAZgMf3LsSYYIpc4_hhTvVIpJVU1eKliGQZ7kRbWHW7FwEZmUHDZyfC-yw4bwzRRnnQOqKpIthud0nO1jKKonRbFxBxaB0ugF5m7e1Xwog..');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf7">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html" onclick="return cl.web(this,'QBYt7uUIlYUzzYSDgD8KT2bTu16Vp2zFi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TfIAZgMf3LsSYYIpc4_hhTvVIpJVU1eKliGQZ7kRbWHW7FwEZmUHDZyfC-yw4bwzRRnnQOqKpIthud0nO1jKKonRbFxBxaB0ugF5m7e1Xwog..');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC80MjRqILxKKP9EfJsUewYY."
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'QBYt7uUIlYUzzYSDgD8KT2bTu16Vp2zFi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TfIAZgMf3LsSYYIpc4_hhTvVIpJVU1eKliGQZ7kRbWHW7FwEZmUHDZyfC-yw4bwzRRnnQOqKpIthud0nO1jKKonRbFxBxaB0ugF5m7e1Xwog..','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC80MjRqILxKKP9EfJsUewYY."
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf7">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html" onclick="return cl.web(this,'QBYt7uUIlYUzzYSDgD8KT2bTu16Vp2zFi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TfIAZgMf3LsSYYIpc4_hhTvVIpJVU1eKliGQZ7kRbWHW7FwEZmUHDZyfC-yw4bwzRRnnQOqKpIthud0nO1jKKonRbFxBxaB0ugF5m7e1Xwog..');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC80MjRqILxKKP9EfJsUewYY."
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html" onclick="return cl.web(this,'QBYt7uUIlYUzzYSDgD8KT2bTu16Vp2zFi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TfIAZgMf3LsSYYIpc4_hhTvVIpJVU1eKliGQZ7kRbWHW7FwEZmUHDZyfC-yw4bwzRRnnQOqKpIthud0nO1jKKonRbFxBxaB0ugF5m7e1Xwog..');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Page Templates | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                                                                                                                                          <!--//
+                                                                                                                                            env.docs.push({ "opts": {}, "title": "Page Templates | AEM Sites Manual Websites", "count": 7, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "14.744324", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Page Templates | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html", "startbody": "Page\nTemplates\nWhile\ncreating\nwebsites\nby\nusing\nAEM\nSites,\nfirst\nof\nall\nselect\nthe\ntemplate\nto\nbe\nused,\nand\nthen\ncreate\nand\nedit\nthe\npage.\nThis\nsection\ndescribes\nthe\noverview\nand\ntypes\nof\npage\ntemplates\nthat\nare\navailable\nin\nAEM\nSites,\npage\nproperties\nconf", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "QBYt7uUIlYUzzYSDgD8KT2bTu16Vp2zFi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_TfIAZgMf3LsSYYIpc4_hhTvVIpJVU1eKliGQZ7kRbWHW7FwEZmUHDZyfC-yw4bwzRRnnQOqKpIthud0nO1jKKonRbFxBxaB0ugF5m7e1Xwog..", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhUREpTx6pmbKm0r70yvLRpqURBBbKrN7ms.", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC80MjRqILxKKP9EfJsUewYY.", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC80MjRqILxKKP9EfJsUewYY.", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC80MjRqILxKKP9EfJsUewYY." }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Sites, used, page. Sites, configuration, etc.", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "use, convey.Please templates.About", "type": "h2_neigh_1" }], "highlight": { "title": [{ "id": 0, "text": "Page Templates | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "templates.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/templates.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html"
+                  target="_top" onclick="return cl.web(this,'OorvMp-raHl-PiPzufBC6VPhbVbOaGFwi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyJJ18kku-ulR0WwwuMrasVAIvPuliuAh1ao33oEPUhUZgnY4VeNty2EGyjpoocAiN3ZEpGTSLySDia3sfr5eYcykPoUXvmzfwgnoTF5lkOqPwMT0HgJXuNo.');">
+                  <font class="titb">Frequently Asked Questions about Website Navigation Configuration | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Configuration....Sites.GlossaryBasic Sites,</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html"
+                  onclick="return cl.web(this,'OorvMp-raHl-PiPzufBC6VPhbVbOaGFwi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyJJ18kku-ulR0WwwuMrasVAIvPuliuAh1ao33oEPUhUZgnY4VeNty2EGyjpoocAiN3ZEpGTSLySDia3sfr5eYcykPoUXvmzfwgnoTF5lkOqPwMT0HgJXuNo.');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf8">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html"
+                  onclick="return cl.web(this,'OorvMp-raHl-PiPzufBC6VPhbVbOaGFwi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyJJ18kku-ulR0WwwuMrasVAIvPuliuAh1ao33oEPUhUZgnY4VeNty2EGyjpoocAiN3ZEpGTSLySDia3sfr5eYcykPoUXvmzfwgnoTF5lkOqPwMT0HgJXuNo.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfBq5_PYop__Mw-BU8amhrPZAHHcZrBYoaWJJC4wAg8mk."
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'OorvMp-raHl-PiPzufBC6VPhbVbOaGFwi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyJJ18kku-ulR0WwwuMrasVAIvPuliuAh1ao33oEPUhUZgnY4VeNty2EGyjpoocAiN3ZEpGTSLySDia3sfr5eYcykPoUXvmzfwgnoTF5lkOqPwMT0HgJXuNo.','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfBq5_PYop__Mw-BU8amhrPZAHHcZrBYoaWJJC4wAg8mk."
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf8">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html"
+                    onclick="return cl.web(this,'OorvMp-raHl-PiPzufBC6VPhbVbOaGFwi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyJJ18kku-ulR0WwwuMrasVAIvPuliuAh1ao33oEPUhUZgnY4VeNty2EGyjpoocAiN3ZEpGTSLySDia3sfr5eYcykPoUXvmzfwgnoTF5lkOqPwMT0HgJXuNo.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfBq5_PYop__Mw-BU8amhrPZAHHcZrBYoaWJJC4wAg8mk."
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html"
+                      onclick="return cl.web(this,'OorvMp-raHl-PiPzufBC6VPhbVbOaGFwi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyJJ18kku-ulR0WwwuMrasVAIvPuliuAh1ao33oEPUhUZgnY4VeNty2EGyjpoocAiN3ZEpGTSLySDia3sfr5eYcykPoUXvmzfwgnoTF5lkOqPwMT0HgJXuNo.');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Frequently Asked Questions about Website Navigation Configuration | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                               <!--//
+                                 env.docs.push({ "opts": {}, "title": "Frequently Asked Questions about Website Navigation Configuration | AEM Sites Manual Websites", "count": 8, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "13.510427", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Frequently Asked Questions about Website Navigation Configuration | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html", "startbody": "Frequently\nAsked\nQuestions\nサイトナビゲーション設定についてよくあるご質問\nFrequently\nAsked\nQuestions\nabout\nWebsite\nNavigation\nConfiguration\nThis\nsection\nsummarizes\nFrequently\nAsked\nQuestions\nabout\nWebsite\nNavigation\nConfiguration.\nQ.\nThe\nmenu\nitems\nof\nWebsite\nNavigation\nare\nnot\n", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "OorvMp-raHl-PiPzufBC6VPhbVbOaGFwi4Jz95RJcR7YkkqYuNiDc7SdUsWuIp5dEPMh2oqq7rYARNuX20eyge6a1qQT741bct_lXZCZ29N25vnLfB5o8KUt0iMLk2bVC0D6Pr2Ot_SlVghAMhSHyJJ18kku-ulR0WwwuMrasVAIvPuliuAh1ao33oEPUhUZgnY4VeNty2EGyjpoocAiN3ZEpGTSLySDia3sfr5eYcykPoUXvmzfwgnoTF5lkOqPwMT0HgJXuNo.", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhVdi4G-g58NuqPgaJ4I743sFH2Olkgl_hy4pdBEmfwdpKoHfu5QB3g5jX-9IcV6lzE.", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfBq5_PYop__Mw-BU8amhrPZAHHcZrBYoaWJJC4wAg8mk.", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfBq5_PYop__Mw-BU8amhrPZAHHcZrBYoaWJJC4wAg8mk.", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC7Fo9BN1jrOfBq5_PYop__Mw-BU8amhrPZAHHcZrBYoaWJJC4wAg8mk." }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Configuration.", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Sites.GlossaryBasic Sites,", "type": "h2_neigh_1" }], "highlight": { "title": [{ "id": 0, "text": "Frequently Asked Questions about Website Navigation Configuration | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "faq_navigation.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/S_Support/faq/faq_navigation.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html" target="_top"
+                  onclick="return cl.web(this,'48mFNEcXDMpAf5J8FIOhluC7ZQiUsWvQ598rfw4XWxeXxWMGbCzqkGAomXNF6qhVeMdxGNanLqXBSj7AO39YitBxc70cNFvt87m7uHzKHoxhYqng0e7KmB_aBbBRIYXKmDHjJpRbxahQlamB1V1sBTFsBKCmlp0ja36KSMZ1K5mCdjhV423LYQbKOmihwCI3dkSkZNIvJIOJrex-vl5hzKQ-hRe-bN_CCehMXmWQ6o_AxPQeAle42g..');">
+                  <font class="titb">Components List | AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">Sites, components, design....templates.Authoring...horizontally.These need.Section...contents. available, text,</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html"
+                  onclick="return cl.web(this,'48mFNEcXDMpAf5J8FIOhluC7ZQiUsWvQ598rfw4XWxeXxWMGbCzqkGAomXNF6qhVeMdxGNanLqXBSj7AO39YitBxc70cNFvt87m7uHzKHoxhYqng0e7KmB_aBbBRIYXKmDHjJpRbxahQlamB1V1sBTFsBKCmlp0ja36KSMZ1K5mCdjhV423LYQbKOmihwCI3dkSkZNIvJIOJrex-vl5hzKQ-hRe-bN_CCehMXmWQ6o_AxPQeAle42g..');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf9">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html" onclick="return cl.web(this,'48mFNEcXDMpAf5J8FIOhluC7ZQiUsWvQ598rfw4XWxeXxWMGbCzqkGAomXNF6qhVeMdxGNanLqXBSj7AO39YitBxc70cNFvt87m7uHzKHoxhYqng0e7KmB_aBbBRIYXKmDHjJpRbxahQlamB1V1sBTFsBKCmlp0ja36KSMZ1K5mCdjhV423LYQbKOmihwCI3dkSkZNIvJIOJrex-vl5hzKQ-hRe-bN_CCehMXmWQ6o_AxPQeAle42g..');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjzB6wT83Sar9v80klOkaNfg.."
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'48mFNEcXDMpAf5J8FIOhluC7ZQiUsWvQ598rfw4XWxeXxWMGbCzqkGAomXNF6qhVeMdxGNanLqXBSj7AO39YitBxc70cNFvt87m7uHzKHoxhYqng0e7KmB_aBbBRIYXKmDHjJpRbxahQlamB1V1sBTFsBKCmlp0ja36KSMZ1K5mCdjhV423LYQbKOmihwCI3dkSkZNIvJIOJrex-vl5hzKQ-hRe-bN_CCehMXmWQ6o_AxPQeAle42g..','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjzB6wT83Sar9v80klOkaNfg.."
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf9">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html" onclick="return cl.web(this,'48mFNEcXDMpAf5J8FIOhluC7ZQiUsWvQ598rfw4XWxeXxWMGbCzqkGAomXNF6qhVeMdxGNanLqXBSj7AO39YitBxc70cNFvt87m7uHzKHoxhYqng0e7KmB_aBbBRIYXKmDHjJpRbxahQlamB1V1sBTFsBKCmlp0ja36KSMZ1K5mCdjhV423LYQbKOmihwCI3dkSkZNIvJIOJrex-vl5hzKQ-hRe-bN_CCehMXmWQ6o_AxPQeAle42g..');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjzB6wT83Sar9v80klOkaNfg.."
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html" onclick="return cl.web(this,'48mFNEcXDMpAf5J8FIOhluC7ZQiUsWvQ598rfw4XWxeXxWMGbCzqkGAomXNF6qhVeMdxGNanLqXBSj7AO39YitBxc70cNFvt87m7uHzKHoxhYqng0e7KmB_aBbBRIYXKmDHjJpRbxahQlamB1V1sBTFsBKCmlp0ja36KSMZ1K5mCdjhV423LYQbKOmihwCI3dkSkZNIvJIOJrex-vl5hzKQ-hRe-bN_CCehMXmWQ6o_AxPQeAle42g..');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Components List | AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                                                                                                                                                <!--//
+                                                                                                                                                  env.docs.push({ "opts": {}, "title": "Components List | AEM Sites Manual Websites", "count": 9, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "14.06966", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Components List | AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html", "startbody": "Components\nComponents\nList\nComponents\nList\nIn\nAEM\nSites,\npatterns\nof\npart\ntypes\nfor\na\nvariety\nof\npurposes\nhave\nbeen\nmade\navailable\nas\ncomponents,\nso\nthat\neffective\npage\nlayouts\nwill\nbe\ncreated\nand\ncontents\nwill\nbe\ncompatible\nwith\nresponsive\nweb\ndesign.\nLay", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "48mFNEcXDMpAf5J8FIOhluC7ZQiUsWvQ598rfw4XWxeXxWMGbCzqkGAomXNF6qhVeMdxGNanLqXBSj7AO39YitBxc70cNFvt87m7uHzKHoxhYqng0e7KmB_aBbBRIYXKmDHjJpRbxahQlamB1V1sBTFsBKCmlp0ja36KSMZ1K5mCdjhV423LYQbKOmihwCI3dkSkZNIvJIOJrex-vl5hzKQ-hRe-bN_CCehMXmWQ6o_AxPQeAle42g..", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhU2bZJ6Pct-cmm23CjtkumPUdSYuqg1XB5f_iQso4f4sQ..", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjzB6wT83Sar9v80klOkaNfg..", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjzB6wT83Sar9v80klOkaNfg..", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjzB6wT83Sar9v80klOkaNfg.." }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "Sites, components, design.", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "templates.Authoring", "type": "h2_neigh_3" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "horizontally.These need.Section", "type": "h2_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "contents. available, text,", "type": "h2_neigh_2" }], "highlight": { "title": [{ "id": 0, "text": "Components List | AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "list.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/list.html" });
+							//-->
+            </script>
+            <li>
+              <!--[if lte IE 8]>
+	<div class="content_main">
+<![endif]-->
+              <h3 class="mf_pagetitle">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html"
+                  target="_top" onclick="return cl.web(this,'9-_JQFGz9Ff1V2nUeSHvLgCJM0EoQWXy3NRnOl7tdNEud1MZDqobtW6Z4AzCzSmRKXXAnin6r0ttnL1WpRmWhhYXtO_pSeXHryk4F_TTYOeU5Yq40CtczzvnEHPrnrePLqpTvHa40S_Zhc72Db0mf-G2wHNJBhEmgghUiB5bvc5ogX0vIp2mHVPeIsBPpxPf4bbAc0kGESYNu_CtfLRhMaqmPlTYMZKZLJ6c3YwR43Irdk2vcGI_WsMzEojIGQL3PHNA21fYCxi6Lpm0wjLJ5rxaJCmGpHW0rl-t2rHjC_o.');">
+                  <font class="titb">Component Configuration| AEM Sites Manual Websites</font>
+                </a>
+              </h3>
+              <p class="mf_snippet">nature, settings, adjustment.This configuration.How...details. list.About...Templates.Authoring...dialog.Types
+                component.[CONTENT] component. example,...editor.Place (as A). (as</p>
+              <p class="mf_url"><a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html"
+                  onclick="return cl.web(this,'9-_JQFGz9Ff1V2nUeSHvLgCJM0EoQWXy3NRnOl7tdNEud1MZDqobtW6Z4AzCzSmRKXXAnin6r0ttnL1WpRmWhhYXtO_pSeXHryk4F_TTYOeU5Yq40CtczzvnEHPrnrePLqpTvHa40S_Zhc72Db0mf-G2wHNJBhEmgghUiB5bvc5ogX0vIp2mHVPeIsBPpxPf4bbAc0kGESYNu_CtfLRhMaqmPlTYMZKZLJ6c3YwR43Irdk2vcGI_WsMzEojIGQL3PHNA21fYCxi6Lpm0wjLJ5rxaJCmGpHW0rl-t2rHjC_o.');">http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html</a></p>
+              <!--[if lte IE 8]>
+	</div>
+	<div class="content_img">
+<![endif]-->
+              <div class="mf_mbpp" data-color="mf10">
+                <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html"
+                  onclick="return cl.web(this,'9-_JQFGz9Ff1V2nUeSHvLgCJM0EoQWXy3NRnOl7tdNEud1MZDqobtW6Z4AzCzSmRKXXAnin6r0ttnL1WpRmWhhYXtO_pSeXHryk4F_TTYOeU5Yq40CtczzvnEHPrnrePLqpTvHa40S_Zhc72Db0mf-G2wHNJBhEmgghUiB5bvc5ogX0vIp2mHVPeIsBPpxPf4bbAc0kGESYNu_CtfLRhMaqmPlTYMZKZLJ6c3YwR43Irdk2vcGI_WsMzEojIGQL3PHNA21fYCxi6Lpm0wjLJ5rxaJCmGpHW0rl-t2rHjC_o.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjNy1g9-rguvVosxt0C4UIracHuLsfwccl0Hen_q32W-Ot8t6Nob-rkuOZTRrji2I5"
+                    class="mf_cap" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs96.gif';this.onerror=null;}"></a>
+
+
+                <a href="javascript:void(0);return false;" onclick="popupCheck(this,'9-_JQFGz9Ff1V2nUeSHvLgCJM0EoQWXy3NRnOl7tdNEud1MZDqobtW6Z4AzCzSmRKXXAnin6r0ttnL1WpRmWhhYXtO_pSeXHryk4F_TTYOeU5Yq40CtczzvnEHPrnrePLqpTvHa40S_Zhc72Db0mf-G2wHNJBhEmgghUiB5bvc5ogX0vIp2mHVPeIsBPpxPf4bbAc0kGESYNu_CtfLRhMaqmPlTYMZKZLJ6c3YwR43Irdk2vcGI_WsMzEojIGQL3PHNA21fYCxi6Lpm0wjLJ5rxaJCmGpHW0rl-t2rHjC_o.','http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html',1,false);"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjNy1g9-rguvVosxt0C4UIracHuLsfwccl0Hen_q32W-Ot8t6Nob-rkuOZTRrji2I5"
+                    class="mf_cap_large" onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}"></a>
+
+                <div class="mf_popup" id="mf10">
+                  <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html"
+                    onclick="return cl.web(this,'9-_JQFGz9Ff1V2nUeSHvLgCJM0EoQWXy3NRnOl7tdNEud1MZDqobtW6Z4AzCzSmRKXXAnin6r0ttnL1WpRmWhhYXtO_pSeXHryk4F_TTYOeU5Yq40CtczzvnEHPrnrePLqpTvHa40S_Zhc72Db0mf-G2wHNJBhEmgghUiB5bvc5ogX0vIp2mHVPeIsBPpxPf4bbAc0kGESYNu_CtfLRhMaqmPlTYMZKZLJ6c3YwR43Irdk2vcGI_WsMzEojIGQL3PHNA21fYCxi6Lpm0wjLJ5rxaJCmGpHW0rl-t2rHjC_o.');"><img src="cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjNy1g9-rguvVosxt0C4UIracHuLsfwccl0Hen_q32W-Ot8t6Nob-rkuOZTRrji2I5"
+                      onerror="if(this.src!='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif'){this.src='http://s.marsfinder.jp/mf2file/site/img/pcs320.gif';this.onerror=null;}">
+                    <a href="http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html"
+                      onclick="return cl.web(this,'9-_JQFGz9Ff1V2nUeSHvLgCJM0EoQWXy3NRnOl7tdNEud1MZDqobtW6Z4AzCzSmRKXXAnin6r0ttnL1WpRmWhhYXtO_pSeXHryk4F_TTYOeU5Yq40CtczzvnEHPrnrePLqpTvHa40S_Zhc72Db0mf-G2wHNJBhEmgghUiB5bvc5ogX0vIp2mHVPeIsBPpxPf4bbAc0kGESYNu_CtfLRhMaqmPlTYMZKZLJ6c3YwR43Irdk2vcGI_WsMzEojIGQL3PHNA21fYCxi6Lpm0wjLJ5rxaJCmGpHW0rl-t2rHjC_o.');">
+                      <h3 class="mf_poptext">
+                        <font class="titb">Component Configuration| AEM Sites Manual Websites</font>
+                      </h3>
+                    </a>
+                </div>
+              </div>
+              <!--[if lte IE 8]>
+	</div>
+<![endif]-->
+            </li>
+
+            <script language="javascript" type="text/javascript">
+                               <!--//
+                                 env.docs.push({ "opts": {}, "title": "Component Configuration| AEM Sites Manual Websites", "count": 10, "description": "", "attrs": { "og_locale": "", "og_description": "", "mf_weight_f": "13.510427", "pdfinfo_Encrypted": "", "mf_solution_offset": "0.0", "pdfinfo_PDF_version": "", "type": "html", "mf_url_weighting_offset": "0.0", "mf_weight_image_f": "1.0", "pdfinfo_Page_size": "", "og_image": "/etc/designs/docs/docs-aem-kao-com/sites-manual/img/og-image.png", "mf_redirected_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html", "pdfinfo_Producer": "", "og_site_name": "", "pdfinfo_ModDate": "", "mf_weight_ext_pdf_f": "1.0", "pdfinfo_CreationDate": "", "og_title": "Component Configuration| AEM Sites Manual Websites", "og_type": "website", "pdfinfo_Optimized": "", "pdfinfo_Creator": "", "mf_weight_flash_f": "1.0", "mf_cc_key_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html", "startbody": "Components\nBasic\nOperations\nof\nComponent\nComponent\nConfiguration\nComponent\nConfiguration\nBased\non\nits\nnature,\neach\ncomponent\nprovides\ndifferent\nsettings,\nsuch\nas\nspecifying\nthe\ndestination\nand\nthe\nlayout\nadjustment.This\nsection\ndescribes\nhow\nto\nuse\nthe\ndia", "bullet_icon": "", "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html", "og_url": "/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html", "pdfinfo_Author": "", "pdfinfo_Title": "", "mf_outword_url_s": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html", "pdfinfo_Tagged": "", "pdfinfo_File_size": "", "pdfinfo_Pages": "", "mf_weight_path_f": "2.0" }, "seq": "9-_JQFGz9Ff1V2nUeSHvLgCJM0EoQWXy3NRnOl7tdNEud1MZDqobtW6Z4AzCzSmRKXXAnin6r0ttnL1WpRmWhhYXtO_pSeXHryk4F_TTYOeU5Yq40CtczzvnEHPrnrePLqpTvHa40S_Zhc72Db0mf-G2wHNJBhEmgghUiB5bvc5ogX0vIp2mHVPeIsBPpxPf4bbAc0kGESYNu_CtfLRhMaqmPlTYMZKZLJ6c3YwR43Irdk2vcGI_WsMzEojIGQL3PHNA21fYCxi6Lpm0wjLJ5rxaJCmGpHW0rl-t2rHjC_o.", "imgURL": { "opts": {}, "map": { "96": "cap?k=JSjiGILFEN1jZs38J3nTp9IS-BG2iCK6IyetkFYTJyAKxupbsDPAu_oXx5iZmcgHakgl1J4ijj9XDmLTXAQ3VUeyc_ycS7K7R44LdfjbmhU2bZJ6Pct-cmm23CjtkumP8eNvoGX0svUPwRyvWP7s4tlEJIM9fchkabbcKO2S6Y9cfd14YNd_injO3ntGgB5M", "120": "cap?k=X7TOSeWqYiiXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjNy1g9-rguvVosxt0C4UIracHuLsfwccl0Hen_q32W-Ot8t6Nob-rkuOZTRrji2I5", "200": "cap?k=l-CRSIsyAoWXRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjNy1g9-rguvVosxt0C4UIracHuLsfwccl0Hen_q32W-Ot8t6Nob-rkuOZTRrji2I5", "320": "cap?k=7YraxvYhAP-XRmkFaShWvo2zpq8Zfj2lXsAMBx34K8tlhnksYQmc8CLPugwrIHlW0Bi8bYcamFTKIyEqB4r1d1deJxwbPTYe-FKZY5e3AwMvW6ek8BnAC9B3p_6t9lvjNy1g9-rguvVosxt0C4UIracHuLsfwccl0Hen_q32W-Ot8t6Nob-rkuOZTRrji2I5" }, "imgSizes": [96, 120, 200, 320] }, "snippetList": [], "snippet": [{ "id": 0, "text": "nature, settings, adjustment.This configuration.How", "type": "h1_neigh_1" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "details. list.About", "type": "h2_neigh_3" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "Templates.Authoring", "type": "h2_neigh_4" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "dialog.Types component.[CONTENT] component. example,", "type": "h2_neigh_2" }, { "id": 0, "text": "...", "type": "connector" }, { "id": 0, "text": "editor.Place (as A). (as", "type": "h2_neigh_1" }], "highlight": { "title": [{ "id": 0, "text": "Component Configuration| AEM Sites Manual Websites", "type": "" }], "description": [{ "id": 0, "text": "", "type": "" }], "filename": [{ "id": 0, "text": "components_setting.html", "type": "" }], "uri": [{ "id": 0, "text": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html", "type": "" }] }, "uri": "http://docs.aem.kao.com/content/wcm_kao/sites/docs/docs-aem-kao-com/sites-manual/en/components/components_operation/components_setting.html" });
+							//-->
+            </script>
+          </ul>
+        </div>
+
+        <div class="mf_results_bottom">
+
+
+        </div>
+
+      </div>
+      <!-- #mf_contents -->
+      <!-- MF Page Selector -->
+      <!-- MF Page Selector -->
+      <ul class="mf_pagenumber">
+        <!-- 750px未満は隠す -->
+        <li class="mf_prevpage">
+          <p>Previous</p>
+        </li>
+        <li class="mf_pagenow mf_num">1</li>
+        <li class="mf_num mf_spview"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=2">2</a></li>
+        <li class="mf_num mf_spview"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=3">3</a></li>
+        <li class="mf_num mf_spview"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=4">4</a></li>
+        <li class="mf_num mf_spview mf_spview_last"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=5">5</a></li>
+        <li class="mf_num"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=6">6</a></li>
+        <li class="mf_num"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=7">7</a></li>
+        <li class="mf_num"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=8">8</a></li>
+        <li class="mf_num"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=9">9</a></li>
+        <li class="mf_num"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=10">10</a></li>
+        <li class="mf_nextpage"><a href="search.x?q=&ie=utf8&cat=0&pagemax=10&imgsize=1&pdf=ok&zoom=1&sort=0&ctor=0&lfor=0&utfrom=-1&utto=-1&pid=39XsyUGUBQEFGohuJanEeQ..&qid=gWljMzf_OJzKSTvFLKbjBdugVEtFCiFs&page=2">Next</a></li>
+      </ul>
+
+
+      <div id="mf_powered">
+        <a href="http://www.marsflag.com/en/" target="_blank" title="Powered by MARSFLAG"><img src="http://s.marsfinder.jp/mf2file/custom/common.rs/0006/img/common/mf_pwdb.gif"></a>
+      </div>
+    </div>
+    <!-- #mf_contentsbg -->
+
+    <p id="page-top"><a href="#mf_marsfinder">Back To Top</a></p>
+
+  </div>
+  <!-- #mf_marsfinder -->
+  <!-- //MARS FINDER UI -->
+
+<!-- area-BrFooter -->
+<div class="g-Area" id="area-BrFooter">
+  <div class="g-BrFooter l-BrFooter">
+    <div class="g-BrFooter__inner l-BrFooter__inner">
+      <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+        <div class="g-BrFooter__sitemapBlock__logo l-BrFooter__sitemapBlock__logo is-lg-center is-lg-top">
+          <div class="g-BrFooterLogo l-BrFooterLogo opt-w100p opt-pb20">
+            <a class="g-Image l-Image is-link s7responsiveContainer" href="http://docs.aem.kao.com/sites-manual/en.html" target="_self"
+              id="common_image_item_20160401223419409_hGHu">
+              <p class="g-Image__img l-Image__img">
+                <img src="http://kao-h.assetsadobe3.com/is/image/content/dam/sites/docs/docs-aem-kao-com/sites-manual/ja/home/home_en/kao_logo_footer_en.png?fmt=png-alpha&amp;wid=320"
+  class="cq-dd-image" style="width : 100%;" data-breakpoints="128,320,640,768,1024,1366,1920,2400,3400">
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+<!-- / area-BrFooter -->
+
+  <script type="text/javascript" src="http://s.marsfinder.jp/mf2file/site/ext/tr.js#l=rumLTnBaMy-Iin4BmCMaRWrCii4wSi0WNOhTrsQsyBQozurmmd-h8Q..&unit=kao__kao_aem_en&opt=__ALL__&mode=__ALL__"></script>
+  <script src="//c.marsflag.com/mf/gui/gui.js#cid=kao" type="text/javascript" charset="UTF-8"></script>
+</body>
+
+</html>

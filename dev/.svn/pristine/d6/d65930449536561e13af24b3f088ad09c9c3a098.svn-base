@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+
+/* Movie ================================================== */
+
+.g-Movie {
+  &.is-embedVideo {
+    .g-Movie__iframe {
+      padding-top: 0;
+    }
+  }
+}

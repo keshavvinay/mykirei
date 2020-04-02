@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* C130 Annotation List Pack */
+.c130__annotationListPack {
+  .l-ListP__ul {
+    .l-ListP__ul__item {
+      margin-bottom: 19px;
+      @include bp(md) {
+        margin-bottom: 17px;
+      };
+      @include bp(sm) {
+        margin-bottom: 17px;
+      };
+      @include kms-fontFamily(body);
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

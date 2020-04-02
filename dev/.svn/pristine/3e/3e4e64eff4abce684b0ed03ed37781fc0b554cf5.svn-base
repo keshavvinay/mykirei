@@ -1,0 +1,1055 @@
+@charset "utf-8";
+/*
+ Break-Point
+ @param $point (sm, md, lg)
+ */
+@mixin bp($point) {
+  @if $point == sm {
+    @media only screen and (max-width: $breakpoint_sm) {
+      @content;
+    }
+  } @else if $point == md {
+    @media only screen and (min-width: $breakpoint_sm + 1px) and (max-width: $breakpoint_md) {
+      @content;
+    }
+  } @else if $point == lg {
+    @media only screen and (min-width: $breakpoint_md + 1px) {
+      @content;
+    }
+  }
+}
+
+
+/*
+ Font-Size
+ @param $level
+        (lv1, lv2, lv3, lv4, lv5, lv6, body, caption)
+ */
+@mixin fontSize($level) {
+  @if $level == lv1 {
+    @include font-family-lang('fontFamily_title');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_lv1');
+      @include line-height-lang('lineHeight_lg_lv1');
+      @include letter-spacing-lang('letterSpacing_lg_lv1');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_lv1');
+      @include line-height-lang('lineHeight_md_lv1');
+      @include letter-spacing-lang('letterSpacing_md_lv1');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_lv1');
+      @include line-height-lang('lineHeight_sm_lv1');
+      @include letter-spacing-lang('letterSpacing_sm_lv1');
+    }
+  } @else if $level == lv2 {
+    @include font-family-lang('fontFamily_title');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_lv2');
+      @include line-height-lang('lineHeight_lg_lv2');
+      @include letter-spacing-lang('letterSpacing_lg_lv2');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_lv2');
+      @include line-height-lang('lineHeight_md_lv2');
+      @include letter-spacing-lang('letterSpacing_md_lv2');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_lv2');
+      @include line-height-lang('lineHeight_sm_lv2');
+      @include letter-spacing-lang('letterSpacing_sm_lv2');
+    }
+  }
+  @else if $level == lv3 {
+    @include font-family-lang('fontFamily_title');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_lv3');
+      @include line-height-lang('lineHeight_lg_lv3');
+      @include letter-spacing-lang('letterSpacing_lg_lv3');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_lv3');
+      @include line-height-lang('lineHeight_md_lv3');
+      @include letter-spacing-lang('letterSpacing_md_lv3');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_lv3');
+      @include line-height-lang('lineHeight_sm_lv3');
+      @include letter-spacing-lang('letterSpacing_sm_lv3');
+    }
+  }
+  @else if $level == lv4 {
+    @include font-family-lang('fontFamily_title');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_lv4');
+      @include line-height-lang('lineHeight_lg_lv4');
+      @include letter-spacing-lang('letterSpacing_lg_lv4');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_lv4');
+      @include line-height-lang('lineHeight_md_lv4');
+      @include letter-spacing-lang('letterSpacing_md_lv4');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_lv4');
+      @include line-height-lang('lineHeight_sm_lv4');
+      @include letter-spacing-lang('letterSpacing_sm_lv4');
+    }
+  }
+  @else if $level == lv5 {
+    @include font-family-lang('fontFamily_title');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_lv5');
+      @include line-height-lang('lineHeight_lg_lv5');
+      @include letter-spacing-lang('letterSpacing_lg_lv5');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_lv5');
+      @include line-height-lang('lineHeight_md_lv5');
+      @include letter-spacing-lang('letterSpacing_md_lv5');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_lv5');
+      @include line-height-lang('lineHeight_sm_lv5');
+      @include letter-spacing-lang('letterSpacing_sm_lv5');
+    }
+  }
+  @else if $level == lv6 {
+    @include font-family-lang('fontFamily_title');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_lv6');
+      @include line-height-lang('lineHeight_lg_lv6');
+      @include letter-spacing-lang('letterSpacing_lg_lv6');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_lv6');
+      @include line-height-lang('lineHeight_md_lv6');
+      @include letter-spacing-lang('letterSpacing_md_lv6');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_lv6');
+      @include line-height-lang('lineHeight_sm_lv6');
+      @include letter-spacing-lang('letterSpacing_sm_lv6');
+    }
+  }
+  @else if $level == p {
+    @include font-family-lang('fontFamily_title');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_p');
+      @include line-height-lang('lineHeight_lg_p');
+      @include letter-spacing-lang('letterSpacing_lg_p');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_p');
+      @include line-height-lang('lineHeight_md_p');
+      @include letter-spacing-lang('letterSpacing_md_p');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_p');
+      @include line-height-lang('lineHeight_sm_p');
+      @include letter-spacing-lang('letterSpacing_sm_p');
+    }
+  }
+  @else if $level == body {
+    @include font-family-lang('fontFamily');
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_body');
+      @include line-height-lang('lineHeight_lg_body');
+      @include letter-spacing-lang('letterSpacing_lg_body');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_body');
+      @include line-height-lang('lineHeight_md_body');
+      @include letter-spacing-lang('letterSpacing_md_body');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_body');
+      @include line-height-lang('lineHeight_sm_body');
+      @include letter-spacing-lang('letterSpacing_sm_body');
+    }
+  }
+  @else if $level == caption {
+    @include bp(lg) {
+      @include font-size-lang('fontSize_lg_caption');
+      @include line-height-lang('lineHeight_lg_caption');
+      @include letter-spacing-lang('letterSpacing_lg_caption');
+    }
+    @include bp(md) {
+      @include font-size-lang('fontSize_md_caption');
+      @include line-height-lang('lineHeight_md_caption');
+      @include letter-spacing-lang('letterSpacing_md_caption');
+    }
+    @include bp(sm) {
+      @include font-size-lang('fontSize_sm_caption');
+      @include line-height-lang('lineHeight_sm_caption');
+      @include letter-spacing-lang('letterSpacing_sm_caption');
+    }
+  }
+}
+
+
+/*
+ Font-Family（言語別展開）
+ @param 変数名
+ */
+@mixin font-family-lang($name) {
+  font-family: interpolate-variable($name);
+  // 言語別展開
+  @if variable-exists(langArray) == true {
+    @each $lang in $langArray {
+      html[lang^=#{$lang}] & {
+        font-family: interpolate-variable($name + '_' + $lang);
+      }
+    }
+  }
+}
+/*
+ Font-Size（言語展開）
+ @param 変数名
+ */
+@mixin font-size-lang($name) {
+  font-size: interpolate-variable($name);
+  // 言語別展開
+  @if variable-exists(langArray) == true {
+    @each $lang in $langArray {
+      html[lang^=#{$lang}] & {
+        font-size: interpolate-variable($name + '_' + $lang);
+      }
+    }
+  }
+}
+/*
+ Line-Height（言語展開）
+ @param 変数名
+ */
+@mixin line-height-lang($name) {
+  line-height: interpolate-variable($name);
+  // 言語別展開
+  @if variable-exists(langArray) == true {
+    @each $lang in $langArray {
+      html[lang^=#{$lang}] & {
+        line-height: interpolate-variable($name + '_' + $lang);
+      }
+    }
+  }
+}
+/*
+ Letter-Spacing（言語展開）
+ @param 変数名
+ */
+@mixin letter-spacing-lang($name) {
+  letter-spacing: interpolate-variable($name);
+  // 言語別展開
+  @if variable-exists(langArray) == true {
+    @each $lang in $langArray {
+      html[lang^=#{$lang}] & {
+        letter-spacing: interpolate-variable($name + '_' + $lang);
+      }
+    }
+  }
+}
+
+
+/*
+ Link
+ */
+@mixin link() {
+  color: $text__link--01;
+  &:link {
+    color: $text__link--01;
+  }
+  &:visited {
+    color: $text__link--01--visited;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $text__link--01--hover;
+  }
+}
+
+@mixin linkColor($color) {
+  @if $color == 1 {
+    color: $text__link--01;
+    &:link {
+      color: $text__link--01;
+    }
+    &:visited {
+      color: $text__link--01--visited;
+    }
+    &:hover, &:focus, &:active {
+      color: $text__link--01--hover;
+    }
+    & >.cmn-icon {
+      color: $contents__icon;
+    }
+  } @else if $color == 2 {
+    color: $text__link--02;
+    &:link {
+      color: $text__link--02;
+    }
+    &:visited {
+      color: $text__link--02--visited;
+    }
+    &:hover, &:focus, &:active {
+      color: $text__link--02--hover;
+    }
+    & >.cmn-icon {
+      color: $contents__icon;
+    }
+  }
+}
+
+/*
+ AreaLink
+ */
+@mixin areaLink() {
+  &:hover,
+  &:focus,
+  &:active {
+    @include opacity($linkBlockHoverOpacity);
+  }
+}
+
+/*
+ Button
+ */
+@mixin button() {
+  color: transparent;
+  border: none;
+  background-color: transparent;
+  &:hover,
+  &:focus,
+  &:active {
+    @include opacity($linkBlockHoverOpacity);
+  }
+}
+
+
+/*
+  gutterWrapper (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+@mixin gutterColumnWrapper($level) {
+
+  @if $level == s {
+    @include bp(lg) {
+      margin-left:  -($marginGutterColumn_lg_s)/2;
+      margin-right: -($marginGutterColumn_lg_s)/2;
+    }
+    @include bp(md) {
+      margin-left:  -($marginGutterColumn_md_s)/2;
+      margin-right: -($marginGutterColumn_md_s)/2;
+    }
+    @include bp(sm) {
+      margin-left:  -($marginGutterColumn_sm_s)/2;
+      margin-right: -($marginGutterColumn_sm_s)/2;
+    }
+  } @else if $level == m {
+    @include bp(lg) {
+      margin-left:  -($marginGutterColumn_lg_m)/2;
+      margin-right: -($marginGutterColumn_lg_m)/2;
+    }
+    @include bp(md) {
+      margin-left:  -($marginGutterColumn_md_m)/2;
+      margin-right: -($marginGutterColumn_md_m)/2;
+    }
+    @include bp(sm) {
+      margin-left:  -($marginGutterColumn_sm_m)/2;
+      margin-right: -($marginGutterColumn_sm_m)/2;
+    }
+  } @else if $level == l {
+    @include bp(lg) {
+      margin-left:  -($marginGutterColumn_lg_l)/2;
+      margin-right: -($marginGutterColumn_lg_l)/2;
+    }
+    @include bp(md) {
+      margin-left:  -($marginGutterColumn_md_l)/2;
+      margin-right: -($marginGutterColumn_md_l)/2;
+    }
+    @include bp(sm) {
+      margin-left:  -($marginGutterColumn_sm_l)/2;
+      margin-right: -($marginGutterColumn_sm_l)/2;
+    }
+  } @else if $level == xl {
+    @include bp(lg) {
+      margin-left:  -($marginGutterColumn_lg_xl)/2;
+      margin-right: -($marginGutterColumn_lg_xl)/2;
+    }
+    @include bp(md) {
+      margin-left:  -($marginGutterColumn_md_xl)/2;
+      margin-right: -($marginGutterColumn_md_xl)/2;
+    }
+    @include bp(sm) {
+      margin-left:  -($marginGutterColumn_sm_xl)/2;
+      margin-right: -($marginGutterColumn_sm_xl)/2;
+    }
+  } @else if $level == reset {
+    @include bp(lg) {
+      margin-left:  0;
+      margin-right: 0;
+    }
+    @include bp(md) {
+      margin-left:  0;
+      margin-right: 0;
+    }
+    @include bp(sm) {
+      margin-left:  0;
+      margin-right: 0;
+    }
+  }
+}
+/*
+  gutterInner (Column)に対してガターマージンをセット
+  @param $level s,m,l,xl,reset
+*/
+@mixin gutterColumnInner($level) {
+  box-sizing: border-box;
+  @if $level == s {
+    @include bp(lg) {
+      padding: $marginGutterColumn_lg_s/2;
+    }
+    @include bp(md) {
+      padding: $marginGutterColumn_md_s/2;
+    }
+    @include bp(sm) {
+      padding: $marginGutterColumn_sm_s/2;
+    }
+  } @else if $level == m {
+    @include bp(lg) {
+      padding: $marginGutterColumn_lg_m/2;
+    }
+    @include bp(md) {
+      padding: $marginGutterColumn_md_m/2;
+    }
+    @include bp(sm) {
+      padding: $marginGutterColumn_sm_m/2;
+    }
+  } @else if $level == l {
+    @include bp(lg) {
+      padding: $marginGutterColumn_lg_l/2;
+    }
+    @include bp(md) {
+      padding: $marginGutterColumn_md_l/2;
+    }
+    @include bp(sm) {
+      padding: $marginGutterColumn_sm_l/2;
+    }
+  } @else if $level == xl {
+    @include bp(lg) {
+      padding: $marginGutterColumn_lg_xl/2;
+    }
+    @include bp(md) {
+      padding: $marginGutterColumn_md_xl/2;
+    }
+    @include bp(sm) {
+      padding: $marginGutterColumn_sm_xl/2;
+    }
+  } @else if $level == reset {
+    @include bp(lg) {
+      padding: 0;
+    }
+    @include bp(md) {
+      padding: 0;
+    }
+    @include bp(sm) {
+      padding: 0;
+    }
+  }
+}
+
+
+/*
+  gutterItemWrapperに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+@mixin gutterItemWrapper($resetFlg: false, $gutterSize: false) {
+  $gutterSize_lg: $cmn_marginItemGutter_lg;
+  $gutterSize_md: $cmn_marginItemGutter_md;
+  $gutterSize_sm: $cmn_marginItemGutter_sm;
+  /*
+  @if $gutterSize == 'xs' {
+    $gutterSize_lg: 8px;
+    $gutterSize_md: 8px;
+    $gutterSize_sm: 4px;
+  }
+  @else if $gutterSize == 's' {
+    $gutterSize_lg: 16px;
+    $gutterSize_md: 16px;
+    $gutterSize_sm: 8px;
+  }
+  @else if $gutterSize == 'm' {
+    $gutterSize_lg: 24px;
+    $gutterSize_md: 24px;
+    $gutterSize_sm: 16px;
+  }
+  @else if $gutterSize == 'l' {
+    $gutterSize_lg: 32px;
+    $gutterSize_md: 32px;
+    $gutterSize_sm: 24px;
+  }
+  @else if $gutterSize == 'xl' {
+    $gutterSize_lg: 48px;
+    $gutterSize_md: 48px;
+    $gutterSize_sm: 32px;
+  }
+  */
+  @if $gutterSize == 'xs' {
+    $gutterSize_lg: $marginGutterItem_lg_xs;
+    $gutterSize_md: $marginGutterItem_md_xs;
+    $gutterSize_sm: $marginGutterItem_sm_xs;
+  }
+  @else if $gutterSize == 's' {
+    $gutterSize_lg: $marginGutterItem_lg_s;
+    $gutterSize_md: $marginGutterItem_md_s;
+    $gutterSize_sm: $marginGutterItem_sm_s;
+  }
+  @else if $gutterSize == 'm' {
+    $gutterSize_lg: $marginGutterItem_lg_m;
+    $gutterSize_md: $marginGutterItem_md_m;
+    $gutterSize_sm: $marginGutterItem_sm_m;
+  }
+  @else if $gutterSize == 'l' {
+    $gutterSize_lg: $marginGutterItem_lg_l;
+    $gutterSize_md: $marginGutterItem_md_l;
+    $gutterSize_sm: $marginGutterItem_sm_l;
+  }
+  @else if $gutterSize == 'xl' {
+    $gutterSize_lg: $marginGutterItem_lg_xl;
+    $gutterSize_md: $marginGutterItem_md_xl;
+    $gutterSize_sm: $marginGutterItem_sm_xl;
+  }
+
+  @if $resetFlg == false {
+    @include bp(lg) {
+      margin: 0;
+      margin-left: -($gutterSize_lg)/2;
+      margin-right: -($gutterSize_lg)/2;
+    }
+    @include bp(md) {
+      margin: 0;
+      margin-left: -($gutterSize_md)/2;
+      margin-right: -($gutterSize_md)/2;
+    }
+    @include bp(sm) {
+      margin: 0;
+      margin-left: -($gutterSize_sm)/2;
+      margin-right: -($gutterSize_sm)/2;
+    }
+  }
+  @else {
+    @include bp(lg) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include bp(md) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include bp(sm) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+/*
+  gutterInnerに対してマージンをセット
+  @param $resetFlg マージンリセットフラグ
+*/
+@mixin gutterItemInner($resetFlg: false, $gutterSize: false) {
+  box-sizing: border-box;
+
+  $gutterSize_lg: $cmn_marginItemGutter_lg;
+  $gutterSize_md: $cmn_marginItemGutter_md;
+  $gutterSize_sm: $cmn_marginItemGutter_sm;
+  /*
+  @if $gutterSize == 'xs' {
+    $gutterSize_lg: 8px;
+    $gutterSize_md: 8px;
+    $gutterSize_sm: 4px;
+  }
+  @else if $gutterSize == 's' {
+    $gutterSize_lg: 16px;
+    $gutterSize_md: 16px;
+    $gutterSize_sm: 8px;
+  }
+  @else if $gutterSize == 'm' {
+    $gutterSize_lg: 24px;
+    $gutterSize_md: 24px;
+    $gutterSize_sm: 16px;
+  }
+  @else if $gutterSize == 'l' {
+    $gutterSize_lg: 32px;
+    $gutterSize_md: 32px;
+    $gutterSize_sm: 24px;
+  }
+  @else if $gutterSize == 'xl' {
+    $gutterSize_lg: 48px;
+    $gutterSize_md: 48px;
+    $gutterSize_sm: 32px;
+  }
+  */
+  @if $gutterSize == 'xs' {
+    $gutterSize_lg: $marginGutterItem_lg_xs;
+    $gutterSize_md: $marginGutterItem_md_xs;
+    $gutterSize_sm: $marginGutterItem_sm_xs;
+  }
+  @else if $gutterSize == 's' {
+    $gutterSize_lg: $marginGutterItem_lg_s;
+    $gutterSize_md: $marginGutterItem_md_s;
+    $gutterSize_sm: $marginGutterItem_sm_s;
+  }
+  @else if $gutterSize == 'm' {
+    $gutterSize_lg: $marginGutterItem_lg_m;
+    $gutterSize_md: $marginGutterItem_md_m;
+    $gutterSize_sm: $marginGutterItem_sm_m;
+  }
+  @else if $gutterSize == 'l' {
+    $gutterSize_lg: $marginGutterItem_lg_l;
+    $gutterSize_md: $marginGutterItem_md_l;
+    $gutterSize_sm: $marginGutterItem_sm_l;
+  }
+  @else if $gutterSize == 'xl' {
+    $gutterSize_lg: $marginGutterItem_lg_xl;
+    $gutterSize_md: $marginGutterItem_md_xl;
+    $gutterSize_sm: $marginGutterItem_sm_xl;
+  }
+
+  @if $resetFlg == false {
+    @include bp(lg) {
+      padding: $gutterSize_lg/2;
+    }
+    @include bp(md) {
+      padding: $gutterSize_md/2;
+    }
+    @include bp(sm) {
+      padding: $gutterSize_sm/2;
+    }
+  }
+  @else {
+    @include bp(lg) {
+      padding: 0;
+    }
+    @include bp(md) {
+      padding: 0;
+    }
+    @include bp(sm) {
+      padding: 0;
+    }
+  }
+}
+
+@mixin gutterItemBgAjust($gutterSize: false) {
+  $gutterSize_lg: $cmn_marginItemGutter_lg;
+  $gutterSize_md: $cmn_marginItemGutter_md;
+  $gutterSize_sm: $cmn_marginItemGutter_sm;
+  /*
+  @if $gutterSize == 'xs' {
+    $gutterSize_lg: 8px;
+    $gutterSize_md: 8px;
+    $gutterSize_sm: 4px;
+  }
+  @else if $gutterSize == 's' {
+    $gutterSize_lg: 16px;
+    $gutterSize_md: 16px;
+    $gutterSize_sm: 8px;
+  }
+  @else if $gutterSize == 'm' {
+    $gutterSize_lg: 24px;
+    $gutterSize_md: 24px;
+    $gutterSize_sm: 16px;
+  }
+  @else if $gutterSize == 'l' {
+    $gutterSize_lg: 32px;
+    $gutterSize_md: 32px;
+    $gutterSize_sm: 24px;
+  }
+  @else if $gutterSize == 'xl' {
+    $gutterSize_lg: 48px;
+    $gutterSize_md: 48px;
+    $gutterSize_sm: 32px;
+  }
+  */
+  @if $gutterSize == 'xs' {
+    $gutterSize_lg: $marginGutterItem_lg_xs;
+    $gutterSize_md: $marginGutterItem_md_xs;
+    $gutterSize_sm: $marginGutterItem_sm_xs;
+  }
+  @else if $gutterSize == 's' {
+    $gutterSize_lg: $marginGutterItem_lg_s;
+    $gutterSize_md: $marginGutterItem_md_s;
+    $gutterSize_sm: $marginGutterItem_sm_s;
+  }
+  @else if $gutterSize == 'm' {
+    $gutterSize_lg: $marginGutterItem_lg_m;
+    $gutterSize_md: $marginGutterItem_md_m;
+    $gutterSize_sm: $marginGutterItem_sm_m;
+  }
+  @else if $gutterSize == 'l' {
+    $gutterSize_lg: $marginGutterItem_lg_l;
+    $gutterSize_md: $marginGutterItem_md_l;
+    $gutterSize_sm: $marginGutterItem_sm_l;
+  }
+  @else if $gutterSize == 'xl' {
+    $gutterSize_lg: $marginGutterItem_lg_xl;
+    $gutterSize_md: $marginGutterItem_md_xl;
+    $gutterSize_sm: $marginGutterItem_sm_xl;
+  }
+  @else if $gutterSize == 'none' {
+    $gutterSize_lg: 0;
+    $gutterSize_md: 0;
+    $gutterSize_sm: 0;
+  }
+
+  @include bp(lg) {
+    padding-top: $cmn_paddingInner - $gutterSize_lg/2;
+    padding-bottom: $cmn_paddingInner - $gutterSize_lg/2;
+  }
+  @include bp(md) {
+    padding-top: $cmn_paddingInner - $gutterSize_md/2;
+    padding-bottom: $cmn_paddingInner - $gutterSize_md/2;
+  }
+  @include bp(sm) {
+    padding-top: $cmn_paddingInner - $gutterSize_sm/2;
+    padding-bottom: $cmn_paddingInner - $gutterSize_sm/2;
+  }
+}
+
+
+/*
+  上マージン.
+  @param $level s,m,l,xl
+*/
+@mixin marginBoxTop($level) {
+  @if $level == s {
+    @include bp(lg) {
+      margin-top: $marginBox_lg_s;
+    }
+    @include bp(md) {
+      margin-top: $marginBox_md_s;
+    }
+    @include bp(sm) {
+      margin-top: $marginBox_sm_s;
+    }
+  } @else if $level == m {
+    @include bp(lg) {
+      margin-top: $marginBox_lg_m;
+    }
+    @include bp(md) {
+      margin-top: $marginBox_md_m;
+    }
+    @include bp(sm) {
+      margin-top: $marginBox_sm_m;
+    }
+  } @else if $level == l {
+    @include bp(lg) {
+      margin-top: $marginBox_lg_l;
+    }
+    @include bp(md) {
+      margin-top: $marginBox_md_l;
+    }
+    @include bp(sm) {
+      margin-top: $marginBox_sm_l;
+    }
+  } @else if $level == xl {
+    @include bp(lg) {
+      margin-top: $marginBox_lg_xl;
+    }
+    @include bp(md) {
+      margin-top: $marginBox_md_xl;
+    }
+    @include bp(sm) {
+      margin-top: $marginBox_sm_xl;
+    }
+  }
+}
+
+/*
+  下マージン.
+  @param $level s,m,l,xl
+*/
+@mixin marginBoxBottom($level) {
+  @if $level == s {
+    @include bp(lg) {
+      margin-bottom: $marginBox_lg_s;
+    }
+    @include bp(md) {
+      margin-bottom: $marginBox_md_s;
+    }
+    @include bp(sm) {
+      margin-bottom: $marginBox_sm_s;
+    }
+  } @else if $level == m {
+    @include bp(lg) {
+      margin-bottom: $marginBox_lg_m;
+    }
+    @include bp(md) {
+      margin-bottom: $marginBox_md_m;
+    }
+    @include bp(sm) {
+      margin-bottom: $marginBox_sm_m;
+    }
+  } @else if $level == l {
+    @include bp(lg) {
+      margin-bottom: $marginBox_lg_l;
+    }
+    @include bp(md) {
+      margin-bottom: $marginBox_md_l;
+    }
+    @include bp(sm) {
+      margin-bottom: $marginBox_sm_l;
+    }
+  } @else if $level == xl {
+    @include bp(lg) {
+      margin-bottom: $marginBox_lg_xl;
+    }
+    @include bp(md) {
+      margin-bottom: $marginBox_md_xl;
+    }
+    @include bp(sm) {
+      margin-bottom: $marginBox_sm_xl;
+    }
+  }
+}
+
+/*
+  左マージン.
+  @param $level s,m,l,xl
+*/
+@mixin marginBoxLeft($level) {
+  @if $level == s {
+    @include bp(lg) {
+      margin-left: $marginBox_lg_s;
+    }
+    @include bp(md) {
+      margin-left: $marginBox_md_s;
+    }
+    @include bp(sm) {
+      margin-left: $marginBox_sm_s;
+    }
+  } @else if $level == m {
+    @include bp(lg) {
+      margin-left: $marginBox_lg_m;
+    }
+    @include bp(md) {
+      margin-left: $marginBox_md_m;
+    }
+    @include bp(sm) {
+      margin-left: $marginBox_sm_m;
+    }
+  } @else if $level == l {
+    @include bp(lg) {
+      margin-left: $marginBox_lg_l;
+    }
+    @include bp(md) {
+      margin-left: $marginBox_md_l;
+    }
+    @include bp(sm) {
+      margin-left: $marginBox_sm_l;
+    }
+  } @else if $level == xl {
+    @include bp(lg) {
+      margin-left: $marginBox_lg_xl;
+    }
+    @include bp(md) {
+      margin-left: $marginBox_md_xl;
+    }
+    @include bp(sm) {
+      margin-left: $marginBox_sm_xl;
+    }
+  }
+}
+
+/*
+  右マージン.
+  @param $level s,m,l,xl
+*/
+@mixin marginBoxRight($level) {
+  @if $level == s {
+    @include bp(lg) {
+      margin-right: $marginBox_lg_s;
+    }
+    @include bp(md) {
+      margin-right: $marginBox_md_s;
+    }
+    @include bp(sm) {
+      margin-right: $marginBox_sm_s;
+    }
+  } @else if $level == m {
+    @include bp(lg) {
+      margin-right: $marginBox_lg_m;
+    }
+    @include bp(md) {
+      margin-right: $marginBox_md_m;
+    }
+    @include bp(sm) {
+      margin-right: $marginBox_sm_m;
+    }
+  } @else if $level == l {
+    @include bp(lg) {
+      margin-right: $marginBox_lg_l;
+    }
+    @include bp(md) {
+      margin-right: $marginBox_md_l;
+    }
+    @include bp(sm) {
+      margin-right: $marginBox_sm_l;
+    }
+  } @else if $level == xl {
+    @include bp(lg) {
+      margin-right: $marginBox_lg_xl;
+    }
+    @include bp(md) {
+      margin-right: $marginBox_md_xl;
+    }
+    @include bp(sm) {
+      margin-right: $marginBox_sm_xl;
+    }
+  }
+}
+
+
+/*
+ Corner Radius（※廃止予定）
+ @param $size (ss, s, m, l, ll)
+ */
+@mixin borderRadius($size) {
+  @if $size == ss {
+    @include border-radius($borderRadius_xs);
+  }
+  @else if $size == s {
+    @include border-radius($borderRadius_s);
+  }
+  @else if $size == m {
+    @include border-radius($borderRadius_m);
+  }
+  @else if $size == l {
+    @include border-radius($borderRadius_l);
+  }
+  @else if $size == ll {
+    @include border-radius($borderRadius_xl);
+  }
+}
+
+
+/*
+ Image(or Movie) Text Pack(Horizontal)内のHeadingTitle
+ @param $imagePosition(left, right)
+ */
+@mixin imageTextHorizontalHeadingTitle($imagePosition, $type) {
+  .g-#{$type}TextHP__contentsBlock__text {
+    @for $i from 1 through 9 {
+      $width: $i * 10;
+      $margin: 100% - $width;
+      @include bp(lg) {
+        &.opt-lg-w#{$width}p {
+          .g-HeadingTitle--h2 {
+            margin-#{$imagePosition}: $margin;
+          }
+        }
+      }
+      @include bp(md) {
+        &.opt-md-w#{$width}p {
+          .g-HeadingTitle--h2 {
+            margin-#{$imagePosition}: $margin;
+          }
+        }
+      }
+    }
+  }
+  &:not(.is-smallViewVertical) {
+    .g-#{$type}TextHP__contentsBlock__text {
+      @for $i from 1 through 9 {
+        $width: $i * 10;
+        $margin: 100% - $width;
+        @include bp(sm) {
+          &.opt-sm-w#{$width}p {
+            .g-HeadingTitle--h2 {
+              margin-#{$imagePosition}: $margin;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin imageTextVerticalHeadingTitle($imagePosition, $type) {
+  $iPos: L;
+  @if $imagePosition == 'right' {
+    $iPos: R;
+  }
+  &.is-smallViewHorizontal#{$iPos} {
+    .g-#{$type}TextVP__contentsBlock__text {
+      @for $i from 1 through 9 {
+        $width: $i * 10;
+        $margin: 100% - $width;
+        @include bp(sm) {
+          &.opt-sm-w#{$width}p {
+            .g-HeadingTitle--h2 {
+              margin-#{$imagePosition}: $margin;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*
+ Map Access Pack(Horizontal)内のHeadingTitle
+ @param $mapPosition(left, right)
+ */
+@mixin MapAccessHorizontalHeadingTitle($mapPosition) {
+  .g-MapAccessHP__contentsBlock__text {
+    @for $i from 1 through 9 {
+      $width: $i * 10;
+      $margin: 100% - $width;
+      @include bp(lg) {
+        &.opt-lg-w#{$width}p {
+          .g-HeadingTitle--h4 {
+            margin-#{$imagePosition}: $margin;
+          }
+        }
+      }
+      @include bp(md) {
+        &.opt-md-w#{$width}p {
+          .g-HeadingTitle--h4 {
+            margin-#{$imagePosition}: $margin;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  シャドウ.
+  @param $pattern A,B,none
+*/
+@mixin shadow($pattern: none) {
+  @if $pattern == A {
+    @include box-shadow($shadowA_setting);
+  }
+  @else if $pattern == B {
+    @include box-shadow($shadowB_setting);
+  }
+  @else {
+    @include box-shadow(none);
+  }
+}
+
+/*
+  ボタン用シャドウ.
+  @param $visible true,false
+*/
+@mixin btnShadow($visible) {
+  @if $visible == true {
+    @include shadow(A);
+  }
+  @else {
+    @include shadow();
+  }
+}

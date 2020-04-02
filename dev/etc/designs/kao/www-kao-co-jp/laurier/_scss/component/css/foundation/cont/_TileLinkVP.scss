@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+
+/* TileLinkVP ================================================== */
+
+
+/* TileLinkVUnit ================================================== */
+.l-TileLinkVUnit {
+  &[href] {
+    @include areaLink();
+  }
+  padding: $TileLinkPack__padding;
+  @if $TileLinkPack__bordered == true {
+    border: 2px solid;
+  }
+  &.is-colorset--1 {
+    background-color: $tileLink__bg;
+    border-color: $tileLink__border;
+    color: $tileLink__text;
+    .l-TileLinkVUnit__icon {
+      color: $tileLink__text;
+    }
+  }
+  &.is-colorset--2 {
+    background-color: $tileLink__bg--reverse;
+    border-color: $tileLink__border--reverse;
+    color: $tileLink__text--reverse;
+    .l-TileLinkVUnit__icon {
+      color: $tileLink__text--reverse;
+    }
+  }
+}
+.l-TileLinkVUnit__imageBlock {
+  @include bp(sm) {
+    .is-layoutT.is-smallViewHorizontal & {
+      padding-right: $TileLinkPack__separator--sm;
+    }
+  }
+}
+.l-TileLinkVUnit__leadBlock {
+  @include bp(sm) {
+    .is-layoutB.is-smallViewHorizontal & {
+      padding-right: $TileLinkPack__separator--sm;
+    }
+  }
+}

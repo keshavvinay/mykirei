@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+
+/* ListP ================================================== */
+.is-dot {
+  .l-ListP__ul {
+    padding-left: 1em;
+  }
+}
+
+.is-num {
+  .l-ListP__ol {
+    padding-left: 1.5em;
+  }
+}
+
+.is-none {
+  .l-ListP__ul {
+    padding-left: 0;
+  }
+}
+
+
+/* ListUnit ================================================== */

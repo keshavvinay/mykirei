@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+.l-AccordionUnit__titleBlock {
+  border-color: $accordion__title__border;
+  background-color: $accordion__title__bg;
+  @include fontSize(lv3);
+  .l-HeadingTitle:not(.is-link) {
+    .l-HeadingTitle__h2, .l-HeadingTitle__h3, .l-HeadingTitle__h4, .l-HeadingTitle__h5, .l-HeadingTitle__h6, .l-HeadingTitle__p {
+      color: $accordion__title__text;
+    }
+  }
+}
+.l-AccordionUnit__titleBlock__icon {
+  color: $accordion__title__text;
+  @include bp(lg) {
+    font-size: $fontSize_lg_lv4;
+  }
+  @include bp(md) {
+    font-size: $fontSize_md_lv4;
+  }
+  @include bp(sm) {
+    font-size: $fontSize_sm_lv4;
+  }
+}
+.l-AccordionUnit__contentBlock {
+  border-color: $accordion__content__border;
+  background-color: $accordion__content__bg;
+  color: $accordion__content__text;
+}

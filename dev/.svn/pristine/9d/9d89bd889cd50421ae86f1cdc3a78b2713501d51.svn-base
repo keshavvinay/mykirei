@@ -1,0 +1,849 @@
+@charset "utf-8";
+
+/* top ============================== */
+
+////////////////////////////////////
+//
+// メインビジュアル
+//
+////////////////////////////////////
+.sofina-section--topMainvisual {
+  background-color: #c1e8f2;
+  @include gradient-topBottom(#c1e8f2, #e7f5f6);
+  padding: 20px 0px 0px 0px;
+  .g-Section__inner {
+    padding: 0px 0px 0px 0px;
+    max-width: 100%;
+  }
+  .g-Column__cols {
+    padding: 0;
+  }
+  .l-Image {
+    margin-bottom: 0;
+    //visibility: hidden;
+  }
+  img {
+    display: block;
+    // width: 100%;
+    // max-width: $maxWidth_md;
+    // margin: 0px auto 0px auto;
+  }
+  /*-----------------------*/
+  // .sofina-section_mainvisual
+  /*-----------------------*/
+  @include bp(sm) {
+    padding-top: 0;
+  }
+}
+
+//
+// .sofina-section__bps
+//
+.sofina-section--topBps {
+
+  //タイトル
+  .sofina-topBps__title {
+    .g-Column__cols {
+      @include bp(sm) {
+        padding: 0;
+      }
+    }
+    .l-Image {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+    .l-Text {
+      margin-top: 8px;
+      @include fontSize(caption);
+      color: #555;
+      font-weight: normal;
+    }
+  }
+  //bps紹介
+  .sofina-topBps__guidance {
+    margin-top: 30px;
+    .l-Image {
+      padding: 0px 10%;
+    }
+    //右タイトル
+    .l-HeadingTitle {
+      text-align: left;
+      margin-bottom: 15px;
+      .l-HeadingTitle__h3 {
+        @include fontSize(lv3);
+        color: #007caa;
+        line-height: 1.6;
+        font-weight: normal;
+      }
+    }
+    //説明
+    .l-Text {
+      @include fontSize(lv6);
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+    .l-ImageTextHP__contentsBlock__text__moreinfo {
+      overflow: hidden;
+    }
+    //OPEN
+    .sofina-topBps__guidance__open {
+      //border-top: double 4px $colorIcon_dark;
+      //border-bottom: double 4px $colorIcon_dark;
+      padding: 20px 0;
+      margin-bottom: 20px;
+      $url: 'border-blue-doubble@2x.png';
+      $path: $imgpath_main + $url;
+      $loadPath: '../../component/img/' + $url;
+      $w: floor(image-width($path) / 2);
+      $h: floor(image-height($path) / 2);
+      background-image: url($loadPath),
+                        url($loadPath);
+      background-repeat: repeat-x,
+                         repeat-x;
+      background-position: top left,
+                           bottom left;
+      background-size: $w $h,
+                       $w $h;
+      .l-Text {
+        color: $colorIcon_dark;
+        margin-bottom: 0;
+      }
+      .l-Text:nth-child(1) {
+        @include fontSize(lv5);
+      }
+      .l-Text:nth-child(2) {
+        margin-top: 5px;
+        @include fontSize(lv7);
+      }
+    }
+    //リンク
+    .l-LinkButton {
+      float: left;
+    }
+    .l-LinkButton__link {
+      display: inline-block;
+      width: 140px;
+      margin-right: 10px;
+    }
+  }
+
+  @include bp(md) {
+    //bps紹介
+    .sofina-topBps__guidance {
+      //右タイトル
+      .l-HeadingTitle {
+        .l-HeadingTitle__h3 {
+          @include fontSize(lv4);
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+  @include bp(sm) {
+    //タイトル
+    .sofina-topBps__title {
+      .l-Image {
+        max-width: 165px;
+        margin: 0 auto;
+      }
+      .l-Text {
+        margin-top: 8px;
+        @include fontSize(caption);
+        color: #555;
+        font-weight: normal;
+      }
+    }
+    //bps紹介
+    .sofina-topBps__guidance {
+      margin-top: 30px;
+      .l-Image {
+        padding: 0px 10%;
+      }
+      //右タイトル
+      .l-HeadingTitle {
+        margin-top: 15px;
+        margin-bottom: 8px;
+        .l-HeadingTitle__h3 {
+          @include fontSize(lv7);
+          line-height: 1.6;
+        }
+      }
+      //説明
+      .l-Text {
+        @include fontSize(body);
+        margin-bottom: 15px;
+        line-height: 1.6;
+      }
+      //OPEN
+      .sofina-topBps__guidance__open {
+        padding: 15px 0;
+        .l-Text {
+        }
+        .l-Text:nth-child(1) {
+        }
+        .l-Text:nth-child(2) {
+          margin-top: 3px;
+          @include fontSize(caption);
+        }
+      }
+      //リンク
+      .g-GroupBox {
+        display: table;
+        width: 100%;
+      }
+      .l-LinkButton {
+        float: none;
+        display: table-cell;
+        width: 50%;
+        .l-LinkButton__link {
+          display: inline-block;
+          width: 100%;
+          margin-right: 0;
+        }
+        &:nth-child(odd) {
+          padding-right: 5px;
+        }
+        &:nth-child(even) {
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+
+//
+// 美容情報
+//
+.sofina-section--topInformation {
+  background-color: $colorBody_2;
+  .g-Column__cols {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  //パネル上段
+  .l-TileLinkHUnit {
+    background-color: #FFF;
+    padding: 0;
+    border: solid 1px $colorGray_9;
+    @include box-shadow(none);
+    img {
+      display: block;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      @include opacity(1);
+      background-color: $colorBody_2;
+    }
+    .l-TileLinkHUnit__leadBlock {
+      vertical-align: top;
+      padding: 15px 18px 5px;
+      .l-Text {
+        @include fontSize(lv4);
+        color: $colorIcon_dark;
+        // margin: 20px 18px 0px 18px;
+        line-height: 1.4;
+      }
+    }
+    .l-TileLinkHUnit__leadBlock__lead {
+      .l-Text {
+        @include fontSize(lv7);
+        color: $colorGray_2;
+        // margin: 16px 18px 0px 18px;
+        margin-top: 10px;
+        line-height: 1.6;
+      }
+    }
+    //追加クラス
+    .g-TileLinkHUnit_body {
+      display: table;
+    }
+    .g-TileLinkHUnit__bottom {
+      display: block;
+      text-align: center;
+      padding: 18px 0px 0px 0px;
+      .cmn-richtext {
+        @include fontSize(lv2);
+        color: $colorIcon_dark;
+      }
+      span {
+        @include fontSize(lv6);
+        vertical-align: middle;
+      }
+    }
+  }
+  .sofina-section_information__img1 {
+    .l-TileLinkHUnit__imageBlock {
+      width: 140px;
+    }
+  }
+  .sofina-section_information__img2 {
+    .l-TileLinkHUnit__imageBlock {
+      width: 200px;
+    }
+  }
+  /*-----------------------*/
+  // .sofina-section_information
+  /*-----------------------*/
+  @include bp(md) {
+    .l-TileLinkHUnit__leadBlock {
+      .l-Text {
+        @include fontSize(lv5);
+      }
+      .sofina-information__counseling__tel {
+        .l-Text {
+          color: $colorIcon_dark;
+          @include fontSize(lv2);
+          margin-top: 3px;
+          span {
+            @include fontSize(lv7);
+            vertical-align: middle;
+            padding-left: 0.5em;
+          }
+        }
+      }
+    }
+    .l-TileLinkHUnit__imageBlock {
+      width: 140px;
+    }
+  }
+  /*-----------------------*/
+  // .sofina-section_information
+  /*-----------------------*/
+  @include bp(sm) {
+    .l-TileLinkHUnit__imageBlock {
+      width: 30%;
+    }
+    .l-TileLinkHP__list__tile {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    div.l-TileLinkHUnit {
+      &:hover,
+      &:focus,
+      &:active {
+        @include opacity(1);
+        background-color: #FFF;
+      }
+    }
+    .l-TileLinkHUnit {
+      border-bottom: 0;
+      .l-TileLinkHUnit__leadBlock {
+        padding: 10px;
+        .l-TileLinkHUnit__leadBlock__title {
+          .l-Text {
+            font-size: $fontSize_sm_lv7;
+          }
+        }
+        .l-TileLinkHUnit__leadBlock__lead {
+          .l-Text {
+            margin-top: 5px;
+            font-size: $fontSize_sm_caption;
+          }
+        }
+      }
+    }
+    .l-LinkButton {
+      border: solid 1px $colorGray_9;
+      margin: 10px;
+      text-align: center;
+    }
+    .l-LinkButton__link {
+      padding: 5px;
+      background-color: $colorAction_1;
+      color: $colorGray_2;
+      width: 100%;
+      font-size: $fontSize_lv7;
+      @include bp(sm) {
+        font-size: $fontSize_sm_caption;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $colorAction_1_hover;
+      }
+      .cmn-icon {
+        color: #007caa;
+      }
+    }
+    //100%活用術
+    .sofina-information__howto {
+      .l-TileLinkHUnit {
+        .l-Image {
+          height: 100%;
+        }
+        .l-Text {
+          margin-top: 0;
+        }
+      }
+    }
+    //お電話でのお問い合わせ
+    .sofina-information__counseling__telsp {
+      .l-LinkButton__link {
+        .l-Text {
+          color: $colorIcon_dark;
+          margin: 10px 0px 0px 0px;
+          font-size: $fontSize_lv5;
+          span {
+            margin-left: 5px;
+            font-size: 9px;
+            vertical-align: middle;
+          }
+        }
+        .cmn-richtext {
+          span {
+            vertical-align: middle;
+          }
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  //パネル下段
+  .l-TileLinkVUnit {
+    background-color: #FFF;
+    padding: 0;
+    border: solid 1px $colorGray_9;
+    @include box-shadow(none);
+    img {
+      display: block;
+      width: 100%;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      @include opacity(1);
+      background-color: $colorBody_2;
+    }
+    .l-Text {
+      padding: 20px 20px 20px 20px;
+      margin: 0;
+      @include fontSize(lv4);
+      color: $colorIcon_dark;
+    }
+  }
+  .l-Image {
+    margin: 0;
+  }
+  .l-TileLinkVUnit__imageBlock {
+    margin: 0;
+  }
+  .l-TileLinkVUnit__leadBlock {
+    padding-right: 0;
+  }
+  /*-----------------------*/
+  // .sofina-section_information
+  /*-----------------------*/
+  @include bp(md) {
+  }
+  /*-----------------------*/
+  // .sofina-section_information
+  /*-----------------------*/
+  @include bp(sm) {
+    //お電話でのお問い合わせ
+    //100%活用術
+    //パネル下段
+    .l-TileLinkVP__list__tile {
+      padding-top: 0;
+      padding-bottom: 0;
+      &:first-child {
+        .l-TileLinkVUnit {
+          border-top: solid 1px $colorGray_9;
+        }
+      }
+    }
+    .l-TileLinkVUnit {
+      border-top: none;
+      display: table;
+      width: 100%;
+      .l-TileLinkVUnit__imageBlock {
+        display: table-cell;
+        width: 30%;
+      }
+      .l-TileLinkVUnit__leadBlock {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .l-Text {
+        @include fontSize(lv7);
+        padding: 0px 0px 0px 10px;
+      }
+    }
+  }
+}
+.sofina-section--topInformation__caution {
+  color: #f00;
+}
+
+//
+// ソフィーナのこだわり
+//
+.sofina-section--topQuality {
+  background-color: #f7fefe;
+  .g-Column__cols {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .l-TileLinkHUnit {
+    background-color: #FFF;
+    padding: 0;
+    border: solid 1px $colorGray_9;
+    @include box-shadow(none);
+    img {
+      display: block;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #f7fefe;
+    }
+    .l-TileLinkHUnit__imageBlock {
+      margin: 0;
+      padding-right: 0;
+      width: 140px;
+    }
+    .g-Image {
+      margin: 0;
+    }
+    .l-TileLinkHUnit__leadBlock {
+      vertical-align: top;
+      padding: 18px;
+      .l-Text {
+        font-size: $fontSize_lv4;
+        color: $colorIcon_dark;
+        // margin: 20px 18px 0px 18px;
+        line-height: 1.4;
+      }
+    }
+    .l-TileLinkHUnit__leadBlock__lead {
+      .l-Text {
+        font-size: $fontSize_lv7;
+        color: $colorGray_2;
+        // margin: 16px 18px 0px 18px;
+        margin-top: 10px;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  @include bp(md) {
+    .l-TileLinkHUnit {
+      .l-TileLinkHUnit__leadBlock {
+        .l-Text {
+          font-size: $fontSize_lv5;
+        }
+      }
+      .l-TileLinkHUnit__leadBlock__lead {
+        .l-Text {
+          font-size: $fontSize_lv7;
+        }
+      }
+    }
+  }
+
+  @include bp(sm) {
+    .l-TileLinkHP__list__tile {
+      padding-top: 0;
+      padding-bottom: 0;
+      &:not(:first-child) {
+        .l-TileLinkHUnit {
+          border-top: none 0;
+        }
+      }
+    }
+    .l-TileLinkHUnit {
+      .l-TileLinkHUnit__imageBlock {
+        width: 90px;
+      }
+      .l-TileLinkHUnit__leadBlock {
+        padding: 8px;
+        .l-Text {
+          font-size: $fontSize_lv7;
+          //line-height: 1.4;
+        }
+      }
+      .l-TileLinkHUnit__leadBlock__lead {
+        .l-Text {
+          font-size: $fontSize_sm_caption;
+          margin-top: 5px;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+}
+
+
+//
+// Whats New　お知らせ
+//
+.sofina-section--topWhatsnew {
+  background-color: $colorGray_8;
+  @include bp(sm) {
+    .g-Column__cols {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+  }
+}
+
+.sofina-whatsnew {
+  margin-top: 10px;
+}
+.sofina-whatsnew__line {
+  display: table;
+  position: relative;
+  width: 100%;
+  border-bottom: dotted 1px $colorGray_5;
+  text-align: left;
+  color: $colorGray_2;
+  text-decoration: none;
+  @include fontSize(lv7);
+  .l-Image {
+    display: inline;
+    vertical-align: middle;
+    .l-Image__img {
+      display: inline;
+    }
+  }
+  img {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 1em;
+    width: 100px;
+  }
+  &:first-child {
+    border-top: dotted 1px $colorGray_5;
+  }
+  &:link {
+    &:hover {
+      @include opacity(0.8);
+      background-color: #f1f9fd;
+    }
+    &:after {
+      content: "&gt";
+      position: absolute;
+      right: 10px;
+      @include vMiddle();
+      $url: "arrow_blue_right.png";
+      @include img_main($url);
+    }
+  }
+
+  .sofina-whatsnew__line__head {
+    display: table-cell;
+    width: 210px;
+    vertical-align: middle;
+    padding: 12px 0px 12px 0px;
+  }
+
+  .sofina-whatsnew__line__body {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 12px 25px 12px 0px;
+    line-height: 1.4;
+  }
+  /*-----------------------*/
+  // .sofina-whatsnew__line
+  /*-----------------------*/
+  @include bp(sm) {
+    .sofina-whatsnew__line__head {
+      display: block;
+      width: 100%;
+      padding-bottom: 0;
+    }
+    .sofina-whatsnew__line__body {
+      display: block;
+      padding: 8px 25px 7px 0px;
+      font-size: $fontSize_sm_caption;
+    }
+  }
+}
+
+
+//
+// ブランド情報
+//
+.sofina-section--topBrands {
+  background-color: #f9f9f9;
+  //パネル
+  $brandMargin: 15px;
+  $brandMargin_sm: 0;
+  .l-TileLinkVP {}
+  .l-TileLinkVUnit {
+    background-color: #FFF;
+    padding: 0 0 12px 0;
+    border: solid 1px $colorGray_9;
+    @include box-shadow(none);
+    > .l-Image {
+      margin: 10px 0;
+      padding: 0 $brandMargin;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $colorAction_1_hover;
+    }
+  }
+  .l-TileLinkVUnit__imageBlock {
+    margin: 0;
+  }
+  .l-TileLinkVUnit__leadBlock {
+    display: none;
+  }
+  .l-Image {
+    margin: 0;
+    img {
+      display: block;
+    }
+  }
+  .sofina-TagLabels {
+    padding: 0 $brandMargin;
+  }
+  .l-TileLinkVUnit__extraStructural {
+    > .l-Image {
+      margin: 10px 0;
+      padding: 0 $brandMargin;
+    }
+  }
+  /*-----------------------*/
+  // .sofina-section_brands
+  /*-----------------------*/
+  @include bp(sm) {
+    // .g-Column__cols {
+    //   padding: 0;
+    // }
+    .g-Section__inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .l-HeadingTitle {
+      margin-right: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .l-TileLinkVP__list {
+      margin: 0;
+    }
+    .l-TileLinkVP__list__tile {
+      padding: 0;
+      &:nth-child(1),
+      &:nth-child(2) {
+        border-top: solid 1px $colorGray_9;
+      }
+      &:nth-child(even) {
+        border-right: none;
+      }
+    }
+    .l-TileLinkVUnit {
+      border-top: none;
+      border-left: none;
+      padding: 10px 16px 10px 16px;
+      .l-TileLinkVUnit__leadBlock {
+        padding: 0;
+      }
+      > .l-Image {
+        padding: 0 $brandMargin_sm;
+      }
+    }
+    .sofina-TagLabels {
+      padding: 0 $brandMargin_sm;
+    }
+    .l-TileLinkVUnit__extraStructural {
+      > .l-Image {
+        padding: 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+/**/
+
+////////////////////////////////////
+//
+// メインビジュアル
+//
+////////////////////////////////////
+.sofina-section_mainvisual {
+  background-color: #c1e8f2;
+  @include gradient-topBottom(#c1e8f2, #e7f5f6);
+  padding: 20px 0px 0px 0px;
+  .g-Section__inner {
+    padding: 0px 0px 0px 0px;
+    max-width: 100%;
+  }
+  .g-Column__cols {
+    padding: 0;
+  }
+  .l-Image {
+    margin-bottom: 0;
+    visibility: hidden;
+  }
+  img {
+    display: block;
+    // width: 100%;
+    // max-width: $maxWidth_md;
+    // margin: 0px auto 0px auto;
+  }
+  /*-----------------------*/
+  // .sofina-section_mainvisual
+  /*-----------------------*/
+  @include bp(sm) {
+    padding-top: 0;
+  }
+}
+
+
+/**/
+
+////////////////////////////////////
+//
+// bps
+//
+////////////////////////////////////
+
+
+/**/
+
+////////////////////////////////////
+//
+// 美容情報
+//
+////////////////////////////////////
+
+
+/**/
+
+////////////////////////////////////
+//
+// こだわり
+//
+////////////////////////////////////
+
+
+/**/
+
+////////////////////////////////////
+//
+// Whats New　お知らせ
+//
+////////////////////////////////////
+
+
+/**/
+
+////////////////////////////////////
+//
+// ブランド情報
+//
+////////////////////////////////////

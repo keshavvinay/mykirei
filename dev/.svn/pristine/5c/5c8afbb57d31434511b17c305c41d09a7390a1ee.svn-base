@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/*  our_story_hero */
+
+.jf-our_story_hero {
+  position: relative;
+  top: 0;
+  width: 100%;
+  max-height: 679px;
+  background-color: #000;
+  background-position: center top;
+  .l-Movie{
+    margin-bottom: 0;
+  }
+  @include bp(lg) {
+    z-index: 1;
+    .l-Movie{
+      position: relative;
+      pointer-events: none;
+      top: 0;
+      height: 679px;
+      background-repeat: no-repeat;
+    }
+    .video-js.vjs-fluid {
+      max-height: 679px;
+      position: relative;
+      vertical-align: top;
+      top: 0;
+    }
+    .vjs_video_3-dimensions.vjs-fluid {
+
+    }
+    .l-Movie__iframe {
+      .vjs-tech {
+        height: 679px!important;
+        vertical-align: top;
+        top: 0;
+        object-fit: cover;
+        object-position: 50% 50%;
+      }
+    }
+  }
+  @include bp(md) {
+    max-height: 436px;
+    .l-Movie{
+      position: relative;
+      pointer-events: none;
+    }
+  }
+  @include bp(sm) {
+    z-index: 0;
+    height: auto !important;
+    background-image: none !important;
+    .l-PageTitle__titleBlock__titleBox__title{
+      padding-bottom: 0.50em;
+    }
+  }
+  .l-PageTitle__titleBlock {
+    width: auto;
+    @include bp(sm) {
+      width: 100%;
+    }
+  }
+  .l-PageTitle {
+    position: absolute;
+    left: 8%;
+    bottom: 25%;
+    margin: 0;
+    z-index: 2;
+    width: auto;
+    text-align: center;
+    @include bp(sm) {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      margin: 48px 0 0 0;
+      text-align: center;
+    }
+  }
+  .l-PageTitle__h1 {
+    font-size: 120px;
+    text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+    letter-spacing: 0em;
+    @include bp(lg) {
+      text-align: left;
+      line-height: 1.2;
+    }
+    @include bp(md) {
+      font-size: (72rem / 16);
+      line-height: 1.2;
+      text-align: left;
+    }
+    @include bp(sm) {
+      font-size: (60rem / 16);
+    }
+  }
+  .l-Text {
+    @include bp(lg) {
+      margin: 0;
+      text-align: left;
+      letter-spacing: 0.8px;
+      @include translateX(0);
+      text-shadow: 1px 0.5px 5px rgba(0,0,0, 0.5);
+      font-size: 36px;
+      white-space: nowrap;
+    }
+    @include bp(md) {
+      margin: 0;
+      text-align: left;
+      @include translateX(0);
+      text-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.5);
+      font-size: 28px;
+      letter-spacing: 0.8px;
+      white-space: nowrap;
+    }
+    @include bp(sm) {
+      font-size: 18px;
+      letter-spacing: 0.9px;
+    }
+  }
+  .vjs-poster {
+    max-height: 679px;
+    background-position: center top;
+    background-size: cover;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+  }
+}

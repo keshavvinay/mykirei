@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* C150 TEXT IMAGE */
+.c150__title {
+  position: relative;
+  z-index: 2;
+  font-size: 35px;
+  margin: 0 33% -0.7em 39% !important;
+  color: #000;
+  @include bp(lg) {
+    font-size: 50px;
+    line-height: 35px;
+  }
+  @include bp(md) {
+    margin: 0 25% -.5em 25% !important;
+  }
+}
+.c150__imageText {
+  position: relative;
+  z-index: 1;
+  .l-ImageTextHP__contentsBlock {
+    display: table;
+    width: 100%;
+    .l-Text {
+      @include kms-fontSize(longcopy);
+      @include kms-fontFamily(body);
+      color: #000;
+      letter-spacing: normal;
+    }
+    @include bp(sm) {
+      display: block;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__text {
+    float: none !important;
+    display: table-cell;
+    padding-top: 75px;
+    padding-right: 15px !important;
+    vertical-align: top;
+    @include bp(sm) {
+      display: block;
+      position: relative;
+      z-index: 2;
+      padding-right: 0 !important;
+    }
+  }
+  .l-HeadingTitle__h3 {
+    @include kms-fontFamily(subTitle);
+    @include kms-fontSize(headline3);
+    text-transform: uppercase;
+  }
+  .l-HeadingTitle {
+    &:not(.is-link) {
+      .l-HeadingTitle__h3 {
+        color: #000;
+      }
+    }
+    .l-Text {
+      @include kms-fontSize(longcopy);
+      @include kms-fontFamily(body);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__image {
+    float: none !important;
+    display: table-cell;
+    padding-left: 15px !important;
+    vertical-align: top;
+    @include bp(sm) {
+      display: block;
+      position: relative;
+      z-index: 1;
+      padding-left: 0 !important;
+    }
+  }
+  .c150__title--sm {
+    font-size: 35px;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -.5em !important;
+    .l-HeadingTitle__titleBlock__titleBox__title {
+      margin-bottom: 0;
+    }
+  }
+  .l-ImageTextHP__contentsBlock__text__moreinfo {
+    margin-top: 28px;
+    .c122__button {
+      background-color: #FFF;
+      &.is-colorset--1 {
+        .l-ButtonUnit__link {
+          color: #000;
+        }
+      }
+    }
+  }
+  .l-ListP__ul__item{
+    margin-bottom: 8px;
+  }
+  .l-HeadingTitle.l-HeadingTitle--h3{
+    margin-bottom: 0;
+  }
+}

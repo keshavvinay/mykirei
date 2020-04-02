@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+/* MovieTextHP ================================================== */
+.l-MovieTextHP {
+  &.is-layoutL {
+    .l-MovieTextHP__contentsBlock__movie {
+      padding-right: $MovieTextPack__separator;
+      @include bp(sm) {
+        padding-right: $MovieTextPack__separator--sm;
+      }
+    }
+  }
+  &.is-layoutR {
+    .l-MovieTextHP__contentsBlock__movie {
+      padding-left: $MovieTextPack__separator;
+      @include bp(sm) {
+        padding-left: $MovieTextPack__separator--sm;
+      }
+    }
+  }
+}

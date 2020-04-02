@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+/* FacebookPost ================================================== */
+.l-FacebookPost {
+  &.is-colorset--1 {
+    color: $facebookPost__text--01;
+    .cmn-icon {
+      color: $facebookPost__icon--01;
+    }
+    .l-FacebookPostUnit {
+      border-color: $facebookPost__border--01;
+    }
+    .l-FacebookPost__textBlock__listItem__link,
+    .l-FacebookPost__textBlock__visit__link,
+    .l-FacebookPost__textBlock__message a {
+      color: $facebookPost__link--01;
+      &:link {
+        color: $facebookPost__link--01;
+      }
+      &:visited {
+        color: $facebookPost__link--01--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $facebookPost__link--01--hover;
+      }
+    }
+    .l-FacebookPost__sharedBlock {
+      background-color: $facebookPost__shared__bg--01;
+      .l-FacebookPost__sharedBlock__inner {
+        border-color: $facebookPost__shared__border--01;
+      }
+      .l-FacebookPost__sharedBlock__title,
+      .l-FacebookPost__sharedBlock__text,
+      .l-FacebookPost__sharedBlock__caption {
+        color: $facebookPost__shared__text--01;
+      }
+    }
+  }
+  &.is-colorset--2 {
+    color: $facebookPost__text--02;
+    .cmn-icon {
+      color: $facebookPost__icon--02;
+    }
+    .l-FacebookPostUnit {
+      border-color: $facebookPost__border--02;
+    }
+    .l-FacebookPost__textBlock__listItem__link,
+    .l-FacebookPost__textBlock__visit__link,
+    .l-FacebookPost__textBlock__message a {
+      color: $facebookPost__link--02;
+      &:link {
+        color: $facebookPost__link--02;
+      }
+      &:visited {
+        color: $facebookPost__link--02--visited;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        color: $facebookPost__link--02--hover;
+      }
+    }
+    .l-FacebookPost__sharedBlock {
+      background-color: $facebookPost__shared__bg--02;
+      .l-FacebookPost__sharedBlock__inner {
+        border-color: $facebookPost__shared__border--02;
+      }
+      .l-FacebookPost__sharedBlock__title,
+      .l-FacebookPost__sharedBlock__text,
+      .l-FacebookPost__sharedBlock__caption {
+        color: $facebookPost__shared__text--02;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+// Footer Styling
+.ban-footer {
+    padding-bottom: 1rem;
+    .g-ListP{
+        margin-bottom: 0;
+        
+        @media(max-width:640px){
+            margin-bottom: 1rem;
+        }
+    }
+    .g-ListP__ul{
+        padding: 0; 
+    }    
+    .g-ListP__ul__item {
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.5rem;
+        
+        @media(max-width:640px){
+            display: block; 
+        }
+        
+    }
+    a.g-ListUnit.l-ListUnit {
+       color: $white-text; 
+       text-decoration: none;
+    } 
+    .g-BrFooter__sitemapBlock {
+        display: none;
+    }
+}

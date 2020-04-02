@@ -1,0 +1,21 @@
+.g-PageTitle {
+    position: relative;
+    margin-bottom: 30px !important;
+    @media (max-width: 767px) {
+        margin-bottom: 30px !important;
+    }
+    .g-PageTitle__titleBlock {
+        .g-PageTitle__titleBlock__titleBox__title {
+            @media (max-width: $break-md) {
+                margin-bottom: 0;
+            }
+        } 
+        .g-Text{
+            font-family: $avenirRegular;
+        }
+    }
+    .g-PageTitle__h1 {
+        font-family: $ralewayExtraBold;
+        color: $heading-font-color;
+    }
+}

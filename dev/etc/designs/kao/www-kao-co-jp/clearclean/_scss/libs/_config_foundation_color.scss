@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/*****************************
+  Content Color set (clearclean)
+ *****************************/
+
+/* Body */
+$body__bg: #FFFFFF;
+
+/* Brand Header */
+$brandHeader__bg: #FFFFFF;
+$brandHeader__text: #00B100;
+$brandHeader__icon: #42C700;
+$brandHeader__border: #E5E5E5;
+$brandHeader__button__bg: #00B100;
+$brandHeader__button__icontext: #FFFFFF;
+
+$brandHeader__linkNormal__bg: transparent;
+$brandHeader__linkNormal__text: #00B100;
+$brandHeader__linkNormal__icon: #42C700;
+$brandHeader__linkNormal__bg--hover: #E2F8E2;
+$brandHeader__linkNormal__text--hover: #00B100;
+$brandHeader__linkNormal__icon--hover: #42C700;
+
+$brandHeader__linkCurrent__bg: #00B100;
+$brandHeader__linkCurrent__text: #FFFFFF;
+$brandHeader__linkCurrent__icon: #FFFFFF;
+$brandHeader__linkCurrent__bg--hover: #E2F8E2;
+$brandHeader__linkCurrent__text--hover: #00B100;
+$brandHeader__linkCurrent__icon--hover: #42C700;
+
+$brandHeader__separateBorder--top: #E5E5E5;
+$brandHeader__separateBorder--bottom: #E5E5E5;
+
+/* Local Navigation */
+$localNavigation__bg: #D2F87A;
+$localNavigation__bg--smmd: #D2F87A;
+$localNavigation__text: #333333;
+$localNavigation__icon: #42C700;
+$localNavigation__border: #E5E5E5;
+
+$localNavigation__linkNormal__bg: transparent;
+$localNavigation__linkNormal__text: #333333;
+$localNavigation__linkNormal__icon: #42C700;
+$localNavigation__linkNormal__bg--hover: #E9FCBD;
+$localNavigation__linkNormal__text--hover: #333333;
+$localNavigation__linkNormal__icon--hover: #42C700;
+
+$localNavigation__linkCurrent__bg: #FFFFFF;
+$localNavigation__linkCurrent__text: #333333;
+$localNavigation__linkCurrent__icon: #42C700;
+$localNavigation__linkCurrent__bg--hover: #E9FCBD;
+$localNavigation__linkCurrent__text--hover: #333333;
+$localNavigation__linkCurrent__icon--hover: #42C700;
+
+$localNavigation__separateBorder--top: transparent;
+$localNavigation__separateBorder--bottom: transparent;
+
+/* Breadcrumbs */
+$breadcrumb__link: #666666;
+$breadcrumb__link--hover: #999999;
+$breadcrumb__link--visited: #666666;
+$breadcrumb__separateBorder--top: transparent;
+$breadcrumb__separateBorder--bottom: transparent;
+$breadcrumb__icon: #999999;
+
+/* Contents Area */
+$contents__bg: #FFFFFF;
+$contents__text: #333333;
+$contents__icon: #42C700;
+$contents__icon--reverse: #FFFFFF;
+$contents__border: #E5E5E5;
+$contents__heading__text: #333333;
+$contents__heading__border: transparent;
+
+/* Link */
+$text__link--01: #42C700;
+$text__link--01--hover: #A1E380;
+$text__link--01--visited: #42C700;
+
+$text__link--02: #333333;
+$text__link--02--hover: #999999;
+$text__link--02--visited: #333333;
+
+/* Button */
+$button__bg--01: #42C700;
+$button__text--01: #FFFFFF;
+$button__border--01: #42C700;
+$button__shadowVisible--01: true;
+
+$button__bg--02: #FFFFFF;
+$button__text--02: #42C700;
+$button__border--02: #FFFFFF;
+$button__shadowVisible--02: true;
+
+$button__bg--03: #00B100;
+$button__text--03: #FFFFFF;
+$button__border--03: #00B100;
+$button__shadowVisible--03: true;
+
+$button__bg--04: #FFFFFF;
+$button__text--04: #00B100;
+$button__border--04: #FFFFFF;
+$button__shadowVisible--04: true;
+
+$button__bg--05: #F5F5F5;
+$button__text--05: #00B100;
+$button__border--05: #E5E5E5;
+$button__shadowVisible--05: false;
+
+$button__bg--06: #FFFFFF;
+$button__text--06: #333333;
+$button__border--06: #FFFFFF;
+$button__shadowVisible--06: false;
+
+$button__bg--07: #28AAE6;
+$button__text--07: #FFFFFF;
+$button__border--07: #28AAE6;
+$button__shadowVisible--07: true;
+
+/* Accordion */
+$accordion__title__bg: #FFFFFF;
+$accordion__title__text: #333333;
+$accordion__title__border: #999999;
+
+$accordion__content__bg: #FFFFFF;
+$accordion__content__text: #333333;
+$accordion__content__border: transparent;
+
+/* TileLink */
+$tileLink__bg: transparent;
+$tileLink__border: transparent;
+$tileLink__text: #42C700;
+
+$tileLink__bg--reverse: transparent;
+$tileLink__border--reverse: transparent;
+$tileLink__text--reverse: #FFFFFF;
+
+/* NewsIndex */
+$newsIndex__text: #333333;
+$newsIndex__border: #EEEEEE;
+
+/* TelephoneCallItem */
+$telCall__border--sm: #00B100;
+
+/* FullwidthVisuals&Carousel */
+$carousel__mainText: #333333;
+$carousel__subText: #333333;
+$carousel__subText--sm: #333333;
+$carousel__arrow__icon: #FFFFFF;
+$carousel__indicator__icon: #CCCCCC;
+$carousel__icon--sm: #CCCCCC;
+$carousel__arrow__icon__bg: rgba(#000000, .2);
+
+$carousel__button__bg--sm: #F5F5F5;
+$carousel__button__text--sm: #00B100;
+$carousel__button__border--sm: #E5E5E5;
+$carousel__button__shadowVisible--sm: true;
+
+/* Label/Tag */
+$labelTag__bg-01: #757575;
+$labelTag__text-01: #FFFFFF;
+
+$labelTag__bg-02: #42C700;
+$labelTag__text-02: #FFFFFF;
+
+$labelTag__bg-03: #E71821;
+$labelTag__text-03: #FFFFFF;
+
+$labelTag__bg-04: #0065B3;
+$labelTag__text-04: #FFFFFF;
+
+$labelTag__bg-05: #EF2C8E;
+$labelTag__text-05: #FFFFFF;
+
+$labelTag__bg-06: #FFEB3B;
+$labelTag__text-06: #333333;
+
+$labelTag__bg-07: #FFC011;
+$labelTag__text-07: #FFFFFF;
+
+/* DefinitionList */
+$definitionList__label__bg-01: #999999;
+$definitionList__label__text-01: #FFFFFF;
+
+$definitionList__label__bg-02: #FFFFFF;
+$definitionList__label__text-02: #444444;
+
+/* Brand Footer */
+$brandFooter__bg-01: #00B100;
+$brandFooter__bg-02: #42C700;
+$brandFooter__bg--open: #42C700;
+$brandFooter__text-01: #FFFFFF;
+$brandFooter__text-02: #FFFFFF;
+$brandFooter__icon-01: #FFFFFF;
+$brandFooter__icon-02: #FFFFFF;
+$brandFooter__border-01: #73CB73;
+$brandFooter__border-02: #73CB73;
+$brandFooter__separateBorder--top: #00B100;
+$brandFooter__separateBorder--bottom: #00B100;
+
+/* Page Top */
+$pageTop__bg: rgba(#666666, .5);
+$pageTop__icon: #FFFFFF;
+
+/* Option */
+$option__bg--01: #FFFFFF;
+$option__bg--02: #F5F5F5;
+$option__bg--03: #000000;
+$option__bg--04: #00B100;
+$option__bg--05: #D2F87A;
+$option__bg--06: #666666;
+$option__bg--07: #333333;
+
+$option__border--01: #97E073;
+$option__border--02: #FFFFFF;
+$option__border--03: #7FD87F;
+$option__border--04: #EEEEEE;
+$option__border--05: #CCCCCC;
+$option__border--06: #666666;
+$option__border--07: #333333;
+
+$option__inPlaceEditor--01: #333333;
+$option__inPlaceEditor--02: #42C700;
+$option__inPlaceEditor--03: #00B100;
+$option__inPlaceEditor--04: #FFFFFF;
+$option__inPlaceEditor--05: #999999;
+$option__inPlaceEditor--06: #28AAE6;
+$option__inPlaceEditor--07: #0065B3;
+$option__inPlaceEditor--08: #0B106E;
+$option__inPlaceEditor--09: #EF2C8E;
+$option__inPlaceEditor--10: #E71821;
+$option__inPlaceEditor--11: #FF6600;
+$option__inPlaceEditor--12: #E1AB08;

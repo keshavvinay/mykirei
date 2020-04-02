@@ -1,0 +1,45 @@
+/* relatedLink-02 */
+.corp-relatedLink-02 {
+  .l-TileLinkVUnit {
+    padding: 0;
+    border: none;
+    &:hover {
+      opacity: 1;
+      .l-TileLinkVUnit__imageBlock {
+        opacity: 0.7;
+      }
+      .l-TileLinkVUnit__leadBlock__title {
+        .cmn-richtext span {
+          padding-bottom: 2px;
+          border-bottom: 1px solid #3a3a3a;
+        }
+      }
+    }
+  }
+  .l-TileLinkVUnit__imageBlock {
+    margin-bottom: 0;
+    .l-Image {
+      margin-bottom: 0;
+    }
+  }
+  .l-TileLinkVUnit__leadBlock {
+    padding-top: 15px;
+    background-color: $bg-01;
+    .l-TileLinkVUnit__leadBlock__title {
+      margin-bottom: 8px;
+      .l-Text {
+        margin-bottom: 0;
+        font-weight: normal;
+        font-size: 14px;
+        @include bp(sm) {
+          font-size: 12px;
+        };
+      }
+    }
+    .l-TileLinkVUnit__leadBlock__lead {
+      .l-Text {
+        font-size: 12px;
+      }
+    }
+  }
+}

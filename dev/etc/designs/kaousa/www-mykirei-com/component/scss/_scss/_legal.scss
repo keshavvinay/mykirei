@@ -1,0 +1,49 @@
+.kirei-legal-section-wrapper {
+  .g-PageTitle__titleBlock__titleBox__title, .g-HeadingTitle__titleBlock__titleBox__title {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  .kirei-legal-section-wrapper {
+    padding: 90px 180px;
+    padding-bottom: 38px;
+
+    .g-PageTitle {
+      margin-bottom: 50px;
+    }
+
+    .g-HeadingTitle {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .kirei-legal-section-wrapper {
+    padding: 70px 30px;
+
+    .g-PageTitle {
+      margin-bottom: 40px;
+    }
+
+    .g-HeadingTitle {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 641px) {
+  .kirei-legal-section-wrapper {
+    padding: 45px 25px;
+    padding-bottom: 0px;
+
+    .g-PageTitle {
+      margin-bottom: 30px;
+    }
+
+    .g-HeadingTitle {
+      margin-bottom: 15px;
+    }
+  }
+}

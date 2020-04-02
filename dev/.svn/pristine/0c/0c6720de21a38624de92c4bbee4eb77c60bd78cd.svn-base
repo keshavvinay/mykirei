@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>c380</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jsrender.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/moment.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/kms_youtube.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <script src="/etc/designs/kaousa/www-kmshair-com/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/common-instagram-utils_dummy.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/instagram.js"></script>
+  <script src="/etc/clientlibs/common/component/js/video.js"></script>
+  <!-- / script -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <noscript>
+      <div class="noscript">To view this website correctly, please ensure you have
+        <span>JavaScript enabled.</span>
+        <br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+    </noscript>
+
+    <!-- area-BrHeader -->
+    <div class="g-Area" id="area-BrHeader"></div>
+    <!-- / area-BrHeader -->
+    <!-- area-Contents -->
+
+<!-- / G_CON_036: Instagram Post Item -->
+<div class="g-Area" id="area-Contents" data-yt-key="AIzaSyDvrAYtspFiIriBndjtd7-iHOQUcFg4wjg">
+  <div class="g-Section l-Section c380__section opt-lg-mt80 opt-md-mt80 opt-sm-mt80 is-paddingReset--topBottom" id="common_section_wrapper_1">
+        <div class="g-InstagramPost l-InstagramPost is-layoutL is-smallViewTop is-media-w50--lg is-media-w50--md is-media-w100--sm is-colorset--1 c380" data-path="/etc/clientlibs/common/component/js/instagram_test.json" data-number="1" data-date-format="DD.MM.YYYY" data-link-label="GO TO INSTAGRAM">
+        <div class="g-InstagramPost__inner l-InstagramPost__inner">
+
+        </div>
+        <div class="g-InstagramPost__error l-InstagramPost__error">
+          <div class="g-Text l-Text">
+            <p class="cmn-richtext">
+              <span>エラーが発生したため、表示できません。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+<!-- / G_CON_036: Instagram Post Item -->
+<!-- / G_CON_036: Instagram Post Item -->
+<div class="g-Area" id="area-Contents" data-yt-key="AIzaSyDvrAYtspFiIriBndjtd7-iHOQUcFg4wjg">
+  <div class="g-Section l-Section c380__section opt-lg-mt80 opt-md-mt80 opt-sm-mt80 is-paddingReset--topBottom" id="common_section_wrapper_1">
+        <div class="g-InstagramPost l-InstagramPost js-InstagramPost is-layoutL is-smallViewTop is-media-w50--lg is-media-w50--md is-media-w100--sm is-colorset--1 c380" data-path="/etc/clientlibs/common/component/js/instagram_test.json" data-number="5" data-date-format="DD.MM.YYYY" data-link-label="GO TO INSTAGRAM">
+        <div class="g-InstagramPost__inner l-InstagramPost__inner">
+
+        </div>
+        <div class="g-InstagramPost__error l-InstagramPost__error">
+          <div class="g-Text l-Text">
+            <p class="cmn-richtext">
+              <span>エラーが発生したため、表示できません。</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+<!-- / G_CON_036: Instagram Post Item -->
+<!--/contents--></div>
+
+
+
+
+
+  <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+  <style>
+    .s7responsiveImage {
+      width: 100%
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".s7responsiveContainer img").each(function(index) {
+        s7responsiveImage(this);
+      });
+      $(".s7responsiveImage").each(function(index) {
+        s7responsiveImage(this);
+      });
+    });
+  </script>
+  <!-- area-PageTop -->
+  <div class="g-Area" id="area-PageTop">
+    <div class="g-PageTop l-PageTop">
+      <a class="g-PageTop__link l-PageTop__link" href="#wrapper">ページ先頭へ戻る<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+    </div>
+  </div>
+  <!-- / area-PageTop -->
+
+  <!-- breakpoint -->
+  <div id="js-breakpoint--lg"></div>
+  <div id="js-breakpoint--md"></div>
+  <div id="js-breakpoint--sm"></div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 01_Home_Global_Template */
+
+.globalTemplate__section {
+  @include bp(lg) {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 255px auto, 280px auto !important;
+    background-position: right top, left top 50% !important;
+  }
+  @include bp(md) {
+    background-size: 180px auto, 200px auto !important;
+    background-position: left top 55%, right top !important;
+  }
+  @include bp(sm) {
+    background-size: 180px auto, 200px auto !important;
+    background-position: left top 70%, right top !important;
+  }
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+
+/* Movie ================================================== */
+.l-Movie {
+}
+.l-Movie__caption {
+  @include fontSize(caption);
+}

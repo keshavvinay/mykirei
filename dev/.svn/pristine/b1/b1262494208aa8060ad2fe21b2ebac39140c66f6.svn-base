@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>c450</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/component/css/component.css">
+  <link rel="stylesheet" href="/etc/designs/kaousa/www-kmshair-com/option/css/option.css">
+  <!-- / css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jsrender.min.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/moment.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <script src="/etc/clientlibs/common/component/js/carousel.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/kms_youtube.js"></script>
+  <script src="/etc/clientlibs/common/component/js/brand-header-footer.js"></script>
+  <script src="/etc/designs/kaousa/www-kmshair-com/component/js/component.js"></script>
+  <script src="/etc/designs/kaousa/www-kmshair-com/component/js/shariff.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/common-instagram-utils_dummy.js"></script>
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <script src="/etc/clientlibs/common/component/js/instagram.js"></script>
+  <script src="/etc/clientlibs/common/component/js/video.js"></script>
+  <!-- / script -->
+</head>
+
+<body>
+<div id="wrapper">
+        <noscript>
+            <div class="noscript">To view this website correctly, please ensure you have <span>JavaScript enabled.</span><br />Some of the website layout and links may not function properly with JavaScript disabled.</div>
+        </noscript>
+
+    <!-- area-BrHeader -->
+<div class="g-Area" id="area-BrHeader">
+ <div class="kmsBrandHeader">
+  <div class="kmsBrandHeader__inner">
+   <a href="javascript:void(0);" class="kmsBrandHeader__menu-trigger is-deactive js-mainmenu-trigger"> <span></span> <span></span> <span></span> </a>
+   <div class="kmsBrandHeader__logo">
+    <a class="g-Image l-Image is-link" href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Style-Matters.html" target="_self" id="common_image_item_20170214171916538_prSr"><p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmscalifornia-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;"></p></a><div class="g-Image l-Image">
+ <div class="cq-dd-image"></div>
+</div>
+
+    <!-- <div class="g-Image l-Image" style="position : relative;">
+              <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmshair-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;"></p>
+            </div>-->
+   </div>
+  </div>
+  <!-- toggle menu -->
+  <div class="kmsBrandHeader__mainmenu">
+   <!-- desktop and mobile -->
+   <div class="kmsBrandHeader__mainmenu__list opt-hide-md">
+    <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) desktop and mobile -->
+    <div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222408454_rPAS" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Products
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Products.html" target="_self" id="common_text_link_unit_20170303222408463_l0iV" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Products
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Products/Product_Philosophy.html" target="_self" id="common_text_link_unit_20170303222408470_zxrC" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Product Philosophy
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222433680_v5ic" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Campaign<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Campaign.html" target="_self" id="common_text_link_unit_20170303222433689_SEor" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Campaign<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Campaign/The-Looks.html" target="_self" id="common_text_link_unit_20170303222433697_4mNs" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>The Looks<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Campaign/The-Style-Equations.html" target="_self" id="common_text_link_unit_20170303222433704_1VcJ" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>The Style Equations
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222502358_Z237" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>For Stylists<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists.html" target="_self" id="common_text_link_unit_20170303222502368_QFh9" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>For Stylists<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists/Community-Pathway.html" target="_self" id="common_text_link_unit_20170303222502380_obzG" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Community Pathway<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists/Education-App.html" target="_self" id="common_text_link_unit_20170303222502391_Lmo6" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Community App
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists/Creative-Sessions.html" target="_self" id="common_text_link_unit_20170303222502402_hhck" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Creative Sessions
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222521296_6fff" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>About KMS<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/About-KMS.html" target="_self" id="common_text_link_unit_20170303222521305_uHaD" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>About KMS<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/About-KMS/Technology.html" target="_self" id="common_text_link_unit_20170303222521315_BGlS" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Technology<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+    <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) desktop and mobile -->
+   </div>
+   <!-- /desktop and mobile -->
+   <!-- tablet -->
+   <div class="kmsBrandHeader__mainmenu--md opt-hide-lg opt-hide-sm">
+    <div class="kmsBrandHeader__mainmenu__list">
+     <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+     <div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844270_kXIu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Products
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Products.html" target="_self" id="common_text_link_unit_20170303222844280_Rz1c" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Products
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Products/Product_Philosophy.html" target="_self" id="common_text_link_unit_20170303222844287_YF22" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Product Philosophy
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844300_w4s7" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Campaign<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Campaign.html" target="_self" id="common_text_link_unit_20170303222844309_2XX7" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Campaign<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Campaign/The-Looks.html" target="_self" id="common_text_link_unit_20170303222844316_Ub7h" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>The Looks<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Campaign/The-Style-Equations.html" target="_self" id="common_text_link_unit_20170303222844323_HwrT" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>The Style Equations
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+     <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+    </div>
+    <div class="kmsBrandHeader__mainmenu__list">
+     <!-- PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+     <div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844339_L3u4" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>For Stylists<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists.html" target="_self" id="common_text_link_unit_20170303222844348_OVlW" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>For Stylists<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists/Community-Pathway.html" target="_self" id="common_text_link_unit_20170303222844355_U8Jr" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Community Pathway<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists/Education-App.html" target="_self" id="common_text_link_unit_20170303222844362_L1tu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Community App
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/For-Stylists/Creative-Sessions.html" target="_self" id="common_text_link_unit_20170303222844369_7D76" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Creative Sessions
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div><div class="g-GroupBox l-GroupBox kmsBrandHeader__mainmenu__item is-paddingReset">
+ <div class="kmsBrandHeader__mainmenu__link js-kms_submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="javascript:void(0)" target="_self" id="common_text_link_unit_20170303222844382_qWnI" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>About KMS<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div class="kmsBrandHeader__submenu is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/About-KMS.html" target="_self" id="common_text_link_unit_20170303222844391_tGdJ" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>About KMS<br />
+
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/About-KMS/Technology.html" target="_self" id="common_text_link_unit_20170303222844399_wiji" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>Technology<br />
+
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+</div>
+
+     <!-- /PARSYS (GroupBox * menu items > textLinkPack + submenu textLinkPack) tablet -->
+    </div>
+   </div>
+   <!-- /tablet -->
+   <div class="kmsBrandHeader__mainmenu__sns">
+    <!-- <div class="g-Text l-Text">
+ <p class="cmn-richtext">
+  <span>Campaign<br />
+
+</span></p>
+</div>
+ (textLinkPack) -->
+    <div class="kmsBrandHeader__mainmenu__sns__other is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit kmsBrandHeader__mainmenu__sns__other__unit kmsBrandHeader__mainmenu__sns__other__unit--salonfinder is-colorset--1 is-size--m">
+ <a href="#" target="_self" id="common_text_link_unit_20170518163404503_XOo0" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>SALON FINDER
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div>
+
+    <!-- /<div class="g-Text l-Text">
+ <p class="cmn-richtext">
+  <span>The Looks<br />
+
+</span></p>
+</div>
+ (textLinkPack) -->
+    <ul class="kmsBrandHeader__mainmenu__sns__list">
+     <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://www.facebook.com/kmshairUS" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--fb"></span></a> </li>
+     <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://www.youtube.com/KMShair" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--yt"></span></a> </li>
+     <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://pinterest.com/kmshair/" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--pinterest"></span></a> </li>
+     <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://twitter.com/kmshairUS" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--tw"></span></a> </li>
+     <li class="kmsBrandHeader__mainmenu__sns__item"> <a href="https://instagram.com/kmshairUS" target="_blank" class="kmsBrandHeader__mainmenu__sns__link"><span class="kms-icon kms-icon--inst"></span></a> </li>
+    </ul>
+   </div>
+  </div>
+  <!-- /toggle menu -->
+  <!-- C420 SOCIAL MEDIA BAR -->
+  <div class="c420">
+   <a href="javascript:void(0);" class="c420__trigger js-c420"></a>
+   <!-- toggle block -->
+   <div class="c420__sns">
+    <!-- shariff SNS share -->
+    <div class="shariff" data-services="[&quot;facebook&quot;,&quot;twitter&quot;,&quot;googleplus&quot;,&quot;whatsapp&quot;,&quot;pinterest&quot;,&quot;mail&quot;]" data-mail-url="mailto:Donotreply@kmshair.com"></div>
+    <!-- /shariff SNS share -->
+   </div>
+   <!-- /toggle block -->
+  </div>
+  <!-- /C420 SOCIAL MEDIA BAR -->
+ </div>
+</div><!-- / area-BrHeader --><!-- area-Contents -->
+<div class="g-Area" id="area-Contents" >
+  <div class="g-Section l-Section opt-pt70--imp historyTemplate_section-kms is-background js-dm-bgimage opt-bg--bottom-left js-bgImageSize is-paddingReset--topBottom is-paddingReset--leftRight" data-src="/is/image/content/dam/sites/kaousa/www-kmshair-com/Master/bg02.png?fmt=png-alpha" data-bgimg-org="/content/dam/sites/kaousa/www-kmshair-com/Master/bg02.png" data-width-org="1701" data-height-org="1701" data-bgimagesize="250" data-background-size="250px" id="common_section_wrapper_1">
+ <div class="g-Section__inner l-Section__inner">
+  <div class="g-Column l-Column is-background js-dm-bgimage opt-bg--right js-bgImageSize js-uniformHeight opt-sm-w80p opt-md-w80p opt-lg-w80p is-gutter--m is-paddingReset" data-src="/is/image/content/dam/sites/kaousa/www-kmshair-com/Master/bg01.png?fmt=png-alpha" data-bgimg-org="/content/dam/sites/kaousa/www-kmshair-com/Master/bg01.png" data-width-org="1530" data-height-org="1695" data-bgimagesize="250" data-background-size="250px" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit is-paddingReset">
+ <div class="g-HeadingTitle l-HeadingTitle c090__title c185__title is-titleBorder--none g-HeadingTitle--h2 l-HeadingTitle--h2">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <h2 class="g-HeadingTitle__h2 l-HeadingTitle__h2"><span class="cmn-richtext">
+      <span>cookies
+</span></span></h2>
+   </div>
+  </div>
+ </div>
+</div><div class="g-HeadingTitle l-HeadingTitle c093__subtitle g-HeadingTitle--h3 l-HeadingTitle--h3">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3"><span class="cmn-richtext">
+      <span>WHAT IS A COOKIE?
+</span></span></h3>
+   </div>
+  </div>
+ </div>
+</div><div class="g-Text l-Text c100">
+ <p class="cmn-richtext">
+  <span><div class="c450__text">A cookie is a small text file a web portal installs on your computer, tablet or smartphone when you visit the portal. This makes it possible for the portal to remember certain entries and settings (e.g. login info, language, font size and other display preferences) for a specific period of time so you do not have to re-enter this information every time you visit and navigate the portal.<br />
+ <br />
+ </div>
+</span></p>
+</div><div class="g-HeadingTitle l-HeadingTitle c093__subtitle g-HeadingTitle--h3 l-HeadingTitle--h3">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3"><span class="cmn-richtext">
+      <span>HOW WE USE COOKIES AND FOR WHICH PURPOSE:
+</span></span></h3>
+   </div>
+  </div>
+ </div>
+</div><div class="g-Text l-Text c100">
+ <p class="cmn-richtext">
+
+<span>Cookie Acceptance<br />
+ Saves information on the user's acceptance of the use of cookies.<br />
+ <br />
+Content Filter<br />
+This activates a command to determine whether button &quot;Yes&quot; = &quot;All&quot; has been marked; &quot;No&quot; = &quot;None.&quot; Button &quot;Reset&quot; is used to delete all cookies.<br />
+ <br />
+Adobe Analytics<br />
+This cookie is used to determine in the archive whether the browser permits the use of cookies.<br />
+<br />
+Adobe Analytics<br />
+This cookie is used to save information as to whether the Click Map function for the current website has been activated.<br />
+<br />
+Adobe Analytics<br />
+This cookie saves the time and date related to the individual visitor ID.<br />
+ <br />
+Adobe Analytics<br />
+This cookie is required to store the individual visitor ID as well as the time and date if the s_vi cookie should not be available for technical reasons.<br />
+<br />
+Adobe Marketing Cloud<br />
+This cookie is used to assign an individual user an individual visitor ID and to recognize this visitor based on this ID. <br />
+<br />
+Instagram<br />
+This cookie is used by Instagram as soon as the Instagram plugin has been activated on our website. For more information on the type, use and purpose of these cookies,<br />
+please click the following link: <a href="https://www.instagram.com/about/legal/privacy/#" class="kms-linktext">https://www.instagram.com/about/legal/privacy/#</a><br />
+<br />
+Pinterest<br />
+This cookie is used by Pinterest as soon as the Pinterest plugin has been activated on our website. For more information on the type, use and purpose of these cookies,<br />
+please click the following link: <a href="https://about.pinterest.com/en/privacy-policy" class="kms-linktext">https://about.pinterest.com/en/privacy-policy<br />
+ </a><br />
+Youtube<br />
+These cookies are used by YouTube and/or Google as soon as a video has been integrated on a site and/or has been played. For more information on the type, use and purpose<br />
+of the cookies, please click on the following link: <a href="https://www.google.com/intl/en/policies/privacy/" class="kms-linktext">https://www.google.com/intl/en/policies/privacy/</a><br />
+<br />
+Facebook<br />
+This cookie is used by Facebook as soon as the Facebook plugin has been activated on our website. For more information on the type, use and purpose of these cookies,<br />
+please click the following link: <a href="https://www.facebook.com/policies/cookies/" class="kms-linktext">https://www.facebook.com/policies/cookies/</a><br />
+<br />
+Twitter<br />
+This cookie is used by Twitter as soon as the Twitter plugin has been activated on our website. For more information on the type, use and purpose of these cookies,<br />
+please click the following link: <a href="https://twitter.com/privacy" class="kms-linktext">https://twitter.com/privacy</a><br />
+<br />
+<br />
+
+</span></p>
+</div><div class="g-HeadingTitle l-HeadingTitle c093__subtitle g-HeadingTitle--h3 l-HeadingTitle--h3">
+ <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+  <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+   <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+    <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3"><span class="cmn-richtext">
+      <span>CONTROLLING COOKIES
+</span></span></h3>
+   </div>
+  </div>
+ </div>
+</div><div class="g-Text l-Text c100">
+ <p class="cmn-richtext">
+  <span>You can randomly manage and/or delete these cookies. You can delete all of the cookies stored on your computer and you can set up most browsers in such a manner that<br />the archiving of cookies is prevented in the first place.<br />
+ <br />
+However, if you do this, you may have to manually adjust some settings every time you visit and live with the impairment of some of the functions.
+</span></p>
+</div>
+
+</div>
+  </div>
+ </div>
+</div>
+ </div>
+</div>
+
+<div class="g-Section l-Section" id="common_section_wrapper_2">
+ <div class="g-Section__inner l-Section__inner">
+  <div class="g-Column l-Column js-uniformHeight opt-sm-w100p opt-md-w100p opt-lg-w100p is-gutter--m" data-uniform-target="g-ColumnUnit">
+ <div class="g-Column__inner l-Column__inner">
+
+  <div class="g-Column__cols l-Column__cols g-Column__cols-lg-1 g-Column__cols-md-1 g-Column__cols-sm-1">
+   <div class="g-ColumnUnit l-ColumnUnit">
+
+<!-- c450x__cookieButtons -->
+<div class="g-GroupBox l-GroupBox c450x__cookieButtons">
+  <div class="opt-al_c is-gutter--m g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+    <ul class="g-ButtonP__list l-ButtonP__list">
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <div class="g-ButtonUnit l-ButtonUnit c122__button is-colorset--1 is-size--m">
+          <a href="javascript:void(0)" id="kms_cookieButtons_accept" class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+            <span class="cmn-richtext">
+              <span>ACCEPT</span>
+            </span>
+          </a>
+        </div>
+      </li>
+      <li class="g-ButtonP__list__item l-ButtonP__list__item">
+        <div class="g-ButtonUnit l-ButtonUnit c122__button is-colorset--1 is-size--m">
+          <a href="javascript:void(0)" id="kms_cookieButtons_decline" class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+            <span class="cmn-richtext">
+              <span>DECLINE</span>
+            </span>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- / c450x__cookieButtons -->
+
+</div>
+  </div>
+ </div>
+</div>
+ </div>
+</div>
+</div>
+<!-- / area-Contents -->
+<!-- area-BrFooter -->
+<div class="g-Area" id="area-BrFooter">
+ <div class="g-BrFooter l-BrFooter">
+  <div class="g-BrFooter__inner l-BrFooter__inner">
+   <div class="g-BrFooter__sitemapBlock l-BrFooter__sitemapBlock">
+    <div class="g-BrFooter__sitemapBlock__sitemap l-BrFooter__sitemapBlock__sitemap">
+     <div class="g-BrFooterSitemap l-BrFooterSitemap js-uniformHeight" data-uniform-target="g-BrFooterSitemapUnit">
+      <div class="g-BrFooterSitemap__list l-BrFooterSitemap__list">
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+       <div class="g-BrFooterSitemap__list__tile l-BrFooterSitemap__list__tile g-BrFooterSitemap__list__tile-lg-4 g-BrFooterSitemap__list__tile-md-2 g-BrFooterSitemap__list__tile-sm-1">
+        <div class="g-BrFooterSitemapUnit l-BrFooterSitemapUnit js-BrFooter" data-accordion-label="g-BrFooterSitemapUnit__title" data-accordion-panel="g-BrFooterSitemapUnit__panel">
+ <p class="g-BrFooterSitemapUnit__title l-BrFooterSitemapUnit__title"></p>
+</div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="g-BrFooter__infoBlock l-BrFooter__infoBlock">
+    <div class="c260brandFooter__links is-gutter--none g-TextLinkP l-TextLinkP">
+ <ul class="g-TextLinkP__list l-TextLinkP__list">
+
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Imprint.html" target="_self" id="common_text_link_unit_20170303223405558_bEKu" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>IMPRINT
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Privacy-Policy.html" target="_self" id="common_text_link_unit_20170303223428608_5OJs" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>PRIVACY POLICY
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Terms-Of-Use.html" target="_self" id="common_text_link_unit_20170303223450270_zNQ9" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>TERMS OF USE
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="/content/wcm_kao/sites/kaousa/master/www-kmshair-com/working/local/en-US/Cookies.html" target="_self" id="common_text_link_unit_20170303223509675_6Tqm" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>COOKIE POLICY
+</span></span>
+  </a>
+</div></li>
+  <li class="g-TextLinkP__list__item l-TextLinkP__list__item">
+   <div class="g-TextLinkUnit l-TextLinkUnit is-colorset--1 is-size--m">
+ <a href="http://contact.kmshair.com/us/en" target="_self" id="common_text_link_unit_20170303223522882_XTx8" class="g-TextLinkUnit__link l-TextLinkUnit__link js-anchorLink"><span class="cmn-richtext">
+   <span>CONTACT
+</span></span>
+  </a>
+</div></li>
+ </ul>
+</div><div>
+ <div class="c260brandFooter">
+  <div class="c260brandFooter__sns">
+   <ul class="c260brandFooter__sns__list">
+    <li class="c260brandFooter__sns__item"><a href="https://www.facebook.com/kmshairUS" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--fb"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://www.youtube.com/KMShair" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--yt"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://pinterest.com/kmshair/" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--pinterest"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://twitter.com/kmshairUS" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--tw"></span></a></li>
+    <li class="c260brandFooter__sns__item"><a href="https://instagram.com/kmshairUS" target="_blank" class="c260brandFooter__sns__item__link"><span class="kms-icon kms-icon--inst"></span></a></li>
+   </ul>
+  </div>
+  <!-- PARSYS TextLinkP(footerMenu) + ImageItem(logo) -->
+  <a class="g-Image l-Image is-link c260brandFooter__logo" href="http://kaosalondivision.com" target="_self" id="common_image_item_20170303223703591_9gIf"><p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmscalifornia-com/en/kao-logo.svg" alt="kao SALON DIVISION" class="cq-dd-image" style="width : 100%;"></p></a>
+
+  <!-- /PARSYS TextLinkP(footerMenu) + ImageItem(logo) -->
+  <!--<a href="http://kaosalondivision.com" class="g-Image l-Image c260brandFooter__logo" style="position : relative;">
+                  <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmshair-com/en/kao-logo.svg" class="cq-dd-image" style="width : 100%;" alt="kao SALON DIVISION"></p>
+                </a>
+                -->
+ </div>
+</div><div>
+<!-- Cookie Bar -->
+<div class="c450x__cookieBar js-cookieBarX">
+  <!-- PARSYS -->
+  <div class="g-GroupBox l-GroupBox c450x__cookieBar__box--confirm">
+    <div class="g-Image l-Image c450x__cookieBar__box__logo" style="position : relative;">
+      <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmscalifornia-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;"></p>
+    </div>
+    <div class="g-HeadingTitle l-HeadingTitle c093__title g-HeadingTitle--h3 l-HeadingTitle--h3">
+      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+            <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+              <span class="cmn-richtext">
+                <span>use of cookies</span>
+              </span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-Text l-Text c100 c450x__text">
+      <p class="cmn-richtext">
+        <span>We require your consent to the use of cookies before you can visit this website.<br />I consent to the use of cookies.<br />If you want to know more about the cookies this site uses or about cookies in general, <a class="kms-linktext" href="#">please click here</a>.</span>
+      </p>
+    </div>
+    <div class="c182__button is-gutter--none g-ButtonP l-ButtonP js-uniformHeight" data-uniform-target="g-ButtonP__list__item">
+      <ul class="g-ButtonP__list l-ButtonP__list">
+        <li class="g-ButtonP__list__item l-ButtonP__list__item">
+          <div class="g-ButtonUnit l-ButtonUnit c122__button is-colorset--1 is-size--m">
+            <a href="javascript:void(0)" target="_self" id="kms_cookieOverlay_accept" class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+              <span class="cmn-richtext">
+                <span>ACCEPT</span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li class="g-ButtonP__list__item l-ButtonP__list__item">
+          <div class="g-ButtonUnit l-ButtonUnit c122__button is-colorset--1 is-size--m">
+            <a href="javascript:void(0)" target="_self" id="kms_cookieOverlay_decline" class="g-ButtonUnit__link l-ButtonUnit__link js-anchorLink">
+              <span class="cmn-richtext">
+                <span>DECLINE</span>
+              </span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="g-GroupBox l-GroupBox c450x__cookieBar__box--nopage">
+    <div class="g-Image l-Image c450x__cookieBar__box__logo" style="position : relative;">
+      <p class="g-Image__img l-Image__img"><img src="/content/dam/sites/kaousa/www-kmscalifornia-com/en/kms-logo.svg" class="cq-dd-image" style="width : 100%;"></p>
+    </div>
+    <div class="g-HeadingTitle l-HeadingTitle c093__title g-HeadingTitle--h3 l-HeadingTitle--h3">
+      <div class="g-HeadingTitle__titleBlock l-HeadingTitle__titleBlock">
+        <div class="g-HeadingTitle__titleBlock__titleBox l-HeadingTitle__titleBlock__titleBox">
+          <div class="g-HeadingTitle__titleBlock__titleBox__title l-HeadingTitle__titleBlock__titleBox__title">
+            <h3 class="g-HeadingTitle__h3 l-HeadingTitle__h3">
+              <span class="cmn-richtext">
+                <span>cookies</span>
+              </span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-Text l-Text c100 c450x__text">
+      <p class="cmn-richtext">
+        <span>We are sorry that you have decided not to use cookies. Unfortunately, our website does not work optimally without the use of cookies. Hence, you will be unable to visit kmshair.com. If you would like to change your mind and authorize the use of cookies at this time, <a class="kms-linktext" href="#">please click here</a>.</span>
+      </p>
+  </div>
+  <!-- / PARSYS -->
+</div>
+<!-- / Cookie Bar -->
+
+</div>
+
+   </div>
+  </div>
+ </div>
+</div><!-- / area-BrFooter -->
+</div>
+    <script type="text/javascript" src="/etc/dam/viewers/s7viewers/libs/responsive_image.js"></script>
+<style>
+    .s7responsiveImage{ width: 100% }
+</style>
+<script>
+  $(document).ready(function() {
+    $(".s7responsiveContainer img").each(function(index) {
+      s7responsiveImage(this);
+    });
+    $(".s7responsiveImage").each(function(index) {
+      s7responsiveImage(this);
+    });
+  });
+</script>
+<!-- area-PageTop -->
+    <div class="g-Area" id="area-PageTop">
+      <div class="g-PageTop l-PageTop">
+        <a class="g-PageTop__link l-PageTop__link" href="#wrapper">Page Top<span class="cmn-icon cmn-icon--to_top g-PageTop__icon l-PageTop__icon"></span></a>
+      </div>
+    </div>
+    <!-- / area-PageTop -->
+
+    <!-- breakpoint -->
+    <div id="js-breakpoint--lg"></div>
+    <div id="js-breakpoint--md"></div>
+    <div id="js-breakpoint--sm"></div>
+
+<!-- Cookie Bar DEBUG -->
+<script>
+  $(document).ready(function() {
+    kmsAPI.showCookieButtons();
+  });
+</script>
+<!-- / Cookie Bar DEBUG -->
+
+</body>
+
+</html>

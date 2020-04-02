@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* Mars Finder Search ================================================== */
+.l-BrHeaderSearch {
+  box-sizing: border-box;
+  &.lg {
+    display: none;
+    @include bp(lg) {
+      display: block;
+      margin: 0 auto;
+      max-width: 1336px;
+      min-height: 43px;
+    }
+  }
+  &.sm {
+    display: none;
+    @include bp(md) {
+      display: block;
+      border-top: 1px solid #ccc;
+    }
+    @include bp(sm) {
+      display: block;
+      border-top: 1px solid #ccc;
+    }
+  }
+}
+.l-BrHeaderSearch__inner {
+  position: relative;
+  &.lg {
+    float: right;
+    padding-top: 12px;
+    padding-right: 12px;
+    margin-bottom: -4px;
+  }
+  &.sm {
+    background-color: #eee;
+    @include bp(md) {
+      padding: 8px 24px;
+    }
+    @include bp(sm) {
+      padding: 8px 0;
+    }
+  }
+}
+.l-BrHeaderSearch__form {
+  overflow: hidden;
+  @include bp(md) {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 6px 0;
+  }
+  @include bp(sm) {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 6px 0;
+  }
+}
+.l-BrHeaderSearch__input {
+  @include bp(lg) {
+    float: left;
+    width: 320px;
+    margin-right: 6px;
+  }
+  @include bp(md) {
+    display: table-cell;
+    width: 100%;
+  }
+  @include bp(sm) {
+    display: table-cell;
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    height: 31px;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+}
+.l-BrHeaderSearch__submit {
+  @include bp(lg) {
+    float: left;
+    width: 114px;
+  }
+  @include bp(md) {
+    display: table-cell;
+    input {
+      padding-right: 20px;
+    }
+  }
+  @include bp(sm) {
+    display: table-cell;
+    input {
+      padding-right: 20px;
+    }
+  }
+  input {
+    width: 114px;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    background-color: #999;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-right: 23px;
+  }
+}
+.l-BrHeaderSearch__icon {
+  position: absolute;
+  top: 43%;
+  right: 20px;
+  color: #fff;
+  @include bp(md) {
+    top: 27%;
+    right: 48px;
+  }
+  @include bp(sm) {
+    top: 27%;
+  }
+}
+
+/* Mars Finder Search (TOPページ) ================================================== */
+
+.l-Search-TopPage {
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+.l-Search-TopPage__inner {
+}
+.l-Search-TopPage__form {
+  position: relative;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 6px 0;
+  @include bp(sm) {
+    border-collapse: inherit;
+  }
+}
+.l-Search-TopPage__input {
+  display: table-cell;
+  width: 100%;
+  input {
+    width: 100%;
+    height: 38px;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding-right: 23px;
+  }
+  @include bp(sm) {
+    input {
+      padding-right: 6px;
+      height: 31px;
+    }
+  }
+}
+.l-Search-TopPage__submit {
+  box-sizing: border-box;
+  @include bp(lg) {
+    display: table-cell;
+  }
+  @include bp(md) {
+    display: table-cell;
+    input {
+      padding-right: 20px;
+    }
+  }
+  @include bp(sm) {
+    display: table-cell;
+    vertical-align: bottom;
+    input {
+      padding-right: 20px;
+    }
+  }
+  input {
+    width: 130px;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    background-color: #999;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-right: 26px;
+    @include bp(sm) {
+      width: 115px;
+      height: 31px;
+      line-height: 31px;
+    }
+  }
+}
+.l-Search-TopPage__icon {
+  position: absolute;
+  top: 16%;
+  right: 27px;
+  color: #fff;
+}

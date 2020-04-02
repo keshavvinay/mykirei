@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- ヘッダ要素 -->
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>G_CON_032: Slide Image Pack Test</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/etc/clientlibs/common/lib/css/normalize.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/basic/css/basic.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/slick.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/component/css/component.css">
+  <link rel="stylesheet" href="/etc/clientlibs/common/option/css/option.css">
+  <!-- / css -->
+  <!-- debug css -->
+  <link rel="stylesheet" href="/apps/kao/sites/common/components/clientlibs/css/debug.css">
+  <!-- / debug css -->
+
+  <!-- script -->
+  <script src="/etc/clientlibs/common/lib/js/modernizr.custom.js"></script>
+  <script src="/etc/clientlibs/common/lib/js/jquery.min.js"></script>
+  <script src="/etc/clientlibs/common/component/js/jquery.extend.js"></script>
+  <script src="/etc/clientlibs/common/component/js/slick.js"></script>
+  <!--script src="/etc/clientlibs/common/component/js/carousel.js"></script-->
+  <script src="/etc/clientlibs/common/component/js/component.js"></script>
+  <!-- / script -->
+  <!-- debug script -->
+  <script src="/apps/kao/sites/common/components/clientlibs/js/jquery.tmpl.min.js"></script>
+  <script src="/apps/kao/sites/common/components/clientlibs/js/debug.js"></script>
+  <!--<script src="/etc/clientlibs/common/authoring/component/js/component-authoring.js"></script>-->
+  <!-- debug script -->
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<!-- contents -->
+<div class="g-Area" id="area-Contents">
+<div class="g-Section">
+<div class="g-Section__inner">
+
+<div class="backBtn">
+  <a href="javascript:history.back()">← back</a>
+</div>
+
+
+<!-- Slide Image Pack Test -->
+<div id="" class="method">
+  <p class="componentName">G_CON_032: Slide Image Pack</p>
+</div>
+
+<h3 class="settingName">Element: all</h3>
+<div class="g-SlideImageP l-SlideImageP js-SlideImageP" data-autoplay="true" data-autoplaySpeed="2" data-fade="false">
+  <div class="g-SlideImageP__list l-SlideImageP__list">
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_560.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_aroma.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_hand.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+  </div>
+</div>
+
+<h3 class="settingName">クロスフェード</h3>
+<div class="g-SlideImageP l-SlideImageP js-SlideImageP" data-autoplay="true" data-autoplaySpeed="2" data-fade="true">
+  <div class="g-SlideImageP__list l-SlideImageP__list">
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_560.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_aroma.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_hand.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+  </div>
+</div>
+
+<h3 class="settingName">手動切替</h3>
+<div class="g-SlideImageP l-SlideImageP js-SlideImageP" data-autoplay="false" data-autoplaySpeed="2" data-fade="false">
+  <div class="g-SlideImageP__list l-SlideImageP__list">
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_560.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_aroma.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_hand.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+  </div>
+</div>
+
+<h3 class="settingName">Unit Num : 1</h3>
+<div class="g-SlideImageP l-SlideImageP js-SlideImageP" data-autoplay="true" data-autoplaySpeed="2" data-fade="false">
+  <div class="g-SlideImageP__list l-SlideImageP__list">
+
+    <!-- SlideImagePUnit -->
+    <div class="g-SlideImagePUnit l-SlideImagePUnit">
+      <a class="g-Image l-Image is-link">
+        <p class="g-Image__img l-Image__img"><img src="/apps/kao/sites/common/components/clientlibs/img/dummy_index_main_560.jpg" width="100%" alt="dummy"></p>
+      </a>
+    </div>
+    <!-- / SlideImagePUnit -->
+
+  </div>
+</div>
+
+
+
+
+</div>
+</div>
+
+
+<!--/contents--></div>
+
+
+<!--/wrapper--></div>
+
+<!-- breakpoint -->
+<div id="js-breakpoint--lg"></div>
+<div id="js-breakpoint--md"></div>
+<div id="js-breakpoint--sm"></div>
+
+</body>
+</html>

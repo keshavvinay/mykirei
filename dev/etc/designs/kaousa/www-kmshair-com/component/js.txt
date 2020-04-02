@@ -1,0 +1,5 @@
+#base=js
+shariff.min.js
+component.js
+shade-selector.js
+form.js

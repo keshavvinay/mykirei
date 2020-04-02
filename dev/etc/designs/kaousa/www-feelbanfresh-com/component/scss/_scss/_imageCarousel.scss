@@ -1,0 +1,104 @@
+.carouselSectionWrapper {
+    .g-Column__cols {
+        padding-bottom: 0 !important;
+    }
+
+    .g-ImageCarouselP {
+        .slick-arrow {
+            padding: 0;
+            width: 15%;
+            height: 100%;
+            bottom: 0;
+            outline: none;
+
+            &:hover {
+
+                &::before,
+                &::after {
+                    background-color: $white;
+                    transition: 0.2s;
+                }
+            }
+
+            &::before {
+                content: '';
+                height: 10px;
+                width: 26px;
+                background-color: $black-text-light;
+                transform: rotate(-45deg);
+                transform-origin: 0px 5px;
+                top: calc(50% - 2px);
+                position: absolute;
+                left: calc(50% - 20px);
+                transition: 0.2s;
+            }
+
+            &::after {
+                content: '';
+                height: 10px;
+                width: 26px;
+                background-color: $black-text-light;
+                transform: rotate(45deg);
+                transform-origin: 0px 5px;
+                bottom: calc(50% - 2px);
+                position: absolute;
+                left: calc(50% - 20px);
+                transition: 0.2s;
+            }
+        }
+
+        .l-ImageCarouselP__prevArrow {
+            left: 0;
+        }
+
+        .l-ImageCarouselP__nextArrow {
+            right: 0;
+            transform: rotate(180deg);
+        }
+
+        .l-ImageCarouselPUnit {
+            padding: 0;
+        }
+
+        .g-ImageCarouselP__nav {
+            display: none !important;
+        }
+
+        .g-Image {
+            margin-bottom: 0;
+        }
+
+        .l-ImageCarouselP__list {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media(max-width: $break-sm) {
+    .carouselSectionWrapper {
+        .g-ImageCarouselP {
+            .slick-slide img {
+                width: 100% !important;
+            }
+            .slick-arrow {
+                width: 20%;
+            }
+            .slick-arrow::after {
+                content: '';
+                height: 6px;
+                width: 20px;
+                transform-origin: 0px 1px;
+                left: calc(50% - 10px);
+            }
+    
+            .slick-arrow::before {
+                height: 6px;
+                width: 20px;
+                transform-origin: 0px 5px;
+                left: calc(50% - 10px);
+            }
+
+        }
+    }
+
+}

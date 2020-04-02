@@ -1,0 +1,113 @@
+.sharrif-wrapper {
+    position: fixed;
+    right: 10px;
+    top: 30%;
+    height: 50px;
+    overflow: hidden;
+    z-index: 101;
+    background-color: rgba(0, 0, 0, 0.15);
+    @media (max-width: $break-xs) {
+        max-width: 100%;
+        height: auto;
+        background-color: transparent;
+    }
+    @media (max-width: 991px) {
+        top: 25%;
+    }
+    .sharrif-wrapper-ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        .sharrif-wrapper-li {
+            &.sharrif-icon-toggle { 
+                width: 50px;
+                height: 50px;
+                background-color: rgba(255, 255, 255, 0.4117647058823529);
+                position: relative;
+                cursor: pointer;
+                .icon-leftArrow {
+                    width: 40px;
+                    height: 40px;
+                    position: relative;
+                    margin: 5px;
+                    -webkit-transform : rotateY(0deg);
+                    -ms-transform : rotateY(0deg);
+                    transform: rotateY(0deg);
+                    transition: 1s;
+                    &::before {
+                        content: '';
+                        width: 50%;
+                        height: 1px;
+                        position: absolute;
+                        left: 25%;
+                        top: calc(50% - 0.5px);
+                        background-color: $primary;
+                        -webkit-transform : rotate(45deg);
+                        -ms-transform : rotate(45deg);
+                        transform: rotate(45deg);
+                        transform-origin: 0;
+                        transition: 1s;
+                    }
+                    &::after {
+                        content: '';
+                        width: 50%;
+                        height: 1px;
+                        position: absolute;
+                        left: 25%;
+                        top: calc(50% - 0.5px);
+                        background-color: $primary;
+                        -webkit-transform : rotate(145deg);
+                        -ms-transform : rotate(145deg);
+                        transform: rotate(-45deg);
+                        transform-origin: 0 0;
+                        transition: 1s;
+                    }
+                }
+            }
+            &.is-open {
+                .icon-leftArrow {
+                    -webkit-transform : rotateY(180deg);
+                    -ms-transform : rotateY(180deg);
+                    transform: rotateY(180deg);
+                    transition: 1s;
+                }
+            }
+            .shariff {
+                ul li {
+                    margin: 0 !important;
+                    width: 50px;
+                    height: 50px;
+                }
+                ul li a {
+                    width: 50px;
+                    height: 50px;
+                    background-color: transparent;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.3s;
+                    &:hover {
+                        color: $primary;
+                        background-color: $solid-white;
+                        cursor: pointer;
+                        transition: 0.3s;
+                    }
+                    @media (max-width: $break-xs) {
+                        background-color: rgba(0, 0, 0, 0.15);
+                    }
+                }
+                .orientation-horizontal {
+                    @media (max-width: $break-xs) {
+                        flex-direction: column !important;
+                    }
+                }
+            }
+            &:last-child {
+                width: 0;
+                display: none;
+            }
+        }
+    }
+}

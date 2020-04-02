@@ -1,0 +1,196 @@
+.womens-health-section{
+    @include section-max-width;
+    padding: 15px;
+    position: relative;
+    h1{
+        font-size: 40px !important;
+        color: #5b2945;
+    }
+    
+    .g-Text{
+        color: #5b2945;
+        font-size: 20px;
+        
+        &.is-background{
+            display: inline-block;
+        background-position: 0px 0;
+    width: 70px;
+    height: 22px;
+    width: 71px;
+    height: 24px;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    right: 0;
+            
+            &:hover{
+                background-position: 0px -29px;
+                cursor: pointer;
+            }
+        }
+    }
+    
+    .badge-column{
+        
+    position: relative;
+    border-bottom: 2px solid #a29d9d;
+        
+        .small-image-link-pack {
+            display: inline-block;
+            max-width: 300px;
+            
+            li{
+            padding: 0 !important;
+            margin-bottom: 15px;
+                
+            a{
+                width: 100px;
+                height: 50px;
+            }
+                
+             }
+        
+            .star a{
+                background-position: -40px 0;
+                background-size: cover;
+                
+            }
+            
+            .shape a{
+                    background-position: -62px -85px;
+            }
+            
+            .beauty-11 a{ 
+                background-position: -33px 100%;
+            }
+            
+            .parents a{
+                background-position: -58px -180px;
+                height: 35px;
+            }
+        }
+        
+        .single-image-link-pack{
+            position: absolute;
+            top: 0;
+            right: 0;
+            
+            @media(max-width:$breakpoint_sm){
+                position: static;
+            }
+            
+            a{
+                background-size: cover;
+                width:200px;
+                height: 100px;
+            }
+            
+            .single-beauty-11 a{
+                background-position: -32px 98%;
+            }
+            
+            .single-shape-beauty-awards a{
+                    background-position: -79px -140px;
+            }
+            
+            .parents-knows-best a{
+                    background-position: -69px -281px;
+            }
+            
+            .seventeen-best-beauty a{
+                    background-position: -71px 8px;
+            }
+        }
+        
+    }
+    
+    .best-tanner-column{
+        position: relative;
+    }
+    
+    .womens-health-image-pack{
+        position: relative;
+        img{
+            width:100% !important;
+            margin: 0 auto;
+            min-height: 300px;
+        }
+        
+        .g-ImageTextVP__contentsBlock__text{
+            div{
+                margin-bottom: 0 !important;
+            }
+            position: absolute;
+    top: 10%;
+    left: 30%;
+    display: inline-block;
+    width: auto;
+        }
+        
+        h2{
+            color: #045e65 !important;
+        }
+        
+        .g-Text{
+                color: #093556;
+            font-size: 16px;
+        }
+    }
+    
+    .best-tanner-product{
+            display: inline-block;
+    left: 0;
+    right: 0;
+    position: absolute !important;
+    bottom: 10%;
+        
+        img{
+            margin: 0 auto;
+            
+            @media (min-width:641px) and (max-width:$breakpoint_md){
+                width: auto !important;
+                max-height:180px;
+            }
+            
+            @media (max-width:$breakpoint_sm){
+                    max-height: 150px;
+                width: auto !important;
+            }
+        }
+                
+        .g-Text{
+            
+                color: #333;
+    font-size: 12px;
+    max-width: 130px;
+    display: none;
+    position: absolute;
+    top: 20%;
+    right: 57%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+            
+            &:after{
+                    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #ffff;
+    left: 100%;
+    top: 30%;
+            }
+            
+            @media (max-width:$breakpoint_sm){
+                    font-size: 10px;
+                max-width: 100px;
+            }
+        }
+    }
+    
+    
+    
+    
+}

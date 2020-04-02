@@ -1,0 +1,498 @@
+@charset "utf-8";
+
+// variable
+$brFooter_fontFamily: sans-serif;
+$brFooter_fontSize_m: 14px;
+
+$brFooter_colorFont_dark:  #333;
+$brFooter_colorFont_light: #eee;
+
+$brFooter_colorIcon_dark:  #666;
+$brFooter_colorIcon_light: #eee;
+
+$brFooter_colorBorder_1: #999;
+$brFooter_colorBorder_2: #dcdcdc;
+$brFooter_colorBorder_3: #eee;
+
+$brFooter_colorBackground_1: #666;
+$brFooter_colorBackground_2: #dcdcdc;
+$brFooter_colorBackground_3: #eee;
+
+/* Brand Footer ================================================== */
+#area-BrFooter {
+  &.g-Area {
+  }
+}
+
+.g-BrFooter {
+  color: $brFooter_colorFont_light;
+  background-color: $brFooter_colorBackground_1;
+  box-sizing: border-box;
+}
+.g-BrFooter__inner {
+  margin: 0 auto;
+  max-width: 1366px;
+  box-sizing: border-box;
+  @include bp(sm) {
+    padding: 0;
+  }
+  @include bp(md) {
+    padding: 7px 40px;
+  }
+  @include bp(lg) {
+    padding: 7px 40px;
+  }
+}
+
+// "g-BrFooter内主要レイアウト"
+// "g-BrFooter__sitemapBlock" では全体を "ロゴ領域" と "サイトマップ領域" に分ける
+// "g-BrFooter__infoBlock" は parsys拡張用の領域
+// .g-BrFooter
+//   .g-BrFooter__sitemapBlock
+//     .g-BrFooter__sitemapBlock__logo (任意表示)
+//     .g-BrFooter__sitemapBlock__sitemap
+//   .g-BrFooter__infoBlock
+.g-BrFooter__sitemapBlock {
+  display: table;
+  width: 100%;
+}
+.g-BrFooter__sitemapBlock__logo {
+  display: none;
+  @include bp(sm) {
+  }
+  @include bp(md) {
+  }
+  @include bp(lg) {
+    padding-right: 20px;
+    display: table-cell;
+    width: 160px;
+    // vertical-align: top;
+    &.is-lg-left {
+      text-align: left;
+      .g-BrFooterLogo {
+        margin-right: auto;
+        margin-left: 0;
+      }
+    }
+    &.is-lg-center {
+      text-align: center;
+      .g-BrFooterLogo {
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    &.is-lg-right {
+      text-align: right;
+      .g-BrFooterLogo {
+        margin-right: 0;
+        margin-left: auto;
+      }
+    }
+    &.is-lg-top {
+      vertical-align: top;
+    }
+    &.is-lg-middle {
+      vertical-align: middle;
+    }
+    &.is-lg-bottom {
+      vertical-align: bottom;
+    }
+  }
+}
+.g-BrFooter__sitemapBlock__sitemap {
+  display: table-cell;
+  vertical-align: top;
+}
+.g-BrFooter__infoBlock {
+}
+
+// "g-BrFooterLogo"
+// "ロゴ領域" の中のカラム構造。イメージコンポーネントを内包
+// .g-BrFooterLogo
+//   .g-Image
+.g-BrFooterLogo {
+  // margin-right: auto;
+  // margin-left: auto;
+  padding-top: 22px;
+  // text-align: center;
+  .g-Image {
+    display: inline-block;
+  }
+  .g-Image__img {
+    max-width: 160px;
+    max-height: 90px;
+    img {
+      max-width: 100%;
+      width: auto !important;
+      max-height: 90px;
+    }
+  }
+}
+
+// "g-BrFooterSitemap"
+// "サイトマップ領域" の中のタイル構造。
+// .g-BrFooterSitemap
+//   .g-BrFooterSitemap__list
+//     .g-BrFooterSitemap__list__tile
+.g-BrFooterSitemap {
+  box-sizing: border-box;
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    overflow: hidden;
+  }
+  @include bp(lg) {
+    overflow: hidden;
+  }
+}
+.g-BrFooterSitemap__list {
+  padding: 0;
+  list-style-type: none;
+  @include pie-clearfix;
+}
+.g-BrFooterSitemap__list__tile {
+  float: left;
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    margin-bottom: -1px;
+    padding: 20px 0;
+    border-bottom: solid 1px $brFooter_colorBorder_3;
+  }
+  @include bp(lg) {
+    margin-bottom: -1px;
+    padding: 20px 0;
+    border-bottom: solid 1px $brFooter_colorBorder_3;
+  }
+}
+@include bp(sm) {
+  .g-BrFooterSitemap__list__tile-sm-1 {
+    width: 100%;
+  }
+  .g-BrFooterSitemap__list__tile-sm-2 {
+    width: 50%;
+  }
+  .g-BrFooterSitemap__list__tile-sm-3 {
+    width: 33.3%;
+  }
+  .g-BrFooterSitemap__list__tile-sm-4 {
+    width: 25%;
+  }
+  .g-BrFooterSitemap__list__tile-sm-5 {
+    width: 20%;
+  }
+  .g-BrFooterSitemap__list__tile-sm-6 {
+    width: 16.66%;
+  }
+}
+@include bp(md) {
+  .g-BrFooterSitemap__list__tile-md-1 {
+    width: 100%;
+  }
+  .g-BrFooterSitemap__list__tile-md-2 {
+    width: 50%;
+  }
+  .g-BrFooterSitemap__list__tile-md-3 {
+    width: 33.3%;
+  }
+  .g-BrFooterSitemap__list__tile-md-4 {
+    width: 25%;
+  }
+  .g-BrFooterSitemap__list__tile-md-5 {
+    width: 20%;
+  }
+  .g-BrFooterSitemap__list__tile-md-6 {
+    width: 16.66%;
+  }
+}
+@include bp(lg) {
+  .g-BrFooterSitemap__list__tile-lg-1 {
+    width: 100%;
+  }
+  .g-BrFooterSitemap__list__tile-lg-2 {
+    width: 50%;
+  }
+  .g-BrFooterSitemap__list__tile-lg-3 {
+    width: 33.3%;
+  }
+  .g-BrFooterSitemap__list__tile-lg-4 {
+    width: 25%;
+  }
+  .g-BrFooterSitemap__list__tile-lg-5 {
+    width: 20%;
+  }
+  .g-BrFooterSitemap__list__tile-lg-6 {
+    width: 16.66%;
+  }
+}
+
+// "g-BrFooterSitemapUnit"
+// "サイトマップ領域" の中のタイル構造内の Unit。
+// .g-BrFooterSitemapUnit
+.g-BrFooterSitemapUnit {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  @include bp(sm) {
+  }
+  @include bp(md) {
+    padding: 0 20px;
+    border-left: solid 1px $brFooter_colorBorder_3;
+  }
+  @include bp(lg) {
+    padding: 0 20px;
+    border-left: solid 1px $brFooter_colorBorder_3;
+  }
+}
+
+// "g-BrFooterSitemapUnit__title"
+// Unit内、リンクグループタイトル。
+// .g-BrFooterSitemapUnit__title
+//   .g-BrFooterSitemapUnit__title__link
+.g-BrFooterSitemapUnit__title {
+  margin: 0;
+  position: relative;
+  line-height: 1.33;
+  color: $brFooter_colorFont_light;
+  font-size: $brFooter_fontSize_m;
+  &[tabindex] {
+    cursor: pointer;
+  }
+  // media query
+  @include bp(sm) {
+    padding: 11px 45px 11px 25px;
+    border-bottom: solid 1px $brFooter_colorBorder_1;
+    &.is-open {
+      border-bottom-color: $brFooter_colorBorder_2;
+      color: $brFooter_colorFont_dark;
+      background-color: $brFooter_colorBackground_2;
+    }
+  }
+  @include bp(md) {
+    margin-bottom: 13px;
+    font-weight: bold;
+  }
+  @include bp(lg) {
+    margin-bottom: 13px;
+    font-weight: bold;
+  }
+}
+.g-BrFooterSitemapUnit__title__link {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  &.is-link:hover,
+  &.is-link:focus {
+    text-decoration: underline;
+  }
+  // media query
+  @include bp(sm) {
+    margin: -11px -45px;
+    padding: 11px 45px;
+    display: block;
+  }
+  @include bp(md) {
+    padding-left: 1.5em;
+    display: inline-block;
+  }
+  @include bp(lg) {
+    padding-left: 1.5em;
+    display: inline-block;
+  }
+}
+.g-BrFooterSitemapUnit__title__icon {
+  position: absolute;
+  color: $brFooter_colorIcon_light;
+  @include bp(sm) {
+    margin-top: -.7em;
+    top: 50%;
+    right: 25px;
+    .is-open & {
+      color: $brFooter_colorIcon_dark;
+    }
+    &.cmn-icon--down:before {
+      content: "\e010";
+    }
+    &.cmn-icon--up:before {
+      content: "\e011";
+    }
+  }
+  @include bp(md) {
+    margin-top: -.1em;
+    display: none;
+    top: 0;
+    left: 0;
+    .is-link & {
+      display: block;
+    }
+  }
+  @include bp(lg) {
+    margin-top: -.1em;
+    display: none;
+    top: 0;
+    left: 0;
+    .is-link & {
+      display: block;
+    }
+  }
+}
+// "g-BrFooterSitemapUnit__panel"
+// Unit内、リンクグループ。
+// .g-BrFooterSitemapUnit__panel
+//   .g-BrFooterSitemapUnit__links
+//   .g-BrFooterSitemapUnit__moreinfo
+//   (parsys)
+.g-BrFooterSitemapUnit__panel {
+  &.is-open {
+    display: block;
+  }
+  &.is-close {
+    display: none;
+  }
+  @include bp(sm) {
+    background-color: $brFooter_colorIcon_light;
+  }
+  @include bp(md) {
+    margin-left: 8px;
+    &.is-open ,
+    &.is-close {
+      display: block;
+    }
+  }
+  @include bp(lg) {
+    margin-left: 8px;
+    &.is-open ,
+    &.is-close {
+      display: block;
+    }
+  }
+}
+.g-BrFooterSitemapUnit__links {
+  margin: 0;
+  padding: 0;
+  line-height: 1.33;
+  list-style: none;
+  font-size: $brFooter_fontSize_m;
+  li {
+  }
+  a {
+    position: relative;
+    color: $brFooter_colorFont_light;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+  // media query
+  @include bp(sm) {
+    border-bottom: solid 1px $brFooter_colorBorder_2;
+    li {
+      padding: 11px 45px;
+      border-bottom: solid 1px $brFooter_colorBorder_2;
+      &:last-child {
+        border-bottom-width: 0;
+      }
+    }
+    a {
+      margin: -11px -45px;
+      padding: 11px 45px;
+      display: block;
+      color: $brFooter_colorFont_dark;
+    }
+    &.is-open {
+      border-top: solid 1px $brFooter_colorBorder_2;
+      color: $brFooter_colorFont_dark;
+      background-color: $brFooter_colorBackground_3;
+    }
+  }
+  @include bp(md) {
+    li {
+      margin-bottom: 13px;
+    }
+    a {
+      padding-left: 1.5em;
+      display: inline-block;
+    }
+    &.is-open {
+      color: $brFooter_colorFont_dark;
+      background-color: $brFooter_colorBackground_2;
+    }
+  }
+  @include bp(lg) {
+    li {
+      margin-bottom: 13px;
+    }
+    a {
+      padding-left: 1.5em;
+      display: inline-block;
+    }
+    &.is-open {
+      color: $brFooter_colorFont_dark;
+      background-color: $brFooter_colorBackground_2;
+    }
+  }
+}
+.g-BrFooterSitemapUnit__links__icon {
+  position: absolute;
+  @include bp(sm) {
+    margin-top: -.7em;
+    top: 50%;
+    right: 25px;
+    color: $brFooter_colorIcon_dark;
+  }
+  @include bp(md) {
+    margin-top: -.1em;
+    top: 0;
+    left: 0;
+    color: $brFooter_colorIcon_light;
+  }
+  @include bp(lg) {
+    margin-top: -.1em;
+    top: 0;
+    left: 0;
+    color: $brFooter_colorIcon_light;
+  }
+}
+.g-BrFooterSitemapUnit__moreinfo {
+  margin: 0;
+  padding: 0;
+  line-height: 1.33;
+  list-style: none;
+  font-size: $brFooter_fontSize_m;
+  a {
+    position: relative;
+    color: $brFooter_colorFont_light;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+  // media query
+  @include bp(sm) {
+    padding: 11px 45px;
+    a {
+      margin: -11px -45px;
+      padding: 11px 45px;
+      display: block;
+      color: $brFooter_colorFont_dark;
+      text-decoration: none;
+    }
+  }
+  @include bp(md) {
+    a {
+      padding-left: 1.5em;
+      display: inline-block;
+    }
+  }
+  @include bp(lg) {
+    a {
+      padding-left: 1.5em;
+      display: inline-block;
+    }
+  }
+}
+.g-BrFooterSitemapUnit__moreinfo__icon {
+  @extend .g-BrFooterSitemapUnit__links__icon;
+}

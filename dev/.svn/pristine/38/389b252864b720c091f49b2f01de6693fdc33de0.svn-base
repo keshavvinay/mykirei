@@ -1,0 +1,135 @@
+form[name="booking_form"] {
+    .form {
+        .booking-form-header {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100% !important;
+            @media (max-width: $header-break-md) {
+                flex-direction: column;
+            }
+            .form_row {
+                flex: 1 1 0;
+
+            }
+        }
+        
+        .checkbox-wrapper{
+            .g-Text p{
+                position: relative;
+                z-index: 1;
+            }
+        }
+        
+        .form_row .form_rightcol textarea {
+            height: 240px;
+        }
+        .form_row {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+            padding-left: 15px;
+            padding-right: 15px;
+            @media (max-width: $header-break-md) {
+                width: 100%;
+            }
+        }
+        .g-GroupBox {
+            float: left;
+            width: 50%;
+            @media (max-width: $header-break-md) {
+                width: 100%;
+            }
+        }
+        .g-GroupBox .form_row {
+            width: 100%;
+        }
+        .callback_cb {
+            width: 50% !important;
+            margin-bottom: 0;
+            @media (max-width: $header-break-md) {
+                width: 100% !important;
+            }
+        }
+        .checkbox.callback_cb .form_row:first-child {
+            display: block;
+            width: 100% !important;
+            padding: 0;
+        }
+        .checkbox .form_row:first-child .form_rightcol {
+            height: auto;
+            width: 100%;
+            border: none;
+        }
+        .checkbox .form_row:first-child .form_rightcol input {
+            position: relative;
+            height: 40px;
+            opacity: 1;
+        }
+        .checkbox.callback_cb .form_row.callback_btn {
+            width: 100% !important;
+            padding: 0;
+            display: none;
+        }
+        .checkbox.callback_cb .form_row.callback_btn .form_rightcol {
+            height: auto;
+            border: none;
+            padding-left: 20px;
+            width: auto;
+        }
+        .checkbox.callback_cb .form_row.callback_btn {
+            position: relative;
+            margin: 0;
+            &::before {
+                content: '';
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                border: 2px solid $solid-black;
+            }
+        }
+        .callback_cb .help-block {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            @media (max-width: $header-break-md) {
+                bottom: 0;
+                position: relative;
+                left: 0;
+            }
+        }
+        .checkbox.callback_cb .form_row.callback_btn.active {
+            &::before {
+                border-color: $primary;
+                background-color: $primary;
+            }
+        }
+        .checkbox.callback_cb .form_row.active .form_rightcol {
+            background-color: transparent !important;
+            border-color: transparent !important;
+        }
+        .checkbox.callback_cb .form_row.callback_btn .form_rightcol {
+            height: auto;
+            border: none;
+            padding-left: 20px;
+            width: auto;
+        }
+        .checkbox.callback_cb .form_row.callback_btn .form_rightcol input {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            z-index: 1;
+        }
+        .textarea-wrapper, .form-button-wrapper {
+            width: 100%;
+        }
+    }
+    
+    .message-box{
+        float: none !important;
+    }
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@import "compass";
+@import "libs/config";
+@import "libs/mixin";
+
+
+/* Setting ============================================================ */
+html {
+  @include fontSize(body);
+}
+
+body {
+  background-color: $colorSub_02;
+  font-family: $fontFamily;
+  color: $colorFont_dark;
+}
+
+
+/* Wrapper ============================================================ */
+#wrapper {}
+
+#area-GlHeader,
+#area-GlFooter {
+  padding: 10px 0;
+  background-color: #00b48c;
+  color: #fff;
+}
+#area-BlHeader,
+#area-BlFooter {
+  padding: 10px 0;
+  background-color: #46889c;
+  color: #fff;
+}
+#area-SbBlHeader,
+#area-SbBlFooter {
+  padding: 10px 0;
+  background-color: #95c7d3;
+  color: #fff;
+}
+#area-LocalNav {
+  padding: 10px 0;
+  background-color: #424242;
+  color: #fff;
+}
+#contentsWrapper {
+  //background-color: #f9ffff;
+}
+#area-CntHeader,
+#area-CntFooter {
+  padding: 10px 0;
+  border: solid 1px #00b48c;
+}
+.g-Section {
+  //background-color: #efe;
+}
+.g-Section__inner {
+  //background-color: #dfd;
+}
+.g-Column {
+  //background-color: #ffd;
+}
+.g-Column__cols:nth-child(2n+1) .g-ColumnUnit {
+  //background-color: #ffb;
+}
+.g-Column__cols:nth-child(2n) .g-ColumnUnit {
+  //background-color: #fea;
+}
+.g-GroupBox {
+  //background-color: #fee;
+}

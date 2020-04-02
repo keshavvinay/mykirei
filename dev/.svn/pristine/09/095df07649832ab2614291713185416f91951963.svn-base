@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+/* AnnotationListP ================================================== */
+
+
+/* AnnotationListUnit ================================================== */
+
+.g-AnnotationListUnit {
+  @include fontSize(caption);
+}

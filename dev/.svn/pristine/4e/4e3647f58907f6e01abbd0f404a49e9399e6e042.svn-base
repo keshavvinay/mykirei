@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8" />
+<title>KAO開発</title>
+<style type="text/css">
+body {
+  background-color: #fbfbfb;
+  border-top: solid 5px #333;
+  border-bottom: solid 5px #333;
+  margin: 0;
+  padding: 0;
+}
+
+.kao53 {
+  overflow: hidden;
+  margin-left: 40px;
+}
+
+.kao53 a {
+  float: left;
+  display: block;
+  border: solid 1px #583343;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 5px 10px 5px 10px;
+
+  text-decoration: none;
+}
+
+a {
+    padding: 5px 10px 5px 10px;
+}
+
+section {
+  margin: 0px 10px 0px 10px;
+}
+</style>
+</head>
+
+<body class="">
+
+  <p class="kao53">
+    <a href="http://kao53.s1.p.concentinc.jp/" target="_blank">kao53開発トップ（http://kao53.s1.p.concentinc.jp/）</a>
+  </p>
+
+
+  <section>
+    <h2>AEM環境</h2>
+    <ul>
+      <!-- <li><a href="http://elb-aem61-cnt-auth-601437783.ap-northeast-1.elb.amazonaws.com/sites.html/content/wcm_kao/sites" target="_blank">AEM</a></li> -->
+      <li>
+        <a href="http://elb-aem61-cnt-auth-601437783.ap-northeast-1.elb.amazonaws.com/" target="_blank">CONCENT Author環境</a>
+      </li>
+      <li>
+        <a href="https://elb-disp-author-jp-wcm-606736393.ap-northeast-1.elb.amazonaws.com/" target="_blank">Sofina本番 Author環境</a>
+      </li>
+
+    </ul>
+  </section>
+
+  <section>
+    <h2>基本コンポーネント</h2>
+    <ul>
+      <li>
+        <a href="apps/kao/sites/common/components/content/index.html" target="_blank">コンポーネント一覧</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>template　一覧</h2>
+    <ul>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_01.html" target="_blank">template_01</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_01_fixed.html" target="_blank">template_01 (ブランドヘッダ固定化)</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_02.html" target="_blank">template_02</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_03.html" target="_blank">template_03</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_04.html" target="_blank">template_04</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_05.html" target="_blank">template_05</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_06.html" target="_blank">template_06</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_07.html" target="_blank">template_07</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_08.html" target="_blank">template_08</a>
+      </li>
+      <li>
+        <a href="apps/kao/sites/common/templates/template_09.html" target="_blank">template_09</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>デザイン検証 Asience</h2>
+    <ul>
+      <li>
+        <a href="content/kao/sites/kao/www-kao-com/jp/asience/top.html" target="_blank">トップページ</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-kao-com/jp/asience/product.html" target="_blank">商品ページ</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>SOFINA</h2>
+    <ul>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/index.html" target="_blank">ソフィーナトップページ</a>
+      </li>
+      <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp.html" target="_blank">（ソフィーナトップ発行）</a>
+
+
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps.html" target="_blank">BPSトップ</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps.html" target="_blank">（BPSトップ発行　インターナル）</a>
+        <a href="http://elb-disp-publish-wcm-1876761322.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps.html" target="_blank">（BPSトップ発行　パブリック）</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps/shop.html" target="_blank">BPSショップ</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/shop.html" target="_blank">（BPSショップ発行）</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps/access.html" target="_blank">BPSアクセス</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/access.html" target="_blank">（BPSアクセス発行）</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps/news.html" target="_blank">BPSニュース</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/news.html" target="_blank">（BPSニュース発行）</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps/lesson.html" target="_blank">BPSレッスン</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/lesson.html" target="_blank">（BPSレッスン発行）</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps/map_ginza.html" target="_blank">BPS銀座店</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/map_ginza.html" target="_blank">（BPSレッスン発行）</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps/workshop.html" target="_blank">BPS　Workshop</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/workshop.html" target="_blank">（BPS　Workshop 発行）</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kao/www-sofina-com/bps/workshop/regular_001.html" target="_blank">BPS　Workshop　Regular_001</a>
+        <a href="https://elb-disp-publish-int-wcm-1599374436.ap-northeast-1.elb.amazonaws.com/content/wcm_kao/sites/kao/www-sofina-co-jp/bps/workshop/regular_001.html" target="_blank">（BPS　Workshop Regular_001 発行）</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>KAO USA</h2>
+    <ul>
+      <li>
+        <a href="content/kao/sites/kaousa/www-kmshair-com/en/" target="_blank">KMS hair</a>
+      </li>
+      <li>
+        <a href="content/kao/sites/kaousa/www-johnfrieda-com/elements" target="_blank">John Frieda</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Foundation GUI</h2>
+    <ul>
+      <li>
+        <a href="sites/foundationGUI/design-foundation.html" target="_blank">入力画面</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- スクリプト -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript">
+  'use strict';
+
+  /*-----------------------*/
+  // ready
+  /*-----------------------*/
+  $(document).ready(function() {
+    console.log('document ready');
+    // $('li a:first-child').each(function(){
+    //     var $self = $(this);
+    //     var $clone = $self.clone();
+    //     $clone.append('192.168.1.93');
+    //     // var url = $clone.attr('href').replace(/http.+?\//, 'http://192.168.1.93:3034/');
+    //     // console.log('url', url);
+    //     // $clone.attr('href', url);
+    //     $self.after($clone);
+    // });
+  });
+  </script>
+</body>
+
+</html>

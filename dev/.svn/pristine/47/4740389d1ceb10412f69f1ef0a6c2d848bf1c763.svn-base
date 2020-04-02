@@ -1,0 +1,41 @@
+.g-ImageTextHP {
+    .g-ImageTextHP__contentsBlock {
+            margin-bottom: 30px;
+        .g-ImageTextHP__contentsBlock__image{
+            @media (max-width: $break-lg) {
+                    padding-left: 0px !important;
+                }
+            }
+    
+    
+            .g-ImageTextHP__contentsBlock__text {
+                .g-HeadingTitle {
+                    .g-HeadingTitle__titleBlock__titleBox__title {
+                        .g-HeadingTitle__h3 {
+                            font-family: $ralewayExtraBold;
+                            color: $heading-font-color !important;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+        
+                .ImageTextHP__contentsBlock__text__moreinfo .g-ListP__ul {
+                    .g-ListP__ul__item {
+                        list-style-type: none !important;
+                    }
+                }
+            }
+            &.text-float-left {
+                .g-ImageTextHP__contentsBlock__text {
+                    width: 100%;
+                    display: block;
+                    float: none;
+                    .g-HeadingTitle {
+                        .g-HeadingTitle__titleBlock {
+                            display: block;
+                        }
+                    }
+                }
+            }
+    }
+}

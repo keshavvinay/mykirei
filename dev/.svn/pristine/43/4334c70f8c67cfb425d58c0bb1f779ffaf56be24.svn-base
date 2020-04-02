@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*****************************
+  corporate config
+ *****************************/
+
+ $body: #333;
+ $border: #d9d9d9;
+ $accent: #00a582;
+ $bg-01: #f8f8f8;
+ $subText: #4d4d4d;
+
+ $labelTag__border-01: #00a582;
+ $labelTag__border-02: #00a582;
+ $labelTag__border-03: #ed7978;
+ $labelTag__border-04: #32b6a0;
+ $labelTag__border-05: #579ed7;
+ $labelTag__border-06: #f0a83c;
+ $labelTag__border-07: #4d4d4d;

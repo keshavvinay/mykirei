@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*****************************
+  config
+ *****************************/
+
+/*
+ setting（上書き禁止）
+ */
+$maxWidth_sm:  640px;
+$maxWidth_md: 1024px;
+$maxWidth_lg: 1336px;
+
+/*
+ variable
+ サイト、ページ別に上書きを許可する値
+ */
+$fontFamily: Helvetica, Arial, Verdana, '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+
+$colorGray_1: #000;
+$colorGray_2: #333;
+$colorGray_3: #666;
+$colorGray_4: #999;
+$colorGray_5: #ccc;
+$colorGray_6: #eee;
+$colorGray_7: #f2f2f2;
+$colorGray_8: #fff;
+$colorGray_9: #dedede;
+
+$fontSize_body:       16px;
+
+$colorBody: #fff;
+$colorLine_dark:  #ccc;
+$colorIcon_dark:  #777;
+
+$colorLink: #000;
+$colorLink_hover: #a9a9a9;
+$colorLink_visited: #000;

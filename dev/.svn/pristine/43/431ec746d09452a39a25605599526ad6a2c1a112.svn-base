@@ -1,0 +1,53 @@
+//Theme colors in BAN website
+$primary: #b5be33;
+$secondary: #4d2b6c;
+$secondary-light:#9480a7;
+$white: #ffffff;
+$gray: #999999;
+$hover-gray: #f3f9e4;
+
+//ROll-ONS Product Colors in BAN website
+$unscented: #48b57b;
+$regular: #d31145;
+$powder-fresh: #474da1;
+$satin-breeze: #966daf;
+$fresh-cotton: #e8941a;
+$simply-clean: #52429b;
+
+//INVISIBLE SOLIDS Product Colors in BAN website
+$shower-fresh: $satin-breeze;
+$sweet-simplicity: $fresh-cotton;
+
+//Text colors in Ban website
+$primary-text: #666666;
+$secondary-text: #333333;
+$black-text: #000000;
+$black-text-light: #272727;
+$white-text: $white;
+
+//FONT FAMILIES USED IN BAN
+$primary-font: Helvetica, "Helvetica Neue", Arial;
+$tertiary-font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+
+//Border Colore
+$productBorder : #f4f5ca;
+
+//Font Weights
+$wt800: 800;
+$wt700: 700;
+$wt400: 400;
+
+//Font sizes in Ban
+$font-xs: 0.75rem; /* 12px */
+$font-sm: 0.875rem; /* 14px */
+$font-md: 1rem; /* 16px */
+$font-lg: 1.125rem; /* 18px */
+$font-20: 1.25rem; /* 20px */
+$font-24: 1.5rem; /* 24px */
+
+//Responsive media screen sizes
+$break-sm: 640px;
+$break-md: 1024px;
+$break-lg: 1800px;
+
+

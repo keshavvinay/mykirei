@@ -1,0 +1,327 @@
+@charset "utf-8";
+
+/* C290 COUNTRY SELECTOR(FOOTER) */
+.c290 {
+  @include bp(md) {
+    margin-top: 20px;
+  }
+  @include bp(sm) {
+    margin-top: 45px;
+  }
+}
+.c290__trigger {
+  padding: 0 0 0 37px;
+  @include display-flex;
+  &:before {
+    display: block;
+    content: "";
+    @include flex(3 0 0%);
+  }
+  @include bp(md) {
+    padding: 0 45px 0 75px;
+    &:before {
+      @include flex(2 0 0%);
+    }
+  }
+  @include bp(sm) {
+    padding: 0;
+    display: block;
+    &:before {
+      display: none;
+    }
+  }
+}
+.c290__trigger__inner {
+  @include flex(1 0 0%);
+  @include bp(sm) {
+    width: 100%;
+  }
+}
+.c290__trigger__link {
+  display: block;
+  position: relative;
+  width: 120px;
+  padding: 0 20px 0 10px;
+  background-color: #d9d9d6;
+  font-size: 13px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+  @include kms-fontFamily(subTitle);
+  transition: all .5s;
+  .l-Text {
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: normal;
+    span {
+      position: relative;
+      top: .1em;
+    }
+  }
+  &:hover {
+    background-color: #fe5000;
+  }
+  &:after {
+    position: absolute;
+    content: "";
+    right: 12px;
+    top: 8px;
+    width: 7px;
+    height: 7px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    @include transform(rotate(-45deg));
+  }
+  &.is-open {
+    background-color: #fe5000;
+    &:after {
+      top: 12px;
+      @include transform(rotate(135deg));
+    }
+  }
+  @include bp(md) {
+    width: 110px;
+  }
+  @include bp(sm) {
+    width: 175px;
+    margin: 0 auto;
+    padding: 0 35px 0 20px;
+    font-size: 20px;
+    line-height: 55px;
+    &:after {
+      top: 18px;
+      right: 18px;
+      width: 10px;
+      height: 10px;
+    }
+    &.is-open {
+      &:after {
+        top: 22px;
+      }
+    }
+  }
+}
+.c290__selector {
+  display: none;
+}
+.c290__international__wrapper {
+  padding: 15px 0 0 37px;
+  background-color: #fe5000;
+  &:after {
+    content: "";
+    display: block;
+  }
+  @include bp(lg) {
+    @include display-flex;
+    &:after {
+      @include flex(3 0 0%);
+    }
+  }
+  @include bp(md) {
+    @include display-flex;
+    padding: 15px 40px 0 70px;
+    &:after {
+      @include flex(1 0 0%);
+      margin-left: 40px;
+    }
+  }
+  @include bp(sm) {
+    padding: 45px 0 0 0;
+    &:after {
+      display: none;
+    }
+  }
+}
+.c290__international {
+  @include flex(1 0 0%);
+  @include display-flex;
+  @include bp(lg) {
+    margin-right: 10px;
+  }
+  @include bp(md) {
+    margin-right: 40px;
+  }
+  &:after {
+    display: block;
+    content: "";
+    @include flex(319 0 0%);
+    @include bp(md) {
+      @include flex(299 0 0%);
+    }
+    @include bp(sm) {
+      @include flex(359 0 0%);
+    }
+  }
+}
+.c290__international__link {
+  display: block;
+  padding: 0 5px;
+  @include flex(140 0 0%);
+  font-size: 9px;
+  line-height: 30px;
+  @include kms-fontFamily(subTitle);
+  text-decoration: none;
+  white-space: nowrap;
+  color: #000;
+  .l-Text {
+    margin-bottom: 0;
+    font-size: 9px;
+    line-height: 30px;
+    letter-spacing: normal;
+    span {
+      position: relative;
+      top: .1em;
+    }
+    @include bp(sm) {
+      font-size: 20px;
+      line-height: 55px;
+    }
+  }
+  @include bp(sm) {
+    font-size: 20px;
+    line-height: 55px;
+    padding-left: 15px;
+  }
+  &:hover {
+    color: #fff;
+  }
+}
+.c290__selector__wrapper {
+  padding: 0 0px 15px 37px;
+  background-color: #fe5000;
+  @include bp(md) {
+    padding: 0 40px 15px 70px;
+    @include display-flex;
+    @include align-items(flex-start);
+  }
+  @include bp(lg) {
+    @include display-flex;
+    @include align-items(flex-start);
+  }
+  @include bp(sm) {
+    padding: 0 0 15px 0;
+  }
+}
+.c290__selector__colgroup--md {
+  @include bp(md) {
+    &:first-child {
+      margin-right: 40px;
+    }
+    &:last-child {
+      margin-left: 40px;
+    }
+    @include flex(1 0 0%);
+  }
+  @include bp(lg) {
+    @include flex(1 0 0%);
+    @include display-flex;
+    @include align-items(flex-start);
+  }
+}
+.c290__selector__colgroup--lg {
+  @include bp(lg) {
+    @include flex(1 0 0%);
+  }
+}
+.c290__selector__country {
+  margin: 0 10px 0 0;
+  @include display-flex;
+  @include align-items(flex-start);
+  a {
+    display: block;
+    font-size: 9px;
+    line-height: 30px;
+    @include kms-fontFamily(subTitle);
+    text-decoration: none;
+    white-space: nowrap;
+    .l-Text {
+      margin-bottom: 0;
+      font-size: 9px;
+      line-height: 30px;
+      letter-spacing: normal;
+      span {
+        position: relative;
+        top: .1em;
+      }
+      @include bp(sm) {
+        font-size: 20px;
+        line-height: 55px;
+      }
+    }
+    @include bp(sm) {
+      font-size: 20px;
+      line-height: 55px;
+    }
+  }
+  &.is-open {
+    .c290__selector__country__name {
+      a {
+        color: #fe5000;
+        background-color: #fff;
+      }
+    }
+    .c290__selector__country__lang__list {
+      left: 0;
+    }
+  }
+  @include bp(sm) {
+    margin: 0;
+  }
+}
+.c290__selector__country__name {
+  @include flex(140 0 0%);
+  a {
+    color: #fff;
+    background-color: transparent;
+    padding-left: 5px;
+    margin-right: 1px;
+    &:hover {
+      color: #fe5000;
+      background-color: #fff;
+    }
+  }
+  @include bp(sm) {
+    @include flex(340 0 0%);
+    a {
+      padding-left: 15px;
+    }
+  }
+}
+.c290__selector__country__lang {
+  margin: 0;
+  @include flex(319 0 0%);
+  position: relative;
+  overflow: hidden;
+  @include bp(md) {
+    @include flex(299 0 0%);
+  }
+  @include bp(sm) {
+    @include flex(359 0 0%);
+  }
+}
+.c290__selector__country__lang__list {
+  position: relative;
+  transition: all .5s;
+  left: -100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  @include display-flex;
+  @include align-items(flex-start);
+}
+.c290__selector__country__lang__item {
+
+  @include flex(1 0 0%);
+  a {
+    text-align: center;
+    color: #fe5000;
+    background-color: #fff;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+.c290__international__link {
+
+}

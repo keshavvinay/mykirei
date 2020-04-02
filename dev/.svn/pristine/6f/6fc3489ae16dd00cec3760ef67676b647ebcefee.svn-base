@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+//Text colors
+
+$dark-pink: #e32e74;
+$dark-orange: #de4531;
+$light-pink: #f1a2af;
+$dark-brown: #b66f3a;
+$pink: #ed89ae;
+$yellow: #fac701;
+$light-gold: #dfb76f;
+$purple: #8c5890;
+$light-blue: #93c3d1;
+$dark-blue: #0174a7;
+$gold:#d09c57;
+$middle-blue:#9fadca;
+$light-orange: #ed7b05;
+$ng-dark-brown:#b4703f;
+$ng-light-brown:#cb9241;
+$ng-gray:#c9af96;
+
+
+
+$dido-color1:#c0b0d6;
+$dido-color2:#83cbe0;
+$dido-color3:#8762aa;
+$dido-color4:#1d8cc4;
+$dido-color5:#b0dfdf;
+$dido-color6:#bbc9e0;
+    
+

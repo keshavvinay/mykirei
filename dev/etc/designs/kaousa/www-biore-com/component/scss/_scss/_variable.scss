@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+$solid-white: #ffffff;
+$solid-black: #000000;
+$primary-color: #304065;
+$primary-dark-color: #22244a;
+$primary-light-color: #4f91cd;
+$primary-col-home: #8862a9;
+$anchor-color: $primary-dark-color;
+$anchor-hover: #b8dbf2;
+$light-white: #5d5e65;
+$gray: #c2c2c2;
+$gray-dark: #8a8a8a;
+$light-gray: #f3f3f3;
+$pink: #ec008d;
+
+// Fonts variables
+
+$heading-font: 'Archer A',
+'Archer B';
+$archer: "Archer book";
+$archer-semibold: "Archer Medium";
+$archer-bold : "Archer Bold";
+$proxima-semibold : "ProximaNova-Semibold";
+$lubalin: "LubalinGraphStd-Demi";
+$menu-link-fonts: ProximaNova-Regular;
+$blog-font-text: 'Source Sans Pro',
+sans-serif;
+$blog-font-heading: 'Copse',
+serif;
+$text-anchor-font: $menu-link-fonts;
+$banner-font: $lubalin;
+
+$border-color: #202a51;
+$footer-font1: $heading-font;
+$footer-font2: $menu-link-fonts;
+
+$nav-blue: $border-color;
+$menu-link-colors: $border-color;
+$text-color: #8a8a8a;
+
+//Text colors
+$black: #333333;
+$error: #ff0808;
+
+//Borders and Box shadows
+$video-box-shadow: 0 2px 8px 0px #b2b2b2;
+$modal-shadow: 0px 1px 5px -1px #8a8a8a;
+$header-box-shadow: 0px 5px 6px -3px #5d5d5d;
+$mobile-menu-shadow: -1px 2px 8px 0px #5d5d5d;
+
+//Transition and animation
+$common-transition: 0.3s ease;
+
+//Product Theme colors
+$_dontbedirty: #65b632;
+$_dontbedirty-light: #93cc6f;
+
+$_twostepporekits: #002857;
+$_twostepporekits-light: #94c2f8;
+
+$_justtakeitalloff: #8862a9;
+$_justtakeitalloff-light: #b58ed7;
+
+$_acnesouttahere: #ec5a1e;
+$_acnesouttahere-light: #f49e7b;
+
+$_breakupwithblackheads:#e92e5f;
+$_breakupwithblackheads-light: #f06c8e;
+
+$_bakingsodafordryoilycombinationskin: #6ec8e4;
+$_bakingsodafordryoilycombinationskin-light:#a9dfef;
+
+$_witchhazelforspotproneskin:#eec710;
+$_witchhazelforspotproneskin-light:#f3d757;
+
+$_bakingsodafordryoilycombinationskin-product-details-color: $_bakingsodafordryoilycombinationskin;
+$_bakingsodafordryoilycombinationskin-product-details-color-light:$_bakingsodafordryoilycombinationskin-light;
+
+
+//Product Theme arrow
+$_dontbedirty-arrow: "/content/dam/sites/kaousa/www-biore-com/master/icons/arrow-small-dirty.gif";
+$_twostepporekits-arrow: "/content/dam/sites/kaousa/www-biore-com/master/icons/dark_blue_arrow.gif";
+$_justtakeitalloff-arrow: "/content/dam/sites/kaousa/www-biore-com/master/icons/lavendar_arrow.gif";
+$_breakupwithblackheads-arrow:"/content/dam/sites/kaousa/www-biore-com/master/icons/arrow-small-bw-blackheads.gif";
+$_acnesouttahere-arrow:"/content/dam/sites/kaousa/www-biore-com/master/icons/arrow-small-acne.gif";
+$_bakingsodafordryoilycombinationskin-arrow:"/content/dam/sites/kaousa/www-biore-com/master/icons/blue_arrow.gif";
+
+// Product theme background image
+$_pale-blue-bg-image:"/content/dam/sites/kaousa/www-biore-com/master/backgrounds/productdetaildirtybg.jpg";
+$_pale-pink-bg-image:"/content/dam/sites/kaousa/www-biore-com/master/backgrounds/productdetaildeepbg.jpg";
+
+// Menu Hover colors
+$hover-green: #63b632;
+$hover-purple: #8862a9;
+$hover-blue: #002857;
+$hover-orange: #ec5a1e;
+$hover-red: $pink;
+
+// Font Weight
+$wt700: 700;
+$wt600: 600;
+$wt500: 500;
+$wt400: 400;
+$wt300: 300;
+
+// Media Breakpoints
+$break-sm: 640px;
+$break-md: 1024px;
+$break-lg: 1025px;
+
+$max-limit: 1800px;
+//For Desktop
+$desktop: $break-lg;
+
+//For header
+
+$header-sm:991px;
+
+$header-md: 992px;
+
+//Site specific Media breakpoints
+$product-detail-lg: 960px;
+$product-detail-sm: 500px;
+
+// Products Overview
+$_twostepporekits: $hover-blue;
+$_justtakeitalloff: $hover-purple;
+$_dontbedirty: $hover-green;
+$_acnesouttahere: $hover-orange;
+$_breakupwithblackheads: $hover-red;
+
+$product-description-font: $menu-link-fonts;
+
+
+// Scroll
+$scroll-color: $hover-blue;
+
+// Where to buy 
+$header-color: #92816e;
+$border-color-heading: #e3d5c4;
+
+// Skin Plan Page
+$sp-btn-color: #202856;
+$sp-btn-hvr-color: #3c4ba0;
+$sp-age-color:#e8218a;
+
+
+// 404 Error page 
+$error-text : $menu-link-fonts;
+$error-btn-clr: #faea25;
+$hover-age-clr: #f27dbb;
+$daily-color: $_dontbedirty;
+$weekly-color: $sp-age-color;
+$results-heading-color: $sp-btn-color;
+$btn-bg-color: $sp-btn-color;
+$btn-bg-color-hvr: $sp-btn-hvr-color;
+$btn-bg-color-hvr-1: #7fce4d;
+$skinplan-btn-font: ArcherProSemiBold;
+$skin-type-font: TrashHand,
+Serif;

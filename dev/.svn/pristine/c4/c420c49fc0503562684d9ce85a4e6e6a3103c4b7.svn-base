@@ -1,0 +1,7 @@
+@charset "utf-8";
+/*corp-headingLv6-01*/
+.corp-headingLv6-01 {
+  .l-HeadingTitle__titleBlock__titleBox__title {
+    margin-bottom: 0;
+  }
+}

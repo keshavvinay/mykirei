@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/38fe1f");
+
+@font-face {
+    font-family: 'HelveticaNeueLTW1G-Lt';
+    src: url('../fonts/38fe1f_7_0.eot');
+    src: url('../fonts/38fe1f_7_0.eot?#iefix') format('embedded-opentype'), url('../fonts/38fe1f_7_0.woff2') format('woff2'), url('../fonts/38fe1f_7_0.woff') format('woff'), url('../fonts/38fe1f_7_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueLTW1G-Roman';
+    src: url('../fonts/38fe1f_8_0.eot');
+    src: url('../fonts/38fe1f_8_0.eot?#iefix') format('embedded-opentype'), url('../fonts/38fe1f_8_0.woff2') format('woff2'), url('../fonts/38fe1f_8_0.woff') format('woff'), url('../fonts/38fe1f_8_0.ttf') format('truetype');
+}

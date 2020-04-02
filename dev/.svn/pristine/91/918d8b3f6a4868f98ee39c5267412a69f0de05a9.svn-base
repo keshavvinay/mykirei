@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/* john frieda Brand Footer */
+
+// reset AEM styles
+.l-BrFooter {
+  border: none;
+}
+.l-BrFooter__inner {
+  max-width: none;
+  position: relative;
+  padding: 0 !important;
+}
+.l-BrFooter__sitemapBlock {
+  display: none;
+}
+
+// jf-Footer
+.jf-Footer {
+  background: #222;
+}
+
+// logo
+.jf-Footer__logoSocialWrap {
+  width: 100% !important;
+  overflow: hidden;
+  background: $black;
+  @include bp(lg) {
+    padding: 1.5em 0 0 0;
+  }
+  @include bp(md) {
+    padding: 1.5em 0 0 0;
+  }
+  @include bp(sm) {
+    padding: 0 !important;
+  };
+}
+.jf-Footer__logo {
+  display: inline-block;
+  width: 150px;
+  margin: 0 0 25.5px 10px;
+  &.is-link:hover {
+    opacity: inherit;
+  }
+  @include bp(lg) {
+    margin-left: 1.25rem;
+  };
+  @include bp(sm) {
+    padding-top: 1.5em;
+  };
+  /*
+  1: Fix SVG sizing in browsers that don't do intrinsic auto scaling.
+  */
+  img {
+    width: (150rem / 16) !important;
+    height: auto;
+    max-height:5000%; /* 1 */
+  }
+}
+
+// SNSlink
+.jf-Footer__socialLinks {
+  margin: 0;
+  list-style: none;
+  padding-top: 1em;
+  padding-right: (10rem / 16);
+  padding-left: (10rem / 16);
+  background-color: #222;
+  &.is-gutter--s .l-ButtonP__list__item {
+    padding: 6px;
+  }
+  @include bp(lg) {
+    position: absolute;
+    padding-top: 0;
+    top: 1em;
+    right: 0;
+    padding-right: (20rem / 16);
+    padding-left: (20rem / 16);
+    background-color: transparent;
+  };
+  @include bp(md) {
+    position: absolute;
+    padding-top: 0;
+    top: 1em;
+    right: 0;
+    padding-right: (20rem / 16);
+    padding-left: (20rem / 16);
+    background-color: transparent;
+  };
+  @include bp(sm) {
+    &.is-gutter--s .l-ButtonP__list__item {
+      padding: 3px;
+    }
+  };
+  .is-authorring & {
+    position: relative;
+    top: 0;
+    bottom: auto;
+  }
+}
+.jf-Footer__SNSIconUnit {
+  .l-ButtonUnit__link {
+    padding: 0;
+    width: 30px;
+    height: 30px !important;
+    overflow: hidden;
+    font-size: 0em;
+    color: transparent;
+    border-radius: (20rem / 16);
+    background-color: $txtgreylight;
+    margin-right: (7rem / 16);
+    transition: background-color .2s cubic-bezier(.645, .045, .355, 1);
+    background-size: 60% 60%;
+    &:hover {
+      background: $white;
+      background-size: 60% 60%;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      opacity: 1;
+    }
+    @include bp(md) {
+      width: 40px;
+      height: 40px !important;
+    }
+    @include bp(lg) {
+      width: 40px;
+      height: 40px !important;
+    }
+  }
+}
+.jf-Footer__SNSIconUnit.jf-Footer__SNSIcon--Pinterest {
+  .l-ButtonUnit__link {
+    background-size: 65% 65%;
+    &:hover {
+      background-size: 65% 65%;
+    }
+  }
+}
+
+// footer bottom area
+.jf-Footer__flexWrapperOuter {
+  @include bp(lg) {
+    width: 100% !important;
+    display: block;
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  };
+  @include bp(md) {
+    display: flex;
+    margin-left: inherit !important;
+    margin-right: inherit !important;
+  };
+}
+.jf-Footer__flexWrapper {
+  @include bp(lg) {
+    margin: 0 auto;
+    max-width: 1180px !important;
+    display: flex;
+  };
+  @include bp(md) {
+    width: 620px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  };
+  @include bp(sm) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  };
+}
+.jf-Footer__nav {
+  margin: 0;
+  list-style: none;
+  padding-top: 1em;
+  padding: 2em 0;
+  font-size: (14rem / 16);
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  width: 50%;
+  @include bp(md) {
+    width: 100%;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+  };
+  @include bp(sm) {
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+    width: 100%;
+    .l-Text {
+      font-size: 14px;
+    }
+  };
+  .l-TileLinkTextP__list__tile:nth-child(n+3) {
+    margin-top: 1.2em;
+  }
+}
+.jf-Footer__navItem {
+  padding: 0;
+  background-color: none;
+  border: none;
+  color: #fff;
+  &.is-colorset--1 {
+    background-color: inherit;
+    border-color: none;
+    color: $white;
+  }
+  &[href]:hover {
+    opacity: 1;
+  }
+  .l-Text.is-background {
+    padding: 0;
+    padding-left: 34px;
+    background-position: 0 50%;
+    background-size: 27px 18px;
+  }
+}
+
+// newsLatterSignupのstyleを上書き
+.SiteFooter__signup {
+  @include bp(lg) {
+    width: 50% !important;
+  };
+}
+.SiteFooter__inputWrapper {
+  height: 48.59px;
+  @include bp(lg) {
+    max-width: 32em !important;
+  };
+}
+.SiteFooter__signupSubmit {
+  font-size: 18px !important;
+  font-family: 'FuturaLTW05-Bold', sans-serif !important;
+}
+.is-authorring {
+	#JF_footer_sign_up {
+		.section {
+			display: block !important;
+		}
+	}
+}

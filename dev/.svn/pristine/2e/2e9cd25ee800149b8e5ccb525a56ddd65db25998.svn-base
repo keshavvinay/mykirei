@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+
+/* MovieTextHP ================================================== */
+.g-MovieTextHP {
+  //クラス名が入れ子になる可能性があるため
+  &.is-background {
+    padding: $cmn_paddingInner;
+    
+  }
+  &.is-layoutL {
+    .g-MovieTextHP__contentsBlock__movie {
+      float: left;
+      padding-right: 16px;
+      box-sizing: border-box;
+      @include bp(sm) {
+        padding-right: 12px;
+      }
+    }
+    .g-MovieTextHP__contentsBlock__text {
+      float: right;
+    }
+  }
+  &.is-layoutR {
+    .g-MovieTextHP__contentsBlock__movie {
+      float: right;
+      padding-left: 16px;
+      box-sizing: border-box;
+      @include bp(sm) {
+        padding-left: 12px;
+      }
+    }
+    .g-MovieTextHP__contentsBlock__text {
+      float: left;
+    }
+  }
+  &.is-smallViewVertical {
+    .g-MovieTextHP__contentsBlock__movie {
+      @include bp(sm) {
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+      }
+    }
+    .g-MovieTextHP__contentsBlock__text {
+      @include bp(sm) {
+        float: none;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+  &.is-wraparound {
+    .g-HeadingTitle__titleBlock {
+      width: auto;
+    }
+    &.is-layoutL {
+      @include imageTextHorizontalHeadingTitle('left', 'Movie');
+    }
+    &.is-layoutR {
+      @include imageTextHorizontalHeadingTitle('right', 'Movie');
+    }
+    .g-MovieTextHP__contentsBlock__text {
+      float: none;
+      width: 100%;
+    }
+    .g-MovieTextHP__contentsBlock__text__moreinfo {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+
+.g-MovieTextHP__titleBlock {
+}
+
+.g-MovieTextHP__contentsBlock {
+  @include pie-clearfix();
+}
+
+.g-MovieTextHP__contentsBlock__movie {
+}
+
+.g-MovieTextHP__contentsBlock__text {
+}
+
+.g-MovieTextHP__contentsBlock__text__moreinfo {
+}

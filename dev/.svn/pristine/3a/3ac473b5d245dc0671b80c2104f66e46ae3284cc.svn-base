@@ -1,0 +1,353 @@
+.g-BrFooter__inner {
+    padding: 0;
+    max-width: 1366px;
+    margin: 0 auto;
+
+    .loader-img {
+        background: url(/content/dam/sites/kaousa/www-biore-com/master/backgrounds/biore-loader.gif) rgba(255, 255, 255, 0.8196078431372549);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        z-index: 101;
+        margin: 0;
+        border: none;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+
+        &.active-loader {
+            opacity: 1;
+            visibility: visible;
+            transition: 0.3s;
+        }
+    }
+}
+
+.g-BrFooter__sitemapBlock {
+    display: none;
+}
+
+.biore-footer-wrapper {
+    footer {
+        display: flex;
+
+        @media(max-width:$break-sm) {
+            display: block;
+        }
+    }
+
+    .col-1 {
+        width: 50%;
+
+        @media(max-width:$break-sm) {
+            width: auto;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        background-color: $light-gray;
+        padding: 2rem;
+
+        .g-HeadingTitle__titleBlock__titleBox__title {
+            margin: 0;
+        }
+
+        .form_row {
+            width: 100%;
+            padding: 0;
+            text-align: center;
+        }
+
+        input#bioreSignUp_signup_email {
+            padding: 0.625rem;
+            border: 0;
+            border-bottom: 2px solid $gray;
+            font-size: 1rem;
+            width: 100%;
+            background-color: transparent;
+            outline: 0;
+            height: auto;
+            box-sizing: border-box;
+            text-align: center;
+
+            &.error {
+                border-bottom: 2px solid $error;
+            }
+
+            &::placeholder,
+            &:-ms-input-placeholder,
+            &::-ms-input-placeholder {
+                color: $gray;
+                opacity: 1;
+            }
+        }
+
+        input[type="submit"].form_button_submit {
+            width: auto;
+            height: auto;
+            top: auto;
+            margin: 1rem 0;
+            border: 0;
+            border-radius: 0;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            color: #fff;
+            padding: 0.4rem 1rem;
+            background-color: $pink;
+        }
+    }
+
+
+
+    .signup-container {
+        max-width: 80%;
+        margin: 0 auto;
+
+        @media(max-width:$break-md) {
+            max-width: 100%;
+        }
+    }
+
+    .col-2 {
+        width: 50%;
+        padding: 2rem;
+
+        @media(max-width:$break-sm) {
+            width: auto;
+            padding: 1rem;
+        }
+    }
+
+    .footer-links-wrapper {
+        display: flex;
+
+        @media(max-width:$break-md) {
+            display: block;
+        }
+
+        @media(max-width:$break-sm) {
+            display: flex;
+        }
+    }
+
+    .footer-links-col-1 {
+        width: 35%;
+
+        @media(max-width:$break-md) {
+            width: auto;
+        }
+
+        @media(max-width:$break-sm) {
+            width: 50%;
+            padding-right: 1rem;
+        }
+
+        .g-ListP__ul {
+            padding: 0;
+
+            li {
+                margin-bottom: 0.2rem;
+            }
+
+            a {
+                color: #666666;
+            }
+        }
+    }
+
+    .footer-links-col-2 {
+        @media(max-width:$break-sm) {
+            width: 50%;
+        }
+
+        .g-Text {
+            color: #666666;
+        }
+
+        .g-ListP__ul {
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .kao-logo.g-Image {
+        position: relative;
+        // max-width: 125px;
+        margin-top: 25px;
+        text-align: center;
+
+        @media (max-width:$break-sm) {
+            max-width: 125px;
+        }
+
+        .g-Image__img {
+            max-width: 125px;
+            margin: 0 auto;
+
+            img {
+
+                max-width: 80px;
+                // margin-left: 0;
+            }
+        }
+
+        .g-Image__caption {
+            margin-top: 0;
+            color: #666666;
+        }
+
+        @media(max-width:$break-md) {
+            margin-top: 0;
+        }
+    }
+
+    //Thank you toast message
+    #thankYou {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease all;
+        margin-bottom: -999px;
+        bottom: 5%;
+        top: auto !important;
+        max-height: 100%;
+        max-width: 60%;
+        padding: 1rem 2rem;
+        color: #304065;
+        width: auto;
+        box-shadow: 0px 1px 5px -1px #8a8a8a;
+        margin: 0 auto;
+        background-color: #fff;
+        z-index: 100;
+
+        &.show {
+            opacity: 1;
+            margin-bottom: 0;
+            visibility: visible;
+        }
+    }
+
+}
+
+.non-signup-footer {
+    padding: 2rem;
+
+    .g-BrFooter__infoBlock {
+        .g-Text {
+            color: #666666;
+        }
+
+        .g-ListP {
+            ul {
+                padding: 0;
+                text-align: center;
+
+                .g-ListP__ul__item {
+                    display: inline-block;
+                    margin-right: 10px;
+
+                    @media(max-width: $break-sm) {
+                        margin-right: 6px;
+                    }
+
+                    a {
+                        color: #666666;
+                    }
+                }
+            }
+
+            @media (max-width:$break-sm) {
+
+                ul {
+                    text-align: left;
+                    width: 50%;
+                    float: left;
+                }
+
+                &.footer-list {
+                    ul {
+                        li {
+                            margin-bottom: 0.2rem;
+                            display: block;
+                        }
+                    }
+                }
+
+                &.icon-list {
+                    ul {
+                        li {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .kao-logo.g-Image {
+        margin: 0 auto;
+
+        img {
+            max-width: initial;
+
+            .g-Image__caption {
+                text-align: center;
+            }
+        }
+
+        @media (max-width:$break-sm) {
+            float: left;
+
+            img {
+                max-width: 80px;
+
+                .g-Image__caption {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    @media (max-width:$break-sm) {
+        padding: 1rem;
+
+        .g-Text {
+            text-align: left;
+        }
+    }
+}
+
+body:not(.is-authorring) {
+    .fancybox {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 25% !important;
+        max-height: 100%;
+        max-width: 60%;
+        padding: 1rem 2rem;
+        color: #304065;
+        width: auto;
+        box-shadow: 0px 1px 5px -1px #8a8a8a;
+        margin: 0 auto;
+        background-color: #fff;
+        z-index: 100;
+        transition: 0.5s ease all;
+        display: none;
+
+        &.open {
+            display: block !important;
+        }
+    }
+}

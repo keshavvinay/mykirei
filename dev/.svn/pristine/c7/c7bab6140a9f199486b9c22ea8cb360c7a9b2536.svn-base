@@ -1,0 +1,6 @@
+/*------------------------- For generic configurations -----------------------*/
+
+/*-------- MEDIA QUERIES -----*/
+
+$tablet-max-width: 1024px;
+$mobile-max-width: 640px;

@@ -1,0 +1,143 @@
+// Media Breakpoints
+$break-sm: 640px;
+$break-md: 1024px;
+$break-lg: 1025px;
+
+$max-limit: 1800px;
+//For Desktop
+$desktop: $break-lg;
+
+body:not(.is-authorring) {
+
+  .blog,
+  .category,
+  .article {
+    a.g-TileLinkVUnit {
+      padding: 0;
+      border: none;
+
+      .g-TileLinkVUnit__leadBlock__title {
+        display: none;
+      }
+    }
+
+    // News Index Pack
+    .g-NewsIndexP--v3 {
+      .g-LabelTagUnit {
+        color: #333333;
+        background-color: transparent;
+        padding-left: 0;
+        text-decoration: underline;
+      }
+
+      .g-NewsIndexUnit--v3__text {
+        font-size: 16px;
+        font-weight: bolder;
+        text-decoration: none;
+      }
+
+      .g-NewsIndexP--v3__card__item {
+        .g-NewsIndexUnit--v3 {
+          border: none;
+
+          @media (max-width: $break-sm) {
+            padding: 0;
+
+            .g-NewsIndexUnit--v3__contentsBlock__image {
+              margin-bottom: 0;
+            }
+
+            .g-NewsIndexUnit--v3__infoBlock {
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        @media (max-width: $break-sm) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    // News Index Carousel
+
+    .news-index-carousel {
+      max-width: 95%;
+      margin: 0 auto;
+    }
+
+    //Image Carousel
+    .g-ImageCarouselP .g-ImageCarouselPUnit .g-ImageCarouselPUnit__inner .g-GroupBox {
+      position: relative;
+    }
+
+    //table-content
+
+    .table-content {
+      .g-TextLinkP__list {
+        li {
+          display: block;
+        }
+      }
+    }
+
+    .slider-0 {
+      background: #ccc !important;
+      box-sizing: content-box;
+      text-align: center;
+
+      @media (max-width: $break-sm) {
+        padding: 0 20px;
+        margin-left: -20px;
+      }
+
+      @media (min-width: $break-lg) {
+        padding: 0 32px;
+        margin-left: -32px;
+      }
+
+      .g-Column__inner {
+        margin: 5px;
+
+        .g-Column__cols {
+          padding: 7.5px 0;
+
+          .slider-00 {
+            display: flex;
+            align-items: center;
+
+            .g-Text {
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .catSlider {
+        padding: 0 20px;
+
+        li.g-TextLinkP__list__item {
+          text-align: center;
+        }
+
+        button {
+          top: 66%;
+        }
+      }
+    }
+
+    .hide {
+      display: none;
+    }
+  }
+
+  @media (max-width: $break-sm) {
+    .blog {
+      padding: 0 5px;
+    }
+  }
+
+  #loadMore {
+    cursor: pointer;
+  }
+}

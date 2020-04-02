@@ -1,0 +1,222 @@
+//PRODUCT FILTER
+
+.g-FilterContainerVertical{
+    .g-FilterHead{
+        display: none;
+    }
+    .g-FilterSecondaryBlock{
+        margin: 12px;
+    }
+    .g-FilterCategoryTitle{
+        font-family: $avenir-bold;
+        font-size: 14px;
+        text-transform: initial;
+        margin-bottom: 10px;
+        margin-top: 5px;
+
+        &:after{
+            transform: translateY(8px);
+        }
+    }
+    .g-FilterCategoryList{
+        input{
+            margin-left: 0;
+        }
+    }
+
+    .g-FilterCategory{
+        @media(max-width: 767px){
+            padding-top: 0;
+        }
+    }
+
+    .g-FilterCategory:not(:last-child){
+        border-bottom: 1px solid #e0e0e0;
+
+        @media(max-width: 767px){
+            border-bottom: 0;
+        }
+    }
+
+    .g-FilterCategoryList__item{
+        margin-bottom: 5px;
+        label {
+            span.cmn-richtext{
+                padding-left: 17px;
+                position: relative;
+                &:after{
+                    position: absolute;
+                    left: 0;
+                    top: 3px;
+                    background-repeat: no-repeat;
+                    background-image: url(/content/dam/sites/kaousa/www-goldwell-com/content/master/goldwell-input-buttons.png);
+                    content: '';
+                    background-size: 12px auto;
+                    background-position: top;
+                    width: 12px;
+                    height: 12px;
+                }
+
+                @media(max-width: 991px){
+                    display: block;
+                }
+            }
+
+            input:checked + span.cmn-richtext:after{
+                background-position: bottom;
+            }
+        }
+
+        input.g-FilterOption{
+            position: absolute;
+            opacity: 0;
+        }
+    }
+}
+
+.g-ProductListing{
+    letter-spacing: normal; 
+    margin-bottom: 40px;
+
+    .g-Column.is-gutter--m .g-Column__cols{
+        padding: 10px;
+    }
+
+    .g-ProductListingListUnit--inner{
+        background-color: $solid-white;
+        height: 100%;
+        padding: 5px 20px 60px 20px;
+        width: 100%;
+        position: relative;
+
+        &:hover{
+            .g-ProductOverview__h2{
+                color: $primary;
+            }
+            
+            .g-ProductListingDescription{
+                color: $primary;
+            }
+        }
+    }
+
+    .g-ProducOverviewProductLine{
+        margin: -5px -20px;
+        margin-bottom: 0;
+        font-family: $avenir-regular;
+        text-transform: uppercase;
+        padding: 2px;
+        color: $solid-white;
+        font-size: 14px;
+
+        .cmn-richtext{
+            letter-spacing: normal;
+        }
+    }
+
+    .g-ProductListingTitle{
+        min-height: 70px;
+        letter-spacing: normal;
+        h2{
+            font-size: 28px;
+        }
+        h2,b{
+            font-family: $tramcn;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .g-ProductListingSubTitle{
+        margin: 10px 0;
+        font-family: AvenirBold;
+        text-transform: uppercase;
+    }
+
+    .g-ProductListingImage{
+        position: static;
+        overflow: auto;
+    }
+
+    .g-ProductListingListUnit.g-Column__cols-lg-3 .g-ProductListingImage--unit p.center{
+        width: auto !important;
+        position: relative;
+        transform: none;
+        opacity: 1;
+    }
+
+    .g-ProductListingImage--unit p img{
+
+    }
+
+    .g-ProductListingDescription{
+        font-family: $avenir-regular;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: normal;
+        min-height: 95px; 
+        margin-top: 10px;
+
+        br{
+            content: "";
+            margin: 1em;
+            display: block;
+//            font-size: 24%;
+        }
+    }
+
+    .g-ProductListingButtonP{
+        position: absolute;
+        left: 0;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 10px;
+        padding: 0 20px;
+    }
+
+    .g-ProductListingButtonP .g-ProductListingButtonP__item .g-ProductListingButtonP__item--link{
+        box-shadow: none;
+        width: 100%;
+        font-family: $avenir-medium;
+        padding: 10px 30px 10px 30px;
+        font-size: 14px;
+        text-decoration: none;
+        border-collapse: collapse;
+        border-width: 2px;
+        text-transform: uppercase;
+        margin: 5px 0;
+        border-radius: 0;
+        cursor: pointer;
+        display: inline-block;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        background: transparent;
+        border-color: $solid-black;
+        color: $solid-black;
+        line-height: normal;
+        letter-spacing: normal;
+
+        @media(max-width: 769px){
+            padding: 10px 10px 10px 10px;
+        }
+
+        &:hover, &:active {
+            top: auto;
+            color: $solid-white;
+            background-color: $solid-black;
+            border-color: $solid-black;
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            -ms-transition: all .5s ease;
+            transition: all .5s ease;
+            outline: 0;
+            outline-offset: 0;
+        } 
+    }
+}
