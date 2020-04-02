@@ -4,11 +4,11 @@
   "description": "kao-marsFinder",
   "main": "gulpfile.js",
   "dependencies": {
-    "eslint": "^3.12.2"
+    "eslint": "^4.18.2"
   },
   "devDependencies": {
     "browser-sync": "^2.18.5",
-    "eslint": "^3.12.2",
+    "eslint": "^4.18.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.0.0",
     "gulp-autoprefixer": "^3.1.1",
